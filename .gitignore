@@ -10,6 +10,7 @@
 !.vimrc
 !.xinputrc
 !README.md
+!config.sh
 .config/google-chrome/
 .config/Code/
 .config/pulse/
