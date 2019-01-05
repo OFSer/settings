@@ -107,9 +107,8 @@ system_setting(){
 git_settings(){
 	git init
 	git remote add origin git@github.com:chinnkarahoi/settings.git
-	git pull origin master --force
+	git pull origin master
 }
-git_settings
 run(){
 	config_mouse
 	update_source
