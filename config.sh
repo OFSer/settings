@@ -53,12 +53,12 @@ endfunc
 }
 update_bashrc(){
 	echo $'
-export PATH="$PATH:/usr/lib/go-1.10/bin"
-export GOPATH="/home/gjs/go"
-export GOROOT="/usr/lib/go-1.10"
-export PATH="$PATH:/home/gjs/go/bin"
+export PATH="$PATH:/usr/lib/go/bin"
+export GOPATH="$HOME/go"
+export GOROOT="/usr/lib/go"
+export PATH="$PATH:$HOME/go/bin"
 alias gitamp=$\'git add . && git commit -m "upd `git diff-index --name-only HEAD | sed \\\':a;N;$!ba;s/\\\\n/,/g;\\\'`" && git push origin\'
-export PATH="/home/gjs/anaconda3/bin:$PATH"
+export PATH="$HOME/anaconda3/bin:$PATH"
 alias sss="sshpass -p root ssh root@dl-6 -p 30263 -t \'cd /mnt/nas-backup/home/jingsheng.gao;zsh --login\'"
 alias man=\'PAGER=most man\'
 alias sp=\'sshpass -p 87Co7r \'
@@ -107,7 +107,10 @@ system_setting(){
 git_settings(){
 	git init
 	git remote add origin git@github.com:chinnkarahoi/settings.git
-	git pull origin master
+	git pull --allow-unrelated-histories origin master
+}
+install_lang(){
+	sudo apt install go -y
 }
 run(){
 	config_mouse
