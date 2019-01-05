@@ -1,0 +1,15 @@
+/*
+!.compiz/session/
+!.config/
+!.sogouinput/
+!Public/
+!.bashrc
+!.gitconfig
+!.gitignore
+!.profile
+!.vimrc
+!.xinputrc
+!README.md
+.config/google-chrome/
+.config/Code/
+.config/pulse/
