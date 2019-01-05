@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=xinput set-prop "Logitech USB Optical Mouse" "libinput Accel Speed" -0.7
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=1
+Name=xinput set-prop "Logitech USB Optical Mouse" "libinput Accel Speed" -0.7
+Comment[en_US]=
+Comment=xinput set-prop "Logitech USB Optical Mouse" "libinput Accel Speed" -0.7

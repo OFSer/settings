@@ -2,8 +2,9 @@ cd ~
 config_mouse(){
 	xinput list
 	read -p "type mouse name: " mouse
-	xinput set-prop "$mouse" "libinput Accel Speed" -0.7
+	echo xinput set-prop \"$mouse\" \"libinput Accel Speed\" -0.7 | sudo tee /etc/profile.d/mouse.d > /dev/null
 }
+config_mouse
 update_source(){
 	sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 	sudo echo '
@@ -74,10 +75,11 @@ callssh(){
 	' >> ~/.bashrc
 }
 install(){
-	sudo apt install -y vim most unity nvidia-384
+	sudo apt install -y vim-gnome most unity nvidia-384
 	sudo apt install -y git sshpass jq curl
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
 	sudo apt install -y steam
+	sudo apt install -y compizconfig-settings-manager
 	sudo snap install vscode --classic
 }
 install_chrome(){
