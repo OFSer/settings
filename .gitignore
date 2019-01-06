@@ -1,5 +1,4 @@
 /*
-!.compiz/
 !.config/
 !.sogouinput/
 !.local/
@@ -24,3 +23,4 @@
 .local/share/gvfs-metadata/
 .local/share/Trash/
 .local/share/evolution/
+.sogouinput/
