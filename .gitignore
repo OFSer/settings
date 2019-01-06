@@ -17,3 +17,9 @@
 .config/Code/
 .config/pulse/
 .config/netease-cloud-music/
+.config/fcitx/dbus/
+.config/nautilus/
+.local/share/zeitgeist/
+.local/share/gvfs-metadata/
+.local/share/Trash/
+.local/share/evolution/
