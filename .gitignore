@@ -25,3 +25,5 @@
 .local/share/evolution/
 .sogouinput/
 .local/share/keyrings/
+.local/share/applications/
+.local/share/icons/

@@ -127,6 +127,10 @@ secondary-color='#2c001e'
 sources=[('xkb', 'us')]
 xkb-options=@as []
 
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 scrollback-lines=100000
 use-system-font=false

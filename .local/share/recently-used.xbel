@@ -29,4 +29,17 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/gjs/.local/share/icons/electronic-wechat.png" added="2019-01-06T13:26:14Z" modified="2019-01-06T13:26:14Z" visited="2019-01-06T13:26:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-01-06T13:26:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
