@@ -19,6 +19,7 @@
 .config/netease-cloud-music/
 .config/fcitx/dbus/
 .config/nautilus/
+.config/SogouPY/
 .local/share/zeitgeist/
 .local/share/gvfs-metadata/
 .local/share/Trash/
