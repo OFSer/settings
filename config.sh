@@ -127,6 +127,7 @@ run(){
 	install_chrome
 	install_netease
 	install_sogou
+	install_lang
 	system_setting
 }
 
