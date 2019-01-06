@@ -117,7 +117,11 @@ switch-to-workspace-up=['<Control><Alt>b']
 close=['<Alt>F4']
 
 [org/gnome/desktop/background]
+picture-uri='file:///usr/share/backgrounds/warty-final-ubuntu.png'
+color-shading-type='solid'
+primary-color='#2c001e'
 picture-options='zoom'
+secondary-color='#2c001e'
 
 [org/gnome/desktop/input-sources]
 sources=[('xkb', 'us')]
@@ -280,6 +284,7 @@ interested-media-players=['netease-cloud-music.desktop']
 [com/canonical/unity]
 minimize-count=100
 integrated-menus=true
+always-show-menus=false
 
 [com/canonical/unity/devices]
 blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416bfc-44d5-46d7-b000-2003986f48d3-', '2018-04-26-18-43-51-00-Ubuntu 18.04 LTS amd64']
