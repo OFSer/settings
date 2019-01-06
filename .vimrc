@@ -7,6 +7,8 @@ hi Error ctermbg=256
 hi goSpaceError ctermbg=256
 map <F3> :call Bomp()<CR>
 tnoremap <c-[> <c-\><c-n>
+noremap <c-w><c-\> :rightbelow term<CR>
+noremap <c-\> :rightbelow vert term<CR>
 func Bomp()
 	exec "w"
 	exec "!clear"
