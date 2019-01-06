@@ -54,7 +54,7 @@ IMSwitchIncludeInactive=True
 # Interval of Two Key Input
 #TimeInterval=250
 # Switching Virtual Keyboard
-#VKSwitchKey=CTRL_ALT_B
+VKSwitchKey=
 # Switching Remind Mode
 #RemindSwitchKey=
 # Switching Full Width Character Mode
@@ -144,10 +144,4 @@ NextPageKey== .
 # Available Value:
 # True False
 #HideInputWindowWhenOnlyOneCandidate=False
-
-
-
-
-
-se
 

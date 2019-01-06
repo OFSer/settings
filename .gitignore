@@ -2,6 +2,7 @@
 !.compiz/session/
 !.config/
 !.sogouinput/
+!.local/
 !Public/
 !.bashrc
 !.gitconfig
