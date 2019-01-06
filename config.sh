@@ -93,7 +93,7 @@ install_netease(){
 	sudo dpkg -i ~/Downloads/1.deb
 	sudo apt install -f -y
 	rm ~/Downloads/1.deb
-	sudo sed -i 's/Exec=.*/Exec=sudo netease-cloud-music %U/' /usr/share/applications/netease-cloud-music.desktop
+	sudo sed -i 's/Exec=.*/Exec=sh -c "unset SESSION_MANAGER \&\& netease-cloud-music"/' /usr/share/applications/netease-cloud-music.desktop
 }
 install_sogou(){
 	curl 'http://cdn2.ime.sogou.com/dl/index/1524572264/sogoupinyin_2.2.0.0108_amd64.deb?st=VxugmC-KUwg_qPH3oC7MkA&amp;e=1546613868&amp;fn=sogoupinyin_2.2.0.0108_amd64.deb' --output ~/Downloads/1.deb
