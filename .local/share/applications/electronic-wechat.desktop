@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Electronic WeChat
+Icon=electronic-wechat.png
+Exec=/snap/electronic-wechat/7/dist/electronic-wechat-linux-x64/electronic-wechat
+StartupNotify=false
+StartupWMClass=electronic-wechat
+OnlyShowIn=Unity;
+X-BAMFGenerated=true

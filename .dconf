@@ -116,6 +116,9 @@ move-to-workspace-right=['<Shift><Control><Alt>Right']
 switch-to-workspace-up=['<Control><Alt>b']
 close=['<Alt>F4']
 
+[org/gnome/desktop/background]
+picture-options='zoom'
+
 [org/gnome/desktop/input-sources]
 sources=[('xkb', 'us')]
 xkb-options=@as []
@@ -155,6 +158,7 @@ active-shadow-radius=3
 autohide-animation=1
 override-decoration-theme=true
 inactive-shadow-radius=2
+launcher-hide-mode=0
 shadow-y-offset=1
 
 [org/compiz/profiles/unity-lowgfx/plugins/wall]
@@ -198,13 +202,14 @@ zoom-box-fill-color='#2f2f2f4f'
 zoom-box-outline-color='#2f2f4f9f'
 
 [org/compiz/profiles/unity/plugins/unityshell]
-panel-opacity=1.0
 launcher-minimize-window=true
-menus-discovery-duration=2
-panel-opacity-maximized-toggle=false
+panel-opacity=1.0
 num-launchers=0
-inactive-shadow-color='#000000a5'
 launcher-capture-mouse=false
+menus-discovery-duration=2
+inactive-shadow-color='#000000a5'
+panel-opacity-maximized-toggle=false
+launcher-hide-mode=0
 
 [org/compiz/profiles/unity/plugins/composite]
 refresh-rate=50
@@ -274,6 +279,7 @@ interested-media-players=['netease-cloud-music.desktop']
 
 [com/canonical/unity]
 minimize-count=100
+integrated-menus=true
 
 [com/canonical/unity/devices]
 blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416bfc-44d5-46d7-b000-2003986f48d3-', '2018-04-26-18-43-51-00-Ubuntu 18.04 LTS amd64']
@@ -282,7 +288,7 @@ blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416b
 text-scale-factor=1.0
 
 [com/canonical/unity/launcher]
-favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://vscode_vscode.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://steam.desktop', 'application://unity-control-center.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
+favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://vscode_vscode.desktop', 'application://electronic-wechat.desktop', 'application://netease-cloud-music.desktop', 'application://steam.desktop', 'application://unity-control-center.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
 
 [com/canonical/unity/lenses]
 remote-content-search='none'
