@@ -4,7 +4,6 @@ config_mouse(){
 	read -p "type mouse name: " mouse
 	echo xinput set-prop \"$mouse\" \"libinput Accel Speed\" -0.7 | sudo tee /etc/profile.d/mouse.d > /dev/null
 }
-config_mouse
 update_source(){
 	sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 	sudo echo '
@@ -106,13 +105,18 @@ system_setting(){
 	gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
 	echo "$USERNAME ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
 }
-git_settings(){
-	git init
-	git remote add origin git@github.com:chinnkarahoi/settings.git
-	git pull --allow-unrelated-histories origin master
-}
 install_lang(){
 	sudo apt install go -y
+}
+backup(){
+	dconf dump / > .dconf
+	git add .
+	git commit -m "upd"
+	git push origin master
+}
+reset(){
+	git pull origin master
+	dconf load / < .dconf
 }
 run(){
 	config_mouse
@@ -125,4 +129,12 @@ run(){
 	install_sogou
 	system_setting
 }
+
+a=($@)
+for i in ${a[@]};do 
+	$i
+done 
+
+
+
 
