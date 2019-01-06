@@ -104,21 +104,13 @@ system_setting(){
 	gsettings set org.gnome.desktop.interface cursor-blink false
 	gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
 	echo "$USERNAME ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+	dconf load / < .dconf
 }
 install_lang(){
 	sudo apt install go -y
 }
-backup(){
-	dconf dump / > .dconf
-	git add .
-	git commit -m "upd"
-	git push origin master
-}
-reset(){
-	git pull origin master
-	dconf load / < .dconf
-}
 run(){
+	system_setting
 	config_mouse
 	update_source
 	update_vimrc
@@ -128,9 +120,19 @@ run(){
 	install_netease
 	install_sogou
 	install_lang
-	system_setting
 }
-
+push(){
+	dconf dump / > .dconf
+	git add .
+	git commit -m "upd"
+	git push origin master
+}
+pull(){
+	git pull origin master
+	dconf load / < .dconf
+	git add .
+	git reset HEAD --hard
+}
 a=($@)
 for i in ${a[@]};do 
 	$i
