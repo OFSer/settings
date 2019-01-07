@@ -80,6 +80,7 @@ pull(){
 	git pull origin master
 	git add .
 	git reset --hard HEAD
+	dconf dump / > .dconf
 	dconf load / < .dconf
 	#git reset --hard HEAD
 }
