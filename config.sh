@@ -22,7 +22,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted unive
 	sudo apt upgrade -y
 }
 install(){
-	#sudo apt install nvidia-384
+	#sudo apt install -y nvidia-384
 	sudo apt install -y vim-gnome most unity 
 	sudo apt install -y git sshpass jq curl
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
