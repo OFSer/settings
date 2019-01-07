@@ -132,7 +132,6 @@ background-color='rgb(0,0,0)'
 use-background-color=true
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
-default-size-columns=80
 scrollback-lines=100000
 use-system-font=false
 font='Ubuntu Mono 18'
@@ -142,6 +141,18 @@ schema-version=uint32 3
 
 [org/gnome/software]
 check-timestamp=int64 1546815407
+
+[org/gnome/gnome-system-monitor]
+show-dependencies=false
+current-tab='resources'
+cpu-colors=[(uint32 0, '#FF6E00'), (1, '#CB0C29'), (2, '#49A835'), (3, '#2D7DB3'), (4, '#f25915e815e8'), (5, '#f25915e815e8'), (6, '#f25915e815e8'), (7, '#f25915e815e8')]
+maximized=true
+window-state=(1839, 1050, 2001, 30)
+show-whose-processes='user'
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
 
 [org/gtk/settings/file-chooser]
 sort-column='name'
