@@ -81,7 +81,8 @@ pull(){
 	git add .
 	git reset --hard HEAD
 	pkill dconf-service
-	/usr/lib/dconf/dconf-service &
+	dconf dump / > .dconf
+	dconf load / < .dconf
 	#git reset --hard HEAD
 }
 a=($@)
