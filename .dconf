@@ -133,8 +133,10 @@ use-background-color=true
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 scrollback-lines=100000
-use-system-font=false
+cell-height-scale=1.0
+cell-width-scale=1.0
 font='Ubuntu Mono 18'
+use-system-font=false
 
 [org/gnome/terminal/legacy]
 schema-version=uint32 3
