@@ -55,6 +55,7 @@ system_setting(){
 	#gsettings set org.gnome.desktop.interface cursor-blink false
 	#gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
 	echo "$USERNAME ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+	git checkout -- .config/dconf/user
 	pkill dconf-service
 	dconf dump / > .dconf
 	dconf load / < .dconf
