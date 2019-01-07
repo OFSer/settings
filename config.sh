@@ -132,8 +132,8 @@ pull(){
 	git pull origin master
 	git add .
 	git reset --hard HEAD
-	dconf load / < .dconf
-	git reset --hard HEAD
+	#dconf load / < .dconf
+	#git reset --hard HEAD
 }
 a=($@)
 for i in ${a[@]};do 
