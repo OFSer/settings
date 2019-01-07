@@ -55,6 +55,8 @@ system_setting(){
 	#gsettings set org.gnome.desktop.interface cursor-blink false
 	#gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
 	echo "$USERNAME ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+	pkill dconf-service
+	dconf dump / > .dconf
 	dconf load / < .dconf
 }
 install_lang(){
@@ -82,7 +84,6 @@ pull(){
 	pkill dconf-service
 	dconf dump / > .dconf
 	dconf load / < .dconf
-	#git reset --hard HEAD
 }
 a=($@)
 for i in ${a[@]};do 
