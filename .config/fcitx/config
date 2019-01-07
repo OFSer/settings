@@ -1,6 +1,6 @@
 [Hotkey]
 # Trigger Input Method
-#TriggerKey=CTRL_SPACE
+TriggerKey=CTRL_SHIFT_LSHIFT
 # Use extra trigger key only after using it to inactivate
 # Available Value:
 # True False
@@ -27,7 +27,7 @@ UseExtraTriggerKeyOnlyWhenUseItToInactivate=False
 # Super+Right Ctrl
 # Disabled
 # Custom
-SwitchKey=SHIFT Both
+SwitchKey=Disabled
 # Custom switch key
 #CustomSwitchKey=
 # Activate input method
@@ -41,7 +41,7 @@ IMSwitchKey=False
 # Include Inactivate when scrolling between Input Method
 # Available Value:
 # True False
-IMSwitchIncludeInactive=True
+#IMSwitchIncludeInactive=False
 # Scroll between Input Method
 # Available Value:
 # CTRL_SHIFT
@@ -52,7 +52,7 @@ IMSwitchIncludeInactive=True
 # Reload configuration
 #ReloadConfig=CTRL_5
 # Interval of Two Key Input
-#TimeInterval=250
+TimeInterval=256
 # Switching Virtual Keyboard
 VKSwitchKey=
 # Switching Remind Mode

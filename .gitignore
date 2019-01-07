@@ -19,6 +19,7 @@
 .config/fcitx/dbus/
 .config/nautilus/
 .config/SogouPY/
+.config/sogou-qimpanel/
 .local/share/zeitgeist/
 .local/share/gvfs-metadata/
 .local/share/Trash/

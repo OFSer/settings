@@ -140,7 +140,19 @@ font='Ubuntu Mono 18'
 schema-version=uint32 3
 
 [org/gnome/software]
-check-timestamp=int64 1546727267
+check-timestamp=int64 1546815407
+
+[org/gtk/settings/file-chooser]
+sort-column='name'
+sidebar-width=222
+window-position=(2001, 30)
+show-size-column=true
+show-hidden=false
+window-size=(1839, 1015)
+sort-directories-first=true
+date-format='regular'
+sort-order='ascending'
+location-mode='path-bar'
 
 [org/compiz]
 existing-profiles=['Default', 'unity']

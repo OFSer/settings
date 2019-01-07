@@ -58,9 +58,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1427/additional-workspace-shortcuts/</url>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -153,9 +150,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_835_PgpgrhT.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="29"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -271,9 +265,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_13.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="32"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -407,9 +398,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1262_Dspl8C2.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="22"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -433,9 +421,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_3_crANJjx.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="41"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -459,9 +444,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1374.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -521,9 +503,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1423/click-quit-overview/</url>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -547,9 +526,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_97_7.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="36"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -591,9 +567,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1437/current-screen-only-for-alternate-tab/</url>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -735,9 +708,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_690_GFOsR6g.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="38"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -1122,9 +1092,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1295_x5PSxQS.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="8"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -1166,9 +1133,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_744_p0oq1P0.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="7"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -1238,9 +1202,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1083_z60uyzK.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="9"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -1269,7 +1230,7 @@
     <id>IP-Finder_linxgem33.github.com</id>
     <name>IP Finder</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>IP Finder displays information about your public IP address (hostname, country, AS block etc) as well as show a flag image of the IP&apos;s geolocation this extension is also useful for informational purposes to monitor VPN geolocation and public network IP addresses.</p><p>PLEASE READ: map tiles now requires a registered api key, so I&apos;m unable to provide this feature as its out of my control so there will only be text information on the pop-up menu.</p></description>
+    <description><p>## DEVELOPMENT NOW STOPPED ##</p><p>PLEASE READ: Due to map tiles now requiring a personal API and other issues regarding some of the services which this extensions uses i.e also now requiring personal API&apos;s i am unable to maintain this extension properly  as always the source code is available on my gitlab account if anyone wants to carry this project on or rewrite the code etc.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -1282,9 +1243,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1190_JhlZJWF.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="10"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -1341,7 +1299,7 @@
     <id>Internet-Speed-Meter_TH3L0N3C0D3R</id>
     <name>Internet speed meter</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Simple internet speed meter for gnome shell.</p></description>
+    <description><p>Simple and minimal internet speed meter for gnome shell.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -1354,9 +1312,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1461.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -1564,9 +1519,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1383.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -1705,9 +1657,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_2.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="18"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -1900,9 +1849,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1061/on-screen-keyboard-button/</url>
-    <releases>
-      <release version="4"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -1949,9 +1895,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_873.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="10"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -1998,9 +1941,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_4.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="28"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -2065,9 +2005,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_240_RT50WI4.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="62"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -2477,9 +2414,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1297_30RLgOJ.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -2526,9 +2460,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1306_IVRxMlX.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="5"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -2570,9 +2501,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1438/scroll-workspace/</url>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -2711,9 +2639,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_974.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="12"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -2980,9 +2905,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1237_zoqXQeW.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="20"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3111,9 +3033,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1204_aEtCrsh.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3137,9 +3056,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1064.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="14"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3209,9 +3125,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_584_IHrVmgA.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="57"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3327,9 +3240,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1185_q80lMt6.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="6"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3371,9 +3281,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1031_vjuGb1h.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="22"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3392,9 +3299,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1424/top-right-hot-corner/</url>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3528,9 +3432,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1460_TyM83Ic.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="16"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3572,9 +3473,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1364/whatthecommitcom/</url>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3795,9 +3693,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_358_ydKiqXC.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="68"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3821,9 +3716,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1149_OgYzUo3.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="13"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3865,9 +3757,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1108.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4111,9 +4000,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/878/alt-tab-list-first-window/</url>
-    <releases>
-      <release version="7"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4132,9 +4018,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/310/alt-tab-workspace/</url>
-    <releases>
-      <release version="13"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4217,9 +4100,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_15.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="38"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4417,9 +4297,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1329/app-switcher-current-workspace-first/</url>
-    <releases>
-      <release version="6"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4443,9 +4320,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1217_V77yz5d.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="13"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4579,9 +4453,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_6_5MMPK4p.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="38"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4669,9 +4540,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1426.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4695,9 +4563,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1228_fXjdfmQ.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="22"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4721,9 +4586,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1010_gUt2hpK.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="28"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4747,9 +4609,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_894_UNsaBku.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="9"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4791,9 +4650,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1176.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4927,9 +4783,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1313.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="4"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4948,9 +4801,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/16/auto-move-windows/</url>
-    <releases>
-      <release version="36"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -4974,9 +4824,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1355.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="6"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -5197,9 +5044,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1312.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="6"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -5246,9 +5090,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1475.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -5543,9 +5384,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_648_2.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="40"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -5615,9 +5453,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1401.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="4"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -5641,9 +5476,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1251.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="5"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -5882,9 +5714,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_517.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="30"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -6243,9 +6072,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1206_PnOtEcE.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="10"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -6333,9 +6159,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_699_1.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="8"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -6405,9 +6228,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1430_Dpr7qiI.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -6454,9 +6274,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1082_F0Id7E4.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="30"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -6723,9 +6540,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1431.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -6772,9 +6586,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1377.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -6821,9 +6632,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_307_VW5dorQ.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="64"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -6847,9 +6655,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1160.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="17"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -6914,9 +6719,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/955/deja-dup-backup-button/</url>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -6986,9 +6788,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1131.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="16"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -7104,9 +6903,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_561.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="8"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -7212,9 +7008,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_947_tNuuhEA.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="19"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -7256,9 +7049,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1402/disable-animations-on-battery/</url>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -7451,9 +7241,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_904.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="20"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -7500,9 +7287,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1447.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -7659,9 +7443,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1484.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -7818,9 +7599,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_964_mfZOyqA.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="26"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -7844,9 +7622,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1480_pSevKaF.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="7"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -7893,9 +7668,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1448_dEjXKKB.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -7919,9 +7691,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_7_H2ZqrXt.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="37"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -7968,9 +7737,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1436.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -7994,9 +7760,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1283.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="4"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -8112,9 +7875,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1456.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -8184,9 +7944,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1433.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="6"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -8251,9 +8008,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1162_SSRVAlm.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="13"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -8671,9 +8425,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1137_ttCg8zW.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="8"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -8697,9 +8448,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1486.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -8925,9 +8673,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_907.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="12"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -8951,9 +8696,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1395.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -8977,9 +8719,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1470.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -9282,9 +9021,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_841_WeEbjIu.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="34"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -9477,9 +9213,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_28.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="30"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -9567,9 +9300,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_917.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="15"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -9639,9 +9369,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_982_ljlPuKp.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="16"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -9798,9 +9525,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_985_AAccHiQ.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="17"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -9934,9 +9658,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1324.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="5"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -9996,9 +9717,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1133.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="7"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -10040,9 +9758,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1089/go-to-last-workspace/</url>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -10130,9 +9845,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1112_Jil5Fvi.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="31"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -10156,9 +9868,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_48_LXIenlM.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="15"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -10205,9 +9914,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1043.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="9"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -10323,9 +10029,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_608_t9rlEtg.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="25"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -10349,9 +10052,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1268.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="8"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -10705,9 +10405,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1319_1NByhZ8.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="19"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -10731,9 +10428,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1045_8bwjUn2.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="8"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -10995,9 +10689,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_988_VbpWBTs.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="19"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -11021,9 +10712,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1453.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="4"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -11446,9 +11134,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1391.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -11467,9 +11152,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/544/historymanager-prefix-search/</url>
-    <releases>
-      <release version="12"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -11511,9 +11193,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1285_EM2FiQc.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="5"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -11739,9 +11418,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_351_1.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="21"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -12057,9 +11733,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1284_DldN6zI.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="8"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -12234,9 +11907,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/895/jump-to-overview/</url>
-    <releases>
-      <release version="14"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -12296,9 +11966,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_975_E3Re8qL.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="6"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -12437,9 +12104,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_937_9bzaVqe.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="12"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -12504,9 +12168,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/600/launch-new-instance/</url>
-    <releases>
-      <release version="21"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -12801,9 +12462,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_36_2.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="26"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13047,9 +12705,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_886_KZbc6F6.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="13"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13270,9 +12925,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1469.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13342,9 +12994,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_519.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="14"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13368,9 +13017,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1443.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13476,9 +13122,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1459_ugeJphD.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13520,9 +13163,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_898_D0pQoJv.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="8"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13687,9 +13327,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1455/spidermonkey-60-migration-validator/</url>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13736,9 +13373,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1379_czZ8Zcd.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="5"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13762,9 +13396,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_921_TtPNS9U.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="17"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13903,9 +13534,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1202_EBcSaHw.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="14"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -13929,9 +13557,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_18.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="37"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14093,9 +13718,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_104_1.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="29"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14165,9 +13787,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1505.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="8"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14214,9 +13833,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1276_xr8wRZ7.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="10"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14294,9 +13910,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1474/no-flash-for-clipboard-screenshots/</url>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14356,9 +13969,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1267.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="9"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14441,9 +14051,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_118_2.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="18"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14513,9 +14120,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1357_tOziZFE.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="15"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14626,9 +14230,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_258_WBKdzVC.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="34"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14698,9 +14299,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1320_zgXAduX.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="6"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14724,9 +14322,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1254_L5Tmqn6.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="16"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14906,9 +14501,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_750.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="97"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -14950,9 +14542,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1444/desktop-icons-enhanced/</url>
-    <releases>
-      <release version="4"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -15122,9 +14711,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1425/improved-overview-screen-magnifyer-support/</url>
-    <releases>
-      <release version="6"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -15189,9 +14775,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1462.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -15238,9 +14821,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_708_1.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="36"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -15635,9 +15215,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1393_zbVXz1i.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -15661,9 +15238,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_8_mVLeGic.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="40"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -15710,9 +15284,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1399.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -15736,9 +15307,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1349_w3XUCUf.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="6"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -15959,9 +15527,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1218.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="8"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -16077,9 +15642,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_39.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="24"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -16172,9 +15734,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1411_8MWYILj.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -16441,9 +16000,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_836_MYXZ3ad.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="10"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -16467,9 +16023,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1178_Tmjs32c.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -16493,9 +16046,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1040_5OHO7Pq.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="14"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -16537,9 +16087,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1467.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="4"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -16650,9 +16197,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_905.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="10"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -16676,9 +16220,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_473.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="8"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -16774,9 +16315,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_800.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="9"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -17302,9 +16840,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_881.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="14"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -17428,9 +16963,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/701/top-panel-workspace-scroll/</url>
-    <releases>
-      <release version="20"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -17587,9 +17119,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1145/sensory-perception/</url>
-    <releases>
-      <release version="7"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -17636,9 +17165,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1034_WqJmUtB.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="18"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -17800,9 +17326,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_858_BKw0XGp.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="21"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -18189,9 +17712,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1085_vBXPcOL.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="15"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -18430,9 +17950,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_906.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="17"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -18474,9 +17991,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1198/start-overlay-in-application-view/</url>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -18774,9 +18288,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1495/surface-book-battery-percentage/</url>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -18882,9 +18393,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1231_vDlRgYe.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="12"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -18908,9 +18416,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_973_80GeDoc.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="23"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -18957,9 +18462,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1070_3VzC2d9.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="10"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -18983,9 +18485,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_989_b97mez4.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="21"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -19055,9 +18554,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_120_1.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="36"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -19380,9 +18876,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1419.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -19452,9 +18945,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1238_VF4lJwP.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="146"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -19611,9 +19101,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_570_5X5YkZb.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="25"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -19683,9 +19170,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1104_0EguKVW.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="8"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -19704,9 +19188,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1473/toggle-mute-on-middle-click/</url>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -19730,9 +19211,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_935_oFE5t6v.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="7"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -19756,9 +19234,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_991.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="5"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -19882,9 +19357,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1252/top-bar-middle-click-to-lower/</url>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -19995,9 +19467,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_131_21PvQcA.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="31"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20113,9 +19582,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_365_1.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="24"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20175,9 +19641,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1446.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20196,9 +19659,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1454/transparent-window/</url>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20286,9 +19746,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1503/tray-icons/</url>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20335,9 +19792,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_897_SXLqNSO.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="15"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20420,9 +19874,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1414.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="6"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20492,9 +19943,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1287_IwQGNU5.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="24"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20554,9 +20002,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1476.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="7"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20580,9 +20025,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1166_BzMRT7k.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="9"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20747,9 +20189,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/19/user-themes/</url>
-    <releases>
-      <release version="34"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20773,9 +20212,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1183.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="4"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20840,9 +20276,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1464/vmnethider/</url>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -20902,9 +20335,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1207/vscode-search-provider/</url>
-    <releases>
-      <release version="10"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -21033,9 +20463,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1380.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -21146,9 +20573,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1477.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -21259,9 +20683,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1342.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -21413,9 +20834,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_602_oSNPKPC.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="24"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -21534,9 +20952,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1330/window-switcher-current-workspace-first/</url>
-    <releases>
-      <release version="5"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -21670,9 +21085,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_302.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="33"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -21765,9 +21177,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_10.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="41"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -21883,9 +21292,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1440.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -21932,9 +21338,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_484_qdhgjAB.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="29"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -21958,9 +21361,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_21_s4sLLod.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="36"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -21979,9 +21379,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/887/workspace-isolated-dash/</url>
-    <releases>
-      <release version="14"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -22046,9 +21443,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1116/workspace-switch-wraparound/</url>
-    <releases>
-      <release version="4"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -22126,9 +21520,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/943/workspace-scroll/</url>
-    <releases>
-      <release version="5"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -22198,9 +21589,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_427_EQgdTvK.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="46"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -22224,9 +21612,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1450.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -22273,9 +21658,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_946.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="7"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -22299,9 +21681,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1485.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="3"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -22417,9 +21796,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1271.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="4"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -22443,9 +21819,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1392_8kafUwJ.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="7"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -22492,9 +21865,6 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1457_9KnUePX.png</image>
       </screenshot>
     </screenshots>
-    <releases>
-      <release version="2"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -22536,9 +21906,6 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/1435/change_pc_brightness/</url>
-    <releases>
-      <release version="1"/>
-    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
