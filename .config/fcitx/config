@@ -41,7 +41,7 @@ IMSwitchKey=False
 # Include Inactivate when scrolling between Input Method
 # Available Value:
 # True False
-#IMSwitchIncludeInactive=False
+IMSwitchIncludeInactive=True
 # Scroll between Input Method
 # Available Value:
 # CTRL_SHIFT
@@ -144,4 +144,6 @@ NextPageKey== .
 # Available Value:
 # True False
 #HideInputWindowWhenOnlyOneCandidate=False
+
+
 
