@@ -126,6 +126,7 @@ alias sss="sshpass -p root ssh root@dl-6 -p 30263 -t 'cd /mnt/nas-backup/home/ji
 alias man='PAGER=most man'
 alias sp='sshpass -p 87Co7r '
 alias ssh='callssh'
+alias docker='sudo \docker'
 callssh(){
 	echo $3
 	if [[ $3 == "hypereal@registry-corp.hypereal.com" ]];then
