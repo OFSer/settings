@@ -118,7 +118,7 @@ fi
 
 export PATH="$PATH:/usr/lib/go/bin"
 export GOPATH="/home/gjs/go"
-export GOROOT="/usr/lib/go"
+export GOROOT="/home/gjs/go"
 export PATH="$PATH:/home/gjs/go/bin"
 alias gitamp=$'git add . && git commit -m "upd `git diff-index --name-only HEAD | sed \':a;N;$!ba;s/\\n/,/g;\'`" && git push origin'
 export PATH="/home/gjs/anaconda3/bin:$PATH"
