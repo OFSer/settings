@@ -133,6 +133,8 @@ pull(){
 	git add .
 	git reset HEAD --hard
 	dconf load / < .dconf
+	git add .
+	git reset HEAD --hard
 }
 a=($@)
 for i in ${a[@]};do 
