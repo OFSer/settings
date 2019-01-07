@@ -21,65 +21,15 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted unive
 	sudo apt update
 	sudo apt upgrade -y
 }
-update_vimrc(){
-	echo '
-set ai
-set nu
-set ts=2
-set sw=2
-hi Error ctermbg=256
-hi goSpaceError ctermbg=256
-map <F3> :call Bomp()<CR>
-func Bomp()
-	exec "w"
-	exec "!clear"
-	exec "!go build %"
-	exec "!./%<"
-endfunc
-map <F4> :call Comp()<CR>
-func Comp()
-	exec "w"
-	exec "!clear"
-	exec "!g++ % -o %<"
-	exec "!./%<"
-endfunc
-map <F5> :call Domp()<CR>
-func Domp()
-	exec "w"
-	exec "!clear"
-	exec "!python %"
-endfunc
-' >> ~/.vimrc
-}
-update_bashrc(){
-	echo $'
-export PATH="$PATH:/usr/lib/go/bin"
-export GOPATH="$HOME/go"
-export GOROOT="/usr/lib/go"
-export PATH="$PATH:$HOME/go/bin"
-alias gitamp=$\'git add . && git commit -m "upd `git diff-index --name-only HEAD | sed \\\':a;N;$!ba;s/\\\\n/,/g;\\\'`" && git push origin\'
-export PATH="$HOME/anaconda3/bin:$PATH"
-alias sss="sshpass -p root ssh root@dl-6 -p 30263 -t \'cd /mnt/nas-backup/home/jingsheng.gao;zsh --login\'"
-alias man=\'PAGER=most man\'
-alias sp=\'sshpass -p 87Co7r \'
-alias ssh=\'callssh\'
-callssh(){
-	echo $3
-	if [[ $3 == "hypereal@registry-corp.hypereal.com" ]];then
-		sshpass -p 87Co7r /usr/bin/ssh -o StrictHostKeyChecking=no $*
-	else
-		/usr/bin/ssh -o StrictHostKeyChecking=no -tX $*
-	fi
-}
-	' >> ~/.bashrc
-}
 install(){
-	sudo apt install -y vim-gnome most unity nvidia-384
+	#sudo apt install nvidia-384
+	sudo apt install -y vim-gnome most unity 
 	sudo apt install -y git sshpass jq curl
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
 	sudo apt install -y steam
 	sudo apt install -y compizconfig-settings-manager
 	sudo snap install vscode --classic
+	sudo snap install electronic-wechat
 }
 install_chrome(){
 	sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
@@ -102,8 +52,8 @@ install_sogou(){
 	rm ~/Downloads/1.deb
 }
 system_setting(){
-	gsettings set org.gnome.desktop.interface cursor-blink false
-	gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
+	#gsettings set org.gnome.desktop.interface cursor-blink false
+	#gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
 	echo "$USERNAME ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
 	dconf load / < .dconf
 }
@@ -114,8 +64,6 @@ run(){
 	system_setting
 	config_mouse
 	update_source
-	update_vimrc
-	update_bashrc
 	install
 	install_chrome
 	install_netease
