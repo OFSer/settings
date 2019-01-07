@@ -80,8 +80,10 @@ pull(){
 	git pull origin master
 	git add .
 	git reset --hard HEAD
-	#dconf dump / > .dconf
-	#dconf load / < .dconf
+	pkill dconf-service
+	dconf dump / > .dconf
+	dconf load / < .dconf
+	#/usr/lib/dconf/dconf-service &
 	#git reset --hard HEAD
 }
 a=($@)
