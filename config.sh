@@ -99,7 +99,7 @@ push(){
 	git push
 }
 pull(){
-	git pull origin master
+	git pull
 	git checkout -- .config/dconf/user
 	pkill dconf-service
 	dconf dump / > .dconf
