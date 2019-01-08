@@ -11,6 +11,7 @@
 !.xinputrc
 !README.md
 !config.sh
+!.config/google-chrome/Default/Extensions/
 .config/google-chrome/
 .config/Code/
 .config/pulse/
