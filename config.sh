@@ -49,6 +49,7 @@ install(){
 	sudo apt install -y steam
 	sudo apt install -y compizconfig-settings-manager
 	sudo apt install -y gnome-tweaks*
+	sudo apt install -y chrome-gnome-shell
 	sudo snap install vscode --classic
 	sudo ln -s /snap/vscode /snap/code
 	sudo snap install electronic-wechat
