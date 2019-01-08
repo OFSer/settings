@@ -7,13 +7,13 @@
     <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="7" last-seen="1546927390"/>
     <application id="update-manager.desktop" open-window-count="0" score="0" last-seen="1546681762"/>
     <application id="eog.desktop" open-window-count="0" score="1" last-seen="1546926743"/>
-    <application id="google-chrome.desktop" open-window-count="1" score="185" last-seen="1546927566"/>
+    <application id="google-chrome.desktop" open-window-count="1" score="218" last-seen="1546927872"/>
     <application id="org.gnome.gedit.desktop" open-window-count="0" score="24" last-seen="1546681760"/>
-    <application id="org.gnome.tweaks.desktop" open-window-count="1" score="111" last-seen="1546927571"/>
-    <application id="gnome-shell-extension-prefs.desktop" open-window-count="0" score="30" last-seen="1546924880"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="227" last-seen="1546927538"/>
+    <application id="org.gnome.tweaks.desktop" open-window-count="1" score="112" last-seen="1546927739"/>
+    <application id="gnome-shell-extension-prefs.desktop" open-window-count="0" score="30" last-seen="1546927735"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="228" last-seen="1546927828"/>
     <application id="gnome-initial-setup.desktop" open-window-count="0" score="1" last-seen="1546681455"/>
-    <application id="org.gnome.Software.desktop" open-window-count="0" score="0" last-seen="1546927569"/>
+    <application id="org.gnome.Software.desktop" open-window-count="0" score="0" last-seen="1546927726"/>
     <application id="system-config-printer.desktop" open-window-count="0" score="0" last-seen="1546926873"/>
   </context>
 </application-state>
