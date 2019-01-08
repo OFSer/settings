@@ -2,11 +2,6 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
   <wallpaper>
-    <name>Ubuntu</name>
-    <filename>/usr/share/backgrounds/warty-final-ubuntu.png</filename>
-    <options>zoom</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#2c001e</pcolor>
-    <scolor>#2c001e</scolor>
+    <name>Current background</name>
   </wallpaper>
 </wallpapers>
