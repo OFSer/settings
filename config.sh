@@ -102,6 +102,7 @@ push(){
 	git add .
 	git commit -m "upd"
 	git push origin $2
+	exit
 }
 pull(){
 	git pull origin master
