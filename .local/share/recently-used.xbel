@@ -52,4 +52,42 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/gjs/Pictures/Screenshot%20from%202019-01-08%2013-51-52.png" added="2019-01-08T05:51:53Z" modified="2019-01-08T05:52:18Z" visited="2019-01-08T05:51:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gsd-media-keys" exec="&apos;gsd-media-keys %u&apos;" modified="2019-01-08T05:51:53Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-01-08T05:52:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/gjs/Pictures/Screenshot%20from%202019-01-08%2013-51-55.png" added="2019-01-08T05:51:59Z" modified="2019-01-08T05:52:04Z" visited="2019-01-08T05:51:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gsd-media-keys" exec="&apos;gsd-media-keys %u&apos;" modified="2019-01-08T05:51:59Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-01-08T05:52:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/gjs/Pictures/Screenshot%20from%202019-01-08%2013-52-43.png" added="2019-01-08T05:52:44Z" modified="2019-01-08T05:52:44Z" visited="2019-01-08T05:52:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gsd-media-keys" exec="&apos;gsd-media-keys %u&apos;" modified="2019-01-08T05:52:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
