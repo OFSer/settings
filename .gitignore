@@ -11,8 +11,6 @@
 !.xinputrc
 !README.md
 !config.sh
-!.config/google-chrome/Default/Extensions/
-.config/google-chrome/
 .config/Code/
 .config/pulse/
 .config/netease-cloud-music/
@@ -31,3 +29,4 @@
 .config/electronic-wechat/
 .config/fcitx/profile_*
 .local/share/xorg/Xorg.0.log.old
+.config/google-chrome/
