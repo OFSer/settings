@@ -31,3 +31,6 @@
 .local/share/xorg/Xorg.0.log.old
 .config/google-chrome/
 .config/ibus/
+.local/bin/
+.local/etc/
+.local/lib/
