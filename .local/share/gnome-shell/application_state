@@ -2,18 +2,18 @@
 <application-state>
   <context id="">
     <application id="netease-cloud-music.desktop" open-window-count="0" score="4" last-seen="1546926688"/>
-    <application id="gnome-control-center.desktop" open-window-count="1" score="151" last-seen="1546926884"/>
-    <application id="vscode_vscode.desktop" open-window-count="0" score="44" last-seen="1546925799"/>
-    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="7" last-seen="1546926772"/>
+    <application id="gnome-control-center.desktop" open-window-count="0" score="151" last-seen="1546927566"/>
+    <application id="vscode_vscode.desktop" open-window-count="1" score="51" last-seen="1546927324"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="7" last-seen="1546927390"/>
     <application id="update-manager.desktop" open-window-count="0" score="0" last-seen="1546681762"/>
     <application id="eog.desktop" open-window-count="0" score="1" last-seen="1546926743"/>
-    <application id="google-chrome.desktop" open-window-count="1" score="163" last-seen="1546926797"/>
+    <application id="google-chrome.desktop" open-window-count="1" score="185" last-seen="1546927566"/>
     <application id="org.gnome.gedit.desktop" open-window-count="0" score="24" last-seen="1546681760"/>
-    <application id="org.gnome.tweaks.desktop" open-window-count="1" score="94" last-seen="1546926885"/>
+    <application id="org.gnome.tweaks.desktop" open-window-count="1" score="111" last-seen="1546927571"/>
     <application id="gnome-shell-extension-prefs.desktop" open-window-count="0" score="30" last-seen="1546924880"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="194" last-seen="1546926693"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="227" last-seen="1546927538"/>
     <application id="gnome-initial-setup.desktop" open-window-count="0" score="1" last-seen="1546681455"/>
-    <application id="org.gnome.Software.desktop" open-window-count="0" score="0" last-seen="1546921003"/>
+    <application id="org.gnome.Software.desktop" open-window-count="0" score="0" last-seen="1546927569"/>
     <application id="system-config-printer.desktop" open-window-count="0" score="0" last-seen="1546926873"/>
   </context>
 </application-state>
