@@ -1,9 +1,11 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="0" last-seen="1546681473"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="8" last-seen="1546681725"/>
-    <application id="org.gnome.gedit.desktop" open-window-count="1" score="24" last-seen="1546681760"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="4" last-seen="1546919270"/>
+    <application id="google-chrome.desktop" open-window-count="1" score="17" last-seen="1546919823"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="2" score="26" last-seen="1546919812"/>
+    <application id="org.gnome.gedit.desktop" open-window-count="0" score="24" last-seen="1546681760"/>
+    <application id="gnome-control-center.desktop" open-window-count="0" score="33" last-seen="1546919714"/>
     <application id="gnome-initial-setup.desktop" open-window-count="0" score="1" last-seen="1546681455"/>
     <application id="update-manager.desktop" open-window-count="0" score="0" last-seen="1546681762"/>
   </context>

@@ -49,6 +49,7 @@ install(){
 	sudo apt install -y steam
 	sudo apt install -y compizconfig-settings-manager
 	sudo snap install vscode --classic
+	sudo ln -s /snap/vscode /snap/code
 	sudo snap install electronic-wechat
 }
 install_chrome(){
@@ -74,6 +75,7 @@ install_sogou(){
 system_setting(){
 	#gsettings set org.gnome.desktop.interface cursor-blink false
 	#gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
+	#gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
 	echo "$USERNAME ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
 	git checkout -- .config/dconf/user
 	pkill dconf-service
@@ -81,7 +83,7 @@ system_setting(){
 	dconf load / < .dconf
 }
 install_lang(){
-	sudo apt install go -y
+	sudo apt install golang -y
 }
 run(){
 	system_setting

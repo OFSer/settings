@@ -135,3 +135,4 @@ callssh(){
 		/usr/bin/ssh -o StrictHostKeyChecking=no -tX $*
 	fi
 }
+alias logout='pkill gdm-x-session'
