@@ -101,7 +101,7 @@ run(){
 push(){
 	git add .
 	git commit -m "upd"
-	git push origin master
+	git push origin $2
 }
 pull(){
 	git pull origin master
