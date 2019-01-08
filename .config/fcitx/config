@@ -27,7 +27,7 @@ UseExtraTriggerKeyOnlyWhenUseItToInactivate=False
 # Super+Right Ctrl
 # Disabled
 # Custom
-SwitchKey=Disabled
+SwitchKey=SHIFT Both
 # Custom switch key
 #CustomSwitchKey=
 # Activate input method
@@ -144,6 +144,4 @@ NextPageKey== .
 # Available Value:
 # True False
 #HideInputWindowWhenOnlyOneCandidate=False
-
-
 
