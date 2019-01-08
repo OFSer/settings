@@ -101,11 +101,11 @@ run(){
 push(){
 	git add .
 	git commit -m "upd"
-	git push origin $2
+	git push
 	exit
 }
 pull(){
-	git pull origin master
+	git pull
 	git checkout -- .config/dconf/user
 	pkill dconf-service
 	dconf dump / > .dconf
