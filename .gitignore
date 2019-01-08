@@ -28,3 +28,5 @@
 .local/share/applications/
 .local/share/icons/
 .config/electronic-wechat/
+.config/fcitx/profile_*
+.local/share/xorg/Xorg.0.log.old
