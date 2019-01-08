@@ -48,6 +48,7 @@ install(){
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
 	sudo apt install -y steam
 	sudo apt install -y compizconfig-settings-manager
+	sudo apt install -y gnome-tweaks*
 	sudo snap install vscode --classic
 	sudo ln -s /snap/vscode /snap/code
 	sudo snap install electronic-wechat
@@ -73,9 +74,10 @@ install_sogou(){
 	rm ~/Downloads/1.deb
 }
 system_setting(){
-	#gsettings set org.gnome.desktop.interface cursor-blink false
-	#gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
-	#gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
+	gsettings set org.gnome.desktop.interface cursor-blink false
+	gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
+	gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
+	gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 	echo "$USERNAME ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
 	git checkout -- .config/dconf/user
 	pkill dconf-service
@@ -86,7 +88,6 @@ install_lang(){
 	sudo apt install golang -y
 }
 run(){
-	system_setting
 	config_mouse
 	update_source
 	install
@@ -94,6 +95,7 @@ run(){
 	install_netease
 	install_sogou
 	install_lang
+	system_setting
 }
 push(){
 	git add .
