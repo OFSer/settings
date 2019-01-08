@@ -1,3 +1,0 @@
-# This file is created by ibus-daemon, please do not modify it
-IBUS_ADDRESS=unix:abstract=/tmp/dbus-KInEeaut,guid=16819a6806423b772b2d78bd5c30da57
-IBUS_DAEMON_PID=1656

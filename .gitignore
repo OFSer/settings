@@ -30,3 +30,4 @@
 .config/fcitx/profile_*
 .local/share/xorg/Xorg.0.log.old
 .config/google-chrome/
+.config/ibus/
