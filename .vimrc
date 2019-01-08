@@ -7,10 +7,12 @@ color ron
 hi Error ctermbg=256
 hi goSpaceError ctermbg=256
 map <F3> :call Bomp()<CR>
-tnoremap <c-[> <c-\><c-n>
+tnoremap w <c-\><c-n>
 tnoremap qq <c-\><c-n>:q!<CR>
 inoremap qq <c-[>:q!<CR>
 noremap qq :q!<CR>
+inoremap ww <c-[>:x<CR>
+noremap ww :x<CR>
 noremap <c-w><c-t> :rightbelow term<CR>
 noremap <c-w><c-\> :rightbelow vert term<CR>
 func Bomp()

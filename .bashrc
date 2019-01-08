@@ -135,3 +135,4 @@ callssh(){
 		/usr/bin/ssh -o StrictHostKeyChecking=no -tX $*
 	fi
 }
+alias logout=$'ps -ef | grep tty2 | awk \'{print $2}\' | head -n 1 | xargs kill'
