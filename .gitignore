@@ -34,3 +34,4 @@
 .local/etc/
 .local/lib/
 .config/ibus/
+.local/share/recently-used.xbel
