@@ -138,10 +138,36 @@ callssh(){
 alias logout=$'ps -ef | grep tty2 | awk \'{print $2}\' | head -n 1 | xargs kill'
 alias date='env LC_TIME=en_US.UTF-8 date'
 alias git='callgit'
-callgit(){
-	if [[ $1 == "add" ]]; then
-		echo $*
+format(){
+	clang_exts=("cpp" "c" "hpp" "h")
+	ext=${1##*.}
+	if echo ${clang_exts[*]} | grep -w "$ext" &>/dev/null ;then
+		cp $1 $1.bak
+		clang-format -i -style="{BasedOnStyle: WebKit, IndentWidth: 4,BreakBeforeBraces: Custom}" $1
+		\git add $1
+		mv $1.bak $1
+	else
+		\git add $1
 	fi
+}
+callgit(){
+	if [[ "$1" == "add" ]]; then
+		if [[ "$2" == "." ]]; then
+			list=`\git ls-files -dmo .`
+		elif [[ "$2" == "-A" ]]; then
+			list=$(\git ls-files -dmo $(\git rev-parse --show-toplevel))
+		else 
+			list=$*
+			list=${list:3}
+		fi
+		for file in $list;do
+			format $file
+		done
+		return 
+	fi
+	#if [[ "$1" == "status" ]]; then
+	#fi
+	\git $*
 }
 
 
