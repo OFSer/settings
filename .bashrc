@@ -138,16 +138,20 @@ callssh(){
 alias logout=$'ps -ef | grep tty2 | awk \'{print $2}\' | head -n 1 | xargs kill'
 alias date='env LC_TIME=en_US.UTF-8 date'
 alias git='callgit'
-format(){
+solve(){
 	clang_exts=("cpp" "c" "hpp" "h")
-	ext=${1##*.}
+	ext=${2##*.}
 	if echo ${clang_exts[*]} | grep -w "$ext" &>/dev/null ;then
-		cp $1 $1.bak
-		clang-format -i -style="{BasedOnStyle: WebKit, IndentWidth: 4,BreakBeforeBraces: Custom}" $1
-		\git add $1
-		mv $1.bak $1
-	else
-		\git add $1
+		case $1 in
+			format) 
+				cp $2 $2.bak
+				clang-format -i -style="{BasedOnStyle: WebKit, IndentWidth: 4,BreakBeforeBraces: Custom}" $1
+			;;
+			resume)
+				mkdir -p ~/.bak
+				mv $2.bak $2
+			;;
+		esac
 	fi
 }
 callgit(){
@@ -155,19 +159,30 @@ callgit(){
 		if [[ "$2" == "." ]]; then
 			list=`\git ls-files -dmo .`
 		elif [[ "$2" == "-A" ]]; then
-			list=$(\git ls-files -dmo $(\git rev-parse --show-toplevel))
+			list=$(\git ls-files --exclude-standard -dmo $(\git rev-parse --show-toplevel))
 		else 
 			list=$*
 			list=${list:3}
 		fi
 		for file in $list;do
-			format $file
+			solve format $file
+			\git add $file
+			solve resume $file
 		done
 		return 
 	fi
-	#if [[ "$1" == "status" ]]; then
-	#fi
-	\git $*
+	if [[ "$1" == "status" ]]; then
+		list=$(\git ls-files --exclude-standard -dmo $(\git rev-parse --show-toplevel))
+		echo $list
+		for file in $list;do
+			solve format $file
+		done
+		\git status
+		for file in $list;do
+			solve resume $file
+		done
+	fi
+	#\git $*
 }
 
 
