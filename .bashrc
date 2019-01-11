@@ -137,55 +137,45 @@ callssh(){
 }
 alias logout=$'ps -ef | grep tty2 | awk \'{print $2}\' | head -n 1 | xargs kill'
 alias date='env LC_TIME=en_US.UTF-8 date'
-alias git='callgit'
 solve(){
+	[[ -f $2 ]] || return
 	clang_exts=("cpp" "c" "hpp" "h")
 	ext=${2##*.}
+	mkdir -p .git/bak
 	if echo ${clang_exts[*]} | grep -w "$ext" &>/dev/null ;then
 		case $1 in
 			format) 
-				cp $2 $2.bak
-				clang-format -i -style="{BasedOnStyle: WebKit, IndentWidth: 4,BreakBeforeBraces: Custom}" $1
+				cp $2 .git/bak/${2//\//:}
+				clang-format -i -style="{BasedOnStyle: WebKit, IndentWidth: 4,BreakBeforeBraces: Custom}" $2
 			;;
 			resume)
-				mkdir -p ~/.bak
-				mv $2.bak $2
+				cp .git/bak/${2//\//:} $2
 			;;
 		esac
 	fi
 }
-callgit(){
-	if [[ "$1" == "add" ]]; then
-		if [[ "$2" == "." ]]; then
-			list=`\git ls-files -dmo .`
-		elif [[ "$2" == "-A" ]]; then
-			list=$(\git ls-files --exclude-standard -dmo $(\git rev-parse --show-toplevel))
-		else 
-			list=$*
-			list=${list:3}
-		fi
-		for file in $list;do
-			solve format $file
-			\git add $file
-			solve resume $file
-		done
-		return 
-	fi
-	if [[ "$1" == "status" ]]; then
-		list=$(\git ls-files --exclude-standard -dmo $(\git rev-parse --show-toplevel))
-		echo $list
-		for file in $list;do
-			solve format $file
-		done
-		\git status
-		for file in $list;do
-			solve resume $file
-		done
-	fi
-	#\git $*
+alias git='Git'
+Git(){
+	\git rev-parse --is-inside-work-tree > /dev/null || return
+	prepwd=`pwd`
+	toplevel="$(\git rev-parse --show-toplevel)/"
+
+	cd $toplevel
+	list=$(\git ls-files --full-name --exclude-standard -om $toplevel)
+	for file in $list;do
+		solve format $file
+	done
+	cd $prepwd
+
+
+
+	\git "$@"
+
+	cd $toplevel
+	for file in $list;do
+		solve resume $file
+	done
+	cd $prepwd
 }
-
-
-
 
 
