@@ -167,8 +167,6 @@ Git(){
 	done
 	cd $prepwd
 
-
-
 	\git "$@"
 
 	cd $toplevel
