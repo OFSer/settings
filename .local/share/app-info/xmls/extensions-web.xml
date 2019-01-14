@@ -17699,7 +17699,7 @@
     <id>simplenetspeed_biji.extension</id>
     <name>Simple net speed</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Simply showing network speed. Left click to change modes:</p><p>1. Total net speed in bits per second 2. Total net speed in Bytes per second 3. Up &amp; down speed in bits per second 4. Up &amp; down speed in Bytes per second 5. Total of downloaded in Bytes (Right click to reset counter)</p><p>Middle click to change font size</p></description>
+    <description><p>Simply showing network speed. Left click to change modes:</p><p>1. Total net speed in bits per second 2. Total net speed in Bytes per second 3. Up &amp;amp; down speed in bits per second 4. Up &amp;amp; down speed in Bytes per second 5. Total of downloaded in Bytes (Right click to reset counter)</p><p>Middle click to change font size</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>

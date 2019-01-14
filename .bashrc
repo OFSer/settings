@@ -161,6 +161,11 @@ Git(){
 	toplevel="$(\git rev-parse --show-toplevel)/"
 
 	cd $toplevel
+	if [[ -f .git ]]; then
+		\git "$@"
+		cd $prepwd
+		return
+	fi
 	list=$(\git ls-files --full-name --exclude-standard -om $toplevel)
 	for file in $list;do
 		solve format $file
