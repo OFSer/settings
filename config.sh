@@ -83,6 +83,10 @@ system_setting(){
 install_lang(){
 	sudo apt install go -y
 }
+config_vscode(){
+	echo "fs.inotify.max_user_watches=524288" | sudo tee -a /etc/sysctl.conf > /dev/null
+	sudo sysctl -p
+}
 run(){
 	system_setting
 	config_mouse
@@ -92,6 +96,7 @@ run(){
 	install_netease
 	install_sogou
 	install_lang
+	config_vscode
 }
 push(){
 	git add .
