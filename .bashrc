@@ -149,7 +149,8 @@ solve(){
 				clang-format -i -style="{BasedOnStyle: WebKit, IndentWidth: 4,BreakBeforeBraces: Custom}" $2
 			;;
 			resume)
-				cp .git/bak/${2//\//:} $2
+				clang-format -i -style="{BasedOnStyle: WebKit, IndentWidth: 2,BreakBeforeBraces: Custom}" $2
+				#cp .git/bak/${2//\//:} $2
 			;;
 		esac
 	fi
@@ -174,16 +175,11 @@ Git(){
 
 	\git "$@"
 
-	gitcmd=("reset" "checkout")
-	if echo ${gitcmd[*]} | grep -w "$1" &>/dev/null;then
-		echo skip > /dev/null
-	else
-		cd $toplevel
-		for file in $list;do
-			solve resume $file
-		done
-		cd $prepwd
-	fi
+	cd $toplevel
+	for file in $list;do
+		solve resume $file
+	done
+	cd $prepwd
 }
 
 
