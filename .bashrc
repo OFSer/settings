@@ -174,11 +174,16 @@ Git(){
 
 	\git "$@"
 
-	cd $toplevel
-	for file in $list;do
-		solve resume $file
-	done
-	cd $prepwd
+	gitcmd=("reset" "checkout")
+	if echo ${gitcmd[*]} | grep -w "$1" &>/dev/null;then
+		echo skip > /dev/null
+	else
+		cd $toplevel
+		for file in $list;do
+			solve resume $file
+		done
+		cd $prepwd
+	fi
 }
 
 
