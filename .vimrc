@@ -3,6 +3,7 @@ set nu
 set ts=2
 set sw=2
 set ma
+set mouse=a
 color ron
 inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
 hi Error ctermbg=256
