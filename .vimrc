@@ -8,6 +8,7 @@ color ron
 inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
 hi Error ctermbg=256
 hi goSpaceError ctermbg=256
+vnoremap <c-C> "+y
 tnoremap <c-[> <c-\><c-n>
 tnoremap qq <c-\><c-n>:q!<CR>
 inoremap qq <c-[>:q!<CR>

@@ -2890,7 +2890,7 @@
   </component>
   <component type="shell-extension">
     <id>SomaFm-Radio_alireza6677.gmail.com</id>
-    <name>SomaFm internet radio</name>
+    <name>SomaFM internet radio</name>
     <summary>GNOME Shell Extension</summary>
     <description><p>Listen to SomaFm free internet radio  * Featues: - 30 Channels - Volume slider - Favorites menu - Good sound quality - Supports most gnome-shell versions - Channel logos   * Requirements: - Gstreamer: You need to install gstreamer 1.0+ and multimedia codecs/plugins for your distro.  (If you have issues, please mention your distro and gnome-shell version and if it&apos;s possible, create an issue on the github page)</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
@@ -6642,7 +6642,7 @@
     <id>dash-to-panel_jderose9.github.com</id>
     <name>Dash to Panel</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.</p><p>For a more traditional experience, you may also want to use Tweak Tool to enable Windows &amp;amp;gt; Titlebar Buttons &amp;amp;gt; Minimize &amp;amp;amp; Maximize.</p><p>For the best response, please report any issues on github. Dash-to-panel is developed and maintained by @jderose9 and @charlesg99.</p></description>
+    <description><p>An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.</p><p>For a more traditional experience, you may also want to use Tweak Tool to enable Windows &amp;gt; Titlebar Buttons &amp;gt; Minimize &amp;amp; Maximize.</p><p>For the best support, please report any issues on Github. Dash-to-panel is developed and maintained by @jderose9 and @charlesg99.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -6867,7 +6867,7 @@
     <id>desktop-icons_csoriano</id>
     <name>Desktop Icons</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Add icons to the desktop - https://gitlab.gnome.org/World/ShellExtensions/desktop-icons</p></description>
+    <description><p>Add icons to the desktop</p><p>https://gitlab.gnome.org/World/ShellExtensions/desktop-icons</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -12045,7 +12045,7 @@
     <id>kube_config_vvbogdanov87.gmail.com</id>
     <name>Kube Config</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Switches kube config context</p><p>https://github.com/vvbogdanov87/gnome-shell-extension-kubeconfig</p></description>
+    <description><p>Switches kube config context</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -13774,7 +13774,7 @@
     <id>new-mail-indicator_fthx</id>
     <name>New Mail Indicator</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>An icon beside the date in the topbar to show if there are unread emails when running your email client.</p><p> It checks the notifications in the message tray related to a new mail, no extra configuration needed, very light extension. Do not disable the notifications of your default email client !</p><p> *** It is not a standalone mail checker, you need your email client to be running. *** Please check that the xdg-utils package is installed.</p><p>  Email clients supported at the moment are : Thunderbird, Evolution, Geary. Please ask here to add the client you need. If you report an error, please provide at least the distro &amp; the email client you use.</p><p> Includes some code from https://extensions.gnome.org/extension/1386/notification-counter/ .</p></description>
+    <description><p>An icon beside the date in the topbar to show if there are unread emails when running your email client.</p><p> It checks the notifications in the message tray related to a new mail, no extra configuration needed, very light extension. Do not disable the notifications of your default email client !</p><p> *** It is not a standalone mail checker, you need your email client to be running. *** Please check that the xdg-utils package is installed.</p><p>  Email clients supported at the moment are : Thunderbird, Evolution, Geary, Mailspring. Please ask here to add the client you need. If you report an error, please provide at least the distro &amp; the email client you use.</p><p> Includes some code from https://extensions.gnome.org/extension/1386/notification-counter/ .</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -21668,7 +21668,7 @@
     <id>wsmatrix_martin.zurowietz.de</id>
     <name>Workspace Matrix</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Arrange workspaces in a two dimensional grid with workspace thumbnails.</p></description>
+    <description><p>Arrange workspaces in a two dimensional grid with workspace thumbnails.</p><p>Please use GitHub issues for bug reports: https://github.com/mzur/gnome-shell-wsmatrix/issues/new</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
