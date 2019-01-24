@@ -1,4 +1,8 @@
 cd ~
+config_scroll(){
+	sudo apt install xbindkeys xdotool -y
+	xbindkeys --defaults > $HOME/.xbindkeysrc
+}
 config_mouse(){
 	xinput list
 	read -p "type mouse name: " mouse

@@ -8,6 +8,8 @@ color ron
 inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
 hi Error ctermbg=256
 hi goSpaceError ctermbg=256
+tnoremap <c-k> <c-w>
+nnoremap <c-k> <c-w>
 vnoremap <c-C> "+y
 tnoremap <c-[> <c-\><c-n>
 tnoremap qq <c-\><c-n>:q!<CR>
@@ -16,8 +18,7 @@ noremap qq :q!<CR>
 tnoremap ww <c-\><c-n>:q!<CR>
 inoremap ww <c-[>:x<CR>
 noremap ww :x<CR>
-noremap <c-w><c-t> :rightbelow term<CR>
-noremap <c-w><c-\> :rightbelow vert term<CR>
+noremap <c-k><c-\> :rightbelow vert term<CR>
 map <F3> :call Bomp()<CR>
 func Bomp()
 	exec "w"
