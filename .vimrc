@@ -15,7 +15,7 @@ nnoremap <silent> <c-l> :if Test()<cr>bn<cr>endif<cr>
 func CloseBuf()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
 	let n=len(a)
-	if Test()
+	if Test() && bufname('%') != ""
 		exec "w"
 		if n==1
 			exec "q"
@@ -58,18 +58,19 @@ nnoremap <c-v> "+P
 vnoremap <c-c> "+y
 vnoremap <c-x> "+d
 
+nnoremap <c-k><c-k> <c-w>k
+tnoremap <c-k><c-k> <c-w>k
 tnoremap <c-k> <c-w>
 nnoremap <c-k> <c-w>
 tnoremap <c-[> <c-\><c-n>
 noremap <c-k><c-\> :rightbelow vert term<CR>
 
-tnoremap q <c-\><c-n>:q!<CR>
-inoremap q <c-[>:q!<CR>
-noremap q :q!<CR>
-tnoremap w <c-\><c-n>:q!<CR>
-inoremap w <c-[>:x<CR>
-noremap w :x<CR>
-
+tnoremap <silent> q <c-\><c-n>:q!<CR>
+inoremap <silent> q <c-[>:q!<CR>
+noremap <silent> q :q!<CR>
+tnoremap <silent> w <c-\><c-n>:q!<CR>
+inoremap <silent> w <c-[>:x<CR>
+noremap <silent> w :x<CR>
 "inoremap { {}<ESC>i
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
 "--------------------------Compile&&Run-------------------------------"
@@ -93,3 +94,4 @@ func Domp()
 	silent exec "!clear"
 	exec "!python %"
 endfunc
+"--------------------------Terminal-----------------------------------"
