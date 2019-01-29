@@ -1,3 +1,4 @@
+"--------------------------Plugin------------------------------------"
 "--------------------------Options-----------------------------------"
 set ai
 set nu
@@ -50,7 +51,6 @@ cnoremap <c-a> <home>
 cnoremap <c-b> <left>
 cnoremap <c-r> <c-f>
 cnoremap <c-f> <right>
-
 "--------------------------Edit--------------------------------------"
 inoremap <c-u> <esc>0d$a
 inoremap <c-y> <esc>pa
@@ -58,30 +58,11 @@ nnoremap <c-a> maggvG
 nnoremap <c-v> "+P
 vnoremap <c-c> "+y
 vnoremap <c-x> "+d
-"--------------------------Compile&&Run-------------------------------"
-map <silent> <F3> :call Bomp()<CR>
-func Bomp()
-	exec "w"
-	silent exec "!clear"
-	silent exec "!go build %"
-	exec "!./%<"
-endfunc
-map <silent> <F4> :call Comp()<CR>
-func Comp()
-	exec "w"
-	silent exec "!clear"
-	silent exec "!g++ % -o 1"
-	exec "!sudo ./1"
-endfunc
-map <silent> <F5> :call Domp()<CR>
-func Domp()
-	exec "w"
-	silent exec "!clear"
-	exec "!python %"
-endfunc
 "--------------------------Terminal-----------------------------------"
 inoremap <silent> <c-z> :shell<cr>
 nnoremap <silent> <c-z> :shell<cr>
+tnoremap <c-[> <c-\><c-n>
+noremap ; :below term<CR>
 "--------------------------Tab-----------------------------------"
 inoremap <silent> , <esc>gT
 nnoremap <silent> , <esc>gT
@@ -107,12 +88,31 @@ inoremap k <esc><c-w>k
 inoremap l <esc><c-w>l
 inoremap ww <esc><c-w>w
 
-tnoremap <c-[> <c-\><c-n>
-noremap ; :below term<CR>
-
+tnoremap <c-d> <c-\><c-n>:q!<CR>
 tnoremap <silent> q <c-\><c-n>:q!<CR>
 inoremap <silent> q <c-[>:q!<CR>
 noremap <silent> q :q!<CR>
+"--------------------------Compile&&Run-------------------------------"
+map <silent> <F3> :call Bomp()<CR>
+func Bomp()
+	exec "w"
+	silent exec "!clear"
+	silent exec "!go build %"
+	exec "!./%<"
+endfunc
+map <silent> <F4> :call Comp()<CR>
+func Comp()
+	exec "w"
+	silent exec "!clear"
+	silent exec "!g++ % -o 1"
+	exec "!sudo ./1"
+endfunc
+map <silent> <F5> :call Domp()<CR>
+func Domp()
+	exec "w"
+	silent exec "!clear"
+	exec "!python %"
+endfunc
 "--------------------------Trash-------------------------------"
 "inoremap { {}<ESC>i
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
