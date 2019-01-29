@@ -1,24 +1,30 @@
 "--------------------------Explorer----------------------------------"
+func Test()
+	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
+	let n=len(a)
+	return index(a,bufnr('%'))>=0
+endfunc
 func Toggle()
 	let g:netrw_winsize = 15
 	let g:netrw_liststyle = 3
 	Lexplore
 endfunc
 nnoremap <silent> <c-b> :call Toggle()<CR>
-nnoremap <silent> <c-h> :bp<cr>
-nnoremap <silent> <c-l> :bn<cr>
+nnoremap <silent> <c-h> :if Test()<cr>bp<cr>endif<cr>
+nnoremap <silent> <c-l> :if Test()<cr>bn<cr>endif<cr>
 func CloseBuf()
-	if &filetype=="netrw"
-		return
+	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
+	let n=len(a)
+	if Test()
+		exec "w"
+		if n==1
+			exec "q"
+			exec "q"
+			exec "q"
+		endif
+		exec "bn"
+		exec "bw #"
 	endif
-	exec "w"
-	let b=len(filter(range(1, bufnr('$')), 'buflisted(v:val)'))
-	if b==1
-		exec "q"
-		exec "q"
-	endif
-	exec "b #"
-	exec "bw #"
 endfunc
 nnoremap <silent> c :call CloseBuf()<cr>
 "--------------------------Options-----------------------------------"
@@ -57,12 +63,12 @@ nnoremap <c-k> <c-w>
 tnoremap <c-[> <c-\><c-n>
 noremap <c-k><c-\> :rightbelow vert term<CR>
 
-tnoremap qq <c-\><c-n>:q!<CR>
-inoremap qq <c-[>:q!<CR>
-noremap qq :q!<CR>
-tnoremap ww <c-\><c-n>:q!<CR>
-inoremap ww <c-[>:x<CR>
-noremap ww :x<CR>
+tnoremap q <c-\><c-n>:q!<CR>
+inoremap q <c-[>:q!<CR>
+noremap q :q!<CR>
+tnoremap w <c-\><c-n>:q!<CR>
+inoremap w <c-[>:x<CR>
+noremap w :x<CR>
 
 "inoremap { {}<ESC>i
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
