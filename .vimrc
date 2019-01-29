@@ -1,12 +1,26 @@
 "--------------------------Explorer----------------------------------"
 func Toggle()
-	let g:netrw_winsize = 18
+	let g:netrw_winsize = 15
 	let g:netrw_liststyle = 3
 	Lexplore
 endfunc
 nnoremap <silent> <c-b> :call Toggle()<CR>
-nnoremap <silent> <c-h> :bn<cr>
+nnoremap <silent> <c-h> :bp<cr>
 nnoremap <silent> <c-l> :bn<cr>
+func CloseBuf()
+	if &filetype=="netrw"
+		return
+	endif
+	exec "w"
+	let b=len(filter(range(1, bufnr('$')), 'buflisted(v:val)'))
+	if b==1
+		exec "q"
+		exec "q"
+	endif
+	exec "b #"
+	exec "bw #"
+endfunc
+nnoremap <silent> c :call CloseBuf()<cr>
 "--------------------------Options-----------------------------------"
 set ai
 set nu
@@ -25,6 +39,11 @@ inoremap <c-b> <left>
 inoremap <c-f> <right>
 inoremap <c-e> <esc>A
 inoremap <c-a> <esc>^i
+
+cnoremap <c-a> <home>
+cnoremap <c-b> <left>
+cnoremap <c-r> <c-f>
+cnoremap <c-f> <right>
 
 inoremap <c-u> <esc>0d$a
 inoremap <c-y> <esc>pa
@@ -45,7 +64,7 @@ tnoremap ww <c-\><c-n>:q!<CR>
 inoremap ww <c-[>:x<CR>
 noremap ww :x<CR>
 
-inoremap { {}<ESC>i
+"inoremap { {}<ESC>i
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
 "--------------------------Compile&&Run-------------------------------"
 map <silent> <F3> :call Bomp()<CR>
