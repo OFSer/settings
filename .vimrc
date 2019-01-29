@@ -95,3 +95,12 @@ func Domp()
 	exec "!python %"
 endfunc
 "--------------------------Terminal-----------------------------------"
+inoremap <silent> <c-z> :shell<cr>
+nnoremap <silent> <c-z> :shell<cr>
+"--------------------------Tab-----------------------------------"
+inoremap <silent> , <esc>gT
+nnoremap <silent> , <esc>gT
+inoremap <silent> . <esc>gt
+nnoremap <silent> . <esc>gt
+
+
