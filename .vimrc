@@ -62,7 +62,7 @@ vnoremap <c-c> "+y
 vnoremap <c-x> "+d
 "--------------------------Terminal-----------------------------------"
 tnoremap <c-[> <c-\><c-n>
-noremap <silent> ; :below term<CR>
+"noremap <silent> ; :below term<CR>
 "--------------------------Tab-----------------------------------"
 inoremap <silent> , <esc>gT
 nnoremap <silent> , <esc>gT
@@ -115,6 +115,32 @@ func Domp()
 	exec "!python %"
 endfunc
 "--------------------------Plugin------------------------------------"
+
+
+
+let g:toggle_terminal#command = get(g:,'toggle_terminal#command','bash')
+let g:loaded_toggle_terminal = 1
+func ToggleTerminal()
+    let bufferNum = bufnr('ToggleTerminal')
+    if bufferNum == -1 || bufloaded(bufferNum) != 1
+        execute 'rightbelow term ++close ++kill=term '.g:toggle_terminal#command
+        file ToggleTerminal
+    else
+        let windowNum = bufwinnr(bufferNum)
+        if windowNum == -1
+            execute 'rightbelow sbuffer '.bufferNum
+        else
+            execute windowNum.'wincmd w'
+            hide 
+        endif
+    endif
+endfunc
+
+
+
+inoremap <silent> ; <esc>:call ToggleTerminal()<CR>
+nnoremap <silent> ; :call ToggleTerminal()<CR>
+tnoremap <silent> ; <c-\><c-n>:call ToggleTerminal()<CR>
 "--------------------------Trash-------------------------------"
 "inoremap { {}<ESC>i
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
