@@ -1,4 +1,7 @@
 "--------------------------Plugin------------------------------------"
+call plug#begin('~/.vim/plugged')
+Plug 'pakutoma/toggle-terminal'
+call plug#end()
 "--------------------------Options-----------------------------------"
 set ai
 set nu
