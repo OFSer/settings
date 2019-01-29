@@ -1,4 +1,9 @@
 cd ~
+install_vim(){
+	sudo add-apt-repository ppa:jonathonf/vim
+	sudo apt-get update
+	sudo apt-get install vim-gnome	
+}
 config_scroll(){
 	sudo apt install xbindkeys xdotool -y
 	xbindkeys --defaults > $HOME/.xbindkeysrc

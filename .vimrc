@@ -1,7 +1,3 @@
-"--------------------------Plugin------------------------------------"
-call plug#begin('~/.vim/plugged')
-Plug 'pakutoma/toggle-terminal'
-call plug#end()
 "--------------------------Options-----------------------------------"
 set ai
 set nu
@@ -12,6 +8,8 @@ set mouse=a
 color ron
 hi Error ctermbg=256
 hi goSpaceError ctermbg=256
+set ttimeoutlen=0
+set timeoutlen=0
 "--------------------------Explorer----------------------------------"
 func Test()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
@@ -24,6 +22,7 @@ func Toggle()
 	Lexplore
 endfunc
 nnoremap <silent> <c-b> :call Toggle()<CR>
+tnoremap <silent> <c-b> <c-\><c-n>:call Toggle()<CR>
 nnoremap <silent> <c-h> :if Test()<cr>bp<cr>endif<cr>
 nnoremap <silent> <c-l> :if Test()<cr>bn<cr>endif<cr>
 func CloseBuf()
@@ -62,10 +61,8 @@ nnoremap <c-v> "+P
 vnoremap <c-c> "+y
 vnoremap <c-x> "+d
 "--------------------------Terminal-----------------------------------"
-inoremap <silent> <c-z> :shell<cr>
-nnoremap <silent> <c-z> :shell<cr>
 tnoremap <c-[> <c-\><c-n>
-noremap ; :below term<CR>
+noremap <silent> ; :below term<CR>
 "--------------------------Tab-----------------------------------"
 inoremap <silent> , <esc>gT
 nnoremap <silent> , <esc>gT
@@ -90,6 +87,7 @@ inoremap j <esc><c-w>j
 inoremap k <esc><c-w>k
 inoremap l <esc><c-w>l
 inoremap ww <esc><c-w>w
+
 
 tnoremap <c-d> <c-\><c-n>:q!<CR>
 tnoremap <silent> q <c-\><c-n>:q!<CR>
@@ -116,6 +114,7 @@ func Domp()
 	silent exec "!clear"
 	exec "!python %"
 endfunc
+"--------------------------Plugin------------------------------------"
 "--------------------------Trash-------------------------------"
 "inoremap { {}<ESC>i
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
