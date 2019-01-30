@@ -23,8 +23,8 @@ func Toggle()
 endfunc
 nnoremap <silent> <c-b> :call Toggle()<CR>
 tnoremap <silent> <c-b> <c-\><c-n>:call Toggle()<CR>
-nnoremap <silent> <c-h> :if Test()<cr>bp<cr>endif<cr>
-nnoremap <silent> <c-l> :if Test()<cr>bn<cr>endif<cr>
+nnoremap <silent> p :if Test()<cr>bp<cr>endif<cr>
+nnoremap <silent> n :if Test()<cr>bn<cr>endif<cr>
 func CloseBuf()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
 	let n=len(a)
@@ -53,6 +53,11 @@ cnoremap <c-a> <home>
 cnoremap <c-b> <left>
 cnoremap <c-r> <c-f>
 cnoremap <c-f> <right>
+
+nnoremap <silent> <c-j> j
+nnoremap <silent> <c-k> k
+nnoremap <silent> <c-h> h
+nnoremap <silent> <c-l> l
 "--------------------------Edit--------------------------------------"
 inoremap <c-u> <esc>0d$a
 inoremap <c-y> <esc>pa

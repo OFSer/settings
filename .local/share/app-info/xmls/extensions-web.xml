@@ -13360,7 +13360,7 @@
     <id>mprisindicatorbutton_JasonLG1979.github.io</id>
     <name>Mpris Indicator Button</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>A simple MPRIS indicator button.</p><p>Features: Mouse Button Actions Keyboard Shortcuts</p><p>See the github repo&apos;s wiki.</p></description>
+    <description><p>A simple MPRIS indicator button.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
