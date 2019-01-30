@@ -19,6 +19,7 @@ endfunc
 "nnoremap <silent> p :if Test()<cr>bp<cr>endif<cr>
 "nnoremap <silent> n :if Test()<cr>bn<cr>endif<cr>
 func Toggle()
+	let g:netrw_list_hide = '^\..*'
 	let g:netrw_winsize = 15
 	let g:netrw_liststyle = 3
 	Lexplore
@@ -137,12 +138,13 @@ let g:loaded_toggle_terminal = 1
 func ToggleTerminal()
     let bufferNum = bufnr('ToggleTerminal')
     if bufferNum == -1 || bufloaded(bufferNum) != 1
-        execute 'rightbelow term ++close ++kill=term '.g:toggle_terminal#command
+        silent execute 'rightbelow term ++close ++kill=term '.g:toggle_terminal#command
         silent file ToggleTerminal
+				call feedkeys("rm .ToggleTerminal.swp > /dev/null 2&>1\nclear\n")
     else
         let windowNum = bufwinnr(bufferNum)
         if windowNum == -1
-            execute 'rightbelow sbuffer '.bufferNum
+            silent execute 'rightbelow sbuffer '.bufferNum
 						call feedkeys('i')	
         else
             execute windowNum.'wincmd w'
