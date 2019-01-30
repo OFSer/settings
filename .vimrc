@@ -20,6 +20,7 @@ func Toggle()
 	let g:netrw_list_hide = '^\..*'
 	let g:netrw_winsize = 15
 	let g:netrw_liststyle = 3
+	let g:netrw_banner = 0
 	Lexplore
 endfunc
 inoremap <silent> e <esc>:call Toggle()<CR>
@@ -39,7 +40,7 @@ cnoremap <c-b> <left>
 cnoremap <c-r> <c-f>
 cnoremap <c-f> <right>
 
-nnoremap <silent> <c-j> j
+nnoremap <silent> <c-j> <cr>
 nnoremap <silent> <c-k> k
 nnoremap <silent> <c-h> h
 nnoremap <silent> <c-l> l
@@ -142,7 +143,7 @@ func Xuit()
 		exe "bw! %"
 	endif
 endfunc
-tnoremap <c-d> <c-\><c-n>:call Quit()<cr><c-w>9l:call Terins()<cr>
+tnoremap <silent> <c-d> <c-\><c-n>:call Quit()<cr><c-w>9l:call Terins()<cr>
 tnoremap <silent> q <c-\><c-n>:call Quit()<cr><c-w>9l:call Terins()<cr>
 "inoremap <silent> q <c-[>:call Quit()<cr><c-w>9l:call Terins()<cr>
 nnoremap <silent> q :call Quit()<cr><c-w>9l:call Terins()<cr>
