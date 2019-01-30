@@ -69,13 +69,11 @@ nnoremap <silent> t :tab term<cr>
 inoremap <silent> t <esc>:tab term<cr>
 tnoremap <silent> t <c-\><c-n>:tab term<cr>
 "--------------------------WindowMap-------------------------------"
-nnoremap w <c-w>
 nnoremap h <c-w>h
 nnoremap j <c-w>j
 nnoremap k <c-w>k
 nnoremap l <c-w>l
 nnoremap ww <c-w>w
-tnoremap w <c-w>
 tnoremap h <c-w>h
 tnoremap j <c-w>j
 tnoremap k <c-w>k
@@ -87,6 +85,43 @@ inoremap j <esc><c-w>j
 inoremap k <esc><c-w>k
 inoremap l <esc><c-w>l
 inoremap ww <esc><c-w>w
+"--------------------------Close-------------------------------"
+func Close()
+	if bufname('%') =~ "bash" || bufname('%') =~ "help" || bufname('%') =~ "Netrw"
+		exe "bw! %"
+		return
+	endif
+	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
+	let list=range(bufnr('$')+1)
+	let cur=bufnr('%')
+	let n=len(a)
+	for i in list
+		if bufname(i) =~ "bash" || bufname(i) =~ "help" || index(a,i)<0
+			continue
+		endif
+		if i>cur
+			exec "b! ".i
+			exe "bw! #"
+			return 
+		endif
+	endfor
+	for i in list
+		if bufname(i) =~ "bash" || bufname(i) =~ "help" || index(a,i)<0
+			continue
+		endif
+		if i==cur
+			exe "q!"
+			return
+		endif
+		exec "b! ".i
+		exe "bw! #"
+		return 
+	endfor
+endfunc
+"tnoremap <silent> w w
+tnoremap <silent> w <c-\><c-n>:call Close()<cr>
+nnoremap <silent> w :call Close()<cr>
+nnoremap <silent> w <esc>:call Close()<cr>
 "--------------------------Quit-------------------------------"
 func Quit()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
@@ -109,10 +144,10 @@ func Xuit()
 endfunc
 tnoremap <c-d> <c-\><c-n>:call Quit()<cr><c-w>9l:call Terins()<cr>
 tnoremap <silent> q <c-\><c-n>:call Quit()<cr><c-w>9l:call Terins()<cr>
-inoremap <silent> q <c-[>:call Quit()<cr><c-w>9l:call Terins()<cr>
+"inoremap <silent> q <c-[>:call Quit()<cr><c-w>9l:call Terins()<cr>
 nnoremap <silent> q :call Quit()<cr><c-w>9l:call Terins()<cr>
 tnoremap <silent> x <c-\><c-n>:call Quit()<cr><c-w>9l:call Terins()<cr>
-inoremap <silent> x <c-[>:call Xuit()<cr><c-w>9l:call Terins()<cr>
+"inoremap <silent> x <c-[>:call Xuit()<cr><c-w>9l:call Terins()<cr>
 nnoremap <silent> x :call Xuit()<cr><c-w>9l:call Terins()<cr>
 "--------------------------Compile&&Run-------------------------------"
 map <silent> <F3> :call Bomp()<CR>
