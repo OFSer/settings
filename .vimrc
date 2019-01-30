@@ -1,4 +1,4 @@
-"--------------------------Options-----------------------------------"
+"--------------------------Options----------------------------------"
 set ai
 set nu
 set ts=2
@@ -16,30 +16,16 @@ func Test()
 	let n=len(a)
 	return index(a,bufnr('%'))>=0
 endfunc
+"nnoremap <silent> p :if Test()<cr>bp<cr>endif<cr>
+"nnoremap <silent> n :if Test()<cr>bn<cr>endif<cr>
 func Toggle()
 	let g:netrw_winsize = 15
 	let g:netrw_liststyle = 3
 	Lexplore
 endfunc
-nnoremap <silent> <c-b> :call Toggle()<CR>
-tnoremap <silent> <c-b> <c-\><c-n>:call Toggle()<CR>
-nnoremap <silent> p :if Test()<cr>bp<cr>endif<cr>
-nnoremap <silent> n :if Test()<cr>bn<cr>endif<cr>
-func CloseBuf()
-	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	let n=len(a)
-	if Test() && bufname('%') != ""
-		exec "w"
-		if n==1
-			exec "q"
-			exec "q"
-			exec "q"
-		endif
-		exec "bn"
-		exec "bw #"
-	endif
-endfunc
-nnoremap <silent> c :call CloseBuf()<cr>
+inoremap <silent> e <esc>:call Toggle()<CR>
+nnoremap <silent> e :call Toggle()<CR>
+tnoremap <silent> e <c-\><c-n>:call Toggle()<CR>
 "--------------------------Jump--------------------------------------"
 inoremap <c-l> <del>
 inoremap <c-k> <up>
@@ -69,10 +55,15 @@ vnoremap <c-x> "+d
 tnoremap <c-[> <c-\><c-n>
 "noremap <silent> ; :below term<CR>
 "--------------------------Tab-----------------------------------"
-inoremap <silent> , <esc>gT
-nnoremap <silent> , <esc>gT
-inoremap <silent> . <esc>gt
-nnoremap <silent> . <esc>gt
+inoremap <silent> , <esc>gT<c-w>9li
+nnoremap <silent> , <esc>gT<c-w>9li
+tnoremap <silent> , <c-\><c-n>gT<c-w>9li
+inoremap <silent> . <esc>gt<c-w>9li
+nnoremap <silent> . <esc>gt<c-w>9li
+tnoremap <silent> . <c-\><c-n>gt<c-w>9li
+nnoremap <silent> t :tab term<cr>
+inoremap <silent> t <esc>:tab term<cr>
+tnoremap <silent> t <c-\><c-n>:tab term<cr>
 "--------------------------WindowMap-------------------------------"
 nnoremap w <c-w>
 nnoremap h <c-w>h
@@ -92,12 +83,33 @@ inoremap j <esc><c-w>j
 inoremap k <esc><c-w>k
 inoremap l <esc><c-w>l
 inoremap ww <esc><c-w>w
-
-
-tnoremap <c-d> <c-\><c-n>:q!<CR>
-tnoremap <silent> q <c-\><c-n>:q!<CR>
-inoremap <silent> q <c-[>:q!<CR>
-noremap <silent> q :q!<CR>
+"--------------------------Quit-------------------------------"
+func Quit()
+	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
+	let n=len(a)
+	if n==1
+		exe "q!"
+	else
+		exe "bw! %"
+	endif
+endfunc
+func Xuit()
+	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
+	let n=len(a)
+	exe "w"
+	if n==1
+		exe "q!"
+	else
+		exe "bw! %"
+	endif
+endfunc
+tnoremap <c-d> <c-\><c-n>:call Quit()<cr><c-w>9li
+tnoremap <silent> q <c-\><c-n>:call Quit()<cr><c-w>9li
+inoremap <silent> q <c-[>:call Quit()<cr><c-w>9li
+nnoremap <silent> q :call Quit()<cr><c-w>9li
+tnoremap <silent> x <c-\><c-n>:call Quit()<cr><c-w>9li
+inoremap <silent> x <c-[>:call Xuit()<cr><c-w>9li
+nnoremap <silent> x :call Xuit()<cr><c-w>9li
 "--------------------------Compile&&Run-------------------------------"
 map <silent> <F3> :call Bomp()<CR>
 func Bomp()
@@ -138,9 +150,9 @@ func ToggleTerminal()
         endif
     endif
 endfunc
-inoremap <silent> ; <esc>:call ToggleTerminal()<CR>
-nnoremap <silent> ; :call ToggleTerminal()<CR>
-tnoremap <silent> ; <c-\><c-n>:call ToggleTerminal()<CR>
+inoremap <silent> ; <esc><c-w>9l:call ToggleTerminal()<CR>
+nnoremap <silent> ; <c-w>9l:call ToggleTerminal()<CR>
+tnoremap <silent> ; <c-\><c-n><c-w>9l:call ToggleTerminal()<CR>
 "--------------------------Trash-------------------------------"
 "inoremap { {}<ESC>i
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
