@@ -135,6 +135,13 @@ func Terins()
 		call feedkeys('i')
 	endif
 endfunc
+func Tervspl()
+	if &buftype == 'terminal' && bufname('%') != 'Togglebash'
+		exe "rightbelow vert term"
+		return 
+	endif
+	call feedkeys('i')
+endfunc
 inoremap <silent> > <esc>:tabm +<cr>i
 nnoremap <silent> > <esc>:tabm +<cr>
 tnoremap <silent> > <c-\><c-n>:tabm +<cr>i
@@ -152,32 +159,36 @@ tnoremap <silent> . <c-\><c-n>gt<c-w>9h:call Terins()<cr>
 nnoremap <silent> t :tab term<cr>
 inoremap <silent> t <esc>:tab term<cr>
 tnoremap <silent> t <c-\><c-n>:tab term<cr>
+tnoremap <silent> \ <c-\><c-n>:call Tervspl()<cr>
 "--------------------------WindowMap-------------------------------"
-nnoremap h <c-w>h
-nnoremap j <c-w>j
-nnoremap k <c-w>k
-nnoremap l <c-w>l
-nnoremap ww <c-w>w
-tnoremap h <c-w>h
-tnoremap j <c-w>j
-tnoremap k <c-w>k
-tnoremap l <c-w>l
-tnoremap ww <c-w>w
-inoremap w <esc><c-w>
-inoremap h <esc><c-w>h
-inoremap j <esc><c-w>j
-inoremap k <esc><c-w>k
-inoremap l <esc><c-w>l
-inoremap ww <esc><c-w>w
+nnoremap h <c-w>h:call Terins()<cr>
+nnoremap j <c-w>j:call Terins()<cr>
+nnoremap k <c-w>k:call Terins()<cr>
+nnoremap l <c-w>l:call Terins()<cr>
+nnoremap ww <c-w>w:call Terins()<cr>
+tnoremap h <c-\><c-n><c-w>h:call Terins()<cr>
+tnoremap j <c-\><c-n><c-w>j:call Terins()<cr>
+tnoremap k <c-\><c-n><c-w>k:call Terins()<cr>
+tnoremap l <c-\><c-n><c-w>l:call Terins()<cr>
+tnoremap ww <c-w>w:call Terins()<cr>
+inoremap w <esc><c-w>:call Terins()<cr>
+inoremap h <esc><c-w>h:call Terins()<cr>
+inoremap j <esc><c-w>j:call Terins()<cr>
+inoremap k <esc><c-w>k:call Terins()<cr>
+inoremap l <esc><c-w>l:call Terins()<cr>
+inoremap ww <esc><c-w>w:call Terins()<cr>
 "--------------------------TabClose---------------------------"
 func Tabclose()
-	let nr=bufnr('%')
-	if &buftype == 'terminal' 
-		exe "tabc!"
-		exe "bw! ".nr
+	if tabpagenr('$')==1 
 		return
 	endif
-	exe "tabc"
+	let a=tabpagebuflist()
+	exe "tabc!"
+	for i in a
+		if bufname(i) =~ "/bin/bash"
+			exe "bw! ".i
+		endif
+	endfor
 	call Del()
 endfunc
 tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr><c-w>9h:call Terins()<cr>
