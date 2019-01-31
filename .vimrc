@@ -10,6 +10,8 @@ hi Error ctermbg=256
 hi goSpaceError ctermbg=256
 set ttimeoutlen=0
 set timeoutlen=0
+set updatetime=0
+autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '/bin/bash' || bufname('%') == 'Togglebash') | set nonu | endif
 "--------------------------GetBuffer---------------------------------"
 func Del()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
@@ -142,6 +144,13 @@ func Tervspl()
 	endif
 	call feedkeys('i')
 endfunc
+func Terspl()
+	if &buftype == 'terminal' && bufname('%') != 'Togglebash'
+		exe "rightbelow term"
+		return 
+	endif
+	call feedkeys('i')
+endfunc
 inoremap <silent> > <esc>:tabm +<cr>i
 nnoremap <silent> > <esc>:tabm +<cr>
 tnoremap <silent> > <c-\><c-n>:tabm +<cr>i
@@ -159,24 +168,25 @@ tnoremap <silent> . <c-\><c-n>gt<c-w>9h:call Terins()<cr>
 nnoremap <silent> t :tab term<cr>
 inoremap <silent> t <esc>:tab term<cr>
 tnoremap <silent> t <c-\><c-n>:tab term<cr>
+tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
 tnoremap <silent> \ <c-\><c-n>:call Tervspl()<cr>
 "--------------------------WindowMap-------------------------------"
-nnoremap h <c-w>h:call Terins()<cr>
-nnoremap j <c-w>j:call Terins()<cr>
-nnoremap k <c-w>k:call Terins()<cr>
-nnoremap l <c-w>l:call Terins()<cr>
-nnoremap ww <c-w>w:call Terins()<cr>
-tnoremap h <c-\><c-n><c-w>h:call Terins()<cr>
-tnoremap j <c-\><c-n><c-w>j:call Terins()<cr>
-tnoremap k <c-\><c-n><c-w>k:call Terins()<cr>
-tnoremap l <c-\><c-n><c-w>l:call Terins()<cr>
-tnoremap ww <c-w>w:call Terins()<cr>
-inoremap w <esc><c-w>:call Terins()<cr>
-inoremap h <esc><c-w>h:call Terins()<cr>
-inoremap j <esc><c-w>j:call Terins()<cr>
-inoremap k <esc><c-w>k:call Terins()<cr>
-inoremap l <esc><c-w>l:call Terins()<cr>
-inoremap ww <esc><c-w>w:call Terins()<cr>
+nnoremap <silent>  h <c-w>h:call Terins()<cr>
+nnoremap <silent>  j <c-w>j:call Terins()<cr>
+nnoremap <silent>  k <c-w>k:call Terins()<cr>
+nnoremap <silent>  l <c-w>l:call Terins()<cr>
+nnoremap <silent>  ww <c-w>w:call Terins()<cr>
+tnoremap <silent>  h <c-\><c-n><c-w>h:call Terins()<cr>
+tnoremap <silent>  j <c-\><c-n><c-w>j:call Terins()<cr>
+tnoremap <silent>  k <c-\><c-n><c-w>k:call Terins()<cr>
+tnoremap <silent>  l <c-\><c-n><c-w>l:call Terins()<cr>
+tnoremap <silent>  ww <c-w>w:call Terins()<cr>
+inoremap <silent>  w <esc><c-w>:call Terins()<cr>
+inoremap <silent>  h <esc><c-w>h:call Terins()<cr>
+inoremap <silent>  j <esc><c-w>j:call Terins()<cr>
+inoremap <silent>  k <esc><c-w>k:call Terins()<cr>
+inoremap <silent>  l <esc><c-w>l:call Terins()<cr>
+inoremap <silent>  ww <esc><c-w>w:call Terins()<cr>
 "--------------------------TabClose---------------------------"
 func Tabclose()
 	if tabpagenr('$')==1 
