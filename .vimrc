@@ -10,6 +10,64 @@ hi Error ctermbg=256
 hi goSpaceError ctermbg=256
 set ttimeoutlen=0
 set timeoutlen=0
+"--------------------------GetBuffer---------------------------------"
+func Del()
+	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
+	for i in a
+		if bufname(i) == ""
+			exe "bw! ".i
+		endif
+	endfor
+endfunc
+func Exist(x)
+	let tn=tabpagenr('$')
+	for i in range(tn)
+		if index(tabpagebuflist(i+1),a:x)>=0
+			return 1
+		endif
+	endfor
+	return 0
+endfunc
+func Next(x)
+	call Del()
+	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
+	let n=len(a)
+	for i in a
+		if &buftype == 'terminal' || bufname(i) == 'Togglebash' || Exist(i) == 1
+			continue
+		endif
+		if i>a:x
+			return i
+		endif
+	endfor
+	for i in a
+		if &buftype == 'terminal' || bufname(i) == 'Togglebash' || Exist(i) == 1
+			continue
+		endif
+		return i
+	endfor
+	return a:x
+endfunc
+func Prev(x)
+	call Del()
+	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
+	let a=reverse(a)
+	for i in a
+		if &buftype == 'terminal' || bufname(i) == 'Togglebash' || Exist(i) == 1
+			continue
+		endif
+		if i<a:x
+			return i
+		endif
+	endfor
+	for i in a
+		if &buftype == 'terminal' || bufname(i) == 'Togglebash' || Exist(i) == 1
+			continue
+		endif
+		return i
+	endfor
+	return a:x
+endfunc
 "--------------------------Explorer----------------------------------"
 func Test()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
@@ -17,6 +75,15 @@ func Test()
 	return index(a,bufnr('%'))>=0
 endfunc
 func Toggle()
+	if bufname('%') =~ "Netrw" && len(tabpagebuflist()) == 1
+		let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
+		let n=len(a)
+		if n >= 1 
+			exe "b! ".a[0]
+			return
+		endif
+		return
+	endif
 	let g:netrw_list_hide = '^\..*'
 	let g:netrw_winsize = 15
 	let g:netrw_liststyle = 3
@@ -56,7 +123,7 @@ tnoremap <c-[> <c-\><c-n>
 "noremap <silent> ; :below term<CR>
 "--------------------------Tab-----------------------------------"
 func Terins()
-	if bufname('%') =~ "bash"
+	if &buftype == 'terminal'
 		call feedkeys('i')
 	endif
 endfunc
@@ -86,70 +153,65 @@ inoremap j <esc><c-w>j
 inoremap k <esc><c-w>k
 inoremap l <esc><c-w>l
 inoremap ww <esc><c-w>w
-"--------------------------Close-------------------------------"
-func Close()
-	if bufname('%') =~ "bash" || bufname('%') =~ "help" || bufname('%') =~ "Netrw"
-		exe "bw! %"
+"--------------------------TabClose---------------------------"
+func Tabclose()
+	let nr=bufnr('%')
+	if &buftype == 'terminal' 
+		exe "tabc!"
+		exe "bw! ".nr
 		return
 	endif
-	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	let list=range(bufnr('$')+1)
-	let cur=bufnr('%')
-	let n=len(a)
-	for i in list
-		if bufname(i) =~ "bash" || bufname(i) =~ "help" || index(a,i)<0
-			continue
-		endif
-		if i>cur
-			exec "b! ".i
-			exe "bw! #"
-			return 
-		endif
-	endfor
-	for i in list
-		if bufname(i) =~ "bash" || bufname(i) =~ "help" || index(a,i)<0
-			continue
-		endif
-		if i==cur
-			exe "q!"
-			return
-		endif
-		exec "b! ".i
-		exe "bw! #"
-		return 
-	endfor
+	exe "tabc"
+	call Del()
+endfunc
+tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr><c-w>9l:call Terins()<cr>
+nnoremap <silent> c :call Tabclose()<cr><c-w>9l:call Terins()<cr>
+"--------------------------Save&&Quit-------------------------"
+func Close()
+	let nr=bufnr('%')
+	if &buftype == 'terminal' 
+		exe "q!"
+		exe "bw! ".nr
+		return
+	endif
+	if bufname('%') =~ "help" || bufname('%') =~ "Netrw"
+		exe "q!"
+		return
+	endif
+	exe "w"
+	let t=Next(nr)
+	if nr == t
+		exe "q!"
+	else
+		exe "b! ".Next(nr)
+	endif
+	exe "bw! ".nr
 endfunc
 "tnoremap <silent> w w
-tnoremap <silent> w <c-\><c-n>:call Close()<cr>
-nnoremap <silent> w :call Close()<cr>
-nnoremap <silent> w <esc>:call Close()<cr>
+tnoremap <silent> w <c-\><c-n>:call Close()<cr><c-w>9l:call Terins()<cr>
+nnoremap <silent> w :call Close()<cr><c-w>9l:call Terins()<cr>
 "--------------------------Quit-------------------------------"
 func Quit()
-	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	let n=len(a)
-	if n==1
+	let nr=bufnr('%')
+	if &buftype == 'terminal' 
+		exe "q!"
+		exe "bw! ".nr
+		return
+	endif
+	if bufname('%') =~ "help" || bufname('%') =~ "Netrw"
+		exe "q!"
+		return
+	endif
+	let t=Next(nr)
+	if nr == t
 		exe "q!"
 	else
-		exe "bw! %"
+		exe "b! ".Next(nr)
 	endif
+	exe "bw! ".nr
 endfunc
-func Xuit()
-	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	let n=len(a)
-	exe "w"
-	if n==1
-		exe "q!"
-	else
-		exe "bw! %"
-	endif
-endfunc
-tnoremap <silent> <c-d> <c-\><c-n>:call Quit()<cr><c-w>9l:call Terins()<cr>
 tnoremap <silent> q <c-\><c-n>:call Quit()<cr><c-w>9l:call Terins()<cr>
-"inoremap <silent> q <c-[>:call Quit()<cr><c-w>9l:call Terins()<cr>
 nnoremap <silent> q :call Quit()<cr><c-w>9l:call Terins()<cr>
-tnoremap <silent> x <c-\><c-n>:call Quit()<cr><c-w>9l:call Terins()<cr>
-"inoremap <silent> x <c-[>:call Xuit()<cr><c-w>9l:call Terins()<cr>
-nnoremap <silent> x :call Xuit()<cr><c-w>9l:call Terins()<cr>
 "--------------------------Compile&&Run-------------------------------"
 map <silent> <F3> :call Bomp()<CR>
 func Bomp()
@@ -194,40 +256,17 @@ endfunc
 inoremap <silent> ; <esc><c-w>9l:call Togglebash()<CR>
 nnoremap <silent> ; <c-w>9l:call Togglebash()<CR>
 tnoremap <silent> ; <c-\><c-n><c-w>9l:call Togglebash()<CR>
-"--------------------------Buffer-------------------------------"
+"--------------------------BufferSwitch---------------------------"
 func Switch(r)
-	if bufname('%') =~ "bash" || bufname('%') =~ "help" || bufname('%') =~ "Netrw"
+	if &buftype == 'terminal' || bufname('%') =~ "help" || bufname('%') =~ "Netrw"
 		return
 	endif
-	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	let list=range(bufnr('$')+1)
-	if a:r == 1
-		let list=reverse(list)
-	endif
 	let cur=bufnr('%')
-	for i in list
-		if bufname(i) =~ "bash" || bufname(i) =~ "help" || index(a,i)<0
-			continue
-		endif
-		if a:r == 0
-			if i>cur
-				exec "b! ".i
-				return 
-			endif
-		else
-			if i<cur
-				exec "b! ".i
-				return 
-			endif
-		endif
-	endfor
-	for i in list
-		if bufname(i) =~ "bash" || bufname(i) =~ "help" || index(a,i)<0
-			continue
-		endif
-		exec "b! ".i
-		return 
-	endfor
+	if a:r == 0
+		exe "b! ".Next(cur)
+	else
+		exe "b! ".Prev(cur)
+	endif
 endfunc
 tnoremap <silent> n n
 tnoremap <silent> p p
