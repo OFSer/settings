@@ -283,16 +283,16 @@ func Togglebash()
         let windowNum = bufwinnr(bufferNum)
         if windowNum == -1
             silent execute 'rightbelow sbuffer '.bufferNum
-						call feedkeys('i')	
+						"call feedkeys('i')	
         else
             execute windowNum.'wincmd w'
             hide 
         endif
     endif
 endfunc
-inoremap <silent> ; <esc><c-w>9h:call Togglebash()<CR>
-nnoremap <silent> ; <c-w>9h:call Togglebash()<CR>
-tnoremap <silent> ; <c-\><c-n><c-w>9h:call Togglebash()<CR>
+inoremap <silent> ; <esc><c-w>9h:call Togglebash()<CR>:call Terins()<cr>
+nnoremap <silent> ; <c-w>9h:call Togglebash()<CR>:call Terins()<cr>
+tnoremap <silent> ; <c-\><c-n><c-w>9h:call Togglebash()<CR>:call Terins()<cr>
 "--------------------------BufferSwitch---------------------------"
 func Switch(r)
 	if &buftype == 'terminal' || bufname('%') =~ "help" || bufname('%') =~ "Netrw"
