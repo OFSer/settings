@@ -19,6 +19,9 @@ func Del()
 		if bufname(i) == ""
 			exe "bw! ".i
 		endif
+		if bufname(i) =~ "/bin/bash" && Exist(i) == 0
+			exe "bw! ".i
+		endif
 	endfor
 endfunc
 func Exist(x)
@@ -73,6 +76,21 @@ endfunc
 func Terins()
 	if &buftype == 'terminal'
 		call feedkeys('i')
+	endif
+endfunc
+func CloseNetrw()
+	if tabpagenr('$') == 1
+		return
+	endif
+	let a=tabpagebuflist()
+	let flag=1
+	for i in a
+		if bufname(i) !~ "Netrw"
+			let flag=0
+		endif
+	endfor
+	if flag == 1
+		exe "q!"
 	endif
 endfunc
 "--------------------------Explorer----------------------------------"
@@ -225,6 +243,7 @@ func Tabclose()
 		endif
 	endfor
 	call Del()
+	call CloseNetrw()
 endfunc
 tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr>:call Terins()<cr>
 nnoremap <silent> c :call Tabclose()<cr>:call Terins()<cr>
@@ -242,7 +261,7 @@ func Close()
 	endif
 	exe "w"
 	let t=Next(nr)
-	if nr == t
+	if nr == t || tabpagenr() !=1
 		exe "q!"
 	else
 		exe "b! ".Next(nr)
@@ -250,8 +269,8 @@ func Close()
 	exe "bw! ".nr
 endfunc
 "tnoremap <silent> w w
-tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call Terins()<cr>
-nnoremap <silent> w :call Close()<cr>:call Terins()<cr>
+tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
+nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
 "--------------------------Quit-------------------------------"
 func Quit()
 	let nr=bufnr('%')
@@ -265,15 +284,16 @@ func Quit()
 		return
 	endif
 	let t=Next(nr)
-	if nr == t
+	if nr == t || tabpagenr() !=1
 		exe "q!"
 	else
 		exe "b! ".Next(nr)
 	endif
 	exe "bw! ".nr
+	call CloseNetrw()
 endfunc
-tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call Terins()<cr>
-nnoremap <silent> q :call Quit()<cr>:call Terins()<cr>
+tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
+nnoremap <silent> q :call Quit()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
 "--------------------------Compile&&Run-------------------------------"
 map <silent> <F3> :call Bomp()<CR>
 func Bomp()
@@ -345,7 +365,7 @@ inoremap <silent> p <esc>:call Switch(1)<cr>
 
 
 "--------------------------Test-------------------------------"
-autocmd VimEnter * :Vexplore | call feedkeys("\<c-w>l")
+autocmd VimEnter * :Lexplore | call feedkeys("\<c-w>l")
 autocmd TabNew * silent call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>l:call Terins()\<cr>", 'n')
 
 
