@@ -1,4 +1,4 @@
-"--------------------------Options----------------------------------"
+"--------------------------Options-----------------------------------"
 set ai
 set nu
 set ts=2
@@ -12,6 +12,7 @@ set ttimeoutlen=0
 set timeoutlen=0
 set updatetime=0
 autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '/bin/bash' || bufname('%') == 'Togglebash') | set nonu | endif
+autocmd BufLeave,FocusLost * silent! wall
 "--------------------------GetBuffer---------------------------------"
 func Del()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
@@ -26,8 +27,20 @@ func Del()
 endfunc
 func Exist(x)
 	let tn=tabpagenr('$')
-	for i in range(tn)
-		if index(tabpagebuflist(i+1),a:x)>=0
+	for i in range(1,tn)
+		if index(tabpagebuflist(i),a:x)>=0
+			return 1
+		endif
+	endfor
+	return 0
+endfunc
+func ExistOther(tp,x)
+	let tn=tabpagenr('$')
+	for i in range(1,tn)
+		if i == a:tp
+			continue
+		endif
+		if index(tabpagebuflist(i),a:x)>=0
 			return 1
 		endif
 	endfor
@@ -250,6 +263,8 @@ nnoremap <silent> c :call Tabclose()<cr>:call Terins()<cr>
 "--------------------------Save&&Quit-------------------------"
 func Close()
 	let nr=bufnr('%')
+	let tp=tabpagenr()
+	let flag=ExistOther(tp,nr)
 	if &buftype == 'terminal' 
 		exe "q!"
 		exe "bw! ".nr
@@ -266,7 +281,9 @@ func Close()
 	else
 		exe "b! ".Next(nr)
 	endif
-	exe "bw! ".nr
+	if flag == 0
+		exe "bw! ".nr
+	endif
 endfunc
 "tnoremap <silent> w w
 tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
@@ -274,6 +291,8 @@ nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
 "--------------------------Quit-------------------------------"
 func Quit()
 	let nr=bufnr('%')
+	let tp=tabpagenr()
+	let flag=ExistOther(tp,nr)
 	if &buftype == 'terminal' 
 		exe "q!"
 		exe "bw! ".nr
@@ -289,8 +308,10 @@ func Quit()
 	else
 		exe "b! ".Next(nr)
 	endif
-	exe "bw! ".nr
-	call CloseNetrw()
+	if flag == 0
+		exe "bw! ".nr
+	endif
+	"call CloseNetrw()
 endfunc
 tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
 nnoremap <silent> q :call Quit()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
@@ -335,9 +356,17 @@ func Togglebash()
         endif
     endif
 endfunc
-inoremap <silent> ; <esc>:call Togglebash()<CR>:call Terins()<cr>
-nnoremap <silent> ; :call Togglebash()<CR>:call Terins()<cr>
-tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>:call Terins()<cr>
+func MoveLeft()
+	if bufname('%') =~ 'Netrw'
+		call feedkeys("\<c-w>l")
+	endif
+endfunc
+inoremap <silent> ; <esc><c-w>l:call Togglebash()<CR>:call Terins()<cr>
+nnoremap <silent> ; <c-w>l:call Togglebash()<CR>:call Terins()<cr>
+tnoremap <silent> ; <c-\><c-n>:call MoveLeft()<cr>:call Togglebash()<CR>:call Terins()<cr>
+"inoremap <silent> ; <esc>:call Togglebash()<CR>
+"nnoremap <silent> ; :call Togglebash()<CR>
+"tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>
 "--------------------------BufferSwitch---------------------------"
 func Switch(r)
 	if &buftype == 'terminal' || bufname('%') =~ "help" || bufname('%') =~ "Netrw"
