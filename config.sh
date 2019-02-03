@@ -96,6 +96,16 @@ config_vscode(){
 	echo "fs.inotify.max_user_watches=524288" | sudo tee -a /etc/sysctl.conf > /dev/null
 	sudo sysctl -p
 }
+config_privoxy(){
+	sudo apt install shadowsocks -y
+	sudo apt install privoxy -y
+	echo 'listen-address 127.0.0.1:8118
+forward-socks5t / 127.0.0.1:1080 .
+forward         192.168../     .
+forward            10.../     .
+forward           127.../     .' | sudo tee /etc/privoxy/config > /dev/null
+	sudo service privoxy restart
+}
 run(){
 	system_setting
 	config_mouse
@@ -106,6 +116,7 @@ run(){
 	install_sogou
 	install_lang
 	config_vscode
+	config_privoxy
 }
 push(){
 	git add .

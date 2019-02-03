@@ -16,8 +16,6 @@ chmod +x config.sh
 
 ## GFW
 ```sh
-sudo apt install shadowsocks -y
-sudo apt install privoxy -y
 nohup sudo sslocal -c socks.json &
 nohup google-chrome --proxy-server=socks5://127.0.0.1:1080 &
 ```
