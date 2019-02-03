@@ -104,7 +104,6 @@ forward-socks5t / 127.0.0.1:1080 .
 forward         192.168../     .
 forward            10.../     .
 forward           127.../     .' | sudo tee /etc/privoxy/config > /dev/null
-	sudo service privoxy restart
 }
 run(){
 	system_setting
@@ -134,7 +133,8 @@ proxy_run(){
 	export http_proxy=http://127.0.0.1:8118
 	export https_proxy=http://127.0.0.1:8118
 	export ftp_proxy=http://127.0.0.1:8118
-	nohup sudo sslocal -c socks.json > /dev/null 2>&1 &
+	sudo service privoxy restart
+	sudo sslocal -c socks.json > /dev/null 2>&1 &
 }
 a=($@)
 for i in ${a[@]};do 

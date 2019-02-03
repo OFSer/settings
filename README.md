@@ -16,7 +16,7 @@ chmod +x config.sh
 
 ## GFW
 ```sh
-nohup sudo sslocal -c socks.json &
+. config.sh proxy_run
 nohup google-chrome --proxy-server=socks5://127.0.0.1:1080 &
 ```
 
