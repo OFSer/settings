@@ -130,6 +130,12 @@ pull(){
 	dconf dump / > .dconf
 	dconf load / < .dconf
 }
+proxy_run(){
+	export http_proxy=http://127.0.0.1:8118
+	export https_proxy=http://127.0.0.1:8118
+	export ftp_proxy=http://127.0.0.1:8118
+	nohup sudo sslocal -c socks.json > /dev/null 2>&1 &
+}
 a=($@)
 for i in ${a[@]};do 
 	$i
