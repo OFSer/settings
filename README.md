@@ -1,9 +1,12 @@
 # Settings for Ubuntu18.04
+-----------------------------
+## reset settings
 ```sh
 cd ~
 git init
 git remote add origin https://github.com/chinnkarahoi/settings
 git fetch --all
+git checkout -b unity
 git reset --hard origin/unity
 git branch --set-upstream-to=origin/unity
 git add .
@@ -11,15 +14,13 @@ git reset HEAD --hard
 chmod +x config.sh
 ./config.sh run
 ```
+-----------------------------
 
-
-
-## GFW
+## GFW config & run
 ```sh
 . config.sh proxy_run
 nohup google-chrome --proxy-server=socks5://127.0.0.1:1080 &
 ```
-
 ### socks.json
 ```json
 {
