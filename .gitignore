@@ -35,3 +35,5 @@
 .local/lib/
 .config/ibus/
 .local/share/recently-used.xbel
+.local/share/icc/
+.local/share/session_migration-ubuntu-wayland
