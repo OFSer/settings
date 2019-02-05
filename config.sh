@@ -99,11 +99,20 @@ config_vscode(){
 config_privoxy(){
 	sudo apt install shadowsocks -y
 	sudo apt install privoxy -y
-	echo 'listen-address 127.0.0.1:8118
-forward-socks5t / 127.0.0.1:1080 .
-forward         192.168../     .
-forward            10.../     .
-forward           127.../     .' | sudo tee /etc/privoxy/config > /dev/null
+	curl -4sSkLO https://raw.github.com/zfl9/gfwlist2privoxy/master/gfwlist2privoxy
+	bash gfwlist2privoxy 127.0.0.1:1080
+	sudo mv -f gfwlist.action /etc/privoxy/
+	echo 'listen-address 127.0.0.1:8118' | sudo tee /etc/privoxy/config > /dev/null
+	echo 'actionsfile /etc/privoxy/gfwlist.action' | sudo tee -a /etc/privoxy/config > /dev/null
+	rm gfwlist2privoxy
+}
+proxy_run(){
+	proxy="http://127.0.0.1:8118"
+	export http_proxy=$proxy
+	export https_proxy=$proxy
+	export no_proxy="localhost, 127.0.0.1, ::1, ip.cn, chinaz.com"
+	sudo service privoxy restart
+	sudo sslocal -c socks.json > /dev/null 2>&1 &
 }
 run(){
 	system_setting
@@ -129,13 +138,7 @@ pull(){
 	dconf dump / > .dconf
 	dconf load / < .dconf
 }
-proxy_run(){
-	export http_proxy=http://127.0.0.1:8118
-	export https_proxy=http://127.0.0.1:8118
-	export ftp_proxy=http://127.0.0.1:8118
-	sudo service privoxy restart
-	sudo sslocal -c socks.json > /dev/null 2>&1 &
-}
+
 a=($@)
 for i in ${a[@]};do 
 	$i

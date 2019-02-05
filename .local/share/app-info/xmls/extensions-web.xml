@@ -11103,7 +11103,7 @@
     <id>hidetopbar_mathieu.bidon.ca</id>
     <name>Hide Top Bar</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Hides the top bar, except in overview. However, there is an option to show the panel whenever the mouse pointer approaches the edge of the screen. And if &quot;intellihide&quot; is enabled, the panel only hides when a window takes the space.</p></description>
+    <description><p>Hides the top bar, except in overview. However, there is an option to show the panel whenever the mouse pointer approaches the edge of the screen. And if &quot;intellihide&quot; is enabled, the panel only hides when a window takes the space.</p><p>Usage note: To clear the shortcut, press backspace in the settings.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>

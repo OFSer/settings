@@ -135,6 +135,7 @@ callssh(){
 		/usr/bin/ssh -o StrictHostKeyChecking=no -tX $*
 	fi
 }
+alias mysvr='\ssh root@107.174.65.12'
 alias logout=$'ps -ef | grep tty2 | awk \'{print $2}\' | head -n 1 | xargs kill'
 alias date='env LC_TIME=en_US.UTF-8 date'
 solve(){
