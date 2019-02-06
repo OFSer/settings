@@ -37,3 +37,4 @@
 .local/share/recently-used.xbel
 .local/share/icc/
 .local/share/session_migration-ubuntu-wayland
+.local/share/xorg/Xorg.0.log
