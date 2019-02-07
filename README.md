@@ -26,7 +26,7 @@ chmod +x config.sh
 ```json
 {
 	"server": "",
-	"server_port": 22951,
+	"server_port": 12345,
 	"password": "",
 	"method": "aes-256-cfb",
 	"local_address": "127.0.0.1",

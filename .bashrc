@@ -128,7 +128,6 @@ alias sp='sshpass -p 87Co7r '
 alias ssh='callssh'
 alias docker='sudo \docker'
 callssh(){
-	echo $3
 	if [[ $3 == "hypereal@registry-corp.hypereal.com" ]];then
 		sshpass -p 87Co7r /usr/bin/ssh -o StrictHostKeyChecking=no $*
 	else
