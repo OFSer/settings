@@ -17,11 +17,12 @@ chmod +x config.sh
 -----------------------------
 
 ## GFW config & run
+### local
 ```sh
+. config.sh config_priproxy
 . config.sh proxy_run
-nohup google-chrome --proxy-server=socks5://127.0.0.1:1080 &
 ```
-### socks.json
+#### socks.json
 ```json
 {
 	"server": "",
@@ -31,4 +32,11 @@ nohup google-chrome --proxy-server=socks5://127.0.0.1:1080 &
 	"local_address": "127.0.0.1",
 	"local_port": 1080
 }
+```
+### server
+```sh
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+bash shadowsocks-all.sh
+wget https://github.com/tcp-nanqinlang/lkl-rinetd/releases/download/1.1.0/tcp_nanqinlang-rinetd-debianorubuntu.sh
+bash tcp_nanqinlang-rinetd-debianorubuntu.sh
 ```
