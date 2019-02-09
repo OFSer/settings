@@ -389,7 +389,7 @@ inoremap <silent> p <esc>:call Switch(1)<cr>
 "inoremap { {}<ESC>i
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
 "--------------------------Test-------------------------------"
-autocmd VimEnter * :Lexplore | call feedkeys("\<c-w>l")
+"autocmd VimEnter * :Lexplore | call feedkeys("\<c-w>l")
 autocmd TabNew * silent call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>l:call Terins()\<cr>", 'n')
 
 
