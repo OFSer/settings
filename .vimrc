@@ -107,7 +107,7 @@ func CloseNetrw()
 	endif
 endfunc
 "--------------------------Explorer----------------------------------"
-let g:netrw_list_hide = '^\..*'
+let g:netrw_list_hide = '.*\.sw.*'
 let g:netrw_winsize = 15
 let g:netrw_liststyle = 3
 let g:netrw_banner = 0
@@ -344,7 +344,7 @@ func Togglebash()
     if bufferNum == -1 || bufloaded(bufferNum) != 1
         silent execute 'rightbelow term ++close ++kill=term '.g:toggle_bash#command
         silent file Togglebash
-				call feedkeys("rm .Togglebash.swp > /dev/null 2&>1\nclear\n")
+				call feedkeys("rm .Togglebash.swp > /dev/null 2>&1\nclear\n")
     else
         let windowNum = bufwinnr(bufferNum)
         if windowNum == -1
