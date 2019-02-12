@@ -35,3 +35,9 @@
 .local/lib/
 .config/ibus/
 .local/share/recently-used.xbel
+.local/share/NuGet/
+.local/share/osu/
+.local/share/vulkan/
+.local/share/vulkan/
+.local/share/app-info/xmls/extensions-web.xml
+.config/Trolltech.conf

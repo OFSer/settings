@@ -190,7 +190,7 @@ nnoremap <c-v> "+P
 vnoremap <c-c> "+y
 vnoremap <c-x> "+d
 "--------------------------bash-----------------------------------"
-tnoremap <c-[> <c-\><c-n>
+"tnoremap <c-[> <c-\><c-n>
 "noremap <silent> ; :below term<CR>
 "--------------------------Tab-----------------------------------"
 func Tervspl()
@@ -236,7 +236,7 @@ tnoremap <silent>  h <c-\><c-n><c-w>h:call Terins()<cr>
 tnoremap <silent>  j <c-\><c-n><c-w>j:call Terins()<cr>
 tnoremap <silent>  k <c-\><c-n><c-w>k:call Terins()<cr>
 tnoremap <silent>  l <c-\><c-n><c-w>l:call Terins()<cr>
-tnoremap <silent>  ww <c-w>w:call Terins()<cr>
+"tnoremap <silent>  ww <c-w>w:call Terins()<cr>
 inoremap <silent>  w <esc><c-w>:call Terins()<cr>
 inoremap <silent>  h <esc><c-w>h:call Terins()<cr>
 inoremap <silent>  j <esc><c-w>j:call Terins()<cr>
@@ -286,7 +286,7 @@ func Close()
 	endif
 endfunc
 "tnoremap <silent> w w
-tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
+"tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
 nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
 "--------------------------Quit-------------------------------"
 func Quit()
@@ -389,12 +389,5 @@ inoremap <silent> p <esc>:call Switch(1)<cr>
 "inoremap { {}<ESC>i
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
 "--------------------------Test-------------------------------"
-autocmd VimEnter * :Lexplore | call feedkeys("\<c-w>l")
+"autocmd VimEnter * :Lexplore | call feedkeys("\<c-w>l")
 autocmd TabNew * silent call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>l:call Terins()\<cr>", 'n')
-
-
-
-
-
-
-
