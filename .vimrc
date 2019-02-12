@@ -231,18 +231,18 @@ nnoremap <silent>  h <c-w>h:call Terins()<cr>
 nnoremap <silent>  j <c-w>j:call Terins()<cr>
 nnoremap <silent>  k <c-w>k:call Terins()<cr>
 nnoremap <silent>  l <c-w>l:call Terins()<cr>
-nnoremap <silent>  ww <c-w>w:call Terins()<cr>
+"nnoremap <silent>  ww <c-w>w:call Terins()<cr>
 tnoremap <silent>  h <c-\><c-n><c-w>h:call Terins()<cr>
 tnoremap <silent>  j <c-\><c-n><c-w>j:call Terins()<cr>
 tnoremap <silent>  k <c-\><c-n><c-w>k:call Terins()<cr>
 tnoremap <silent>  l <c-\><c-n><c-w>l:call Terins()<cr>
 "tnoremap <silent>  ww <c-w>w:call Terins()<cr>
-inoremap <silent>  w <esc><c-w>:call Terins()<cr>
+"inoremap <silent>  w <esc><c-w>:call Terins()<cr>
 inoremap <silent>  h <esc><c-w>h:call Terins()<cr>
 inoremap <silent>  j <esc><c-w>j:call Terins()<cr>
 inoremap <silent>  k <esc><c-w>k:call Terins()<cr>
 inoremap <silent>  l <esc><c-w>l:call Terins()<cr>
-inoremap <silent>  ww <esc><c-w>w:call Terins()<cr>
+"inoremap <silent>  ww <esc><c-w>w:call Terins()<cr>
 "--------------------------TabClose---------------------------"
 func Tabclose()
 	if tabpagenr('$')==1 
