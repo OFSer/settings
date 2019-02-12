@@ -41,3 +41,9 @@
 .local/share/vulkan/
 .local/share/app-info/xmls/extensions-web.xml
 .config/Trolltech.conf
+.local/share/icc/
+.local/share/session_migration-ubuntu-wayland
+.local/share/xorg/Xorg.0.log
+.local/share/app-info/xmls/extensions-web.xml
+.local/share/vulkan/implicit_layer.d/steamfossilize_i386.json
+.local/share/vulkan/implicit_layer.d/steamfossilize_x86_64.json

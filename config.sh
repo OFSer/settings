@@ -96,6 +96,24 @@ config_vscode(){
 	echo "fs.inotify.max_user_watches=524288" | sudo tee -a /etc/sysctl.conf > /dev/null
 	sudo sysctl -p
 }
+config_privoxy(){
+	sudo apt install shadowsocks -y
+	sudo apt install privoxy -y
+	curl -4sSkLO https://raw.github.com/zfl9/gfwlist2privoxy/master/gfwlist2privoxy
+	bash gfwlist2privoxy 127.0.0.1:1080
+	sudo mv -f gfwlist.action /etc/privoxy/
+	echo 'listen-address 127.0.0.1:8118' | sudo tee /etc/privoxy/config > /dev/null
+	echo 'actionsfile /etc/privoxy/gfwlist.action' | sudo tee -a /etc/privoxy/config > /dev/null
+	rm gfwlist2privoxy
+}
+proxy_run(){
+	proxy="http://127.0.0.1:8118"
+	export http_proxy=$proxy
+	export https_proxy=$proxy
+	export no_proxy="localhost, 127.0.0.1, ::1, ip.cn, chinaz.com"
+	sudo service privoxy restart
+	sudo sslocal -c socks.json > /dev/null 2>&1 &
+}
 run(){
 	system_setting
 	config_mouse
@@ -106,6 +124,7 @@ run(){
 	install_sogou
 	install_lang
 	config_vscode
+	config_privoxy
 }
 push(){
 	git add .
@@ -119,6 +138,7 @@ pull(){
 	dconf dump / > .dconf
 	dconf load / < .dconf
 }
+
 a=($@)
 for i in ${a[@]};do 
 	$i

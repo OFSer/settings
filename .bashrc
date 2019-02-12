@@ -128,13 +128,13 @@ alias sp='sshpass -p 87Co7r '
 alias ssh='callssh'
 alias docker='sudo \docker'
 callssh(){
-	echo $3
 	if [[ $3 == "hypereal@registry-corp.hypereal.com" ]];then
 		sshpass -p 87Co7r /usr/bin/ssh -o StrictHostKeyChecking=no $*
 	else
 		/usr/bin/ssh -o StrictHostKeyChecking=no -tX $*
 	fi
 }
+export svr='107.174.65.12'
 alias logout=$'ps -ef | grep tty2 | awk \'{print $2}\' | head -n 1 | xargs kill'
 alias date='env LC_TIME=en_US.UTF-8 date'
 solve(){
