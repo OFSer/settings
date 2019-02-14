@@ -11,7 +11,7 @@ hi goSpaceError ctermbg=256
 set ttimeoutlen=0
 set timeoutlen=0
 set updatetime=0
-autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '/bin/bash' || bufname('%') == 'Togglebash') | set nonu | endif
+autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '/bin/bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'Netrw') | set nonu | else | set nu | endif
 autocmd BufLeave,FocusLost * silent! wall
 "--------------------------GetBuffer---------------------------------"
 func Del()
@@ -185,7 +185,7 @@ nnoremap <silent> <c-l> l
 "--------------------------Edit--------------------------------------"
 inoremap <c-u> <esc>0d$a
 inoremap <c-y> <esc>pa
-nnoremap <c-a> maggvG
+nnoremap <c-a> maggvG$
 nnoremap <c-v> "+P
 vnoremap <c-c> "+y
 vnoremap <c-x> "+d

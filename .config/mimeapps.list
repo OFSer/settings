@@ -9,3 +9,4 @@ application/x-shellscript=org.gnome.gedit.desktop
 [Added Associations]
 application/x-shellscript=org.gnome.gedit.desktop;
 model/x.stl-binary=vmware-workstation.desktop;
+text/calendar=org.gnome.gedit.desktop;
