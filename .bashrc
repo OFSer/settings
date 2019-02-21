@@ -157,6 +157,7 @@ solve(){
 }
 alias git='Git'
 Git(){
+	IFS=$'\n'
 	\git rev-parse --is-inside-work-tree > /dev/null || return
 	prepwd=`pwd`
 	toplevel="$(\git rev-parse --show-toplevel)/"
@@ -181,3 +182,18 @@ Git(){
 	done
 	cd $prepwd
 }
+alias cd='mycd'
+mycd(){
+	\cd "$@"
+	IFS=$'\n'
+	for i in `dirs -p | sed -n '2,$p'`;do
+		[[ "`eval echo $i`" ==  "`pwd`" ]] && return
+	done
+	pushd . &> /dev/null
+}
+alias osu='LD_LIBRARY_PATH="~/osu/osu.Desktop/bin/Debug/netcoreapp2.2" sudo dotnet run --project ~/osu/osu.Desktop &> /dev/null 2>&1 &'
+
+
+
+
+
