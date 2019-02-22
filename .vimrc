@@ -361,9 +361,9 @@ func MoveLeft()
 		call feedkeys("\<c-w>l")
 	endif
 endfunc
-inoremap <silent> ; <esc><c-w>l:call Togglebash()<CR>
-nnoremap <silent> ; <c-w>l:call Togglebash()<CR>
-tnoremap <silent> ; <c-\><c-n>:call MoveLeft()<cr>:call Togglebash()<CR>>
+inoremap <silent> ; <esc><c-w>l:call Togglebash()<CR>:call Terins()<cr>
+nnoremap <silent> ; <c-w>l:call Togglebash()<CR>:call Terins()<cr>
+tnoremap <silent> ; <c-\><c-n>:call MoveLeft()<cr>:call Togglebash()<CR>:call Terins()<cr>
 "inoremap <silent> ; <esc>:call Togglebash()<CR>
 "nnoremap <silent> ; :call Togglebash()<CR>
 "tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>
