@@ -215,12 +215,18 @@ inoremap <silent> < <esc>:tabm -<cr>i
 nnoremap <silent> < <esc>:tabm -<cr>
 tnoremap <silent> < <c-\><c-n>:tabm -<cr>i
 
-inoremap <silent> , <esc>gT<cr>
-nnoremap <silent> , <esc>gT<cr>
-tnoremap <silent> , <c-\><c-n>gT<cr>
-inoremap <silent> . <esc>gt<cr>
-nnoremap <silent> . <esc>gt<cr>
-tnoremap <silent> . <c-\><c-n>gt<cr>
+inoremap <silent> , <esc>gT:call Terins()<cr>
+nnoremap <silent> , <esc>gT:call Terins()<cr>
+tnoremap <silent> , <c-\><c-n>gT:call Terins()<cr>
+inoremap <silent> . <esc>gt:call Terins()<cr>
+nnoremap <silent> . <esc>gt:call Terins()<cr>
+tnoremap <silent> . <c-\><c-n>gt:call Terins()<cr>
+inoremap <silent> H <esc>gT
+nnoremap <silent> H <esc>gT
+tnoremap <silent> H <c-\><c-n>gT
+inoremap <silent> L <esc>gt
+nnoremap <silent> L <esc>gt
+tnoremap <silent> L <c-\><c-n>gt
 nnoremap <silent> t :tab term<cr>
 inoremap <silent> t <esc>:tab term<cr>
 tnoremap <silent> t <c-\><c-n>:tab term<cr>
