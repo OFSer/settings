@@ -346,21 +346,21 @@ endfunc
 let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
 let g:loaded_toggle_bash = 1
 func Togglebash()
-    let bufferNum = bufnr('Togglebash')
-    if bufferNum == -1 || bufloaded(bufferNum) != 1
-        silent execute 'rightbelow term ++close ++kill=term '.g:toggle_bash#command
-        silent file Togglebash
+	let bufferNum = bufnr('Togglebash')
+	if bufferNum == -1 || bufloaded(bufferNum) != 1
+		silent execute 'rightbelow term ++close ++kill=term '.g:toggle_bash#command
+		silent file Togglebash
 				call feedkeys("rm .Togglebash.swp > /dev/null 2>&1\nclear\n")
-    else
-        let windowNum = bufwinnr(bufferNum)
-        if windowNum == -1
-            silent execute 'rightbelow sbuffer '.bufferNum
+	else
+		let windowNum = bufwinnr(bufferNum)
+		if windowNum == -1
+			silent execute 'rightbelow sbuffer '.bufferNum
 						"call feedkeys('i')	
-        else
-            execute windowNum.'wincmd w'
-            hide 
-        endif
-    endif
+		else
+			execute windowNum.'wincmd w'
+			hide 
+		endif
+	endif
 endfunc
 func MoveLeft()
 	if bufname('%') =~ 'Netrw'
