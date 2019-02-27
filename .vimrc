@@ -350,7 +350,7 @@ func Togglebash()
 	if bufferNum == -1 || bufloaded(bufferNum) != 1
 		silent execute 'rightbelow term ++close ++kill=term '.g:toggle_bash#command
 		silent file Togglebash
-				call feedkeys("rm .Togglebash.swp > /dev/null 2>&1\nclear\n")
+		call feedkeys("rm .Togglebash.swp > /dev/null 2>&1\nclear\n")
 	else
 		let windowNum = bufwinnr(bufferNum)
 		if windowNum == -1
@@ -367,9 +367,17 @@ func MoveLeft()
 		call feedkeys("\<c-w>l")
 	endif
 endfunc
+func CloseTogglebash()
+	if bufnr('Togglebash') >= 0
+		exe 'bw! Togglebash'
+	endif
+endfunc
 inoremap <silent> ; <esc><c-w>l:call Togglebash()<CR>:call Terins()<cr>
 nnoremap <silent> ; <c-w>l:call Togglebash()<CR>:call Terins()<cr>
 tnoremap <silent> ; <c-\><c-n>:call MoveLeft()<cr>:call Togglebash()<CR>:call Terins()<cr>
+inoremap <silent> : <esc><c-w>l:call CloseTogglebash()<cr>:call Togglebash()<CR>:call Terins()<cr>
+nnoremap <silent> : <c-w>l:call CloseTogglebash()<cr>:call Togglebash()<CR>:call Terins()<cr>
+tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call MoveLeft()<cr>:call Togglebash()<CR>:call Terins()<cr>
 "inoremap <silent> ; <esc>:call Togglebash()<CR>
 "nnoremap <silent> ; :call Togglebash()<CR>
 "tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>
@@ -434,7 +442,6 @@ endfunc
 vnoremap <silent> / :<c-u>call Comment()<cr>
 vnoremap <silent>  :<c-u>call Uncomment()<cr>
 "<c-v>I#<esc><esc>
-
 autocmd BufEnter * silent! lcd %:p:h
 
 
