@@ -414,6 +414,9 @@ func Comment()
 	if &filetype == 'sh' || &filetype == 'py'
 		silent! exe line_start.','.line_end.'s/^[^#]/#&/'
 	endif
+	if bufname('%') =~ 'vimrc'
+		silent! exe line_start.','.line_end.'s/^[^"]/"&/'
+	endif
 endfunc
 func Uncomment()
   let [line_start, column_start] = getpos("'<")[1:2]
@@ -423,6 +426,9 @@ func Uncomment()
 	endif
 	if &filetype == 'sh' || &filetype == 'py'
 		silent! exe line_start.','.line_end.'s/^#//'
+	endif
+	if bufname('%') =~ 'vimrc'
+		silent! exe line_start.','.line_end.'s/^"//'
 	endif
 endfunc
 vnoremap <silent> / :<c-u>call Comment()<cr>
