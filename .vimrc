@@ -392,8 +392,44 @@ inoremap <silent> n <esc>:call Switch(0)<cr>
 nnoremap <silent> p :call Switch(1)<cr>
 inoremap <silent> p <esc>:call Switch(1)<cr>
 "--------------------------Trash-------------------------------"
-"inoremap { {}<ESC>i
+inoremap } }<ESC>==A
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
 "--------------------------Test-------------------------------"
 "autocmd VimEnter * :Lexplore | call feedkeys("\<c-w>l")
 autocmd TabNew * silent call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>l:call Terins()\<cr>", 'n')
+func Format()
+	if &filetype == 'cpp'
+		exec "w"
+		silent exec "!clang-format -i -style='{BasedOnStyle: WebKit, IndentWidth: 2,BreakBeforeBraces: Custom}' %"
+		exec "!sed -i 's/  /	/g' %"
+	endif
+endfunc
+nnoremap <silent> <c-I> :call Format()<cr>
+func Comment()
+  let [line_start, column_start] = getpos("'<")[1:2]
+  let [line_end, column_end] = getpos("'>")[1:2]
+	if &filetype == 'cpp'
+		silent! exe line_start.','.line_end.'s/^\([^/]\|\/[^/]\)/\/\/&'
+	endif
+	if &filetype == 'sh' || &filetype == 'py'
+		silent! exe line_start.','.line_end.'s/^[^#]/#&/'
+	endif
+endfunc
+func Uncomment()
+  let [line_start, column_start] = getpos("'<")[1:2]
+  let [line_end, column_end] = getpos("'>")[1:2]
+	if &filetype == 'cpp'
+		silent! exe line_start.','.line_end.'s/^\/\//'
+	endif
+	if &filetype == 'sh' || &filetype == 'py'
+		silent! exe line_start.','.line_end.'s/^#//'
+	endif
+endfunc
+vnoremap <silent> / :<c-u>call Comment()<cr>
+vnoremap <silent>  :<c-u>call Uncomment()<cr>
+"<c-v>I#<esc><esc>
+
+
+
+
+
