@@ -435,6 +435,7 @@ vnoremap <silent> / :<c-u>call Comment()<cr>
 vnoremap <silent>  :<c-u>call Uncomment()<cr>
 "<c-v>I#<esc><esc>
 
+autocmd BufEnter * silent! lcd %:p:h
 
 
 
