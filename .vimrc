@@ -190,7 +190,7 @@ nnoremap <c-v> "+P
 vnoremap <c-c> "+y
 vnoremap <c-x> "+d
 "--------------------------bash-----------------------------------"
-"tnoremap <c-[> <c-\><c-n>
+tnoremap <c-\> <c-\><c-n>
 "noremap <silent> ; :below term<CR>
 "--------------------------Tab-----------------------------------"
 func Tervspl()
@@ -227,9 +227,9 @@ tnoremap <silent> H <c-\><c-n>gT
 inoremap <silent> L <esc>gt
 nnoremap <silent> L <esc>gt
 tnoremap <silent> L <c-\><c-n>gt
-nnoremap <silent> t :tab term<cr>
-inoremap <silent> t <esc>:tab term<cr>
-tnoremap <silent> t <c-\><c-n>:tab term<cr>
+nnoremap <silent> t :tab term bash<cr>
+inoremap <silent> t <esc>:tab term bash<cr>
+tnoremap <silent> t <c-\><c-n>:tab term bash<cr>
 tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
 tnoremap <silent> \ <c-\><c-n>:call Tervspl()<cr>
 "--------------------------WindowMap-------------------------------"
@@ -409,20 +409,20 @@ func Comment()
   let [line_start, column_start] = getpos("'<")[1:2]
   let [line_end, column_end] = getpos("'>")[1:2]
 	if &filetype == 'cpp'
-		silent! exe line_start.','.line_end.'s/^\([^/]\|\/[^/]\)/\/\/&'
+		silent! exe line_start.','.line_end.'s/^/\/\//'
 	endif
 	if &filetype == 'sh' || &filetype == 'py'
-		silent! exe line_start.','.line_end.'s/^[^#]/#&/'
+		silent! exe line_start.','.line_end.'s/^/#/'
 	endif
 	if bufname('%') =~ 'vimrc'
-		silent! exe line_start.','.line_end.'s/^[^"]/"&/'
+		silent! exe line_start.','.line_end.'s/^/"/'
 	endif
 endfunc
 func Uncomment()
   let [line_start, column_start] = getpos("'<")[1:2]
   let [line_end, column_end] = getpos("'>")[1:2]
 	if &filetype == 'cpp'
-		silent! exe line_start.','.line_end.'s/^\/\//'
+		silent! exe line_start.','.line_end.'s/^\/\///'
 	endif
 	if &filetype == 'sh' || &filetype == 'py'
 		silent! exe line_start.','.line_end.'s/^#//'
