@@ -11,7 +11,7 @@ hi goSpaceError ctermbg=256
 set ttimeoutlen=0
 set timeoutlen=0
 set updatetime=0
-autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ 'bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'Netrw') | set nonu | else | set nu | endif
+autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'Netrw') | set nonu | else | set nu | endif
 autocmd BufLeave,FocusLost * silent! wall
 "--------------------------GetBuffer---------------------------------"
 func Del()
@@ -20,7 +20,7 @@ func Del()
 		if bufname(i) == ""
 			exe "bw! ".i
 		endif
-		if bufname(i) =~ "/bin/bash" && Exist(i) == 0
+		if bufname(i) =~ "!bash" && Exist(i) == 0
 			exe "bw! ".i
 		endif
 	endfor
@@ -51,7 +51,7 @@ func Next(x)
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
 	let n=len(a)
 	for i in a
-		if &buftype == 'terminal' || bufname(i) == 'Togglebash' || Exist(i) == 1
+		if bufname(i) =~ '!bash' || bufname(i) == 'Togglebash' || Exist(i) == 1
 			continue
 		endif
 		if i>a:x
@@ -59,7 +59,7 @@ func Next(x)
 		endif
 	endfor
 	for i in a
-		if &buftype == 'terminal' || bufname(i) == 'Togglebash' || Exist(i) == 1
+		if bufname(i) =~ '!bash' || bufname(i) == 'Togglebash' || Exist(i) == 1
 			continue
 		endif
 		return i
@@ -71,7 +71,7 @@ func Prev(x)
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
 	let a=reverse(a)
 	for i in a
-		if &buftype == 'terminal' || bufname(i) == 'Togglebash' || Exist(i) == 1
+		if bufname(i) =~ '!bash' || bufname(i) == 'Togglebash' || Exist(i) == 1
 			continue
 		endif
 		if i<a:x
@@ -79,7 +79,7 @@ func Prev(x)
 		endif
 	endfor
 	for i in a
-		if &buftype == 'terminal' || bufname(i) == 'Togglebash' || Exist(i) == 1
+		if bufname(i) =~ '!bash' || bufname(i) == 'Togglebash' || Exist(i) == 1
 			continue
 		endif
 		return i
@@ -87,7 +87,7 @@ func Prev(x)
 	return a:x
 endfunc
 func Terins()
-	if &buftype == 'terminal'
+	if bufname('%') =~ '!bash'
 		call feedkeys('i')
 	endif
 endfunc
@@ -121,7 +121,7 @@ func Toggle()
 	if bufname('%') =~ "Netrw" && len(tabpagebuflist()) == 1
 		let n=len(a)
 		for i in a
-			if bufname(i) !~ "/bin/bash" && bufname(i) != 'Togglebash'
+			if bufname(i) !~ "!bash" && bufname(i) != 'Togglebash'
 				exe "b! ".i
 				return
 			endif
@@ -194,15 +194,15 @@ tnoremap <c-\> <c-\><c-n>
 "noremap <silent> ; :below term<CR>
 "--------------------------Tab-----------------------------------"
 func Tervspl()
-	if &buftype == 'terminal' && bufname('%') != 'Togglebash'
-		exe "rightbelow vert term"
+	if bufname('%') =~ '!bash' && bufname('%') != 'Togglebash'
+		exe "rightbelow vert term bash"
 		return 
 	endif
 	call feedkeys('i')
 endfunc
 func Terspl()
-	if &buftype == 'terminal' && bufname('%') != 'Togglebash'
-		exe "rightbelow term"
+	if bufname('%') =~ '!bash' && bufname('%') != 'Togglebash'
+		exe "rightbelow term bash"
 		return 
 	endif
 	call feedkeys('i')
@@ -257,7 +257,7 @@ func Tabclose()
 	let a=tabpagebuflist()
 	exe "tabc!"
 	for i in a
-		if bufname(i) =~ "/bin/bash"
+		if bufname(i) =~ "!bash"
 			exe "bw! ".i
 		endif
 	endfor
@@ -271,7 +271,7 @@ func Close()
 	let nr=bufnr('%')
 	let tp=tabpagenr()
 	let flag=ExistOther(tp,nr)
-	if &buftype == 'terminal' 
+	if bufname('%') =~ '!bash' 
 		exe "q!"
 		exe "bw! ".nr
 		return
@@ -299,7 +299,7 @@ func Quit()
 	let nr=bufnr('%')
 	let tp=tabpagenr()
 	let flag=ExistOther(tp,nr)
-	if &buftype == 'terminal' 
+	if bufname('%') =~ '!bash' 
 		exe "q!"
 		exe "bw! ".nr
 		return
@@ -383,7 +383,7 @@ tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call MoveLeft()<cr>:c
 "tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>
 "--------------------------BufferSwitch---------------------------"
 func Switch(r)
-	if &buftype == 'terminal' || bufname('%') =~ "help" || bufname('%') =~ "Netrw"
+	if bufname('%') =~ '!bash' || bufname('%') =~ "help" || bufname('%') =~ "Netrw"
 		return
 	endif
 	let cur=bufnr('%')
@@ -449,7 +449,7 @@ function! ExitNormalMode()
 endfunction
 
 function! EnterNormalMode()
-    if &buftype == 'terminal' && mode('') == 't'
+    if bufname('%') =~ '!bash' && mode('') == 't'
         call feedkeys("\<c-w>N")
         call feedkeys("\<c-y>")
         map <buffer> <silent> <RightMouse> :call ExitNormalMode()<CR>

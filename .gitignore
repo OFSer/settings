@@ -49,3 +49,4 @@
 .local/share/vulkan/implicit_layer.d/steamfossilize_x86_64.json
 .local/share/recently-used*
 .config/cef_user_data/
+.config/libreoffice/
