@@ -11,7 +11,7 @@ hi goSpaceError ctermbg=256
 set ttimeoutlen=0
 set timeoutlen=0
 set updatetime=0
-autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '/bin/bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'Netrw') | set nonu | else | set nu | endif
+autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ 'bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'Netrw') | set nonu | else | set nu | endif
 autocmd BufLeave,FocusLost * silent! wall
 "--------------------------GetBuffer---------------------------------"
 func Del()
@@ -443,6 +443,21 @@ vnoremap <silent> / :<c-u>call Comment()<cr>
 vnoremap <silent>  :<c-u>call Uncomment()<cr>
 "<c-v>I#<esc><esc>
 autocmd BufEnter * silent! lcd %:p:h
+function! ExitNormalMode()
+    unmap <buffer> <silent> <RightMouse>
+    call feedkeys("a")
+endfunction
+
+function! EnterNormalMode()
+    if &buftype == 'terminal' && mode('') == 't'
+        call feedkeys("\<c-w>N")
+        call feedkeys("\<c-y>")
+        map <buffer> <silent> <RightMouse> :call ExitNormalMode()<CR>
+    endif
+endfunction
+
+tmap <silent> <ScrollWheelUp> <c-w>:call EnterNormalMode()<CR>
+tmap <silent> <ScrollWheelDown> <c-w>:call EnterNormalMode()<CR>
 
 
 
