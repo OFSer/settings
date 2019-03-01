@@ -87,7 +87,7 @@ func Prev(x)
 	return a:x
 endfunc
 func Terins()
-	if bufname('%') =~ '!bash'
+	if &buftype =~ 'terminal'
 		call feedkeys('i')
 	endif
 endfunc

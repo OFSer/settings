@@ -122,7 +122,7 @@ export GOROOT="/usr/lib/go"
 export PATH="$PATH:/home/gjs/go/bin"
 alias gitamp=$'git add . && git commit -m "upd `git diff-index --name-only HEAD | sed \':a;N;$!ba;s/\\n/,/g;\'`" && git push origin'
 export PATH="/home/gjs/anaconda3/bin:$PATH"
-alias sss="sshpass -p root ssh root@dl-6 -p 30263 -t 'cd /mnt/nas-backup/home/jingsheng.gao;zsh --login'"
+alias sss="sshpass -p root ssh root@dl-6 -p 30263 -t 'bash --login'"
 alias man='PAGER=most man'
 alias sp='sshpass -p 87Co7r '
 alias ssh='callssh'
