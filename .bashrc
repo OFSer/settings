@@ -158,7 +158,7 @@ solve(){
 alias git='Git'
 Git(){
 	IFS=$'\n'
-	\git rev-parse --is-inside-work-tree > /dev/null || return
+	\git rev-parse --is-inside-work-tree &> /dev/null 2>&1 || { \git "$@";return; }
 	prepwd=`pwd`
 	toplevel="$(\git rev-parse --show-toplevel)/"
 
@@ -195,7 +195,7 @@ mycd(){
 	\cd "$@";
 }
 alias osu='LD_LIBRARY_PATH="~/osu/osu.Desktop/bin/Debug/netcoreapp2.2" sudo dotnet run --project ~/osu/osu.Desktop &> /dev/null 2>&1 &'
-
+#export LC_ALL="en_US.utf8"
 
 
 
