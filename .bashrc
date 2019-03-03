@@ -195,6 +195,7 @@ mycd(){
 	\cd "$@";
 }
 alias osu='LD_LIBRARY_PATH="~/osu/osu.Desktop/bin/Debug/netcoreapp2.2" sudo dotnet run --project ~/osu/osu.Desktop &> /dev/null 2>&1 &'
+alias mysql='\mysql --login-path=gjs'
 #export LC_ALL="en_US.utf8"
 
 

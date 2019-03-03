@@ -419,7 +419,7 @@ func Comment()
 	if &filetype == 'cpp'
 		silent! exe line_start.','.line_end.'s/^/\/\//'
 	endif
-	if &filetype == 'sh' || &filetype == 'py'
+	if &filetype == 'sh' || &filetype == 'python'
 		silent! exe line_start.','.line_end.'s/^/#/'
 	endif
 	if bufname('%') =~ 'vimrc'
@@ -432,7 +432,7 @@ func Uncomment()
 	if &filetype == 'cpp'
 		silent! exe line_start.','.line_end.'s/^\/\///'
 	endif
-	if &filetype == 'sh' || &filetype == 'py'
+	if &filetype == 'sh' || &filetype == 'python'
 		silent! exe line_start.','.line_end.'s/^#//'
 	endif
 	if bufname('%') =~ 'vimrc'
