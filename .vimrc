@@ -162,7 +162,7 @@ endfunc
 inoremap <silent> e <esc>:call Toggle()<cr>:call MoveLeft()<cr>
 nnoremap <silent> e :call Toggle()<CR>:call MoveLeft()<cr>
 tnoremap <silent> e <c-\><c-n>:call Toggle()<CR>:call MoveLeft()<cr>
-autocmd! TabNew * call TabNw()
+autocmd! TabNew * silent call TabNw()
 "autocmd! TabEnter * call TabEn() | call TabEn()
 "--------------------------Jump--------------------------------------"
 inoremap <c-l> <del>
@@ -404,7 +404,7 @@ inoremap } }<ESC>==A
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
 "--------------------------Test-------------------------------"
 "autocmd VimEnter * :Lexplore | call feedkeys("\<c-w>l")
-autocmd TabNew * silent call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>l:call Terins()\<cr>", 'n')
+autocmd TabNew * silent! call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>li", 'n')
 func Format()
 	if &filetype == 'cpp'
 		exec "w"
