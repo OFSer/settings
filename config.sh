@@ -128,6 +128,7 @@ run(){
 }
 push(){
 	git add .
+	git reset -- .config/dconf/user
 	git commit -m "upd"
 	git push
 }
