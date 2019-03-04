@@ -1,3 +1,6 @@
+set showtabline=2
+nnoremap q <nop>
+nnoremap t <nop>
 "--------------------------Options-----------------------------------"
 set ai
 set nu
@@ -217,21 +220,21 @@ inoremap <silent> < <esc>:tabm -<cr>i
 nnoremap <silent> < <esc>:tabm -<cr>
 tnoremap <silent> < <c-\><c-n>:tabm -<cr>i
 
-inoremap <silent> , <esc>gT:call Terins()<cr>
-nnoremap <silent> , <esc>gT:call Terins()<cr>
-tnoremap <silent> , <c-\><c-n>gT:call Terins()<cr>
-inoremap <silent> . <esc>gt:call Terins()<cr>
-nnoremap <silent> . <esc>gt:call Terins()<cr>
-tnoremap <silent> . <c-\><c-n>gt:call Terins()<cr>
-inoremap <silent> H <esc>gT
-nnoremap <silent> H <esc>gT
-tnoremap <silent> H <c-\><c-n>gT
-inoremap <silent> L <esc>gt
-nnoremap <silent> L <esc>gt
-tnoremap <silent> L <c-\><c-n>gt
-nnoremap <silent> t :tab term bash<cr>
-inoremap <silent> t <esc>:tab term bash<cr>
-tnoremap <silent> t <c-\><c-n>:tab term bash<cr>
+inoremap <silent> , <esc><c-w>lgT:call Terins()<cr>
+nnoremap <silent> , <esc><c-w>lgT:call Terins()<cr>
+tnoremap <silent> , <c-\><c-n><c-w>lgT:call Terins()<cr>
+inoremap <silent> . <esc><c-w>lgt:call Terins()<cr>
+nnoremap <silent> . <esc><c-w>lgt:call Terins()<cr>
+tnoremap <silent> . <c-\><c-n><c-w>lgt:call Terins()<cr>
+inoremap <silent> H <esc><c-w>lgT
+nnoremap <silent> H <esc><c-w>lgT
+tnoremap <silent> H <c-\><c-n><c-w>lgT
+inoremap <silent> L <esc><c-w>lgt
+nnoremap <silent> L <esc><c-w>lgt
+tnoremap <silent> L <c-\><c-n><c-w>lgt
+nnoremap <silent> t <c-w>l:tab term bash<cr>
+inoremap <silent> t <esc><c-w>l:tab term bash<cr>
+tnoremap <silent> t <c-\><c-n><c-w>l:tab term bash<cr>
 tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
 tnoremap <silent> \ <c-\><c-n>:call Tervspl()<cr>
 "--------------------------WindowMap-------------------------------"
