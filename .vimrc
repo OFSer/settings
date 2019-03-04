@@ -159,10 +159,10 @@ func TabEn()
 	endif
 	exe "Lex"
 endfunc
-inoremap <silent> e <esc>:call Toggle()<CR>
-nnoremap <silent> e :call Toggle()<CR>
-tnoremap <silent> e <c-\><c-n>:call Toggle()<CR>
-"autocmd! TabNew * call TabNw()
+inoremap <silent> e <esc>:call Toggle()<cr>:call MoveLeft()<cr>
+nnoremap <silent> e :call Toggle()<CR>:call MoveLeft()<cr>
+tnoremap <silent> e <c-\><c-n>:call Toggle()<CR>:call MoveLeft()<cr>
+autocmd! TabNew * call TabNw()
 "autocmd! TabEnter * call TabEn() | call TabEn()
 "--------------------------Jump--------------------------------------"
 inoremap <c-l> <del>
