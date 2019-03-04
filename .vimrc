@@ -13,6 +13,8 @@ set timeoutlen=0
 set updatetime=0
 autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'Netrw') | set nonu | else | set nu | endif
 autocmd BufLeave,FocusLost * silent! wall
+au FileType netrw au BufLeave <buffer> setlocal nocursorline
+au FileType netrw au BufEnter <buffer> setlocal cursorline
 "--------------------------GetBuffer---------------------------------"
 func Del()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
@@ -107,7 +109,7 @@ func CloseNetrw()
 	endif
 endfunc
 "--------------------------Explorer----------------------------------"
-let g:netrw_list_hide = '.*\.sw.*'
+let g:netrw_list_hide = '.*\.sw.*\|\.nfs'
 let g:netrw_winsize = 15
 let g:netrw_liststyle = 3
 let g:netrw_banner = 0
