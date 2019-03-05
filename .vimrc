@@ -455,12 +455,12 @@ function! ExitNormalMode()
 endfunction
 
 function! EnterNormalMode()
-    if bufname('%') =~ '!bash' && mode('') == 't'
-        call feedkeys("\<c-w>N")
-        call feedkeys("\<c-y>")
-        map <buffer> <silent> <RightMouse> :call ExitNormalMode()<CR>
-    endif
-endfunction
+  if bufname('%') =~ '!bash' && mode('') == 't'
+    call feedkeys("\<c-w>N")
+    call feedkeys("\<c-y>")
+    map <buffer> <silent> <RightMouse> :call ExitNormalMode()<CR>
+  endif
+endfunc
 
 tmap <silent> <ScrollWheelUp> <c-w>:call EnterNormalMode()<CR>
 tmap <silent> <ScrollWheelDown> <c-w>:call EnterNormalMode()<CR>
