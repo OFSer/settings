@@ -92,8 +92,9 @@ func Prev(x)
 	return a:x
 endfunc
 func Terins()
+	call feedkeys(":\<bs>",'n')
 	if &buftype =~ 'terminal'
-		call feedkeys('i')
+		call feedkeys("i")
 	endif
 endfunc
 func CloseNetrw()
@@ -409,7 +410,7 @@ inoremap } }<ESC>==A
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
 "--------------------------Test-------------------------------"
 "autocmd VimEnter * :Lexplore | call feedkeys("\<c-w>l")
-autocmd TabNew * silent! call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>li", 'n')
+autocmd TabNew * silent! call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>l:call Terins()\<cr>", 'n') 
 func Format()
 	if &filetype == 'cpp'
 		exec "w"
