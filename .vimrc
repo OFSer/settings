@@ -1,6 +1,8 @@
 set showtabline=2
 nnoremap q <nop>
 nnoremap t <nop>
+nnoremap . <nop>
+nnoremap , <nop>
 "--------------------------Options-----------------------------------"
 set ai
 set nu
@@ -270,8 +272,8 @@ func Tabclose()
 	call Del()
 	call CloseNetrw()
 endfunc
-tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr>:call Terins()<cr>
-nnoremap <silent> c :call Tabclose()<cr>:call Terins()<cr>
+tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr>gT:call Terins()<cr>
+nnoremap <silent> c :call Tabclose()<cr>gT:call Terins()<cr>
 "--------------------------Save&&Quit-------------------------"
 func Close()
 	let nr=bufnr('%')
@@ -299,7 +301,7 @@ func Close()
 endfunc
 "tnoremap <silent> w w
 "tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
-nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
+nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>gT:call Terins()<cr>
 "--------------------------Quit-------------------------------"
 func Quit()
 	let nr=bufnr('%')
@@ -325,8 +327,8 @@ func Quit()
 	endif
 	"call CloseNetrw()
 endfunc
-tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
-nnoremap <silent> q :call Quit()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
+tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call CloseNetrw()<cr>gT:call Terins()<cr>
+nnoremap <silent> q :call Quit()<cr>:call CloseNetrw()<cr>gT:call Terins()<cr>
 "--------------------------Compile&&Run-------------------------------"
 map <silent> <F3> :call Bomp()<CR>
 func Bomp()
