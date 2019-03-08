@@ -3,6 +3,14 @@ nnoremap q <nop>
 nnoremap t <nop>
 nnoremap . <nop>
 nnoremap , <nop>
+tnoremap <c-v> <c-w>"0
+augroup netrw_mapping
+    autocmd!
+    autocmd filetype netrw call NetrwMapping()
+augroup END
+func! NetrwMapping()
+    noremap <buffer> i <nop>
+endfunc
 "--------------------------Options-----------------------------------"
 set ai
 set nu
@@ -272,8 +280,8 @@ func Tabclose()
 	call Del()
 	call CloseNetrw()
 endfunc
-tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr>gT:call Terins()<cr>
-nnoremap <silent> c :call Tabclose()<cr>gT:call Terins()<cr>
+tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
+nnoremap <silent> c :call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Save&&Quit-------------------------"
 func Close()
 	let nr=bufnr('%')
@@ -301,7 +309,7 @@ func Close()
 endfunc
 "tnoremap <silent> w w
 "tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
-nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>gT:call Terins()<cr>
+nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Quit-------------------------------"
 func Quit()
 	let nr=bufnr('%')
@@ -327,8 +335,13 @@ func Quit()
 	endif
 	"call CloseNetrw()
 endfunc
-tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call CloseNetrw()<cr>gT:call Terins()<cr>
-nnoremap <silent> q :call Quit()<cr>:call CloseNetrw()<cr>gT:call Terins()<cr>
+func Back()
+	if tabpagenr() != 1
+		call feedkeys("gT")
+	endif
+endfunc
+tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
+nnoremap <silent> q :call Quit()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Compile&&Run-------------------------------"
 map <silent> <F3> :call Bomp()<CR>
 func Bomp()
