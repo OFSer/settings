@@ -108,6 +108,11 @@ func Terins()
 	endif
 endfunc
 func CloseNetrw()
+	if tabpagenr() != 1 && tabpagenr() != tabpagenr('$')
+		let g:back = 1
+	else
+		let g:back = 0
+	endif
 	if tabpagenr('$') == 1
 		return
 	endif
@@ -336,7 +341,7 @@ func Quit()
 	"call CloseNetrw()
 endfunc
 func Back()
-	if tabpagenr() != 1
+	if g:back == 1
 		call feedkeys("gT")
 	endif
 endfunc
