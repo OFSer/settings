@@ -5,11 +5,12 @@ nnoremap . <nop>
 nnoremap , <nop>
 tnoremap <c-v> <c-w>"0
 augroup netrw_mapping
-    autocmd!
-    autocmd filetype netrw call NetrwMapping()
+  autocmd!
+  autocmd filetype netrw call NetrwMapping()
 augroup END
 func! NetrwMapping()
-    noremap <buffer> i <nop>
+  noremap <buffer> i <nop>
+  noremap <buffer> s <nop>
 endfunc
 "--------------------------Options-----------------------------------"
 set ai
@@ -18,6 +19,7 @@ set ts=2
 set sw=2
 set ma
 set mouse=a
+set twsl=100000
 color ron
 hi Error ctermbg=256
 hi goSpaceError ctermbg=256
