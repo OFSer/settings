@@ -50,3 +50,4 @@
 .local/share/recently-used*
 .config/cef_user_data/
 .config/libreoffice/
+.config/yelp/
