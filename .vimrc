@@ -115,9 +115,9 @@ func CloseNetrw()
 	else
 		let g:back = 0
 	endif
-	if tabpagenr('$') == 1
-		return
-	endif
+"	if tabpagenr('$') == 1
+"		return
+"	endif
 	let a=tabpagebuflist()
 	let flag=1
 	for i in a
@@ -305,7 +305,7 @@ func Close()
 	endif
 	exe "w"
 	let t=Next(nr)
-	if nr == t || tabpagenr() !=1
+	if nr == t || tabpagenr() != 1
 		exe "q!"
 	else
 		exe "b! ".Next(nr)
@@ -317,6 +317,7 @@ endfunc
 "tnoremap <silent> w w
 "tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
 nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
+tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Quit-------------------------------"
 func Quit()
 	let nr=bufnr('%')
@@ -325,30 +326,39 @@ func Quit()
 	if bufname('%') =~ '!bash' 
 		exe "q!"
 		exe "bw! ".nr
+		call CloseNetrw()
 		return
 	endif
 	if bufname('%') =~ "help" || bufname('%') =~ "Netrw"
 		exe "q!"
+		call CloseNetrw()
 		return
 	endif
 	let t=Next(nr)
-	if nr == t || tabpagenr() !=1
+	if tabpagenr() != 1
 		exe "q!"
-	else
+		call CloseNetrw()
+		return
+	endif
+	if nr == t && tabpagenr() == 1
+		let g:back = 0
+		return
+	endif
+	if nr != t && tabpagenr() == 1
 		exe "b! ".Next(nr)
 	endif
 	if flag == 0
 		exe "bw! ".nr
 	endif
-	"call CloseNetrw()
+	call CloseNetrw()
 endfunc
 func Back()
 	if g:back == 1
 		call feedkeys("gT")
 	endif
 endfunc
-tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
-nnoremap <silent> q :call Quit()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
+tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call Back()<cr>:call Terins()<cr>
+nnoremap <silent> q :call Quit()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Compile&&Run-------------------------------"
 map <silent> <F3> :call Bomp()<CR>
 func Bomp()
