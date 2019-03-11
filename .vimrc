@@ -250,11 +250,11 @@ tnoremap <silent> H <c-\><c-n><c-w>lgT
 inoremap <silent> L <esc><c-w>lgt
 nnoremap <silent> L <esc><c-w>lgt
 tnoremap <silent> L <c-\><c-n><c-w>lgt
-nnoremap <silent> t <c-w>l:tab term bash<cr>
-inoremap <silent> t <esc><c-w>l:tab term bash<cr>
-tnoremap <silent> t <c-\><c-n><c-w>l:tab term bash<cr>
-tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
-tnoremap <silent> \ <c-\><c-n>:call Tervspl()<cr>
+nnoremap <silent> t <c-w>l:tab term bash<cr>clear<cr>
+inoremap <silent> t <esc><c-w>l:tab term bash<cr>clear<cr>
+tnoremap <silent> t <c-\><c-n><c-w>l:tab term bash<cr>clear<cr>
+tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>clear<cr>
+tnoremap <silent> \ <c-\><c-n>:call Tervspl()<cr>clear<cr>
 "--------------------------WindowMap-------------------------------"
 nnoremap <silent>  h <c-w>h:call Terins()<cr>
 nnoremap <silent>  j <c-w>j:call Terins()<cr>
@@ -496,7 +496,4 @@ endfunc
 
 tmap <silent> <ScrollWheelUp> <c-w>:call EnterNormalMode()<CR>
 tmap <silent> <ScrollWheelDown> <c-w>:call EnterNormalMode()<CR>
-
-
-
-
+hi TabLineFill term=bold cterm=bold ctermbg=256
