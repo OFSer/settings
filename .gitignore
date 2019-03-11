@@ -51,3 +51,4 @@
 .config/cef_user_data/
 .config/libreoffice/
 .config/yelp/
+.*.swp
