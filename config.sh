@@ -132,7 +132,6 @@ run(){
 push(){
 	dconf dump / > .dconf
 	git add -A
-	git reset -- .config/dconf/user
 	git commit -m "upd"
 	git push
 }
