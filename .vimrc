@@ -496,4 +496,6 @@ endfunc
 
 tmap <silent> <ScrollWheelUp> <c-w>:call EnterNormalMode()<CR>
 tmap <silent> <ScrollWheelDown> <c-w>:call EnterNormalMode()<CR>
-hi TabLineFill term=bold cterm=bold ctermbg=256
+hi TabLineFill ctermfg=Black
+hi TabLineSel ctermfg=White ctermbg=Darkgrey
+hi TabLine ctermfg=Blue ctermbg=0

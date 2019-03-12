@@ -3,6 +3,9 @@
 # for examples
 
 #If not running interactively, don't do anything
+[ ${#HOSTNAME} -gt 5 ] && {
+	HOSTNAME="k8s"
+}
 case $- in
     *i*) ;;
       *) return;;
@@ -67,33 +70,6 @@ unset color_prompt force_color_prompt
 case "$TERM" in
 xterm*|rxvt*)
     PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
-    ;;
-*)
-    ;;
-esac
-
-# If this is an xterm set the title to user@host:dir
-case "$TERM" in
-xterm*|rxvt*)
-    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
-
-    # Show the currently running command in the terminal title:
-    # http://www.davidpashley.com/articles/xterm-titles-with-bash.html
-    show_command_in_title_bar()
-    {
-        case "$BASH_COMMAND" in
-            *\033]0*)
-                # The command is trying to set the title bar as well;
-                # this is most likely the execution of $PROMPT_COMMAND.
-                # In any case nested escapes confuse the terminal, so don't
-                # output them.
-                ;;
-            *)
-                echo -ne "\033]0;${USER}@${HOSTNAME}: ${BASH_COMMAND}\007"
-                ;;
-        esac
-    }
-    trap show_command_in_title_bar DEBUG
     ;;
 *)
     ;;
@@ -223,5 +199,31 @@ mycd(){
 }
 alias osu='LD_LIBRARY_PATH="~/osu/osu.Desktop/bin/Debug/netcoreapp2.2" sudo dotnet run --project ~/osu/osu.Desktop &> /dev/null 2>&1 &'
 alias mysql='\mysql --login-path=gjs'
-#export LC_ALL="en_US.utf8"
+# If this is an xterm set the title to user@host:dir
+export PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@$HOSTNAME\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ "
+export LC_ALL="en_US.utf8"
+case "$TERM" in
+xterm*|rxvt*)
+    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: `dirs -p | head -n 1`\007"'
 
+    # Show the currently running command in the terminal title:
+    # http://www.davidpashley.com/articles/xterm-titles-with-bash.html
+    show_command_in_title_bar()
+    {
+        case "$BASH_COMMAND" in
+            *\033]0*)
+                # The command is trying to set the title bar as well;
+                # this is most likely the execution of $PROMPT_COMMAND.
+                # In any case nested escapes confuse the terminal, so don't
+                # output them.
+                ;;
+            *)
+                echo -ne "\033]0;${USER}@${HOSTNAME}: ${BASH_COMMAND}\007"
+                ;;
+        esac
+    }
+    trap show_command_in_title_bar DEBUG
+    ;;
+*)
+    ;;
+esac
