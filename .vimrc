@@ -21,12 +21,12 @@ function! MyTabLine()
 		let s .= ' '
 		if bufname == ''
     	let s .= '[No Name]'
-			echo term_gettitle(i + 1)
 		elseif bufname =~ "!bash"
+			let s .= term_gettitle(bufnr)
 		else
     	let s .= '%{MyTabLabel(' . (i + 1) . ')}'
 		endif
-    if bufmodified
+    if bufmodified && bufname !~ "!bash"
       let s .= '[*] '
 		else 
       let s .= ' '
@@ -40,6 +40,7 @@ function! MyTabLine()
   return s
 endfunction
 set tabline=%!MyTabLine()
+au CursorMovedI * set tabline=%!MyTabLine()
 
 set showtabline=2
 nnoremap q <nop>
