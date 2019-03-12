@@ -81,8 +81,11 @@ install_sogou(){
 	rm ~/Downloads/1.deb
 }
 system_setting(){
+	#export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
 	#gsettings set org.gnome.desktop.interface cursor-blink false
 	#gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
+	#gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 'always'
+	#gsettings --schemadir . list-recursively
 	echo "$USERNAME ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
 	git checkout -- .config/dconf/user
 	pkill dconf-service
@@ -127,7 +130,8 @@ run(){
 	config_privoxy
 }
 push(){
-	git add .
+	dconf dump / > .dconf
+	git add -A
 	git reset -- .config/dconf/user
 	git commit -m "upd"
 	git push
