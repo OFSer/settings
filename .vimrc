@@ -303,12 +303,12 @@ func Close()
 		exe "q!"
 		return
 	endif
-	exe "w"
+	silent! exe "w"
 	let t=Next(nr)
 	if nr == t || tabpagenr() != 1
 		exe "q!"
 	else
-		exe "b! ".Next(nr)
+		silent! exe "b! ".Next(nr)
 	endif
 	if flag == 0
 		silent! exe "bw! ".nr
