@@ -17,7 +17,7 @@ tabs-size=uint32 2
 show-tabs-mode='auto'
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/disk/fc/saki_detection'
+virtual-root='file:///home/gjs'
 tree-view=true
 root='file:///'
 
@@ -26,7 +26,7 @@ active-plugins=['docinfo', 'modelines', 'filebrowser', 'time', 'spell']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=4
+state=132
 bottom-panel-size=140
 side-panel-size=200
 side-panel-active-page='GeditWindowDocumentsPanel'

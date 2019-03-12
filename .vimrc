@@ -3,29 +3,42 @@ function MyTabLabel(n)
 	let winnr = len(buflist)
 	return fnamemodify(bufname(buflist[winnr - 1]), ':t')
 endfunction
-fu MyTabLine()
-	let s = ''
-	for i in range(tabpagenr('$'))
-		" select the highlighting
-		if i + 1 == tabpagenr()
-			let s .= '%#TabLineSel#'
-		else
-			let s .= '%#TabLine#'
-		endif
-		" set the tab page number (for mouse clicks)
-		let s .= '%' . (i + 1) . 'T'
-		" the label is made by MyTabLabel()
-		let s .= ' %{MyTabLabel(' . (i + 1) . ')} '
-	endfor
-	" after the last tab fill with TabLineFill and reset tab page nr
-	let s .= '%#TabLineFill#%T'
+function! MyTabLine()
+  let s = ''
+  for i in range(tabpagenr('$'))
+    let tab = i + 1
+		
+		let winnr = tabpagewinnr(tab)
+		let buflist = tabpagebuflist(tab)
+		let winnr = len(buflist)
+		let bufnr = buflist[winnr - 1]
+    let bufmodified = getbufvar(bufnr, "&mod")
+    let bufname = MyTabLabel(i + 1)
 
-	" right-align the label to close the current tab page
-	if tabpagenr('$') > 1
-		let s .= '%=%#TabLine#%999Xclose'
-	endif
-	return s
-endfu
+    let s .= '%' . tab . 'T'
+    let s .= (tab == tabpagenr() ? '%#TabLineSel#' : '%#TabLine#')
+    "let s .= ' ' . tab .':'
+		let s .= ' '
+		if bufname == ''
+    	let s .= '[No Name]'
+			echo term_gettitle(i + 1)
+		elseif bufname =~ "!bash"
+		else
+    	let s .= '%{MyTabLabel(' . (i + 1) . ')}'
+		endif
+    if bufmodified
+      let s .= '[*] '
+		else 
+      let s .= ' '
+    endif
+  endfor
+
+  let s .= '%#TabLineFill#'
+  if (exists("g:tablineclosebutton"))
+    let s .= '%=%999XX'
+  endif
+  return s
+endfunction
 set tabline=%!MyTabLine()
 
 set showtabline=2
@@ -359,7 +372,7 @@ func Quit()
 		call CloseNetrw()
 		return
 	endif
-	if bufname('%') =~ "help" || bufname('%') =~ "Netrw"
+	if &buftype =~ "help" || bufname('%') =~ "Netrw"
 		exe "q!"
 		call CloseNetrw()
 		return
