@@ -35,10 +35,10 @@ func Del()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
 	for i in a
 		if bufname(i) == ""
-			exe "bw! ".i
+			silent! exe "bw! ".i
 		endif
 		if bufname(i) =~ "!bash" && Exist(i) == 0
-			exe "bw! ".i
+			silent! exe "bw! ".i
 		endif
 	endfor
 endfunc
@@ -153,7 +153,7 @@ func Toggle()
 	endif
 	for i in tabpagebuflist()
 		if bufname(i) =~ "Netrw" 
-			exe "bw! ".i
+			silent! exe "bw! ".i
 			return 
 		endif
 	endfor
@@ -281,7 +281,7 @@ func Tabclose()
 	exe "tabc!"
 	for i in a
 		if bufname(i) =~ "!bash"
-			exe "bw! ".i
+			silent! exe "bw! ".i
 		endif
 	endfor
 	call Del()
@@ -296,7 +296,7 @@ func Close()
 	let flag=ExistOther(tp,nr)
 	if bufname('%') =~ '!bash' 
 		exe "q!"
-		exe "bw! ".nr
+		silent! exe "bw! ".nr
 		return
 	endif
 	if bufname('%') =~ "help" || bufname('%') =~ "Netrw"
@@ -311,7 +311,7 @@ func Close()
 		exe "b! ".Next(nr)
 	endif
 	if flag == 0
-		exe "bw! ".nr
+		silent! exe "bw! ".nr
 	endif
 endfunc
 "tnoremap <silent> w w
@@ -325,7 +325,7 @@ func Quit()
 	let flag=ExistOther(tp,nr)
 	if bufname('%') =~ '!bash' 
 		exe "q!"
-		exe "bw! ".nr
+		silent! exe "bw! ".nr
 		call CloseNetrw()
 		return
 	endif
@@ -348,7 +348,7 @@ func Quit()
 		exe "b! ".Next(nr)
 	endif
 	if flag == 0
-		exe "bw! ".nr
+		silent! exe "bw! ".nr
 	endif
 	call CloseNetrw()
 endfunc
@@ -407,7 +407,7 @@ func MoveLeft()
 endfunc
 func CloseTogglebash()
 	if bufnr('Togglebash') >= 0
-		exe 'bw! Togglebash'
+		silent! exe 'bw! Togglebash'
 	endif
 endfunc
 inoremap <silent> ; <esc><c-w>l:call Togglebash()<CR>:call Terins()<cr>

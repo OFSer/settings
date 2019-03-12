@@ -6,19 +6,23 @@
 
 notebook.terminal-notebook header.top tab,
 notebook.terminal-notebook header.top tab:hover {
-    background-image: -gtk-gradient (linear, left top, left bottom,
+    background-image: -gtk-gradient (linear, left top, right bottom,
                                     from (shade (@fg_color, 0.92)),
                                     color-stop (0.60, shade (@fg_color, 0.9)),
                                     to (shade (@fg_color, 0.85)));
     color: #729FCF;
 		font-size: 25px;
+		font-family: Ubuntu Mono;
+		font-style: bold;
 }
 
 notebook.terminal-notebook header.top tab:checked {
-    background-image: -gtk-gradient (linear, left top, left bottom,
+    background-image: -gtk-gradient (linear, left top, right bottom,
                     from (shade (@bg_color_active_tab, 1.2)),
                     to (shade (@bg_color_active_tab, 1.12)));
     color: @bg_color;
 		font-size: 25px;
-		font-weight: 500
+		font-family: Ubuntu Mono;
+		font-style: bold;
+		font-weight: 600;
 }
