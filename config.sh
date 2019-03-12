@@ -137,7 +137,6 @@ push(){
 }
 pull(){
 	git pull
-	git checkout -- .config/dconf/user
 	pkill dconf-service
 	dconf load / < .dconf
 }

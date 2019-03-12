@@ -7,11 +7,10 @@ git init
 git remote add origin https://github.com/chinnkarahoi/settings
 git fetch --all
 git checkout -b unity
-git reset --hard origin/unity
+git reset origin/unity
 git branch --set-upstream-to=origin/unity
-git add .
-git reset HEAD --hard
 chmod +x config.sh
+./config.sh pull
 ./config.sh run
 ```
 -----------------------------
