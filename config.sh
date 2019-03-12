@@ -140,7 +140,6 @@ pull(){
 	git pull
 	git checkout -- .config/dconf/user
 	pkill dconf-service
-	dconf dump / > .dconf
 	dconf load / < .dconf
 }
 
