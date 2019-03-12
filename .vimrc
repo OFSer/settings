@@ -1,7 +1,7 @@
 function MyTabLabel(n)
 	let buflist = tabpagebuflist(a:n)
 	let winnr = len(buflist)
-	return bufname(buflist[winnr - 1])
+	return fnamemodify(bufname(buflist[winnr - 1]), ':t')
 endfunction
 fu MyTabLine()
 	let s = ''
