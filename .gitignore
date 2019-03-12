@@ -52,3 +52,4 @@
 .config/libreoffice/
 .config/yelp/
 .*.swp
+.config/dconf/user
