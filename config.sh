@@ -82,6 +82,7 @@ install_sogou(){
 }
 system_setting(){
 	#export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
+	#gsettings set org.gnome.software download-updates false
 	#gsettings set org.gnome.desktop.interface cursor-blink false
 	#gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
 	#gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 'always'
