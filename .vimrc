@@ -43,8 +43,8 @@ set tabline=%!MyTabLine()
 function! Flash()
     sleep 5m
 endfunction
-tnoremap <cr> <cr><c-\><c-n>:call Flash()<cr>i<c-\><c-n>:call Flash()<cr>i
-tnoremap <c-d> <c-d><c-\><c-n>:call Flash()<cr>i<c-\><c-n>:call Flash()<cr>i
+tnoremap <silent> <cr> <cr><c-\><c-n>:call Flash()<cr>i<c-\><c-n>:call Flash()<cr>i
+tnoremap <silent> <c-d> <c-d><c-\><c-n>:call Flash()<cr>i<c-\><c-n>:call Flash()<cr>i
 
 set showtabline=2
 nnoremap q <nop>

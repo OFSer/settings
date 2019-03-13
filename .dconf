@@ -271,7 +271,7 @@ scrollback-lines=100000
 audible-bell=false
 
 [org/gnome/software]
-check-timestamp=int64 1552342417
+check-timestamp=int64 1552428675
 
 [org/gnome/gnome-system-monitor]
 current-tab='resources'
