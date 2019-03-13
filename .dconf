@@ -268,7 +268,7 @@ use-theme-colors=false
 font='Ubuntu Mono 16'
 use-theme-transparency=false
 background-color='rgb(0,0,0)'
-background-transparency-percent=13
+background-transparency-percent=10
 scrollback-lines=100000
 audible-bell=false
 
