@@ -143,6 +143,8 @@ name='suse-yast.directory'
 
 [org/gnome/desktop/screensaver]
 lock-delay=uint32 3600
+ubuntu-lock-on-suspend=false
+lock-enabled=false
 
 [org/gnome/desktop/peripherals/keyboard]
 repeat-interval=uint32 27
