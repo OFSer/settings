@@ -139,6 +139,7 @@ push(){
 pull(){
 	git pull
 	pkill dconf-service
+	dconf dump / > .dconf
 	dconf load / < .dconf
 }
 
