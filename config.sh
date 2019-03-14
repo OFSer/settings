@@ -107,8 +107,8 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 }
 install(){
 	#sudo apt install -y nvidia-384
-	sudo apt remove -y --purge ubuntu-desktop
 	sudo apt install -y ubuntu-unity-desktop
+	sudo apt remove -y --purge ubuntu-desktop
 	sudo apt install -y most unity 
 	sudo apt install -y git sshpass jq curl
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
