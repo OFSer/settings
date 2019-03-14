@@ -11272,3 +11272,12 @@ git status
 git diff
 git status
 git diff
+du -hl --max-depth=1
+ls
+cd ~
+ls
+vim config.sh 
+git status
+git diff
+./config.sh push
+ssh passwd@10.0.10.131

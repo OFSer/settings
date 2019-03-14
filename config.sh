@@ -181,15 +181,16 @@ proxy_run(){
 }
 run(){
 	system_setting
-	config_mouse
+	#config_mouse
 	update_source
+	install_vim
 	install
 	install_chrome
 	install_netease
 	install_sogou
-	install_lang
-	config_vscode
-	config_privoxy
+	#install_lang
+	#config_vscode
+	#config_privoxy
 }
 push(){
 	dconf dump / > .dconf
