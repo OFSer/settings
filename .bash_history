@@ -11281,3 +11281,149 @@ git status
 git diff
 ./config.sh push
 ssh passwd@10.0.10.131
+sss
+sudo apt install unity
+ls
+unity-settings-daemon 
+ls
+vim
+sss
+ls
+ls
+cd fc/blur_detection/
+ls
+cd db/
+ls
+./labeler.sh 
+git status
+cd ~
+git status
+git diff
+ls
+git diff
+ls
+git status
+git diff
+git status
+./config.sh push
+git diff HEAD^
+sss
+cd fc/blur_detection/
+ls
+vim
+ls
+cd db/
+vim labeler.sh 
+ls
+eog
+ps -ef | grep eog
+ls
+history | grep caps
+ls /etc/ | grep xkb
+ls /etc/ | grep map
+vim config.sh 
+./config.sh config_scroll
+vim config.sh 
+vim .xbindkeysrc 
+ls
+vim /etc/default/keyboard 
+ls
+xmodmap -pke
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+cd db
+touch 1.cpp
+g++ 1.cpp -o 1
+./1
+rm 1.cpp
+ls
+git status
+rm 1
+git status
+ls
+udo apt-get install build-essential
+sudo apt-get install build-essential
+sudo apt-get install logkeys
+cd Downloads/
+wget http://logkeys.googlecode.com/files/logkeys-0.1.1a.tar.gz
+tar xvzf logkeys-0.1.1a.tar.gz   
+rm *
+ls
+rm -rf *
+wget https://logkeys.googlecode.com/files/logkeys-0.1.1a.tar.gz
+tar xvzf logkeys-0.1.1a.tar.gz   
+ls
+wget https://logkeys.googlecode.com/files/logkeys-0.1.1a.tar.gz
+ls
+wget http://logkeys.googlecode.com/files/logkeys-0.1.1a.tar.gz
+ls
+curl google.com
+curl http://logkeys.googlecode.com/files/logkeys-0.1.1a.tar.gz
+cd ~
+sudo apt update
+vim config.sh 
+sudo rm /var/lib/apt/lists/* &>/dev/null 2>&1
+sudo rm /var/lib/apt/lists/partial/* &>/dev/null 2>&1
+sudo rm -rf /var/cache/apt/archives/partial &>/dev/null 2>&1
+sudo apt update
+sss
+ls
+#1552552520
+ls
+#1552552521
+bash
+#1552552547
+\ssh -tX gjs@10.0.10.63
+#1552552549
+eog
+#1552552558
+cd fc/blur_detection/
+#1552552559
+cd db
+#1552552560
+./labeler.sh 
+#1552552564
+./labeler.sh 
+#1552552665
+vim labeler.sh 
+#1552552682
+vim labeler.sh 
+#1552552685
+jobs
+#1552552686
+vim labeler.sh 
+#1552552720
+./labeler.sh 
+#1552552724
+vim labeler.sh 
+#1552552734
+./labeler.sh 
+#1552552742
+./labeler.sh 
+#1552552746
+vim labeler.sh 
+#1552552764
+./labeler.sh 
+#1552552769
+./labeler.sh 
+#1552552776
+vim labeler.sh 
+#1552552788
+./labeler.sh 
+ls
+pkttyagent --help
+ls
+git status
+git diff config.sh
+ls
+ls -a
+mysql
+ls
+mysql
+sss
+sss;sleep 5
+ls
+{ sss;sleep 5; }
+ls
+mysql

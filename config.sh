@@ -2,6 +2,7 @@ cd ~
 config_scroll(){
 	sudo apt install xbindkeys xdotool -y
 	xbindkeys --defaults > $HOME/.xbindkeysrc
+	echo 'XKBOPTIONS="ctrl:nocaps"' | sudo tee -a /etc/default/keyboard
 }
 config_mouse(){
 	xinput list
