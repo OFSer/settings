@@ -188,6 +188,10 @@ Git(){
 alias cd='mycd'
 mycd(){
 	IFS=$'\n'
+	[ $# -eq 0 ] && {
+		mycd `cat <(ls -d */ 2> /dev/null || echo .) | shuf | head -n 1`
+		return
+	}
 	for i in `dirs -p | sed -n '2,$p'`;do
 		if [[ "`eval echo $i`" ==  "`pwd`" ]];then
 			\cd "$@"

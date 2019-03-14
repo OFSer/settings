@@ -274,7 +274,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1552428675
+check-timestamp=int64 1552528480
 
 [org/gnome/gnome-system-monitor]
 current-tab='resources'
