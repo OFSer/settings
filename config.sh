@@ -97,7 +97,7 @@ deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted univ
 deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 # deb-src [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 	" | sudo tee /etc/apt/sources.list
-	sudo add-apt-repository ppa:jonathonf/vim
+	sudo add-apt-repository -y ppa:jonathonf/vim
 	sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
 	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
 	sudo apt-get update
