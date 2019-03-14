@@ -11216,3 +11216,59 @@ cd ~
 ls
 vim .bashrc
 ifconfig 
+history | grep set
+ls
+vim .bash_history 
+git add -f .bash_history 
+git status
+vim .bash_logout 
+vim .bash_history 
+ls
+vim .bash_profile 
+vim .bashrc.bak 
+ls
+git status
+git commit -m "add bash_history"
+git status
+git push
+git status
+ls
+git status
+ls
+cd
+dirs -p
+cd ~
+vim .bashrc
+alias abc='bcd'
+bcd(){ echo 123; }
+abc
+cde(){ abc; }
+cde
+vim .bashrc
+ls
+cd
+cd ~
+cd 
+cd
+cd ~
+ls
+vim .bashrc
+. .bashrc
+cd
+cd ..
+cd 
+cd
+cd ..
+ls
+cd ..
+ls
+git status
+./config.sh push
+git diff HEAD^
+ls
+git status
+ls
+git status
+git diff
+git status
+git diff
