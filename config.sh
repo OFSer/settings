@@ -107,6 +107,7 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 install(){
 	#sudo apt install -y nvidia-384
 	sudo apt-get -y install vim-gnome	
+	sudo apt remove --purge gnome-desktop3-data
 	sudo apt install -y ubuntu-unity-desktop
 	sudo apt remove -y --purge ubuntu-desktop
 	sudo apt install -y most
