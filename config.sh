@@ -1,9 +1,4 @@
 cd ~
-install_vim(){
-	sudo add-apt-repository ppa:jonathonf/vim
-	sudo apt-get update
-	sudo apt-get install vim-gnome	
-}
 config_scroll(){
 	sudo apt install xbindkeys xdotool -y
 	xbindkeys --defaults > $HOME/.xbindkeysrc
@@ -102,11 +97,15 @@ deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted univ
 deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 # deb-src [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 	" | sudo tee /etc/apt/sources.list
-	sudo apt update
+	sudo add-apt-repository ppa:jonathonf/vim
+	sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+	sudo apt-get update
 	sudo apt upgrade -y
 }
 install(){
 	#sudo apt install -y nvidia-384
+	sudo apt-get install vim-gnome	
 	sudo apt install -y ubuntu-unity-desktop
 	sudo apt remove -y --purge ubuntu-desktop
 	sudo apt install -y most unity 
@@ -118,9 +117,9 @@ install(){
 	sudo snap install electronic-wechat
 }
 install_chrome(){
-	sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
-	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
-	sudo apt update
+	#sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+	#wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+	#sudo apt update
 	sudo apt install google-chrome-stable
 }
 install_netease(){
@@ -186,7 +185,6 @@ run(){
 	system_setting
 	#config_mouse
 	update_source
-	install_vim
 	install
 	install_chrome
 	install_netease
