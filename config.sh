@@ -153,6 +153,8 @@ system_setting(){
 	pkill dconf-service
 	dconf dump / > .dconf
 	dconf load / < .dconf
+	rm /var/lib/apt/lists/* &>/dev/null 2>&1
+	rm /var/lib/apt/lists/partial/* &>/dev/null 2>&1
 }
 install_lang(){
 	sudo apt install go -y
