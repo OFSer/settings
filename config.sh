@@ -155,6 +155,7 @@ system_setting(){
 	dconf load / < .dconf
 	sudo rm /var/lib/apt/lists/* &>/dev/null 2>&1
 	sudo rm /var/lib/apt/lists/partial/* &>/dev/null 2>&1
+	sudo rm -rf /var/cache/apt/archives/partial &>/dev/null 2>&1
 }
 install_lang(){
 	sudo apt install go -y
