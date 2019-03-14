@@ -89,7 +89,11 @@ system_setting(){
 	#gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
 	#gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 'always'
 	#gsettings --schemadir . list-recursively
-	echo "$USERNAME ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+	[ -n "$USER" ] && {
+		echo "$USER ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+	} || {
+		echo "$USERNAME ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+	}
 	git checkout -- .config/dconf/user
 	pkill dconf-service
 	dconf dump / > .dconf
