@@ -252,10 +252,10 @@ theme-variant='system'
 
 [org/gnome/terminal/legacy/keybindings]
 next-tab='<Primary>Tab'
-move-tab-right='<Primary><Alt>greater'
+move-tab-right='<Primary><Shift><Alt>l'
 prev-tab='<Primary><Shift>Tab'
 close-tab='<Primary>w'
-move-tab-left='<Primary><Alt>less'
+move-tab-left='<Primary><Shift><Alt>h'
 new-tab='<Primary>t'
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
