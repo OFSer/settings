@@ -278,13 +278,13 @@ func Terspl()
 	endif
 	call feedkeys('i')
 endfunc
-inoremap <silent> > <esc>:tabm +<cr>i
-nnoremap <silent> > <esc>:tabm +<cr>
-tnoremap <silent> > <c-\><c-n>:tabm +<cr>i
+inoremap <silent> L <esc>:tabm +<cr>i
+nnoremap <silent> L <esc>:tabm +<cr>
+tnoremap <silent> L <c-\><c-n>:tabm +<cr>i
 
-inoremap <silent> < <esc>:tabm -<cr>i
-nnoremap <silent> < <esc>:tabm -<cr>
-tnoremap <silent> < <c-\><c-n>:tabm -<cr>i
+inoremap <silent> H <esc>:tabm -<cr>i
+nnoremap <silent> H <esc>:tabm -<cr>
+tnoremap <silent> H <c-\><c-n>:tabm -<cr>i
 
 inoremap <silent> , <esc><c-w>lgT:call Terins()<cr>
 nnoremap <silent> , <esc><c-w>lgT:call Terins()<cr>
@@ -292,12 +292,12 @@ tnoremap <silent> , <c-\><c-n><c-w>lgT:call Terins()<cr>
 inoremap <silent> . <esc><c-w>lgt:call Terins()<cr>
 nnoremap <silent> . <esc><c-w>lgt:call Terins()<cr>
 tnoremap <silent> . <c-\><c-n><c-w>lgt:call Terins()<cr>
-inoremap <silent> H <esc><c-w>lgT
-nnoremap <silent> H <esc><c-w>lgT
-tnoremap <silent> H <c-\><c-n><c-w>lgT
-inoremap <silent> L <esc><c-w>lgt
-nnoremap <silent> L <esc><c-w>lgt
-tnoremap <silent> L <c-\><c-n><c-w>lgt
+inoremap <silent> < <esc><c-w>lgT
+nnoremap <silent> < <esc><c-w>lgT
+tnoremap <silent> < <c-\><c-n><c-w>lgT
+inoremap <silent> > <esc><c-w>lgt
+nnoremap <silent> > <esc><c-w>lgt
+tnoremap <silent> > <c-\><c-n><c-w>lgt
 nnoremap <silent> t <c-w>l:tab term bash<cr>clear<cr>
 inoremap <silent> t <esc><c-w>l:tab term bash<cr>clear<cr>
 tnoremap <silent> t <c-\><c-n><c-w>l:tab term bash<cr>clear<cr>

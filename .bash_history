@@ -11427,3 +11427,95 @@ ls
 { sss;sleep 5; }
 ls
 mysql
+killall -9 steam
+killall -9 dota2
+ls
+ls
+cd ~
+ls
+vim .bashrc
+lks
+ls
+git status
+history
+ls
+vim .vimrc
+s
+ls
+vim config.sh 
+ls
+vim config.sh 
+git status
+vim config.sh 
+git status
+git diff
+killall -9 electronic-wechat 
+git diff
+ls
+vim config.sh 
+git status
+./config.sh push
+git status
+git diff
+vim README.md 
+./config.sh push
+vim config.sh 
+ssh passwd@10.0.10.131
+ls
+git status
+nautilus .
+ssh passwd@10.0.10.131
+ssh pa-tX sswd@10.0.10.131
+\ssh pa-tX sswd@10.0.10.131
+\ssh -tX passwd@10.0.10.131
+ls
+git status
+git diff
+vim .bashrc
+ls
+vim .vimrc
+ls
+sss
+ls
+vim dconf 
+ls
+git diff dconf .dconf
+git diff HEAD^ .dconf
+git diff HEAD^^ .dconf
+ls
+vim .vimrc
+vim .bashrc
+ls
+a="1,2,3,4"
+IFS=','
+a=(a)
+
+a="1,2,3,4"
+IFS=','
+a=($a)
+echo $
+echo $a
+echo ${a[@]}
+echo $IFS
+a="1,2,3,4"
+a=($a)
+echo $a
+echo IFS
+echo $IFS
+echo ${IFS}
+IFS=',';echo $IFS
+hexdump $IFS
+hexdump <(echo $IFS)
+hexdump -C <(echo $IFS)
+echo $IFS
+echo $a
+a="1,2,3,4"
+echo $a
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+./labeler.sh 
+ls
+rm 1.cpp
+git status
+git diff
