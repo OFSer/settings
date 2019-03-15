@@ -11519,3 +11519,414 @@ ls
 rm 1.cpp
 git status
 git diff
+ls
+a="1,2,3,4"
+b=(echo $a | tr ',' ' ')
+b=(`echo $a | tr ',' ' '`)
+echo $b
+echo ${b[@]}
+echo ${!b[@]}
+echo ${b[@]}
+echo ${!b}
+echo ${!b[@]}
+echo (`echo $a | tr ',' ' '`)[0]
+a=(`echo $a | tr ',' ' '`)
+echo $a
+ls
+vim .vimrc
+ls
+git status
+git diff
+./config.sh push
+git status
+./config.sh push
+git status
+git diff HEAD^
+ls
+#1552618920
+ls
+#1552618924
+echo $$
+sudo apt install logkeys
+sudo apt update
+sudo apt install logkeys
+sudo snap install logkyes
+sudo snap install logkeys
+ls
+cd Downloads/
+ls
+git clone https://github.com/kernc/logkeys
+sudo    apt-get install -y autotools
+ls
+cd logkeys/
+ls
+./autogen.sh
+cd build
+../configure
+cd ..
+ls
+./autogen.sh 
+vim autogen.sh 
+sudo apt install autogen.sh
+vim /etc/apt/sources.list
+ls
+sudo apt install autotools
+
+./autogen.sh 
+vim autogen.sh 
+fg
+sudo apt install autoheader
+fg
+sudo apt install autoconf
+fg
+sudo apt install aclocal
+aclocal
+./auto
+./autogen.sh 
+cd build
+../configure
+make
+sudo make install
+logkeys 
+cd ~
+ls
+logkeys --version
+logkeys --start
+sudo logkeys --start
+ps -ef | grep logkeys
+sudo kill 16929
+ls
+logkeys --start --output
+cd test/
+ls
+cd sh/
+ls
+sudo logkeys --start --output log
+ls
+vim log
+sudo vim log
+ls
+logkeys --hlep
+logkeys --help
+ps -ef | grep logkeys
+kill 17234
+sudo kill 17234
+logkeys -s --no-daemon
+sudo logkeys -s --no-daemon
+ls
+sudo logkeys --start --output --no-timestamp log
+rm log
+sudo rm log
+sudo logkeys --start --output --no-timestamp log
+ps -ef | grep logkeys
+sudo kill -9 22057
+sudo logkeys --start --output --no-timestamp log
+ls
+vim log
+sudo logkeys --start --output --no-timestamp log
+ps -ef | grep logkeys
+cd /var/run
+ls
+cd logkeys
+vim logkeys.pid 
+sudo vim logkeys.pid 
+ps -ef | grep 22057
+rm logkes.pid
+sudo rm logkes.pid
+ls
+sudo rm logkeys.pid
+ls
+cd ~
+cd ~2
+ls
+sudo logkeys --start --output --no-timestamp log
+sudo logkeys --start --output log --no-timestamp
+ps -ef | grep logkeys
+sudo kill 22478
+sudo logkeys --start --output log --no-timestamp
+vim log
+sudo vim log
+ls
+sudo killall  -9 logkeys
+sudo logkeys --start --no-timestamp &> log
+ls
+rm -rf log
+ls
+rm log
+sudo logkeys --start --no-timestamp | sudo tee log
+sudo killall -9 logkeys
+sudo logkeys --start --no-timestamp | sudo tee log
+sudo rm /var/run/logkeys.pid
+sudo logkeys --start --no-timestamp | sudo tee log
+vim log
+sudo vim log
+logkeys --help
+man logkeys
+sudo killall -9 logkeys
+sudo rm /var/run/logkeys.pid
+sudo logkeys --start --us-keymap --no-timestamp --output log
+sudo vim log
+ls
+sudo vim log
+sudo killall -9 logkeys
+sudo rm /var/run/logkeys.pid
+sudo logkeys --start --us-keymap --no-timestamp --output log
+history 
+sudo killall -9 logkeys && sudo rm /var/run/logkeys.pid && sudo logkeys --start --us-keymap --no-timestamp --output log
+ls
+sudo vim log
+rm "--no-timestamp" 
+ls
+rm '--no-timestamp' 
+rm './--no-timestamp' 
+sudo rm './--no-timestamp' 
+ls
+man logkeys
+ls
+ssh passwd@10.0.10.131
+ls
+cd ~
+ls
+vim .bashrc
+git status
+git diff
+git checkout -b public
+git status
+vim .bashrc
+git status
+git rm --cached .bash_history
+git status
+vim .bashrc
+git status
+cd .config/
+ls
+cd ..
+vim README.md 
+git status
+vim README.md 
+git status
+vim README.md 
+ls
+cd .config/
+ls
+ls | grep wecha
+cd electronic-wechat/
+ls
+cd ..
+rm -rf electronic-wechat/
+ls
+git status
+cd ..
+git status
+cd .config/
+ls
+cd ..
+ls
+git status
+git add .
+git commit -m "upd"
+git status
+git remote add public git@github.com:chinnkarahoi/pubsettings.git
+git push -u public master
+git status
+vim .bashrc
+\git push -u public master
+\git push public master
+git status
+git push public HEAD:master
+git log
+git push public 1241d4e1bddb9c55389c86aa7d599158a83b1ae3:master
+git push -u public 1241d4e1bddb9c55389c86aa7d599158a83b1ae3:master
+git push -u public 1241d4e1bddb9c55389c86aa7d599158a83b1ae3:ref/heads/master
+git push -u public 1241d4e1bddb9c55389c86aa7d599158a83b1ae3:refs/heads/master
+git log
+git rebase 90622fa4b3745a8504a6d9b4267daa4037752816
+git status
+git reset HEAD --hard
+git status
+git checkout public
+git status
+git log
+git status
+\git reset HEAD --hard
+\git status
+git rebase --continue
+\git status
+git status
+git branch
+git checkout public
+git stash
+git stauts
+git status
+git stash
+git stash *
+git status
+git add .
+git status
+git branch
+git checkout public
+git status
+git branch
+git reset HEAD --hard
+git staus
+git status
+git branch
+git log
+git status
+vim config.sh 
+git status
+git rebase -i
+git checkout unity
+git staus
+git status
+git  branch -d public
+git  branch -D public
+git status
+git checkout -b public
+git staus
+git status
+git rebase --continue
+git status
+git rebase --abort
+git status
+git rebase -i
+git branch --set-upstream-to=master public
+git branch
+git checkout unity
+git branch -d public
+git branch -D public
+git status
+git log
+git checkout -b public
+git remote add public git@github.com:chinnkarahoi/pubsettings.git
+git rebase -i
+git branch --set-upstream-to=public public
+git rebase -9i
+git rebase -i
+git branch --set-upstream-to=master public
+git rebase -i
+git status
+git rebase --abort 
+git status
+git rebase -i
+jobs
+fg 1
+git status
+jobs
+fg 2
+git status
+git rebase --abort 
+git status
+git branch
+git remote show public
+git remote show origin
+\git remote show origin
+git status
+git checkout unity
+git status
+git remote
+git remote show origin
+git remove -v
+git remote -v
+git remote show origin
+git remote show public
+git branch
+git status
+git branch -d public
+git branch -D public
+git status
+git branch
+git branch new_branch_name $(echo "commit message" | git commit-tree HEAD^{tree})
+git branch
+git checkout new_branch_name 
+git log
+git push -u public master
+git branch
+git checkout unity 
+git branch
+git branch -D new_branch_name
+git status
+git branc
+git branch
+git status
+vim README.md 
+git stauts
+history
+git status
+ls
+cd fc/blur_detection/
+ls
+vim
+ls
+ls -F */
+cd ~
+ls -F */
+history | grep '\*\/'
+ls -d */
+ls -F
+ls
+vim .vimrc
+vim .bashrc
+ls
+vim .vimrc
+ls
+vim .vimrc
+ls
+mysql
+ls
+uname -a
+ssh gjs@10.0.10.63
+ls
+sh
+ls
+sss
+sh
+vim .bashrc
+eog --help
+eog -s
+eog --help-all 
+mysql
+tldr chown
+vim /etc/apt/sources.list
+vim config.sh 
+git status
+./config.sh push
+vim config.sh 
+./config.sh push
+vim config.sh 
+./config.sh push
+vim config.sh 
+./config.sh push
+vim config.sh 
+git status
+git branch
+git log
+git reset 87b2a8aba67e7445dd17c769c54dbd87d92d37dd
+git status
+git checkout --config.sh
+git checkout -- config.sh
+vim config.sh 
+git log
+git branch
+vim config.sh 
+git branch
+git pull
+git branch
+git log
+vim config.sh 
+vim /etc/apt/sources.list
+vim config.sh 
+./config.sh push
+vim config.sh 
+git status
+./config.sh push
+vim config.sh 
+./config.sh push
+vim config.sh 
+./config.sh push
+vim config.sh 
+./config.sh push
+vim config.sh 
+./config.sh push
+mysql
+sss
