@@ -17,7 +17,7 @@ tabs-size=uint32 2
 show-tabs-mode='auto'
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs'
+virtual-root='file:///home/gjs/test/sh/190318-132131-S3/camera07'
 tree-view=true
 root='file:///'
 
@@ -39,7 +39,7 @@ show-thousands=false
 button-mode='advanced'
 target-units='radian'
 word-size=64
-window-position=(2549, 541)
+window-position=(1991, 30)
 number-format='automatic'
 angle-units='degrees'
 base=16
@@ -93,7 +93,7 @@ window-size=(1849, 1002)
 
 [org/gnome/deja-dup]
 backend='goa'
-prompt-check='2019-02-11T11:33:19.134943Z'
+prompt-check='2019-03-16T04:53:44.918788Z'
 
 [org/gnome/deja-dup/goa]
 type='google'
@@ -268,13 +268,17 @@ use-theme-colors=false
 font='Ubuntu Mono 16'
 use-theme-transparency=true
 background-color='rgb(0,0,0)'
-background-transparency-percent=10
+background-transparency-percent=8
 scrollback-lines=100000
 audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1552603898
+check-timestamp=int64 1553035907
+
+[org/gnome/Totem]
+subtitle-encoding='UTF-8'
+active-plugins=['skipto', 'screenshot', 'apple-trailers', 'media_player_keys', 'vimeo', 'movie-properties', 'autoload-subtitles', 'variable-rate', 'recent', 'save-file', 'screensaver']
 
 [org/gnome/gnome-system-monitor]
 current-tab='resources'
@@ -296,7 +300,7 @@ col-6-width=0
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=252
-window-position=(2533, 336)
+window-position=(2533, 234)
 show-size-column=true
 show-hidden=false
 window-size=(764, 437)
@@ -504,7 +508,7 @@ applications=['org.gnome.Calendar.desktop']
 migrated=true
 
 [com/canonical/indicator/sound]
-interested-media-players=['netease-cloud-music.desktop']
+interested-media-players=['netease-cloud-music.desktop', 'vlc.desktop']
 
 [com/canonical/unity]
 minimize-count=100
@@ -518,7 +522,7 @@ blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416b
 text-scale-factor=1.0
 
 [com/canonical/unity/launcher]
-favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'unity://running-apps', 'application://vscode_vscode.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'application://vmware-workstation.desktop', 'application://unity-control-center.desktop', 'application://steam.desktop', 'unity://expo-icon', 'unity://devices']
+favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'unity://running-apps', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'application://vmware-workstation.desktop', 'application://unity-control-center.desktop', 'application://steam.desktop', 'application://vscode_vscode.desktop', 'unity://expo-icon', 'unity://devices']
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14

@@ -11930,3 +11930,1012 @@ vim config.sh
 ./config.sh push
 mysql
 sss
+ls
+history | grep oss
+ossutil ls oss://ai-cloth-public/debug-data
+vim ~/config.sh 
+imagetops 
+imagetops  --help
+man imagetops
+ls
+steam
+ls
+#1552616165
+cd fc/blur_detection/
+#1552616165
+ls
+#1552616192
+cd db
+#1552616192
+ls
+#1552616193
+./labeler.sh 
+#1552616272
+./labeler.sh 
+#1552616285
+./labeler.sh 
+#1552616290
+./labeler.sh 
+hexdump -C -n 100 /dev/sda
+sudo hexdump -C -n 100 /dev/sda
+sudo hexdump -C -n 1000 /dev/sda
+sudo hexdump -C -n 1000 /dev/sdb
+sudo hexdump -C -n 1000 /dev/sda
+sudo hexdump -C -n 1000 /dev/sda1
+sudo hexdump -C -n 1000 /dev/sda2
+sudo hexdump -C -n 1000 /dev/sda3
+sudo hexdump -C -n 1000 /dev/sdb1
+sudo hexdump -C -n 1000 /dev/sdb2
+ls
+df
+sudo fdisk -l
+hexdump -C -n 512 /dev/sda
+sudo hexdump -C -n 512 /dev/sda
+sudo hexdump -C -n 1000 /dev/sda
+ssh -o "StrictHostKeyChecking no" -p 11679 hypereal@registry-corp.hypereal.com
+vim .bashrc
+fg
+. .bashrc
+ssh -o "StrictHostKeyChecking no" -p 11679 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15685 hypereal@registry-corp.hypereal.com
+sudo fdisk -l
+df
+df -h
+cd /boot/efi/
+ls
+sudo su
+cd ~
+ls
+cd /to
+cd /boot/
+ls
+cd gu
+cd grub/
+ls
+cd ..
+ls
+cd efi/
+ls
+cd ~
+ps -ef | grep systemd
+ps -ef | grep init
+ps -ef | grep systemd
+#1552629955
+cd fc/blur_detection/
+#1552629956
+ls
+#1552629958
+cd db
+#1552629958
+ls
+#1552629961
+./la
+#1552629962
+./labeler.sh 
+#1552629970
+./labeler.sh 
+grub-file 
+grub-menulst2cfg 
+grub-probe
+grub-probe /dev/sda
+grub-probe /dev/sda1
+grub-editenv 
+cd /boot/grub2/i386-pc/
+cd /boot/grub2
+cd /bootl
+cd /boot
+ls
+cd grub/
+ls
+cd x86_64-efi/
+ls
+ls | grep *.img
+ls | grep img
+find . -name '*.img' -o -name "*fs.mod" -o -name 
+find -name '*.img' -o -name "*fs.mod" -o .
+find -name '*.img' -o -name "*fs.mod" .
+ls
+cd ..
+ls
+cd ..
+ls
+cd efi/
+ls
+sudo su
+ls
+cd grub/
+ls
+cd x86_64-efi/
+ls
+ls | grep boot
+ls | grep core
+vim core.efi 
+ls
+ls | grep boot
+hexdump -C -n 1000 boot.mod 
+sudo hexdump -C -n 1000 /dev/sda
+sudo hexdump -C -n 1000 /dev/sda1
+sudo hexdump -C -n 2000 /dev/sda1
+sudo hexdump -C -n 2000 /dev/sda
+sudo hexdump -C -n 2048 /dev/sda
+hexdump -C -n 100 boot.mod 
+hexdump -C -n 1000 boot.mod 
+hexdump -C -n 2000 boot.mod 
+hexdump -C -n 3000 boot.mod 
+hexdump -C -n 30000 boot.mod 
+hexdump -C boot.mod 
+ls /etc/rc2.d/
+sss
+nologin 
+/usr/sbin/nologin
+vim ~/.bash_profile
+data
+date
+ssh -o "StrictHostKeyChecking no" -p 19036 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16321 hypereal@registry-corp.hypereal.com
+ls
+vim 1552626743892.dat 
+python3
+pytho3nb
+python3
+stat -c %s camera00-20190309095100.jpg
+stat camera00-20190301140841.jpg
+stat -s camera00-20190301140841.jpg
+stat --size camera00-20190301140841.jpg
+tldr
+tldr stat
+stat -c "%s %n" camera00-20190301140841.jpg
+stat -c "%s" camera00-20190301140841.jpg
+stat -c %s camera00-20190301140841.jpg
+stat --help
+stat -c "213 %s %n" camera00-20190301140841.jpg
+stat -c "%s %n" camera00-20190301140841.jpg
+cd ..
+vim camera00-20190301140841.jpg
+python3
+from PIL import Image
+img = Image.open('image.png').convert('LA')
+python3
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git status
+./labeler.sh "select url from part where type='normal' and ans='blur';"
+./labeler.sh "select url from part where type='blur' and ans='normal';"
+mysql --version
+ls
+sss
+0;61;22M0;61;22m
+ls
+sss
+ls
+sss
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git status
+git diff
+ssh -o "StrictHostKeyChecking no" -p 15700 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17012 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13459 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14237 hypereal@registry-corp.hypereal.com
+ls
+scp -P 12118 hypereal@registry-corp.hypereal.com:online_tools/ ~
+scp online_tools -P 12118 hypereal@registry-corp.hypereal.com:online_tools/
+ssh -o "StrictHostKeyChecking no" -p 12118 hypereal@registry-corp.hypereal.com
+scp -P 15700 hypereal@registry-corp.hypereal.com:online_tools/ ~
+scp online_tools/ -P 15700 hypereal@registry-corp.hypereal.com:online_tools/ 
+ssh -o "StrictHostKeyChecking no" -p 15700 hypereal@registry-corp.hypereal.com
+scp online_tools/ -P 15700 hypereal@registry-corp.hypereal.com:~ 
+scp -P 15700 online_tools/ hypereal@registry-corp.hypereal.com:~ 
+scp -RP 15700 online_tools/ hypereal@registry-corp.hypereal.com:~ 
+scp -R -P 15700 online_tools/ hypereal@registry-corp.hypereal.com:~ 
+scp -r -P 15700 online_tools/ hypereal@registry-corp.hypereal.com:~ 
+scp -r -P 17012 online_tools/ hypereal@registry-corp.hypereal.com:~ 
+vim ~/.bashrc
+fg
+sshpass -p 87Co7r scp -o StrictHostKeyChecking=no -r -P 17012 online_tools/ hypereal@registry-corp.hypereal.com:~ 
+scp -o StrictHostKeyChecking=no -r -P 17012 online_tools/ hypereal@registry-corp.hypereal.com:~ 
+scp -o StrictHostKeyChecking=no -r -P 17883 online_tools/ hypereal@registry-corp.hypereal.com:~ 
+sshpass -p 87Co7r scp -o StrictHostKeyChecking=no -r -P 13459 online_tools/ hypereal@registry-corp.hypereal.com:~ 
+ls
+vim
+ls
+sshpass -p 87Co7r scp -o StrictHostKeyChecking=no -r -P 13459 ~/fc/usb_blow_detector/online_tools/ hypereal@registry-corp.hypereal.com:~ 
+sshpass -p 87Co7r scp -o StrictHostKeyChecking=no -r -P 14237 ~/fc/usb_blow_detector/online_tools/ hypereal@registry-corp.hypereal.com:~ 
+ls
+sshpass -p 87Co7r scp -o StrictHostKeyChecking=no -r -P 14237 ~/fc/usb_blow_detector/online_tools/ hypereal@registry-corp.hypereal.com:~ 
+ssh -o "StrictHostKeyChecking no" -p 13459 hypereal@registry-corp.hypereal.com -t "ls"
+ssh -o "StrictHostKeyChecking no" -p 13459 hypereal@registry-corp.hypereal.com -t "cd online_tools;python3 blow_detector.py"
+ls
+vim 1.sh
+fg
+ls
+chmod +x 1.sh
+./1.sh 12133
+vim 1.sh
+./1.sh 12133
+./1.sh 15700
+ssh -o "StrictHostKeyChecking no" -p 11516 hypereal@registry-corp.hypereal.com
+./1.sh 11516
+ls
+vim 1.sh
+ls
+git status
+git add .
+git commit -m "add online test"
+git status
+ls
+git push
+git push --set-upstream origin gjs
+git status
+git branch
+git status
+vim ~/.bashrc
+jobs
+fg
+\git rev-parse
+history | grep git | grep tree
+git rev-parse --help
+ls
+vim 1.sh
+ls
+sshpass 87Co7r scp online_tools/ -o "StrictHostKeyChecking no" -p 12118 hypereal@registry-corp.hypereal.com:online_tools/
+sshpass
+sshpass 87Co7r scp online_tools/ -o -p 12118 hypereal@registry-corp.hypereal.com:online_tools/
+scp online_tools/ -o -p 12118 hypereal@registry-corp.hypereal.com:online_tools/
+scp online_tools/ hypereal@registry-corp.hypereal.com:online_tools/
+scp --help
+tldr scp
+steam
+steam 
+steam
+ls
+cd ~/test/
+ls
+cp --help
+ls
+ls;sleep 3
+ls
+du -hl --max-depth=1
+ls
+cd ~/test/
+ls
+cp -R os .
+cp -R os ss
+ls
+cp -R ss/ os/
+cd ss
+ls
+rm -rf 
+rm -rf os
+cd ..
+cp -R ss/ os/
+cd os/
+ls
+cd ss
+ls
+cd ..
+rm -rf ss
+ls
+cd ..
+ls
+ssh -o "StrictHostKeyChecking no" -p 10773 hypereal@registry-corp.hypereal.com
+ls
+sss
+ls
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+ls
+mv online_tools/ online_blow
+git status
+git add .
+git commit -m "rename online dir"
+git push
+ls
+git status
+ssh -o "StrictHostKeyChecking no" -p 14101 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14101 hypereal@registry-corp.hypereal.com -t "dd if=/dev/zero of=test.img bs=1M count=100"
+ls
+ssh -o "StrictHostKeyChecking no" -p 14101 hypereal@registry-corp.hypereal.com
+ls
+tldr dd
+ls
+cd ~
+ls
+cd test/
+ls
+sshpass -p 87Co7r scp -o "StrictHostKeyChecking no" -P 14101 hypereal@registry-corp.hypereal.com:~/test.img .
+ls
+scp -o "StrictHostKeyChecking no" -P 14101 hypereal@registry-corp.hypereal.com:~/test.img .
+ls
+cd sh
+ls
+vim 1.sh
+fg
+fjobs
+jobs
+./1.sh 12541
+vim 1.sh
+./1.sh 12541
+./1.sh 16913
+ssh -o "StrictHostKeyChecking no" -p 14101 hypereal@registry-corp.hypereal.com
+sshpass -p 87Co7r scp -o "StrictHostKeyChecking no" -P 14101 hypereal@registry-corp.hypereal.com:/data/dump/190318-132131-S3.tar .
+scp -o "StrictHostKeyChecking no" -P 14101 hypereal@registry-corp.hypereal.com:/data/dump/190318-132131-S3.tar .
+ls
+nautilus 
+nautilus  .
+ls
+vim 1.sh
+./1.sh 14101
+cd /opt/fl
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git status
+cd blow_check/
+ls
+cd usb_blow_detector/
+ls
+git pull origin gjs
+git status
+git checkout gjs
+git status
+git branch
+git log
+cd ..
+git branch
+git checkout -b point_blow
+git status
+git branch
+git checkout dev
+git status
+git pull
+git status
+git submodule update
+git status
+git pull
+git status
+git branch -d point_blow 
+git status
+git branch -D point_blow 
+git status
+git pull
+git checkout -b point_blow
+git status
+cd blow_check/usb_blow_detector/
+git status
+git pull origin gjsz
+git pull origin gjs
+git checkout gjs
+git status
+cd ..
+git status
+git add .
+git commit -m "upd point blow"
+git push origin point_blow
+git status
+ls
+git status
+ls
+cd usb_blow_detector/
+ls
+cd online_tools/
+ls
+cd ..
+ls
+git status
+git pull
+git status
+git log
+cd ..
+ls
+git status
+git add .
+git commit -m "upd blow sbm"
+git push
+git push --set-upstream origin point_blow
+git branch
+cd usb_blow_detector/
+git branch
+git status
+git log
+git status
+cd ..
+git status
+git diff
+git add .
+git commit -m "pack online_blow"
+git push
+ssh -o "StrictHostKeyChecking no" -p 11516 hypereal@registry-corp.hypereal.com
+ls
+cd ..
+ls
+vim
+ls
+ssh -o "StrictHostKeyChecking no" -p 18998 hypereal@registry-corp.hypereal.com
+tldr ls
+man ls
+ls -A
+ls
+cd ..
+ls
+ls _A
+ls -A
+ll -A
+ls -lA
+ssh -o "StrictHostKeyChecking no" -p 14101 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11779 hypereal@registry-corp.hypereal.com
+ls
+sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p $1 hypereal@registry-corp.hypereal.com -t "ls /data/saki/tmp"
+sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p 14101 hypereal@registry-corp.hypereal.com -t "ls /data/saki/tmp"
+a=`sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p 14101 hypereal@registry-corp.hypereal.com -t "ls /data/saki/tmp"`
+echo $a
+ls
+ssh -o "StrictHostKeyChecking no" -p 14101 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 15756 hypereal@registry-corp.hypereal.com
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git status
+git diff
+git log
+git status
+git diff
+gits tatus
+git status
+git diff
+git add .
+git commit -m "upd"
+git diff
+git add .
+git diff --cached 
+git status
+rm '
+rm \' 
+git status
+git add .
+git status
+git diff
+git diff --cached 
+git status
+git add .
+git status
+git diff --cached 
+./run.sh 
+git status
+git add .
+git commit -m "upd save pic"
+git push
+git branch
+git status
+git diff
+git commit -m "fix size"
+git commit -a -m "fix size"
+git status
+git push
+git status
+git checkout -b craw
+git status
+touch scp.sh
+chmod +x scp.sh
+./scp.sh 
+./scp.sh 14101
+sleep 1m
+sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p $1 hypereal@registry-corp.hypereal.com -t "ls -t /data/saki/tmp"
+sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p 14101 hypereal@registry-corp.hypereal.com -t "ls -t /data/saki/tmp"
+sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p 15766 hypereal@registry-corp.hypereal.com -t "ls -t /data/saki/tmp"
+ssh -o "StrictHostKeyChecking no" -p 15766 hypereal@registry-corp.hypereal.com -t "ls -t /data/saki/tmp"
+sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p 15756 hypereal@registry-corp.hypereal.com -t "ls -t /data/saki/tmp"
+sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p 15756 hypereal@registry-corp.hypereal.com -t "ls -lt /data/saki/tmp"
+sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p 15756 hypereal@registry-corp.hypereal.com -t "ls -l /data/saki/tmp"
+sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p 15756 hypereal@registry-corp.hypereal.com -t "ls -lA /data/saki/tmp"
+./scp.sh 15756
+sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p 15756 hypereal@registry-corp.hypereal.com -t "ls -lA /data/saki/tmp"
+
+./crawler.sh 
+./scp.sh 
+./crawler.sh 
+./scp.sh 
+ls
+ssh -o "StrictHostKeyChecking no" -p 15756 hypereal@registry-corp.hypereal.com
+ls | wc -l
+tar --help
+ls
+cd te
+cd ~/test/
+ls
+cd ..
+ls
+tar -cf test/ab.tar -C test/ab
+tar -cf test/ab.tar -C test/ab .
+ls
+cd test/
+ls
+tar -tf ab.tar
+tar -t ab.tar
+tar -tf ab.tar
+ls
+cd ab
+ls
+cd ..
+ls
+tldr tar 
+man tar | grep -C
+man tar | grep '-C'
+man tar | grep "-C"
+man tar | grep "\-C"
+man tar
+ls
+cd test/
+ls
+tar -cf cpp.tar ./cpp
+sudo tar -cf cpp.tar ./cpp
+ls
+tar -tf cpp.tar
+ls
+rm cpp.tar
+ls
+cd ..
+sudo tar -cf test/cpp.tar ./cpp
+sudo tar -cf test/cpp.tar test/cpp
+ls
+cd test/
+ls
+tar -tf cpp
+tar -tf cpp.tar 
+ls
+cd ..
+ls
+sudo tar -cf test/cpp.tar -C test .
+rm test/cpp.tar 
+sudo rm test/cpp.tar 
+sudo tar -cf test/cpp.tar -C test/cpp .
+cd test/
+ls
+tar -tf cpp.tar 
+ls
+ssh -o "StrictHostKeyChecking no" -p 10681 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14101 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 14129 hypereal@registry-corp.hypereal.com
+cp pack tmp
+cp -R pack tmp
+ll
+ls -tr
+ls -ltr
+ls
+cd ..
+ls
+cd 70-85-C2-80-18-4E/
+ls -ltr
+ls
+ls *.png | xargs eog
+ll
+xargs --help
+tldr xargs
+top
+ls
+ls *.png | xargs eog
+ls *.png | head -n 100 | xargs eog
+ls *.png | head -n 100
+ls *.png | head -n 100 | xargs eog
+ls *.png | xargs eog
+ls *.png | head -n 1000 | xargs eog
+ls
+cd ..
+ls
+cd 70-85-C2-80-18-4E/
+ls
+ls *.png | head -n 1000 | xargs eog
+tar xvf *
+ls | xargs -i {} tar xvf
+ls | xargs -i tar xvf {}
+ls | xargs -L 1 -P 4tar xvf 
+ls | xargs -L 1 -P 4 tar xvf 
+ls | xargs -L1 -P4 tar xvf 
+ls | xargs -P 4 -L 1 tar xvf 
+ls | xargs -L 1 tar xvf 
+ls | xargs -L=1 tar xvf 
+ls | xargs -l 1 tar xvf 
+ls | xargs -n 1 -P 4 tar xvf 
+ls | xargs -n 1 -P 4 -p tar xvf 
+ls
+rm *.png
+ls | xargs -n 1 -P 4 -p tar xvf 
+ls | xargs -n 1 -P 8 tar xvf 
+ls *.tar | time xargs -n 1 -P 8 tar xvf 
+ls | wc -l
+time ls *.tar | xargs -n 1 -P 8 tar xvf 
+ls
+cd ..
+ls
+cd 70-4D-7B-64-E1-97/
+ls
+cd ..
+ls
+cd 70-85-C2-80-18-4E/
+ls
+time ls *.tar | xargs -n 1 -P 8 tar xvf 
+ll
+/home/gjs/disk/tmp/70-4D-7B-64-E1-97/190318-173206-02.png
+/home/gjs/disk/tmp/70-4D-7B-64-E1-97/190318-173207-03.png
+/home/gjs/disk/tmp/70-4D-7B-64-E1-97/190318-173207-04.png
+ls
+ffmpeg -i *.png -pix_fmt yuv420p ab.mp4
+ls
+ffmpeg -i *.png -pix_fmt yuv420p ab.avi
+mysql
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git status
+ls
+1 && 1 || echo 2
+: && : || echo 2
+
+:
+true
+false
+true && echo 1
+false && echo 1
+false || echo 1
+true || echo 1
+true && true || false && echo 1
+true && true || echo 2 && echo 1
+true && true || echo 1 && echo 2
+true && false || echo 1 && echo 2
+true && false || echo 1 || echo 2
+cd fc/blur_detection/
+ls
+cd db/
+ls
+./labeler.sh 
+./labeler.sh "select url from data where type is other;"
+vim labeler.sh 
+fg
+./labeler.sh "select url from data where type='other';"
+./labeler.sh "select url from data where type='blur';"
+./labeler.sh "select url from data where type='normal';"
+vim .bashrc
+python
+pip install cv
+pip install opencv
+pip install opencv2
+pip search cv
+conda install opencv
+python3
+pip install import cv2
+image = "test.jpg"
+pip install py-opencv-3.4.2
+pip2
+sss
+ls
+cd ..
+ls
+cd usb_blow_detector/
+ls
+vim
+ls
+cd ~/fc/blur_detection/
+ls
+cd ..
+ls
+cd usb_blow_detector/
+ls
+vim
+jobs
+fg
+cd ..
+ls
+cd saki_detection/
+ls
+vim
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+cd submodules/saki_detection/
+git status
+git pull
+cd ..
+git add .
+git commit -m "fix saki"
+sudo git commit -m "fix saki"
+git push
+ls
+cd ..
+ls
+cd saki_detection/
+ls
+vim
+ls
+cd ..
+ls
+cd usb_blow_detector/
+ls
+vim
+cd ..
+ls
+cd flaw_checker/
+ls
+vim
+ls
+jobs
+git status
+git branch
+git log
+git status
+git diff
+git reset HEAD --hard
+git statu
+git checkout saki
+git status
+git pull
+git status
+git submodule update
+git status
+git reset HEAD --hard
+git status
+git submodule update
+git status
+git checkout dev
+git status
+git pull
+git submodule update
+git status
+git checkout saki
+git status
+git merge dev
+git status
+sudo git merge dev
+git status
+git log
+git push origin saki
+git status
+ls
+cd ~
+ls
+cd fc/
+cd flaw_checker/
+ls
+git branch
+cd sa
+cd submodules/saki_detection/
+ls
+git branch
+git pull origin optparam
+git status
+git branch
+git checkout optparam
+git status
+git log
+git status
+git branch
+cd ..
+git status
+git add saki_detection/
+git status
+git commit -m "upd saki sbm"
+git status
+sudo git commit -m "upd saki sbm"
+git status
+git log
+git diff HEAD^
+git push
+ls
+cd ..
+ls
+vim
+ls
+myusql
+mysql
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+./move.sh 
+type shopt
+./move.sh 
+ls
+cd ..
+ls
+vim
+ls
+cd ..
+ls
+cd blur_detection/
+ls
+cd pack/
+ls
+cd ..
+ls
+vim
+ffmpeg -i image2 *.png video.mpg
+ffmpge --help
+ffmpeg --help
+man ffmpeg
+man ffmpeg | grep format
+ffmpeg -formats
+ffmpeg -formats | grep mpg
+ffmpeg -formats
+ffmpeg -i mp4 *.png video.mp4
+ls
+ffmpeg -i mp4 190318-181717-04.png video.mp4
+ffmpeg -i test.mp4
+ffmpeg -i *.png -pix_fmt yuv420p movie.mp4
+ls
+ffmpeg -i *.png -pix_fmt yuv420p movie.mp4
+ls
+ffmpeg -i *.png -pix_fmt yuv420p ab.mp4
+ls
+ffmpeg -i *.png -pix_fmt yuv420p ab.mp4
+ls
+ls *.mp4
+ls
+ffmpeg -i ab.mp4
+cd ..
+ffmpeg -i ab.mp4
+ffmpeg -i ab.mp4 1 2 3 4
+ffmpeg -i ab.mp4 1.png
+ls
+ffmpeg -i input_%d.png -pix_fmt yuv420p ab.mp4
+ffmpeg -i input_%d-%d-%d.png -pix_fmt yuv420p ab.mp4
+ffmpeg -i %d-%d-%d.png -pix_fmt yuv420p ab.mp4
+ls
+ffmpeg -f image2 -i %06d-%06d-%02d.png -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4
+ffmpeg -f image2 -i "%06d-%06d-%02d.png" -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4
+ffmpeg -f image2 -i "%06d\-%06d\-%02d.png" -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4
+ffmpeg -f image2 -i "%06d-%06d-%02d.png" -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4
+ls
+ls 
+ls
+cd ~
+ls
+cd fc/usb_blow_detector/
+ls
+vim
+ls
+ffmpeg
+ls
+cd ~
+vim .vimrc
+ls
+vim .vimrc
+ls
+ffmpeg 
+ls
+cd disk/pack/70-4D-7B-64-E1-97/
+cd ..
+ls
+cd tmp/70-4D-7B-64-E1-97/
+for i in `ls *.png`;do
+t=0
+for i in `ls *.png`;do mv $i `printf %05d t`.png; done
+for i in `ls *.png`;do mv $i `printf %05d $t`.png; done
+ls
+ls | head -n 10
+ls | head -n 100
+ls 0000
+ls 0000*
+for i in `ls *.png`;do mv $i `printf %05d $t`.png;(( t+=1 ));done
+ls 0000*
+ls | head -n 10
+for i in `ls *.png`;do mv $i `printf %05d $t`.png;(( t+=1 ));done
+t=0
+for i in `ls *.png`;do mv $i `printf %05d $t`.png;(( t+=1 ));done
+ls
+history | grep ffmpeg
+ffmpeg -f image2 -i "%05d.png" -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4
+ffmpeg -f image2 -i "%05d.png" -crf 25  -pix_fmt yuv420p test.mp4
+ls
+mv test.mp4 ..
+ls
+cd ..
+ls
+nautilus
+nautilus .
+cd -
+ls
+dirs -p
+cd ~2
+ffmpeg -f im -i "%05d.png" -crf 25  -pix_fmt yuv420p test.mp4
+ffmpeg -f image2 -i "%05d.png" -crf 25  -pix_fmt yuv420p test.mp4
+clear
+mysql
+./scp.sh 
+ls
+./scp.sh 15756
+sshpass -p 87Co7r scp -o StrictHostKeyChecking=no -P 15756 hypereal@registry-corp.hypereal.com:$file ~/disk/
+ls
+ssh -o "StrictHostKeyChecking no" -p 15756 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10154 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15756 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10154 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 19931 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18805 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18244 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 18244 hypereal@registry-corp.hypereal.com
+vim
+ls
+python3
+ls
+ssh -p 17014 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10240 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 10240 hypereal@registry-corp.hypereal.com
+ssh -p 12206 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10240 hypereal@registry-corp.hypereal.com
+ssh -p 12206 hypereal@registry-corp.hypereal.com
+man df
+man df | cache
+man df | grep cache
+man df | grep no
+du
+man df | grep no
+man df | grep sync
+tldr df
+man df | grep sync
+df
+man df | grep sync
+man df
+ls
+steam
+cd ~
+git status
+git diff
+git status
+git diff .bashrc
+git diff .config/gtk-3.0/servers
+git diff .config/mimeapps.list
+ls
+ssh -o "StrictHostKeyChecking no" -p 11301 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 11301 hypereal@registry-corp.hypereal.com
+ssh -o StrictHostKeyChecking=no -p 11301 hypereal@registry-corp.hypereal.com
+ssh -o -p 11301 hypereal@registry-corp.hypereal.com
+ssh -p 11301 hypereal@registry-corp.hypereal.com
+\ssh -p 11301 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 11301 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18695 hypereal@registry-corp.hypereal.com
+;5~ssh -o "StrictHostKeyChecking no" -p 10263 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10263 hypereal@registry-corp.hypereal.com
+ls
+cd ~/test/
+ls
+cd cpp/
+ls
+cd test/
+ls
+vim 1.cpp
+ls
+cd ..
+ls
+cd ..
+ls
+vim config.py 
+cd ~
+ls
+vim config.sh 
+vim --version
+vim config.sh 
+jobs
+fg
+ls
+jobs
+sudo add-apt-repository -y ppa:jonathonf/vim
+date +%s
+date +%m
+date +%ms
+date +%s
+ls
+cd ~
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+jobs
+#1553065698
+ls

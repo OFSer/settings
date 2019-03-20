@@ -385,6 +385,7 @@ func Quit()
 	let t=Next(nr)
 	if tabpagenr() != 1
 		exe "q!"
+		silent! exe "bw! ".nr
 		call CloseNetrw()
 		return
 	endif

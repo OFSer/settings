@@ -10,3 +10,4 @@ application/x-shellscript=org.gnome.gedit.desktop
 application/x-shellscript=org.gnome.gedit.desktop;
 model/x.stl-binary=vmware-workstation.desktop;
 text/calendar=org.gnome.gedit.desktop;
+video/mp4=firefox.desktop;google-chrome.desktop;org.gnome.Totem.desktop;vlc.desktop;

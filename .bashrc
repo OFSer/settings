@@ -119,6 +119,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US
+export LC_ALL=en_US.utf8
 export PATH="$PATH:/usr/lib/go/bin"
 export GOPATH="/home/gjs/go"
 export GOROOT="/usr/lib/go"
@@ -132,9 +135,10 @@ alias ssh='callssh'
 alias docker='sudo \docker'
 callssh(){
 	if [[ $5 == "hypereal@registry-corp.hypereal.com" ]];then
-		sshpass -p 87Co7r /usr/bin/ssh -o StrictHostKeyChecking=no $*
+		#sshpass -p 87Co7r /usr/bin/ssh -o StrictHostKeyChecking=no $*
+		sshpass -p 87Co7r /usr/bin/ssh "$@"
 	else
-		/usr/bin/ssh -o StrictHostKeyChecking=no -tX $*
+		/usr/bin/ssh -o StrictHostKeyChecking=no $*
 	fi
 }
 alias logout=$'ps -ef | grep tty2 | awk \'{print $2}\' | head -n 1 | xargs kill'
@@ -204,7 +208,6 @@ alias osu='LD_LIBRARY_PATH="~/osu/osu.Desktop/bin/Debug/netcoreapp2.2" sudo dotn
 alias mysql='mysql --login-path=gjs'
 # If this is an xterm set the title to user@host:dir
 PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@$HOSTNAME\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ "
-export LC_ALL="en_US.utf8"
 case "$TERM" in
 xterm*|rxvt*)
     PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}:`dirs -p | head -n 1`$\007"'
