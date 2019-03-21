@@ -17,7 +17,7 @@ tabs-size=uint32 2
 show-tabs-mode='auto'
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/test/sh/190318-132131-S3/camera07'
+virtual-root='file:///home/gjs/disk/pack/4C-ED-FB-3E-07-B0'
 tree-view=true
 root='file:///'
 
@@ -274,7 +274,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1553035907
+check-timestamp=int64 1553121702
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
@@ -300,7 +300,7 @@ col-6-width=0
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=252
-window-position=(2533, 234)
+window-position=(613, 234)
 show-size-column=true
 show-hidden=false
 window-size=(764, 437)

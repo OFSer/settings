@@ -12939,3 +12939,663 @@ ls
 jobs
 #1553065698
 ls
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git status
+git diff
+git reset HEAD --hard
+git status
+vim .gitignore 
+git status
+tldr useradd
+group
+cd ~
+ls
+ls .ssh
+ls .ssh/
+tldr chown
+vim .bash_profile
+ssh gjs@10.0.10.63
+ls
+vim .bashrc
+locale
+vim .bashrc
+git status
+./config.sh push
+git status
+ls
+vscode
+sss
+cd /
+ls
+ls -a
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+ls
+cp tmp.sh scp.sh
+git status
+git diff
+git status
+git add .
+git commit -m "add scp"
+git status
+git diff
+git add .
+git commit -m "sed 's/\r//'"
+git status
+git log
+ls
+git status
+git diff
+git add .
+git commit -m "upd"
+git status
+clear
+./scp.sh 70-85-C2-80-18-4E
+ls
+cd fc/saki_detection/
+ls
+vim
+ls
+cd ~
+cd fc/usb_blow_detector/
+ls
+vim
+ls
+git status
+git diff
+git reset HEAD --hard
+git status
+ls
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+ls
+git branch
+git pull origin dev
+git status
+git log
+git branch
+git submodule update 
+git status
+git checkout dev
+git status
+git pull
+git branch
+git checkout saki 
+git status
+git submodule update
+git status
+git branch
+git log
+git merge dev 
+sudo git merge dev 
+git status
+git submodule update
+git status
+git reset HEAD --hard
+git status
+git merge dev
+sudo git merge dev
+git status
+git diff
+git diff --cached
+git status
+git reset HEAD --hard
+git status
+git submodule update
+git status
+git merge dev
+git status
+git reset HEAD --hard
+git submodule update
+git status
+git checkout dev
+git status
+git pull
+git submodule update
+git status
+git checkout saki 
+git status
+git merge dev
+git status
+git merge /dev
+git status
+sudo git merge dev
+git status
+git commit -m "merge dev"
+git status
+git commit -m "merge dev"
+sudo git commit -m "merge dev"
+git status
+git merge dev
+cd submodules/saki_detection/
+git status
+git pull
+git pull origin craw
+git status
+git branch
+git checkout craw
+git branch -a
+git checkout -b craw remotes/origin/craw
+git branch
+git logq
+git log
+git status
+cd ..
+ls
+cd ..
+git status
+git add .
+git commit -m "upd saki sbm"
+sudo git commit -m "upd saki sbm"
+git status
+git push
+cd submodules/saki_detection/
+git pull
+git diff HEAD^
+cd ..
+git add .
+git commit -m "fix saki sbm bug"
+sudo git commit -m "fix saki sbm bug"
+git push
+ls
+ssh -o "StrictHostKeyChecking no" -p 16207 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18820 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10196 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18118 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10196 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10779 hypereal@registry-corp.hypereal.com
+ls
+ls
+cd /dev/
+ls
+cd ..
+ls
+cd tmp/
+ls
+cd ..
+ls
+cd r
+cd run/
+ls
+cd ..
+ls
+cd ~
+ls
+cd fc/
+ls
+cd ..
+ls
+cd test/
+ls
+mkdir empty
+ls
+cd ~
+ls
+cd fc/flaw_checker/
+lsza
+ls
+vim
+ls
+vim
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git branch
+git status
+git stash list
+git stash pop
+git status
+git diff
+git reset HEAD --hard
+git status
+git diff
+./run.sh 
+git status
+git add .
+git commit -m "add ms"
+git push
+git push --set-upstream origin craw
+git branch
+git status
+git diff
+git status
+git diff HEAD6
+git diff HEAD^
+ls
+git status
+git diff
+git status
+git diff
+git log
+git branch
+git status
+git diff
+./run.sh 
+git status
+./run.sh 
+git status
+git diff
+git add .
+git commit -m "add dirEmpty check"
+git push
+git status
+git add .
+git commit -m "fix bug"
+git push
+git status
+ssh -o "StrictHostKeyChecking no" -p 13528 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13484 hypereal@registry-corp.hypereal.com
+ssh hyreal@10.0.10.59
+sshpass 87Co7r ssh hyreal@10.0.10.59
+sshpass -p 87Co7r ssh hyreal@10.0.10.59
+sshpass -p 87Co7r ssh hypereal@10.0.10.59
+ssh gjs@10.0.10.53
+ssh gjs@10.0.10.59
+ssh hypereal@10.0.10.59
+sshpass -p 87CO7r ssh hypereal@10.0.10.59
+sshpass -p 87Co7r ssh hypereal@10.0.10.59
+ssh gjs@10.0.10.59
+ssh hypereal@10.0.10.59
+sshpass -p 87Co7r ssh hypereal@10.0.10.59
+ssh gjs@10.0.10.59
+sshpass -p 87Co7r ssh hypereal@10.0.10.59
+ssh gjs@10.0.10.59
+ls
+sshpass -p 87Co7r ssh hypereal@10.0.10.59
+\ssh gjs@10.0.10.59
+\ssh hypereal@10.0.10.59
+sshpass -p 87Co7r \ssh hypereal@10.0.10.59
+\ssh gjs@10.0.10.59
+ssh gjs@10.0.10.59
+\ssh -tX gjs@10.0.10.59
+ls
+cd ~
+ls
+vim .bashrc
+ssh gjs@10.0.10.59
+. .bashrc
+ssh gjs@10.0.10.59
+ssh -tX gjs@10.0.10.59
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+history | grep ffmpeg
+ls
+cd ..
+ls
+touch bash
+ls
+touch \!bash
+git status
+ls
+rm bash 
+rm '!bash' 
+ls
+touch 123\!234
+ls
+rm 123\!234 
+ls
+cd ..
+ssh -o "StrictHostKeyChecking no" -p 18118 hypereal@registry-corp.hypereal.com
+ls
+ffmpeg
+ssh -o "StrictHostKeyChecking no" -p 18118 hypereal@registry-corp.hypereal.com
+history 
+history  | grep ffmpeg
+ffmpge -f
+ffmpeg -f
+ffmpeg --help
+ffmpeg --help | grep '-f'
+ffmpeg --help | grep '\-f'
+ffmpeg -formats
+ls
+cd disk/pack/
+ls
+cd ..
+ls
+cd tmp/
+ls
+cd ..
+ls
+cd pack/
+ls
+cd 4C-ED-FB-3E-07-B0/
+ls
+ll
+ll -h
+ls
+tar -xf camera05-190320-160710-00.tar
+ls
+history | grep ffmpeg
+ls
+ls *.png
+rename 's/1553069//' *
+sudo apt install rename
+rename 's/1553069//' *
+ls
+ls *
+for i in `ls *.png`;do mv $i $j.png
+j=0
+for i in `ls *.png`;do mv $i `printf %04d $j`.png; (( j += 1 )); done
+ffmpeg -f 3gp -i "%04d.png" -crf 25  -pix_fmt yuv420p test.3gp
+ffmpeg -f 3gp -i "%04d.png" -crf 25  -pix_fmt yuv420p test.3gp
+ls
+history | grep ffmpeg
+ffmpeg -f image2 -i "%04d.png" -crf 25  -pix_fmt yuv420p test.mp4
+ffmpeg -f image2 -i "%05d.png" -crf 25  -pix_fmt yuv420p test.mp4
+ffmpeg -f image2 -i "%05d.png" -crf 25  -pix_fmt yuv420p test.3gp
+ffmpeg -f image2 -i "%04d.png" -crf 25  -pix_fmt yuv420p test.3gp
+ffmpeg -f image2 -i "%04d.png" -crf 25  -pix_fmt yuv420p test.avi
+sudo apt-get install ubuntu-restricted-extras
+sudo apt-get install libavcodec54 libav-tools ffmpeg
+sudo apt-get install libavcodec54
+sudo apt-get install gstreamer1.0-libav gstreamer0.10-ffmpeg
+sudo apt-get install gstreamer1.0-libav
+sudo apt-get install gstreamer0.10-ffmpeg
+sudo apt update
+gstreamer-codec-install 
+gst-play-1.0 
+ls
+gst-play-1.0 test.mp4 
+sudo gst-play-1.0 test.mp4 
+sudo apt install libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
+sudo apt install -y libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
+sudo apt-get install gstreamer1.0-plugins-bad
+sudo apt-get install vlc
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git status
+ls
+ssh -o "StrictHostKeyChecking no" -p 11301 hypereal@registry-corp.hypereal.com
+ls
+vim
+clear
+./scp.sh 4C-ED-FB-3E-07-B0
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+ls
+cd ..
+cd saki_detection/
+ls
+vim
+
+weupj;lksafdasdfcxvz./,mbv      
+
+sudo nethogs -v 3
+reboot
+sudo reboot
+steam
+curl wttr.in
+telnet towel.blinkenlights.nl
+ping towel.blinkenlights.nl
+telnet 2a02:898:17:8000::42
+telnet 94.142.241.111
+telnet 94.142.241.111:42
+telnet 94.142.241.111:80
+vim /etc/hosts.allow 
+telnet localhost
+telnet
+telnet 127.0.0.1
+sudo telnet towel.blinkenlights.nl
+telnet towel.blinkenlights.nl 666
+sudo telnet towel.blinkenlights.nl
+telnet towel.blinkenlights.nl
+ssh -o "StrictHostKeyChecking no" -p 10779 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18118 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15126 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13902 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12063 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12251 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13680 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16448 hypereal@registry-corp.hypereal.com
+ls
+cd disk/pack/
+ls
+cd 4C-ED-FB-3E-07-B0/
+ls
+ffmpeg -framerate 1/5 -i *%04d.png -c:v libx264 -r 30 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 1/5 -i %04d.png -c:v libx264 -r 30 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 1/5 -i %04d.png -r 30 -pix_fmt yuv420p out.mp4
+sudo apt-get install ubuntu-restricted-extras  
+ls
+sudo apt-get install h264enc
+sudo dpkg-reconfigure libdvd-pkg
+sudo apt-get install h264enc
+sudo dpkg-reconfigure libdvd-pkg
+sudo apt-get install h264enc
+sudo dpkg-reconfigure libdvd-pkg
+sudo apt install gstreamer1.0-libav
+ffmpeg -r 1/5 -i %04d.png -c:v libx264 -vf fps=25 -pix_fmt yuv420p out.mp4
+sudo apt install libavcodec-extra-53
+sudo apt-get install libavcodec-ffmpeg56
+ffmpeg --help
+ffmpeg -r $FPS -f image2 -s ${WIDTH}x$HEIGHT -start_number $FIRSTFRAME        -i %04d.png -vcodec libx264 -crf $CRF -pix_fmt yuv420p output.mp4
+ffmpeg -r $FPS -f image2        -i %04d.png -vcodec libx264 -crf $CRF -pix_fmt yuv420p output.mp4
+ffmpeg -f image2 -i %04d.png -vcodec libx264 -crf $CRF -pix_fmt yuv420p output.mp4
+ffmpeg -f image2 -i %04d.png -pix_fmt yuv420p output.mp4
+ls
+ll 
+ll  -h
+convert
+ls
+
+ls
+convert *.png outputfile.mpeg
+tldr ffmpeg
+
+
+ls
+ll
+ffmpeg -f image2 -i %04d.png video.mpg
+ffmpeg --help
+ffmpeg --help | grep qu
+ffmpeg -aq 100 -f image2 -i %04d.png video.mpg
+ffmpeg -aq  -f image2 -i %04d.png video.mpg
+ffmpeg -f image2 -i %04d.png -aq video.mpg
+ffmpeg -f image2 -i %04d.png -aq 100 video.mpg
+ls
+ll | grep mpg
+ll -h | grep mpg
+ffmpeg -f image2 -i %04d.png -aq 1000 video.mpg
+ll -h | grep mpg
+ffmpeg --help
+ffmpeg | grep no
+ffmpeg -f image2 -i %04d.png -aq 1000 video.mpg
+ls
+ffmpeg -f image2 -i %04d.png video.mpg
+
+ffmpeg -f image2 -i %04d.png -pix_fmt yuv420p video.mpg
+ll
+ll | grep mpg
+history | grep ffmpeg
+ffmpeg | grep '\-c'
+ffmpeg | grep 'c'
+ffmpeg -h | grep '\-c'
+ffmpeg -h | grep '\-r'
+
+ffmpeg -h | grep '-r'
+ffmpeg -f image2 -i %04d.png -crf 25 video.mpg
+ffmpeg -f image2 -i %04d.png -crf 100 video.mpg
+ll | grep mpg
+ffmpeg -h
+ls
+convert 0000.png 0000.jpg
+ls
+eog 0000.jpg 
+eog 0000.png
+ll
+ll -h
+eog 0000.jpg 
+clear
+ls
+git commit -a -m "upd saki sbm"
+sudo git commit -a -m "upd saki sbm"
+git push
+ls
+mysql
+ls
+sudo apt-get install imagemagick
+ls
+ssh -o "StrictHostKeyChecking no" -p 11492 hypereal@registry-corp.hypereal.com
+ls
+cd ~/disk/pack/
+ls
+cd 4C-ED-FB-3E-07-B0/
+ls
+convert 0000.jpg 0000.jpeg
+ll | grep 0000
+history | grep ffmpeg
+ls
+ssh -o "StrictHostKeyChecking no" -p 11492 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 11492 hypereal@registry-corp.hypereal.com
+vim .bashrc
+vim ~/.bashrc
+ls
+cd ~
+ls
+cd ~
+ls
+cd sa
+cd fc/
+ls
+df
+df -h
+ls
+docker images
+docker --help
+docker images
+docker rm 0a1ae472f2ae
+docker rm registry-sho.hypereal.com/dl/dl-tf:190301
+docker rm --help
+docker ps -a
+docker rmi registry-sho.hypereal.com/dl/dl-tf:190301
+docker images
+docker rmi registry-sho.hypereal.com/dl/dl-tf:190201
+docker images
+df
+df -h
+docker ps -a
+docker images
+docker rmi ba7427d36515
+docker rmi -f ba7427d36515
+docker images
+docker rmi -f 43c2c4974c80
+docker images
+docker rmi -f 0a1ae472f2ae
+docker images
+df
+df -h
+docker images
+docker stop $(docker ps -a -q)
+docker images
+df
+docker rm $(docker ps -a -q)
+df
+df -h
+docker ps -a
+docker ps
+docker image prune
+docker image prune --force --all
+df
+docker images
+df -h
+docker ps -a -q
+ssh -o "StrictHostKeyChecking no" -p 11492 hypereal@registry-corp.hypereal.com
+top
+ls
+ls
+vim version.
+vim version.h 
+ls
+cd lib/
+ls
+cd ..
+ls
+ssh -o "StrictHostKeyChecking no" -p 11492 hypereal@registry-corp.hypereal.com
+ls
+cd ..
+ls
+cd usb_blow_detector/
+ls
+./1.sh 14952
+ls
+vim 1.sh
+./1.sh 14952
+ssh -o "StrictHostKeyChecking no" -p 14952 hypereal@registry-corp.hypereal.com
+ls
+git status
+git diff
+git pull
+git status
+git add 1.sh
+git diff
+git reset --hard config.py
+git status
+git checkout -- config.py
+git status
+vim .gitignore 
+git status
+git commit -m "fix 1.sh"
+git status
+git merge master
+git status
+git diff
+git add .
+git commit -m "upd ignore"
+git status
+git checkout master
+git status
+git pull
+git status
+git merge gjs
+git statuz
+git status
+git diff HEAD^
+git status
+git diff HEAD^
+git reset HEAD^
+git status
+git reset HEAD --hard
+git status
+vim .gitignore 
+git status
+vim .git
+vim .gitignore 
+git status
+git add .
+git status
+git commit -m "add online file"
+git status
+git push
+git log
+git push origin master
+git checkout gjs
+git status
+git log
+git push
+ls
+cd ~/test/cpp/
+ls
+vim 1.cpp
+ls
+ps -ef | grep 1
+kill -sigterm 30298
+sudo kill -sigterm 30298
+ps -ef | grep 1
+ps -ef | grep "sudo ./1"
+sudo kill -sighup 30262
+ps -ef | grep "sudo ./1"
+sudo kill -sighup 30362
+ls
+ssh -o "StrictHostKeyChecking no" -p 15424 hypereal@registry-corp.hypereal.com
+ls
