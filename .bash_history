@@ -13658,3 +13658,82 @@ du -hl --max-depth=1
 convert
 clear
 ls
+cd ~
+git status
+./config.sh push
+git diff HEAD6
+git diff HEAD^
+git status
+git diff
+git status
+find . | grep Sogou
+cd ..
+cd gjs/
+ls
+ls -a | grep So
+ls -a
+cd .config/
+ls -a | grep SogouPY
+cd SogouPY.users/
+git status
+ls
+rm acc.dat 
+git status
+git checkout -- acc.dat
+git status
+cd ..
+git status
+cd SogouPY
+ls
+cd ..
+find .  | grep Sogou
+cd fcitx/
+ls
+cd ..
+ls
+cd ibus/
+ls
+cd bus/
+ls
+cd ~
+ls
+git status
+vim socks.json 
+ls
+vim .bashrc
+ls
+mysql
+ls
+mysql
+cd ~
+vim .bashrc
+$(perl -pl0 -e "s|^${HOME}|~|;s|([^/])[^/]*/|$""1/|g" <<<${PWD})
+perl -pl0 -e "s|^${HOME}|~|;s|([^/])[^/]*/|$""1/|g" <<<${PWD}
+cd fc/saki_detection/
+perl -pl0 -e "s|^${HOME}|~|;s|([^/])[^/]*/|$""1/|g" <<<${PWD}
+ls
+cd pack/
+$(perl -pl0 -e "s|^${HOME}|~|;s|([^/])[^/]*/|$""1/|g" <<<${PWD})
+perl -pl0 -e "s|^${HOME}|~|;s|([^/])[^/]*/|$""1/|g" <<<${PWD}
+cd ..
+ls
+cd ~
+jobs
+fg
+ls
+cd fc/saki_detection/
+ls
+echo $PWD
+jobs
+fg
+echo "$PWD" | sed -E 's/([^/])[^/]*/\1/g'
+echo "$PWD" | sed 's/([^/])[^/]*/\1/g'
+echo "$PWD" | sed -E 's/([^/])[^/]*/\1/g'
+fg
+cd fc/saki_detection/
+ls
+vim .bashrc
+cd ~
+vim .bashrc
+jobs
+vim .bashrc

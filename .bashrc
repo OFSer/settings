@@ -224,7 +224,7 @@ xterm*|rxvt*)
                 # output them.
                 ;;
             *)
-                echo -ne "\033]0;`dirs -p | head -n 1 | rev | awk -F'/' '{print $1}' | rev`$ ${BASH_COMMAND}\007"
+                echo -ne "\033]0;${USER}@${HOSTNAME}:$(sed -E 's/([^/])[^/]*/\1/g' <(dirs -p | head -n 1) )$ ${BASH_COMMAND}\007"
                 ;;
         esac
     }
