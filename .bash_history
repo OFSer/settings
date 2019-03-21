@@ -13599,3 +13599,62 @@ sudo kill -sighup 30362
 ls
 ssh -o "StrictHostKeyChecking no" -p 15424 hypereal@registry-corp.hypereal.com
 ls
+cd ~
+git status
+git diff .config/mimeapps.list
+git rm --cached .config/mimeapps.list 
+git rm --cached .config/vlc/vlc-qt-interface.conf
+git status
+vim .gitignore 
+fg
+git status
+./config.sh push
+ssh -o "StrictHostKeyChecking no" -p 19161 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15424 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 19188 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 18435 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13022 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19161 hypereal@registry-corp.hypereal.com
+ls
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git status
+cd submodules/saki_detection/
+ls
+git pull
+git diff HEAD^
+cd ..
+git status
+git commit -a -m "upd saki sbm"
+sudo git commit -a -m "upd saki sbm"
+git push
+git pull
+git status
+git log
+ls
+cd submodules/saki_detection/
+ls
+git push
+git pull
+git status
+cd ..
+git commit -a -m "upd saki sbm"
+sudo git commit -a -m "upd saki sbm"
+git push
+sss
+git status
+cd ~
+git status
+git diff
+history 
+tldr ln
+sudo rm -rf output/
+df
+df -h
+du -hl --max-depth=1
+convert
+clear
+ls
