@@ -14034,3 +14034,6 @@ ssh -o "StrictHostKeyChecking no" -p 17459 hypereal@registry-corp.hypereal.com
 :call Terins()
 rm .Togglebash.swp > /dev/null 2>&1
 clear
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear

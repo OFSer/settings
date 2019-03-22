@@ -179,7 +179,7 @@ func CloseNetrw()
 endfunc
 "--------------------------Explorer----------------------------------"
 let g:netrw_list_hide = '.*\.sw.*\|\.nfs'
-let g:netrw_winsize = 15
+let g:netrw_winsize = -20
 let g:netrw_liststyle = 3
 let g:netrw_banner = 0
 func Test()
