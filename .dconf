@@ -424,7 +424,7 @@ arrow-shadow-color='#dcdcdcd9'
 icon-size=40
 launcher-hide-mode=0
 launcher-minimize-window=true
-num-launchers=0
+num-launchers=1
 inactive-shadow-color='#000000a5'
 launcher-capture-mouse=false
 

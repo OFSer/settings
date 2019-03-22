@@ -14072,3 +14072,94 @@ ls
 ./run.sh 
 ./tar.sh 
 ./run.sh 
+ls
+vim .vimrc
+ls
+vim .vimrc
+ls
+git status
+git diff .vimrc
+ls
+vim
+vim .vimrc
+./config.sh push
+vim .vimrc
+ls
+vim .vimrc
+jobs
+git status
+git diff .vimrc
+jobs
+fg
+vim .vimrc
+git status
+git diff .vimrc
+./config.sh push
+vim .vimrc
+git status
+git diff
+jobs
+vim .vimrc
+git diff HEAD^
+git diff HEAD^ .vimrc
+git diff HEAD^^ .vimrc
+git diff HEAD^^^ .vimrc
+jobs
+vim .vimrc
+./config.sh push
+vim .vimrc
+git status
+vim .vimrc
+./config.sh push
+vim .vimrc
+git diff
+gedit .vimrc
+vim .vimrc
+git status
+git diff .vimrc
+gedit .vimrc
+vim .vimrc
+./config.sh push
+ls
+cd fc/
+ls
+cd usb_blow_detector/
+ls
+mysql
+ls
+mysql
+ls
+mysql
+ls
+mysql
+git status
+git diff
+ls
+git diff
+ls
+lllllllllll
+lllllll
+l
+ls
+sss
+ls
+vim .bashrc
+ls
+cd fc/saki_detection/
+ls
+vim
+ls
+cd ..
+cd test/
+ls
+vim
+ls
+vim
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+ls
+ls

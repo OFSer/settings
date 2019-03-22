@@ -44,10 +44,10 @@ function! MyTabLine()
 		if bufname == ''
     	let s .= '[No Name]'
 		elseif bufname =~ "!bash"
-			let s .= term_gettitle(bufnr)
+			let s .= term_gettitle(bufnr)[-20:-1]
 		else
     	"let s .= '%{MyTabLabel(' . (i + 1) . ')}'
-    	let s .= bufname
+    	let s .= bufname[:20]
 		endif
     if bufmodified && bufname !~ "!bash"
       let s .= '[*] '
@@ -181,11 +181,7 @@ func Terins()
 	endif
 endfunc
 func CloseNetrw()
-	if tabpagenr() != 1 && tabpagenr() != tabpagenr('$')
-		let g:back = 1
-	else
-		let g:back = 0
-	endif
+	let g:back = 0
 "	if tabpagenr('$') == 1
 "		return
 "	endif
@@ -197,6 +193,9 @@ func CloseNetrw()
 		endif
 	endfor
 	if flag == 1
+		if tabpagenr() != 1 && tabpagenr() != tabpagenr('$')
+			let g:back = 1
+		endif
 		exe "q!"
 	endif
 endfunc
@@ -483,11 +482,11 @@ func CloseTogglebash()
 		silent! exe 'bw! Togglebash'
 	endif
 endfunc
-inoremap <silent> ; <esc><c-w>l:call Togglebash()<CR>:call Terins()<cr>
-nnoremap <silent> ; <c-w>l:call Togglebash()<CR>:call Terins()<cr>
+inoremap <silent> ; <esc>:call MoveLeft()<cr>:call Togglebash()<CR>:call Terins()<cr>
+nnoremap <silent> ; :call MoveLeft()<cr>:call Togglebash()<CR>:call Terins()<cr>
 tnoremap <silent> ; <c-\><c-n>:call MoveLeft()<cr>:call Togglebash()<CR>:call Terins()<cr>
-inoremap <silent> : <esc><c-w>l:call CloseTogglebash()<cr>:call Togglebash()<CR>:call Terins()<cr>
-nnoremap <silent> : <c-w>l:call CloseTogglebash()<cr>:call Togglebash()<CR>:call Terins()<cr>
+inoremap <silent> : <esc>:call MoveLeft()<cr>:call CloseTogglebash()<cr>:call Togglebash()<CR>:call Terins()<cr>
+nnoremap <silent> : :call MoveLeft()<cr>:call CloseTogglebash()<cr>:call Togglebash()<CR>:call Terins()<cr>
 tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call MoveLeft()<cr>:call Togglebash()<CR>:call Terins()<cr>
 "inoremap <silent> ; <esc>:call Togglebash()<CR>
 "nnoremap <silent> ; :call Togglebash()<CR>
