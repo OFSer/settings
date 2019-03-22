@@ -14048,3 +14048,27 @@ mysql
 ls
 python
 ls
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+chmod +x tar.sh
+./tar.sh 
+cd ~/disk/pack
+cd -
+cd ~/disk/pack
+cd ~1
+cd ~2
+ls
+pwd
+./tar.sh 
+./run.sh 
+
+./tar.sh 
+ls
+./tar.sh 
+ls
+./run.sh 
+./tar.sh 
+./run.sh 
+./tar.sh 
+./run.sh 

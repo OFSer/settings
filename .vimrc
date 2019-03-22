@@ -24,8 +24,15 @@ function! MyTabLine()
   for i in range(tabpagenr('$'))
     let tab = i + 1
 		let buflist = tabpagebuflist(tab)
-		let winnr = len(buflist)
 		let curnr = tabpagewinnr(tab) - 1
+		let bufnr = buflist[curnr]
+		if bufname(bufnr) =~ 'Netrw'
+			if len(buflist) > 1 
+				let curnr = 1
+			else
+				let curnr = 0
+			endif
+		endif
 		let bufnr = buflist[curnr]
     let bufmodified = getbufvar(bufnr, "&mod")
     let bufname = fnamemodify(bufname(bufnr), ':t')
