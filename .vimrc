@@ -44,10 +44,17 @@ function! MyTabLine()
 		if bufname == ''
     	let s .= '[No Name]'
 		elseif bufname =~ "!bash"
-			let s .= term_gettitle(bufnr)[-20:-1]
+			let t = term_gettitle(bufnr)
+			let t = substitute(t, "^.*:", "", "")
+			let cmd = substitute(t, "^.*\\$", "", "")
+			let t = substitute(t, "\\$.*$", "", "")
+			let t = substitute(t, "/\\([^/]\\)[^/]*", "/\\1", "g")
+			let s .= t[-20:-1]
+			let s .= "$"
+			let s .= cmd
 		else
     	"let s .= '%{MyTabLabel(' . (i + 1) . ')}'
-    	let s .= bufname[:20]
+    	let s .= bufname
 		endif
     if bufmodified && bufname !~ "!bash"
       let s .= '[*] '
