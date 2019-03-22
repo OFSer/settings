@@ -49,9 +49,12 @@ function! MyTabLine()
 			let cmd = substitute(t, "^.*\\$", "", "")
 			let t = substitute(t, "\\$.*$", "", "")
 			let t = substitute(t, "/\\([^/]\\)[^/]*", "/\\1", "g")
-			let s .= t[-20:-1]
+			let s .= t[-5:-1]
 			let s .= "$"
-			let s .= cmd
+			let s .= cmd[0:15]
+			if len(cmd) > 15
+				let s .= '...'
+			endif
 		else
     	"let s .= '%{MyTabLabel(' . (i + 1) . ')}'
     	let s .= bufname
