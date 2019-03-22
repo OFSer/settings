@@ -14037,3 +14037,14 @@ clear
 :call Terins()
 rm .Togglebash.swp > /dev/null 2>&1
 clear
+ls
+mysql
+ls
+mysql
+ls
+mysql
+my
+mysql
+ls
+python
+ls

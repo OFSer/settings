@@ -3,17 +3,31 @@ function MyTabLabel(n)
 	let winnr = len(buflist)
 	return fnamemodify(bufname(buflist[winnr - 1]), ':t')
 endfunction
+func GetCurnr(n)
+	let buflist = tabpagebuflist(a:n)
+	for i in range(1, len(buflist) - 1)
+		for j in getbufinfo()
+			if buflist[i] == j['bufnr'] && j['lnum'] > 0
+				return i
+			endif
+		endfor
+	endfor
+	if len(buflist) > 1
+		return 1
+	else
+		return 0
+	endif
+endfunc
 function! MyTabLine()
   let s = ''
   for i in range(tabpagenr('$'))
     let tab = i + 1
-		
-		let winnr = tabpagewinnr(tab)
 		let buflist = tabpagebuflist(tab)
 		let winnr = len(buflist)
-		let bufnr = buflist[winnr - 1]
+		let curnr = GetCurnr(tab)
+		let bufnr = buflist[curnr]
     let bufmodified = getbufvar(bufnr, "&mod")
-    let bufname = MyTabLabel(i + 1)
+    let bufname = fnamemodify(bufname(bufnr), ':t')
 
     let s .= '%' . tab . 'T'
     let s .= (tab == tabpagenr() ? '%#TabLineSel#' : '%#TabLine#')
@@ -24,7 +38,8 @@ function! MyTabLine()
 		elseif bufname =~ "!bash"
 			let s .= term_gettitle(bufnr)
 		else
-    	let s .= '%{MyTabLabel(' . (i + 1) . ')}'
+    	"let s .= '%{MyTabLabel(' . (i + 1) . ')}'
+    	let s .= bufname
 		endif
     if bufmodified && bufname !~ "!bash"
       let s .= '[*] '
@@ -41,7 +56,7 @@ function! MyTabLine()
 endfunction
 set tabline=%!MyTabLine()
 function! Flash()
-    sleep 5m
+    sleep 15m
 endfunction
 tnoremap <silent> <cr> <cr><c-\><c-n>:call Flash()<cr>i<c-\><c-n>:call Flash()<cr>i
 tnoremap <silent> <c-d> <c-d><c-\><c-n>:call Flash()<cr>i<c-\><c-n>:call Flash()<cr>i
