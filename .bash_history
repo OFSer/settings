@@ -13737,3 +13737,300 @@ cd ~
 vim .bashrc
 jobs
 vim .bashrc
+cd fc/saki_detection/
+ls
+vim .bashrc
+cd ~
+ls
+cd fc/saki_detection/
+ls
+mysql
+ls
+cd ~
+./config.sh push
+vim .bashrc
+short_pwd() {  cwd=$(pwd | perl -F/-ane 'print join("/", map { $i++ <@F - 1? substr $_,0,1 : $_ } @F)');  echo -n $cwd; }
+short_pwd 
+function shorten_pwd {  PWD=$(pwd)  RESIDUAL=${PWD#$HOME}  if [ X"$RESIDUAL"!= X"$PWD" ];  then  PREFIX="~";  fi  NORMAL=${PREFIX}${RESIDUAL};  if [ ${#NORMAL} -ge $(($MAX_PWD_LENGTH)) ];  then  newPWD=${PREFIX};  OIFS=$IFS;  IFS='/';  bits=$RESIDUAL;  for x in $bits;  do  if [ ${#x} -ge 3 ];  then  NEXT="/${x:0:1}";  else  NEXT="$x";  fi;  newPWD="$newPWD$NEXT";  done;  IFS=$OIFS;  else  newPWD=${PREFIX}${RESIDUAL};  fi  echo $newPWD; }
+shorten_pwd 
+function shorten_pwd {  PWD=$(pwd)  REPLACE="/.."  RESIDUAL=${PWD#$HOME}  if [ X"$RESIDUAL"!= X"$PWD" ];  then  PREFIX="~";  fi  TRUNC_LENGTH=$(($MAX_PWD_LENGTH - ${#PREFIX} - ${#REPLACE} - 1));  NORMAL=${PREFIX}${RESIDUAL};  if [ ${#NORMAL} -ge $(($MAX_PWD_LENGTH)) ];  then  newPWD=${PREFIX}${REPLACE}${RESIDUAL:((${#RESIDUAL} - $TRUNC_LENGTH)):$TRUNC_LENGTH};  else  newPWD=${PREFIX}${RESIDUAL};  fi  echo $newPWD; }
+shorten_pwd 
+echo $RESIDUAL
+echo $PWD
+cd gjs
+ls
+cd fc/
+ls
+expr substr 1 1 123
+expr substr 1 1 234
+expr substr 1 234
+expr substr 1 1 234
+man expr 
+expr substr 12345 2 2
+expr substr 12345 3 2
+echo ~/fc/saki/bab/a/daf
+echo "~/fc/saki/bab/a/daf"
+echo "~/fc/saki/bab/a/daf" | sed 's/\w/&23/'
+echo "~/fc/saki/bab/a/daf" | sed 's/\w/&23/g'
+echo "~/f23c/" | sed 's/\w/&23/g'
+echo "~/f_c/" | sed 's/\w/&23/g'
+cd ..
+vim .bashrc
+jobs
+echo $(echo 123)
+echo $(echo $(echo 123))
+ls
+mysql
+vim .bashrc
+cd ~
+vim .bashrc
+git status
+git diff
+ls
+vim .bashrc
+ls
+mysql
+cd ~
+vim .bashrc
+echo $PWD
+git status
+cd ~
+git status
+mysql
+ls
+mysql
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git status
+git diff
+ls
+cd ..
+ls
+cd blur_detection/
+ls
+vim
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+ls
+ls
+cd ..
+cd flaw_checker/
+ls
+vim
+ls
+cd ..
+ls
+cd saki_detection/
+ls
+vim
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git status
+git init 
+git status
+git add scp.sh 
+git status
+git commit -m "fm"
+git status
+./scp.sh 70-4D-7B-64-E1-97
+ls
+rm backup.sh 
+git status
+cp ../saki_detection/.gitignore ./.gitignore
+git status
+rm sync.sh 
+git status
+rm mydb 
+rm record.txt 
+cd ..
+ls
+nautilus trash/
+rm -rf trash/
+cd blow_check/
+ls
+cd ..
+ls
+cd crawler/
+ls
+cd ..
+ls
+mkdir test
+ls
+cd test/
+ls
+cd ..
+ls
+cp ls
+ls
+cp saki_detection/scp.sh test/
+ls
+cdte
+cd test/
+ls
+vim
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git status
+git log
+git status
+git diff
+./run.sh 
+git add .
+git commit -m "upd file name"
+git push
+git statuz
+git status
+git diff HEAD6
+git diff HEAD^
+git diff
+git add .
+git commit -m "start from 0"
+git push
+git status
+git diff
+git status
+git commit -m -a "fix"
+git commit -a -m "fix"
+git status
+git logq
+git log
+git push
+git status
+git diff
+git add .
+git commit -m "png -> jpg"
+git diff
+git push
+git status
+git diff
+git status
+git diff
+ls
+rm \' 
+git status
+git diff
+git checkout  -- scp.sh
+git status
+ls
+git status
+git diff
+./run.sh 
+git add .
+git commit -m "del file"
+git push
+git status
+ls
+cd ~ls
+cd ~
+ls
+cd fc/saki_detection/
+ls
+vim
+ls
+vim .bashrc
+ls
+ssh -o "StrictHostKeyChecking no" -p 19161 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15424 hypereal@registry-corp.hypereal.com
+ls
+sss
+cd ~
+git status
+git diff
+ls
+ls | wc -l
+ls
+tar -tf camera05-190321-111231-00.tar
+tar -tf camera05-190321-111231-00.tar | sort
+rm -rf 123
+rm -rf 70-85-C2-80-18-4E/
+rm -rf *
+ssh -o "StrictHostKeyChecking no" -p 15424 hypereal@registry-corp.hypereal.com
+cp -R input ../pack/
+ls
+cd ..
+ls
+cd pack/
+ls
+cd input/
+ls
+cd 鸿远09-GPU号/
+ls
+ls | wc -l
+ls | tail -n 1
+top
+ssh -o "StrictHostKeyChecking no" -p 15424 hypereal@registry-corp.hypereal.com
+ls
+rm -rf *
+ls
+cd online_blow/
+ls
+ssh -o "StrictHostKeyChecking no" -p 16511 hypereal@registry-corp.hypereal.com'
+ssh -o "StrictHostKeyChecking no" -p 16511 hypereal@registry-corp.hypereal.com
+ls
+eog `ls | head -n 10`
+cd ~
+ls
+cd fc/usb_blow_detector/
+ls
+vim
+tldr tar
+sss
+ssh -o "StrictHostKeyChecking no" -p 17459 hypereal@registry-corp.hypereal.com
+ls
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+git status
+git diff
+git status
+git diff
+git status
+git git status
+git status
+git diff
+git add .
+git commit -m "upd"
+git status
+git add .
+git commit -m "format"
+git status
+./1.sh 17459
+./1.sh 13654
+./1.sh 11962
+./1.sh 11864
+./1.sh 11085
+./1.sh 11035
+./1.sh 13413
+./1.sh 13654
+ls
+cd online_blow/
+ls
+vim blow_detector.py 
+ls
+cd ..
+ls
+vim 1.sh
+ls
+vim blow_detector.py 
+ls
+cd online_blow/
+ls
+vim blow_detector.py 
+ls
+cd ..
+ls
+vim blow_detector.py 
+jobs
+fg
+ssh -o "StrictHostKeyChecking no" -p 17459 hypereal@registry-corp.hypereal.com
+goenv
+go
+go env
+ssh -o "StrictHostKeyChecking no" -p 17459 hypereal@registry-corp.hypereal.com
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear

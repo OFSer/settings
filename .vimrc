@@ -265,7 +265,7 @@ tnoremap <c-\> <c-\><c-n>
 "noremap <silent> ; :below term<CR>
 "--------------------------Tab-----------------------------------"
 func Tervspl()
-	if bufname('%') =~ '!bash' && bufname('%') != 'Togglebash'
+	if bufname('%') != 'Togglebash'
 		exe "rightbelow vert term bash"
 		return 
 	endif
@@ -286,23 +286,24 @@ inoremap <silent> H <esc>:tabm -<cr>i
 nnoremap <silent> H <esc>:tabm -<cr>
 tnoremap <silent> H <c-\><c-n>:tabm -<cr>i
 
-inoremap <silent> , <esc><c-w>lgT:call Terins()<cr>
-nnoremap <silent> , <esc><c-w>lgT:call Terins()<cr>
-tnoremap <silent> , <c-\><c-n><c-w>lgT:call Terins()<cr>
-inoremap <silent> . <esc><c-w>lgt:call Terins()<cr>
-nnoremap <silent> . <esc><c-w>lgt:call Terins()<cr>
-tnoremap <silent> . <c-\><c-n><c-w>lgt:call Terins()<cr>
-inoremap <silent> < <esc><c-w>lgT
-nnoremap <silent> < <esc><c-w>lgT
-tnoremap <silent> < <c-\><c-n><c-w>lgT
-inoremap <silent> > <esc><c-w>lgt
-nnoremap <silent> > <esc><c-w>lgt
-tnoremap <silent> > <c-\><c-n><c-w>lgt
+inoremap <silent> , <esc>gT:call Terins()<cr>
+nnoremap <silent> , <esc>gT:call Terins()<cr>
+tnoremap <silent> , <c-\><c-n>gT:call Terins()<cr>
+inoremap <silent> . <esc>gt:call Terins()<cr>
+nnoremap <silent> . <esc>gt:call Terins()<cr>
+tnoremap <silent> . <c-\><c-n>gt:call Terins()<cr>
+inoremap <silent> < <esc>gT
+nnoremap <silent> < <esc>gT
+tnoremap <silent> < <c-\><c-n>gT
+inoremap <silent> > <esc>gt
+nnoremap <silent> > <esc>gt
+tnoremap <silent> > <c-\><c-n>gt
 nnoremap <silent> t <c-w>l:tab term bash<cr>clear<cr>
 inoremap <silent> t <esc><c-w>l:tab term bash<cr>clear<cr>
 tnoremap <silent> t <c-\><c-n><c-w>l:tab term bash<cr>clear<cr>
 tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>clear<cr>
 tnoremap <silent> \ <c-\><c-n>:call Tervspl()<cr>clear<cr>
+nnoremap <silent> \ :call Tervspl()<cr>
 "--------------------------WindowMap-------------------------------"
 nnoremap <silent>  h <c-w>h:call Terins()<cr>
 nnoremap <silent>  j <c-w>j:call Terins()<cr>
