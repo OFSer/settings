@@ -5,18 +5,13 @@ function MyTabLabel(n)
 endfunction
 func GetCurnr(n)
 	let buflist = tabpagebuflist(a:n)
-	for i in range(1, len(buflist) - 1)
+	for i in reverse(range(len(buflist)))
 		for j in getbufinfo()
 			if buflist[i] == j['bufnr'] && j['lnum'] > 0
 				return i
 			endif
 		endfor
 	endfor
-	if len(buflist) > 1
-		return 1
-	else
-		return 0
-	endif
 endfunc
 function! MyTabLine()
   let s = ''
