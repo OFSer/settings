@@ -6,6 +6,12 @@ endfunction
 func GetCurnr(n)
 	let buflist = tabpagebuflist(a:n)
 	for i in reverse(range(len(buflist)))
+		if bufname(buflist[i]) =~ 'Netrw'
+			if len(buflist) > 1 
+				return 1
+			endif
+			return 0
+		endif
 		for j in getbufinfo()
 			if buflist[i] == j['bufnr'] && j['lnum'] > 0
 				return i
@@ -19,7 +25,7 @@ function! MyTabLine()
     let tab = i + 1
 		let buflist = tabpagebuflist(tab)
 		let winnr = len(buflist)
-		let curnr = GetCurnr(tab)
+		let curnr = tabpagewinnr(tab) - 1
 		let bufnr = buflist[curnr]
     let bufmodified = getbufvar(bufnr, "&mod")
     let bufname = fnamemodify(bufname(bufnr), ':t')
