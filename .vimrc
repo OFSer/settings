@@ -149,6 +149,9 @@ func Del()
 		if bufname(i) == ""
 			silent! exe "bw! ".i
 		endif
+		if bufname(i) =~ "buf!bash"
+			continue
+		endif
 		if bufname(i) =~ "!bash" && Exist(i) == 0
 			silent! exe "bw! ".i
 		endif
@@ -389,11 +392,6 @@ func Tabclose()
 	endif
 	let a=tabpagebuflist()
 	exe "tabc!"
-	for i in a
-		if bufname(i) =~ "!bash"
-			silent! exe "bw! ".i
-		endif
-	endfor
 	call Del()
 	call CloseNetrw()
 endfunc
@@ -536,8 +534,20 @@ tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call MoveLeft()<cr>:c
 "tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>
 "--------------------------BufferSwitch---------------------------"
 func Switch(r)
+	if tabpagenr() != 1
+		return
+	endif
 	if bufname('%') =~ '!bash' || bufname('%') =~ "help" || bufname('%') =~ "Netrw"
 		return
+	endif
+	let g:bn = 'buf!bash'.bufnr('%')
+	let bufferNum = bufnr('buf!bash'.bufnr('%'))
+	if bufloaded(bufferNum) == 1
+		let windowNum = bufwinnr(bufferNum)
+		if windowNum != -1
+			execute windowNum.'wincmd w'
+			hide 
+		endif
 	endif
 	let cur=bufnr('%')
 	if a:r == 0
