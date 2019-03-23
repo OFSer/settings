@@ -14308,3 +14308,17 @@ mysql
 :call Terins()
 rm .Togglebash.swp > /dev/null 2>&1
 clear
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+ls
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear
+ls
