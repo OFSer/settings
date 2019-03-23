@@ -14305,3 +14305,6 @@ cd ~
 ls
 python
 mysql
+:call Terins()
+rm .Togglebash.swp > /dev/null 2>&1
+clear

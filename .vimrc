@@ -460,7 +460,7 @@ map <silent> <F5> :call Domp()<CR>
 func Domp()
 	exec "w"
 	silent exec "!clear"
-	exec "!python %"
+	exe "!python %"
 endfunc
 "--------------------------Togglebash------------------------------------"
 let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
