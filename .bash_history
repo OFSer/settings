@@ -14421,3 +14421,10 @@ ls -a  | grep To
 ls
 ls -a | grep To
 ls
+history 
+ls
+git status
+ls
+git status
+git diff .vimrc
+ls

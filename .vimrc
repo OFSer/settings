@@ -1,12 +1,15 @@
 let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
 let g:loaded_toggle_bash = 1
 func Bufferbash()
-	if bufname('%') =~ 'bufbash'
+	if bufname('%') =~ 'Netrw'
+		return
+	endif
+	if bufname('%') =~ 'buf!bash'
 		hide 
 		return
 	endif
-	let g:bn = 'bufbash'.bufnr('%')
-	let bufferNum = bufnr('bufbash'.bufnr('%'))
+	let g:bn = 'buf!bash'.bufnr('%')
+	let bufferNum = bufnr('buf!bash'.bufnr('%'))
 	if bufferNum == -1 || bufloaded(bufferNum) != 1
 		silent execute 'vert rightbelow term ++close ++kill=term '.g:toggle_bash#command
 		"set noswapfile
@@ -24,6 +27,8 @@ func Bufferbash()
 		endif
 	endif
 endfunc
+tnoremap <silent> \ <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> \ :call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
 function MyTabLabel(n)
 	let buflist = tabpagebuflist(a:n)
 	let winnr = len(buflist)
@@ -360,8 +365,6 @@ nnoremap <silent> t <c-w>l:tab term bash<cr>
 inoremap <silent> t <esc><c-w>l:tab term bash<cr>
 tnoremap <silent> t <c-\><c-n><c-w>l:tab term bash<cr>
 tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
-tnoremap <silent> \ <c-\><c-n>:call Tervspl()<cr>
-nnoremap <silent> \ :call Tervspl()<cr>
 "--------------------------WindowMap-------------------------------"
 nnoremap <silent>  h <c-w>h:call Terins()<cr>
 nnoremap <silent>  j <c-w>j:call Terins()<cr>
@@ -438,6 +441,7 @@ func Quit()
 	endif
 	if &buftype =~ "help" || bufname('%') =~ "Netrw"
 		exe "q!"
+		silent! exe "bw! ".nr
 		call CloseNetrw()
 		return
 	endif
@@ -454,6 +458,7 @@ func Quit()
 	endif
 	if nr != t && tabpagenr() == 1
 		exe "b! ".Next(nr)
+		silent! exe "bw! ".nr
 	endif
 	if flag == 0
 		silent! exe "bw! ".nr
