@@ -1,3 +1,29 @@
+let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
+let g:loaded_toggle_bash = 1
+func Bufferbash()
+	if bufname('%') =~ 'bufbash'
+		hide 
+		return
+	endif
+	let g:bn = 'bufbash'.bufnr('%')
+	let bufferNum = bufnr('bufbash'.bufnr('%'))
+	if bufferNum == -1 || bufloaded(bufferNum) != 1
+		silent execute 'vert rightbelow term ++close ++kill=term '.g:toggle_bash#command
+		"set noswapfile
+		silent execut 'file '.g:bn
+		"set swapfile
+		"silent exe "!rm .Togglebash.swp > /dev/null 2>&1"
+	else
+		let windowNum = bufwinnr(bufferNum)
+		if windowNum == -1
+			silent execute 'vert rightbelow sbuffer '.bufferNum
+						"call feedkeys('i')	
+		else
+			execute windowNum.'wincmd w'
+			hide 
+		endif
+	endif
+endfunc
 function MyTabLabel(n)
 	let buflist = tabpagebuflist(a:n)
 	let winnr = len(buflist)
@@ -107,7 +133,7 @@ hi goSpaceError ctermbg=256
 set ttimeoutlen=0
 set timeoutlen=0
 set updatetime=0
-autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'Netrw') | set nonu | else | set nu | endif
+autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'bufbash'|| bufname('%') =~ 'Netrw') | set nonu | else | set nu | endif
 autocmd BufLeave,FocusLost * silent! wall
 au FileType netrw au BufLeave <buffer> setlocal nocursorline
 au FileType netrw au BufEnter <buffer> setlocal cursorline
@@ -404,7 +430,7 @@ func Quit()
 	let nr=bufnr('%')
 	let tp=tabpagenr()
 	let flag=ExistOther(tp,nr)
-	if bufname('%') =~ '!bash' 
+	if bufname('%') =~ '!bash' || bufname('%') =~ 'bufbash'
 		exe "q!"
 		silent! exe "bw! ".nr
 		call CloseNetrw()
