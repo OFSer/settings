@@ -330,11 +330,11 @@ tnoremap <silent> < <c-\><c-n>gT
 inoremap <silent> > <esc>gt
 nnoremap <silent> > <esc>gt
 tnoremap <silent> > <c-\><c-n>gt
-nnoremap <silent> t <c-w>l:tab term bash<cr>clear<cr>
-inoremap <silent> t <esc><c-w>l:tab term bash<cr>clear<cr>
-tnoremap <silent> t <c-\><c-n><c-w>l:tab term bash<cr>clear<cr>
-tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>clear<cr>
-tnoremap <silent> \ <c-\><c-n>:call Tervspl()<cr>clear<cr>
+nnoremap <silent> t <c-w>l:tab term bash<cr>
+inoremap <silent> t <esc><c-w>l:tab term bash<cr>
+tnoremap <silent> t <c-\><c-n><c-w>l:tab term bash<cr>
+tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
+tnoremap <silent> \ <c-\><c-n>:call Tervspl()<cr>
 nnoremap <silent> \ :call Tervspl()<cr>
 "--------------------------WindowMap-------------------------------"
 nnoremap <silent>  h <c-w>h:call Terins()<cr>
@@ -469,8 +469,10 @@ func Togglebash()
 	let bufferNum = bufnr('Togglebash')
 	if bufferNum == -1 || bufloaded(bufferNum) != 1
 		silent execute 'rightbelow term ++close ++kill=term '.g:toggle_bash#command
+		"set noswapfile
 		silent file Togglebash
-		exe "!rm .Togglebash.swp > /dev/null 2>&1"
+		"set swapfile
+		"silent exe "!rm .Togglebash.swp > /dev/null 2>&1"
 	else
 		let windowNum = bufwinnr(bufferNum)
 		if windowNum == -1
@@ -495,9 +497,9 @@ endfunc
 inoremap <silent> ; <esc>:call MoveLeft()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
 nnoremap <silent> ; :call MoveLeft()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
 tnoremap <silent> ; <c-\><c-n>:call MoveLeft()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-inoremap <silent> : <esc>:call MoveLeft()<cr>:call CloseTogglebash()<cr>:call Togglebash()<CR>:call Terins()<cr>
-nnoremap <silent> : :call MoveLeft()<cr>:call CloseTogglebash()<cr>:call Togglebash()<CR>:call Terins()<cr>
-tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call MoveLeft()<cr>:call Togglebash()<CR>:call Terins()<cr>
+inoremap <silent> : <esc>:call MoveLeft()<cr>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> : :call MoveLeft()<cr>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call MoveLeft()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
 "inoremap <silent> ; <esc>:call Togglebash()<CR>
 "nnoremap <silent> ; :call Togglebash()<CR>
 "tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>

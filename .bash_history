@@ -14322,3 +14322,102 @@ clear
 rm .Togglebash.swp > /dev/null 2>&1
 clear
 ls
+mysql
+ls
+vim .vimrc
+git status
+git diff .vimrc
+jobs
+fg
+vim .vimrc
+ls
+cd fc/saki_detection/
+ls
+vim
+ls
+cd ~
+ls
+vim .vimrc
+./config.sh push
+vim .vimrc
+ls
+jobs
+vim .vimrc
+gedit .vimrc
+vim .vimrc
+jobs
+git status
+git diff
+./config.sh push
+git status
+jobs
+fg
+git status
+git diff .vimrc
+jobs
+fg
+vim .vimrc
+ls
+git stauts
+git status
+git diff .vimrc
+./config.sh push
+vim .vimrc
+ls
+vim .vimrc
+git checkout -- .vimrc
+vim .vimrc
+git checkout -- .vimrc
+git status
+git diff
+vim .vimrc
+git status
+git checkout -- .vimrc
+vim .vimrc
+ls
+git status
+./config.sh push
+vim .vimrc
+ls
+history
+clear
+ls
+mysql
+ls
+mysql
+ls
+mysql
+ls
+mysql
+ls
+cd fc/saki_detection/
+ls
+vim
+ls
+cd ~
+ls
+ssh gjs@10.0.10.59
+sss
+ls
+
+ssh gjs@10.0.10.59
+vim .vimrc
+jobs
+ls
+ls -a
+ls
+ls -a
+ls
+ls -a | grep To
+ls
+ls -a | grep To
+ls
+ls -a | grep To
+ls
+ls -a | grep To
+ls
+ls -a | grep To
+ls -a  | grep To
+ls
+ls -a | grep To
+ls
