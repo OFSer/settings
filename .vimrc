@@ -540,6 +540,10 @@ func Switch(r)
 	if bufname('%') =~ '!bash' || bufname('%') =~ "help" || bufname('%') =~ "Netrw"
 		return
 	endif
+	let cur=bufnr('%')
+	if cur == Next(cur)
+		return
+	endif
 	let g:bn = 'buf!bash'.bufnr('%')
 	let bufferNum = bufnr('buf!bash'.bufnr('%'))
 	if bufloaded(bufferNum) == 1
@@ -549,7 +553,6 @@ func Switch(r)
 			hide 
 		endif
 	endif
-	let cur=bufnr('%')
 	if a:r == 0
 		exe "b! ".Next(cur)
 	else
