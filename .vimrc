@@ -1,3 +1,4 @@
+set noswapfile
 let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
 let g:loaded_toggle_bash = 1
 func Bufferbash()
@@ -471,30 +472,30 @@ endfunc
 tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call Back()<cr>:call Terins()<cr>
 nnoremap <silent> q :call Quit()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Compile&&Run-------------------------------"
-map <silent> <F3> :call Bomp()<CR>
-func Bomp()
-	exec "w"
-	silent exec "!clear"
-	silent exec "!go build %"
-	exec "!./%<"
-endfunc
-map <silent> <F4> :call Comp()<CR>
-func Comp()
-	exec "w"
-	silent exec "!clear"
-	silent exec "!g++ % -o 1"
-	exec "!sudo ./1"
-endfunc
-map <silent> <F5> :call Domp()<CR>
-func Domp()
-	exec "w"
-	silent exec "!clear"
-	exe "!python %"
-endfunc
+"map <silent> <F3> :call Bomp()<CR>
+"func Bomp()
+"	silent exec "!clear"
+"	silent exec "!go build %"
+"	exec "!./%<"
+"endfunc
+"map <silent> <F4> :call Comp()<CR>
+"func Comp()
+"	silent exec "!clear"
+"	silent exec "!g++ % -o 1"
+"	exec "!sudo ./1"
+"endfunc
+"map <silent> <F5> :call Domp()<CR>
+"func Domp()
+"	silent exec "!clear"
+"	exe "!python %"
+"endfunc
 "--------------------------Togglebash------------------------------------"
 let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
 let g:loaded_toggle_bash = 1
 func Togglebash()
+	if bufname('%') =~ 'Netrw'
+		return
+	endif
 	let bufferNum = bufnr('Togglebash')
 	if bufferNum == -1 || bufloaded(bufferNum) != 1
 		silent execute 'rightbelow term ++close ++kill=term '.g:toggle_bash#command
@@ -523,12 +524,12 @@ func CloseTogglebash()
 		silent! exe 'bw! Togglebash'
 	endif
 endfunc
-inoremap <silent> ; <esc>:call MoveLeft()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-nnoremap <silent> ; :call MoveLeft()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-tnoremap <silent> ; <c-\><c-n>:call MoveLeft()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-inoremap <silent> : <esc>:call MoveLeft()<cr>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-nnoremap <silent> : :call MoveLeft()<cr>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call MoveLeft()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+inoremap <silent> ; <esc>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> ; :call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+inoremap <silent> : <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> : :call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
 "inoremap <silent> ; <esc>:call Togglebash()<CR>
 "nnoremap <silent> ; :call Togglebash()<CR>
 "tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>
@@ -571,13 +572,13 @@ inoremap } }<ESC>==A
 "--------------------------Test-------------------------------"
 "autocmd VimEnter * :Lexplore | call feedkeys("\<c-w>l")
 autocmd TabNew * silent! call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>l:call Terins()\<cr>", 'n') 
-func Format()
-	if &filetype == 'cpp'
-		exec "w"
-		silent exec "!clang-format -i -style='{BasedOnStyle: WebKit, IndentWidth: 2,BreakBeforeBraces: Custom}' %"
-		exec "!sed -i 's/  /	/g' %"
-	endif
-endfunc
+"func Format()
+"	if &filetype == 'cpp'
+"		exec "w"
+"		silent exec "!clang-format -i -style='{BasedOnStyle: WebKit, IndentWidth: 2,BreakBeforeBraces: Custom}' %"
+"		exec "!sed -i 's/  /	/g' %"
+"	endif
+"endfunc
 nnoremap <silent> <c-I> :call Format()<cr>
 func Comment()
   let [line_start, column_start] = getpos("'<")[1:2]

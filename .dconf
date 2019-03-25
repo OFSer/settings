@@ -26,7 +26,7 @@ active-plugins=['docinfo', 'modelines', 'filebrowser', 'time', 'spell']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=132
+state=4
 bottom-panel-size=140
 side-panel-size=200
 side-panel-active-page='GeditWindowDocumentsPanel'
@@ -39,7 +39,7 @@ show-thousands=false
 button-mode='advanced'
 target-units='radian'
 word-size=64
-window-position=(1991, 30)
+window-position=(2333, 347)
 number-format='automatic'
 angle-units='degrees'
 base=16
@@ -274,7 +274,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 0
+check-timestamp=int64 1553467302
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'

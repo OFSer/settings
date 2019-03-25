@@ -14428,3 +14428,128 @@ ls
 git status
 git diff .vimrc
 ls
+rm a
+ls
+touch gen.cpp
+ls
+cd ..
+ls
+mv pro DotAAutoChess
+ls
+git status
+cd DotAAutoChess/
+ls
+git init
+git remote add origin git@github.com:chinnkarahoi/DotaAutoChess.git
+git push -u origin master
+git status
+vim .gitignore
+ls
+vim .gitignore
+git status
+vim .gitignore 
+git status
+git add .
+git commit -m "add cpp"
+git status
+git push -u origin master
+i
+ls -a
+ls -a | grep To
+ls
+ls -a | grep To
+ls -a  | grep To
+ls -a |  grep To
+ls -a | grep To
+ls -a
+ls -a | grep To
+git status
+ls
+git status
+git diff
+ls
+rm NetrwTreeListing*
+ls
+git status
+git add .
+git commit -m "fix bug"
+git status
+touch gen.sh
+for i in {1..10};do echo $i; done
+chmod +x gen.sh
+./gen.sh 
+ls
+./gen
+./gen.sh
+ls
+rm NetrwTreeListing*
+ls
+./gen
+./gen.sh
+rm NetrwTreeListing*
+ls
+rm output*
+ls
+rm -rf data
+ls
+./gen
+./gen.sh
+git status
+ls
+git status
+./gen.sh
+git status
+git add .
+git commit -m "add gen data"
+git push
+git status
+ls
+gits tatus
+git status
+rm NetrwTreeListing*
+ls
+git status
+ls
+rm NetrwTreeListing*
+ls
+git status
+ls
+rm NetrwTreeListing*
+ls
+rm NetrwTreeListing*
+ls
+./gen.sh 
+ls
+rm Ne*
+ls
+rm NetrwTreeListing*
+ls
+./gen.sh 
+ls
+rm [0-9]
+ls
+./gen.sh 
+ls
+rm NetrwTreeListing*
+ls
+./gen.sh 
+ls
+./gen.sh 
+git status
+git add .
+git commit -m "upd"
+git push
+ls
+touch README.md
+./gen.sh 
+git status
+git add .
+git commit -m "add problem"
+git push
+git status
+git diff
+ls
+rm Ne*
+ls
+git status
+ls
