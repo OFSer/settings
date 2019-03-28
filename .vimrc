@@ -1,6 +1,6 @@
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
-Plug 'lervag/vimtex'
+"Plug 'lervag/vimtex'
 call plug#end()
 "--------------------------------------------------------------"
 set noswapfile
