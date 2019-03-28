@@ -367,9 +367,9 @@ tnoremap <silent> < <c-\><c-n>gT
 inoremap <silent> > <esc>gt
 nnoremap <silent> > <esc>gt
 tnoremap <silent> > <c-\><c-n>gt
-nnoremap <silent> t <c-w>l:tab term bash<cr>
-inoremap <silent> t <esc><c-w>l:tab term bash<cr>
-tnoremap <silent> t <c-\><c-n><c-w>l:tab term bash<cr>
+nnoremap <silent> t :tab term bash<cr>
+inoremap <silent> t <esc>:tab term bash<cr>
+tnoremap <silent> t <c-\><c-n>:tab term bash<cr>
 tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
 "--------------------------WindowMap-------------------------------"
 nnoremap <silent>  h <c-w>h:call Terins()<cr>

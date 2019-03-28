@@ -15296,3 +15296,64 @@ ls
 vim
 ls
 reboot
+vim .bashrc
+git status
+git diff .bashrc
+git diff .vimrc
+./config.sh push
+dmesg
+whoam i
+whoami
+ssh gjs@10.0.10.59
+sudo vim /etc/passwd
+sudo vim /etc/group
+sudo vim /etc/passwd
+sudo vim /etc/group
+sudo vim /etc/passwd
+ls
+cd /home/
+ls
+cd gjs/
+ls
+sudo useradd ggg -G sudo
+sudo vim /etc/passwd
+sudo vim /etc/group
+ls
+su fff
+sudo passwd fff
+su fff
+ls
+sudo useradd fff -g sudo
+ls
+cd ..
+ls
+cd usb_blow_detector/
+ls
+vim
+history | grep daemon
+git pull
+git status
+git branch
+git checkout net_camera
+git status
+git pull
+git submodule update
+git status
+git pull
+git status
+git branch
+git branch -d point_blow 
+git status
+git branch
+git checkout -b point_blow
+git staus
+git status
+git branch
+git status
+ls
+cd fc/
+ls
+cd flaw_checker/
+ls
+vim
+ls
