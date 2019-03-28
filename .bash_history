@@ -14553,3 +14553,746 @@ rm Ne*
 ls
 git status
 ls
+pidstat -d 1
+ssh -o "StrictHostKeyChecking no" -p 13654 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14858 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17110 hypereal@registry-corp.hypereal.com
+vim .vimrc
+ls
+vim
+ls
+vim
+ls
+vim .vimrc
+git status
+vim .bashrc
+ssh -o "StrictHostKeyChecking no" -p 17110 hypereal@registry-corp.hypereal.com
+python3
+python3.6
+ls
+cd fc/saki_detection/
+ls
+vim
+ls
+cd ~
+ls
+vim .vimrc
+sleep 1
+sleep 1m
+sleep 1
+vim .vimrc
+ls
+cd test/cpp/
+ls
+cd test/
+ls
+vim
+ls
+vim 1.cpp
+ls
+cd ..
+ls
+cd ..
+ls
+cd DotAAutoChess/
+ls
+vim
+ls
+cd ~
+ls
+vim .vimrc
+./config.sh push
+vim .vimrc
+ls
+cd test/
+ls
+mkdir py
+ls
+cd py/
+ls
+pip3 freeze 
+vim requirements.txt
+pip3 install -r requirements.txt 
+php
+ls
+history | grep xargs
+git status
+git stash
+git status
+git branch
+git pull
+rm receive.py 
+git status
+git pull
+git status
+git reset HEAD --hard
+git status
+git pull
+git status
+git pull
+git status
+git pull
+git add .
+git status
+git commit -m "pull"
+git status
+git barnch
+git branch
+git log
+git branch
+ls
+pip3 install -r requirements.txt 
+ls
+pip3 install -r requirements.txt 
+ls
+mysql
+ls
+mysql
+git status
+git rm --cached online_blow/
+git status
+git rm -r --cached online_blow/
+git status
+git rm --cached 1.sh
+git status
+git add .
+git commit -m "rm online blow"
+git status
+git rm -r --cached online_blow/
+git rm --cached 1.sh
+vim .gitignore 
+git status
+git add .
+git commit -m "rm online blow"
+git status
+git branch
+git push
+git status
+git pull
+git pull origin master
+git status
+git branch
+git status
+git add .
+git commit -m "merge master"
+git status
+git branch
+git diff master
+git push
+git status
+git diff
+git status
+git diff
+git status
+git diff
+git add .
+git commit -m "upd"
+git push
+git status
+git diff
+git status
+touch blow.yaml
+ls
+mv blow.yaml webserver/
+ls
+sudo python3 server.py 
+/usr/bin/python3.6
+pwd
+ls
+cd fc/usb_blow_detector/
+ls
+vim
+ls
+vim
+ls
+vim .vimrc
+cd ~
+vim .vimrc
+jobs
+fg
+vim .vimrc
+vim /etc/init.d/
+sudo vim /etc/init.d/docker 
+ls
+ssh -o "StrictHostKeyChecking no" -p 13879 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15907 hypereal@registry-corp.hypereal.com
+                   ssh -o "StrictHostKeyChecking no" -p 13879 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15646 hypereal@registry-corp.hypereal.com
+sudo systemctl enable usb_blow_detector.service
+sudo service usb_blow_detector restart
+ps -ef | grep blow
+ssh -o "StrictHostKeyChecking no" -p 15646 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13650 hypereal@registry-corp.hypereal.com
+ps -ef  | grep blow
+/usr/bin/python3 /home/gjs/fc/usb_blow_detector/webserver/server.py
+sudo /usr/bin/python3 /home/gjs/fc/usb_blow_detector/webserver/server.py
+cd /lib/systemd/system
+ls
+vim usb_blow_detector.service 
+sudo /usr/bin/python3.6 /home/gjs/fc/usb_blow_detector/blow_detector.py --name blow00
+ls
+sudo /usr/bin/python3.6 /home/gjs/fc/usb_blow_detector/blow_detector.py --name blow00
+ls
+ps -ef | grep blow
+sudo service usb_blow_detector stop
+ps -ef | grep blow
+sudo kill -9 5257
+ps -ef | grep blow
+sudo service usb_blow_detector start
+ps -ef | grep blow
+systemctl daemon-reload
+sudo service usb_blow_detector start
+ps -ef | grep blow
+sudo systemctl daemon-reload
+sudo service usb_blow_detector start
+
+sudo systemctl enable usb_blow_detector
+sudo systemctl daemon-reload
+sudo systemctl daemon-reload usb_blow_detector
+sudo systemctl daemon-reload
+sudo service usb_blow_detector start
+ps -ef | grep blow
+ps -ef | grep usb
+ls
+jobs
+fg
+sudo vim usb_blow_detector.service 
+sudo systemctl daemon-reload
+sudo service usb_blow_detector start
+ps -ef  | grep blow
+sudo vim usb_blow_detector.service 
+sudo systemctl daemon-reload
+sudo service usb_blow_detector start
+sudo su
+sudo vim usb_blow_detector.service 
+sudo systemctl daemon-reload
+sudo service usb_blow_detector start
+ps -ef | grep blow
+sudo vim usb_blow_detector.service 
+sudo systemctl daemon-reload
+sudo service usb_blow_detector start
+ps -ef | grep blow
+sudo reboot
+sudo systemctl enable usb_blow_detector.service 
+ls
+cd fc/usb_blow_detector/
+ls
+vim
+ls
+sudo python3 blow_detector.py --name blow00
+sudo service usb_blow_detector restart
+sudo service usb_blow_detector start
+ls
+ps -ef | grep blow
+vim /lib/systemd/system/usb_blow_detector.service 
+sudo vim /lib/systemd/system/usb_blow_detector.service 
+sudo service usb_blow_detector restart
+systemctl daemon-reload
+sudo service usb_blow_detector restart
+ps -ef | grep blow
+sudo systemctl enable usb_blow_detector.service 
+sudo service usb_blow_detector stop
+sudo service usb_blow_detector start
+ps -ef | grep blow
+sudo service usb_blow_detector stop
+sudo vim /lib/systemd/system/usb_blow_detector.service
+sudo python3 server.py 
+sudo su
+ls
+sudo service usb_blow_detector stop
+sudo service usb_blow_detector start
+sudo service usb_blow_detector stop
+sudo service usb_blow_detector start
+ps -ef  |grep blow
+sudo kill 7579
+ps -ef  |grep blow
+sudo service usb_blow_detector stop
+ssh -o "StrictHostKeyChecking no" -p 12608 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19873 hypereal@registry-corp.hypereal.com
+python3
+git status
+git add .
+git status
+curl http://127.0.0.1:5000/cmd/service
+curl -H http://127.0.0.1:5000/cmd/service
+curl -X HEAD http://127.0.0.1:5000/cmd/service
+tldr curl
+curl -H -X GET http://127.0.0.1:5000/cmd/service
+curl -X GET http://127.0.0.1:5000/cmd/service
+man curl | head 
+man curl | grep head 
+curl -I -X GET http://127.0.0.1:5000/cmd/service
+curl -X POST -d method=restart http://127.0.0.1:5000/cmd/service
+git status
+l;s
+ls
+rm \'
+ls
+git status
+git add .
+git status
+git commit -m "add config & service bug"
+git commit --amend 
+git status
+git push
+curl 127.0.0.1:5000/data
+curl 127.0.0.1:5000/cmd/config
+git status
+git add .
+git staus
+git diff --cached 
+git commit -m "upd config response"
+git push
+ls
+git status
+:call Terins()
+sudo python3 server.py 
+ls
+mysql
+ls
+mysql
+ls
+mysql
+ls
+ssh -o "StrictHostKeyChecking no" -p 11731 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15764 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14960 hypereal@registry-corp.hypereal.com
+chkconfig --list
+service --status-all
+service usb_blow_detector status
+ps -ef | grep 'blow_detector.py --name blow00' | wc -l
+ps -ef | grep 'blow_detector.py --name blow00' 
+ps -ef | grep 'blow_detector.py --name blow00' | wc -l
+ps -ef | grep 'blow_detector.py --name blow00'
+ps -ef | grep 'blow_detec'
+ps -ef | grep 'blow_detector\.py \-\-name blow00'
+ps -ef | grep 'blow_detector.py --name blow00'
+python3
+python3.6
+ls
+cd webserver/
+ls
+sudo python3 server.py 
+service usb_blow_detector status
+sudo service usb_blow_detector status
+git status
+git diff
+git add .
+git status
+git commit -m "add vendor"
+git push
+git status
+echo $IFS | od -b
+echo "$IFS" | od -b
+od
+echo "$IFS" | od 
+echo "$IFS" | od -b
+hexdump -C -n <(echo $IFS)
+hexdump -C -n 10 <(echo $IFS)
+hexdump -C -n 10 <(echo "$IFS")
+echo "IFS"
+echo "$IFS"
+ls
+cd ~
+ls
+echo "`ls`"
+a="`ls`"
+for i in a;do echo $i; done
+for i in $a;do echo $i; done
+for i in "$a";do echo $i; done
+echo "$a"
+for i in "$a";do echo $i; done
+echo "$a"
+for i in "$a";do echo $i; done
+IFS=$'\n'
+for i in "$a";do echo $i; done
+IFS=$'\n\r'
+for i in "$a";do echo $i; done
+IFS=$'\r'
+for i in "$a";do echo $i; done
+IFS=$'\r'
+hexdump -C "$a"
+hexdump -C -n 100 "$a"
+echo "$a"
+ascii $a
+ascii "$a"
+hexdump -C -n 100 <(echo $a)
+hexdump -C -n 100 <(echo "$a")
+ascii
+man ascii
+hexdump -C -n 100 <(echo "$a")
+hexdump -C -n 100 <(echo $a)
+echo $a
+echo "$a"
+for i in $a;do echo $i; done
+for i in "$a";do echo $i; done
+IFS=$'\n'
+for i in "$a";do echo $i; done
+for i in $a;do echo $i; done
+for i in "$a";do echo $i; done
+echo $a
+echo "$a"
+echo $a
+a=`ls`
+echo $a
+echo "$a"
+a=$(ls)
+echo $a
+echo "$a"
+"$(ls)"
+echo "$(ls)"
+echo $(ls)
+ls
+echo $(ls)
+ls
+IFS=' '
+echo $(ls)
+ls
+echo "$(ls)"
+IFS=$' '
+echo "$(ls)"
+shell
+sh
+ls
+hexdump -C -n 10 <(echo $IFS)
+echo `ls`
+IFS=''
+echo `ls`
+echo ls
+echo `ls`
+echo "$IFS" | od
+echo "$IFS" | od -b
+echo `ls`
+echo "`ls`"
+IFS=' '
+echo `ls`
+echo "`ls`"
+hexdump -C -n 10 <(echo $IFS)
+IFS=$'\n'
+hexdump -C -n 10 <(echo $IFS)
+IFS=' '
+hexdump -C -n 10 <(echo $IFS)
+IFS=$'\r'
+hexdump -C -n 10 <(echo $IFS)
+echo `ls`
+echo "`ls`"
+echo `ls`
+ls
+`\ls
+\ls
+echo "`ls`"
+IFS='a'
+echo bcdabcd
+echo $IFS
+IFS=$'a'
+echo $IFS
+echo $IFS | od 
+IFS='1'
+echo $IFS | od 
+IFS=1
+echo $IFS | od 
+echo "$IFS" | od 
+echo "$IFS" | od  -b
+echo 2341234
+echo 2341234 asdf
+echo `ls`
+echo "`ls`"
+for i in "`ls`";do echo $i; done
+echo `ls`
+ssh gjs@10.0.10.59
+cd ~
+vim .vimrc
+ps -ef | grep blow
+ps -ef | grep server
+ps -ef | grep blow
+ssh -o "StrictHostKeyChecking no" -p 17061 hypereal@registry-corp.hypereal.com
+IFS=:
+var=ab::cd
+echo $var
+read a
+echo $a
+unset IFS
+echo $a
+service flawck status | grep running
+ls
+cd ~
+ls
+IFS=$'\n'
+for i in `ls`;do echo $i; done
+for i in "`ls`";do echo $i; done
+ls
+echo `ls`
+echo "`ls`"
+for i in "`ls`";do echo $i; done
+echo "`ls`" | od
+echo "`ls`" | od -b
+hexdump -C -n 100 <(echo "`ls`")
+echo "$IFS"  | od -b
+for i in "`ls`";do echo $i; done
+set "x" "y z"
+echo $*
+echo "$*"
+echo $@
+echo "$@"
+vim .bashrc
+ls
+log=/var/log/qmail/current IFS=/
+args $log
+udo apt install ucommon-utils
+sudo apt install ucommon-utils
+args $log
+args "$log"
+echo `ls`
+echo "`ls`"
+echo `ls`
+IFS=':'
+echo `ls`
+set `ls`
+echo "$*"
+echo $1
+set `ls`
+IFS=':'
+echo "$*"
+var=" a b c"
+echo $var
+ls
+IFS="$IFS"a
+echo $IFS | od -b
+echo "$IFS" | od -b
+echo 1234a1234
+a=1234a1234
+echo $a
+a=" 1234a1234"
+echo $a
+echo "$a"
+a=" 1234a1234"
+echo $a
+a="a1234a1234"
+echo $a
+a="a1234a 1234"
+echo $a
+set `ls`
+echo $1
+echo $2
+set "`ls`"
+echo $1
+echo "$1"
+echo "$*"
+echo "$@"
+set "$*"
+echo "$1"
+set `ls`
+set "$*"
+echo $1
+set `ls`
+set "$@"
+echo $1
+a=1
+b=''
+c=2
+set $a $b $c
+echo $1
+echo $2
+set "$a" "$b" "$c"
+echo $1
+echo $2
+set -d' '
+set d' '
+echo $1
+echo $1ab
+set "d''"
+echo $1
+bash --version
+IFS=:;
+set x y z
+echo $1
+echo $*
+echo "$*"
+echo `ls`
+echo "`ls`"
+ls
+echo IFS
+echo $IFS
+echo $IFS | od 
+echo "$IFS" | od -b
+echo "$IFS"
+echo `ls`
+echo "`ls`"
+echo "$*"
+echo "`ls`"
+echo `ls`
+IFS=$'\n'
+echo `ls`
+IFS=':'
+var=": a:b::c:"
+echo $var
+echo "$var"
+echo $var
+echo :
+echo : a:b::c:
+echo ": a:b::c:"
+echo $var
+for i in $var;do echo $i; done
+for i in $var;do echo $i | od -b; done
+a=":::"
+echo $a
+echo $a | od -b
+IFS=' '
+var="  a b  c "
+echo $var
+tmp="   xy z"
+a=$tmp
+echo $a
+echo "$a"
+IP=220.112.253.111
+IFS="."
+TMPIP=$(echo $IP)
+IFS=" " # space
+echo $TMPIP
+for x in $TMPIP ;do      Xip="${x}.$Xip"; done
+echo ${Xip%.}
+echo $*
+echo "$*"
+IFS=':'
+echo "$*"
+args "$*"
+args $*
+args $@
+args "$@"
+printf "%d args:" "$#"
+printf " <%s>" "$@"
+printf " <%s>" "$*"
+printf " <%s>" "$@"
+printf " <%s>" 1 2 3
+printf "<%s>" 1 2 3
+printf "<%s> " 1 2 3
+var="This is a variable"
+args $var
+cd ~
+ls
+vim .bashrc
+. .bashrc
+args $@
+args "$@"
+args $*
+args "$*"
+ifconfig
+ssh -o "StrictHostKeyChecking no" -p 16832 hypereal@registry-corp.hypereal.com
+tty5
+ls
+vim
+ls
+sss
+ls
+ssh gjs@10.0.10.59
+ssh -tX gjs@10.0.10.59
+set x y z
+args "$*"
+args "$@"
+args $@
+args $*
+IFS=':'
+args $*
+args $@
+args "$@"
+args "$*"
+args $*
+args "$*"
+args $*
+vim .bashrc
+cd ~
+vim .bashrc
+ls
+args $*
+args "$*"
+args "$@"
+IFS=':'
+args "$@"
+args "$*"
+vim .bashrc
+args "$*"
+args "$@"
+echo $*
+set x 'y z'
+echo $*
+args $*
+for i in $*;do echo $i; done
+args $*
+args "$*"
+args "$@"
+args $@
+set $*
+echo $1
+echo $2
+set 1 2 3
+echo $*
+args $*
+args $@
+args $*
+args $*ls
+git diff master blow_detector.py
+git staus
+git status
+git checkout master blow_detector.py
+git status
+git diff
+git status
+git diff
+git status
+git diff
+git status
+git diff
+git status
+git stash
+git status
+git checkout master blow_detector.py
+ps -ef | grep server
+git diff blow_detector.py
+git status
+git diff HEAD blow_detector.py
+ps -ef | grep server
+git status
+git checkout master blow_detector.py
+git status
+git add .
+git commit -m "app.run debug mode cause bug"
+git status
+git diff
+git status
+git diff
+git add .
+git commit -m "fix"
+git push
+git status
+git diff
+git status
+git add .
+git diff --cached 
+git commit -m "add flack ctrl"
+git push
+git status
+git diff
+git status
+git diff
+git add .
+git commit -m "fix error log"
+git push
+git status
+git diff
+git status
+git diff
+git status
+git add .
+git commit -m "fix param"
+git push
+git status
+git diff
+git add .
+git commit -m "change host"
+git push
+ls
+cd fc/usb_blow_detector/
+ls
+vim
+ls
+reboot

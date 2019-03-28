@@ -104,12 +104,14 @@ function! MyTabLine()
   endif
   return s
 endfunction
+au CursorMoved,TextChanged * call MyTabLine()
 set tabline=%!MyTabLine()
 function! Flash()
-    sleep 15m
+    sleep 10m
 endfunction
-tnoremap <silent> <cr> <cr><c-\><c-n>:call Flash()<cr>i<c-\><c-n>:call Flash()<cr>i
-tnoremap <silent> <c-d> <c-d><c-\><c-n>:call Flash()<cr>i<c-\><c-n>:call Flash()<cr>i
+"tnoremap <silent> <cr> <cr><c-\><c-n>:let line=MyTabLine()<cr>:exe 'set tabline='.'"'.line.'"'<cr>i
+tnoremap <silent> <cr> <cr><c-\><c-n>i<c-\><c-n>i
+tnoremap <silent> <c-d> <c-d><c-\><c-n>i<c-\><c-n>i
 
 set showtabline=2
 nnoremap q <nop>
@@ -567,7 +569,7 @@ inoremap <silent> n <esc>:call Switch(0)<cr>
 nnoremap <silent> p :call Switch(1)<cr>
 inoremap <silent> p <esc>:call Switch(1)<cr>
 "--------------------------Trash-------------------------------"
-inoremap } }<ESC>==A
+"inoremap } }<ESC>==A
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
 "--------------------------Test-------------------------------"
 "autocmd VimEnter * :Lexplore | call feedkeys("\<c-w>l")

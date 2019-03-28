@@ -233,3 +233,8 @@ xterm*|rxvt*)
 *)
     ;;
 esac
+args(){
+	printf "%d args:" "$#"
+	printf " <%s>" "$@"
+	echo
+}
