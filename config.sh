@@ -107,6 +107,8 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 install(){
 	#sudo apt install -y nvidia-384
 	sudo apt-get -y install vim-gnome	
+	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	sudo apt remove --purge gnome-desktop3-data
 	sudo apt install -y ubuntu-unity-desktop
 	sudo apt remove -y --purge ubuntu-desktop

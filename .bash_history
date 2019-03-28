@@ -15357,3 +15357,22 @@ cd flaw_checker/
 ls
 vim
 ls
+cd ~
+ls
+vim .vimrc
+git status
+git diff .vimrc
+git checkout -- .vimrc
+vim .vimrc
+git status
+vim .vimrc
+ls
+git status
+git diff
+./config.sh push
+git status
+git diff
+ls
+git status
+git diff
+git status
