@@ -17,7 +17,7 @@ tabs-size=uint32 2
 show-tabs-mode='auto'
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/Downloads'
+virtual-root='file:///home/gjs/Downloads/artifacts/detection-machine-daemon-20190328_122922-36ff57f/data/lib/systemd/system'
 tree-view=true
 root='file:///'
 
@@ -274,7 +274,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1553726055
+check-timestamp=int64 1553825236
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
@@ -300,7 +300,7 @@ col-6-width=0
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=252
-window-position=(578, 234)
+window-position=(2533, 234)
 show-size-column=true
 show-hidden=false
 window-size=(764, 437)
@@ -526,7 +526,7 @@ favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chr
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14
-release-check-time=uint32 1552571555
+release-check-time=uint32 1553781296
 
 [com/ubuntu/user-interface]
 scale-factor={'DP-4': 10, 'DP-2': 10, 'DP-0': 10}

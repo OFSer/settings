@@ -15376,3 +15376,227 @@ ls
 git status
 git diff
 git status
+git diff master interface.py
+git status
+git checkout master interface.py
+git status
+git diff --cached
+git status
+git diff
+cat interface.py interface.py 
+git status
+git reset HEAD --hard
+git staus
+cat interface.py interface.py 
+ls
+cp -r webserver/ ../detection-machine-daemon/
+ls
+git status
+git branch
+Zathura
+sudo apt install zathura
+zathura 
+cd ~
+ls
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+vim .vimrc
+vim
+ls
+vim .vimrc
+ls
+git status
+ls
+vim config.sh 
+./config.sh push
+vim config.sh 
+ls
+vim 
+vim
+vim .vimrc
+./config.sh push
+ls
+git status
+git checkout HEAD^^ test.sh
+git branch
+ls
+ls | grep test
+ls
+git checkout HEAD~5 test.sh
+git checkout HEAD^^^^^^^ test.sh
+ls
+touch test.py
+git status
+git diff
+git add .
+git commit -m "rename websock"
+git status
+git push
+git status
+git diff
+git status
+git diff
+git status
+git push
+git status
+git diff
+git staus
+git status
+git pull
+git pull origin master
+git remote show origin
+git remote -v
+cd ..
+git status
+git pull
+cd ..
+git status
+git pull
+cd fc/usb_blow_detector/
+ls
+cd webserver/
+ls
+cd ..
+ls
+cd webserver/
+ls
+vim server.py 
+ls
+git  status
+git diff
+git status
+git diff
+git reset HEAD --hard
+git status
+git pull
+git log
+git status
+jobs
+vi 
+jobs
+fg
+jobs
+fg
+ls
+jobs
+git status
+git rm --cached webserver
+git rm --cached webserver/
+git rm -r --cached webserver
+cd ..
+git rm -r --cached webserver/
+git status
+vim .gitignore 
+git status
+git add .
+git status
+git commit -m "rm webserver"
+git status
+git push
+git status
+ls
+jobs
+vim
+ls
+cd ..
+ls
+cd usb_blow_detector/
+ls
+vim
+ls
+cd ..
+ls
+cd flaw_checker/
+ls
+vim
+ls
+sss
+ls
+git status
+git pull
+git status
+git branch
+git checkout master
+git pull
+git status
+git branch
+git log
+git status
+cd ..
+git branch
+git status
+git pull
+git status
+sudo git pull
+git status
+git pull
+git status
+cd ..
+git pull
+ls
+ll
+git status
+sudo su
+git status
+git pull
+git diff
+git status
+git diff
+git sttaus
+git status
+git checkout -- blow_check/BlowProcess_PointLaser.cpp
+git status
+git add blow_check/usb_blow_detector
+git status
+git commit -m "upd point blow sbm"
+sudo git commit -m "upd point blow sbm"
+git status
+git push
+git push --set-upstream origin point_blow 
+git pull
+ls
+ssh gjs@10.0.10.59
+ls
+touch webserver.service
+ls
+git status
+git diff
+git status
+git diff
+git status
+git diff
+git ststaus
+git status
+git diff --cached 
+git status
+git add - A
+git add -A
+git status
+git commit -m "add webserver service"
+git push
+git status
+cd ..
+ls
+cd detection-machine-daemon/
+ls
+git pull
+git status
+git branch
+ls
+cd webserver/
+ls
+cd ..
+ls
+cd webserver/
+ls
+cd ..
+ls
+find . | grep requ
+vim requirements.txt 
+ls
+vim
+ls
+vim ~/.vimrc
+git status
+git diff
+git reset HEAD --hard
+git status

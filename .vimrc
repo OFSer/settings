@@ -1,7 +1,7 @@
 "----------------------------Plug------------------------------"
-call plug#begin('~/.vim/plugged')
+"call plug#begin('~/.vim/plugged')
 "Plug 'lervag/vimtex'
-call plug#end()
+"call plug#end()
 "--------------------------------------------------------------"
 set noswapfile
 let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
