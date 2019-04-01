@@ -18,7 +18,7 @@ show-tabs-mode='auto'
 
 [org/gnome/gedit/plugins/filebrowser]
 virtual-root='file:///home/gjs/Downloads/artifacts/detection-machine-daemon-20190328_122922-36ff57f/data/lib/systemd/system'
-tree-view=true
+tree-view=false
 root='file:///'
 
 [org/gnome/gedit/plugins]
@@ -274,7 +274,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1553825236
+check-timestamp=int64 1554072684
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
@@ -300,7 +300,7 @@ col-6-width=0
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=252
-window-position=(2533, 234)
+window-position=(578, 234)
 show-size-column=true
 show-hidden=false
 window-size=(764, 437)

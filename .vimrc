@@ -119,7 +119,7 @@ tnoremap <silent> <cr> <cr><c-\><c-n>i<c-\><c-n>i
 tnoremap <silent> <c-d> <c-d><c-\><c-n>i<c-\><c-n>i
 
 set showtabline=2
-nnoremap q <nop>
+"nnoremap q <nop>
 nnoremap t <nop>
 nnoremap . <nop>
 nnoremap , <nop>

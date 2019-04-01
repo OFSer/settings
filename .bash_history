@@ -15600,3 +15600,535 @@ git status
 git diff
 git reset HEAD --hard
 git status
+ls
+touch index.js
+touch index.css
+ls
+ls
+cd ~
+git status
+git diff .vimrc
+git diff HEAD^ .vimrc
+ls
+vim .vimrc
+./config.sh push
+git diff .dconf
+git diff HEAD^ .dconf
+ls
+vim .vimrc
+ls
+~/.vim/colors/
+mkdir -p ~/.vim/colors/
+ls
+cd .vim/colors/
+ls
+vim monokai.vim
+ls
+vim monokai.vim
+cd ~
+ls
+cd .v
+cd .vim
+ls
+mkdir syntax
+git status
+cd syntax/
+ls
+git clone https://github.com/hdima/python-syntax.git
+ls
+cd python-syntax/
+ls
+cd syntax/
+ls
+cp python.vim ../../
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf syntax/
+ls
+cd ~
+sss
+python3
+python2
+ls
+service usb_blow_detector status 2>/dev/null | grep 'active (running)'
+ls
+cd ~
+ssh gjs@10.0.10.59
+ping 10.0.10.59
+ping 10.0.10.60
+ping 10.0.10.59
+echo '\n'
+echo $'\n'
+echo  $LC_MESSAGES
+echo '\\'
+echo $'\\'
+echo "\\"
+echo $'\''
+ls
+rm '['
+rm \[
+sudo rm \[
+ls
+ssh -o "StrictHostKeyChecking no" -p 13610 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15645 hypereal@registry-corp.hypereal.com
+time -p sleep 1
+time sleep 1
+time sleep 1 &
+jobs
+set -o posix
+time
+time sleep 1
+\time sleep 1
+time sleep 1
+ls
+sh
+ls
+set -o posix 
+echo $POSIXLY_CORRECT 
+set +o posix
+ls
+time sleep 1
+echo $POSIXLY_CORRECT 
+set -o posix
+time - sleep 1
+\time - sleep 1
+time - sleep 1
+time -
+time
+time -
+service webserver status
+service usb_blow_detector 
+service usb_blow_detector status
+ssh -o "StrictHostKeyChecking no" -p 10907 hypereal@registry-corp.hypereal.com
+find .
+ls
+cd test/
+ls
+cd s
+ls
+cd ..
+cd s
+ls
+cd s
+echo $?
+cd s
+echo $?
+ls
+echo $?
+echo $? abc
+!
+echo $? abc
+! ls
+echo $?
+echo "\$"
+echo "\"
+echo "\""
+echo "\n"
+echo "\!"
+echo "\!!"
+echo "*"
+echo "echo "*""
+echo "echo "echo "*"""
+echo 1
+echo "echo 1"
+echo 1
+echo $'123\b'
+echo $'123\a'
+echo $'\a'
+echo $'123\a'
+echo $'123\a\a'
+echo $'\a123\a'
+echo $'\a123\a234'
+echo $'\a123\a234\b\b\b\b\b'
+echo $'1234\b\b\b'
+echo $'123\e'
+echo $'\e'
+sh
+echo $'\E'
+echo $'1234\f'
+echo $'1234'
+echo $'1234\f'
+echo $'1234\f234'
+echo $'1234\r123'
+echo $'1234\r234'
+echo $'1234\t'
+echo $'1234\t1234'
+echo $'1234\t1234\v1234'
+echo $'1234\t1234\v23'
+echo $'1234\t1234\v23\v\v\v32'
+echo $'1234\t1234\v23\v\v32'
+echo $'123\nnn'
+echo $'123\xHH'
+echo $'\nnn'
+echo $'\xHH'
+echo $'\uHHHH'
+echo $'\cx'
+echo $'\cdf'
+echo $'\cd'
+echo $'\ca
+echo $'\ca'
+echo $'\cb'
+echo $'\cc'
+echo $'\cz'
+echo $'\cw'
+echo $'\c2'
+echo $'\cF'
+echo $'\ca'
+echo $'\cf'
+echo $'\c['
+ls
+time - sleep 1
+set -o posix
+echo $TIMEFORMAT
+ls
+cd fc
+ls
+cd ..
+ls
+vim .vimrc
+ls
+cd fc/
+ls
+cd ..
+ls
+cd fc/
+ls
+mysql
+set +o posix
+mysql
+ls
+cd ..
+ssh -o "StrictHostKeyChecking no" -p 16358 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11023 hypereal@registry-corp.hypereal.com
+ls
+set a b c
+select arg; do echo $arg; done
+ls
+select arg; do echo $arg; done
+vim .bashrc
+ls
+select fname in *; do echo you picked $fname \($REPLY\); break; done
+select arg; do echo $arg; break; done
+select arg; do echo $arg; done
+select fname in *; do echo you picked $fname \($REPLY\); break; done
+select fname in *; do echo you picked $fname ($REPLY); break; done
+select fname in *; do echo you picked $fname; echo $REPLY; break; done
+set -o
+set -o | grep ex
+[ A == a ] && echo 1
+[[ $line =~ [[:space:]]*?(a)b ]]
+line='
+line='aab'
+[[ $line =~ [[:space:]]*?(a)b ]] && echo 1
+line='aaaab'
+[[ $line =~ [[:space:]]*?(a)b ]] && echo 1
+[[ $line =~ [[ (a)b ]] && echo 1
+[[ $line =~ [[ ?(a)b ]] && echo 1
+[[ $line =~ [[?(a)b ]] && echo 1
+[[ $line =~ [[*?(a)b ]] && echo 1
+[[ $line =~ *?(a)b ]] && echo 1
+[[ $line =~ (a)b ]] && echo 1
+line='aaaaaaaaaaaaaab'
+[[ $line =~ (a)b ]] && echo 1
+[[ $line =~ '(a)b' ]] && echo 
+[[ $line =~ "(a)b" ]] && echo 
+p=(a)b
+[[ $line =~ $p ]] && echo 
+[[ $line =~ $p ]] && echo  1
+[[ $line =~ "$p" ]] && echo  1
+[[ $line =~ (a)b ]] && echo 1
+echo $BASH_REMATCH
+echo $BASH_REMATCH[0]
+echo $BASH_REMATCH
+[[ $line =~ (a)b ]] && echo 1
+echo $BASH_REMATCH
+[[ $line =~ [[:space:]]*?(a)b ]]
+line='   aaaab'
+[[ $line =~ [[:space:]]*?(a)b ]]
+echo $BASH_REMATCH
+echo $BASH_REMATCH[0]
+echo $BASH_REMATCH[1]
+echo $BASH_REMATCH
+echo ${BASH_REMATCH[0]}
+echo ${BASH_REMATCH[1]}
+echo ${BASH_REMATCH[2]}
+[[ $line =~ ([[:space:]]*?)(a)b ]]
+echo ${BASH_REMATCH[0]}
+echo ${BASH_REMATCH[1]}
+echo ${BASH_REMATCH[2]}
+[[ $line =~ ([[:space:]])(a)b ]]
+echo ${BASH_REMATCH[0]}
+[[ $line =~ ([[:space:]])(a)b ]] && echo 1
+[[ $line =~ ([[:space:]]*?)(a)b ]] && echo 1
+line=' aab'
+[[ $line =~ ([[:space:]]*?)(a)b ]] && echo 1
+echo ${BASH_REMATCH[0]}
+echo ${BASH_REMATCH[1]}
+ls
+cd ..
+ls
+cd saki_detection/
+ls
+history | grep oss
+ossutil ls oss://ai-cloth-public/debug-data
+ls
+sss
+pattern='\.'
+[[ . =~ $pattern ]] && echo 1
+pattern='.'
+[[ . =~ $pattern ]] && echo 1
+pattern=.
+[[ . =~ $pattern ]] && echo 1
+[[ . =~ "$pattern" ]] && echo 1
+pattern='\.'
+[[ . =~ $pattern ]]
+[[ . =~ $pattern ]] && echo 1
+[[ . =~ \. ]]
+[[ . =~ \. ]] && echo 1
+[[ . =~ "$pattern" ]] && echo 1
+[[ . =~ '\.' ]] && echo 1
+pattern='[[:space:]]*?(a)b'
+line=aab
+[[ $line =~ $pattern ]]
+echo $?
+[[ $line =~ $pattern ]] && echo 1
+pattern='.'
+[[ a =~ $pattern] && echo 1
+[[ a =~ $pattern ]] && echo 1
+( cd fc )
+( cd fc ls )
+( cd fc; ls )
+( cd fc;ls )
+{ cd fc;ls }
+{ cd fc;ls; }
+cd ..
+ls
+ssh -o "StrictHostKeyChecking no" -p 17214 hypereal@registry-corp.hypereal.com
+ls
+(cd fc;ls)
+cat /dev/fd/52
+cat <(/dev/fd/52
+cat <(/dev/fd/52)
+cat < /dev/fd/52
+cat < /dev/fd/62
+echo < /dev/fd/62
+echo < /dev/fd/58
+echo < /dev/fd/62
+cd /dev/fd
+ls
+jobs
+ls
+cd ..
+ls
+cd fd
+ls
+cd ..
+ls
+cd fd
+ls
+type coproc
+type ls
+type cd
+type type
+type (*
+type (
+type '('
+which type
+coproc ls
+jobs
+ls
+coproc sleep 1
+jobs
+coproc sleep 5
+jobs
+coproc echo 123
+jobs
+echo 123 &
+jobs
+coproc echo 123
+jobs
+echo $NAME
+echo ${NAME[*]}
+coproc sleep 10
+echo ${NAME[*]}
+ls
+echo ${NAME[*]}
+coproc sleep 10
+echo ${NAME[0]}
+coproc read a
+jobs
+fg
+jobs
+coproc sleep 10
+jobs
+fg
+jobs
+coproc sleep 10
+jobs
+echo $COPROC
+echo ${COPROC}
+jobs
+coproc echo 123
+jobs
+echo ${COPROC[*]}
+jobs
+coproc (read a;echo $a;sleep 60;)
+jobs
+echo $COPROC
+echo ${COPROC[*]}
+echo 123 > 58
+jobs
+cat /dev/fd/62
+cat < /dev/fd/62
+echo <(cat /dev/fd/62)
+cat /dev/fd/62
+jobs
+fg
+jobs
+fg
+jobs
+coproc (read a;echo $a;sleep 60;)
+jobs
+ls
+echo ${COPROC[*]}
+jobs
+echo 123 > 58
+ls
+jobs
+ls
+rm 58
+ls
+echo 123 > /dev/fd/58
+ls
+jobs
+echo 123 > /dev/fd/62
+ls
+jobs
+echo ${COPROC[*]}
+jobs
+echo ${COPROC[*]}
+coproc (read a;echo $a;sleep 600;)
+jobs
+coproc (read a;echo $a;sleep 1;)
+jobs
+fg 1
+jobs
+fg 2
+coproc (read a;echo $a;sleep 1;)
+jobs
+echo ${COPROC[*]}
+echo ${COPROC[@]}
+ls
+coproc (read a;while :;do echo $a;sleep 1;done )
+jobs
+fg 1
+jobs
+fg 2
+coproc (read a;while :;do echo $a;sleep 1;done )
+jobs
+echo ${COPROC[*]}
+echo 123 > /dev/fd/54
+ls
+jobs
+fg
+coproc (read a;while :;do echo $a > 1;sleep 1;done )
+jobs
+echo ${COPROC[*]}
+echo 123 > /dev/fd/54
+ls
+jobs
+vim 1
+ls
+jobs
+fg 1
+jobs
+rm 1
+coproc (read a;while :;do echo $a > 1;sleep 1;done )
+jobs
+ls
+echo ${COPROC[*]}
+echo 124234123 > /dev/fd/54
+ls
+vim 1
+ls
+jobs
+fg
+ls
+jobs
+coproc (read a;while :;do echo $a;sleep 1;done )
+jobs
+echo ${COPROC[*]}
+cat <(/dev/fd/59)
+sudo cat <(/dev/fd/59)
+sudo cat /dev/fd/59
+read a <(/dev/fd/59)
+sudo read a <(/dev/fd/59)
+ls
+jobs
+cd /dev/fd/
+ls
+ll
+cat /dev/fd/59
+ls
+cat 59
+jobs
+echo ${COPROC[*]}
+ls
+cat 59
+echo 59
+ls
+cat 59
+read a < 59
+ls
+jobs
+read a < 59
+jobs
+ls
+ll
+echo $COPROC_PID
+{ coproc mycoproc { awk '{print "begin_"$0"_end"; fflush()}'; } >&3; } 3>&1
+jobs
+fg 1
+jobs
+fg
+{ coproc mycoproc { awk '{print "begin_"$0"_end"; fflush()}'; } >&3; } 3>&1
+jobs
+echo abc>& ${mycoproc[1]}
+echo abc >& ${mycoproc[1]}
+jobs
+echo ${mycoproc[1]}
+echo abc >& ${mycoproc[1]}
+jobs
+awk '{print "begin_"$0"_end"; fflush()}';
+coproc mycoproc { awk '{print "begin_"$0"_end"; fflush()}'; } >&3  3>&1
+jobs
+fg 1
+coproc mycoproc { awk '{print "begin_"$0"_end"; fflush()}'; } >&3  3>&1
+jobs
+coproc mycoproc { awk '{print "begin_"$0"_end"; fflush()}'; }  >& 1
+jobs
+echo abc>& ${mycoproc[1]}
+echo abc >& ${mycoproc[1]}
+echo ${mycoproc[*]}
+coproc { ls thisfiledoesntexist; read; } 2>&1
+jobs
+fg 1
+jobs
+fg
+coproc { ls thisfiledoesntexist; read; } 2>&1
+jobs
+fg
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } >&3; } 3>&1
+echo bar >&${mycoproc[1]}
+jobs
+coproc awk '{print "foo" $0;fflush()}'
+while IFS= read -ru ${COPROC[0]} x; do printf '%s\n' "$x"; done &
+jobs
+fg
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } >&3; } 3>&1
+jobs
