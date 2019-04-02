@@ -588,7 +588,7 @@ autocmd TabNew * silent! call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>l:call T
 "		exec "!sed -i 's/  /	/g' %"
 "	endif
 "endfunc
-nnoremap <silent> <c-I> :call Format()<cr>
+"nnoremap <silent> <c-I> :call Format()<cr>
 func Comment()
   let [line_start, column_start] = getpos("'<")[1:2]
   let [line_end, column_end] = getpos("'>")[1:2]

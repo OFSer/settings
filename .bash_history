@@ -16570,3 +16570,148 @@ ls
 bash --help
 bash -c help
 jobs
+abc() { declare -n a=$1; echo $a; }
+b=234
+abc $b
+abc b
+a=(1 2 3)
+declare -n b=a
+echo $b
+echo ${b[*]}
+declare -n a
+declare -n b=a[1]
+b=4
+echo ${a[1]}
+echo ${a[*]}
+a=1
+b=2
+a=1
+declare -n b=a
+echo $b
+echo $a
+unset a
+echo $a
+echo $b
+a=234
+echo $b
+unset b
+echo $a
+echo $b
+a=234
+declare b=a
+echo $b
+declare -n b=a
+echo $b
+echo $a
+a=234
+echo $a
+echo $b
+unset -n b
+echo $a
+history | awk '{print $2}'
+history | awk '{print $2,NR}'
+history | awk '{print $2,NF}'
+ls
+history | awk '{$1=$2=""}''
+history | awk '{$1=$2=""}1'
+history | awk '{$1=$2=""}'
+history | awk '{$1=$2="";print}'
+history | awk '{$1="";print}'
+history | awk '{$1=""}1'
+abc() { echo $0; }
+abc 1 2 3 4
+echo $_
+ls
+echo $_
+vim .bashrc
+sh
+echo $_
+sh
+ssh -o "StrictHostKeyChecking no" -p 14080 hypereal@registry-corp.hypereal.com
+ls
+cd ~
+ls
+rm 1
+rm 3
+rm 60
+ls
+vim .vimrc
+ls
+vim .vimrc
+ls
+git status
+git diff .vimrc
+ls
+vim .vimrc
+ls
+jobs
+vim .vimrc
+ls
+jobs
+git status
+cd .config/gnome-
+cd .config/gnome-games/
+ls
+vim aisleriot
+ls
+cd ~
+ls
+git status
+vim .gitignore 
+git staus
+git status
+./config.sh push
+vim .bash_history 
+ls
+cat .bash_history | sort
+unique --help
+uniq --help
+cat .bash_history | sort | uniq -c
+cat .bash_history | sort | uniq -c | sort -n
+vim .bashrc
+set a b c
+echo $@
+echo "$@"
+echo $@
+args $@
+args $(*
+args $*
+args "$*"
+echo "$*"
+args "$*"
+args "$"
+args "$@"
+args $*
+echo "$@"
+echo "$*"
+echo abcdef | tr '[a-z]' '[A-Z]'
+echo abcdef | tr [a-z] [A-Z]
+echo [a-z]
+echo {a-z}
+echo {a,z}
+echo {[a-z]}
+echo {a,b,c}{a,bc}
+echo {a,b,c}{a,b,c}
+echo {a,b,c}{a,b,c}{a,b,c}
+echo {a,b,c}{a,b,c}{a,b,c}{a,b,c}
+echo {a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}
+echo {a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}
+echo {a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}
+echo {a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}
+echo {a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}{a,b,c}
+ls
+ssh -o "StrictHostKeyChecking no" -p 14080 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15590 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14080 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19819 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16806 hypereal@registry-corp.hypereal.com
+ls
+ping 10.0.10.120
+ls
+ssh -o "StrictHostKeyChecking no" -p 16806 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16806 hypereal@registry-corp.hypereal.com
+ping 10.0.10.55
+echo {1..3}
+echo {1}
+echo {foo}
+echo {foo,bar}
