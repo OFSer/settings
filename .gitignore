@@ -55,3 +55,4 @@
 .config/dconf/user
 .config/vlc/vlc-qt-interface.conf
 .config/mimeapps.list
+.config/gnome-games/

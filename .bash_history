@@ -16132,3 +16132,441 @@ jobs
 fg
 { coproc mycoproc { awk '{print "foo" $0;fflush()}'; } >&3; } 3>&1
 jobs
+sh
+jobs
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } >&3; } 3>&1
+jobs
+echo bar >&${mycoproc[1]}
+jobs
+fg
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } >&1; }
+jobs
+echo bar >&${mycoproc[1]}
+jobs
+fg
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } >&3; } 3>&1
+jobs
+fg
+( coproc mycoproc { awk '{print "foo" $0;fflush()}'; } >&3; ) 3>&1
+jobs
+{ coproc mycoproc ( awk '{print "foo" $0;fflush()}'; ) >&3; } 3>&1
+jobs
+echo ${mycoproc[*]}
+jobs
+fg
+{ coproc mycoproc ( awk '{print "foo" $0;fflush()}'; ) >&63; } 63>&1
+jobs
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } >&63; } 63>&1
+jobs
+fg
+jobs
+fg
+jobs
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } >&63; } 63>&1
+jobs
+fg
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } >&100; } 100>&1
+jobs
+fg
+jobs
+git status
+git diff .vimrc
+./config.sh push
+ls
+jobs
+ls
+vim .bashrc
+. .bashrc
+ls
+mysql
+. .bashrc
+mysql
+. .bashrc
+ls
+mysql
+ls
+jobs
+echo bar >&${mycoproc[1]}
+jobs
+git status
+git checkout -- .bashrc
+ls
+mysql
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } >3; } 3>&1
+jobs
+echo bar >&${mycoproc[1]}
+jobs
+echo bar >&${mycoproc[1]}
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } &>3; } 3>&1
+jobs
+fg
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } &>3; } 3&>1
+jobs
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } &>1; }
+jobs
+ls
+jobs
+echo  echo bar >&${mycoproc[1]}
+echo ${mycoproc[1]}
+echo ${mycoproc[0]}
+coproc mycoproc { awk '{print "foo" $0;fflush()}'; } &>1
+jobs
+fg
+jobs
+fg
+coproc mycoproc { awk '{print "foo" $0;fflush()}'; } &>1
+jobs
+echo ${mycoproc[*]}
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } }&>1
+jobs
+fg 1
+jobs
+fg 2
+{ coproc mycoproc { awk '{print "foo" $0;fflush()}'; } }&>1
+jobs
+coproc mycoproc awk '{print "foo" $0;fflush()}' &>1
+jobs
+fg 1
+jobs
+fg 2
+jobs
+coproc mycoproc awk '{print "foo" $0;fflush()}' &>1
+jobs
+coproc awk '{print "foo" $0;fflush()}' &>1
+jobs
+fg
+{ coproc { awk '{print "foo" $0;fflush()}'; } >&3; } 3>&1
+jobs
+fg 1
+coproc awk '{print "foo" $0;fflush()}' &>1
+jobs
+echo bar >&${COPROC[1]}
+jobs
+echo bar >&${COPROC[*]}
+echo {COPROC[*]}
+echo ${COPROC[*]}
+jobs
+coproc tr { tr a b; }
+jobs
+fg
+jobs
+fg
+jobs
+coproc tr { tr a b; }
+echo aaa >&"${tr[1]}"
+exec {tr[1]}>&-
+jobs
+cat <&"${tr[0]}"
+tr a b
+coproc XXX { read pid; echo child will sleep 5s; sleep 5; echo child is waked up; kill $pid; } >&2
+jobs
+fg
+jobs
+coproc XXX { read pid; echo child will sleep 5s; sleep 5; echo child is waked up; kill $pid; } >&2
+echo $$ >&${XXX[1]}
+coproc XXX { read pid; echo child will sleep 5s; sleep 5; echo child is waked up; kill $pid; } >&2
+echo $$ >&${XXX[1]}
+tldr ls
+git rm --cached requirements.txt 
+git status
+ls
+cd yaml/
+ls
+git rm --cached config.yaml 
+ls
+cd ..
+touch .gitignore
+ls
+git status
+git add .
+git commit -m "remove file"
+git status
+git push
+git status
+ls
+git sztatus
+git status
+sol --help
+solve --help
+man solve 
+type solve
+export --help
+export -p
+{     echo foss.org.my ;     echo debian.org ;     echo freenetproject.org ; } | parallel -k traceroute
+parallel
+sudo apt install parallel
+{     echo foss.org.my ;     echo debian.org ;     echo freenetproject.org ; } | parallel -k traceroute
+ssh -o "StrictHostKeyChecking no" -p 18690 hypereal@registry-corp.hypereal.com
+ssh gjs@10.0.10.59
+ssh hypereal@10.0.10.59
+ssh hypereal@10.0.10.60
+ssh -o "StrictHostKeyChecking no" -p 18690 hypereal@registry-corp.hypereal.com
+ls
+coproc XXX { read pid; echo child will sleep 5s; sleep 5; echo child is waked up; kill $pid; } >&2
+jobs
+fg
+coproc XXX { read pid; echo child will sleep 5s; sleep 500; echo child is waked up; kill $pid; } >&2
+jobs
+echo $$ >&${XXX[1]}
+jobs
+fg
+coproc XXX { read pid; echo child will sleep 5s; sleep 500; echo child is waked up; kill $pid; } >&2
+jobs
+echo parent pid is $$ child pid is $XXX_PID
+jobs
+fg
+jobs
+ls
+cd test/
+ls
+cd s
+cd sh/
+ls
+vim 1.sh
+./1.sh
+vim 1.sh
+ls
+ls 
+cat 1.sh
+cat abc-file | parallel echo
+cat 1.sh | parallel echo
+cat 1.sh | parallel -k echo
+cat 1.sh | parallel --citation -k echo
+parallel --citation
+cat 1.sh | parallel -k echo
+func1() {     local var='func1 local';     func2; }
+func2() {     echo "In func2, var = $var"; }
+var=global
+func1
+vim 1.sh
+type function
+ssh -o "StrictHostKeyChecking no" -p 18351 hypereal@registry-corp.hypereal.com
+abc
+abcd
+abc
+function name  echo 123
+function name  { echo 123; }
+name
+function name() echo 123
+function name echo 123
+function name { echo 123; }
+name {
+abc {
+func
+function
+func name
+type for
+type do
+type done
+echo $FUNCNEST
+abc() { echo $FUNCNEST; }
+abc
+abc() { FUNCNEST=2; }
+abc() { FUNCNEST=2;abc; }
+abc
+abc() { FUNCNEST=2;echo 123;abc; }
+abc
+abc() { echo 123;abc; }
+abc
+unset FUNCNEST
+abc
+jobs
+declare -f
+declare -F
+abc() { echo 123; }
+abc
+declare -F
+bash
+ls
+declare -F
+export abc
+bash
+export -f abc
+bash
+typeset -f
+typeset -F
+type typeset
+type declare
+declare --help
+declare -g
+declare -G
+declare --help
+a=123
+delcare -t a
+declare -t a
+echo $a
+a=234
+echo $a
+declare -l a
+a=abc123
+echo $a
+a=ABC123
+echo $a
+declare -i a
+echo $a
+a=123
+echo $a
+declare -i b
+echo a+b
+echo $a+$b
+echo $(( a + b ))
+echo $((a+b))
+[[ $a == 123 ]] && echo 1
+[[ $a == "123" ]] && echo 1
+readonly
+typeset
+typeset -f
+typeset -F
+a=*
+a='*'
+a=1
+a=\1
+a=\a
+a=a
+a='*'
+echo $a
+a=a
+echo $a
+b=a
+echo b
+b=*
+echo $b
+b=a
+echo $b
+b=*
+echo $b
+echo "$b"
+a=123
+a+=234
+echo "$a"
+declare --help
+a=abcdefg
+declare -u a
+echo $a
+declare -u a
+a=abcdefg
+echo $a
+echo $a | tr [A-Z] [a-z]
+echo $a | tr [A-Z] [a-x]
+echo $a | tr [A-Z] [a-z]
+declare -i a
+echo $a
+a=123
+echo $a
+a+=234
+echo $a
+declare -n a=b
+echo $a
+echo $b
+b=123
+echo $a
+a=234
+echo $b
+c=345
+declare b=c
+declare -n b=c
+echo $b
+echo $c
+echo $a
+./run.sh 
+ls
+./run.sh 
+sol
+solve 
+./run.sh 
+./run.sh -o
+time ./run.sh -o
+time ./run.sh 
+ls
+cd /opt/flaw_checker/
+ls
+vim config.yaml 
+sudo vim config.yaml 
+jobs
+sudo vim config.yaml 
+ls
+False
+flash
+flase
+false
+echo $?
+true
+ls
+vim
+ls
+echo $RANDOM
+ls
+cd ..
+ls
+cd ~
+ls
+cd fc/usb_blow_detector/
+ls
+cd ..
+ls
+cd detection-machine-daemon/
+ls
+vim
+ls
+cd ..
+ls
+cd saki_detection/
+ls
+vim
+jobs
+fg
+man bash
+ls
+a=b
+b=234
+echo ${!a}
+echo $12
+echo ${12}
+echo ~
+set ~
+echo $*
+echo $@
+$*
+$@
+echo $$
+( echo $$ )
+echo $!
+sleep 5
+jobs
+echo $!
+fg
+fg 2
+jobs
+echo $!
+sleep 5
+jobs
+bg 2
+jobs
+sleep 1000
+jobs
+bg 2
+jobs
+echo $!
+jobs
+fg 2
+jobs
+echo $0
+bash -c
+cd ~
+ls
+jobs
+cd fc/saki_detection/
+ls
+jobs
+mysql
+jobs
+fg
+jobs
+mysql
+jobs
+fg
+jobs
+ls
+bash --help
+bash -c help
+jobs
