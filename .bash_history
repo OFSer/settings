@@ -16715,3 +16715,1474 @@ echo {1..3}
 echo {1}
 echo {foo}
 echo {foo,bar}
+git status
+git diff
+git status
+git add .
+git commit -m 'fix status bug"
+git commit -m "fix status bug"
+git push
+git status
+git diff
+git status
+git diff
+git add .
+git commit -m "fix config visit bug"
+git push
+ls
+ls
+cd ~
+ls
+vim .vimrc
+git status
+git diff .vimrc
+git status
+git checkout -- .vimrc
+git status
+vim .vimrc
+ls
+vim .vimrc
+git status
+./config.sh push
+ls
+ls
+vim .vimrc
+ls
+vim
+ls
+ssh gjs@10.0.10.59
+ls
+cd ~
+ls
+sss
+ssh gjs@10.0.10.59
+cd fc/flaw_checker/
+ls
+vim
+cd ~
+ls
+sss
+ls
+cd fc/
+ls
+rm -rf flaw_checker/
+sudo rm -rf flaw_checker/
+ls
+cd fl
+git clone -b dev --recursive git@gitlab.sho.hypereal.com:AIFactory/flaw_checker.git
+ls
+cd flaw_checker/
+ls
+git status
+git checkout -b point_blow 
+git status
+git log
+git status
+ls
+cd blow_check/
+ls
+cd usb_blow_detector/
+ls
+git statu
+git pull
+git pull origin master
+git status
+git checkout master
+git statu
+git log
+cd ..
+git status
+git add .
+git status
+git commit -m "upd blow sbm"
+git push
+git push --set-upstream origin point_blow 
+ls
+ssh gjs@10.0.10.59
+ssh -tX gjs@10.0.10.59
+ls
+cd ~
+ls
+vim config.sh 
+ls
+ssh gjs@10.0.10.59
+ifconfig 
+ls
+cd fc/detection-machine-daemon/
+ls
+cd webserver/
+ls
+vim
+ls
+vim
+ls
+cd templates/
+ls
+vim index.html 
+ls
+cd ..
+ls
+vim server.py 
+vim
+ls
+vim
+ls
+vim
+jobs
+fg
+ls
+vim
+ls
+echo {01..99}
+ls
+echo {01..9}
+echo {01..009}
+echo {a..'}
+echo {a..\'}
+echo {a..3}
+echo {a..z}
+echo {a..zz}
+echo {a..z}
+echo {ae..zz}
+echo {a..z9}
+echo {a0..z9}
+echo {9..0..-1}
+echo {9..0..-2}
+echo {9..0}
+echo {0..9..1}
+echo {0..9..-1}
+echo {0..9..-2}
+echo {0..9..2}
+echo {0..9..-1}
+echo {a,{a,b}}
+echo {a,{a,b},{a,b,c}}
+echo '{a,b}'
+echo "{a,b}"
+a=123
+echo {$a,b}
+echo {$a,b}{c,d}{
+echo {$a,b}{c,d}
+echo {${a},b}{c,d}
+echo {$a,b}{c,d}
+ac=123
+echo {$a,b}{c,d}
+echo {{a,b},{c,d}}
+echo {ucb/{ex,edit},lib/{ex?.?*,how_ex}}
+echo {a,b},{c,d}
+echo {{a,b},{c,d}}
+echo {1..3}{a,b}
+a=1
+b=0
+b=9
+echo {$a..$b}
+ls
+cd fc/
+ls
+cd usb_blow_detector/
+ls
+echo 'ab'
+echo ~abc
+echo ~/
+echo ~'a'
+echo ~gjs
+echo ~usr
+echo ~aiello/
+echo ~aiello
+echo ~+
+echo ~
+echo ~+
+echo ~-
+echo $OLDPWD 
+echo ${OLDPWD-'~-'}
+cd ~
+ls
+vim .bashrc
+ls
+a=~
+echo "$a"
+a='~'
+echo "$a"
+a=~
+echo ~'gjs'
+echo ~'gjs'/
+ls
+This construct is typically used as shorthand when the common prefix of the strings to be generated is longer than in the above example:
+inhibitsinhibits{ucb/{ex,edit},lib/{ex?.?*,how_ex}}This construct is typically used as shorthand when the common prefix of the strings to be generated is longer than in the above example:
+ls
+unset HOME
+echo ~
+ls
+python3
+ls
+OLDPWD=abc
+echo ~-
+cd ~1
+cd ~2
+cd ~+1
+cd ~+0
+cd ~0
+cd fc/
+ls
+cd ~0
+cd ~1
+cd saki_detection/
+ls
+cd ~1
+cd ~2
+cd ~0
+cd ~1
+cd ~2
+cd ~3
+cd ~4
+echo ~2
+echo ~1
+echo ~0
+dirs -p
+echo ~1
+echo ~-0
+echo ~-1
+echo ~-2
+echo $MAILCHECK 
+echo $MAILPATH
+echo $CDPATH
+a:~
+a==
+echo $a
+:~
+: ~
+a=ls
+"$a"
+'$a'
+eval '$a'
+ls
+'$a'
+${a}123
+echo ${a}123
+echo $a123
+echo $a$b
+history | grep apt-cache
+history | grep aptcache
+history | grep apt cache
+history | grep cache
+history | grep search
+history | grep apt\-cache
+history | grep madison
+apt-cache search dict
+apt search dict
+apt search dictionary
+sudo apt install stardict
+stardict
+stardict --help
+stardict a
+stardict --help
+stardict
+a=b
+b=c
+echo ${$a}
+echo ${${a}}
+eval ${${a}}
+eval \$$a
+eval echo \$$a
+c=d
+eval echo \$\$$a
+eval eval echo \$\$$a
+eval echo \$\$$a
+a=123
+b=234
+a+=$b
+echo a
+echo $a
+a=123
+a+=${b}
+echo $a
+a=b
+b=c
+a=123
+b=234
+declare -n b=a
+echo $b
+echo ${!b}
+echo b
+echo $b
+echo ${b}
+echo ${!b}
+ls
+cd fc/
+ls
+cd saki_detection/
+ls
+vim
+ls
+cd ../
+ls
+cd detection-machine-daemon/
+ls
+cd webserver/
+ls
+git status
+ls
+rm .vimrc 
+ls
+git status
+cd .
+cd ..
+git pull
+git status
+git branch
+echo ${!a}
+a=b
+b=c
+echo ${!a}
+echo $c
+a=b
+b=c
+c=d
+echo ${!a}
+echo ${!a*}
+echo ${!b*}
+a=abc
+a=b
+b=c
+ab=bc
+bc=cd
+echo ${!ab}
+echo ${!ab*}
+echo ${f:-~}
+echo ${f:=~}
+echo ${f:=~/fc}
+echo ${g:=~/fc}
+echo ${f:-123}
+echo $f
+echo ${f:=123}
+echo $f
+a=123
+echo ${a:-234}
+echo ${a:=234}
+echo $a
+ls
+cd dd/
+ls
+cd ..
+ls
+cd disk/
+l
+ls
+cd ..
+ls
+echo ${abc:?ffff}
+abc=q123
+echo ${abc:?ffff}
+echo ${abc:+ffff}
+cat .bash_history | sort | uniq -c | sort -n
+ls
+cd fc/
+ls
+cd saki_detection/
+ls
+cd ..
+ls
+cd bl
+cd bluj
+cd blur_detection/
+ls
+pwd
+${PWD}
+echo ${PWD#*/}
+echo ${PWD##*/}
+echo ${PWD%%/*}
+a=home/gjs/fc/blur_detection
+echo ${PWD%%/*}
+echo ${a%%/*}
+ls
+cd ~
+set -- 1 2 3 4 5 6
+echo ${#*}
+echo ${#@}
+a=(1 2 3 4)
+echo ${#a}
+echo ${#a[*]}
+a=($PWD $PWD)
+echo $a
+echo ${a[*]}
+echo ${PWD##*/}
+echo ${a[*]##*/}
+ls
+set -- home/gjs home/gjs
+echo $*
+echo ${*##*/}
+a=123123123123
+echo ${a//123/234}
+echo ${a/#123/234}
+echo ${a/%123/234}
+a=abc
+echo ${a^A}
+echo ${a^a}
+echo ${a^*}
+a=bcd
+echo ${a^*}
+echo ${a^^*}
+echo ${a^^a}
+echo ${a^^A}
+echo ${a^^B}
+echo ${a^^b}
+echo ${a^^[a-z]}
+echo ${a^^bc}
+echo ${a^^b|c}
+echo ${a^^b\|c}
+echo ${a^^b}
+echo ${a^c}
+echo ${a^b}
+a="abc"
+echo ${a@Q}
+a=abc
+echo ${a@Q}
+echo ${*@Q}
+echo ${@@Q}
+echo "${@@Q}"
+echo ${@@Q}
+a=~
+echo ${@@Q}
+a='~'
+echo $a
+echo ${a@Q}
+a=abc\aac
+a='abc\aac'
+a='abc\nabc'
+echo ${a}
+echo ${a@E}
+a='abc\aac'
+a='abc\cabc'
+echo ${a@E}
+a='abc\aabc'
+echo ${a@E}
+echo "$a"
+echo ${a@P}
+a=123
+echo ${a@P}
+a=1234\n
+echo ${a@P}
+echo $a
+echo $PS0
+echo $PS1
+echo $PS2
+echo $PS3
+echo $PS4
+mysql
+ls
+PS2=<
+PS2='<'
+mysql
+echo $PS2
+echo $PS1
+echo $PS2
+echo $PS3
+echo $PS4
+echo "$PS3"
+echo "$PS3" | od -b
+echo "$IFS" | od -b
+echo "$IFS" | od
+echo "$IFS" | od -b
+echo ${a@a}
+a=''
+echo ${a@a}
+b=b
+declare -n a=b
+echo $a
+echo ${a@a}
+bar='host: \h'
+echo ${bar@P}
+foo="test1"
+echo ${foo@A}
+declare -ir foo=10
+ssh -o "StrictHostKeyChecking no" -p 19038 hypereal@registry-corp.hypereal.com
+sudo nethogs -v 3
+echo -e "a\nb"
+echo -e "a b"
+echo -e "a\nb"
+echo "`echo -e "a\nb"`"
+echo `echo -e "a\nb"`
+echo
+echo 123 | tee >(cat)
+:call Back()
+:call Terins()
+ls
+git status
+git diff
+function abc{ echo abc
+function abc { echo abc; }
+abc
+cd /dev/
+l
+ls
+ls stdin
+ll fd
+cd fd/
+ls
+ll
+cd ..
+ls
+ll stdin
+cd /proc/self/fd
+ls
+cd /dev/pts/
+ls
+ll
+ls
+jobs
+cd ~/test/
+ls
+cd s
+cd sh
+l
+ls
+ls 2>&1 > dirlist
+ls
+cat dirlist 
+cd ..
+ls
+cd empty/
+ls
+ls 2>&1 > dirlist
+ls
+cat dirlist 
+vim dirlist 
+ls
+rm dirlist 
+ls
+ls *
+ls * 2>&1 > dirlist
+ls
+rm dirlist 
+ls
+ls * > dirlist 2>&1
+ls
+cat dirlist 
+ls
+cat dirlist 
+rm dirlist 
+ls
+cd /dev/
+ls
+cd tcp
+ll
+cd ~
+cd /dev/
+ls
+cd fd
+ls
+cd ~/test/
+ls
+cd s
+cd sh
+l
+ls
+cat 2
+cat <2
+cat 3<2
+cat 0<2
+cd ..
+ls
+cd empty/
+ls
+ls * &> dirlist
+cat dirlist 
+ls
+rm dirlist 
+cat <3
+cat 0<&3
+cat 0>&3
+cat 0&<3
+jobs
+exec
+exec --help
+echo "This is important message" > /dev/tty
+exec 3<> /dev/tty
+exec echo 3
+exec echo "abc"
+exec 5<> /dev/null
+echo "This is important message" >&5
+exec 5>&-
+ls
+exec 5<> /dev/tty
+echo "This is important message" >&5
+exec 5<> /dev/tty
+echo "This is important message" >&5
+echo "This is important message" <5
+echo "This is important message" <&5
+cat <&5
+cat &<5
+cat <&5
+jobs
+fg 1
+jobs
+echo "This is important message" >&5
+jobs
+fg 2
+jobs
+echo "This is important message" >&5
+exec 5<> /dev/stdin
+jobs
+fg 2
+cat <&5
+jobs
+fg
+jobs
+bg
+jobs
+bg 1
+jobs
+echo "fasdf" &> 5
+jobs
+fg
+jobs
+fg
+exec 5<>/dev/stdout
+ls
+ll
+exec 5<> /dev/null
+echo fasd
+cd /dev/fd/
+ls
+echo 123 &>5
+ls
+ll
+cd /dev/fd
+ls
+exec 5<>/dev/stdin
+ls
+ll
+cd /dev/pts
+ls
+ll
+echo <<EOF
+123
+EOF
+
+cat <<EOF
+123
+EOF
+
+cat <<EOF
+123
+EOF
+
+cat <<EOF
+123
+234
+EOF
+
+cat <<EOF
+$a
+EOF
+
+echo <<<234
+echo <<< 243
+cat <<< 243
+cd test/
+ls
+echo 1 > test
+ls
+read a <&test
+read a 0<&test
+read a 3<&test
+read a 3<&1
+read a <&1
+echo $a
+read a <&1
+read a <&1 &
+jobs
+echo 123
+echo $a
+jobs
+bg
+jobs
+fg
+echo $a
+read a 0<&1
+echo $a
+read a 0<&1
+read a 0<&1 &
+jobs
+fg
+echo $a
+mysql
+ls
+./labeler.sh "select url from part where type is null and ans=='y'"
+./labeler.sh "select url from part where type is null and ans=='y';"
+./labeler.sh "select url from part where type is null and ans==y;"
+./labeler.sh "select url from part where type is null;"
+./labeler.sh "select url from part where type is null and ans='y';"
+./labeler.sh "select url from part where type is null and ans='y' DESC;"
+./labeler.sh "select url from part where type is null and ans='y' order by DESC;"
+./labeler.sh "select url from part where type is null and ans='y' order by dt,tm DESC;"
+./labeler.sh "select url from part where type is null and ans='y' order by dt DESC,tm;"
+ls
+mysql
+ls
+./labeler.sh "select url from part where type is null and ans='y' order by dt DESC,tm;"
+./labeler.sh "select url from part where dt='2019-04-03';"
+mysql
+ls
+./labeler.sh "select url from part where dt='2019-04-03';"
+./labeler.sh "select url from part where dt='2019-04-03' and type is null;"
+mysql
+ls
+git status
+git diff
+git log
+git status
+./run.sh 
+ls
+jobs
+ls
+vim
+jobs
+fg
+jobs
+./labeler.sh "select url from part where dt='2019-04-02' and type is null;"
+mysql
+ls
+mysql
+exec 3>&1 
+ls -l 2>&1 >&3 3>&- | grep bad 3>&-
+ls -l 2>&1 >&3 3>&-
+ls -l 2>&1 >&3 3>&- | grep txt
+ls -l 2>&1 >&3 3>&- | grep run > tmp
+ls
+cat tmp
+ls
+cd tmp/
+ls
+cd ..
+ls
+ls -l 2>&1 >&3 3>&- | grep run > test
+cat test
+ls
+ll | grep test
+rm test
+ls
+ls -l 2>&1 >&3 3>&- | cat
+ls -l 2>&1 >&3 3>&- | tee cat
+echo 123 | tee cat
+ls -l 2>&1 >&3 3>&- | tee test
+cat test
+rm test
+ls
+ls -l 2>&1 >&3 3>&- | tee test
+ls -l 2>&1 >&3 | grep txt
+ls -l 2>&1 >&3 
+ls -l 2>&1 >&3 | grep txt
+ls -l 2>&1 >&3 | grep txt >&3
+git status
+rm cat
+rm test
+ls
+cd ~
+cd test/
+ls
+cd sh
+echo 1234567890 > File
+read -n 4 <&3
+read -n a <&3
+read a <&3
+echo $a
+git status
+git diff
+git status
+git add .
+git status
+read <&-
+read a <&-
+echo asdf <&-
+echo 123 <&- >&-
+ls
+cd test/
+ls
+cd sh
+ls
+echo 123 0>&- >
+ls
+echo 123 0>&- >test
+ls
+cat test
+echo 123 1>&- >test
+cat test
+ls
+echo 1234 1>&- >test
+cat test
+echo 1234 >test 1>&-
+echo 1234 >test
+echo hello >&0
+echo hello >&1
+echo hello >&2
+echo hello >&3
+echo hello >&0
+echo hello >0
+echo hello >&0
+echo hello 1>&0
+echo hello 1>0
+echo hello 1>&0
+echo hello 1>&0 &
+jobs
+fg
+echo hello >&0 &
+exec 6<&0
+echo "hello" >&6
+echo "hello" >6
+cat <6
+ls
+rm 6
+ls
+rm 0
+rm 1
+ls
+cat 2
+ls
+echo 123 >&2
+echo 123 >&1
+echo 123 >&3
+exec 5<&1
+echo "TEST" >&5
+exec 5>&-
+echo "TEST" >&5
+exec 5<&1
+exec 5>&1
+echo 123
+echo 123 > test 
+ls
+cat test
+ls
+echo 1234 > test 2>&1
+echo test
+cat e
+cat test
+ls
+ls -l 2>&1 >&3 3>&- | grep bad 3>&-
+ls
+exec 3>&1   
+ls -l 2>&1 >&3 3>&- | grep bad 3>&-
+ls -l 2>&1 >&3 3>&- | grep bad
+ls -l 2>&1 >&3 | grep bad
+ls -l 2>&1 >&3 | grep test
+ls -l 2>&1 | grep test
+ls -l 2>&1 >&3 | grep test
+cd ..
+cd empty/
+ls
+ls -l 2>&1 >&3 3>&- | grep bad 3>&-
+ls -l
+ll
+ls -l 2>&1 >&3 | grep bad 3>&-
+ls * 2>&1 >&3 | grep bad 3>&-
+ls * 2>&1 >&3
+ls * 2>&1 >&3 | grep bad >&3 3>&-
+ls * 2>&1 >&3 | grep bad >&3
+ls * 2>&1 >&3 | grep bad
+ls * 2>&1 >&3
+ls * 2>&1 >&3 | tee grep bad
+ls * 2>&1 >&3 | grep such
+ls * 2>&1 >&3 | grep such >&3
+ls
+echo 1234567890 > File
+exec 3<> File
+rm File 
+ls
+cd test/
+ls
+cd sh
+ls
+echo 1234567890 > File
+read -n a <&3
+read a <&3
+echo $a
+read a <&3
+echo $a
+cat 3
+cat File
+echo -n . >&3
+cat File
+echo 1234567890 > File
+exec 3<> File
+read -n 4 <&3
+echo -n . >&3 
+exec 3>&-
+cat File 
+exec 3>&1 
+ls -l 2>&1 >&3 3>&- | grep bad 3>&-
+ls -l 2>&1 >&3 3>&- | grep snap 3>&-
+ls -l 2>&1 >&3 3>&- | grep bad 3>&-
+cd test/
+ls
+cd empty/
+ls -l
+ll
+ls
+rm bad
+rm grep
+ls -l
+ls
+ls *
+ls * 2>&1 >&3 3>&- | grep bad 3>&-
+ls * 2>&1 >&3 3>&- | grep such 3>&-
+ls * 1>&2 2>&3 3>&- | grep such 3>&-
+ls 1>&2 2>&3 3>&- | grep such 3>&-
+cd ..
+ls 1>&2 2>&3 3>&- | grep such 3>&-
+ls 1>&2 2>&3 3>&- | grep ss 3>&-
+cd empty/
+ls
+ls 1>&2 2>&3 3>&- | grep ss 3>&-
+ls * 1>&2 2>&3 3>&-
+ls * 1>&2 2>&3 3>&- | grep such
+ls * 2>&1 >&3 3>&- | grep such
+ls * 2>&1 >&3 | grep such
+cd ..
+ls * 2>&1 >&3 | grep such
+ls  2>&1 >&3 | grep such
+ls  2>&1 >&3 | grep os
+ls
+cd ~
+ls
+cd .config/gtk-2.0/
+ls
+cd ..
+ls
+cd gtk-
+cd gtk-3.0/
+ls
+vim gtk.css 
+ls
+vim gtk.css 
+ls
+cd ~
+ls
+command_not_found_handle
+command_not_found_handle 
+command_not_found_handle  abc
+command_not_found_handle dot
+command_not_found_handle you-get
+type command_not_found_handle 
+type /usr/lib/command_not_found
+whick /usr/lib/command_not_found
+which /usr/lib/command_not_found
+whichis /usr/lib/command_not_found
+whereis /usr/lib/command_not_found
+which command_not_found_handle 
+where command_not_found_handle 
+{ a=123;echo 123; }
+echo $a
+(b=123;echo 123;)
+echo $b
+umask
+bash
+trap
+type trap
+trap --help
+vim .bashrc
+echo $TERM
+trap 1234 DEBUG
+trap echo DEBUG
+ls
+mysql
+ls
+cd test/
+ls
+cd sh
+l
+ls
+cat 1.sh
+vim 1.sh
+export a=123
+./1.sh
+a=234
+./1.sh
+vim 1.sh
+./1.sh
+echo $a
+ls
+echo 123
+ls
+echo abc
+export --help
+export -n
+export -p
+ls
+set -o
+set -e
+echo `echo abc`
+(echo `echo abc`)
+echo abc | grep a
+set -e
+set -o
+set +e
+set -o
+set -e
+set -o
+read a &
+jobs
+fg
+read a &
+jobs
+fg
+read a
+set -e
+read a
+read a &
+jobs
+fg
+ls
+ls
+cd ~
+ls
+mysql
+ls
+ex
+ex --help
+sudo apt install moc
+ls
+moc
+moc --help
+ls
+cd Music/
+ls
+cd CloudMusic/
+ls
+moc .
+moc "02. 彩 虹.flac
+moc "02. 彩 虹.flac"
+moc --helpl
+moc --help
+man moc
+moc -m .
+moc -p .
+man moc
+mocp
+jobs
+mocp
+sudo apt install you-get
+cd ~
+cd Downloads/
+ls
+you-get 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
+ls
+rm -rf *
+ls
+you-get 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
+ls
+you-get https://www.bilibili.com/video/av48227086
+ls
+nautilus .
+you-get https://www.iqiyi.com/v_19rrol3fa0.html?share_sTime=121#curid=382800500_8e0765f0b5fb82dc096972a7fcb330d8
+you-get 'https://www.iqiyi.com/v_19rrol3fa0.html?share_sTime=121#curid=382800500_8e0765f0b5fb82dc096972a7fcb330d8'
+you-get 'https://www.iqiyi.com/v_19rrol3fa0.html?share_sTime=121#curid=382800500_8e0765f0b5fb82dc096972a7fcb330d8' --debug
+ls
+you-get 'https://www.iqiyi.com/v_19rrol3fa0.html?share_sTime=121#curid=382800500_8e0765f0b5fb82dc096972a7fcb330d8'
+you-get https://www.iqiyi.com/v_19rrol55uk.html
+https://www.iqiyi.com/v_19rrol55hw.html#curid=382785400_7f1133680d4b01635cb86421ffd5a559
+you-get https://www.iqiyi.com/v_19rrol55hw.html#curid=382785400_7f1133680d4b01635cb86421ffd5a559
+pip3 install --upgrade you-get
+you-get https://www.iqiyi.com/v_19rrol55hw.html#curid=382785400_7f1133680d4b01635cb86421ffd5a559 --debug
+vlc
+you-get -p vlc 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
+you-get http://m.iqiyi.com/v_19rr8ldjj8.html
+you-get -i http://m.iqiyi.com/v_19rr8ldjj8.html
+you-get -i http://m.iqiyi.com/v_19rr8ldjj8.html --debug
+
+you-get https://v.qq.com/x/page/g0030mcgie3.html?ptag=10523
+you-get https://www.bilibili.com/video/av48123527
+ls
+rm *
+ls
+you-get https://v.qq.com/x/page/g0030mcgie3.html
+mocp
+read a &
+jobs
+fg
+cd test/
+ls
+cd empty/
+ls
+ls *
+set -e
+echo `ls *`
+set +e
+echo `ls *`
+echo `ls *` | grep a
+echo `ls *` || echo 123
+set +e
+echo `ls *` || echo 123
+echo `ls *` && echo 123
+set -e
+echo `ls *` && echo 123
+mocp
+ls
+mocp
+echo $a
+ls
+cd ~
+ls
+vim .bashrc
+ls
+vim .bashrc
+ls
+cd test/
+ls
+cd s
+cd sh
+ls
+cat 1.sh
+vim 1.sh
+vim .1sh
+vim 1.sh
+./1.sh
+cd ~
+ls
+vim .bashrc
+ls
+locale
+export LC_ALL=en_jp.utf8
+export LC_ALL=jp_US.utf8
+ls
+locale
+local
+locale
+vim .bashrc
+cd ~
+vim .bashrc
+env
+echo $_
+vim .bashrc
+git status
+vim .bashrc
+kill -SIGHUP $$
+echo $$
+sleep 10
+sleep 1000
+kill -SIGINT 15564
+kill -SIGQUIT 15564
+kill -SIGINT 15332
+kill -SIGINT 15532
+kill -SIGTERM 15532
+kill -SIGHUP 15532
+echo $$
+kill -SIGQUIT $$
+kill -SIGINT $$
+jobs
+while :;do done
+while :;do :;done
+sleep 100
+ps -ef | grep sleep
+{ echo $$,$PPID;}
+echo $$
+echo $PPID
+( echo $$,$PPID;)
+(echo $$,$PPID;)
+sss
+ls
+vim
+ls
+cd fc/bl
+cd fc/blur_detection/
+ls
+vim
+ls
+cd ~/test/
+ls
+cd sh
+ls
+vim 1.sh
+cd ~/fc/blur_detection/
+ls
+jobs
+sleep 1000
+sleep 1000 &
+jobs
+ps -ef | grep sleep
+disown -h 14779
+jobs
+ps -ef | grep slepp
+ps -ef | grep sleep
+jobs
+ps -ejH | grep 2197
+ps -ef | grep 2197
+jobs
+sleep 10000
+sleep 10000 &
+jobs
+disown --help
+jobs
+disown -h
+jobs
+echo $!
+ps -ef | grep 14996
+#1554364775
+mocp
+#1554364781
+jobs
+#1554364782
+mocp
+#1554364783
+jobs
+ls
+cd test/sh
+ls
+vim 1.sh
+echo $if
+ls
+bash --version
+sudo apt install bash
+sudo apt-cached madision bash
+sudo apt-cache madision bash
+sudo apt-cache madison bash
+sudo apt search bash
+sudo apt search bash | grep 5
+sudo snap find bash 
+mocp
+ssh gjs@dl-5
+ls
+#1554364912
+cd Music/
+#1554364919
+mocp    .
+#1554365042
+mocp -v
+#1554365047
+mocp .
+#1554365101
+exit
+mocp
+jobs
+mocp
+jobs
+ls
+mocp
+jobs
+mocp
+jobs
+ls
+ps -ef | grep moc
+mocp
+ps -ef | grep moc
+jobs
+mocp
+ls
+mocp
+ps -ef | grep mocp
+mocp
+ls
+ssh gjs@dl-5 -t mocp
+ssh gjs@dl-5 -t mocp > /dev/audio
+sudo ssh gjs@dl-5 -t mocp > /dev/audio
+ssh gjs@dl-5 -t mocp > /dev/audio
+sudo su
+ssh -tX gjs@dl-5
+ssh gjs@dl-5
+ssh -XYC gjs@dl-5
+ssh -XYC gjs@dl-5 mocp
+ls
+man mocp
+ls
+sh
+ls
+sl
+ls
+sls
+ls
+sslsslsl
+slslslslsls
+g++ 1.cpp
+gcc 1.cpp -o 1 `pkg-config --cflags --libs gtk+-2.0`
+g++ 1.cpp -o 1 `pkg-config --cflags --libs gtk+-2.0`
+pkg-config --cflags --libs gtk+-2.0
+pkg-config --cflags --libs gtk+-3.0
+pkg-config --cflags --libs gtk+
+pkg-config --cflags --libs gtk+.pc
+pkg-config
+pkg-config --cflags --libs 
+ls
+times
+cd ~
+l
+cd .config/
+ls
+cd gtk-3.0/
+ls
+vim servers 
+ls
+vim bookmarks 
+ls
+cd ~/test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+emacs
+sudo apt install emacs
+emacs
+emacs25
+emacs25-x
+emacsclient
+emacs
+ls
+tex 1.tex
+ls
+vim .vimrc
+ls
+vim .vimrc
+ls
+vim .vimrc
+ls
+sudo apt install latex
+sudo apt install latexmk
+cd test/
+ls
+mkdir tex
+ls
+cd tex/
+ls
+latex
+sudo apt-get install texlive-full
+sudo apt-get install texlive
+vim 1.tex
+ls
+man tex
+pdflatex 1.tex 
+ls
+nautilus
+nautilus .
+pdflatex --help
+which pdftex 
+ls
+rm 1.[^t]*
+ls
+vim 1.tex 
+vim ~/.vimrc
+vim 1.tex 
+ls
+jobs
+vim 1.tex 
+ls
+jobs
+cd ~
+ls
+cd fc
+l
+scd ~
+ls
+l
+cd ~
+ls
+pkill -9 wechat
+ps -ef | grep wechat
+killall -9 wechat
+killall -9 electronic-wechat
+ps -ef | grep wechat
+cd ~
+julia
+sudo apt install julia
+apt-cache search julia
+apt-cache madison search julia
+apt search search julia
+sudo snap install julia-stable 
+julia-stable 
+ls
+vim .vimrc
+vim .bashrc
+vim config.sh 
+export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
+julia-stable 
+julia --color=yes
+sudo snap find julia
+ls
+julia-stable 
+vim .bashrc
+. .bashrc
+vim .bashrc
+julia-stable 
+steam
+ls
+julia-stable 
+vim .bashrc
+sudo apt install julius
+sudo apt search julius
+julia-stable --color=yes
+julia-stable --help
+ls
+cd ~
+cd test/
+ls
+mkdir jl
+cd jl/
+ls
+vim 1.jl
+ls
+cd ~/test/
+ls
+cd sh
+l
+vim 1.sh
+. -T 1.sh
+set -T
+. 1.sh
+ls
+\cd
+ls
+./1.sh
+man break
+break --help
+jobs
+for i in {1..10}; for j in {1..10}
+cd ~
+cd test/
+ls
+vim 1.sh
+ls
+cd sh
+vim 1.sh
+ls
+killall -9 electronic-wechat 
+echo $CDPATH
+CDPATH=123
+CDPATH=/
+ls
+cd bin
+ls
+cd ~
+ls
+cd dd
+ls
+cd usr
+ls
+cd ~
+ls
+echo $cdpath
+echo $CDPATH
+cd fc/saki_detection/
+ls
+sss
+echo $CDPATH
+cd usr
+cd ~
+ls
+cd test/
+ls
+cd s
+cd sh
+ls
+vim 1.sh
+ls
+cd ~/fc/saki_detection/
+ls
+vim crawler.sh 
+ls
+vim run.sh 
+dash --help
+man dash
+ls
+exec -c echo $CDPATH
+exec -c echo 123
+ls
+\exec -c echo
+ls
+exec -c sleep 10

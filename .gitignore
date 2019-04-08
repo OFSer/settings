@@ -56,3 +56,4 @@
 .config/vlc/vlc-qt-interface.conf
 .config/mimeapps.list
 .config/gnome-games/
+.local/share/gsettings-data-convert
