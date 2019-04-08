@@ -98,6 +98,7 @@ deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted univ
 deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 # deb-src [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 	" | sudo tee /etc/apt/sources.list
+	sudo apt-get update
 	sudo apt install software-properties-common -y
 	sudo add-apt-repository -y ppa:jonathonf/vim
 	sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
