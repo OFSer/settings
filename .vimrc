@@ -505,13 +505,13 @@ func Togglebash()
 	if bufname('%') =~ 'Netrw'
 		return
 	endif
-	let bufferNum = bufnr('Togglebash')
+	let bufferNum = bufnr('Toggle!bash')
 	if bufferNum == -1 || bufloaded(bufferNum) != 1
 		silent execute 'rightbelow term ++close ++kill=term '.g:toggle_bash#command
 		"set noswapfile
-		silent file Togglebash
+		silent file Toggle!bash
 		"set swapfile
-		"silent exe "!rm .Togglebash.swp > /dev/null 2>&1"
+		"silent exe "!rm .Toggle!bash.swp > /dev/null 2>&1"
 	else
 		let windowNum = bufwinnr(bufferNum)
 		if windowNum == -1
@@ -529,8 +529,8 @@ func MoveLeft()
 	endif
 endfunc
 func CloseTogglebash()
-	if bufnr('Togglebash') >= 0
-		silent! exe 'bw! Togglebash'
+	if bufnr('Toggle!bash') >= 0
+		silent! exe 'bw! Toggle!bash'
 	endif
 endfunc
 inoremap <silent> ; <esc>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>

@@ -18242,3 +18242,150 @@ ls
 exit 10
 ls
 vim .bash_profile 
+dash ls
+fork
+cd ~
+ls
+bash
+echo $?
+a=1
+case a in a) echo 1; ;;& *) echo 2; ;; esac
+case a in a) echo 1; ;& *) echo 2; ;; esac
+case a in b) echo 1; ;& *) echo 2; ;; esac
+case a in b) echo 1; ;;& *) echo 2; ;; esac
+case a in a) echo 1; ;;& *) echo 2; ;; esac
+case a in a) echo 1; ;;& b) echo 2; ;; *) echo 3; ;; esac
+case a in a) echo 1; ;& b) echo 2; ;; *) echo 3; ;; esac
+case a in a) echo 1; ;& c) echo 2; ;; *) echo 3; ;; esac
+case a in b) echo 1; ;& c) echo 2; ;; *) echo 3; ;; esac
+case a in a) echo 1; ;& c) echo 2; ;; *) echo 3; ;; esac
+case a in b) echo 1; ;& a) echo 2; ;; *) echo 3; ;; esac
+case a in a) echo 1; ;& b) echo 2; ;; *) echo 3; ;; esac
+case a in a) echo 1; ;& b) echo 2; ;& *) echo 3; ;; esac
+case a in a) echo 1; ;& b) echo 2; ;;& *) echo 3; ;; esac
+case a in a) echo 1; ;& b) echo 2; ;; *) echo 3; ;; esac
+case a in a) echo 1; ;;& b) echo 2; ;; *) echo 3; ;; esac
+case a in b) echo 1; ;;& a) echo 2; ;; *) echo 3; ;; esac
+case a in a) echo 1; ;;& b) echo 2; ;; *) echo 3; ;; esac
+case a in a) echo 1; ;& b) echo 2; ;; *) echo 3; ;; esac
+hash .
+ls
+hash fc/saki_detection/
+cd fc/saki_detection/
+ls
+cd ..
+ls
+cd ..
+ls
+git status
+pwd
+pwd -L
+pwd -P
+sss
+ls
+ssh -o "StrictHostKeyChecking no" -p 11973 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14927 hypereal@registry-corp.hypereal.com
+julia-stable 
+ls
+vim config.sh 
+git status
+./config.sh push
+git status
+vim config.sh 
+git status
+./config.sh push
+vim config.sh 
+ls
+tldr useradd
+useradd --help
+htop
+ssh -o "StrictHostKeyChecking no" -p 19110 hypereal@registry-corp.hypereal.com
+top
+cd /var/lib/
+ls
+cd systemd/
+ls
+cd ..
+history | grep var
+history | grep var | grep lib
+history | grep systemd
+history | grep recurse
+ssh -o "StrictHostKeyChecking no" -p 14927 hypereal@registry-corp.hypereal.com
+ls
+cd fc/
+ls
+cd flaw_checker/
+ls
+git pull
+git branch
+git status
+git branch -A
+git branch- a
+git branch -a
+git status
+git submodule update
+git status
+git branch
+git status
+git pull --recurse-submodules 
+git status
+git branch
+git checkout dev
+gits tatus
+git status
+git submodule update
+git status
+git pull --recurse-submodules 
+git status
+cd submodules/
+cd cloth_check/
+git status
+git pull
+git status
+git branch
+git checkout master
+git status
+git branch
+git checkout -- *
+git status
+cd ..
+git status
+git branch
+git reset HEAD --hard
+git status
+git add .
+git status
+git reset HEAD --hard
+git status
+cd cloth_check/
+git pull
+git status
+git branch
+cd ..
+git status
+cd ..
+git status
+ls
+du -hl
+ls
+cd ..
+ls
+cd saki_detection/
+ls
+vi 
+vi
+cd fc/
+ls
+cd test/
+ls
+vim
+ls
+hash --help
+history | grep webserver
+history | grep system
+ls
+git status
+vim .vimrc
+ls
+sudo apt install -y yasm pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
+ls
