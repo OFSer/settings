@@ -18186,3 +18186,59 @@ ls
 \exec -c echo
 ls
 exec -c sleep 10
+git status
+cd ~!
+cd ~
+git status
+vim .bashrc
+git diff .bashrc
+git status
+git diff
+git status
+cat .local/share/gsettings-data-convert
+vim .gitignore 
+git status
+vim .config/gtk-3.0/servers
+git diff .config/gtk-3.0/servers
+./config.sh push
+exec -c echo Linux C++   
+\exec -c echo Linux C++   
+exec -c echo Linux C++   
+sh
+bash
+bash exec -c echo Linux C++   
+exec -c echo Linux C++   
+bash
+exec -a Linux C++ echo
+exec -a Linux echo
+exec -a echo Linux C++   
+exec -a Linux echo
+bash
+exec -l ls
+jobs
+ls
+vim .bashrc
+ls
+jobs
+ls
+cd test/
+ls
+cd ..
+ls
+vim .vimrc
+ls
+a=`echo 123 > /dev/null`
+echo $a
+a=`echo 123`
+echo $a
+ls
+jobs
+a={}
+a={a,b}{c,d}
+echo "$a"
+echo $a
+sss
+ls
+exit 10
+ls
+vim .bash_profile 
