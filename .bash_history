@@ -18389,3 +18389,472 @@ vim .vimrc
 ls
 sudo apt install -y yasm pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
 ls
+ls
+vim .vimrc
+git status
+git diff
+ls
+git status
+git diff .vimrc
+./config.sh push
+ssh gjs@10.0.10.59
+\ssh gjs@10.0.10.59
+ssh gjs@10.0.10.59
+ls
+ssh -p 11997 hypereal@registry-corp.hypereal.com
+sshpass -p 87Co7r ssh -p 11997 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12763 hypereal@registry-corp.hypereal.com
+docker images
+docker run -it ubuntu:16.04
+ssh -o "StrictHostKeyChecking no" -p 14705 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11768 hypereal@registry-corp.hypereal.com
+ls
+docker run -it ubuntu:17.10
+docker run -it ubuntu:18.04
+docker images
+history | grep docker
+docker images
+docker run -i ubuntu:18.04 
+ls
+vim .bashrc
+us
+git status
+git diff .bashrc
+docker run -i ubuntu:18.04 
+ls
+vim config.sh 
+vim /etc/
+cd /etc/
+ls
+ls | grep mount
+ls | grep disk
+history | grep disk
+vim /etc/fstab
+ls
+fstab
+ls
+vim fstab 
+ls
+ls
+cd ~
+ls
+vim config.sh 
+nano config.sh 
+./config.sh update_source
+apt install sudo
+./config.sh 
+./config.sh update_source
+ls
+vim
+add-apt-repository -y ppa:jonathonf/vim
+sudo apt install vim-gnome
+apt install vim-gnome
+ls
+vim
+ls
+mysql
+ls
+vim
+ls
+cd Do
+cd Downloads/
+ls
+cd cuda10.0/
+ls
+vim README.txt 
+df
+df -h
+nvidia-smi
+wget -P /tmp https://github.com/NVIDIA/nvidia-docker/releases/download/v1.0.1/nvidia-docker_1.0.1-1_amd64.deb
+sudo dpkg -i /tmp/nvidia-docker*.deb && rm /tmp/nvidia-docker*.deb
+sudo apt install -f
+nvidia-docker run --rm nvidia/cuda nvidia-smi
+sudo nvidia-docker run --rm nvidia/cuda nvidia-smi
+sudo apt install -f
+lsb_release
+echo $lsb_release
+lsb_release -cs
+lsb_release
+lsb_release -c
+lsb_release -s
+lsb_release -c
+df -h
+df -h -h
+du -hl --max-depth=1
+ls
+rm -rf output/
+sudo rm -rf output/
+ls
+cd ~
+ls
+cd Downloads/
+ls
+cd 
+ls
+ls | head -n 1
+ls | head -n 1 | bash
+ls
+./NVIDIA-Linux-x86_64-418.43.run
+chmod +x NVIDIA-Linux-x86_64-418.43.run 
+./NVIDIA-Linux-x86_64-418.43.run 
+nvidia-docker 
+nvidia-docker images
+sudo nvidia-docker images
+sudo nvidia-docker run -it ubuntu:16.04
+docker rmi -f nvidia/cuda:latest 
+sudo nvidia-docker images
+docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
+docker run --runtime=nvidia ubuntu:18.04 nvidia-smi
+docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
+docker run --runtime=nvidia nvidia/cuda 
+cd Downloads/
+ls
+cd cuda10.0/
+ls
+vim README.txt 
+docker run --runtime=nvidia nvidia/cuda 
+fg
+docker run --runtime=nvidia nvidia/cuda 
+sudo docker run --runtime=nvidia nvidia/cuda 
+nvidia-smi -a
+nvidia-smi
+cd ~
+ls
+nvidia-smi
+sudo reboot
+docker run -it ubuntu:18.04
+ls
+docker images
+history | grep docker
+docker run -it -v ~:/root ubuntu:18.04
+ls
+vim .bashrc
+docker run -it -v ~:/root ubuntu:18.04
+ls
+
+docker run -it -v ~:/root ubuntu:18.04
+docker run --privileged=true -it -v ~:/root ubuntu:18.04
+steam
+ssh hypereal@10.0.10.60
+\ssh hypereal@10.0.10.60
+\ssh hypereal@10.0.10.59
+ssh -o &#34;StrictHostKeyChecking no&#34; -p 11997 hypereal@registry-corp.hypereal.com
+\ssh -o &#34;StrictHostKeyChecking no&#34; -p 11997 hypereal@registry-corp.hypereal.com
+\ssh -p 11997 hypereal@registry-corp.hypereal.com
+ssh hypereal@10.0.18.131
+sshpass -p 87Co7r ssh hypereal@10.0.18.131
+sshpass -p 87Co7r ssh gjs@10.0.18.131
+sshpass -p s ssh gjs@10.0.18.131
+ssh gjs@10.0.18.131
+sshpass -p ssh hypereal@10.0.18.131
+sshpass -p 87Co7r ssh hypereal@10.0.18.131
+ssh gjs@10.0.18.131
+ls
+ssh gjs@10.0.18.131
+ssh -tX gjs@10.0.18.131
+ls
+sudo dpkg -i cuda-repo-ubuntu1804-10-0-local-10.0.130-410.48_1.0-1_amd64.deb
+sudo apt-key add /var/cuda-repo-10-0-local-10.0.130-410.48/7fa2af80.pub
+sudo dpkg -i libcudnn7*.deb
+sudo dpkg -i nv-tensorrt-repo-ubuntu1804-cuda10.0-trt5.0.2.6-ga-20181009_1-1_amd64.deb
+sudo apt-get update
+sudo apt-get install cuda
+sudo apt-get update
+sudo apt-get install cuda
+sudo apt-get install tensorrt
+sudo apt install uff-converter-tf
+sudo apt-get install tensorrt
+ls
+cd ~
+ls
+nvidia-smi
+history | grep docker
+docker run --runtime=nvidia nvidia/cuda 
+docker run -it --runtime=nvidia nvidia/cuda 
+docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
+nvidia-smi
+docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
+nvidia-docker run --rm nvidia/cuda nvidia-smi
+sudo nvidia-docker run --rm nvidia/cuda nvidia-smi
+nvcc --version
+nvidia-smi
+ls
+cd Downloads/
+ls
+cd cuda10.0/
+ls
+sudo nvidia-docker run --rm nvidia/cuda nvidia-smi
+ls
+./NVIDIA-Linux-x86_64-418.43.run 
+sudo ./NVIDIA-Linux-x86_64-418.43.run 
+ls
+cd ~
+history | grep docker
+
+history | grep docker | grep runtime
+docker run --runtime=nvidia nvidia/cuda
+sudo apt-get install nvidia-cuda-toolkit
+jobs
+bg
+jobs
+ls
+cd Downloads/
+ls
+cd cuda10.0/
+ls
+vim README.txt 
+ls
+nvidia-smi
+sudo apt-get install nvidia-cuda-toolkit
+ps -ef  | grep apt
+sudo kill 6585
+ps -ef  | grep apt
+sudo apt-get install nvidia-cuda-toolkit
+docker run --runtime=nvidia nvidia/cuda
+ls
+cd ~
+ls
+cd fc/
+ls
+cd flaw_checker/
+ls
+cd build/
+ls
+rm -rf *
+cmake ..
+ls
+nvidia-smi
+ls
+cd ~
+ls
+vim config.sh 
+./config.sh update_source
+sudo apt install -f
+apt install -f
+su aiello 
+sudo passwd aiello
+su aiello 
+docker run -it --rm --runtime=nvidia nvidia/cuda
+docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi
+docker images
+docker run --runtime=nvidia --rm nvidia/cuda:9.0-base bash
+docker run -it --runtime=nvidia --rm nvidia/cuda:9.0-base
+cd ~
+docker run -it -v ~:/root --runtime=nvidia --rm nvidia/cuda:9.0-base
+ls
+cd ~/fc/
+ls
+cd flaw_checker/
+ls
+cd build/
+cmake ..
+rm -rf *
+cmake ..
+sudo apt-get install tensorrt
+df -h
+sudo apt-get install cuda
+cd ..
+ls
+cd third_party/
+ls
+./build_all.sh 
+ls
+cd ..
+ls
+cd build/
+ls
+rm -rf *
+ls
+cd ~
+ls
+sudo apt install -y yasm pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
+sudo apt install -f
+sudo apt install -y yasm
+sudo  pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
+sudo apt install  pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
+sudo apt install build-essential git cmake
+cd fc/
+ls
+cd flaw_checker/
+ls
+cd build/
+ls
+cmake ..
+ls
+sudo docker run --runtime=nvidia -it --rm nvidia/cuda:9.0-base nvida-smi 
+sudo docker run --runtime=nvidia -it --rm nvidia/cuda:10.0-base nvida-smi 
+lsls
+ls
+nvidia-smi
+ls
+cd fc/
+ls
+cd flaw_checker/
+ls
+mkdir build
+cd build/
+cmake ..
+cd ~
+ls
+cd Downloads/
+ls
+cd cuda10.0/
+ls
+vim README.txt 
+reboot
+docker images
+docker rmi -f nvidia/cuda:latest 
+docker images
+ls
+cd ~
+ls
+vim
+./config.sh update_source
+sudo apt install vim-gnome
+apt install gnome-vim
+apt install vim-gnome
+apt install vim
+apt install -f
+apt install vim
+add-apt-repository -y ppa:jonathonf/vim
+apt install vim
+apt install vim-gnome
+vim
+ls
+jobs
+cd Downloads/
+ls
+tar xvf tf-cc-cpu.tar.gz -C /
+cd /
+ls
+cd usr/local/include/tensorflow/bazel-genfiles/external/llvm/
+ls
+cd lib/
+ls
+cd Target/
+ls
+cd 
+cd
+ls
+cd ~
+ls
+cd fc/flaw_checker/
+ls
+cd third_party/
+ls
+./build_all.sh 
+apt install -y yasm pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
+./build_all.sh 
+ls
+apt install sudo
+sudo apt install sudo
+./build_all.sh 
+ls
+vim build_all.sh 
+ls
+git status
+cd ffmpeg/
+ls
+cd ..
+ls
+vim build_all.sh 
+cd ffmpeg/
+ls
+./configure 
+ls
+cd ..
+ls
+vim build_all.sh 
+cd ffmpeg/
+ls
+./cconfigure 
+make -j2
+ls
+cd ..
+ls
+vim build_all.sh 
+ls
+mysql
+ls
+cd ~
+ls
+cd fc/flaw_checker/
+ls
+cd build/
+ls
+rm -rf *
+cmake ..
+make -j4
+ls
+cd ..
+ls
+cd src/
+ls
+vim
+cd ~
+vim .bashrc
+ls
+cd fc/flaw_checker/s
+cd fc/flaw_checker/src/
+ls
+vim
+jobs
+cd ~
+ls
+cd test/
+ls
+cd cpp
+ls
+vim 1.cpp
+ls
+cd ~/fc/
+ls
+cd flaw_checker/
+ls
+vim
+apt install sshpass
+man perf
+tldr perf
+ls
+ls
+perf
+perf list
+ls
+cd ~
+ls
+cd fc/
+ls
+cd flaw_checker/
+ls
+vim
+jobs
+fg
+cd ~
+ls
+cd test/
+ls
+cd cpp
+ls
+vim 1.cpp
+docker ps -l
+docker commit 9dc5feeb949a flawck
+docker images
+ls
+docker run -it flawck
+docker run -it -v ~:~ flawck
+docker run -it -v ~:/root flawck
+ls
+cd ~
+docker run -it -v ~:/root flawck
+cd ~
+ls
+vim
+cd test/
+ls
+cd cp
+cd cpp
+ls
+vim
+jobs
+ls
+fg

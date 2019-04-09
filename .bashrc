@@ -119,9 +119,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export LANG=en_US.UTF-8
-export LANGUAGE=en_US
-export LC_ALL=en_US.utf8
+#export LANG=en_US.UTF-8
+#export LANGUAGE=en_US
+#export LC_ALL=en_US.utf8
 export PATH="$PATH:/usr/lib/go/bin"
 export GOPATH="/home/gjs/go"
 export GOROOT="/usr/lib/go"
@@ -238,4 +238,4 @@ args(){
 	printf " <%s>" "$@"
 	echo
 }
-export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
+#export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
