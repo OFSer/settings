@@ -119,9 +119,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#export LANG=en_US.UTF-8
-#export LANGUAGE=en_US
-#export LC_ALL=en_US.utf8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US
+export LC_ALL=en_US.utf8
 export PATH="$PATH:/usr/lib/go/bin"
 export GOPATH="/home/gjs/go"
 export GOROOT="/usr/lib/go"
@@ -239,3 +239,4 @@ args(){
 	echo
 }
 #export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
+alias ssh60='sshpass -p s ssh gjs@10.0.18.131'

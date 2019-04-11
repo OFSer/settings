@@ -18858,3 +18858,304 @@ vim
 jobs
 ls
 fg
+sudo perf record -e cpu-clock -g ./flaw_checker
+ls
+cd fc/flaw_checker/
+ls
+vim
+ls
+cd ~/test/
+ls
+cd cpp
+ls
+vim
+ls
+vim 1.cpp
+ls
+vim
+docker run -it -v ~:/root flawck
+docker run --privileged=true -it -v ~:/root flawck
+hash
+ssh -o "StrictHostKeyChecking no" -p 18280 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15341 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17637 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11791 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14723 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19599 hypereal@registry-corp.hypereal.com
+man hash
+tldr hash
+man hash
+hash
+ls
+vim
+hash
+python
+hash
+python3
+hash
+cd .docker/
+ls
+vim config.json 
+ls
+ls -a
+vim config.json 
+cd ~
+git status
+git diff .bashrc
+git status
+git diff config.sh
+git status
+git diff .config/gtk-3.0/servers
+vim .gitignore 
+git rm --cache .config/gtk-3.0/servers
+git status
+git add .
+./config.sh push
+git status
+ls
+vim config.sh 
+ls
+cd fc/flaw_checker/
+ls
+git status
+cd submodules/
+ls
+cd cloth_check/
+ls
+git status
+git diff
+ls
+vim ~/.bashrc
+ls
+git status
+vim  src/ClothCheckerMultiModel.cpp
+python3
+help
+vim config.sh 
+git status
+history | grep docker
+history | grep docker | grep commit 
+history 
+docker ps -l
+docker commit 677c4f1fbf42 ubuntu:16.04
+history | grep ssh
+ssh gjs@10.0.18.131
+docker ps -l
+docker commit e62401416096 flawck
+docker ps -l
+docker images
+docker ps -l
+docker commit 18afab53a634 flawck
+history | grep scp
+history | grep ssh
+ssh gjs@10.0.18.131
+ssh -o "StrictHostKeyChecking no" -p 13121 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17735 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11626 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13121 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17735 hypereal@registry-corp.hypereal.com
+hashh
+hash
+python
+hash
+python3.6
+hash
+/home/gjs/anaconda3/bin/python3.6
+/home/gjs/anaconda3/bin/python3.7
+python3.7
+/home/gjs/anaconda3/bin/python2
+python
+python3
+hash
+hash -p
+hash -p /home/gjs
+python
+hash
+hash -p /home/gjs python
+hash -p /home/gjs
+hash -p /usr/bin pythonb
+hash -p /usr/bin python
+hash -p /usr/bin
+man hash
+type hash
+hash -l
+hash -p /home/gjs/anaconda3/bin/python3.7 python3.7
+python3.7
+hash -p /usr/bin/python3 python3
+python3
+hash -p /usr/python3 python3
+python3
+hash -r
+hash
+python3
+hash
+hash -d python3
+hash
+python3
+hash -t python3
+hash
+python
+hash
+hash -t python python3
+/usr/binpython
+/usr/bin/python
+hash
+/usr/bin/python
+hash
+hash -l
+hash -l python
+hash -l python3
+hash -l
+ls
+command
+command -l
+compgen -ac
+compgen -a
+compgen -c
+compgen -ac | wc -l
+compgen
+compgen --help
+compgen  l
+compgen -ac  l
+compgen --help
+compgen -ac ls ab
+compgen -ac 'ls ab'
+ls
+compgen -ac 'ls b'
+compgen --help
+man compgen
+type compgen
+tldr compgen
+compgen b
+compgen -b
+help
+seachstr
+searchstr
+type -a compgen
+type -a ssh
+type --help
+declare --help
+declare -i a
+echo $a
+a=123
+echo $a
+a+=234
+echo $a
+declare a=b
+b=1234
+echo $a
+declare -n a=b
+echo $a
+readonly -p
+readonly 
+readonly -p
+echo $BASHPID
+echo $PID
+echo $$
+ls
+history | grep ssh
+ssh gjs@10.0.18.131
+./run.sh 
+sshpass -p s ssh gjs@10.0.18.131 -t "sudo timeout 40 perf record -e cpu-clock -g /opt/flaw_checker/flaw_checker"
+./run.sh 
+ls
+git status
+git add .
+git commit -m "upd run.sh"
+git push
+./run.sh
+sudo ./run.sh 
+./run.sh 
+ls
+./run.sh 
+ls
+./run.sh 
+chmod +x run.sh
+./run.sh 
+ls
+cd build/
+ls
+rm -rf *
+cmake ..
+make -j4
+ssh -o "StrictHostKeyChecking no" -p 18165 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17735 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 17735 hypereal@registry-corp.hypereal.com
+ls
+top
+ssh -o "StrictHostKeyChecking no" -p 18165 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17399 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18828 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13121 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18165 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14942 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14531 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13121 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13121 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18165 hypereal@registry-corp.hypereal.com
+cd ..
+ls
+sshpass -p 87Co7r scp -r -P 10767 bin hypereal@registry-corp.hypereal.com:~
+ls
+ssh -o "StrictHostKeyChecking no" -p 14942 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18165 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 10767 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 18165 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14565 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10767 hypereal@registry-corp.hypereal.com
+locale
+vim .bashrc
+ssh -o "StrictHostKeyChecking no" -p 18165 hypereal@registry-corp.hypereal.com
+cd ..
+history | grep bin
+sshpass -p 87Co7r scp -r -P 18165 bin hypereal@registry-corp.hypereal.com:~
+ssh -o "StrictHostKeyChecking no" -p 18165 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18165 hypereal@registry-corp.hypereal.com
+ls
+git status
+git diff
+git status
+git diff
+git status
+git branch -b optimize
+git checkout -b optimize
+git status
+git add .
+git commit -m "change to ptr & resize"
+git status
+git push
+git push --set-upstream origin optimize 
+./run.sh 
+sudo timeout 40 perf record -e cpu-clock -g /opt/flaw_checker/flaw_checker
+ssh -o "StrictHostKeyChecking no" -p 18165 hypereal@registry-corp.hypereal.com
+ls
+cd fc/saki_detection/
+ls
+vim
+jobs
+ls
+vim
+cd root/
+ls
+cd fc/saki_detection/
+ls
+cd ..
+ls
+cd flaw_checker/
+ls
+vim
+jobs -p
+jobs
+fg
+locale
+ls
+cd ~
+docker ps -l
+docker commit 868301ab1289 flawck
+locale-gen en_US.UTF-8
+apt install locales
+locale-gen en_US.UTF-8
+bash
