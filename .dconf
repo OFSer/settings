@@ -25,8 +25,8 @@ root='file:///'
 active-plugins=['docinfo', 'modelines', 'filebrowser', 'time', 'spell']
 
 [org/gnome/gedit/state/window]
-size=(984, 640)
-state=132
+size=(984, 605)
+state=0
 bottom-panel-size=140
 side-panel-size=200
 side-panel-active-page='GeditWindowDocumentsPanel'
@@ -39,7 +39,7 @@ show-thousands=false
 button-mode='advanced'
 target-units='radian'
 word-size=64
-window-position=(2333, 347)
+window-position=(2733, 318)
 number-format='automatic'
 angle-units='degrees'
 base=16
@@ -283,7 +283,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1554947352
+check-timestamp=int64 1555107948
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
@@ -300,7 +300,7 @@ cpu-colors=[(uint32 0, '#FF6E00'), (1, '#CB0C29'), (2, '#49A835'), (3, '#2D7DB3'
 [org/gnome/gnome-system-monitor/proctree]
 columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
 sort-order=0
-sort-col=0
+sort-col=15
 
 [org/gnome/gnome-system-monitor/disktreenew]
 col-6-visible=true
@@ -315,10 +315,10 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=222
-window-position=(2466, 186)
+window-position=(417, 186)
 show-size-column=true
 show-hidden=false
-window-size=(898, 581)
+window-size=(1086, 581)
 sort-directories-first=true
 date-format='regular'
 sort-order='ascending'
@@ -497,10 +497,10 @@ show-hud=['disabled']
 
 [apps/update-manager]
 first-run=false
-launch-time=int64 1553765039
+launch-time=int64 1555020912
 window-height=540
 show-details=true
-launch-count=6
+launch-count=7
 window-width=1008
 
 [com/canonical/indicator/datetime]
@@ -537,11 +537,11 @@ blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416b
 text-scale-factor=1.0
 
 [com/canonical/unity/launcher]
-favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'unity://running-apps', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'application://vmware-workstation.desktop', 'application://unity-control-center.desktop', 'application://steam.desktop', 'application://vscode_vscode.desktop', 'unity://expo-icon', 'unity://devices']
+favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'unity://running-apps', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'application://vmware-workstation.desktop', 'application://unity-control-center.desktop', 'unity://expo-icon', 'unity://devices']
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14
-release-check-time=uint32 1553781296
+release-check-time=uint32 1554991089
 
 [com/ubuntu/user-interface]
 scale-factor={'DP-4': 10, 'DP-2': 10, 'DP-0': 10}

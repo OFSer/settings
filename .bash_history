@@ -19159,3 +19159,499 @@ locale-gen en_US.UTF-8
 apt install locales
 locale-gen en_US.UTF-8
 bash
+ls
+cd fc/
+ls
+cd dl-k8s-kube/
+ls
+vim
+ls
+ssh60
+ssh60
+top
+git status
+git diff
+git status
+git add -A
+git status
+git branch
+git diff
+git status
+ll
+ssh60
+ssh60
+history | grep oss
+ossutil ls oss://ai-cloth-public/debug-data
+ossutil ls oss://ai-cloth-public/debug-data | grep S0
+trap -l
+vim .bashrc
+trap -l | grep DEBUG
+vim .bashrc
+echo -n
+echo -n "123"
+echo --help
+man echo
+trap -p
+trap -p DEBUG
+
+trap -l | grep D
+echo 123 | sleep
+echo 123 | sleep 234
+ls
+echo 123 | { cd fc;sleep 123; }
+echo 123 | sleep 123
+echo 123 | cd fc
+ls
+trap sleep 3 RETURN
+ls
+trap sleep 3 HUP
+ls
+trap sleep 3 EXIT
+ls
+return 3
+return
+exit
+ls
+mysql
+ls
+nvidia-smi
+umask
+umask 000
+umask
+ls
+cd ~
+ls
+vim 1.sh
+vim .bashrc
+jobs
+fg
+echo -ne "\033]0;${USER}@${HOSTNAME}:$(sed -E 's/([^/])[^/]*/\1/g' <(dirs -p | head -n 1) )$ ${BASH_COMMAND}\007"
+echo -ne "\033]0;1234123412342134\007"
+cd fc
+echo -ne "\033]0;${USER}@${HOSTNAME}:$(sed -E 's/([^/])[^/]*/\1/g' <(dirs -p | head -n 1) )$ ${BASH_COMMAND}\007"
+fg
+git status
+git diff .bashrc
+cd ..
+git diff .bashrc
+git checkout -- .bashrc
+vim .bashrc
+ls
+ps -ef | grep 1.sh
+kill -9 3615
+kill -TERm 3615
+ps -ef | grep 1.sh
+kill -term 4258
+kill -TERM 4258
+kill -SIGTERM 4258
+ps -ef | grep 1.sh
+kill -p
+kill --help
+kill -l
+kill -15 4258
+ps -ef | grep 1.sh
+jobs
+umask
+>1
+ls
+ll 1
+rm 1
+ls
+ls
+trap 'sleep 30' return
+ls
+trap 'sleep 30' exit
+ls
+trap 'sleep 30' SIGHUP
+ls
+trap 'sleep 30' SIGTERM
+trap 'sleep 30' SIGRETURN
+trap 'sleep 30' SIGRET
+trap -l
+trap 'sleep 30' SIGINT
+ls
+sleep 3
+trap 'sleep 30' SIGTERM
+sleep 3
+trap 'sleep 30' SIGTERM
+ls
+sleep 3
+trap 'sleep 30' SIGINT
+ls
+trap 'echo 234' SIGINT
+ls
+sleep 3
+trap 'echo 234' SIGTERM
+echo 3
+sleep 3
+trap 'echo 234' TERM
+trap 'echo 234' INT
+trap 'echo 234' INTf
+trap 'echo 234' INT
+sleep 3
+trap 'echo 234' EXIT
+trap 'echo 234' RETRUN
+sleep 3
+trap 'echo 234' QUIT
+sleep 3
+trap 'echo 234' KILL
+sleep 3
+cd test/
+ls
+cd sh
+ls
+vim 1.sh
+./1.sh
+vim 1.sh
+./1.sh
+vim 1.sh
+./1.sh
+vim 1.sh
+./1.sh
+vim 1.sh
+./1.sh
+jobs
+vim 1.sh
+.1/.sh
+./1.sh
+vim 1.sh
+./1.sh
+vim 1.sh
+trap -l | grep R
+trap -l | grep RE
+trap 'echo 123' RETURN
+jobs
+fg
+./1.sh
+vim 1.sh
+./1.sh
+jobs
+fg
+./1.sh
+vim 1.sh
+ls
+jobs
+fg
+jobs
+vim 1.sh
+./1.sh
+umask
+umask -S
+cd ~
+umask -S
+umask
+umask -p
+umaks -S
+umask -S
+umask 
+umask -p
+bash
+umask
+umask 234
+bash
+umask -S
+umask -S u=rwx,g=rwx,o=rwx
+umask
+ls
+>1
+ll
+umask -S
+ll | grep 1
+rm 1
+ls
+umask
+umask -S
+jobs
+fg
+ls
+compgen 
+compgen -o
+compgen --help
+compgen -ac
+compgen -ac | grep attr
+lsattr
+lsattr --help
+compgen -ac | grep attr
+./run.sh 
+:call Terins()
+ls
+cd build/
+ls
+./c
+cd ..
+./run.sh 
+git status
+git add -A
+git commit -m "test"
+git push
+./run.sh 
+./run.sh 
+cd build/
+ssh gjs@10.0.8.131
+ssh60
+echo $ssh60
+type ssh60
+cd ..
+./run.sh 
+
+./run.sh 
+sshpass -p s ssh gjs@$ip -t "killall -9 /home/gjs/testIPC/c"
+sshpass -p s ssh gjs@$ip -t "killall -9 /home/gjs/testIPC/s"
+./run.sh 
+git status
+git push
+./run.sh 
+:call Terins()
+./run.sh 
+./run.sh 
+cd build/
+ls
+./s
+make -j4
+./s
+make -j4
+./s
+make -j4
+./s
+make -j4
+./s
+cd build/
+ls
+./c
+cd ..
+./run.sh 
+ssh -o "StrictHostKeyChecking no" -p 10161 hypereal@registry-corp.hypereal.com
+sshpass --help
+ls
+vim .bashrc
+git status
+vim .bashrc
+ssh gjs@10.0.18.131
+ls
+. .bashr 
+. .bashr c
+. .bashrc
+ssh gjs@10.0.18.131
+vim .bashrc
+ssh -o "StrictHostKeyChecking no" -p 18165 hypereal@registry-corp.hypereal.com
+vim .bashrc
+ssh gjs@10.0.18.131
+echo $?
+jobs
+. .bashrc
+ssh gjs@10.0.18.131
+sshpass -p s \ssh gjs@10.0.18.131
+vim .bashrc
+sshpass -p s \ssh gjs@10.0.18.131
+ssh gjs@10.0.18.131
+\ssh gjs@10.0.18.131
+ssh -o "StrictHostKeyChecking no" -p 19906 hypereal@registry-corp.hypereal.com
+ls
+bind
+bind -p
+f() { local a=123; }
+f() { local a=123;g(); }
+f() { local a=123;g; }
+g() { echo $a; }
+f
+echo $a
+a=234
+echo $a
+f
+help
+\ssh gjs@10.0.18.131
+ssh -o "StrictHostKeyChecking no" -p 16849 hypereal@registry-corp.hypereal.com
+ls
+sss
+ssh60
+sss
+ls
+sudo apt install linux-tools-common
+perf
+sudo apt install linux-tools-common
+perf
+ssh -o "StrictHostKeyChecking no" -p 18165 hypereal@registry-corp.hypereal.com
+ssh hypereal@10.0.18.131
+ssh hypereal@10.0.18.131 -t 'sudo perf report -i /home/gjs/perf/single_perf.data'
+ls
+vim test.sh 
+jobs
+vim test.sh 
+ls
+touch README.md
+ls
+vim README.md 
+git status
+ls
+mkdir img
+ls
+mv *.png img
+ls
+cd img/
+ls
+cd ..
+ls
+cd img/
+ls
+ls | head -n 1
+mv `ls | head -n 1` 1.png
+ls
+mv `ls | tail -n 1` 1.png
+ls
+ls | awk 'NR=2'
+ls | awk 'NR=1'
+ls | awk 'NR==1'
+ls | awk 'NR==2'
+ls | awk NR==2
+ls | awk NR==1
+ls | awk nr==1
+ls | awk nr==2
+ls | sed -n 2p
+ls | sed -n 1p
+top
+perf --help
+perf record --help
+jobs
+vim 
+steam
+ps -ef | grep steam
+killall -9 steam
+ps -ef | grep steam
+steam
+killall -9 steam
+ps -ef | grep steam
+steam
+sudo apt install steam
+sudo apt upgrade steam
+sudo apt upgrade 
+sudo apt remove steam
+sudo apt install steam
+steam
+ls
+cd fc/
+ls
+mkdir analysis-flawck
+ls
+cd analysis-flawck/
+ls
+git init
+git status
+ls
+vim README.md
+ls
+mv README.md test.sh
+ls
+vim test.sh 
+date
+jobs
+data +%Y%m%D
+data +%Y%m%d
+date +%Y%m%d
+date +%Y%m%d%h
+date +%Y%m%d%H
+date +%Y%m%d%H%m
+date +%Y%m%d%H%M
+date +%Y%m%d%H%M%s
+date +%Y%m%d%H%M%S
+jobs
+fg
+chmod +x test.sh
+./test.sh 
+jobs
+fg
+vim test.sh 
+./test.sh 
+ls
+vim test.sh 
+ls
+vim README.md 
+vim test.sh 
+vim README.md 
+ls
+git status
+git add .
+git status
+line
+ls
+jobs
+vim README.md 
+ls
+jobs
+vim README.md 
+git status
+git add .
+git commit -m "first commit"
+git remote add origin git@gitlab.sho.hypereal.com:jingshen.gao/analysis-flawck.git
+git push -u origin master
+jobs
+vim 1.sh
+vim README.md 
+git status
+git add .
+git commit -m "add report"
+git push
+ssh hypereal@10.0.18.131 -t 'sudo perf report -i /home/gjs/perf/single_perf.data'
+ls
+vim test.sh 
+ls
+jobs
+reboot
+ssh hypereal@10.0.18.131 -t 'sudo perf report -i /home/gjs/perf/single_perf.data'
+jobs
+ssh hypereal@10.0.18.131 -t 'sudo perf report -i /home/gjs/perf/single_perf.data'
+vim README.md 
+git add .
+git commit -m "format"
+git push
+ssh hypereal@10.0.18.131 -t 'sudo perf report -i /home/gjs/perf/single_perf.data'
+ls
+nvidia-smi
+perf
+steam
+nvidia-smi
+sudo apt remove --purge nvidia*
+sudo apt install nvidia
+sudo apt install nvidia-384
+steam
+reboot
+steam
+nvidia-smi
+sss60
+ssh60
+where
+whereis type
+whereis ls
+whichls
+which ls
+whereis perf
+which perf
+steam
+ls
+cd fc/
+ls
+cd saki_detection/
+ls
+./crawler.sh 
+vim crawler.sh 
+sudo apt remove --purge  steam*
+sudo apt remove steam
+sudo apt remove --purge steam
+ls
+cd .steam/
+ls
+sudo rm -rf *
+ls
+cd ..
+steam
+sudo apt install steam
+steam
+df
+df -h
+ls
+steam
+ls
+cd sa
+cd fc/saki_detection/
+ls
+mysql
+ls

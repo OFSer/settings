@@ -132,15 +132,10 @@ alias sss="sshpass -p root ssh root@dl-6 -p 30263 -t 'bash --login'"
 alias man='PAGER=most man'
 alias sp='sshpass -p 87Co7r '
 alias ssh='callssh'
-alias docker='sudo \docker'
 callssh(){
-	if [[ $5 == "hypereal@registry-corp.hypereal.com" ]];then
-		#sshpass -p 87Co7r /usr/bin/ssh -o StrictHostKeyChecking=no $*
-		sshpass -p 87Co7r /usr/bin/ssh "$@"
-	else
-		/usr/bin/ssh -o StrictHostKeyChecking=no $*
-	fi
+	sshpass -p 87Co7r \ssh -o StrictHostKeyChecking=no "$@" || sshpass -p s \ssh -o StrictHostKeyChecking=no "$@" || \ssh "$@"
 }
+alias docker='sudo \docker'
 alias logout=$'ps -ef | grep tty2 | awk \'{print $2}\' | head -n 1 | xargs kill'
 alias date='env LC_TIME=en_US.UTF-8 date'
 solve(){
