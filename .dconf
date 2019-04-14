@@ -8,12 +8,17 @@ favorite-apps=['ubiquity.desktop', 'org.gnome.Nautilus.desktop', 'firefox.deskto
 size=(1080, 607)
 
 [org/gnome/gedit/preferences/editor]
-insert-spaces=true
-wrap-last-split-mode='word'
-display-line-numbers=true
+display-right-margin=false
+display-overview-map=false
 tabs-size=uint32 2
+display-line-numbers=true
+insert-spaces=true
+right-margin-position=uint32 82
+background-pattern='none'
+wrap-last-split-mode='word'
 
 [org/gnome/gedit/preferences/ui]
+statusbar-visible=true
 show-tabs-mode='auto'
 
 [org/gnome/gedit/plugins/filebrowser]
@@ -283,7 +288,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1555107948
+check-timestamp=int64 1555194348
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
@@ -537,7 +542,7 @@ blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416b
 text-scale-factor=1.0
 
 [com/canonical/unity/launcher]
-favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'unity://running-apps', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'application://vmware-workstation.desktop', 'application://unity-control-center.desktop', 'unity://expo-icon', 'unity://devices']
+favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'unity://running-apps', 'application://code_code.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'application://vmware-workstation.desktop', 'application://unity-control-center.desktop', 'unity://expo-icon', 'unity://devices']
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14

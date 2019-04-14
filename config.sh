@@ -1,17 +1,17 @@
 cd ~
 config_scroll(){
-	 apt install xbindkeys xdotool -y
+	sudo apt install xbindkeys xdotool -y
 	xbindkeys --defaults > $HOME/.xbindkeysrc
-	echo 'XKBOPTIONS="ctrl:nocaps"' |  tee -a /etc/default/keyboard
+	echo 'XKBOPTIONS="ctrl:nocaps"' | sudo tee -a /etc/default/keyboard
 }
 config_mouse(){
 	xinput list
 	read -p "type mouse name: " mouse
-	echo xinput set-prop \"$mouse\" \"libinput Accel Speed\" -0.7 |  tee /etc/profile.d/mouse.d > /dev/null
+	echo xinput set-prop \"$mouse\" \"libinput Accel Speed\" -0.7 | sudo tee /etc/profile.d/mouse.d > /dev/null
 }
 update_source(){
-	 cp /etc/apt/sources.list /etc/apt/sources.list.bak
-	 echo "
+	sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+	sudo echo "
 # deb cdrom:[Ubuntu 18.04 LTS _Bionic Beaver_ - Release amd64 (20180426)]/ bionic main restricted
 
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
@@ -97,49 +97,49 @@ deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted univ
 	
 deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 # deb-src [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
-	" |  tee /etc/apt/sources.list
-	 apt-get update
-	 apt install software-properties-common -y
-	 add-apt-repository -y ppa:jonathonf/vim
-	 wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
-	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  |  apt-key add -
-	 apt-get update
-	 apt upgrade -y
+	" | sudo tee /etc/apt/sources.list
+	sudo apt-get update
+	sudo apt install software-properties-common -y
+	sudo add-apt-repository -y ppa:jonathonf/vim
+	sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+	sudo apt-get update
+	sudo apt upgrade -y
 }
 install(){
-	# apt install -y nvidia-384
-	 apt-get -y install vim-gnome	
+	#sudo apt install -y nvidia-384
+	sudo apt-get -y install vim-gnome	
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-	 apt remove --purge gnome-desktop3-data
-	 apt install -y ubuntu-unity-desktop
-	 apt remove -y --purge ubuntu-desktop
-	 apt install -y most
-	 apt install -y git sshpass jq curl
-	 apt install -y overlay-scrollbar unity-tweak-tool notify-osd
-	 apt install -y steam
-	 apt install -y compizconfig-settings-manager
-	 snap install vscode --classic
-	 snap install electronic-wechat
+	sudo apt remove --purge gnome-desktop3-data
+	sudo apt install -y ubuntu-unity-desktop
+	sudo apt remove -y --purge ubuntu-desktop
+	sudo apt install -y most
+	sudo apt install -y git sshpass jq curl
+	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
+	sudo apt install -y steam
+	sudo apt install -y compizconfig-settings-manager
+	sudo snap install vscode --classic
+	sudo snap install electronic-wechat
 }
 install_chrome(){
-	# wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
-	#wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  |  apt-key add -
-	# apt update
-	 apt install google-chrome-stable
+	#sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+	#wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+	#sudo apt update
+	sudo apt install google-chrome-stable
 }
 install_netease(){
-	 apt install -y curl 
+	sudo apt install -y curl 
 	curl 'http://d1.music.126.net/dmusic/netease-cloud-music_1.1.0_amd64_ubuntu.deb' --output ~/Downloads/1.deb
-	 dpkg -i ~/Downloads/1.deb
-	 apt install -f -y
+	sudo dpkg -i ~/Downloads/1.deb
+	sudo apt install -f -y
 	rm ~/Downloads/1.deb
-	 sed -i 's/Exec=.*/Exec=sh -c "unset SESSION_MANAGER \&\& netease-cloud-music"/' /usr/share/applications/netease-cloud-music.desktop
+	sudo sed -i 's/Exec=.*/Exec=sh -c "unset SESSION_MANAGER \&\& netease-cloud-music"/' /usr/share/applications/netease-cloud-music.desktop
 }
 install_sogou(){
 	curl 'http://cdn2.ime.sogou.com/dl/index/1524572264/sogoupinyin_2.2.0.0108_amd64.deb?st=VxugmC-KUwg_qPH3oC7MkA&amp;e=1546613868&amp;fn=sogoupinyin_2.2.0.0108_amd64.deb' --output ~/Downloads/1.deb
-	 dpkg -i ~/Downloads/1.deb
-	 apt install -f -y
+	sudo dpkg -i ~/Downloads/1.deb
+	sudo apt install -f -y
 	rm ~/Downloads/1.deb
 }
 system_setting(){
@@ -150,33 +150,33 @@ system_setting(){
 	#gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 'always'
 	#gsettings --schemadir . list-recursively
 	[ -n "$USER" ] && {
-		echo "$USER ALL=NOPASSWD:ALL" |  tee -a /etc/ers
+		echo "$USER ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
 	} || {
-		echo "$USERNAME ALL=NOPASSWD:ALL" |  tee -a /etc/ers
+		echo "$USERNAME ALL=NOPASSWD:ALL" | sudo tee -a /etc/sudoers
 	}
 	git checkout -- .config/dconf/user
 	pkill dconf-service
 	dconf dump / > .dconf
 	dconf load / < .dconf
-	 rm /var/lib/apt/lists/* &>/dev/null 2>&1
-	 rm /var/lib/apt/lists/partial/* &>/dev/null 2>&1
-	 rm -rf /var/cache/apt/archives/partial &>/dev/null 2>&1
+	sudo rm /var/lib/apt/lists/* &>/dev/null 2>&1
+	sudo rm /var/lib/apt/lists/partial/* &>/dev/null 2>&1
+	sudo rm -rf /var/cache/apt/archives/partial &>/dev/null 2>&1
 }
 install_lang(){
-	 apt install go -y
+	sudo apt install go -y
 }
 config_vscode(){
-	echo "fs.inotify.max_user_watches=524288" |  tee -a /etc/sysctl.conf > /dev/null
-	 sysctl -p
+	echo "fs.inotify.max_user_watches=524288" | sudo tee -a /etc/sysctl.conf > /dev/null
+	sudo sysctl -p
 }
 config_privoxy(){
-	 apt install shadowsocks -y
-	 apt install privoxy -y
+	sudo apt install shadowsocks -y
+	sudo apt install privoxy -y
 	curl -4sSkLO https://raw.github.com/zfl9/gfwlist2privoxy/master/gfwlist2privoxy
 	bash gfwlist2privoxy 127.0.0.1:1080
-	 mv -f gfwlist.action /etc/privoxy/
-	echo 'listen-address 127.0.0.1:8118' |  tee /etc/privoxy/config > /dev/null
-	echo 'actionsfile /etc/privoxy/gfwlist.action' |  tee -a /etc/privoxy/config > /dev/null
+	sudo mv -f gfwlist.action /etc/privoxy/
+	echo 'listen-address 127.0.0.1:8118' | sudo tee /etc/privoxy/config > /dev/null
+	echo 'actionsfile /etc/privoxy/gfwlist.action' | sudo tee -a /etc/privoxy/config > /dev/null
 	rm gfwlist2privoxy
 }
 proxy_run(){
@@ -184,8 +184,8 @@ proxy_run(){
 	export http_proxy=$proxy
 	export https_proxy=$proxy
 	export no_proxy="localhost, 127.0.0.1, ::1, ip.cn, chinaz.com"
-	 service privoxy restart
-	 sslocal -c socks.json > /dev/null 2>&1 &
+	sudo service privoxy restart
+	sudo sslocal -c socks.json > /dev/null 2>&1 &
 }
 run(){
 	system_setting
