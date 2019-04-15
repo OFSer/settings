@@ -156,7 +156,7 @@ solve(){
 		esac
 	fi
 }
-alias git='Git'
+#alias git='Git'
 Git(){
 	IFS=$'\n'
 	\git rev-parse --is-inside-work-tree &> /dev/null 2>&1 || { \git "$@";return; }

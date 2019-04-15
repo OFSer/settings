@@ -288,7 +288,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1555194348
+check-timestamp=int64 1555279275
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
@@ -536,7 +536,7 @@ integrated-menus=false
 always-show-menus=false
 
 [com/canonical/unity/devices]
-blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416bfc-44d5-46d7-b000-2003986f48d3-', '64D7-F69D-', 'E725-991D-', '25B8-F1E8-', '72cafc1a-4c8c-4f08-aecf-23e05ba22c64-', '4ba7120e-637b-4c68-85d8-3f1726813cc4-', '42fec6ee-3be4-46bb-8986-927537f9947c-']
+blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416bfc-44d5-46d7-b000-2003986f48d3-', '64D7-F69D-', 'E725-991D-', '25B8-F1E8-', '72cafc1a-4c8c-4f08-aecf-23e05ba22c64-', '4ba7120e-637b-4c68-85d8-3f1726813cc4-', '42fec6ee-3be4-46bb-8986-927537f9947c-', '4e483be3-d2bc-4a76-97ed-01dcfcefd2cf-']
 
 [com/canonical/unity/interface]
 text-scale-factor=1.0

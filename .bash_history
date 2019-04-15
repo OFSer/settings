@@ -20020,3 +20020,237 @@ sudo snap install code
 sudo snap install code --classic
 code
 reboot
+git status
+git diff HEAD^5 .config
+git diff HEAD^5 config.sh
+git diff HEAD~5 config.sh
+git diff HEAD~4 config.sh
+git diff HEAD~3 config.sh
+git diff HEAD~2 config.sh
+git checkout  HEAD~3 config.sh
+git status
+git diff --cached config.sh
+git status
+cat .config/yad.conf 
+./config.sh push
+reboot
+steam
+sudo apt install steam
+steam
+ls
+cd .steam/
+ls
+cd ubuntu12_32/
+ls
+cd ..
+ls
+cd ..
+cd .steam/
+ls
+du -hl
+cd ..
+cd .con
+cd .config/
+ls
+find . | grep dota2
+cd ..
+find . | grep dota
+vim config.sh 
+git status
+cd .local/
+ls
+cd share/app
+cd share/
+ls
+cd applications/
+ls
+reboot
+cd ~/test/
+ls
+cd file/
+ls
+cd ..
+ls
+cd cpp
+ls
+vim 1.cpp
+ls
+vim 2.cpp
+ls
+cd test/
+ls
+cd .
+ls
+cd ..
+ls
+cd ..
+ls
+cd empty/
+ls
+ls *
+echo | ls * 
+echo $?
+echo | ls *  | ls
+echo $
+ls * | echo
+echo $?
+caller
+cd ~
+. .bashrc
+caller
+caller . .bashrc
+man caller
+type caller
+help caller
+caller --help
+type ssh60
+die() {   local frame=0;   while caller $frame; do     ((frame++));   done;   echo "$*";   exit 1; }
+f1() { die "*** an error occured ***"; }
+f2() { f1; }
+f3() { f2; }
+f3
+git status
+git log
+git revert HEAD
+git status
+sudo git revert HEAD
+git status
+git submodule update
+git status
+git reset HEAD --hard
+git status
+git submodule update
+git status
+ls
+cd submodules/
+ls
+cd saki_detection/
+ls
+vim
+ls
+cd ..
+ls
+cd fc/
+ls
+cd analysis-flawck/
+ls
+vim test.sh 
+type test
+enable -p | grep test
+enable -f ls
+enable -f 
+enable -f ls
+enable -f trap
+enable -f echo
+enable -f perf
+enable -df perf
+enable -p
+help enable
+help -d enable
+help -m enable
+help  enable
+help help
+help --help
+cd ..
+cd saki_detection/
+ls
+vim
+ls
+cd ..
+ls
+cd analysis-flawck/
+ls
+./test.sh 
+curl https://www.haskell.org/tutorial/haskell-98-tutorial.pdf --output ~/Downloads/1.pdf
+ls
+cd ~/Do
+cd ~/Downloads/
+ls
+nautilus 1.pdf
+printf %02d 1
+printf %.3f 1.23
+printf %.3f 1.23456
+printf -v a %.3f 1.23456
+echo $a
+printf \n
+printf 123\n
+printf %b123\n
+printf 123%b\n
+printf '123%b\n'
+printf '123\n'
+printf '%b123\n'
+a='\n'
+printf '123%b' a
+printf '123%b' $a
+
+printf '123%q' $a
+printf '%(-l)T'
+printf '%(-1)T'
+printf '%(-2)T'
+ssh60
+ulimit -S
+ulimit -H
+ulimit -a
+ulimit -c
+ulimit -a
+ulimit -c 1
+ulimit -a
+haskell
+sudo apt install haskell
+sudo snap install haskell
+ghci
+sudo apt install ghc
+ghci
+ls
+ghc
+ghci
+mapfile a
+echo $a
+echo ${a[0]}
+echo ${a[1]}
+mapfile a
+echo ${a[1]}
+echo ${a[0]}
+ls
+cd ..
+ls
+cd analysis-flawck/
+ls
+./test.sh 
+qssh hypereal@10.0.18.131 -t 'sudo perf report -i /home/gjs/perf/single_perf.data'
+ssh hypereal@10.0.18.131 -t 'sudo perf report -i /home/gjs/perf/perf.data'
+read --help
+read -i 123 a
+echo $a
+read -i 123
+echo $a
+read -i 123 a
+echo $a
+type
+type -a
+type -a ls
+type -t ls
+type -p
+type -p ls
+type -p \ls
+type -p \perf
+type -p perf
+type -P perf
+type -P ls
+cd ~/test/empty/
+ls
+ls * | echo 123
+set -e
+ls * | echo 123
+set +e
+ls * | echo 123
+set +e
+set -e
+ls * | echo 123
+echo $?
+ls *
+cd ~/test/
+cd empty/
+ls
+set -e
+ls *
