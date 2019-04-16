@@ -81,7 +81,7 @@ use-tree-view=false
 default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'mime_type', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'recency']
 
 [org/gnome/evince/default]
-window-ratio=(3.1061222021381676, 1.1901792395681146)
+window-ratio=(3.0212418300653594, 1.2651515151515151)
 
 [org/gnome/file-roller/listing]
 sort-method='name'
@@ -288,7 +288,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1555279275
+check-timestamp=int64 1555365675
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
@@ -320,7 +320,7 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=222
-window-position=(417, 186)
+window-position=(2372, 186)
 show-size-column=true
 show-hidden=false
 window-size=(1086, 581)

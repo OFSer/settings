@@ -20254,3 +20254,99 @@ cd empty/
 ls
 set -e
 ls *
+echo $BASH_ENV
+bash --login
+cd ~
+bash --login
+cd fc/flaw_checker/
+bash --login
+cd ~
+ls
+vim .bash_profile 
+ls
+jobs
+git status
+git diff
+git status
+git diff
+git status
+vim .bash_history 
+jobs
+git status
+git diff
+git status
+git checkout -- .bash_history
+git status
+history 
+cd /root
+ls
+cd fc/flaw_checker/
+ls
+vim
+echo $SHLVL
+jobs
+fg
+ls
+cd fc/
+ls
+cd flaw_checker/
+git status
+git checkout saki 
+git status
+git submodule update
+git status
+git pull
+git status
+git merge dev
+git status
+sudo \git merge dev
+git status
+git submodule update
+git status
+git diff dev
+\git diff dev
+git status
+git merge dev
+\git merge dev
+\git status
+git diff
+git status
+cd submodules/
+cd ..
+jobs
+cd submodules/saki_detection/
+ls
+git pul
+git pull
+git status
+git branch
+cd ..
+git status
+git commit -m "fix file read bug"
+git commit -a -m "fix file read bug"
+sudo git commit -a -m "fix file read bug"
+git status
+git push
+ls
+git status
+ls
+git branch
+git checkout testOpt
+git log
+git branch
+git diff 
+git status
+git submodule update
+git stauts
+git status
+git log
+git diff HEAD^
+git diff HEAD^^
+git status
+ls
+vim
+ls
+docker run -it ~:/root flawck
+docker run -it -v ~:/root flawck
+history 
+ls
