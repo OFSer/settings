@@ -20350,3 +20350,535 @@ docker run -it ~:/root flawck
 docker run -it -v ~:/root flawck
 history 
 ls
+git status
+git diff .bash_history
+history 
+sudo vim /etc/profile
+ls
+jobs
+git status
+git add .bash_profile 
+git add -f .bash_profile 
+git status
+git diff .bash_history
+git status
+./config.sh push
+echi $HISTCMD
+echo $HISTCMD
+echo $HISTCONTROL 
+echo $HISTFILE
+echo $HISTFILESIZE 
+echo $HISTSIZE 
+ll .bash_history 
+vim .bashrc
+git status
+git diff
+./config.sh push
+vim .bashrc
+./config.sh push
+git status
+history 
+echo $1
+bash -c echo "$BASH_ENV"
+bash -c "echo $BASH_ENV"
+bash -c 'echo $BASH_ENV'
+bash -c 'echo BASH_ENV'
+bash -c 'echo $BASH_ENV'
+bash -c 'echo "$BASH_ENV"'
+cd test/
+ls
+cd sh
+ls
+vim 2.sh
+bash --login 2.sh
+vim 2.sh
+echo $HISTSIZE
+bash --login 2.sh
+bash 2.sh
+bash --login 2.sh
+cd ~
+ls
+vim .profile
+vim .bash_profile 
+ssh gjs@10.0.10.63
+ls
+echo $SHELLOPTS 
+echo $BASHOPTS 
+echo $GLOBIGNORE
+echo $-
+bash -s 1 2 3
+a=
+./1.sh
+du -hl
+du -hl --max-depth=1
+declare -i a
+echo $a
+a+=3
+echo $a
+alias ab='echo'
+alias echo='echo 123'
+echo
+ps -ef | grep 1.sh
+kill 29738
+ps -ef | grep 1.sh
+kill 31850
+kill -SIGTERM 31850
+kill -SIGINT 31850
+kill -9 31850
+ps -ef | grep 1.sh
+cd ..
+cd ~
+ls
+cd fc/
+ls
+cd flaw_checker/
+ls
+cd submodules/cloth_check/
+ls
+git status
+git checkout dev
+git branch
+git checkout master
+git pull
+git status
+git pull
+sudo git pull
+sudo git pull origin master
+git status
+ls
+cd ..
+git pull
+git status
+cd cloth_check/
+git status
+git branch
+git pull
+sudo git pull
+git branch
+git checkout testSock 
+git pull
+sudo git pull
+cd ..
+ls
+cd ..
+git pull
+sudo git pull
+cd ..
+ls
+ls
+mysql
+cd fc/sa
+ls
+cd fc/saki_detection/
+vim
+ls
+cd ~/test/
+ls
+cd sh
+ls
+vim 2.sh
+vim 1.sh
+./1.sh
+jobs
+vim 1.sh
+jobs
+vim 1.sh
+./1.sh
+jobs
+fg
+echo $TMOUT
+ls
+echo $((2**3))
+echo $((2**30))
+echo $((2**100))
+echo $((2**32))
+echo $((2**33))
+echo $((2**63))
+echo $((2**62))
+echo $((2**63))
+echo $((2/3))
+echo $((2/0))
+echo $((2&3))
+echo $8#123
+echo 8#123
+echo $((8#123))
+echo $((16#a))
+echo $((16#b))
+echo $((16#A))
+echo $((16#a))
+echo $((16#32A))
+echo $((0x3f))
+echo $((0xffffff))
+echo $((0xff))
+echo $((0xfff))
+echo $((0fff))
+echo $((0123))
+ls
+alias ab=bc
+alias bc='echo 123'
+ab
+alias ab=echo
+alias echo='echo 123'
+alias ab=echo
+alias echo='echo 123'
+bash --help | comp
+bash --help | grep comp
+bash --help 
+man bash | grep comp
+man bash | grep compil
+man bash
+ls
+a=(1 2 3)
+args ${a[*]}
+args ${a[@]}
+args "${a[@]}"
+args "${a[*]}"
+set -o
+declare -o
+declare -a
+declare -A
+declare -a
+set -a
+set -A
+ls
+a=(1 2 3)
+unset ${a[1]}
+unset a
+echo $a
+ssh -o "StrictHostKeyChecking no" -p 16849 hypereal@registry-corp.hypereal.com
+ssh60
+cd ..
+ls
+\ls
+ls
+/ls
+ls
+vim CMakeLists.txt
+ls
+set -o
+set -p
+declare -p
+declare -a
+declare -ap
+set -o posix
+ls
+\ls
+a=(1 2 3)
+unset a[1]
+echo ${a[@]}
+a=(1 2 3)
+echo ${a[2]}
+unset a[2]
+echo ${a[@]}
+echo /home/gjs
+echo /home/gjs | sed 's/\/home\/gjs/~/'
+echo /home/gjs/abc | sed 's/\/home\/gjs/~/'
+dirs
+cd fc/saki_detection/
+ls
+cd ..
+dirs
+dirs +0
+dirs +1
+dirs +2
+dirs -1
+dirs -0
+cd ~-0
+cd ~-1
+cd ~-2
+cd ~/fc/flaw_checker/
+cd ~-0
+cd ~-1
+cd ~-2
+cd ~-3
+dirs -v
+dirs -v | wc -l
+echo $PROMPT_COMMAND 
+echo -ne 123
+echo -ne "123"
+echo $PS1
+echo "$PS1"
+rbash
+ls
+rbash
+\ls
+rbash
+/ls
+rbash
+set -o posix
+ls
+du -hl
+du -hl --max-depth==1
+du -hl --max-depth=1
+ls
+ghc 1.hs
+ssh -o "StrictHostKeyChecking no" -p 14918 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14665 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19354 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17918 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11991 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14026 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19354 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19354 hypereal@registry-corp.hypereal.com
+ghc --help
+cd test/haskell/
+ls
+cat 1.hs
+cat 1.hi
+ssh -o "StrictHostKeyChecking no" -p 17918 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 17918 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15135 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16713 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11594 hypereal@registry-corp.hypereal.com
+sleep 1000 &
+sleep 10000 &
+ps -ef | grep bash
+ps -ef
+ps --help | grep group
+ps --help 
+man ps | grep group
+ps -efg
+ps -efG
+ps aux
+man ps
+ps -eo pid,tgid
+ps -ef -o tgid
+ps -ef -o gid
+ps -ef -o tgid
+ps -eo tgid
+ps -eo tgid,gid
+ps -eo tgid,sid
+read a
+echo $a
+echo "$a"
+history | grep IFS
+echo "$a" | od
+read a
+echo "$a"
+echo "$a" | od 
+echo "$a" | od  -b
+ls
+cd fc/saki_detection/
+ls
+echo %%
+jobs %1
+sleep 100 &
+jobs
+jobs %1
+jobs %2
+jobs 1
+jobs %%
+sleep 1000 &
+jobs %2
+jobs 2
+jobs %%
+jobs %-
+jobs %
+sleep 10000 &
+jobs %
+jobs %%
+jobs %-
+jobs %+
+jobs
+fg
+jobs
+fg 2
+jobs
+jobs +
+jobs
+fg 1
+jobs
+man ps
+ps -efG
+ps -efg
+ps -eg
+ps -eG
+ps -eLF
+ps -eLf
+ps  xao pid,ppid,pgid,sid,comm
+ps  ao pid,ppid,pgid,sid,comm
+ps  xao pid,ppid,pgid,sid,comm
+ps  xao pid,ppid,pgid,sid,comm 
+ps  xao pid,ppid,pgid,sid,comm  | grep 704
+ps  xao pid,ppid,pgid,sid,comm  | grep 695
+ps -efj
+ps -efjH
+man ps
+ps -e
+ps -ef
+man ps
+suspend
+echo $auto_resume
+ls
+cd ~
+ls
+git diff .bash_profile
+git diff HEAD~5 .bash_profile
+git status
+git diff .bash_history
+vim .bash_history 
+ls
+jobs
+fc --help
+sudo mount /dev/mapper/loop18p1 /mnt
+nautilus /mnt
+ls
+qemu-img convert -f raw vd -O vmdk vd.vmdk
+sudo mount /dev/mapper/loop19p1 /mnt
+nautilus /mnt
+sudo mount /dev/mapper/loop19p2 /mnt
+sudo grub-install --root-directory=/mnt /dev/loop19
+sudo grub-install --boot-directory=/mnt /dev/loop19
+sudo grub-install --root-directory=/mnt /dev/loop19
+ls
+history
+ls
+history
+ls
+jobs
+history -d 10
+history 
+history -d 1 10
+git status
+git diff .bash_history
+git status
+history
+fc -l
+git status
+cd ~
+git status
+vim .bash_history 
+git status
+ls
+fc -l
+fc -l | wc -l
+fc -ln
+echo $FCEDIT
+echo $EDITOR
+!
+ls
+!
+l
+@gjs:~$ 
+ls
+@gjs:~$ 
+kill -CONT 1188
+git status
+ssh60
+type ssh60
+type -a ssh60
+ssh -o "StrictHostKeyChecking no" -p 17231 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11544 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15807 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14918 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19738 hypereal@registry-corp.hypereal.com
+~ssh -o "StrictHostKeyChecking no" -p 11289 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11289 hypereal@registry-corp.hypereal.com
+ghi
+cghi
+history
+history | grep gh
+ghc
+ghci
+cd test
+mkdir haskell
+cd haskell/
+ls
+vim 1.hs
+ghc 1.hs
+vim 1.hs
+ghc 1.hs
+ls
+./1
+ls
+vim 1.hs
+ghc 1.hs
+jobs
+vim 1.hs
+ghc 1.hs
+./1
+jobs
+vim 1.hs
+ghci
+ghci --help
+ghci
+ghci --help
+ghci
+ls
+vim 1.hs
+ghci
+ls
+echo 1223
+1223
+echo $_
+ghci
+git status
+cd /root/
+ls
+cd fc/flaw_checker/
+git status
+git branch
+cd submodules/cloth_check/
+git pull
+git status
+git branch
+git checkout master
+git status
+git pull
+git status
+git branch
+git log
+git status
+git pull
+git checkout -b opt
+git status
+git branch
+git checkout optimize
+git status
+git checkout opt
+git branch
+gchi
+ghc 1.hs
+ls
+./1
+ls
+ghc 1.hs
+ls
+./1
+rm 1
+ls
+rm 1.hi
+rm 1.o
+ghc 1.hs
+ls
+echo "4123" |wc -c
+echo "4123" | wc -c
+> quicksort [] = []
+> quicksort (x:xs) = quicksort [y | y <- xs, y <= x] ++
+>                    [x] ++
+echo '> quicksort [] = []
+> quicksort (x:xs) = quicksort [y | y <- xs, y <= x] ++
+>                    [x] ++
+>                    quicksort [y | y <- xs, y > x]
+'
+echo '> quicksort [] = []
+> quicksort (x:xs) = quicksort [y | y <- xs, y <= x] ++
+>                    [x] ++
+>                    quicksort [y | y <- xs, y > x]
+' | wc -c
+ghci
+grep --help
+ls
+ls | grep -v '1.hs'
+ls | grep -v '1.hs' | rm
+ls | grep -v '1.hs' | xargs rm
+ls
+jobs
+ls
+cd ~
+ls
+vim .vimrc
+ls
+vim .vimrc
+ls
+vim .vimrc

@@ -135,7 +135,7 @@ endfunc
 "--------------------------Options-----------------------------------"
 set ai
 set nu
-set ts=2
+"set ts=2
 set sw=2
 set ma
 set mouse=a
@@ -328,7 +328,6 @@ nnoremap <silent> <c-k> k
 nnoremap <silent> <c-h> h
 nnoremap <silent> <c-l> l
 "--------------------------Edit--------------------------------------"
-inoremap <c-u> <esc>0d$a
 inoremap <c-y> <esc>pa
 nnoremap <c-a> maggvG$
 nnoremap <c-v> "+P
