@@ -107,7 +107,7 @@ migrated=true
 
 [org/gnome/deja-dup]
 backend='goa'
-prompt-check='2019-03-16T04:53:44.918788Z'
+prompt-check='disabled'
 
 [org/gnome/deja-dup/goa]
 type='google'
@@ -288,7 +288,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1555625472
+check-timestamp=int64 1556059788
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
@@ -320,7 +320,7 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=222
-window-position=(417, 186)
+window-position=(2372, 186)
 show-size-column=true
 show-hidden=false
 window-size=(1086, 581)

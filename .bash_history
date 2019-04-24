@@ -20882,3 +20882,665 @@ ls
 vim .vimrc
 ls
 vim .vimrc
+ls
+cd ~
+ls
+vim .vimrc
+ls
+vim .vimrc
+jobs
+vim .vimrc
+git status
+git diff .vimrc
+git diff .bash_history
+vim .bash_history 
+./config.sh push
+ls
+su usr
+sss
+steam
+docker run -it -v ~:/root flawck
+echo $PS0
+echo $PS1
+echo $PS2
+echo -e "\a"
+echo $PROMPT_COMMAND
+vim .bashrc
+cd ~
+vim .bashrc
+echo $PROMPT_COMMAND
+$PROMPT_COMMAND
+echo -ne "\033]0;${USER}@${HOSTNAME}:`dirs -p | head -n 1`$\007"
+history | grep ossutil
+ossutil ls oss://ai-cloth-public/debug-data
+df
+df -h
+sss
+ls
+ghci
+ls
+cd test/haskell/
+ls
+vim 1.hs
+ghci
+ls
+cd ~
+ls
+cd Downloads/
+ls
+vim part10.lhs 
+ls
+vim part11.lhs 
+vim part12.lhs 
+ls
+vim part12.lhs 
+tldr ghc
+cd ~
+ls
+cd test/haskell/
+ls
+vim 1.lhs
+ls
+vim 1.hs
+ghci
+git branch
+git checkout testSock
+git status
+git diff
+git status
+git add .
+git commit -m "fix"
+git push
+git status
+sudo git commit -m "fix"
+git status
+git push
+git status
+git add .
+git commit -m "fix"
+sudo git commit -m "fix"
+git push
+git status
+git add .
+git commit -m "fix"
+sudogit commit -m "fix"
+sudo git commit -m "fix"
+git push
+git status
+git commit -a -m "fix"
+sudo git commit -a -m "fix"
+git push
+git status
+git diff
+git add .
+git status
+git add .
+git status
+git add .
+sudo git add .
+git statu
+git status
+sudo git commit -m "fix"
+git push
+git status
+cd ..
+git status
+sudo git add -A
+git branch
+git status
+git reset HEAD --hard
+\git reset HEAD --hard
+git status
+git status
+cd ~
+ls
+ssh -o "StrictHostKeyChecking no" -p 13805 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19851 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11572 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15212 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13052 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16367 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19744 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18199 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10685 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15219 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19824 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18173 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15800 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10739 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15427 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11032 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17699 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19722 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16499 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10916 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11076 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13738 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16547 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12732 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16171 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17685 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11617 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12534 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12949 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13370 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15508 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16239 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16950 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18824 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18042 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14586 hypereal@registry-corp.hypereal.com
+ls
+sudo python3 server.py 
+ssh -o "StrictHostKeyChecking no" -p 10447 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14736 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16360 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15297 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18173 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15297 hypereal@registry-corp.hypereal.com
+sudo lsof -i:5000
+ls
+cd fc/
+ls
+cd usb_blow_detector/
+ls
+cd webserver/
+ls
+sudo python3 server.py 
+curl 192.168.8.2
+curl 127.0.0.1
+[ `curl -s 127.0.0.1 | grep connect | wc -l` -eq 0 ]
+[ `curl -s 127.0.0.1 | grep Connect | wc -l` -eq 0 ]
+curl -s 127.0.0.1
+curl 127.0.0.1
+[ `curl 127.0.0.1 | grep Connect | wc -l` -eq 0 ]
+echo $?
+curl 127.0.0.1 | grep Connect
+curl -s 127.0.0.1 | grep Connect
+curl -s 127.0.0.1 | grep connect
+curl -s 127.0.0.1 | grep Connect
+curl 127.0.0.1 | grep Connect
+curl 127.0.0.1 > /dev/null | grep Connect
+curl 127.0.0.1 > /dev/null
+curl 127.0.0.1 
+curl 127.0.0.1 > /dev/null
+curl 127.0.0.1 
+`curl 127.0.0.1 | wc -l`
+curl 127.0.0.1 | wc -l
+[ `curl 127.0.0.1 | wc -l` -gt 0 ]
+echo $?
+[ `curl 192.168.8.2:2233 | wc -l` -gt 0 ]
+[ `curl 127.0.0.1 | wc -l` -gt 0 ]
+echo $?
+find . |grep host
+cd /etc/
+ls
+find . | grep host
+cd hosts
+vim hosts
+ifconfig
+ssh -o "StrictHostKeyChecking no" -p 15555 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16525 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16360 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16360 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18407 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15555 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18366 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15555 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13470 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16525 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14333 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11345 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13470 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14736 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16360 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13470 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11763 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13751 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11688 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15074 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16369 hypereal@registry-corp.hypereal.com
+cat /home/user/logs/monitor.pid
+ssh -o "StrictHostKeyChecking no" -p 19493 hypereal@registry-corp.hypereal.com
+ls
+cd fc/
+ls
+cd usb_blow_detector/
+ls
+cd webserver/
+ls
+vim
+cd ..
+ls
+cd ..
+ls
+cd detection-machine-daemon/
+ls
+vim
+ssh -o "StrictHostKeyChecking no" -p 17900 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13366 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18792 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15777 hypereal@registry-corp.hypereal.com
+ls
+su usr
+useradd -m -d /usr/mac -G sudo gjs
+useradd -m -d /usr/mac -G sudo mac
+sudo useradd -m -d /usr/mac -G sudo mac
+sudo passwd mac
+su mac
+vim /etc/passwd
+sudo vim /etc/passwd
+ls
+su mac
+sl
+ssh
+ssh -N -R 5000:localhost:22 10.0.10.63
+ssh -N -R 5000:localhost:22 server@10.0.10.63
+ifconfig
+ssh -N -R 5000:localhost:22 10.0.10.63
+echo $localhost
+vim /etc/hosts
+ssh -N -R 5000:localhost:22 10.0.10.63
+\ssh -N -R 5000:localhost:22 10.0.10.63
+\ssh -N -R 5000:localhost:22 server@10.0.10.63
+\ssh -N -R 5000:127.0.0.1:22 server@10.0.10.63
+\ssh -N -R 5000:172.17.0.1:22 server@10.0.10.63
+\ssh -N -R 5000:172.17.0.1:22 10.0.10.63
+useradd mac
+useradd macn
+su macn
+passwd macn
+su macn
+vim /etc/ssh_config
+vim /etc/ssh/ssh_config 
+cd /etc/ssh/
+ls
+su macn
+vim /etc/passwd
+vim /etc/group
+su macn
+useradd  -G root test
+su test
+su macn
+passwd macn
+su macn
+passwd
+sudo passwd
+ifconfig
+vim /etc/hosts
+apt install openssh-server
+apt install -f
+service sshd start
+service ssh start
+ifconfig
+man ssh
+docker run -it flawck
+docker run -it -v ~:/root flawck
+su mac
+vim /etc/ssh/sshd_config
+sudo vim /etc/ssh/sshd_config
+sudo service ssh restart
+ssh mac@10.0.10.63
+ssh server@10.0.10.63
+\ssh server@10.0.10.63
+\ssh mac@10.0.10.63
+vim /etc/ssh/sshd_config 
+sudo vim /etc/ssh/sshd_config 
+sudo service ssh restart
+ssh mac@10.0.10.63
+userdel mac
+sudo userdel mac
+su mac
+ls
+useradd --help
+useradd -m -d /home/server -G sudo server
+sudo useradd -m -d /home/server -G sudo -p s server 
+su server
+sudo passwd server
+su servers
+su server
+vim /etc/passwd
+sudo vim /etc/passwd
+su server
+ssh60
+ll
+ssh hypereal@registry-corp.hypereal.com
+\ssh root@registry-corp.hypereal.com
+\ssh hypereal@registry-corp.hypereal.com
+\ssh -p 5000 gjs@127.0.0.1
+ssh gjs@gjs
+\ssh gjs@gjs
+ls
+\ssh zyk@mac
+\ssh mac@10.0.10.55
+\ssh mac@zyk
+vim .ssh/config
+dig dl-5
+dig DL-5
+dig 123
+dig baidu.com
+dig gjs@dl-5
+nslookup DL-5
+nslookup --help
+nslookup -h
+man nslookup
+nslookup DL-5
+nslookup DL-6
+nslookup DL-5
+\ssh gjs@DL-5.hypereal.local
+\ssh gjs@DL-5
+nslookup DL-5
+nslookup DL-3
+nslookup DL-2
+nslookup DL-1
+nslookup DL-2
+nslookup DL-3
+nslookup DL-6
+nslookup DL-7
+nslookup DL-8
+nslookup DL-7
+nslookup baidu.com
+dig -t A baidu.com
+dig -t A baidu.com +trace
+dig -t A baidu.com
+dig -t baidu.com
+dig -t A baidu.com
+dig -t A Dl-5
+ssh -o "StrictHostKeyChecking no" -p 19497 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19429 hypereal@registry-corp.hypereal.com
+ssh gjs@dl-5
+\ssh gjs@dl-5
+history
+history | grep ssh
+ssh -N -L 22:10.0.10.63:5000 10.0.200.105
+\ssh -N -L 22:10.0.10.63:5000 10.0.200.105
+sudo \ssh -N -L 22:10.0.10.63:5000 10.0.200.105
+ssh gjs@dl-5
+sudo \ssh -N -L 22:10.0.10.63:5000 10.0.200.105
+\ssh -N -L 22:10.0.10.63:5000 10.0.200.105
+sudo \ssh -N -L 22:10.0.10.63:5000 10.0.200.105
+\ssh gjs@dl-5
+sudo \ssh -N -L 22:10.0.10.63:5000 10.0.200.105
+ssh  gjs@dl-5
+\ssh  gjs@dl-5
+\ssh -N -L 22:10.0.10.63:5000 gjs@10.0.200.105
+sudo \ssh -N -L 22:10.0.10.63:5000 gjs@10.0.200.105
+sudo \ssh -N -L 5000:10.0.10.63:5000 gjs@10.0.200.105
+sudo \ssh -N -L 5001:10.0.10.63:5000 gjs@10.0.200.105
+\ssh -N -L 5001:10.0.10.63:5000 gjs@10.0.200.105
+\ssh -N -L 5001:10.0.10.63:5000 gjs@10.0.200.105 -t 'bash'
+history 
+\ssh -N -L 5001:10.0.10.63:5000 gjs@10.0.200.105
+\ssh -p 5001 mac@localhost
+obs
+jobs
+man ssh
+#1556009053
+ls
+\ssh -N -R 5000:127.0.0.1:22 proxy@registry-corp.hypereal.com
+\ssh -N -R 12343:127.0.0.1:22 proxy@registry-corp.hypereal.com
+\ssh -N -R 0.0.0.0:12343:127.0.0.1:22 proxy@registry-corp.hypereal.com
+\ssh -N -R 0.0.0.0:12342:127.0.0.1:22 proxy@registry-corp.hypereal.com
+\ssh -N -R 0.0.0.0:12341:127.0.0.1:22 proxy@registry-corp.hypereal.com
+sudo \ssh -N -R 0.0.0.0:12341:127.0.0.1:22 proxy@registry-corp.hypereal.com
+\ssh -i ~/.ssh/proxy -N -R 0.0.0.0:12341:127.0.0.1:22 proxy@registry-corp.hypereal.com
+sudo \ssh -i ~/.ssh/proxy -N -R 0.0.0.0:12341:127.0.0.1:22 proxy@registry-corp.hypereal.com
+ssh proxy@registry-corp.hypereal.com
+\ssh -i ~/.ssh/proxy proxy@registry-corp.hypereal.com
+\ssh -i ~/.ssh/proxy registry-corp.hypereal.com
+\ssh -i ~/.ssh/proxy proxy@registry-corp.hypereal.com
+sudo \ssh -i ~/.ssh/proxy proxy@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18421 hypereal@registry-corp.hypereal.com
+ls
+cd .ssh/
+ls
+vim proxy
+ls
+cd ..
+cd .ssh/
+ls
+ll
+cd ~
+ssh -p 12341 gjs@registry-corp.hypereal.com
+\ssh -p 12341 gjs@registry-corp.hypereal.com
+\ssh -i .ssh/proxy proxy@registry-corp.hypereal.com
+sudo \ssh -i .ssh/proxy proxy@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18178 hypereal@registry-corp.hypereal.com
+histoyr
+history
+sudo \ssh -i .ssh/proxy gjs@registry-corp.hypereal.com
+sudo \ssh -p 12341 -i .ssh/proxy gjs@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19909 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13652 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17425 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18627 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13961 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13546 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12616 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13263 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18982 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13320 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18799 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16026 hypereal@registry-corp.hypereal.com
+[ `curl -s 192.168.8.2:2233 | grep connect | wc -l` -gt 0 ] && exit 1
+ssh -o "StrictHostKeyChecking no" -p 14143 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17569 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19314 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18666 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13263 hypereal@registry-corp.hypereal.com
+curl 192.168.8.2:2233
+sudo lsof -i:2233
+sudo lsof -i:80
+sudo lsof -i:8080
+sudo lsof -i:22
+gchi
+ghci
+ssh -o "StrictHostKeyChecking no" -p 18413 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17390 hypereal@registry-corp.hypereal.com
+ghci
+ls
+sudo vim /etc/ssh/sshd_config 
+jobs
+vim
+ls
+cd fc/
+ls
+mkdir ssh
+cd ssh/
+cd ..
+ls
+rm -r ssh
+mkdir sshproxy
+cd sshproxy/
+ls
+vim
+vim ~/.bashrc
+ls
+cd ~
+ls
+scp .bash_profile mac@10.0.10.55:~
+\ssh mac@10.0.10.55
+scp .vimrc mac@10.0.10.55:~
+\ssh mac@10.0.10.55
+\ssh mac@zyk
+\ssh mac@10.0.10.55
+ls
+ssh -o "StrictHostKeyChecking no" -p 19802 hypereal@registry-corp.hypereal.com
+\ssh -p 5000 mac@10.0.10.63
+ssh -o "StrictHostKeyChecking no" -p 18178 hypereal@registry-corp.hypereal.com
+ping 54.223.137.167
+ssh -o "StrictHostKeyChecking no" -p 18178 hypereal@54.223.137.167
+ssh -o "StrictHostKeyChecking no" -p 18178 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 18178 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13155 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13612 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 13612 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13612 hypereal@registry-corp.hypereal.com
+ls
+jobs
+ssh -o "StrictHostKeyChecking no" -p 13612 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18729 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13612 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 13612 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13612 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 13612 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13612 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 13612 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17173 hypereal@registry-corp.hypereal.com
+echo $RANDOM
+#1556072198
+ls
+#1556072220
+sl
+#1556072221
+ls
+#1556072239
+gedit
+#1556072251
+vscode
+#1556072253
+code
+sudo \ssh -p 20001 -i .ssh/proxy gjs@registry-corp.hypereal.com
+sudo \ssh -X -p 20001 -i .ssh/proxy gjs@registry-corp.hypereal.com
+sudo \ssh -p 20001 gjs@registry-corp.hypereal.com
+nslookup registry-corp.hypereal.com
+sudo \ssh -p 20001 gjs@registry-corp.hypereal.com
+ls
+curl 127.0.0.1:2002
+ssh 127.0.0.1:2002
+\ssh 127.0.0.1:2002
+nslookup pan.baidu.com
+ssh -i .ssh/proxy -N -L 12321:180.149.145.241:80 proxy@54.223.137.167
+sudo ssh -i .ssh/proxy -N -L 12321:180.149.145.241:80 proxy@54.223.137.167
+sudo ss\h -i .ssh/proxy -N -L 12321:180.149.145.241:80 proxy@54.223.137.167
+sudo \ssh -i .ssh/proxy -N -L 12321:180.149.145.241:80 proxy@54.223.137.167
+sudo \ssh -i .ssh/proxy -N -L 12321:180.149.145.241:80 54.223.137.167
+sudo \ssh -i .ssh/proxy -N -L 12321:180.149.145.241:80 proxy@54.223.137.167
+sudo \ssh -i .ssh/proxy -N -L 12321:123.125.114.144:80 proxy@54.223.137.167
+jobs
+bg
+jobs
+curl 127.0.0.1:12321
+curl --help 127.0.0.1:12321
+curl --head 127.0.0.1:12321
+jobs
+fg
+sudo \ssh -i .ssh/proxy -f -N -L 12321:123.125.114.144:80 proxy@54.223.137.167
+curl --head 127.0.0.1:12321
+curl 123.125.114.144:80
+jobs
+ps -ef | grep ssh
+sudo kill 12184
+sudo \ssh -i .ssh/proxy -f -N -L 20002:123.125.114.144:80 proxy@54.223.137.167
+jobs
+curl localhost:20002
+curl 127.0.0.1:20002
+curl 127.0.1.1:20002
+curl 127.0.0'.1:20002
+curl 127.0.0.1:20002
+ps -ef | grep ssh
+sudo kill 12251
+sudo \ssh -i .ssh/proxy -f -N -L 0.0.0.0:20002:123.125.114.144:80 proxy@54.223.137.167
+curl 127.0.0.1:20002
+curl 0.0.0.0:20002
+ps -ef | grep ssh
+sudo kill 12362
+sudo \ssh -N -L 20002:123.125.114.144:80 gjs@10.0.10.63
+jobs
+bg
+jobs
+curl 127.0.0.1:20002
+jobs
+fg
+sudo \ssh -N -L 20002:123.125.114.144:80 10.0.10.63 &
+jobs
+bg
+jobs
+fg
+jobs
+\ssh -N -L 20002:123.125.114.144:80 10.0.10.63 &
+jobs
+fg
+jobs
+\ssh -N -L 20002:123.125.114.144:80 10.0.10.63 &
+jobs
+fg
+jobs
+bg
+jobs
+curl 127.0.0.1:20002
+crul 123.125.114.144:80
+curl 123.125.114.144:80
+curl localhost:20002
+jobs
+fg
+\ssh -N -L 2002:123.125.114.144:80 10.0.10.63 &
+jobs
+fg
+jobs
+bg
+jobs
+curl 127.0.0.1:2002
+jobs
+fg
+\ssh -N -L 0.0.0.0:2002:123.125.114.144:80 10.0.10.63
+jobs
+bg
+jobs
+crul 127.0.0.1:2002
+curl 127.0.0.1:2002
+curl 0.0.0.0:2002
+ssh gjs@10.0.10.63
+jobs
+fg
+ssh -N -L 0.0.0.0:2002:123.125.114.144:80 mac@10.0.10.55
+jobs
+fg 1
+jobs
+fg 2
+jobs
+\ssh -N -L 0.0.0.0:2002:123.125.114.144:80 mac@10.0.10.55
+jobs
+bg
+curl 127.0.0.1:2002
+jobs
+fg
+\ssh --L 0.0.0.0:2002:123.125.114.144:80 mac@10.0.10.55
+\ssh -L 0.0.0.0:2002:123.125.114.144:80 mac@10.0.10.55
+\ssh -L 0.0.0.0:2002:10.0.200.105:22 mac@10.0.10.55
+\ssh -N -L 0.0.0.0:2002:10.0.200.105:22 mac@10.0.10.55
+jobs
+bg
+jobs
+ssh -p 2002 gjs@127.0.0.1
+\ssh -p 2002 gjs@127.0.0.1
+jobs
+fg
+'
+\ssh -p 2222 admin@10.0.200.105
+sudo \ssh -p 19233 gjs@registry-corp.hypereal.com
+nslookup registry-corp.hypereal.com
+nslookup baidu.com
+curl 127.0.0.1:2002
+history | grep ssh
+history | grep ssh | grep '-i'
+history | grep ssh | grep '\-i'
+sudo \ssh -p 12341 -i .ssh/proxy gjs@registry-corp.hypereal.com
+sudo \ssh -p 20001 -i .ssh/proxy gjs@registry-corp.hypereal.com
+sudo \ssh -i ~/.ssh/proxy -N -R 0.0.0.0:12341:127.0.0.1:22 proxy@registry-corp.hypereal.com
+sudo \ssh -i ~/.ssh/proxy -N -R 0.0.0.0:20001:127.0.0.1:22 proxy@registry-corp.hypereal.com
+sudo \ssh -i ~/.ssh/proxy -N -R 0.0.0.0:2019233:127.0.0.1:22 proxy@registry-corp.hypereal.com
+sudo \ssh -i ~/.ssh/proxy -N -R 0.0.0.0:19233:127.0.0.1:22 proxy@registry-corp.hypereal.com
+sudo useradd -m -d /home/mid -G sudo mid
+sudo passwd mid
+su mid
+vim /etc/passwd
+sudo vim /etc/passwd
+su mid
+ssh gjs@dl-5
+
+\ssh gjs@dl-5
+\ssh mid@dl-5
+ssh mid@dl-5
+sudo ssh -tX mid@dl-5
+ssh -o "StrictHostKeyChecking no" -p 19929 hypereal@registry-corp.hypereal.com

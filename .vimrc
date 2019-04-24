@@ -3,6 +3,7 @@
 "Plug 'lervag/vimtex'
 "call plug#end()
 "--------------------------------------------------------------"
+syntax on
 set noswapfile
 let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
 let g:loaded_toggle_bash = 1
