@@ -31,7 +31,7 @@ active-plugins=['docinfo', 'modelines', 'filebrowser', 'time', 'spell']
 
 [org/gnome/gedit/state/window]
 size=(984, 605)
-state=128
+state=0
 bottom-panel-size=140
 side-panel-size=200
 side-panel-active-page='GeditWindowDocumentsPanel'
@@ -288,7 +288,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1556059788
+check-timestamp=int64 1556146188
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
@@ -320,7 +320,7 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=222
-window-position=(2372, 186)
+window-position=(2372, 264)
 show-size-column=true
 show-hidden=false
 window-size=(1086, 581)

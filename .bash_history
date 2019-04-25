@@ -21544,3 +21544,276 @@ ssh gjs@dl-5
 ssh mid@dl-5
 sudo ssh -tX mid@dl-5
 ssh -o "StrictHostKeyChecking no" -p 19929 hypereal@registry-corp.hypereal.com
+sudo \ssh -i ~/.ssh/proxy -N -R 0.0.0.0:12341:127.0.0.1:22 proxy@registry-corp.hypereal.com
+sudo \ssh -i ~/.ssh/proxy -N -R 0.0.0.0:20001:127.0.0.1:22 proxy@registry-corp.hypereal.com
+cat .ssh/proxy 
+\ssh -p 2222 admin@10.0.200.105
+docker run --name jms_all -d -p 80:80 -p 2222:2222 -e SECRET_KEY=$SECRET_KEY -e BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN jumpserver/jms_all:latest
+curl 127.0.0.1
+curl 127.0.0.1:80
+docker rm -f b3b210872102311bda9e1d5fa31d0ab0b1eb92a0950db2066367f93b0ec5d2cc
+sudo docker run --name jms_all -d -p 80:80 -p 2222:2222 -e SECRET_KEY=$SECRET_KEY -e BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN jumpserver/jms_all:latest
+curl 127.0.0.1:80
+curl 127.0.0.1
+curl 127.0.0.1:100
+curl 127.0.0.1
+docker rm -f 82cf9ed3337cdccc385f4d2744328a199f511727ecefc920d228f2000bf6cb43
+if [ "$SECRET_KEY" = "" ]; then SECRET_KEY=`cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 50`; echo "SECRET_KEY=$SECRET_KEY" >> ~/.bashrc; echo $SECRET_KEY; else echo $SECRET_KEY; fi
+if [ "$BOOTSTRAP_TOKEN" = "" ]; then BOOTSTRAP_TOKEN=`cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 16`echo "BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN" >> ~/.bashrc; echo $BOOTSTRAP_TOKEN; else echo $BOOTSTRAP_TOKEN; fi
+docker run --name jms_all -d -p 80:80 -p 2222:2222 -e SECRET_KEY=$SECRET_KEY -e BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN jumpserver/jms_all:latest
+curl localhost
+curl 127.0.0.1
+docker rm -f b885aad1e8e8abd96d3e6e2913e45ab69602174fd21f0ba01abc087141f53ab2
+docker run --name jms_server -d -p 8011:80 -p 2222:2222 registry.jumpserver.org/public/jumpserver:1.0.0
+curl 127.0.0.1
+curl 127.0.0.1:801
+curl 127.0.0.1:8011
+curl --head 127.0.0.1:8011
+curl 127.0.0.1:8011
+\ssh -p 2222 admin@127.0.0.1
+\ssh -p 2222 root@127.0.0.1
+\ssh -p 2222 gjs@127.0.0.1
+\ssh -p 2222 127.0.0.1
+\ssh -p 2222 admin@127.0.0.1
+\ssh admin@127.0.0.1
+\ssh -p 2222 admin@127.0.0.1
+ifconfig
+\ssh -p 2222 admin@172.17.0.1
+\ssh -p 2222 admin@10.0.10.63
+\ssh -p 2222 admin@127.0.0.1
+sudo \ssh -p 2222 admin@127.0.0.1
+if [ "$BOOTSTRAP_TOKEN" = "" ]; then BOOTSTRAP_TOKEN=`cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 16`; echo "BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN" >> ~/.bashrc; echo $BOOTSTRAP_TOKEN; else echo $BOOTSTRAP_TOKEN; fi
+if [ "$SECRET_KEY" = "" ]; then SECRET_KEY=`cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 50`; echo "SECRET_KEY=$SECRET_KEY" >> ~/.bashrc; echo $SECRET_KEY; else echo $SECRET_KEY; fi
+docker run --name jms_all -d -p 8000:80 -p 8001:2222 -e SECRET_KEY=$SECRET_KEY -e BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN jumpserver/jms_all:latest
+curl 127.0.0.1:8000
+docker rm -f 6682f4c743dc8b19e74022c0ffcc415f30cf9b2fda65eb187aab06bb1a89a6e8
+docker run --name jms_all -p 8000:80 -p 8001:2222 -e SECRET_KEY=$SECRET_KEY -e BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN jumpserver/jms_all:latest
+docker rm -f db9ba2542013c9c3af1985b66a26178de5ff6d5a9e0aa9b9bf9de2b2abccbc52
+sss
+ssh -p 8001 admin@127.0.0.1
+\ssh -p 8001 admin@127.0.0.1
+ssh -p 8001 admin@127.0.0.1
+\ssh -p 8001 admin@127.0.0.1
+\ssh -p 8001 admin@10.0.10.63
+\ssh -p 8001 hypereal@10.0.10.63
+\ssh -p 8001 admin@10.0.10.63
+\ssh -p 8001 hypereal@10.0.10.63
+\ssh -p 8001 admin@10.0.10.63
+\ssh -p 8001 hypereal@10.0.10.63
+\ssh -p 8001 admin@10.0.10.63
+\ssh -p 8001 gjs@10.0.10.63
+ssh admin@10.0.10.63
+\ssh admin@10.0.10.63
+\ssh -p 2222 admin@10.0.10.63
+\ssh -p 8001 admin@10.0.10.63
+vim config.sh 
+ls
+cd fc/
+ls
+git clone https://github.com/jumpserver/Dockerfile
+ls
+cd ~
+ls
+vim .vimrc
+jobs
+git status
+git diff
+git status
+git diff .vimrc
+git diff .bashrc
+vim .bashrc
+./config.sh push
+vim
+git status
+history | grep docker | grep commit
+docker ps -l
+docker commit 8b5c36069a74 jumpserver/jms_all:latest
+git status
+docker images
+ls
+cd fc/
+ls
+cd sshproxy/
+ls
+vim
+vim config
+mv config config.sh
+vim config.sh 
+chmod +x config.sh 
+./config.sh 
+vim config.sh 
+./config.sh 
+vim config.sh 
+./config.sh 
+docker rm -f 8b5c36069a7431ae78100343883daa51019d8c08245c47830a3ea1e08594bf79
+jobs
+fg
+jobs
+fg
+jobs
+fg
+vim config.sh 
+./config.sh 
+jobs
+useradd --hlep
+su server
+su mac
+sudo useradd -m -d /home/mac -s /bin/bash -G sudo mac
+sudo passwd mac
+su mac
+ssh mid@dl-5
+\ssh -p 5001 gjs@127.0.0.1
+\ssh -p 5001 gjs@localhost
+\ssh -p 5001 mac@localhost
+history
+ls
+cat .ssh/id_rsa.pub 
+\ssh mid@DL-5
+ls
+scp -o ProxyCommand='ssh -A 127.0.0.1 ssh -A 10.0.200.105 -W %h:%p'  -p 5000 dconf mac@10.0.10.63:/Users/mac/dconf
+scp -o ProxyCommand='ssh -A 127.0.0.1 ssh -A mid@10.0.200.105 -W %h:%p'  -p 5000 dconf mac@10.0.10.63:/Users/mac/dconf
+scp -o ProxyCommand='ssh -A 127.0.0.1 ssh -A mid@10.0.200.105 -W %h:%p'  -p 5000 /home/gjs/dconf mac@10.0.10.63:/Users/mac/dconf
+scp -o ProxyCommand='ssh -A 127.0.0.1 ssh -A mid@10.0.200.105 -W %h:%p'  /home/gjs/dconf mac@10.0.10.63:/Users/mac/dconf
+scp -o ProxyCommand='ssh -A 127.0.0.1 ssh -A mid@10.0.200.105 -W %h:%p'  -p 5000 /home/gjs/dconf mac@10.0.10.63:/Users/mac/dconf
+ls
+scp -o ProxyCommand='ssh -A 127.0.0.1 ssh -A mid@10.0.200.105 -W %h:%p'  -p 5000 a mac@10.0.10.63:/Users/mac/dconf
+scp -o ProxyCommand='ssh -A 127.0.0.1 ssh -A mid@10.0.200.105 -W %h:%p'  -P 5000 a mac@10.0.10.63:/Users/mac/dconf
+scp -o ProxyCommand='ssh -A 127.0.0.1 ssh -A mid@10.0.200.105 -W %h:%p'  -P 5000 dconf mac@10.0.10.63:/Users/mac/dconf
+scp -o ProxyCommand='ssh -A mid@10.0.200.105 -W %h:%p'  -P 5000 dconf mac@10.0.10.63:/Users/mac/dconf
+scp  -P 5000 dconf mac@10.0.10.63:/Users/mac/dconf
+sss
+ssh -o "StrictHostKeyChecking no" -p 17271 hypereal@registry-corp.hypereal.com
+cd /var/lib/
+ls
+cd mysql
+ls
+cd mysql
+cd ~
+ls
+vim .bashrc
+mysql
+\mysql
+sudo \mysql
+docker jobs
+docker ps | grep jump
+docker rm -rf d8482c7f7501
+docker rm -f d8482c7f7501
+cd fc/
+ls
+mysql --help
+mysql -P 3306 -u root
+mysql -P 3306 -u root@127.0.0.1
+sudo mysql -P 3306 -u root@127.0.0.1
+mysql -u root@127.0.0.1 -P 3306
+mysql -u root@127.0.0.1 -P 3306 -p
+mysql -u root@10.0.10.63 -P 3306 -p
+mysql -u root@10.0.10.63 -P 3306
+cd ~
+vim .bashrc
+mysql -u root
+sudo mysql -u root
+sudo mysql -u root -P 3306
+sudo mysql -P 3306 -u root
+sudo mysql -P 3306 -u root@127.0.0.1
+sudo mysql -P 3306 -u root@localhost
+sudo mysql -P 3306 -u root
+sudo mysql -P 3306 -u gjs@127.0.0.1
+sudo mysql -P 3306 -u gjs@localhost
+sudo mysql -P 3306 -u root@127.0.0.1
+sudo mysql -P 3306 -u root@10.0.10.63
+sudo mysql -P 3306 -h 10.0.10.63 -u root
+ssh gjs@dl-5
+\ssh gjs@dl-5
+sss
+ssh gjs@dl-5
+\ssh gjs@dl-5
+vim /etc/my.cnf
+vim /etc/mysql/my.cnf
+sudo vim /etc/mysql/my.cnf
+sudo mysql
+mysql --version
+mysql -u root
+mysql -P 3306 -u root
+mysql -P 3306 -u root -p
+mysql -P 3306 -u gjs -p
+\mysql
+\mysql -P 3306 -u gjs@127.0.0.1 -p
+\mysql -h 127.0.0.1 -P 3306 -u gjs -p
+history | grep docker
+docker run --name jms_all -d -p 80:80 -p 2222:2222 -e SECRET_KEY=$SECRET_KEY -e BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN jumpserver/jms_all:latest
+sudo docker ps | grep jumpserver | awk '{print $1}' | sudo xargs docker rm -f
+docker run --name jms_all -d -p 80:80 -p 2222:2222 -e SECRET_KEY=$SECRET_KEY -e BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN jumpserver/jms_all
+sudo docker ps | grep jumpserver | awk '{print $1}' | sudo xargs docker rm -f
+docker run --name jms_all -p 80:80 -p 2222:2222 -e SECRET_KEY=$SECRET_KEY -e BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN jumpserver/jms_all
+docker list
+docker ls
+docker ps
+docker --help
+docker --help | grep list
+docker ls
+history | grep docker
+docker ps -l
+docker images
+ls
+cd fc/
+ls
+cd dl-k8s-kube/
+ls
+vim
+history | grep docker | grep exec
+docker exec -it jms_all /bin/bash
+mysql
+\mysql -h 127.0.0.1 -P 3306 -u jumpserver -p
+\mysql  -P 3306 -u jumpserver@127.0.0.1 -p
+service mysql start 
+service mysql status
+service mysql restart
+vim /etc/mysql/my.cnf
+sudo vim /etc/mysql/my.cnf
+sudo service mysql restart
+sudo vim /etc/mysql/my.cnf
+ls
+cd /etc/mysql/
+ls
+cd conf.d/
+ls
+cd ..
+ls
+cd mysql.conf.d/
+ls
+vim mysqld
+vim mysqld.cnf 
+sudo service mysql restart
+sudo passwd root
+su root 
+mysql -u root -p
+sudo mysql -u root -p
+ssh -o "StrictHostKeyChecking no" -p 17320 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16691 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 16691 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 13539 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13539 hypereal@registry-corp.hypereal.com
+ssh -p 8002 admin@127.0.0.1
+cd ..
+cd sshproxy/
+ls
+curl http://127.0.0.1:8001/assets/asset/create/
+curl --head http://127.0.0.1:8001/assets/asset/create/
+curl --heop
+curl --help
+curl -H 'Set-Cookie: csrftoken=cpqjaAQJLab3Wd3wOdXXbVQAqWhzO658OnEqXoLa2jr7SrSivU4AZem6aGJhPO3u; expires=Wed, 22 Apr 2020 09:01:01 GMT; Max-Age=31449600; Path=/; SameSite=Lax' http://127.0.0.1:8001/assets/asset/create/
+curl --head -H 'Set-Cookie: csrftoken=cpqjaAQJLab3Wd3wOdXXbVQAqWhzO658OnEqXoLa2jr7SrSivU4AZem6aGJhPO3u; expires=Wed, 22 Apr 2020 09:01:01 GMT; Max-Age=31449600; Path=/; SameSite=Lax' http://127.0.0.1:8001/assets/asset/create/
+curl  http://127.0.0.1:8001/assets/asset/create/
+curl -I http://127.0.0.1:8001/assets/asset/create/
+curl --head -H 'Cookie: loglevel=0; node_selected=undefined; csrftoken=cpqjaAQJLab3Wd3wOdXXbVQAqWhzO658OnEqXoLa2jr7SrSivU4AZem6aGJhPO3u; sessionid=y5qyd1a3fpw22iilpkbhjmhs3ul1h0yt' http://127.0.0.1:8001/assets/asset/create/
+curl -H 'Cookie: loglevel=0; node_selected=undefined; csrftoken=cpqjaAQJLab3Wd3wOdXXbVQAqWhzO658OnEqXoLa2jr7SrSivU4AZem6aGJhPO3u; sessionid=y5qyd1a3fpw22iilpkbhjmhs3ul1h0yt' http://127.0.0.1:8001/assets/asset/create/
+curl -H 'Cookie: loglevel=0; node_selected=undefined; csrftoken=cpqjaAQJLab3Wd3wOdXXbVQAqWhzO658OnEqXoLa2jr7SrSivU4AZem6aGJhPO3u; sessionid=y5qyd1a3fpw22iilpkbhjmhs3ul1h0yt' http://127.0.0.1:8001/assets/asset/create/ | grep csrfmiddlewaretoken
+ls
+vim crawler.sh
+vim daemon.sh
+ls
+vim daemon.sh 
+ls
+\ssh -p 8002 admin@10.0.10.63
+\ssh -p 8002 gjs@10.0.10.63
+ssh -p 8002 admin@10.0.10.63 
