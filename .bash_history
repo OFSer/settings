@@ -21817,3 +21817,193 @@ ls
 \ssh -p 8002 admin@10.0.10.63
 \ssh -p 8002 gjs@10.0.10.63
 ssh -p 8002 admin@10.0.10.63 
+#1556103813
+mysql
+sss
+ls
+cd ..
+ls
+cd saki_detection/
+ls
+vim database.sh 
+ls
+vim crawler.sh 
+vim database.sh 
+\ssh -p 8002 admin@10.0.10.63
+nmtmi
+nmtui
+git status
+cd ~
+git status
+git branch
+git branch -a
+git branch
+git status
+./config.sh push
+git status
+\ssh -p 8002 gjs@10.0.10.63
+echo -e '\n1' \ssh -p 8002 gjs@10.0.10.63
+echo -e '\n1' | \ssh -p 8002 gjs@10.0.10.63
+\ssh -p 8002 gjs@10.0.10.63
+docker exec -it jms_all /bin/bash
+\ssh -p 8002 gjs@10.0.10.63
+echo 1 | \ssh -p 8002 gjs@10.0.10.63
+echo '' | \ssh -p 8002 gjs@10.0.10.63
+docker images
+docker exec -it jms_all /bin/bash
+ssh -p 8002 gjs@10.0.10.63
+ls
+\ssh -p 8002 gjs@10.0.10.63
+\ssh -p 8002 gjs@10.0.10.63 -t 'bash'
+\ssh -p 8002 gjs@10.0.10.63 -t 'ls'
+\ssh -p 8002 gjs@10.0.10.63 -t '1'
+\ssh -p 8002 gjs@10.0.10.63 '1'
+ls
+docker exec -it jms_all /bin/bash
+ssh -o "StrictHostKeyChecking no" -p 16211 hypereal@registry-corp.hypereal.com
+sudo apt install ivm
+sudo apt install vim
+vim --version
+sudo apt update
+sudo apt install -f
+sudo apt install vim
+vim --version
+vim
+ls
+cat README.md 
+ls
+vim README.md 
+ls
+cat README.md 
+git status
+git clone git@gitlab.sho.hypereal.com:monitoring/prometheus-exporter.git
+go get -v -u github.com/swaggo/swag/cmd/swag
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+swag init
+ls
+cd fc/http-hello/
+swag init
+go get -v -insecure
+
+go get -v -insecure
+swag init
+go get -v -insecure
+swag init
+go get -v -insecure
+go mod
+sudo apt install go
+sudo apt install golang
+sudo apt install golang=1.12
+sudo snap install golang
+cd ~
+ls
+cd Downloads/
+wget https://dl.google.com/go/go1.12.2.linux-amd64.tar.gz
+sudo tar -xvf go1.12.2.linux-amd64.tar.gz
+sudo mv go /usr/local
+go mod
+export GOROOT=/usr/local/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+go mod
+cd ..
+vim .bashrc
+fg
+go mod
+ls
+rm -rf prometheus-exporter/
+ls
+sudo apt install golang
+go mod
+us
+ls
+vim
+cd ..
+git clone git@gitlab.sho.hypereal.com:go/http-hello.git
+vim
+cd http-hello/
+vim
+cd ~
+ls
+vim .vimrc
+\ssh -p 12341 gjs@registry-corp.hypereal.com
+\ssh -p 20001 gjs@registry-corp.hypereal.com
+sudo docker run --name jms_all -d -p 80:80 -p 2222:2222 -e SECRET_KEY=$SECRET_KEY -e BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN jumpserver/jms_all:latest
+docker pull registry.jumpserver.org/public/jumpserver:1.0.0
+ssh -p 8001 admin@127.0.0.1
+docker exec -it jms_all /bin/bash
+ssh -p 8001 admin@127.0.0.1
+\ssh -p 8001 admin@127.0.0.1
+\ssh -p 8001 admin@10.0.10.63
+docker exec -it jms_all /bin/bash
+docker exec -it -v ~:/root jms_all /bin/bash
+docker exec -it jms_all /bin/bash -v ~:/root
+docker exec -v ~:/root -it jms_all /bin/bash
+docker exec v ~:/root -it jms_all /bin/bash
+docker exec  -it jms_all /bin/bash
+docker ps -a
+docker ps | grep jump
+docker rm -f 524a0c9d9b3f
+cd fc/sshproxy/
+ls
+vim config.sh 
+go
+go mod
+go env
+vim .bash_profile 
+cd /usr/local
+ls
+cd g
+cd go/
+ls
+gocode
+go get -u github.com/nsf/gocode
+gocode close
+go get -u -v github.com/mdempsky/gocode
+gocode close
+gocode
+gocode start
+gocode --help
+which gocode
+cd /home/gjs/go/bin
+ls
+ll
+ls
+cd ..
+ls
+cd ..
+ls
+gocode close
+cd ~
+ls
+vim .vimrc
+ls
+vim .vimrc
+sudo apt install build-essential cmake python3-dev
+ssh -o "StrictHostKeyChecking no" -p 17782 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16606 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16837 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16606 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18928 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14566 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17627 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11625 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14210 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11013 hypereal@registry-corp.hypereal.com
+vim ~/.vimrc
+vim .vimrc
+vim ~/.vimrc
+go get github.com/saibing/bingo
+go env
+go env | grep GO111MODULE
+go get -v github.com/veandco/go-sdl2/sdl
+ls
+vim
+vim ~/.vimrc
+vim .vimrc
+vim ~/.vimrc
+vim
+gocode close
+gocde -s
+gocode -s
+go get -u -v github.com/nsf/gocode
+gocode -s

@@ -288,7 +288,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1556146188
+check-timestamp=int64 1556232588
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
@@ -320,7 +320,7 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=222
-window-position=(2372, 264)
+window-position=(2372, 186)
 show-size-column=true
 show-hidden=false
 window-size=(1086, 581)
@@ -502,10 +502,10 @@ show-hud=['disabled']
 
 [apps/update-manager]
 first-run=false
-launch-time=int64 1555020912
+launch-time=int64 1556231448
 window-height=540
 show-details=true
-launch-count=7
+launch-count=8
 window-width=1008
 
 [com/canonical/indicator/datetime]
@@ -546,7 +546,7 @@ favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chr
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14
-release-check-time=uint32 1554991089
+release-check-time=uint32 1556200725
 
 [com/ubuntu/user-interface]
 scale-factor={'DP-4': 10, 'DP-2': 10, 'DP-0': 10}

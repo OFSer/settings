@@ -1,7 +1,13 @@
 "----------------------------Plug------------------------------"
-"call plug#begin('~/.vim/plugged')
+call plug#begin('~/.vim/plugged')
 "Plug 'lervag/vimtex'
-"call plug#end()
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+autocmd FileType go nmap <silent> <c-]> <Plug>(go-def-tab)
+Plug 'Valloric/YouCompleteMe'
+let g:ycm_server_python_interpreter='/usr/bin/python3'
+let g:ycm_global_ycm_extra_conf='/home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
+"autocmd FileType go nnoremap <buffer> <C-]> :GoDef<CR>
+call plug#end()
 "--------------------------------------------------------------"
 syntax on
 set noswapfile
@@ -136,7 +142,7 @@ endfunc
 "--------------------------Options-----------------------------------"
 set ai
 set nu
-"set ts=2
+set ts=2
 set sw=2
 set ma
 set mouse=a

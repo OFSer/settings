@@ -1,2 +1,4 @@
 [user]
 	email = chinnkarahoi@gmail.com
+[url "git@gitlab.sho.hypereal.com:"]
+	insteadOf = http://gitlab.sho.hypereal.com/

@@ -122,10 +122,10 @@ fi
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US
 export LC_ALL=en_US.utf8
-export PATH="$PATH:/usr/lib/go/bin"
 export GOPATH="/home/gjs/go"
-export GOROOT="/usr/lib/go"
-export PATH="$PATH:/home/gjs/go/bin"
+export GOROOT="/usr/local/go" #go1.12.1
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+#export GOROOT="/usr/lib/go"  #go1.10
 alias gitamp=$'git add . && git commit -m "upd `git diff-index --name-only HEAD | sed \':a;N;$!ba;s/\\n/,/g;\'`" && git push origin'
 export PATH="/home/gjs/anaconda3/bin:$PATH"
 alias sss="sshpass -p root ssh root@dl-6 -p 30263 -t 'bash --login'"
