@@ -268,7 +268,7 @@ theme-variant='system'
 next-tab='<Primary>Tab'
 move-tab-right='<Primary><Shift><Alt>l'
 prev-tab='<Primary><Shift>Tab'
-close-tab='<Primary>w'
+close-tab='<Primary><Shift>w'
 move-tab-left='<Primary><Shift><Alt>h'
 new-tab='<Primary>t'
 

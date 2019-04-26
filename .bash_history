@@ -22007,3 +22007,560 @@ gocde -s
 gocode -s
 go get -u -v github.com/nsf/gocode
 gocode -s
+ssh -o "StrictHostKeyChecking no" -p 11148 hypereal@registry-corp.hypereal.com
+vim ~/.vimrc
+git status
+cd ~
+git status
+git diff
+git status
+./config.sh push
+vim .vimrc
+ls
+git status
+git checkout -- .vimrc
+vim .vimrc
+python
+which python 
+jobs
+fg
+ls
+git status
+git diff
+./config.sh push
+vim .vimrc
+cd test/
+ls
+cd cp
+cd cpp/
+ls
+vim 1.cpp
+cd ~
+ls
+cd -
+ls
+vim 1.cpp
+vim 2.cpp
+vim 1.cpp
+ls
+vim 1.cpp
+ls
+vim 1.cpp
+cd ~
+ls
+cd fc/
+ls
+vim
+ls
+cd saki_detection/
+vim
+vim 1.cpp
+pwd
+cd ~
+ls
+cd fc/
+ls
+vim
+cd flaw_checker/
+ls
+vim
+ls
+cd ..
+ls
+cd saki_detection/
+ls
+vim
+ls
+vim 
+cd ~
+vim .vimrc
+vim config.sh 
+cd ~/.vim/plugged/YouCompleteMe
+python3 install.py --go-completer 
+python3 install.py –gocode-completer
+python3 install.py -–gocode-completer
+python3 install.py -clang-completer
+python3 install.py --clang-completer
+python3 install.py --clang-completer --gocode-completer --go-completer
+ls
+jobs
+vim ~/.vimrc
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+cd ~/.vim/plugged/YouCompleteMe
+ls
+python3 install.py --all
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+vim 2.cpp
+ls
+vim 1.c
+cd ~
+vim .vimrc
+ls
+cp ~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py  ~/.vim
+cd .vim/
+ls
+cd plugged/
+ls
+cd YouCompleteMe/
+ls
+cd third_party/
+ls
+cd ycmd/
+ls
+cd examples/
+ls
+ls -a
+pwd
+vim /home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py
+ls
+cd ~/.vim/plugged/
+ls
+cd YouCompleteMe/
+ls
+cd ..
+cd. .
+ls
+cd ..
+ls
+ls -a
+cd plugged/
+ls
+ls -a
+cd YouCompleteMe/
+ls -a
+vim .ycm_extra_conf.py 
+ls
+cd ~
+ls
+cd .vim/plugged/
+ls
+cd YouCompleteMe/
+pwd
+ls -a
+ls -a | grep .ycm_extra_conf.py 
+ls
+vim .ycm_extra_conf.py 
+ls
+cd third_party/
+ls
+cd ycmd/
+ls
+ls -a
+cd examples/
+ls
+ls -a
+cd ..
+ls
+ls -a
+pwd
+ls
+cd cpp/
+ls
+cd ycm/
+ls
+cd ..
+ls
+cd ycm/
+ls
+ls -a
+ls .ycm
+ls -a
+ls | grep ycm_extra_conf
+ls | grep ycm
+ls
+cd ..
+ls
+cd ..
+ls
+cd ycmd/
+ls
+vim .ycm_extra_conf.py 
+ls
+cd ..
+ls
+cd ..
+ls
+ls -a
+vim .ycm_extra_conf.py 
+cd ..
+ls
+vim .ycm_extra_conf.py
+ls
+cd plugged/
+ls
+cd YouCompleteMe/
+ls
+cd third_party/
+ls
+cd ycmd/
+ls
+cd ..
+find . |grep ycm_extra_conf
+sysctl -a | grep range
+ls
+afsd \ asd f
+ls asdf     \
+ghci
+type ssh60
+ssh60
+compgen ls
+compgen 
+compgen --help
+history | grep compgen
+compgen -ac ls ab
+compgen -ac ls
+compgen -ac 'ls -ab'
+compgen --help
+man compgen
+compgen
+compgen -a
+compgen -c
+ls
+cd ..
+ls
+cd detection-machine-daemon/
+ls
+git pull
+git status
+git checkout master
+git status
+git branch
+git status
+git pull
+git status
+git checkout -b jumpserver
+git sttatus
+git status
+ls
+cd ..
+ls
+cd sshproxy/
+ls
+vim
+ls
+cd ..
+ls
+mv sshproxy/ http-dhcp-server
+ls
+cd http-dhcp-server/
+ls
+cd ..
+ls
+cd http-dhcp-server/
+ls
+./http-hello 
+ls
+vim
+ls
+vim
+ls
+vim
+vim 
+vim
+vim main.go 
+vim --version
+vim main.go 
+sudo apt install vim
+sudo apt-cache madison
+sudo apt-cache madison vim
+sudo apt install vim=2:8.0.1453-1ubuntu1
+sudo apt install vim==2:8.0.1453-1ubuntu1
+sudo apt install vim=2:8.0.1453-1ubuntu1
+sudo apt install vim
+sudo apt install vim=8.0.1453
+sudo apt install vim=2:8.0.1453-1ubuntu1
+sudo apt install -f vim=2:8.0.1453-1ubuntu1
+sudo aptitude install vim=2:8.0.1453-1ubuntu1
+sudo apt install vim=2:8.0.1453-1ubuntu1
+sudo apt remove vim
+sudo apt install vim
+vim
+ls
+cd ~
+ls
+git status
+git checkout -- .vimrc
+git stauts
+vim
+ls
+vim .vimrc
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim
+sudo apt purge vim
+sudo apt remove --purge vim
+sudo apt install vim=2:8.0.1453-1ubuntu1
+sudo aptitude install vim=2:8.0.1453-1ubuntu1
+ls
+vim
+vim --version
+sudo apt install vim
+ls
+vim
+vim main.go 
+grant all on jumpserver.* to 'jumpserver'@'%' identified by 'weakPassword';
+mysql
+mysql -u root -p 
+sudo mysql -u root -p 
+sudo mysql -h 127.0.0.1 -u root -p 
+sudo mysql -h 10.0.10.63 -u root -p 
+sudo mysql -h 127.0.0.1 -u root -p 
+sudo mysql -h 127.0.0.1 -u gjs -p 
+sudo mysql
+sudo mysql -h 127.0.0.1 -u gjs -p 
+sudo mysql -h 127.0.0.1 -u root -p 
+sudo mysql  -u root -p 
+sudo mysql  -u jumpserver -p 
+sudo mysql -h 127.0.0.1 -u jumpserver -p 
+mysql -h 127.0.0.1 -u jumpserver -p 
+mysql -u jumpserver -p 
+sudo mysql -u jumpserver -p 
+sudo mysql  -u jumpserver -p 
+sudo mysql-u jumpserver -p 
+sudo mysql -u jumpserver -p 
+sudo mysql -u jumpserver -p
+sudo mysql -u gjs -p
+mysql -u gjs -p
+mysql
+sudo mysql
+sudo mysql -u jumpserver -p
+sudo mysql -h 127.0.0.1 -u jumpserver -p
+sudo mysql
+sudo mysql -h 127.0.0.1 -u jumpserver -p
+sudo mysql -u jumpserver -p
+sudo mysql -h 127.0.0.1 -u jumpserver -p
+sudo mysql -h 127.0.0.1 -u root -p
+sudo mysql -h 10.0.10.63 -u root -p
+sudo mysql -h 127.0.0.1 -u root -p
+sudo mysql
+sudo mysql -e FLUSH ALL PRIVILEGES;
+sudo mysql
+sudo mysql -h 127.0.0.1 -u root -p
+sudo mysql -h 10.0.10.63 -u root -p
+sudo mysql 
+sudo mysql -h 10.0.10.63 -u root -p
+sudo mysql -h 10.0.10.63 -u root
+sudo mysql -h 10.0.10.63 -u root -p
+sudo service mysql restart
+sudo mysql -h 10.0.10.63 -u root -p
+sudo service mysql stop
+sudo mysqld_safe 
+sudo mysql -h 10.0.10.63 -u root -p
+sudo service mysql start
+mysql -u root
+sudo mysql -u root
+mysql --version
+mysql
+mysql -p
+sudo mysql
+mysql -u gjs
+mysql -u gjs -p
+mysql -u jumpserver -p
+sudo mysql
+mysql -u jumpserver -p
+sudo mysql -u jumpserver -p
+sudo mysql
+sudo mysql -u jumpserver -p
+sudo mysql -h 127.0.0.1 -u jumpserver -p
+mysql
+go env
+cd fc/http-hello/
+ls
+go mod
+go get -v -insecure
+go get -v -u github.com/swaggo/swag/cmd/swag
+swag init
+go get -v -insecure
+go build -v
+ls
+go build -v
+ls
+ls
+cd ~
+ls
+cd go/
+ls
+cd src/
+ls
+cd ..
+ls
+cd pkg/
+ls
+cd mod/
+ls
+cd ..
+ls
+rm -rf *
+sudo rm -rf *
+ls
+cd ..
+ls
+cd src
+ls
+cd go
+cd golang
+ls
+cd ..
+ls
+sudo rm -rf *
+ls
+cd ..
+ls
+cd ..
+cd ~-1
+cd ~-2
+cd ~-3
+cd ~-4
+cd ~-5
+cd ~/fc/
+ls
+cd http-hello/
+ls
+go get -v -u github.com/swaggo/swag/cmd/swag
+go version
+go env
+ls
+cd ..
+ls
+mv http-hello/ ../go/src/
+ls
+cd ..
+ls
+cd go/src/
+ls
+cd http-hello/
+ls
+go get -v -u github.com/swaggo/swag/cmd/swag
+go env
+vim ~/.bashrc
+ls
+go get -v -u github.com/swaggo/swag/cmd/swag
+go mod
+go env
+ls
+cd ..
+ls
+cd ..
+ls
+cd pkg/
+ls
+cd ..
+ls
+cd src/
+ls
+go get -v -u github.com/swaggo/swag/cmd/swag
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+ls
+cd http-hello/
+swag init
+go get -v -insecure
+go mod
+go get -v -insecure
+go build -v
+go mod
+go build -v
+swag init
+ls
+ll
+pwd
+mkdir ~/work
+cd ~/work/
+ls
+mv ~/go/src/http-hello .
+ls
+cd http-hello/
+ls
+go build .
+go get -v -insecure
+go build .
+go build -v
+ls
+go build -v
+swag init
+go get -v -u github.com/swaggo/swag/cmd/swag
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+swag init
+go get -v -insecure
+go version
+rm -vfr /home/gjs/go/pkg/mod/github.com/ugorji/go@v1.1.4/codec
+go get -v -insecure
+sudo rm -rf /home/gjs/go/pkg/mod/github.com/ugorji/go@v1.1.4/codec
+sudo rm -rf /home/gjs/go/pkg/mod/github.com/ugorji/go/codec@v0.0.0-20190320090025-2dc34c0b8780
+go get -v -insecure
+go build -v
+ls
+./http-hello 
+ls
+cd ..
+ls
+cd http-hello/
+ls
+cp * ../../fc/sshproxy/
+cp -r * ../../fc/sshproxy/
+ls
+cd ..
+ls
+mv http-hello/ ../fc/
+ls
+cd ..
+cd fc/
+ls
+cd http-
+cd http-hello/
+go build .
+ls
+rm http-hello 
+go build .
+go build -v
+ls
+git status
+git pull
+git status
+git diff
+git  status
+git reset HEAD --hard
+git status
+ls
+rm http-hello 
+git status
+ls
+git branch
+git checkout -b dev
+git status
+vim README.md 
+git staus
+git diff
+git add .
+git commit -m "fix README"
+git push
+git push --set-upstream origin dev
+git branch
+git push --set-upstream origin dev
+moc
+mocp
+go help modules
+cd fc/
+ls
+cd saki_detection/
+ls
+vim 1.cpp 
