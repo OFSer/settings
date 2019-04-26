@@ -2,10 +2,13 @@
 call plug#begin('~/.vim/plugged')
 "Plug 'lervag/vimtex'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-autocmd FileType go nmap <silent> <c-]> <Plug>(go-def-tab)
+autocmd FileType go noremap <silent> <c-]> <Plug>(go-def-tab)
 Plug 'Valloric/YouCompleteMe'
-let g:ycm_server_python_interpreter='/usr/bin/python3'
-let g:ycm_global_ycm_extra_conf='/home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
+let g:ycm_server_python_interpreter='/home/gjs/anaconda3/bin/python'
+"let g:ycm_global_ycm_extra_conf='/home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf='/home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
+let g:ycm_add_preview_to_completeopt = 0
+"let ycm_autoclose_preview_window_after_completion=1
 "autocmd FileType go nnoremap <buffer> <C-]> :GoDef<CR>
 call plug#end()
 "--------------------------------------------------------------"
