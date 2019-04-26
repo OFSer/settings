@@ -14,6 +14,9 @@ set completeopt-=preview
 Plug 'octol/vim-cpp-enhanced-highlight'
 call plug#end()
 "--------------------------------------------------------------"
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_extra_types = 1
 syntax on
 set noswapfile
 let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')

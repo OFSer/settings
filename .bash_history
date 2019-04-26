@@ -22564,3 +22564,6 @@ ls
 cd saki_detection/
 ls
 vim 1.cpp 
+cd $GOROOT/misc/vim
+cd $GOROOT/misc/
+ls
