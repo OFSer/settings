@@ -22567,3 +22567,51 @@ vim 1.cpp
 cd $GOROOT/misc/vim
 cd $GOROOT/misc/
 ls
+cd ~
+ls
+vim .vimrc
+cd .vim/
+ls
+cd plugged/
+ls
+cd YouCompleteMe/
+ls
+cd /third_party/ycmd
+cd third_party/ycmd/
+ls
+git checkout master
+git status
+git pull
+git submodule update --init --recursive
+./build.py --go-completer
+ls
+cd third_party/
+ls
+rm -rf gocode/
+ls
+cd ..
+ls
+./build.py --go-completer
+cd ~
+vim .vimrc
+git status
+./config.sh push
+vim .vimrc
+./config.sh push
+vim .vimrc
+git status
+fg
+vim .vimrc
+git status
+git checkout -- .vimrc
+vim .vimrc
+git checkout -- .vimrc
+vim .vimrc
+ls
+git status
+git diff
+vim .vimrc
+gedit .vimrc
+git checkout -- .vimrc
+vim .vimrc
+ls

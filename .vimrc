@@ -1,9 +1,4 @@
-let c='a'
-while c <= 'z'
-  exec "set <A-".c.">=\e".c
-  exec "imap \e".c." <A-".c.">"
-  let c = nr2char(1+char2nr(c))
-endw
+
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
 "Plug 'lervag/vimtex'
@@ -11,7 +6,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 let g:go_fmt_fai_silently = 0
 let g:go_doc_keywordprg_enabled = 0
-au FileType go nmap <M-d> <Plug>(go-def-tab)
+au FileType go nmap d <Plug>(go-def-tab)
 Plug 'Valloric/YouCompleteMe'
 let g:ycm_server_python_interpreter='/home/gjs/anaconda3/bin/python'
 let g:ycm_global_ycm_extra_conf='/home/gjs/.vim/.ycm_extra_conf.py'
@@ -113,8 +108,8 @@ func Bufferbash()
 		endif
 	endif
 endfunc
-tnoremap <silent> <M-\> <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
-nnoremap <silent> <M-\> :call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> \ <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> \ :call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
 function MyTabLabel(n)
 	let buflist = tabpagebuflist(a:n)
 	let winnr = len(buflist)
@@ -384,9 +379,9 @@ func TabEn()
 	endif
 	exe "Lex"
 endfunc
-inoremap <silent> <M-e> <esc>:call Toggle()<cr>:call MoveLeft()<cr>
-nnoremap <silent> <M-e> :call Toggle()<CR>:call MoveLeft()<cr>
-tnoremap <silent> <M-e> <c-\><c-n>:call Toggle()<CR>:call MoveLeft()<cr>
+inoremap <silent> e <esc>:call Toggle()<cr>:call MoveLeft()<cr>
+nnoremap <silent> e :call Toggle()<CR>:call MoveLeft()<cr>
+tnoremap <silent> e <c-\><c-n>:call Toggle()<CR>:call MoveLeft()<cr>
 autocmd! TabNew * silent call TabNw()
 "autocmd! TabEnter * call TabEn() | call TabEn()
 "--------------------------Jump--------------------------------------"
@@ -415,7 +410,7 @@ vnoremap <c-c> "+y
 vnoremap <c-x> "+d
 "--------------------------bash-----------------------------------"
 tnoremap <c-\> <c-\><c-n>
-"noremap <silent> <M-;> :below term<CR>
+"noremap <silent> ; :below term<CR>
 "--------------------------Tab-----------------------------------"
 func Tervspl()
 	if bufname('%') != 'Togglebash'
@@ -431,47 +426,47 @@ func Terspl()
 	endif
 	call feedkeys('i')
 endfunc
-inoremap <silent> <M-L> <esc>:tabm +<cr>i
-nnoremap <silent> <M-L> <esc>:tabm +<cr>
-tnoremap <silent> <M-L> <c-\><c-n>:tabm +<cr>i
+inoremap <silent> L <esc>:tabm +<cr>i
+nnoremap <silent> L <esc>:tabm +<cr>
+tnoremap <silent> L <c-\><c-n>:tabm +<cr>i
 
-inoremap <silent> <M-H> <esc>:tabm -<cr>i
-nnoremap <silent> <M-H> <esc>:tabm -<cr>
-tnoremap <silent> <M-H> <c-\><c-n>:tabm -<cr>i
+inoremap <silent> H <esc>:tabm -<cr>i
+nnoremap <silent> H <esc>:tabm -<cr>
+tnoremap <silent> H <c-\><c-n>:tabm -<cr>i
 
-inoremap <silent> <M-,> <esc>gT:call Terins()<cr>
-nnoremap <silent> <M-,> <esc>gT:call Terins()<cr>
-tnoremap <silent> <M-,> <c-\><c-n>gT:call Terins()<cr>
-inoremap <silent> <M-.> <esc>gt:call Terins()<cr>
-nnoremap <silent> <M-.> <esc>gt:call Terins()<cr>
-tnoremap <silent> <M-.> <c-\><c-n>gt:call Terins()<cr>
-inoremap <silent> <M-<> <esc>gT
-nnoremap <silent> <M-<> <esc>gT
-tnoremap <silent> <M-<> <c-\><c-n>gT
-inoremap <silent> <M->> <esc>gt
-nnoremap <silent> <M->> <esc>gt
-tnoremap <silent> <M->> <c-\><c-n>gt
-nnoremap <silent> <M-t> :tab term bash<cr>
-inoremap <silent> <M-t> <esc>:tab term bash<cr>
-tnoremap <silent> <M-t> <c-\><c-n>:tab term bash<cr>
-tnoremap <silent> <M--> <c-\><c-n>:call Terspl()<cr>
+inoremap <silent> , <esc>gT:call Terins()<cr>
+nnoremap <silent> , <esc>gT:call Terins()<cr>
+tnoremap <silent> , <c-\><c-n>gT:call Terins()<cr>
+inoremap <silent> . <esc>gt:call Terins()<cr>
+nnoremap <silent> . <esc>gt:call Terins()<cr>
+tnoremap <silent> . <c-\><c-n>gt:call Terins()<cr>
+inoremap <silent> < <esc>gT
+nnoremap <silent> < <esc>gT
+tnoremap <silent> < <c-\><c-n>gT
+inoremap <silent> > <esc>gt
+nnoremap <silent> > <esc>gt
+tnoremap <silent> > <c-\><c-n>gt
+nnoremap <silent> t :tab term bash<cr>
+inoremap <silent> t <esc>:tab term bash<cr>
+tnoremap <silent> t <c-\><c-n>:tab term bash<cr>
+tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
 "--------------------------WindowMap-------------------------------"
-nnoremap <silent>  <M-h> <c-w>h:call Terins()<cr>
-nnoremap <silent>  <M-j> <c-w>j:call Terins()<cr>
-nnoremap <silent>  <M-k> <c-w>k:call Terins()<cr>
-nnoremap <silent>  <M-l> <c-w>l:call Terins()<cr>
-"nnoremap <silent>  <M-w><M-w> <c-w>w:call Terins()<cr>
-tnoremap <silent>  <M-h> <c-\><c-n><c-w>h:call Terins()<cr>
-tnoremap <silent>  <M-j> <c-\><c-n><c-w>j:call Terins()<cr>
-tnoremap <silent>  <M-k> <c-\><c-n><c-w>k:call Terins()<cr>
-tnoremap <silent>  <M-l> <c-\><c-n><c-w>l:call Terins()<cr>
-"tnoremap <silent>  <M-w><M-w> <c-w>w:call Terins()<cr>
-"inoremap <silent>  <M-w> <esc><c-w>:call Terins()<cr>
-inoremap <silent>  <M-h> <esc><c-w>h:call Terins()<cr>
-inoremap <silent>  <M-j> <esc><c-w>j:call Terins()<cr>
-inoremap <silent>  <M-k> <esc><c-w>k:call Terins()<cr>
-inoremap <silent>  <M-l> <esc><c-w>l:call Terins()<cr>
-"inoremap <silent>  <M-w><M-w> <esc><c-w>w:call Terins()<cr>
+nnoremap <silent>  h <c-w>h:call Terins()<cr>
+nnoremap <silent>  j <c-w>j:call Terins()<cr>
+nnoremap <silent>  k <c-w>k:call Terins()<cr>
+nnoremap <silent>  l <c-w>l:call Terins()<cr>
+"nnoremap <silent>  ww <c-w>w:call Terins()<cr>
+tnoremap <silent>  h <c-\><c-n><c-w>h:call Terins()<cr>
+tnoremap <silent>  j <c-\><c-n><c-w>j:call Terins()<cr>
+tnoremap <silent>  k <c-\><c-n><c-w>k:call Terins()<cr>
+tnoremap <silent>  l <c-\><c-n><c-w>l:call Terins()<cr>
+"tnoremap <silent>  ww <c-w>w:call Terins()<cr>
+"inoremap <silent>  w <esc><c-w>:call Terins()<cr>
+inoremap <silent>  h <esc><c-w>h:call Terins()<cr>
+inoremap <silent>  j <esc><c-w>j:call Terins()<cr>
+inoremap <silent>  k <esc><c-w>k:call Terins()<cr>
+inoremap <silent>  l <esc><c-w>l:call Terins()<cr>
+"inoremap <silent>  ww <esc><c-w>w:call Terins()<cr>
 "--------------------------TabClose---------------------------"
 func Tabclose()
 	if tabpagenr('$')==1 
@@ -482,8 +477,8 @@ func Tabclose()
 	call Del()
 	call CloseNetrw()
 endfunc
-tnoremap <silent> <M-c> <c-\><c-n>:call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
-nnoremap <silent> <M-c> :call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
+tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
+nnoremap <silent> c :call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Save&&Quit-------------------------"
 func Close()
 	let nr=bufnr('%')
@@ -509,10 +504,10 @@ func Close()
 		silent! exe "bw! ".nr
 	endif
 endfunc
-"tnoremap <silent> <M-w> w
-"tnoremap <silent> <M-w> <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
-nnoremap <silent> <M-w> :call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
-"tnoremap <silent> <M-w> <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
+"tnoremap <silent> w w
+"tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
+nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
+"tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Quit-------------------------------"
 func Quit()
 	let nr=bufnr('%')
@@ -557,8 +552,8 @@ func Back()
 		call feedkeys("gT")
 	endif
 endfunc
-tnoremap <silent> <M-q> <c-\><c-n>:call Quit()<cr>:call Back()<cr>:call Terins()<cr>
-nnoremap <silent> <M-q> :call Quit()<cr>:call Back()<cr>:call Terins()<cr>
+tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call Back()<cr>:call Terins()<cr>
+nnoremap <silent> q :call Quit()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Compile&&Run-------------------------------"
 "map <silent> <F3> :call Bomp()<CR>
 "func Bomp()
@@ -612,15 +607,15 @@ func CloseTogglebash()
 		silent! exe 'bw! Toggle!bash'
 	endif
 endfunc
-inoremap <silent> <M-;> <esc>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-nnoremap <silent> <M-;> :call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-tnoremap <silent> <M-;> <c-\><c-n>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-inoremap <silent> <M-:> <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-nnoremap <silent> <M-:> :call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-tnoremap <silent> <M-:> <c-\><c-n>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-"inoremap <silent> <M-;> <esc>:call Togglebash()<CR>
-"nnoremap <silent> <M-;> :call Togglebash()<CR>
-"tnoremap <silent> <M-;> <c-\><c-n>:call Togglebash()<CR>
+inoremap <silent> ; <esc>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> ; :call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+inoremap <silent> : <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> : :call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+"inoremap <silent> ; <esc>:call Togglebash()<CR>
+"nnoremap <silent> ; :call Togglebash()<CR>
+"tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>
 "--------------------------BufferSwitch---------------------------"
 func Switch(r)
 	if tabpagenr() != 1
@@ -648,12 +643,12 @@ func Switch(r)
 		exe "b! ".Prev(cur)
 	endif
 endfunc
-tnoremap <silent> <M-n> n
-tnoremap <silent> <M-p> p
-nnoremap <silent> <M-n> :call Switch(0)<cr>
-inoremap <silent> <M-n> <esc>:call Switch(0)<cr>
-nnoremap <silent> <M-p> :call Switch(1)<cr>
-inoremap <silent> <M-p> <esc>:call Switch(1)<cr>
+tnoremap <silent> n n
+tnoremap <silent> p p
+nnoremap <silent> n :call Switch(0)<cr>
+inoremap <silent> n <esc>:call Switch(0)<cr>
+nnoremap <silent> p :call Switch(1)<cr>
+inoremap <silent> p <esc>:call Switch(1)<cr>
 "--------------------------Trash-------------------------------"
 "inoremap } }<ESC>==A
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
