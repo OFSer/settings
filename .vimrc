@@ -1,3 +1,9 @@
+let c='a'
+while c <= 'z'
+  exec "set <A-".c.">=\e".c
+  exec "imap \e".c." <A-".c.">"
+  let c = nr2char(1+char2nr(c))
+endw
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
 "Plug 'lervag/vimtex'
@@ -5,13 +11,72 @@ call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 let g:go_fmt_fai_silently = 0
 let g:go_doc_keywordprg_enabled = 0
-au FileType go nmap d <Plug>(go-def-tab)
+au FileType go nmap <M-d> <Plug>(go-def-tab)
 Plug 'Valloric/YouCompleteMe'
 let g:ycm_server_python_interpreter='/home/gjs/anaconda3/bin/python'
 let g:ycm_global_ycm_extra_conf='/home/gjs/.vim/.ycm_extra_conf.py'
 let g:ycm_autoclose_preview_window_after_completion=1
 set completeopt-=preview
 Plug 'octol/vim-cpp-enhanced-highlight'
+" Vim 中文文档
+Plug 'yianwillis/vimcdoc'
+
+" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+" 可以快速对齐的插件
+Plug 'junegunn/vim-easy-align'
+
+" 用来提供一个导航目录的侧边栏
+Plug 'scrooloose/nerdtree'
+
+" 可以使 nerdtree Tab 标签的名称更友好些
+Plug 'jistr/vim-nerdtree-tabs'
+
+" 可以在导航目录中看到 git 版本信息
+Plug 'Xuyuanp/nerdtree-git-plugin'
+
+" 查看当前代码文件中的变量和函数列表的插件，
+" 可以切换和跳转到代码中对应的变量和函数的位置
+" 大纲式导航, Go 需要 https://github.com/jstemmer/gotags 支持
+Plug 'majutsushi/tagbar'
+
+" 自动补全括号的插件，包括小括号，中括号，以及花括号
+Plug 'jiangmiao/auto-pairs'
+
+" Vim状态栏插件，包括显示行号，列号，文件类型，文件名，以及Git状态
+Plug 'vim-airline/vim-airline'
+
+" 有道词典在线翻译
+Plug 'ianva/vim-youdao-translater'
+
+" 代码自动完成，安装完插件还需要额外配置才可以使用
+Plug 'Valloric/YouCompleteMe'
+
+" 可以在文档中显示 git 信息
+Plug 'airblade/vim-gitgutter'
+
+
+" 下面两个插件要配合使用，可以自动生成代码块
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+" 配色方案
+" colorscheme neodark
+Plug 'KeitaNakamura/neodark.vim'
+" colorscheme monokai
+Plug 'crusoexia/vim-monokai'
+" colorscheme github 
+Plug 'acarapetis/vim-colors-github'
+" colorscheme one 
+Plug 'rakr/vim-one'
+
+" go 主要插件
+Plug 'fatih/vim-go', { 'tag': '*' }
+" go 中的代码追踪，输入 gd 就可以自动跳转
+Plug 'dgryski/vim-godef'
+
+" markdown 插件
+Plug 'iamcco/mathjax-support-for-mkdp'
+Plug 'iamcco/markdown-preview.vim'
 call plug#end()
 "--------------------------------------------------------------"
 let g:go_highlight_functions = 1
@@ -48,8 +113,8 @@ func Bufferbash()
 		endif
 	endif
 endfunc
-tnoremap <silent> \ <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
-nnoremap <silent> \ :call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> <M-\> <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> <M-\> :call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
 function MyTabLabel(n)
 	let buflist = tabpagebuflist(a:n)
 	let winnr = len(buflist)
@@ -319,9 +384,9 @@ func TabEn()
 	endif
 	exe "Lex"
 endfunc
-inoremap <silent> e <esc>:call Toggle()<cr>:call MoveLeft()<cr>
-nnoremap <silent> e :call Toggle()<CR>:call MoveLeft()<cr>
-tnoremap <silent> e <c-\><c-n>:call Toggle()<CR>:call MoveLeft()<cr>
+inoremap <silent> <M-e> <esc>:call Toggle()<cr>:call MoveLeft()<cr>
+nnoremap <silent> <M-e> :call Toggle()<CR>:call MoveLeft()<cr>
+tnoremap <silent> <M-e> <c-\><c-n>:call Toggle()<CR>:call MoveLeft()<cr>
 autocmd! TabNew * silent call TabNw()
 "autocmd! TabEnter * call TabEn() | call TabEn()
 "--------------------------Jump--------------------------------------"
@@ -350,7 +415,7 @@ vnoremap <c-c> "+y
 vnoremap <c-x> "+d
 "--------------------------bash-----------------------------------"
 tnoremap <c-\> <c-\><c-n>
-"noremap <silent> ; :below term<CR>
+"noremap <silent> <M-;> :below term<CR>
 "--------------------------Tab-----------------------------------"
 func Tervspl()
 	if bufname('%') != 'Togglebash'
@@ -366,47 +431,47 @@ func Terspl()
 	endif
 	call feedkeys('i')
 endfunc
-inoremap <silent> L <esc>:tabm +<cr>i
-nnoremap <silent> L <esc>:tabm +<cr>
-tnoremap <silent> L <c-\><c-n>:tabm +<cr>i
+inoremap <silent> <M-L> <esc>:tabm +<cr>i
+nnoremap <silent> <M-L> <esc>:tabm +<cr>
+tnoremap <silent> <M-L> <c-\><c-n>:tabm +<cr>i
 
-inoremap <silent> H <esc>:tabm -<cr>i
-nnoremap <silent> H <esc>:tabm -<cr>
-tnoremap <silent> H <c-\><c-n>:tabm -<cr>i
+inoremap <silent> <M-H> <esc>:tabm -<cr>i
+nnoremap <silent> <M-H> <esc>:tabm -<cr>
+tnoremap <silent> <M-H> <c-\><c-n>:tabm -<cr>i
 
-inoremap <silent> , <esc>gT:call Terins()<cr>
-nnoremap <silent> , <esc>gT:call Terins()<cr>
-tnoremap <silent> , <c-\><c-n>gT:call Terins()<cr>
-inoremap <silent> . <esc>gt:call Terins()<cr>
-nnoremap <silent> . <esc>gt:call Terins()<cr>
-tnoremap <silent> . <c-\><c-n>gt:call Terins()<cr>
-inoremap <silent> < <esc>gT
-nnoremap <silent> < <esc>gT
-tnoremap <silent> < <c-\><c-n>gT
-inoremap <silent> > <esc>gt
-nnoremap <silent> > <esc>gt
-tnoremap <silent> > <c-\><c-n>gt
-nnoremap <silent> t :tab term bash<cr>
-inoremap <silent> t <esc>:tab term bash<cr>
-tnoremap <silent> t <c-\><c-n>:tab term bash<cr>
-tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
+inoremap <silent> <M-,> <esc>gT:call Terins()<cr>
+nnoremap <silent> <M-,> <esc>gT:call Terins()<cr>
+tnoremap <silent> <M-,> <c-\><c-n>gT:call Terins()<cr>
+inoremap <silent> <M-.> <esc>gt:call Terins()<cr>
+nnoremap <silent> <M-.> <esc>gt:call Terins()<cr>
+tnoremap <silent> <M-.> <c-\><c-n>gt:call Terins()<cr>
+inoremap <silent> <M-<> <esc>gT
+nnoremap <silent> <M-<> <esc>gT
+tnoremap <silent> <M-<> <c-\><c-n>gT
+inoremap <silent> <M->> <esc>gt
+nnoremap <silent> <M->> <esc>gt
+tnoremap <silent> <M->> <c-\><c-n>gt
+nnoremap <silent> <M-t> :tab term bash<cr>
+inoremap <silent> <M-t> <esc>:tab term bash<cr>
+tnoremap <silent> <M-t> <c-\><c-n>:tab term bash<cr>
+tnoremap <silent> <M--> <c-\><c-n>:call Terspl()<cr>
 "--------------------------WindowMap-------------------------------"
-nnoremap <silent>  h <c-w>h:call Terins()<cr>
-nnoremap <silent>  j <c-w>j:call Terins()<cr>
-nnoremap <silent>  k <c-w>k:call Terins()<cr>
-nnoremap <silent>  l <c-w>l:call Terins()<cr>
-"nnoremap <silent>  ww <c-w>w:call Terins()<cr>
-tnoremap <silent>  h <c-\><c-n><c-w>h:call Terins()<cr>
-tnoremap <silent>  j <c-\><c-n><c-w>j:call Terins()<cr>
-tnoremap <silent>  k <c-\><c-n><c-w>k:call Terins()<cr>
-tnoremap <silent>  l <c-\><c-n><c-w>l:call Terins()<cr>
-"tnoremap <silent>  ww <c-w>w:call Terins()<cr>
-"inoremap <silent>  w <esc><c-w>:call Terins()<cr>
-inoremap <silent>  h <esc><c-w>h:call Terins()<cr>
-inoremap <silent>  j <esc><c-w>j:call Terins()<cr>
-inoremap <silent>  k <esc><c-w>k:call Terins()<cr>
-inoremap <silent>  l <esc><c-w>l:call Terins()<cr>
-"inoremap <silent>  ww <esc><c-w>w:call Terins()<cr>
+nnoremap <silent>  <M-h> <c-w>h:call Terins()<cr>
+nnoremap <silent>  <M-j> <c-w>j:call Terins()<cr>
+nnoremap <silent>  <M-k> <c-w>k:call Terins()<cr>
+nnoremap <silent>  <M-l> <c-w>l:call Terins()<cr>
+"nnoremap <silent>  <M-w><M-w> <c-w>w:call Terins()<cr>
+tnoremap <silent>  <M-h> <c-\><c-n><c-w>h:call Terins()<cr>
+tnoremap <silent>  <M-j> <c-\><c-n><c-w>j:call Terins()<cr>
+tnoremap <silent>  <M-k> <c-\><c-n><c-w>k:call Terins()<cr>
+tnoremap <silent>  <M-l> <c-\><c-n><c-w>l:call Terins()<cr>
+"tnoremap <silent>  <M-w><M-w> <c-w>w:call Terins()<cr>
+"inoremap <silent>  <M-w> <esc><c-w>:call Terins()<cr>
+inoremap <silent>  <M-h> <esc><c-w>h:call Terins()<cr>
+inoremap <silent>  <M-j> <esc><c-w>j:call Terins()<cr>
+inoremap <silent>  <M-k> <esc><c-w>k:call Terins()<cr>
+inoremap <silent>  <M-l> <esc><c-w>l:call Terins()<cr>
+"inoremap <silent>  <M-w><M-w> <esc><c-w>w:call Terins()<cr>
 "--------------------------TabClose---------------------------"
 func Tabclose()
 	if tabpagenr('$')==1 
@@ -417,8 +482,8 @@ func Tabclose()
 	call Del()
 	call CloseNetrw()
 endfunc
-tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
-nnoremap <silent> c :call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
+tnoremap <silent> <M-c> <c-\><c-n>:call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
+nnoremap <silent> <M-c> :call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Save&&Quit-------------------------"
 func Close()
 	let nr=bufnr('%')
@@ -444,10 +509,10 @@ func Close()
 		silent! exe "bw! ".nr
 	endif
 endfunc
-"tnoremap <silent> w w
-"tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
-nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
-"tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
+"tnoremap <silent> <M-w> w
+"tnoremap <silent> <M-w> <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
+nnoremap <silent> <M-w> :call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
+"tnoremap <silent> <M-w> <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Quit-------------------------------"
 func Quit()
 	let nr=bufnr('%')
@@ -492,8 +557,8 @@ func Back()
 		call feedkeys("gT")
 	endif
 endfunc
-tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call Back()<cr>:call Terins()<cr>
-nnoremap <silent> q :call Quit()<cr>:call Back()<cr>:call Terins()<cr>
+tnoremap <silent> <M-q> <c-\><c-n>:call Quit()<cr>:call Back()<cr>:call Terins()<cr>
+nnoremap <silent> <M-q> :call Quit()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Compile&&Run-------------------------------"
 "map <silent> <F3> :call Bomp()<CR>
 "func Bomp()
@@ -547,15 +612,15 @@ func CloseTogglebash()
 		silent! exe 'bw! Toggle!bash'
 	endif
 endfunc
-inoremap <silent> ; <esc>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-nnoremap <silent> ; :call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-inoremap <silent> : <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-nnoremap <silent> : :call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-"inoremap <silent> ; <esc>:call Togglebash()<CR>
-"nnoremap <silent> ; :call Togglebash()<CR>
-"tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>
+inoremap <silent> <M-;> <esc>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> <M-;> :call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> <M-;> <c-\><c-n>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+inoremap <silent> <M-:> <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> <M-:> :call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> <M-:> <c-\><c-n>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+"inoremap <silent> <M-;> <esc>:call Togglebash()<CR>
+"nnoremap <silent> <M-;> :call Togglebash()<CR>
+"tnoremap <silent> <M-;> <c-\><c-n>:call Togglebash()<CR>
 "--------------------------BufferSwitch---------------------------"
 func Switch(r)
 	if tabpagenr() != 1
@@ -583,12 +648,12 @@ func Switch(r)
 		exe "b! ".Prev(cur)
 	endif
 endfunc
-tnoremap <silent> n n
-tnoremap <silent> p p
-nnoremap <silent> n :call Switch(0)<cr>
-inoremap <silent> n <esc>:call Switch(0)<cr>
-nnoremap <silent> p :call Switch(1)<cr>
-inoremap <silent> p <esc>:call Switch(1)<cr>
+tnoremap <silent> <M-n> n
+tnoremap <silent> <M-p> p
+nnoremap <silent> <M-n> :call Switch(0)<cr>
+inoremap <silent> <M-n> <esc>:call Switch(0)<cr>
+nnoremap <silent> <M-p> :call Switch(1)<cr>
+inoremap <silent> <M-p> <esc>:call Switch(1)<cr>
 "--------------------------Trash-------------------------------"
 "inoremap } }<ESC>==A
 "inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
@@ -651,4 +716,80 @@ tmap <silent> <ScrollWheelDown> <c-w>:call EnterNormalMode()<CR>
 hi TabLineFill ctermfg=Black
 hi TabLineSel ctermfg=White ctermbg=Darkgrey
 hi TabLine ctermfg=Blue ctermbg=0
+
+
+set timeout ttimeoutlen=50
+set nocompatible
+"开启实时搜索
+set incsearch
+" 搜索时大小写不敏感
+set ignorecase
+syntax enable
+syntax on                    " 开启文件类型侦测
+filetype plugin indent on    " 启用自动补全
+
+set number " 设置绝对行号
+"set relativenumber " 设置相对行号
+set cursorline "突出显示当前行
+" set cursorcolumn " 突出显示当前列
+set showmatch " 显示括号匹配
+
+" tab 缩进
+set tabstop=2 " 设置Tab长度为4空格
+set shiftwidth=2 " 设置自动缩进长度为4空格
+set autoindent " 继承前一行的缩进方式，适用于多行注释
+" 开启24bit的颜色，开启这个颜色会更漂亮一些
+set termguicolors
+" 配色方案, 可以从上面插件安装中的选择一个使用 
+colorscheme one " 主题
+set background=dark " 主题背景 dark-深色; light-浅色
+let g:go_fmt_command = "goimports" " 格式化将默认的 gofmt 替换
+let g:go_autodetect_gopath = 1
+let g:go_list_type = "quickfix"
+
+let g:go_version_warning = 1
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_generate_tags = 1
+
+let g:godef_split=2
+
+" majutsushi/tagbar 插件打开关闭快捷键
+nmap <F9> :TagbarToggle<CR>
+" markdwon 的快捷键
+map <silent> <F5> <Plug>MarkdownPreview
+map <silent> <F6> <Plug>StopMarkdownPreview
+let g:tagbar_type_go = {
+	\ 'ctagstype' : 'go',
+	\ 'kinds'     : [
+		\ 'p:package',
+		\ 'i:imports:1',
+		\ 'c:constants',
+		\ 'v:variables',
+		\ 't:types',
+		\ 'n:interfaces',
+		\ 'w:fields',
+		\ 'e:embedded',
+		\ 'm:methods',
+		\ 'r:constructor',
+		\ 'f:functions'
+	\ ],
+	\ 'sro' : '.',
+	\ 'kind2scope' : {
+		\ 't' : 'ctype',
+		\ 'n' : 'ntype'
+	\ },
+	\ 'scope2kind' : {
+		\ 'ctype' : 't',
+		\ 'ntype' : 'n'
+	\ },
+	\ 'ctagsbin'  : 'gotags',
+	\ 'ctagsargs' : '-sort -silent'
+\ }
+
 
