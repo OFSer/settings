@@ -22624,3 +22624,166 @@ mysql
 ls
 mysql
 pythobn
+git status
+git diff
+ls
+git status
+git diff
+ls
+ls
+cd ..
+ls
+cd detection-machine-daemon/
+ls
+vim main.py 
+cd ~
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd YouCompleteMe/
+ls
+cd third_party/
+ls
+cd ycmd/
+ls
+cd third_party/
+ls
+cd go/
+ls
+cd src/
+ls
+cd github.com/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+python install.py --go-completer
+git submodule update --init --recursive
+cd third_party/ycmd/third_party/
+git clone git@github.com:mdempsky/gocode.git
+cd gocode
+go mod init
+go build .
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+git status
+git pull
+git submodule update --init --recursive
+git status
+python install.py --go-completer
+./install.py --gocode-completer
+ls
+go install
+go get -u google.golang.org/grpc
+go get -v -u google.golang.org/grpc
+ls
+cd ~/fc/
+ls
+cd saki_detection/
+ls
+vim 1.cpp
+ls
+cd ..
+ls
+cd http-
+cd http-hello/
+vim
+cd ~/.vim/
+ls
+cd plugged/
+ls
+cd vim-go/
+ls
+cd syntax/
+ls
+vim go.vim 
+ls
+cd ~
+ls
+cd test/
+cd ..
+ls
+cd fc/saki_detection/
+vim 1.cpp 
+ls
+cd ~
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim main.go 
+cd ~
+cd -
+vim main.go 
+ls
+vim main.go 
+jobs
+fg
+jobs
+fg
+vim main.go 
+ls
+git status
+cd ~
+git status
+git diff
+cd p-
+cd -
+vim main.go 
+ls
+cd ~
+ls
+git status
+git diff
+ls
+git diff
+ls
+git status
+./config.sh push
+git diff HEAD^
+ls
+cd fc/
+ls
+cd detection-machine-daemon/
+ls
+vim
+ls
+cd ~
+ls
+cd -
+cd ..
+ls
+cd http-dhcp-server/
+ls
+vim
+vim main.go 
+git status
+vim main.go 
+ls
+ssh -p 8002 gjs@10.0.10.63
+top
+htop
+ssh -p 8002 gjs@10.0.10.63
+ls
+cd ~
+ls
+vim mydb
+jobs
+cd dd/
+ls
+cd ..
+ls
+vim mydb

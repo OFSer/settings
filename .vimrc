@@ -37,9 +37,13 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'jiangmiao/auto-pairs'
 
 " Vim状态栏插件，包括显示行号，列号，文件类型，文件名，以及Git状态
-Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
 " 可以在文档中显示 git 信息
 Plug 'airblade/vim-gitgutter'
+set signcolumn=yes
+autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'bufbash'|| bufname('%') =~ 'Netrw') | set signcolumn=no | else | set signcolumn=yes | endif
+autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'bufbash') | set nocursorline | else | set cursorline | endif
 
 " 有道词典在线翻译
 Plug 'ianva/vim-youdao-translater'
@@ -62,11 +66,6 @@ Plug 'crusoexia/vim-monokai'
 Plug 'acarapetis/vim-colors-github'
 " colorscheme one 
 Plug 'rakr/vim-one'
-
-" go 主要插件
-Plug 'fatih/vim-go', { 'tag': '*' }
-" go 中的代码追踪，输入 gd 就可以自动跳转
-Plug 'dgryski/vim-godef'
 
 " markdown 插件
 Plug 'iamcco/mathjax-support-for-mkdp'
@@ -751,3 +750,8 @@ let g:godef_split=2
 " markdwon 的快捷键
 map <silent> <F5> <Plug>MarkdownPreview
 map <silent> <F6> <Plug>StopMarkdownPreview
+"set statusline=%1*%F%h%m%=\ [%p%%]\ [%l/%L]:%c
+set statusline=%1*
+set laststatus=0
+set noshowmode
+set noruler
