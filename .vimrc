@@ -215,7 +215,6 @@ set sw=2
 set ma
 set mouse=a
 set twsl=100000
-color ron
 hi Error ctermbg=256
 hi goSpaceError ctermbg=256
 set ttimeoutlen=0
@@ -733,15 +732,11 @@ set showmatch " 显示括号匹配
 set tabstop=2 " 设置Tab长度为4空格
 set shiftwidth=2 " 设置自动缩进长度为4空格
 set autoindent " 继承前一行的缩进方式，适用于多行注释
+color neodark
 " 开启24bit的颜色，开启这个颜色会更漂亮一些
-set termguicolors
+"set termguicolors
 " 配色方案, 可以从上面插件安装中的选择一个使用 
-colorscheme one " 主题
-set background=dark " 主题背景 dark-深色; light-浅色
-let g:go_fmt_command = "goimports" " 格式化将默认的 gofmt 替换
 let g:go_autodetect_gopath = 1
-let g:go_list_type = "quickfix"
-
 let g:go_version_warning = 1
 let g:go_highlight_types = 1
 let g:go_highlight_fields = 1
@@ -755,36 +750,6 @@ let g:go_highlight_generate_tags = 1
 let g:godef_split=2
 
 " majutsushi/tagbar 插件打开关闭快捷键
-nmap <F9> :TagbarToggle<CR>
 " markdwon 的快捷键
 map <silent> <F5> <Plug>MarkdownPreview
 map <silent> <F6> <Plug>StopMarkdownPreview
-let g:tagbar_type_go = {
-	\ 'ctagstype' : 'go',
-	\ 'kinds'     : [
-		\ 'p:package',
-		\ 'i:imports:1',
-		\ 'c:constants',
-		\ 'v:variables',
-		\ 't:types',
-		\ 'n:interfaces',
-		\ 'w:fields',
-		\ 'e:embedded',
-		\ 'm:methods',
-		\ 'r:constructor',
-		\ 'f:functions'
-	\ ],
-	\ 'sro' : '.',
-	\ 'kind2scope' : {
-		\ 't' : 'ctype',
-		\ 'n' : 'ntype'
-	\ },
-	\ 'scope2kind' : {
-		\ 'ctype' : 't',
-		\ 'ntype' : 'n'
-	\ },
-	\ 'ctagsbin'  : 'gotags',
-	\ 'ctagsargs' : '-sort -silent'
-\ }
-
-

@@ -22615,3 +22615,12 @@ gedit .vimrc
 git checkout -- .vimrc
 vim .vimrc
 ls
+ssh -o "StrictHostKeyChecking no" -p 13422 hypereal@registry-corp.hypereal.com
+ls
+ll
+config
+ls
+mysql
+ls
+mysql
+pythobn
