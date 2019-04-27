@@ -1,4 +1,3 @@
-
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
 "Plug 'lervag/vimtex'
@@ -14,7 +13,7 @@ let g:ycm_autoclose_preview_window_after_completion=1
 set completeopt-=preview
 Plug 'octol/vim-cpp-enhanced-highlight'
 " Vim 中文文档
-Plug 'yianwillis/vimcdoc'
+"Plug 'yianwillis/vimcdoc'
 
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 " 可以快速对齐的插件
@@ -32,13 +31,15 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 " 查看当前代码文件中的变量和函数列表的插件，
 " 可以切换和跳转到代码中对应的变量和函数的位置
 " 大纲式导航, Go 需要 https://github.com/jstemmer/gotags 支持
-Plug 'majutsushi/tagbar'
+"Plug 'majutsushi/tagbar'
 
 " 自动补全括号的插件，包括小括号，中括号，以及花括号
 Plug 'jiangmiao/auto-pairs'
 
 " Vim状态栏插件，包括显示行号，列号，文件类型，文件名，以及Git状态
 Plug 'vim-airline/vim-airline'
+" 可以在文档中显示 git 信息
+Plug 'airblade/vim-gitgutter'
 
 " 有道词典在线翻译
 Plug 'ianva/vim-youdao-translater'
@@ -46,8 +47,6 @@ Plug 'ianva/vim-youdao-translater'
 " 代码自动完成，安装完插件还需要额外配置才可以使用
 Plug 'Valloric/YouCompleteMe'
 
-" 可以在文档中显示 git 信息
-Plug 'airblade/vim-gitgutter'
 
 
 " 下面两个插件要配合使用，可以自动生成代码块
@@ -190,8 +189,8 @@ function! Flash()
     sleep 10m
 endfunction
 "tnoremap <silent> <cr> <cr><c-\><c-n>:let line=MyTabLine()<cr>:exe 'set tabline='.'"'.line.'"'<cr>i
-tnoremap <silent> <cr> <cr><c-\><c-n>i<c-\><c-n>i
-tnoremap <silent> <c-d> <c-d><c-\><c-n>i<c-\><c-n>i
+"tnoremap <silent> <cr> <cr><c-\><c-n>i<c-\><c-n>i
+"tnoremap <silent> <c-d> <c-d><c-\><c-n>i<c-\><c-n>i
 
 set showtabline=2
 "nnoremap q <nop>
@@ -746,7 +745,6 @@ let g:go_highlight_operators = 1
 let g:go_highlight_extra_types = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_generate_tags = 1
-
 let g:godef_split=2
 
 " majutsushi/tagbar 插件打开关闭快捷键
