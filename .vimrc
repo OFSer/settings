@@ -8,7 +8,7 @@ let g:go_doc_keywordprg_enabled = 0
 au FileType go nmap d <Plug>(go-def-tab)
 Plug 'Valloric/YouCompleteMe'
 let g:ycm_server_python_interpreter='/home/gjs/anaconda3/bin/python'
-let g:ycm_global_ycm_extra_conf='/home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 let g:ycm_autoclose_preview_window_after_completion=1
 set completeopt-=preview
 Plug 'octol/vim-cpp-enhanced-highlight'
