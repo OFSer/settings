@@ -22839,3 +22839,172 @@ sudo reboot
 ls
 mysql
 ls
+apt-get install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
+sudo apt install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
+ls
+cd /usr/
+ls
+cd lib/
+ls
+cd ..
+ls
+cd include/
+ls
+cd ..
+ls
+cd s
+cd sbin/
+ls
+cd ..
+ls
+find . | grep *.h
+sudo find . | grep *.h
+ls
+cd. .
+ls
+cd ..
+ls
+cd lib
+ls
+cd cpp
+ls
+cd systemd/
+ls
+cd system
+ls
+cd ..
+ls
+cd ..
+ls
+go get -v insecure
+go get -v -insecure
+ls
+cd ~
+ls
+cd fc/
+ls
+cd saki_detection/
+ls
+vim
+cd ..
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+vim 2.cpp
+ls
+cd ~/fc/saki_detection/
+ls
+vim 1.cpp
+ls
+vim detection.
+ls
+vim 1.cpp
+cd ~/test/cpp/
+ls
+vim 1.cpp
+cd ~/.vim/
+ls
+cd plugged/YouCompleteMe/
+ls
+cd third_party/
+ls
+cd ycmd/
+ls
+ls -a 
+pwd
+ls
+cd ycmd/
+ls
+ls -a
+ls
+cd ..
+ls
+cd third_party/
+ls
+cd clang/
+ls
+cd lib/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+ls -a
+cd ..
+find . | grep ycm_extra_conf.py
+ls
+python3 install.py --all
+sudo apt install build-essential cmake python3-dev
+python 3install.py --clang-completer
+python install.py --clang-completer
+vim --version
+ls
+cd ls
+cd ..
+ls
+ls -a
+cd ~
+ls
+vim .ycm_extra_conf.py
+ls
+docker images
+history | grep docker
+cat /sys/class/net/eth0/address
+cat /sys/class/net/enp0s31f6/address 
+sudo lsof -i:80
+sudo lsof -i:8080
+sudo lsof -i:8081
+sudo lsof -i:8082
+sudo lsof -i:8083
+sudo lsof -i:8084
+sudo lsof -i:8085
+sudo lsof -i:8086
+sudo lsof -i:8087
+sudo lsof -i:8080
+sudo lsof -i:8081
+sudo lsof -i:8001
+sudo lsof -i:8002
+sudo lsof -i:22
+cd test/
+ls
+mkdir go
+ls
+cd go/
+ls
+vim main.go
+ls
+vim .vimrc
+git status
+./config.sh push
+vim .vimrc
+git status
+vim .vimrc
+git checkout -- .vimrc
+ls
+vim .vim
+vim .vimrc
+vim .vim
+vim .vimrc
+git status
+git diff
+git add .ycm_extra_conf.py
+git add -f .ycm_extra_conf.py
+git status
+git add .vimrc
+git commit -m "add ycm_extra_conf"
+git push
+ls
+git status
+ls
+vim .vimrc
+mysql
+vim .vimrc
+go run main.go 
+git status
+rm \'
+ls
+git status

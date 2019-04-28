@@ -2,7 +2,7 @@
 call plug#begin('~/.vim/plugged')
 "Plug 'lervag/vimtex'
 "Plug 'dgryski/vim-godef'
-Plug 'hdima/python-syntax'
+Plug 'vim-python/python-syntax'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 let g:go_doc_keywordprg_enabled = 0
 let g:go_fmt_fail_silently = 1
