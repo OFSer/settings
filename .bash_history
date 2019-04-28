@@ -22787,3 +22787,55 @@ ls
 cd ..
 ls
 vim mydb
+ls
+cd fc/http-
+cd fc/http-dhcp-server/
+ls
+vim
+vim main.go 
+sudo apt-get install vim-gocomplete gocode vim-syntax-go
+sudo apt-get install vim-gocomplete 
+sudo apt install gocode
+sudo apt install vim-syntax-go
+vim-addon-manager install go-syntax
+vim-addon-manager
+vim-addon-manager install go-syntax
+ls
+vim main.go 
+ls
+vim .vimrc
+cd ~
+ls
+vim .vimrc
+git checkout -- .vimrc
+vim .vimrc
+git status
+git add .vimrc
+git commit -m "big changej"
+git push
+ls
+vim .vimrc
+./config.sh push
+vim .vimrc
+git status
+vim .vimrc
+jobs
+git status
+git diff .vimrc
+./config.sh push
+jobs
+fg
+jobs
+vim .vimrc
+ls
+vim .vimrc
+ls
+git status
+git diff
+git status
+git diff .vimrc
+./config.sh push
+sudo reboot
+ls
+mysql
+ls

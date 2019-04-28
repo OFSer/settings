@@ -8,7 +8,7 @@ let g:go_doc_keywordprg_enabled = 0
 au FileType go nmap d <Plug>(go-def-tab)
 Plug 'Valloric/YouCompleteMe'
 let g:ycm_server_python_interpreter='/home/gjs/anaconda3/bin/python'
-let g:ycm_global_ycm_extra_conf='/home/gjs/.vim/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf='/home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
 let g:ycm_autoclose_preview_window_after_completion=1
 set completeopt-=preview
 Plug 'octol/vim-cpp-enhanced-highlight'
@@ -47,11 +47,6 @@ autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('
 
 " 有道词典在线翻译
 Plug 'ianva/vim-youdao-translater'
-
-" 代码自动完成，安装完插件还需要额外配置才可以使用
-Plug 'Valloric/YouCompleteMe'
-
-
 
 " 下面两个插件要配合使用，可以自动生成代码块
 Plug 'SirVer/ultisnips'
@@ -155,12 +150,13 @@ function! MyTabLine()
     	let s .= '[No Name]'
 		elseif bufname =~ "!bash"
 			let t = term_gettitle(bufnr)
+			let t = ''
 			let t = substitute(t, "^.*:", "", "")
 			let cmd = substitute(t, "^.*\\$", "", "")
 			let t = substitute(t, "\\$.*$", "", "")
 			let t = substitute(t, "/\\([^/]\\)[^/]*", "/\\1", "g")
 			let s .= t[-5:-1]
-			let s .= "$"
+			let s .= "@:~$"
 			let s .= cmd[0:15]
 			if len(cmd) > 15
 				let s .= '...'

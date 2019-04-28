@@ -288,7 +288,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1556318988
+check-timestamp=int64 1556417030
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
