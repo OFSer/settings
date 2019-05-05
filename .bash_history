@@ -23008,3 +23008,373 @@ git status
 rm \'
 ls
 git status
+cd ..
+ls
+go run main.go 
+>test.go
+go run main.go 
+rm test.go 
+go run main.go 
+go run test.go
+go build -v
+go build -v main.go
+go build -v test.go
+ls
+go run test.go
+go test .
+ls
+go test .
+ls
+go test .
+.
+go test .
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim
+vim main.go 
+ls
+vim main.go 
+ls
+cd ~
+ls
+cd test/
+ls
+mkdir python
+cd py
+ls
+vim 1.py
+cd ~
+ls
+cd fc/detection-machine-daemon/
+ls
+vim main.py 
+ls
+vim main.py 
+pip3 install pynvim --upgrade 
+vim main.py 
+sudo apt install neovim
+vim
+vim --version
+nvim
+ls
+nvim main.py 
+ls
+cd ~
+cd -
+vim ~/.config/nvim/init.vim
+cp ~/.vimrc ~/.config/nvim/init.vim
+nvim main.py 
+ls
+vim main.py 
+ls
+vim main.py 
+cd ~
+ls
+vim .vimrc
+ls
+vim ~/.vim/after/syntax/c.vim
+mv ~/.vim/after/syntax/c.vim ~/.vim/after/syntax/python.vim
+cp ~/.vim/after/syntax/python.vim ~/.vim/after/syntax/py.vim
+vim ~/.vim/after/syntax/py.vim
+ls
+cd .vim/after/syntax/p
+cd .vim/after/syntax/py.vim
+cd .vim/after/syntax/
+ls
+cd ~
+ls
+cd .vim/
+ls
+du -hl --max-depth=1
+cd ..
+ls
+cd .vim/
+ls
+vim color
+vim color.vim 
+rm color.vim 
+ls
+ls -a
+rm .ycm_extra_conf.py 
+vim .netrwhist 
+ls
+git status
+git add -f after autoload/ colors/ ftplugin/
+git status
+git commit -m "add .vim"
+git status
+git push
+git status
+ls
+cd ~
+ls
+git status
+ls
+git diff HEAD^ .dconf
+git diff HEAD^^ .dconf
+git diff HEAD~3 .dconf
+git diff HEAD~4 .dconf
+ls
+cd .git/
+du -hl
+cd ..
+ls
+git status
+ls
+cd ..
+ls
+cd saki_detection/
+ls
+vim 1.cpp 
+cd ~/.vim/
+ls
+cd plugged/
+ls
+cd sem
+ls
+cd ..
+ls
+cd colors/
+ls
+cd ..
+find . | grep semshi
+ls
+cd ~
+ls[
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim main.go 
+ls
+cd ~
+ls
+cd .vim/
+ls
+cd colors/
+ls
+vim monokai.vim 
+ls
+cd ~
+ls
+cd .vim/
+ls
+vim .vimrc
+vim color.vim
+cd ~/fc/detection-machine-daemon/
+ls
+vim main.py 
+ls
+vim main.py 
+cd ~
+ls
+vim .vimrc
+ls
+cd ~/test/cpp/
+ls
+vim 1.cpp
+ls
+vim 1.cpp
+ls
+vim 1.c
+vim 1.cpp 
+jobs
+fg
+ls
+cd ~/fc/
+ls
+cd flaw_checker/
+ls
+vim
+cd ..
+ls
+cd saki_detection/
+ls
+vim 1.cpp
+ls
+vim 1.cpp
+ls
+vim 1.cpp
+ls
+vim 1.cpp 
+ls
+cd ~
+ls
+cd cp
+cd cpp
+cd test/
+ls
+cd py/
+cd ..
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+jobs
+ls
+cd ..
+ls
+cd ..
+ls
+vim 1.cpp
+cd work/
+ls
+cd /
+ls
+vim 1.cpp
+git status
+vim 1.cpp
+ls
+cd ~
+ls
+cd cp
+cd cpp
+cd test/cpp/
+ls
+vim 1.cpp
+jobs
+vim 1.cpp
+ls
+cd ~
+ls
+ping 54.223.137.167
+go --version
+go env
+\mysql -u gjs -p
+ls
+cd fc/
+ls
+git clone git@gitlab.sho.hypereal.com:AIFactory/ai-cloth-webserver.git
+ls
+cd ai-cloth-webserver/
+ls
+vim
+ls
+cd /usr/local/go/
+ls
+cd src/
+ls
+cd /cmd/gc/walk.c
+ls
+cd /cmd/gc
+cd cmd/go
+ls
+vim main.go 
+ls
+vim go_test.go 
+vim go11.go 
+vim main.go 
+cd ..
+ls
+cd cmd/
+ls
+cd compile/
+ls
+cd internal/gc/
+ls
+vim main.go 
+sudo vim main.go 
+ls
+vim walk.go 
+sudo vim walk.go 
+ls
+sudo vim walk.go 
+vim main.go 
+sudo vim main.go 
+ls
+cd ..
+ls
+cd ..
+ls
+./make.bash 
+sudo ./make.bash 
+ls
+mysql
+ls
+cd ~/test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd YouCompleteMe/
+ls
+cd ..
+ls
+cd ~
+ls
+vim .ycm_extra_conf.py 
+ls
+jobs
+ls
+cd .vim/
+ls
+cd plugged/YouCompleteMe/
+ls
+cd third_party/
+ls
+cd ycmd/
+ls
+cd third_party/
+ls
+cd go/
+ls
+cd src/
+ls
+cd github.com/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+history | grep install
+python3 install.py --gocode-completer --go-completer
+python3 install.py --go-completer
+ls
+vim install.sh 
+vim install.py 
+git pull
+git status
+git diff
+ls
+cd ~
+ls
+vim .vimrc
+git status
+git diff .vimrc
+ls
+git status
+./config.sh push
+vim .vimrc
+cd .vim/
+ls
+mkdir after
+ls
+cd afl
+cd after/
+ls
+vim c.vim
+cd ..
+cd ~
+vim .vimrc
+git checkout -- .vimrc
+git status
+ls
+mysql
