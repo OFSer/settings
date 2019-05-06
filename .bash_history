@@ -23546,3 +23546,54 @@ git status
 git diff
 git diff .vimrc
 vim .vimrc
+go run main.go
+lks
+ls
+go test .
+go run main
+go run main.go 
+go test .
+TEST=123
+go test .
+export TEST=123
+go test .
+ls
+ssh -o "StrictHostKeyChecking no" -p 18194 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11253 hypereal@registry-corp.hypereal.com
+ls
+cd ~
+ls
+vim .vimrc
+git diff .vimrc
+git add .
+git commit -m "remove bash tabline"
+git push
+vim .vimrc
+git add .vimrc
+git commit -m "fix close bug"
+git push
+vim .vimrc
+ls
+cd ~
+git status
+git diff
+git status
+git diff HEAD^ .dconf
+git diff HEAD^^ .dconf
+git diff HEAD^&^^ .dconf
+git diff HEAD^^^ .dconf
+git status
+./config.sh pull
+git status
+git diff
+git diff .dconf
+git status
+git diff
+git status
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim main
+vim main.go 

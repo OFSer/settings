@@ -261,6 +261,7 @@ sidebar=false
 
 [org/gnome/terminal/legacy]
 tab-policy='always'
+menu-accelerator-enabled=false
 schema-version=uint32 3
 theme-variant='system'
 
@@ -270,7 +271,7 @@ move-tab-right='<Primary><Shift><Alt>l'
 prev-tab='<Primary><Shift>Tab'
 close-tab='<Primary><Shift>w'
 move-tab-left='<Primary><Shift><Alt>h'
-new-tab='<Primary>t'
+new-tab='<Primary><Shift>t'
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 foreground-color='rgb(165,181,183)'
@@ -288,7 +289,7 @@ audible-bell=false
 
 [org/gnome/software]
 download-updates=false
-check-timestamp=int64 1557021712
+check-timestamp=int64 1557093712
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
