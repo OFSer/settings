@@ -23378,3 +23378,171 @@ git checkout -- .vimrc
 git status
 ls
 mysql
+ssh -o "StrictHostKeyChecking no" -p 12484 hypereal@registry-corp.hypereal.com
+ls
+cd ~
+vim .vimrc
+ls
+chmod +x monitar.sh 
+./monitar.sh 
+ls
+cd fc/detection-machine-daemon/
+ls
+vim
+ls
+cd webserver/
+ls
+vim
+ls
+vim server.py 
+ls
+vim server.py 
+ls
+vim ~/.vimrc
+cd ~
+ls
+vim .vimrc
+ls
+cd .vim/
+ls
+cd after/
+ls
+vim c.vim 
+ls
+cd syntax/
+ls
+vim py.vim 
+cd ..
+ls
+cd syntax/
+ls
+vim python.vim 
+ls
+jobs
+cd ..
+ls
+cd syntax/
+ls
+rm py.vim
+cd ~
+cd -
+cd ..
+ls
+vim c.vim 
+ls
+rm c.vim 
+cd ~
+ls
+vim .vimrc
+ls
+cd .vim/
+ls
+cd after/
+sl
+ls
+cd syntax/
+ls
+vim python.vim 
+cd ~
+ls
+vim .vimrc
+git status
+git diff
+git diff .vimrc
+./config.sh push
+watch -n 10 date
+watch -n 1 date
+ssh -o "StrictHostKeyChecking no" -p 18252 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17398 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19845 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17326 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12218 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14549 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12285 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12905 hypereal@registry-corp.hypereal.com
+lsof -i:2233
+sudo lsof -i:2233
+ssh -o "StrictHostKeyChecking no" -p 13399 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18603 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10144 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19352 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14339 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17125 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15635 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18631 hypereal@registry-corp.hypereal.com
+cd ~/
+ls
+cd fc/
+ls
+cd detection-machine-daemon/
+ls
+cd ..
+ls
+cd http-dhcp-server/
+ls
+vim
+vim main.go
+ls
+history | grep docker
+ssh gjs@127.0.0.1 -p 8002
+ssh -o "StrictHostKeyChecking no" -p 17710 hypereal@registry-corp.hypereal.com
+ping dl-4
+ls
+ls
+cd ..
+ls
+cd saki_detection/
+ls
+vim database.sh 
+ssh -o "StrictHostKeyChecking no" -p 10669 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11253 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12417 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17447 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14180 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10571 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19418 hypereal@registry-corp.hypereal.com
+mysql
+ls
+cd ~
+ls
+wget http://127.0.0.1:8080/port?mac=40-B0-76-7B-EC-C3&name=%E4%BF%A1%E5%85%83%E8%BE%BE05-GPU%E5%8F%B7
+jobs
+ls
+jobs
+cat wget-log 
+rm wget-log 
+ls
+rm 'port?mac=40-B0-76-7B-EC-C3' 
+ls
+wget 'http://127.0.0.1:8080/port?mac=40-B0-76-7B-EC-C3&name=%E4%BF%A1%E5%85%83%E8%BE%BE05-GPU%E5%8F%B7'
+ls
+rm 'port?mac=40-B0-76-7B-EC-C3&name=信元达05-GPU号' 
+curl http://127.0.0.1:8080/port?mac=40-B0-76-7B-EC-C3&name=%E4%BF%A1%E5%85%83%E8%BE%BE05-GPU%E5%8F%B7
+jobs
+curl ';http://127.0.0.1:8080/port?mac=40-B0-76-7B-EC-C3&name=%E4%BF%A1%E5%85%83%E8%BE%BE05-GPU%E5%8F%B7'
+curl 'http://127.0.0.1:8080/port?mac=40-B0-76-7B-EC-C3&name=%E4%BF%A1%E5%85%83%E8%BE%BE05-GPU%E5%8F%B7'
+echo $?
+ssh admin@10.0.10.63 -p 8002
+\ssh admin@10.0.10.63 -p 8002
+\ssh admin@127.0.0.1 -p 8002
+\ssh admin@127.0.0.1 -P 8002
+\ssh -P 8002 admin@127.0.0.1
+\ssh -P 8002 admin@10.0.10.63
+history | grep ssh
+ssh -p 8001 admin@127.0.0.1
+\ssh -p 8001 admin@127.0.0.1
+\ssh -p 8001 admin@10.0.10.63
+\ssh -p 8002 admin@10.0.10.63
+\ssh -p 8002 admin@127.0.0.1
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[127.0.0.1]:8002"
+\ssh -p 8002 admin@127.0.0.1
+ssh -o "StrictHostKeyChecking no" -p 17710 hypereal@registry-corp.hypereal.com
+\ssh -p 8002 admin@127.0.0.1
+\ssh -p 8002 gjs@127.0.0.1
+ssh -o "StrictHostKeyChecking no" -p 15550 hypereal@registry-corp.hypereal.com
+ls
+vim .vimrc
+git status
+git diff
+git diff .vimrc
+vim .vimrc

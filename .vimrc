@@ -135,16 +135,14 @@ function! MyTabLine()
 		let buflist = tabpagebuflist(tab)
 		let curnr = tabpagewinnr(tab) - 1
 		let bufnr = buflist[curnr]
-		if bufname(bufnr) =~ 'Netrw'
-			if len(buflist) > 1 
-				let curnr = 1
-			else
-				let curnr = 0
+		for j in range(len(buflist))
+			let bufnr = buflist[j]
+			let bufmodified = getbufvar(bufnr, "&mod")
+			let bufname = fnamemodify(bufname(bufnr), ':t')
+			if bufname !~ "Netrw" && bufname !~ "!bash"
+				break
 			endif
-		endif
-		let bufnr = buflist[curnr]
-    let bufmodified = getbufvar(bufnr, "&mod")
-    let bufname = fnamemodify(bufname(bufnr), ':t')
+		endfor
 
     let s .= '%' . tab . 'T'
     let s .= (tab == tabpagenr() ? '%#TabLineSel#' : '%#TabLine#')
@@ -160,7 +158,7 @@ function! MyTabLine()
 			let t = substitute(t, "\\$.*$", "", "")
 			let t = substitute(t, "/\\([^/]\\)[^/]*", "/\\1", "g")
 			let s .= t[-5:-1]
-			let s .= "@:$"
+			let s .= "!bash"
 			let s .= cmd[0:15]
 			if len(cmd) > 15
 				let s .= '...'
