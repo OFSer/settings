@@ -226,12 +226,14 @@ func Del()
 	for i in a
 		if bufname(i) == ""
 			silent! exe "bw! ".i
+			silent! exe "bw! buf!bash".i
 		endif
 		if bufname(i) =~ "buf!bash"
 			continue
 		endif
 		if bufname(i) =~ "!bash" && Exist(i) == 0
 			silent! exe "bw! ".i
+			silent! exe "bw! buf!bash".i
 		endif
 	endfor
 endfunc
@@ -346,6 +348,7 @@ func Toggle()
 	for i in tabpagebuflist()
 		if bufname(i) =~ "Netrw" 
 			silent! exe "bw! ".i
+			silent! exe "bw! buf!bash".i
 			return 
 		endif
 	endfor
@@ -482,6 +485,7 @@ func Close()
 	if bufname('%') =~ '!bash' 
 		exe "q!"
 		silent! exe "bw! ".nr
+		silent! exe "bw! buf!bash".nr
 		return
 	endif
 	if bufname('%') =~ "help" || bufname('%') =~ "Netrw"
@@ -497,6 +501,7 @@ func Close()
 	endif
 	if flag == 0
 		silent! exe "bw! ".nr
+		silent! exe "bw! buf!bash".nr
 	endif
 endfunc
 "tnoremap <silent> w w
@@ -511,12 +516,14 @@ func Quit()
 	if bufname('%') =~ '!bash' || bufname('%') =~ 'bufbash'
 		exe "q!"
 		silent! exe "bw! ".nr
+		silent! exe "bw! buf!bash".nr
 		call CloseNetrw()
 		return
 	endif
 	if &buftype =~ "help" || bufname('%') =~ "Netrw"
 		exe "q!"
 		silent! exe "bw! ".nr
+		silent! exe "bw! buf!bash".nr
 		call CloseNetrw()
 		return
 	endif
@@ -525,6 +532,7 @@ func Quit()
 		exe "q!"
 		if flag == 0
 			silent! exe "bw! ".nr
+			silent! exe "bw! buf!bash".nr
 		endif
 		call CloseNetrw()
 		return
@@ -536,9 +544,11 @@ func Quit()
 	if nr != t && tabpagenr() == 1
 		exe "b! ".Next(nr)
 		silent! exe "bw! ".nr
+		silent! exe "bw! buf!bash".nr
 	endif
 	if flag == 0
 		silent! exe "bw! ".nr
+		silent! exe "bw! buf!bash".nr
 	endif
 	call CloseNetrw()
 endfunc
