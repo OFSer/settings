@@ -23597,3 +23597,8 @@ cd http-dhcp-server/
 ls
 vim main
 vim main.go 
+ls
+history | grep mysql
+ls
+history
+history | grep mysql
