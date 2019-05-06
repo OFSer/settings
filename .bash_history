@@ -23708,3 +23708,26 @@ ls
 git status
 git diff
 ls
+mysql
+git staus
+git status
+git diff
+gits tatus
+git status
+./config.sh push
+git diff HEAD^ .dconf
+vim .dconf
+ls
+l
+ls
+history | grep gtk
+vim .config/gtk-3.0/gtk.css
+ls
+ls
+vim .config/gtk-3.0/gtk.css
+git diff HEAD^3.config/gtk-3.0/gtk.css
+git diff HEAD^3 .config/gtk-3.0/gtk.css
+git diff HEAD~3 .config/gtk-3.0/gtk.css
+vim .config/gtk-3.0/gtk.css
+ls
+vim .config/gtk-3.0/gtk.css
