@@ -10,20 +10,18 @@ notebook.terminal-notebook header.top tab:hover {
                                     from (shade (@fg_color, 0.92)),
                                     color-stop (0.60, shade (@fg_color, 0.9)),
                                     to (shade (@fg_color, 0.85)));
-    color: #729FCF;
-		font-size: 25px;
+    color: #7A7F76;
+		font-size: 20px;
 		font-family: Ubuntu Mono;
-		font-style: bold;
-		font-weight: 600;
+		font-weight: 100;
 }
 
 notebook.terminal-notebook header.top tab:checked {
     background-image: -gtk-gradient (linear, left top, right bottom,
                     from (shade (@bg_color_active_tab, 1.2)),
                     to (shade (@bg_color_active_tab, 1.12)));
-    color: @bg_color;
-		font-size: 25px;
+    color: #EF8829;
+		font-size: 20px;
 		font-family: Ubuntu Mono;
-		font-style: bold;
-		font-weight: 600;
+		font-weight: 100;
 }

@@ -23602,3 +23602,109 @@ history | grep mysql
 ls
 history
 history | grep mysql
+ls
+cd ~
+git status
+git diff
+./config.sh push
+git diff .dconf HEAD^
+git diff HEAD^ .dconf
+ls
+cd ~
+git log
+ssh -o "StrictHostKeyChecking no" -p 13600 hypereal@registry-corp.hypereal.com
+\ssh -P 8002 admin@127.0.0.1 
+\ssh -p 8002 admin@127.0.0.1 
+ls
+cd ..
+ls
+cd detection-machine-daemon/
+ls
+vim main.py 
+ls
+cd ~
+ls
+cd .vim/
+du -hl
+ls
+cd ftplugin/
+ls
+cd go/
+ls
+cd ..
+ls
+cd ..
+ls
+cd plugged/
+ls
+du -hl
+ls
+du -hl --max-depth=1
+ls
+cd ~
+ls
+cd .config/
+ls
+cd gtk-3.0/
+ls
+vim gtk.css 
+ls
+\ssh -P 8002 admin@10.0.10.63
+\ssh -P 8002 admin@127.0.0.1
+\ssh -p 8002 admin@127.0.0.1
+mysql -P 31239 root@dl-4 -p
+mysql -p 31239 root@dl-4 -p
+history | grep mysql
+mysql -h dl-4 -P 31239 root -p
+mysql -h dl-4 -P 31239 -u root -p
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim main
+vim main.go 
+ls
+cd .config/gtk-3.0/
+ls
+vim gtk.css 
+git status
+ls
+vim .config/gtk-3.0/gtk.css
+ls
+vim .config/gtk-3.0/gtk.css
+ls
+ls
+vim .config/gtk-3.0/gtk.css
+ls
+vim .config/gtk-3.0/gtk.css
+ls
+ssh -o "StrictHostKeyChecking no" -p 14081 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 14081 hypereal@registry-corp.hypereal.com
+git status
+git checkout -- .config/gtk-3.0/gtk.css
+git status
+vim .config/gtk-3.0/gtk.css
+ls
+vim .config/gtk-3.0/gtk.css
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim main
+vim main.go
+vim .config/gtk-3.0/gtk.css
+ls
+git status
+git diff
+ls
+vim .config/gtk-3.0/gtk.css
+ls
+mysql
+ls
+vim .config/gtk-3.0/gtk.css
+ls
+git status
+git diff
+ls
