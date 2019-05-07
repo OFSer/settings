@@ -23731,3 +23731,37 @@ git diff HEAD~3 .config/gtk-3.0/gtk.css
 vim .config/gtk-3.0/gtk.css
 ls
 vim .config/gtk-3.0/gtk.css
+ls
+ls
+git status
+./config.sh push
+gits tatus
+git diff
+git diff HEAD^
+ls
+ll
+cd /tmp/
+ls
+ll
+mocp
+ls
+mocp
+ls
+jobs
+ls
+git status
+cd ~
+git status
+./config.sh pull
+git status
+ls
+ll
+ls
+cd fc/http-dhcp-server/
+ls
+ll
+ls
+ll
+ls
+vim main
+vim main.go 
