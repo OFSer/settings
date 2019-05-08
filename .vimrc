@@ -221,7 +221,7 @@ set ttimeoutlen=0
 set timeoutlen=0
 set updatetime=0
 autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'bufbash'|| bufname('%') =~ 'Netrw') | set nonu | else | set nu | endif
-autocmd BufLeave,FocusLost * silent! wall
+"autocmd BufLeave,FocusLost * if &filetype !~ 'netrw' | silent! wall | endif
 au FileType netrw au BufLeave <buffer> setlocal nocursorline
 au FileType netrw au BufEnter <buffer> setlocal cursorline
 "--------------------------GetBuffer---------------------------------"
@@ -324,7 +324,7 @@ func CloseNetrw()
 		if tabpagenr() != 1 && tabpagenr() != tabpagenr('$')
 			let g:back = 1
 		endif
-		exe "q!"
+		silent! exe "q!"
 	endif
 endfunc
 "--------------------------Explorer----------------------------------"
@@ -487,19 +487,19 @@ func Close()
 	let tp=tabpagenr()
 	let flag=ExistOther(tp,nr)
 	if bufname('%') =~ '!bash' 
-		exe "q!"
+		silent! exe "q!"
 		silent! exe "bw! ".nr
 		silent! exe "bw! buf!bash".nr
 		return
 	endif
 	if bufname('%') =~ "help" || bufname('%') =~ "Netrw"
-		exe "q!"
+		silent! exe "q!"
 		return
 	endif
 	silent! exe "w"
 	let t=Next(nr)
 	if nr == t || tabpagenr() != 1
-		exe "q!"
+		silent! exe "q!"
 	else
 		silent! exe "b! ".Next(nr)
 	endif
@@ -767,3 +767,14 @@ set statusline=%1*
 set laststatus=0
 set noshowmode
 set noruler
+"-----------------------"
+autocmd filetype netrw call Netrw_mappings()
+function! Netrw_mappings()
+  noremap <buffer>% :call CreateInPreview()<cr>
+endfunction
+function! CreateInPreview()
+  let l:filename = input("please enter filename: ")
+  execute 'silent !touch ' . b:netrw_curdir.'/'.l:filename 
+  redraw!
+	exe "Explore"
+endf

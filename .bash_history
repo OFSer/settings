@@ -23765,3 +23765,329 @@ ll
 ls
 vim main
 vim main.go 
+git status
+cd ..
+git status
+ls
+cd mdempsky/
+ls
+cd gocode/
+ls
+go mod
+go mod init
+cd ..
+ls
+cd mdempsky/
+ls
+rm -rf gocode
+ls
+git clone git@github.com:mdempsky/gocode.git
+ls
+cd gocode/
+ls
+go mod init
+go build .
+ls
+cd .
+cd ..
+ls
+cd -
+ls
+us
+git status
+git diff
+./config.sh push
+ls
+cd fc/
+ls
+cd ..
+ls
+cd .vim/
+ls
+cd after/
+ls
+cd syntax/
+ls
+cd ~
+l
+ls
+cd .vim/
+ls
+cd colors/
+ls
+cd ..
+ls
+cd autoload/
+ls
+cat gocomplete.vim 
+ls
+ll
+vim gocomplete.vim 
+ls
+vim plug.vim 
+ls
+cd ..
+ls
+cd ..
+ls
+vim config.sh 
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd markdown-preview.vim/
+ls
+cd autoload/
+ls
+cd ..
+ls
+cd plugin/
+ls
+cd ..
+ls
+cd autoload/
+ls
+vim mkdp.vim 
+ls
+cd server/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd neodark.vim/
+ls
+cd ..
+ls
+cd nerdtree
+ls
+cd ~
+ls
+cd ~/.vim/plugged/neodark.vim
+ls
+eog 256.png 
+eog *.png
+ls
+cd ..
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd ~
+ls
+vim .vimrc
+ls
+ll
+git status
+git diff
+ls
+vim .vimrc
+ls
+vim .vimrc
+ls
+cd .vim/
+ls
+cd ftplugin/
+ls
+cd .
+cd ..
+ls
+cd plugged/
+ls
+cd ..
+ls
+cd autoload/
+ls
+vim plug.vim 
+ls
+cd ~
+ls
+cd .v
+cd .vim/
+ls
+cd plugged/
+ls
+cd YouCompleteMe/
+ls
+cd cd third_party/ycmd/third_party/
+cd third_party/ycmd/third_party/
+l
+ls
+cd -
+cd ..
+git submodule update --init --recursive
+git status
+python install.py --go-completer
+git pull
+git status
+git log
+cd third_party/ycmd/third_party/
+ls
+cd go/
+ls
+cd ..
+ls
+git clone git@github.com:mdempsky/gocode.git
+cd gocode
+ls
+go mod init
+go build .
+ls
+cd ..
+ls
+cd go
+ls
+cd src/
+ls
+cd github.com/
+ls
+cd ../..
+ls
+cd ..
+ls
+cd gocode/
+ls
+cd ..
+ls
+cd go
+ls
+cd src/
+ls
+cd github.com/
+ls
+cd 
+ls
+cd gocode/
+ls
+git pull
+git pullgit@github.com:mdempsky/gocode.git
+git pull git@github.com:mdempsky/gocode.git
+go mod init
+go build .
+ls
+cd ..
+ls
+cd ..
+ls
+cd rogpeppe/
+ls
+cd godef/
+ls
+git pull 
+cd .
+git status
+cd ..
+export DHCP_ENV="local"
+./http-dhcp-server 
+ls
+python
+sss
+ls
+cd ~
+ls
+cd fc/
+ls
+cd saki_detection/
+ls
+vim database.sh 
+ls
+cd ..
+ls
+cd detection-machine-daemon/
+ls
+vim 
+git pull
+git status
+git staus
+cd ..
+cd detection-machine-daemon/
+ls
+git status
+git diff
+git reset HEAD --hard
+git status
+git branch
+git pull
+git checkout master
+git pull
+git status
+git pull
+git chekcout -b jumpserver
+git checkcout -b jumpserver
+git checkout -b jumpserver
+git status
+git checkout jumpserver
+git checkout master
+git branch -d jumpserver
+git checkout -b jumpserver
+ls
+vim
+icdiff
+sudo apt install icdiff
+ls
+icdiff main.py misc.py
+diff main.py misc.py
+icdiff main.py misc.py
+tree
+ls
+cloc
+sudo apt install cloc
+cloc main.py
+ls
+cat main.py
+cloc main.py
+cloc *.py
+cloc
+cloc *
+j
+sudo apt install autojump
+j
+autojump --help
+cd ~
+autojump detection
+ls
+cd fc/
+ls
+cd dl-k8s-kube/
+ls
+vim
+ssh -o "StrictHostKeyChecking no" -p 12092 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11441 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11481 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11441 hypereal@registry-corp.hypereal.com
+history | grep diff
+lcdiff
+lidiff
+icdiff
+ls
+ssh -o "StrictHostKeyChecking no" -p 16769 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19703 hypereal@registry-corp.hypereal.com
+curl
+ls
+cd 2
+cd -2
+ls
+cd ..
+ls
+cd --help
+compgen 
+compgen -a
+compgen -ap
+history | grep compgen
+compgen -ac
+compgen -ac | grep cd
+mcd --help
+cd --help
+autocd
+autojump
+autojump --help
+cd ~
+sudo apt install minikube
+python3
+python3 requests.get("http://127.0.0.1:8080/port?mac=42-B1-83-7B-E2-B9&name=%E4%BF%A1%E5%85%83%E8%BE%BE10-GPU%E5%8F%B7").content
+python3 --help
+ssh -o "StrictHostKeyChecking no" -p 15708 hypereal@registry-corp.hypereal.com
