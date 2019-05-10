@@ -221,7 +221,8 @@ set ttimeoutlen=0
 set timeoutlen=0
 set updatetime=0
 autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'bufbash'|| bufname('%') =~ 'Netrw') | set nonu | else | set nu | endif
-"autocmd BufLeave,FocusLost * if &filetype !~ 'netrw' | silent! wall | endif
+command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
+autocmd BufLeave,FocusLost * silent! wall | silent! Remove Netrw*
 au FileType netrw au BufLeave <buffer> setlocal nocursorline
 au FileType netrw au BufEnter <buffer> setlocal cursorline
 "--------------------------GetBuffer---------------------------------"
@@ -310,9 +311,9 @@ func Terins()
 endfunc
 func CloseNetrw()
 	let g:back = 0
-"	if tabpagenr('$') == 1
-"		return
-"	endif
+	if tabpagenr('$') == 1
+		return
+	endif
 	let a=tabpagebuflist()
 	let flag=1
 	for i in a
@@ -627,9 +628,9 @@ tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call Togglebash()<CR>
 "tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>
 "--------------------------BufferSwitch---------------------------"
 func Switch(r)
-	if tabpagenr() != 1
-		return
-	endif
+"	if tabpagenr() != 1
+"		return
+"	endif
 	if bufname('%') =~ '!bash' || bufname('%') =~ "help" || bufname('%') =~ "Netrw"
 		return
 	endif

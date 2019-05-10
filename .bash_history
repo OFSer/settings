@@ -24091,3 +24091,486 @@ python3
 python3 requests.get("http://127.0.0.1:8080/port?mac=42-B1-83-7B-E2-B9&name=%E4%BF%A1%E5%85%83%E8%BE%BE10-GPU%E5%8F%B7").content
 python3 --help
 ssh -o "StrictHostKeyChecking no" -p 15708 hypereal@registry-corp.hypereal.com
+ls
+cd ~
+ls
+vim .vimrc
+nslookup k8s-master.sihe6.com
+vim .vimrc
+ls
+git diff
+git diff .vimrc
+git status
+./config.sh push
+vim
+ls
+cd test/
+ls
+mkdir kube
+ls
+cd kube/
+ls
+touch server.js
+vim server.js 
+vim Dockerfile
+docker build .
+ls
+docker images
+vim Dockerfile 
+df -h
+df -hl
+docker image rm e34b64de9667
+docker images
+df -h
+docker images
+docker images -a
+ls
+apt-get update && apt-get install -y apt-transport-https curl
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
+deb https://apt.kubernetes.io/ kubernetes-xenial main
+EOF
+
+ls
+sudo apt-get update && apt-get install -y apt-transport-https curl
+sudo apt-get install -y apt-transport-https curl
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+sudo su
+sudo apt update
+apt-get install -y kubelet kubeadm kubectl
+sudo apt-get install -y kubelet kubeadm kubectl
+sudo apt-mark hold kubelet kubeadm kubectl
+cd ~
+ls
+curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+ls
+chmod +x ./kubectl
+sudo mv ./kubectl /usr/local/bin/kubectl
+kubectl version
+python3 --help
+python3 -c "print 123"
+python3 -c "print(123)"
+vim ~/.vimrc
+git status
+vim .vimrc
+mysql --help
+history | grep mysql
+mysql -h dl-4 -P 31239 -u root --password="KojuJuqe1[Yaqx"
+ssh -o "StrictHostKeyChecking no" -p 10320 hypereal@registry-corp.hypereal.com
+nslookup dl-4
+nslookup dl-5
+ssh -o "StrictHostKeyChecking no" -p 12215 hypereal@registry-corp.hypereal.com
+ls
+cd ~
+ls
+cd .vim/
+cd plugged/
+ls
+cd YouCompleteMe/
+ls
+./install.py --gocode-completer
+./install.py --go-completer
+go get -v -u golang.org/x/tools/go/gcexportdata
+./install.py --gocode-completer
+go get -u -v golang.org/x/tools/go/gcexportdata
+go get -u  golang.org/x/tools/go/gcexportdata
+go get -u -v -insecure golang.org/x/tools/go/gcexportdata
+mkdir -p $GOPATH/src/golang.org/x/
+go get -u -v -insecure golang.org/x/tools/go/gcexportdata
+cd $GOPATH/src/golang.org/x/
+git clone https://github.com/golang/tools.git
+ls
+cd tools/
+ls
+cd ~-1
+cd ~-2
+cd ~-3
+cd ~-4
+./install.py --gocode-completer
+go get -u -v golang.org/x/tools/go/gcexportdata
+cd ~-3
+cd ~-8
+cd ~-4
+cd ~-6
+ls
+cd ..
+ls
+get get -u -v golang.org/x/tools/go/gcexportdata
+ls
+cd ~
+l
+cd .vim/
+ls
+cd plugged/
+git status
+cd YouCompleteMe/
+ls
+git status
+cd third_party/ycmd/
+ls
+git status
+git pull 
+git staus
+git status
+git submodule update
+git status
+cd ..
+./install.py --gocode-completer
+ls
+history | grep mysql
+mysql -h dl-4 -P 31239 -u root -p
+mysql -h dl-4 -P 31239 -u root -p KojuJuqe1[Yaqx
+mysql -h dl-4 -P 31239 -u root -p
+history | grep docker
+docker pull registry-sho.hypereal.com/library/sho-k8s-tools:v20190308
+docker images
+docker run -it registry-sho.hypereal.com/library/sho-k8s-tools
+docker run -it 5295fec4d1ea
+docker run -i 5295fec4d1ea -t bash
+docker run -i 5295fec4d1ea -t /bin/bash
+/bin/bash
+docker run -i 5295fec4d1ea
+docker run 5295fec4d1ea
+ls
+jobs
+docker ps -l
+history | grep docker | grep exec
+docker exec -it ad7ced710bcd /bin/bash
+docker ps -l
+docker ps -a
+docker images
+docker run -it registry-sho.hypereal.com/library/sho-k8s-tools:v20190308
+ls
+cd ~
+ls
+ssh -o "StrictHostKeyChecking no" -p 12215 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17739 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16689 hypereal@registry-corp.hypereal.com
+python3
+ls
+shuf -i10000-20000 -n1
+echo ((RAND % 10000))
+echo $((RAND % 10000))
+echo $((RANDOM % 10000))
+\ssh -p 8002 admin@127.0.0.1
+\ssh -p 8001 admin@127.0.0.1
+\ssh -p 8002 admin@127.0.0.1
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[127.0.0.1]:8002"
+\ssh -p 8002 admin@127.0.0.1
+ssh -o "StrictHostKeyChecking no" -p 12215 hypereal@registry-corp.hypereal.com
+bash
+logger
+logger 123
+cat /var/log/syslog
+cat /var/log/syslog | grep 123
+logger 123423412
+cat /var/log/syslog | grep 123
+ls
+cd ~
+ls
+cat /sys/class/net/eth0/address
+ssh -o "StrictHostKeyChecking no" -p 12215 hypereal@registry-corp.hypereal.com
+connect
+ls
+vim .bashrc
+history | grep history
+history | grep function
+global
+history | grep global
+ls
+cd fc/
+ls
+cd saki_detection/
+ls
+vim crawler.sh 
+ls
+cd ~
+ls
+cd test/
+ls
+cd sh/
+ls
+vim 1.sh
+ls
+vim 2.sh
+ls
+vim 2.sh
+(( 2 > 1 )) && echo 1
+(( 2 < 1 )) && echo 1 || echo 2
+python3 -c <<-EOF
+print(123)
+EOF
+
+python3 <<-EOF
+print(123)
+EOF
+
+python3 <<-EOF
+print(123)
+EOF
+
+python3 <<-EOF
+print(123)
+EOF
+
+ssh gjs@10.0.10.63
+\ssh gjs@10.0.10.63
+\ssh gjs@10.0.10.63 <<-EOF
+s
+EOF
+
+ls
+cd ~
+ls
+cd .ssh/
+ls
+cat id_rsa.pub 
+ls
+cat proxy 
+ls
+cat id_rsa
+ls
+cat id_rsa.pub 
+cat id_rsa
+ssh --help
+man ssh
+vim authorized_keys
+nslookup dl-6
+date +%s
+echo $((`date +%s` - 123))
+if (( 2 > 1 ));then  echo 123; fi
+if (( 2 < 1 ));then  echo 123; fi
+ls
+cd ~/.ssh/
+ls
+cat known_hosts
+ls
+cd ~
+ls
+ssh mac@10.0.10.55
+ssh mac@10.0.10.53
+ssh mac@10.0.10.65
+history| grep ssh
+history| grep ssh | grep mac
+\ssh mac@10.0.10.55
+ls
+cat .ssh/id_rsa.pub 
+\ssh mac@10.0.10.55
+ssh -p 29819 hypereal@10.0.10.63
+\ssh -p 8002 admin@127.0.0.1
+ssh -p 29819 hypereal@10.0.10.63
+\ssh -p 8002 admin@127.0.0.1
+echo [A-Z]
+tr 
+tr --help
+tldr tr
+tr abcd jkmn
+tr abcd jkmn <<EOF
+abcdefgh
+EOF
+
+ls
+bash
+zsh
+ls
+sss
+ls
+jobs
+ssh -o "StrictHostKeyChecking no" -p 12118 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13974 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 14213 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12159 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18595 hypereal@registry-corp.hypereal.com
+ls
+cd ~
+ls
+vim .vimrc
+ssh -o "StrictHostKeyChecking no" -p 16689 hypereal@registry-corp.hypereal.com
+\ssh -p 8002 admin@10.0.10.63
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[10.0.10.63]:8002"
+\ssh -p 8002 admin@10.0.10.63
+ls
+cd ..
+ls
+cd go/
+ls
+vim main
+vim main.go
+ls
+jobs
+fg
+jobs
+ls
+fg
+ls
+jobs
+fg
+vim
+jobs
+vim
+jobs
+vim
+ls
+jobs
+vim main
+vim main.go 
+ls
+jobs
+ls
+jobs
+cd ~
+history | grep useradd
+sudo useradd -m -d /home/proxy -G sudo -p s proxy
+su proxy
+sudo passwd proxy
+su proxy
+userdel proxy
+sudo userdel proxy
+sudo useradd -m -d /home/proxy -G sudo -p s proxy
+ls
+su proxy
+sudo passwd proxy
+su proxy
+ls
+echo -ne "asdf"
+echo --help
+man echo
+ls
+echo $HOSTNAME
+echo $HOSTNAME | sed 's/[^a-zA-Z 0-9`~!@#$%^&*()_+\[\]\\{}|;'\'':",.\/<>?]//g'
+ls
+ssh -o "StrictHostKeyChecking no" -p 16463 hypereal@registry-corp.hypereal.com
+AI_CLOTH_WEB_SERVER
+echo abc
+a=abc
+tr [a-c] [A-C] <<<$a
+tr [a-c] [A-C] <<<a
+tr [a-c] [A-C] <<<$a
+\ssh -p 8002 admin@127.0.0.1
+ssh -o "StrictHostKeyChecking no" -p 13921 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10438 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17579 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15313 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11974 hypereal@registry-corp.hypereal.com
+a=0
+b=`date +%s`
+echo $b
+(( b - a < 100 )) && echo 1
+(( b - a > 100 )) && echo 1
+echo $(( b - a ))
+ls
+cd ~
+ls
+ascii a
+echo a | od -b 
+echo a | od 
+echo a | od -b
+echo b | od -b
+echo c | od -b
+echo 测试 | od -b
+od --help
+echo 测试 | od -A=10
+echo 测试 | od -A 10
+echo 测试 | od -i
+echo a | od -i
+od -c hello
+echo a | od -A d
+echo a | od -A o
+echo a | od -A d
+echo b | od -A d
+echo b | od -Ad
+grep --help
+history | grep tldr
+tr --help
+echo abc | grep -E [:cntrl:]
+echo abc | grep -E [[:cntrl:]]
+echo abc | grep  [[:cntrl:]]
+echo abc | grep  [[:alpha:]]
+echo abc | grep  [[=char=]]
+echo abc | grep  [[:char:]]
+grep --help
+man grep
+man sed
+echo abc | sed 's/[[=char=]]/e/g'
+echo abc | sed -E 's/[[=char=]]/e/g'
+echo abc | sed -E 's/[[:alpha:]]/e/g'
+echo abc | sed -E 's/[[:char:]]/e/g'
+echo abc | sed -E 's/[[:alpha:]]/e/g'
+echo abc | sed -E 's/[\d128-\d255]/e/g'
+echo abc | sed -i 's/[\d128-\d255]/e/g'
+echo abc | sed 's/[\d128-\d255]/e/g'
+echo abc | sed 's/[\d128-\d255]//g'
+echo abc | sed -E 's/[\d128-\d255]//g'
+echo abc | LANG=C sed -E 's/[\d128-\d255]//g'
+echo abc | Lsed -E 's/[[:print:]]//g'
+echo abc | sed -E 's/[[:print:]]//g'
+echo abc | sed -E 's/[[:print:]]/e/g'
+echo abc | sed -E 's/[\d128-\d255]//g'
+echo a123 | tr a b 
+hz2py
+sudo apt install python3-hy
+hz2py
+sudo apt install python-hy
+hz2py
+hy2py
+hy2py 测试
+echo 测试 | hy2py 
+echo 测试 | hy2py  -q
+hy2py --help
+pip install pypinyin
+python3
+pypinyin
+pypinyin 音乐
+pypinyin --help
+pip install pypinyin
+vim config.sh 
+pypinyin -s FIRST_LETTER 音乐
+pypinyin -s NORMAL 音乐
+pypinyin -p'' -s NORMAL 音乐
+pypinyin -p - -s NORMAL 音乐
+pypinyin -p a -s NORMAL 音乐
+pypinyin -p ; -s NORMAL 音乐
+pypinyin -p ';' -s NORMAL 音乐
+pypinyin --separator ';' -s NORMAL 音乐
+pypinyin --separator=';' -s NORMAL 音乐
+pypinyin --separator -s NORMAL 音乐
+pypinyin -s NORMAL 音乐
+vim .bashrc
+pypinyin -s NORMAL 音乐abc
+pypinyin -s NORMAL 音乐abce厕纸
+jobs
+pypinyin --help
+pypinyin df
+man pypinyin
+pypinyin --help
+pypinyin -s NORMAL 音乐abce厕纸 | tr ' ' ''
+pypinyin -s NORMAL 音乐abce厕纸
+pypinyin -s NORMAL 音乐abce厕纸 tr ' ' '-'
+pypinyin -s NORMAL 音乐abce厕纸 tr 'a' '-'
+pypinyin -s NORMAL 音乐abce厕纸 tr a b
+pypinyin -s NORMAL 音乐abce厕纸 | tr a b
+pypinyin -s NORMAL 音乐abce厕纸 | tr ' ' b
+pypinyin -s NORMAL 音乐abce厕纸 | tr ' ' ''
+pypinyin -s NORMAL 音乐abce厕纸 | tr ' ' ""
+pypinyin -s NORMAL 音乐abce厕纸 | sed 's/ //'
+pypinyin -s NORMAL 音乐abce厕纸 | sed 's/ //g'
+vim .bashrc
+fg
+mysql
+cd fc/saki_detection/
+ls
+mysql
+python
+ls
+cd fc
+ls
+ssh -o "StrictHostKeyChecking no" -p 18003 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 18003 hypereal@registry-corp.hypereal.com
+git status
+git checkout -- config.sh
+git status
+git diff .vimrc
+ls
+vim .bashrc
+ssh -o "StrictHostKeyChecking no" -p 18003 hypereal@registry-corp.hypereal.com
