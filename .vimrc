@@ -73,6 +73,11 @@ Plug 'rakr/vim-one'
 " markdown 插件
 Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.vim'
+" majutsushi/tagbar 插件打开关闭快捷键
+" markdwon 的快捷键
+map <silent> <F5> <Plug>MarkdownPreview
+map <silent> <F6> <Plug>StopMarkdownPreview
+let g:mkdp_auto_close = 0
 call plug#end()
 "--------------------------------------------------------------"
 let g:go_highlight_functions = 1
@@ -759,10 +764,7 @@ let g:go_highlight_methods = 1
 let g:go_highlight_generate_tags = 1
 let g:godef_split=2
 
-" majutsushi/tagbar 插件打开关闭快捷键
-" markdwon 的快捷键
-map <silent> <F5> <Plug>MarkdownPreview
-map <silent> <F6> <Plug>StopMarkdownPreview
+
 "set statusline=%1*%F%h%m%=\ [%p%%]\ [%l/%L]:%c
 set statusline=%1*
 set laststatus=0
