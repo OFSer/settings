@@ -59,6 +59,19 @@ if [ -n "$force_color_prompt" ]; then
 	fi
 fi
 
+function git-branch-name {
+  git symbolic-ref HEAD 2>/dev/null | cut -d"/" -f 3
+  #git rev-parse --abbrev-ref HEAD
+}
+function git-branch-prompt {
+  local branch=`git-branch-name`
+  if [ $branch ]; then printf " [%s]" $branch; fi
+}
+
+function git-branch {
+	ref=$(git symbolic-ref HEAD 2> /dev/null) || return;
+	echo " ["${ref#refs/heads/}"]";
+}
 if [ "$color_prompt" = yes ]; then
 	PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
@@ -202,7 +215,8 @@ mycd(){
 alias osu='LD_LIBRARY_PATH="~/osu/osu.Desktop/bin/Debug/netcoreapp2.2" sudo dotnet run --project ~/osu/osu.Desktop &> /dev/null 2>&1 &'
 alias mysql='mysql --login-path=gjs'
 # If this is an xterm set the title to user@host:dir
-PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@$HOSTNAME\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ "
+PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@$HOSTNAME\[\033[0m\]\[\033[0;32m\]\$(git-branch)\[\033[0m\]\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ "
+#PS1="\u@\h \[\033[0;36m\]\W\[\033[0m\]\[\033[0;32m\]\$(git-branch-prompt)\[\033[0m\] \$ "
 case "$TERM" in
 xterm*|rxvt*)
 	PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}:`dirs -p | head -n 1`$\007"'
@@ -234,3 +248,5 @@ args(){
 }
 #export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
 alias ssh60='sshpass -p s ssh gjs@10.0.18.131'
+
+
