@@ -1,0 +1,43 @@
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+	test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+	alias ls='ls --color=auto'
+	#alias dir='dir --color=auto'
+	#alias vdir='vdir --color=auto'
+
+	alias grep='grep --color=auto'
+	alias fgrep='fgrep --color=auto'
+	alias egrep='egrep --color=auto'
+fi
+
+# colored GCC warnings and errors
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+
+
+alias gitamp=$'git add . && git commit -m "upd `git diff-index --name-only HEAD | sed \':a;N;$!ba;s/\\n/,/g;\'`" && git push origin'
+alias sss="sshpass -p root ssh root@dl-6 -p 30263 -t 'bash --login'"
+alias man='PAGER=most man'
+alias sp='sshpass -p 87Co7r '
+alias ssh='callssh'
+callssh(){
+	sshpass -p 87Co7r \ssh -o StrictHostKeyChecking=no "$@" || sshpass -p s \ssh -o StrictHostKeyChecking=no "$@" || \ssh "$@"
+}
+alias docker='sudo \docker'
+alias logout=$'ps -ef | grep tty2 | awk \'{print $2}\' | head -n 1 | xargs kill'
+alias date='env LC_TIME=en_US.UTF-8 date'
+alias osu='LD_LIBRARY_PATH="~/osu/osu.Desktop/bin/Debug/netcoreapp2.2" sudo dotnet run --project ~/osu/osu.Desktop &> /dev/null 2>&1 &'
+alias mysql='mysql --login-path=gjs'
+# If this is an xterm set the title to user@host:dir
+alias ssh60='sshpass -p s ssh gjs@10.0.18.131'
+alias cd='mycd'
+#alias git='Git'
