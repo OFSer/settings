@@ -24574,3 +24574,709 @@ git diff .vimrc
 ls
 vim .bashrc
 ssh -o "StrictHostKeyChecking no" -p 18003 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 16468 hypereal@registry-corp.hypereal.com
+ls
+git status
+ls
+ssh -o "StrictHostKeyChecking no" -p 17611 hypereal@registry-corp.hypereal.com
+mysql
+ssh -o "StrictHostKeyChecking no" -p 17611 hypereal@registry-corp.hypereal.com
+ls
+vim ~/.bashrc
+cd ~
+git diff .bashrc
+git checkout -- .bashrc
+git status
+git diff
+vim config.sh 
+vim .bashrc
+git status
+git add -A
+git commit -m "format"
+git push
+ls
+vim .bashrc
+git status
+git diff .bashrc
+fg
+git status
+git checkout -- .bashrc
+git status
+ls
+git status
+\ssh -p 12345 hypereal@52.80.24.136
+cd ~
+ls
+\ssh -p 12345 root@52.80.24.136
+\ssh -p 12345 hypereal@52.80.24.136
+\ssh -p 12345 ubuntu@52.80.24.136
+\ssh -p 12345 hypereal@52.80.24.136
+\ssh -i .ssh/web-dev.pem -p 12345 hypereal@52.80.24.136
+\ssh -i .ssh/web-dev.pem ubuntu@52.80.24.136
+\ssh -p 22345 hypereal@52.80.24.136
+ls
+eog
+ssh -o "StrictHostKeyChecking no" -p 12215 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12676 hypereal@registry-corp.hypereal.com
+ls
+cd ~
+ls
+cd fc/
+ls
+cd ai-cloth-webserver/
+ls
+cd controllers/
+ls
+cd api/
+ls
+vim auth.go 
+ls
+cd ..
+ls
+vim
+\ssh -p 8002 admin@127.0.0.1
+ssh -o "StrictHostKeyChecking no" -p 16463 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12559 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10799 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12341 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 12341 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12341 hypereal@registry-corp.hypereal.com
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[registry-corp.hypereal.com]:12341"
+ssh -o "StrictHostKeyChecking no" -p 12341 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17627 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15347 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17570 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19763 hypereal@registry-corp.hypereal.com
+mysql
+history | grep useradd
+useradd --help
+useradd --help | grep login
+ls
+cd .ssh/
+ls
+vim authorized_keys 
+ls
+cat proxy
+ssh -i proxy -N -R 0.0.0.0:12345:localhost:22 proxy@52.80.24.136
+ls
+chmod 400 proxy
+ssh -i proxy -N -R 0.0.0.0:12345:localhost:22 proxy@52.80.24.136
+\ssh -i proxy -N -R 0.0.0.0:12345:localhost:22 proxy@52.80.24.136
+ssh -o "StrictHostKeyChecking no" -p 16468 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11055 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17611 hypereal@registry-corp.hypereal.com
+ls
+cd ~
+history | grep ssh
+\ssh -i .ssh/web-dev.pem -p 12345 hypereal@52.80.24.136
+\ssh -i .ssh/web-dev.pem ubuntu@52.80.24.136
+\ssh -i .ssh/web-dev.pem proxy@52.80.24.136
+history | grep useradd
+sudo vim /etc/shadow
+\ssh -i .ssh/web-dev.pem ubuntu@52.80.24.136
+\ssh -i .ssh/web-dev.pem test@52.80.24.136
+\ssh test@52.80.24.136
+ls
+tldr chattr
+tldr chown 
+\ssh test@52.80.24.136
+\ssh -i .ssh/web-dev.pem test@52.80.24.136
+\ssh -p 12345 hypereal@52.80.24.136
+ping ssh-proxy.sihe6.com
+ssh -o "StrictHostKeyChecking no" -p 13379 hypereal@registry-corp.hypereal.com
+curl https://jumpserver.sihe6.com/
+ssh -o "StrictHostKeyChecking no" -p 11055 hypereal@registry-corp.hypereal.com
+ls
+cd ~
+ls
+mv Downloads/web-dev.pem .ssh/
+ls
+ssh ubuntu@52.80.24.136 -i .ssh/web-dev.pem
+ls
+cd .ssh/
+ls
+ll
+cat web-dev.pem 
+ll
+cd ..
+ssh ubuntu@52.80.24.136 -i .ssh/web-dev.pem
+cd .ssh/
+ls
+ll
+chmod 500 web-dev.pem 
+ll
+chmod 600 web-dev.pem 
+ll
+chmod 400 web-dev.pem 
+ll
+ls
+cd ..
+ssh ubuntu@52.80.24.136 -i .ssh/web-dev.pem
+ls
+cd .ssh/
+ls
+cd ..
+ls
+whoami 
+cd /bin/
+ls
+nologin
+nohup
+nosetests 
+cd /etc/
+ls
+sudo vim shadow
+sudo vim group
+sudo vim passwd
+cd ~
+ssh ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+ssh -tX ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+ssh ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+ls
+nslookup pan.baidu.com
+ssh -N -L 0.0.0.0:12345:180.149.145.241:80 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+curl 180.149.145.241:80
+ssh -N -L 0.0.0.0:12345:180.149.145.241:80 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+ssh -f -N -L 0.0.0.0:12345:180.149.145.241:80 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+curl 127.0.0.1:12345
+curl 180.149.145.241:80
+curl 127.0.0.1:12345
+curl -H 127.0.0.1:12345
+curl --head 127.0.0.1:12345
+52.80.24.136
+curl --head 180.149.145.241:80
+curl 180.149.145.241:80
+curl --head 180.149.145.241:80
+curl --head 127.0.0.1:12345
+ssh -D localhost:1080 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+ssh -N -D localhost:1080 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+ssh -N -D 127.0.0.1:1080 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+privoxy
+privoxy --help
+ls
+vim config.sh 
+ls
+ssh -N -D 127.0.0.1:1080 ubuntu@52.80.24.136 -i /home/gjs/.ssh/web-dev.pem
+ls
+\ssh ubuntu@10.0.20.90 -i ~/.ssh/web-dev.pem
+ping 10.0.20.90
+\ssh ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+\ssh -i 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+\ssh -p 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+ssh -o "StrictHostKeyChecking no" -p 18079 hypereal@registry-corp.hypereal.com
+\ssh -p 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+\ssh -p 8011 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+\ssh -p 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+\ssh ubuntu@52.80.24.136
+\ssh -i .ssh/web-dev.pem ubuntu@52.80.24.136
+\ssh -p 8022 -i .ssh/web-dev.pem ubuntu@52.80.24.136
+\ssh -i .ssh/web-dev.pem ubuntu@52.80.24.136 -p 8022
+\ssh hypereal@52.80.24.136 -p 29407
+\ssh hypereal@52.80.24.136 -p 23456
+\ssh -i .ssh/web-dev.pem ubuntu@52.80.24.136 -p 8022
+ls
+ssh -o "StrictHostKeyChecking no" -p 18003 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 18003 hypereal@registry-corp.hypereal.com
+ls
+echo 伟盛04-GPU号(04-92-26-D2-73-B | sed 's/[^a-zA-Z 0-9`~!@#$%^&*()_+\[\]\\{}|;'\'':",.\/<>?]//g'
+echo 伟盛04-GPU号04-92-26-D2-73-B | sed 's/[^a-zA-Z 0-9`~!@#$%^&*()_+\[\]\\{}|;'\'':",.\/<>?]//g'
+echo 伟盛04-GPU号04-92-26-D2-73-B | sed 's/[a-zA-Z 0-9`~!@#$%^&*()_+\[\]\\{}|;'\'':",.\/<>?]//g'
+echo 伟盛04-GPU号04-92-26-D2-73-B | sed 's/[^a-zA-Z 0-9`~!@#$%^&*()_+\[\]\\{}|;'\'':",.\/<>?]//g'
+echo 伟盛04-GPU号04-92-26-D2-73-B | sed -i 's/[^a-zA-Z 0-9`~!@#$%^&*()_+\[\]\\{}|;'\'':",.\/<>?]//g'
+echo 伟盛04-GPU号04-92-26-D2-73-B | sed 's/[a-z]//g'
+echo 伟盛04-GPU号04-92-26-D2-73-B | sed 's/[A-Z]//g'
+ls
+cd fc/
+ls
+cd dl-k8s-kube/
+ls
+git pull
+git branch
+git checkout master 
+git pull
+ls
+git status
+git log
+git checkout jumpserver/
+ls
+git branch
+ls
+git checkout -b jumpserver
+git status
+git branch
+vim
+history | grep mysql
+mysql -h dl-4 -P 31239 -u root --password="KojuJuqe1[Yaqx"
+ls
+cd ..
+ls
+cd ai-cloth-webserver/
+vim
+ls
+vim
+ls
+cd ..
+ls
+cd detection-machine-daemon/
+ls
+vim
+ls
+vim jumpserver_forward.sh 
+ls
+jobs
+\ssh -p 8002 admin@127.0.0.1
+ls
+vim
+ls
+cd ..
+ls
+cd dl-k8s-kube/
+ls
+cd jumpserver/
+ls
+cd ..
+ls
+cd jumpserver/
+ls
+cd sho/
+ls
+cd ..
+git pull
+git branch
+git checkout master 
+git status
+ls
+cd ..
+ls
+git pull
+git status
+cd jumpserver/
+ls
+cd sho/
+ls
+vim jumpserver.yml 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~
+ls
+cd fc/
+ls
+cd detection-machine-daemon/
+ls
+vim jumpserver_forward.sh 
+ls
+history | grep -D
+history | grep "-D"
+history | grep "\-D"
+ssh -o "StrictHostKeyChecking no" -p 18079 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 12723 hypereal@registry-corp.hypereal.com
+sudo vim /etc/ssh/sshd_config 
+sudo service ssh restart
+ssh admin@ai-ssh.sihe6.com
+ssh admin@ai-ssh.sihe6.com
+ls
+ssh jyc@ai-ssh.sihe6.com
+export --help
+service ssh status
+ssh -o "StrictHostKeyChecking no" -p 16468 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13385 hypereal@registry-corp.hypereal.com
+ls
+ssh -o "StrictHostKeyChecking no" -p 13385 hypereal@registry-corp.hypereal.com
+ls
+history | grep -D
+history | grep \-D
+history | grep "\-D"
+ssh -N -D 127.0.0.1:1080 ubuntu@52.80.24.136 -i /home/gjs/.ssh/web-dev.pem
+ls
+git status
+git add .
+git status
+ls
+./config.sh push
+git diff HEAD^ .dconf
+vim .vimrc
+git status
+ls
+git diff .vimrc
+ls
+cd fc/http-dhcp-server/
+ls
+vim
+ls
+vim
+ls
+vim
+ls
+vim main.go 
+ls
+cd src/
+ls
+cd controller/
+ls
+cd p
+cd port/
+ls
+cd docs
+ls
+vim
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+vim
+vim'
+vim
+ls
+vim main.go 
+ls
+steam
+reboot
+sudo reboot
+docker run -it ubuntu:18.04 
+ls
+userdel proxy
+sudo userdel proxy
+useradd -m -d /home/fff -s /usr/sbin/nologin fff
+useradd -m -d /home/fffg -s /usr/sbin/nologin fffg
+sudo useradd -m -d /home/fffg -s /usr/sbin/nologin fffg
+sudo userdel fffg
+tldr chown
+echo "asfdasd f\
+asdfasdf
+"
+echo "dafsdf\
+asdfasdf
+"
+echo -e "dafsdf\
+asdfasdf
+"
+ls
+git status
+cd /
+ls
+cd -
+ls
+git status
+ls
+git status
+git branch
+git status
+git log
+ls
+cd /
+ls
+cd ~
+ls
+cd fc/
+ls
+cd saki_detection/
+ls
+git branch
+ls
+cd ..
+ls
+l
+ls
+cd ~
+ls
+git symbolic-ref HEAD 2
+git symbolic-ref HEAD 2>/dev/null | cut -d"/" -f 3
+git symbolic-ref HEAD 2
+ls
+sudo apt install ssh
+sudo apt install openssh-server
+docker run -it ubuntu:18.04
+ls
+mysql
+git branch
+ls
+history
+ls
+git status
+ls
+jobs
+history | grep ssh
+history | grep ssh | grep ubuntu
+ls
+jobs
+ls
+git status
+git diff .bashrc
+ls
+jobs
+ls
+vim .bashrc
+ls
+jobs
+ls
+cd .vim/
+ls
+cd ..
+ls
+cd .vim/
+ls
+cd ..
+ls
+mkdir .bash
+ls
+cd .bash/
+ls
+cd ..
+ls
+vim .bashrc
+git status
+git add .bashrc
+git status
+git commit -m "add PS1 git" 
+git push
+jobs
+ls
+man echo
+sudo apt install nettools
+ls
+cd ~
+ls
+vim .bashrc
+ls
+cd fc/
+ls
+cd detection-machine-daemon/
+ls
+git branch
+git pull --help
+git fetch origin/master
+git pull
+git fetch --all
+git status
+git checkout master
+git pull
+git status
+git fetch master
+git pull
+git fetch origin/master
+git fetch --help
+git fetch --all
+ls
+git branch -a
+git show branch origin
+git show origin
+git show origin 
+git show origin master
+git show origin jumpserver
+ls
+git status
+history | grep git | grep show
+git remote show origin
+ls
+jobs
+ls
+jobs
+ls
+pwd
+ls
+cd ~
+ls
+cd fc/
+ls
+cd dl-k8s-kube/
+ls
+vim
+ls
+jobs
+vim
+ls
+cd ..
+ls
+cd flaw_checker/
+ls
+vim README.md 
+ls
+jobs
+cd ..
+ls
+cd analysis-flawck/
+ls
+vim README.md 
+ls
+vim README.md 
+ls
+git status
+ls
+echo /etc/debian_chroot 
+cat /etc/debian_chroot 
+ls
+git status
+git diff .vimrc
+git add .vimrc
+git commit -m "vim fix mkd auto_close"
+git push
+echo $SHELL
+lesspipe 
+lesspipe --help
+man lesspipe
+echo $TERM
+echo $force_color_prompt
+man test
+echo $color_prompt
+cat /etc/debian_chroot
+alert
+ls
+cd ~
+ls
+mysql
+ls
+mysql
+#1557732687
+ls
+ls
+cd ~
+ls
+cd fc/
+ls
+cd ..
+ls
+cd test/
+ls
+git clone http://gitlab.sho.hypereal.com/AIFactory/dl-k8s-kube/tree/master
+ls
+git clone git@gitlab.sho.hypereal.com:AIFactory/dl-k8s-kube.git
+git branch
+cd dl-k8s-kube/
+ls
+git status
+git branch -a
+git checkout remotes/origin/ssh-proxy
+git checkout -b remotes/origin/ssh-proxy
+git status
+git branch
+git status
+git checkout master
+git branch -d remotes/origin/ssh-proxy
+git branch -D remotes/origin/ssh-proxy
+git status
+git branch
+git branch -a
+git reset remotes/origin/ssh-proxy
+git status
+git branch
+git reset HEAD --hard
+git status
+rm -rf jumpserver/aws/
+git status
+git pull
+git status
+git pull
+git log
+ls
+git branch
+git branch -a
+history | grep git | grep branch
+history | grep git | grep checkout
+history | grep git | grep remote
+git branch
+git branch -a
+git checkout -b ssh-proxy remotes/origin/ssh-proxy
+git status
+git log
+ls
+cd dockerfiles/
+ls
+cd ssh-proxy/
+ls
+cat Dockerfile 
+vim Dockerfile 
+cat Dockerfile 
+vim Dockerfile 
+cat Dockerfile 
+cat Dockerfile | od -b
+hexdump -C -n 100 cat Dockerfile
+hexdump -C -n 100 <(cat Dockerfile)
+hexdump -C -n 1000 <(cat Dockerfile)
+jobs
+ls
+vim Dockerfile 
+ls
+cd ~
+ls
+vim .vimrc
+ls
+git branch
+ls
+cd ~
+ls
+git branch
+ls
+vim .bashrc
+echo $HOME
+jobs
+fg
+/usr/bin/dircolors
+ls
+git add -f .bashrc
+git add -f .bash
+git status
+sss
+ls
+git status
+git add .bash
+git status
+git add .bash
+vim .gitignore 
+git status
+git add .bash
+git status
+git commit -m "reconstruct .bashrc"
+git push
+go
+go env
+go mod
+ssh60
+ls
+echo $HOST
+vim /etc/host
+vim /etc/hosts
+ls
+jobs
+alert 1234
+ls
+alert --help
+ls
+ssh gjs@10.0.10.63
+ls
+\ssh gjs@10.0.10.63
+ssh admin@ai-ssh.sihe6.com
+sshpass -p admin ssh admin@ai-ssh.sihe6.com 
+sshpass -p admin ssh admin@ai-ssh.sihe6.com < 8
+sshpass -p admin ssh admin@ai-ssh.sihe6.com <(echo 8)
+ls
+sshpass -p admin ssh admin@ai-ssh.sihe6.com
+echo 8 | sshpass -p admin ssh admin@ai-ssh.sihe6.com
+ls
+jobs
+\ssh admin@ai-ssh.sihe6.com
+dir
+ls
+dir
+dir --color=auto
+dir --help
+ls
+jobs
+git status
+git diff .bash
+ssh -o "StrictHostKeyChecking no" -p 15256 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -p 15256 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11512 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10585 hypereal@registry-corp.hypereal.com
+history
+history | grep ssh | grep admin
+\ssh admin@ai-ssh.sihe6.com
+ssh -o "StrictHostKeyChecking no" -p 10585 hypereal@registry-corp.hypereal.com
