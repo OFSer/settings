@@ -200,9 +200,10 @@ run(){
 	#config_privoxy
 }
 push(){
+	msg=${1:-upd}
 	dconf dump / > .dconf
 	git add -A
-	git commit -m "upd"
+	git commit -m "$msg"
 	git push
 }
 pull(){
@@ -213,11 +214,7 @@ pull(){
 	dconf load / < .dconf
 }
 
-a=($@)
-for i in ${a[@]};do 
-	$i
-done 
-
+$*
 
 
 

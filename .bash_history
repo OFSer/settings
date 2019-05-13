@@ -25280,3 +25280,89 @@ history
 history | grep ssh | grep admin
 \ssh admin@ai-ssh.sihe6.com
 ssh -o "StrictHostKeyChecking no" -p 10585 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 10946 hypereal@registry-corp.hypereal.com
+ls
+jobs
+ls
+jobs
+git status
+cd ~
+cd ..
+git status
+ls
+cd ~
+ls
+git status
+git diff .bash
+git status
+git add .bash
+git status
+git diff .bashrc
+git add .bashrc
+git status
+git diff .gitignore
+vim .gitignore 
+jobs
+ls
+git status
+git add .gitignore 
+git status
+git commit -m "format"
+git push
+git status
+./config.sh push
+jobs
+vim config.sh 
+jobs
+ls
+git status
+vim config.sh 
+ls
+args 123 234
+type args
+set 1 2 3
+echo "$@"
+for i in "$@";do echo $i; done
+jobs
+ls
+jobs
+vim config.sh 
+echo ${1:-234}
+echo ${4:-234}
+jobs
+fg
+a="123 234"
+b=$a
+echo $b
+jobs
+fg
+jobs
+fg
+git status
+git add config.sh 
+git commit -m "add msg"
+git push
+jobs
+ls
+git status
+cd ~
+git status
+./config.sh push test
+git log
+ls
+vim config.sh 
+git status
+jobs
+fg
+./config.sh test
+./config.sh push test
+jobs
+vim config.sh 
+git status
+./config.sh push
+cd ~
+git status
+./config.sh push test
+jobs
+vim config.sh 
+./config.sh push
