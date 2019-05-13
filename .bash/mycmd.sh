@@ -4,6 +4,10 @@ args(){
 	echo
 }
 
+callssh(){
+	sshpass -p 87Co7r \ssh -o StrictHostKeyChecking=no "$@" || sshpass -p s \ssh -o StrictHostKeyChecking=no "$@" || \ssh "$@"
+}
+
 mycd(){
 	IFS=$'\n'
 	[ $# -eq 0 ] && {

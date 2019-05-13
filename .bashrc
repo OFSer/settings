@@ -17,6 +17,3 @@ load $HOME/.bash/env.sh
 load $HOME/.bash/alias.sh
 load $HOME/.bash/feature.sh
 load $HOME/.bash/mycmd.sh
-
-
-

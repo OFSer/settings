@@ -11,6 +11,7 @@
 !.xinputrc
 !README.md
 !config.sh
+!.bash/
 .config/Code/
 .config/pulse/
 .config/netease-cloud-music/
