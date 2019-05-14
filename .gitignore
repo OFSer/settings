@@ -59,3 +59,5 @@
 .config/gnome-games/
 .local/share/gsettings-data-convert
 .config/gtk-3.0/servers
+.config/totem/state.ini
+.config/mednaffe.conf

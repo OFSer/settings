@@ -25366,3 +25366,182 @@ git status
 jobs
 vim config.sh 
 ./config.sh push
+history | grep mysql
+ls
+jobs
+ssh -o "StrictHostKeyChecking no" -p 13420 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13274 hypereal@registry-corp.hypereal.com
+ping dl-6.sho.hypereal.com
+ls
+vim jumpserver_forward.sh 
+jobs
+fg
+ls
+sudo vim jumpserver_forward.sh 
+man sshd_config 
+ls
+jobs
+ls
+ssh -o "StrictHostKeyChecking no" -p 11703 hypereal@registry-corp.hypereal.com
+ls
+cd ..
+ls
+cd dl-k8s-kube/
+ls
+vim
+ssh -o "StrictHostKeyChecking no" -p 12549 hypereal@registry-corp.hypereal.com
+history | grep ubuntu
+\ssh -i 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+ls
+jobs
+vim jumpserver_forward.sh 
+pwd
+\ssh -i 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+man ssh_config | grep ServerAliveInterval
+man ssh_config | grep ClienAliveInterval
+man ssh_config | grep ClientAliveInterval
+man ssh_config
+man sshd_config
+man ssh_config | grep ClientAliveInterval
+man ssh_config | grep ServerAliveInterval
+man ssh_config
+man sshd_config
+man ssh_config
+\ssh -i 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+git status
+git reset HEAD --hard
+git status
+sudo bash jumpserver_forward.sh 
+python3
+sudo bash jumpserver_forward.sh 
+bash jumpserver_forward.sh 
+cd ~
+ls
+git status
+./config.sh push test
+git log
+ls
+git log
+git rebase 670c986e913f234c08fe20916dfffef4efb13dfb
+git status
+git log
+git status
+git branch
+git rebase -i 670c986e913f234c08fe20916dfffef4efb13dfb
+git status
+git log
+git rebase -i 670c986e913f234c08fe20916dfffef4efb13dfb
+git log
+vim config.sh 
+git diff HEAD^
+git diff HEAD^ .config.sh
+git diff HEAD^ config.sh
+git status
+git push -f
+git status
+ls
+jobs
+ls
+vim .vimrc
+ls
+git status
+ls
+jobs
+ls
+jobs
+mysql --help
+mysql --help | grep password
+ls
+history 
+ls
+git branch
+ls
+vim .vimrc
+ls
+cd fc/
+ls
+cd detection-machine-daemon/
+ls
+vim
+ls
+vim
+ls
+jobs
+ls
+vim jumpserver_forward.sh 
+ls
+jobs
+sss
+mysql
+ssh
+ssh -o "StrictHostKeyChecking no" -p 11512 hypereal@registry-corp.hypereal.com
+gjs
+type gjs
+which gjs
+gjs --help
+man gjs
+gjs --version
+gjs
+ls
+gjs
+history | grep ssh
+ssh admin@ai-ssh.sihe6.com
+ls
+cd ..
+ls
+cd fc/
+ls
+cd detection-machine-daemon/
+ls
+vim jumpserver_forward.sh 
+ls
+cd ..
+ls
+cd http-
+cd http-dhcp-server/
+ls
+vim
+ls
+cd ~
+git status
+ls
+vim .bashrc
+ls
+cd fc/
+ls
+jobs
+cd ..
+ls
+jobs
+git branch
+ls
+jobs
+ls
+cd ..
+ls
+cd gjs/
+ls
+git branch
+git checkout -b vim
+git status
+vim .vimrc
+ls
+jobs
+ls
+jobs
+ls
+cat mydb 
+ls
+ssh -o "StrictHostKeyChecking no" -p 18745 hypereal@registry-corp.hypereal.com
+history | grep ssh | grep admin
+\ssh admin@ai-ssh.sihe6.com
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim
+ls
+jobs
+ls
+'EVA 新世纪福音战士：第7话 人造之物[00].flv.download'
