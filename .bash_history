@@ -25545,3 +25545,258 @@ ls
 jobs
 ls
 'EVA 新世纪福音战士：第7话 人造之物[00].flv.download'
+ls
+cd ~
+ls
+rm 'EVA 新世纪福音战士：第7话 人造之物[00].flv.download' 
+ls
+cd snap/
+ls
+cd ~
+ls
+git status
+git branch
+git status
+git diff .config
+git status
+cat .config/mednaffe.conf
+cat .config/totem/state.ini
+cd .config/totem/
+ls
+cd ~
+ls
+vim .gitignore 
+echo ".config/totem/state.ini" >> .gitignore 
+echo ".config/mednaffe.conf" >> .gitignore 
+git status
+git rm --cached .config/totem/state.ini
+git status
+./config.sh push 
+git status
+git push --set-upstream origin vim
+git status
+stack ghci
+ghci
+which ghci
+where ghci
+whereis ghci
+stack ghci
+ls
+ct .stack/global-project/stack.yaml 
+cat .stack/global-project/stack.yaml 
+ssh -o "StrictHostKeyChecking no" -p 17354 hypereal@registry-corp.hypereal.com
+ls
+git status
+ls
+jobs
+history | grep ssh | grep admin
+\ssh admin@ai-ssh.sihe6.com
+ls
+jobs
+ls
+ssh -o "StrictHostKeyChecking no" -p 11786 hypereal@registry-corp.hypereal.com
+ls
+cd accumulate/
+ls
+vim
+curl -sSL https://get.haskellstack.org/ | sh
+ls
+curl -sSL https://get.haskellstack.org/ | sudo sh
+stack
+stack ghci
+ghci
+stack ghci
+ghci
+stack ghci
+ls
+stack test
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd ~
+ls
+jobs
+ls
+vim .bashrc
+cd .bash/
+ls
+touch PS1rc
+ls
+vim PS1rc
+ls
+mv PS1rc PS1.sh
+ls
+vim PS1.sh 
+vim PS1.sh
+ls
+jobs
+ls
+git status
+ls
+cd ..
+ls
+vim .vimrc
+ls
+vim .bashrc
+ls
+git status
+git log
+git status
+ls
+echo "https://baidu.com"
+ls
+jobs
+history | grep ssh | grep ubuntu
+\ssh -i 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+ls
+ping 52.80.24.136
+ls
+ping 52.80.24.136
+nolookup
+nslookup 
+jobs
+history | grep ssh
+man history 
+jobs
+ls
+jobs
+fgc
+ls
+jobs
+ls
+history
+ping 52.80.24.136
+ls
+fc --help
+man fc
+ls
+fc -l
+ssh -N -D 127.0.0.1:1080 ubuntu@52.80.24.136 -i /home/gjs/.ssh/web-dev.pem
+history | grep ssh | grep admin
+ssh admin@ai-ssh.sihe6.com
+\ssh admin@ai-ssh.sihe6.com
+ls
+jobs
+ls
+jobs
+ls
+jobs
+ssh admin@ai-ssh.sihe6.com
+\ssh admin@ai-ssh.sihe6.com
+ssh -o "StrictHostKeyChecking no" -p 15114 hypereal@registry-corp.hypereal.com
+\ssh admin@ai-ssh.sihe6.com
+history | grep ubuntu
+\ssh -i .ssh/web-dev.pem ubuntu@52.80.24.136 -p 8022
+a.b[c.d[e]]
+a b[c d[e]]
+ls
+cd fc/
+ls
+cd ..
+ls
+cd test/
+ls
+cd ..
+ls
+cd work/
+ls
+cd ..
+rm -rf work/
+ls
+cd Music/
+ls
+cd ..
+ls
+cd etc/
+ls
+cd bash_completion.d/
+ls
+ll
+cd ~
+ls
+git clone https://github.com/exercism/haskell.git
+ls
+cd haskell/
+ls
+du -hl --max-depth=
+du -hl --max-depth=1
+ls
+cd exercises/
+ls
+vim
+ls
+vim
+ls
+trap
+killall wechat
+killall -9 wechat
+ps -ef | grep wechat
+killall -9 electronic-wechat 
+ls
+git status
+git diff
+ls
+gnome-terminal
+gnome-terminal.real 
+gnome-terminal.wrapper 
+ls
+gnome-menus-blacklist 
+sudo gnome-menus-blacklist 
+gnome-logs 
+type alert
+mocp
+ls
+jobs
+htop
+ls
+jobs
+htop
+ls
+jobs
+git status
+git diff
+git status
+htop
+top
+man
+man top
+jobs
+ls
+git status
+git diff
+ls
+git status
+git diff
+git status
+git stsatus
+git diff
+git status
+git diff
+git status
+./config.sh pull
+git status
+sudo apt install stardict
+stardict
+ls
+vim .bashrc
+vim .vimrc
+ls
+top
+htop
+top
+htop
+sudo apt install htop
+htop
+ls
+htop
+ls
+git status
+git diff
+git status
+ls
+cd haskell/
+ls
+cd exercises/
+vim
