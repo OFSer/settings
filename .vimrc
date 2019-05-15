@@ -55,6 +55,8 @@ autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('
 
 " 有道词典在线翻译
 Plug 'ianva/vim-youdao-translater'
+nmap a :Ydc<cr>
+
 
 " 下面两个插件要配合使用，可以自动生成代码块
 Plug 'SirVer/ultisnips'

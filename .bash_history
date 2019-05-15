@@ -25800,3 +25800,126 @@ cd haskell/
 ls
 cd exercises/
 vim
+ls
+which stack
+ls
+cd /usr/share/applications/
+ls | grep vedio
+ls
+nautilus .
+sudo cat Vedios
+sudo cat Vedios.desktop
+sudo nautilus .
+totem
+jobs
+ls
+python
+ls
+git status
+git diff
+jobs
+cd haskell/
+ls
+cd exercises/
+ls
+vim
+git status
+cd .config/htop/
+ls
+cat htoprc 
+cd ~
+ls
+git status
+cd .con
+cd .config/
+ls
+cd totem/
+ls
+cd ..
+ls
+cd ..
+ls
+./config.sh push
+git status
+top
+htop
+jobs
+ls
+stack install ghc-mod
+stack solver
+stack install ghc-mod
+sudo stack install ghc-mod
+stack install ghc-mod
+stack
+stack install ghc-mod
+cabal
+cabal install ghc-mod
+stack install ghc-mod
+stack solver
+stack init
+jobs
+ls
+df -hl
+sudo vim /etc/fstab 
+blkid
+sudo blkid
+stack --help
+man stack
+man 7 undocumented
+\man 7 undocumented
+man 7 undocumented
+man undocumented
+jobs
+fg
+jobs
+fg
+\man undocumented
+man undocumented
+jobs
+vim .vimrc
+you-get https://www.bilibili.com/bangumi/play/ep29835
+you-get --help
+you-get -p vlc https://www.bilibili.com/bangumi/play/ep29835
+you-get -p--playlist  https://www.bilibili.com/bangumi/play/ep29835
+you-get https://www.bilibili.com/bangumi/play/ep29835
+you-get https://www.bilibili.com/bangumi/play/ep29835 --playlist
+you-get https://www.bilibili.com/bangumi/play/ep29835
+
+you-get -p vlc https://www.bilibili.com/bangumi/play/ep29835
+you-get https://www.bilibili.com/bangumi/play/ep29835
+you-get -p vlc 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
+you-get -p v mpv 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
+mpv
+vlc
+you-get -p vlc 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
+compgen -au
+compgen -au | grep vedio
+compgen -au | grep v
+compgen -an
+history | grep compgen
+compgen -ac | grep vedion
+compgen -ac | grep vedio
+compgen -ac 
+compgen -ac | grep v
+vedio
+cd /usr/share/application
+cd /usr/share/applications/
+ls
+ls | grep vedio
+sudo reboot
+ls
+jobs
+ls
+vim config.sh 
+jobs
+fg
+ls
+jobs
+git status
+git diff
+git diff .vimrc
+dconf write /org/gnome/terminal/legacy/profiles:/:<profile-id>/allow-bold true
+dconf write /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/allow-bold true
+ls
+dconf write /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/allow-bold false
+ls
