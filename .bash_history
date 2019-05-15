@@ -26030,3 +26030,152 @@ sudo su
 ls
 cd haskell/
 ls
+cd ~
+ls
+ll
+vim .vimrc
+ls
+vim .vimr
+vim .viminfo 
+ls
+cd ..
+ls
+cd root/
+ls
+cd ..
+ls
+rm -rf root/
+ls
+ln -s /home/gjs root
+ll
+ll | grep root
+ls
+cd root
+ls
+vim .vimrc
+ls
+cd ~
+ls
+ll
+cd ..
+ll
+history | grep root
+ls
+ll
+cd ~
+ls
+sudo su
+ls
+echo $HOME
+ls
+git status
+git diff .bash
+git status
+ls
+jobs
+ls
+cd .
+ls
+cd haskell/
+ls
+sudo su
+git status
+cd ~!
+cd ~
+git status
+git diff .dconf
+./config.sh push 
+git diff HEAD^ .dconf
+git status
+git diff HEAD^
+ls
+jobs
+ls
+jobs
+ls
+cd haskell/
+ls
+sudo su 
+s
+ls
+vim .bashrc
+cd ~
+ls
+vim .bash
+sudo su
+ls
+cd ~
+ls
+sudo su
+ls
+sudo su
+ls
+tldr ln
+ls
+cd ~
+ls
+vim .dconf 
+vim config.sh 
+dconf load / < .dconf
+ls
+l
+ll
+ls
+ll
+ls
+vim .bashrc
+ls
+jobs
+git status
+ls
+git diff .vimrc
+ls
+jobs
+ls
+htop
+ls
+jobs
+ls
+git status
+ls
+htop
+history 
+git status
+./config.sh push "remove terminal bold"
+git diff HEAD^ .dconf
+ll
+ls
+git status
+ls
+git status
+git diff HEAD^
+gsettings set org.gnome.software allow-updates false
+vim .bashrc
+vim config.sh 
+vim .bashrc
+jobs
+gsettings set org.gnome.software allow-updates false
+jobs
+git status
+./config.sh push
+git diff HEAD^ .dconf
+sudo apt update
+gits tatus
+git status
+jobs
+fg
+git status
+git diff
+ls
+cd /
+cd ~
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd haskell/
+ls
+cd exercises/
+ls
+vim
