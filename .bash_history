@@ -25924,3 +25924,109 @@ ls
 dconf write /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/allow-bold false
 ls
 gsettings set org.gnome.software allow-updates false
+history | grep gsettings
+git status
+gsettings set org.gnome.software check-timestamp false
+gsettings set org.gnome.software check-timestamp 0
+git status
+./config.sh push test
+git diff HEAD^ .dconf
+jobs
+ls
+ll
+ls
+jobs
+ls
+jobs
+htop
+ls
+cd /proc/
+ls
+ll
+ls
+ll
+ls
+cd .
+cd ..
+ls
+cd run
+ls
+ll
+cd ..
+ls
+cd mnt/
+ls
+ll
+cd ..
+ls
+cd proc/
+ls
+ll
+ls
+cd ..
+ls
+cd tmp/
+ls
+cd ..
+ls
+cd etc/
+ls
+ll
+cd ..
+ls
+ll
+ls
+cd run/
+ls
+ll
+cd ..
+ls
+cd proc/
+ls
+ll
+cd ..
+ls
+cd /dev/
+ls
+ll
+ls
+ll
+ls
+cd ..
+ls
+cd ~
+ls
+cd /
+cd ~
+ls
+ll
+ls
+ll
+jobs
+ll
+ls
+git status
+./config.sh push
+git diff HEAD^ .dconf
+ls
+git status
+ssh -o "StrictHostKeyChecking no" -p 19355 hypereal@registry-corp.hypereal.com
+ls
+ls
+git status
+ls
+ls
+cd haskell/
+ls
+cd exercises/
+ls
+git status
+git branc
+git branch
+ls
+ll
+ls
+sudo su
+ls
+cd haskell/
+ls
