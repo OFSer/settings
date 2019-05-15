@@ -4,10 +4,12 @@ set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.
 nnoremap f :ProjSearch<space>
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
+Plug 'eagletmt/neco-ghc'
 "Plug 'lervag/vimtex'
 "Plug 'dgryski/vim-godef'
 Plug 'hdima/python-syntax'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'bitc/vim-hdevtools'
 let g:go_doc_keywordprg_enabled = 0
 let g:go_fmt_fail_silently = 1
 au FileType go nmap d <Plug>(go-def-tab)
@@ -16,6 +18,7 @@ nnoremap d :tab split \| YcmCompleter GoToDefinition<cr>
 let g:ycm_server_python_interpreter='/home/gjs/anaconda3/bin/python'
 let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 let g:ycm_autoclose_preview_window_after_completion=1
+let g:ycm_semantic_triggers = {'haskell' : ['re!.']}
 set completeopt-=preview
 Plug 'octol/vim-cpp-enhanced-highlight'
 " Vim 中文文档
@@ -176,6 +179,9 @@ function! MyTabLine()
 			endif
 		else
     	"let s .= '%{MyTabLabel(' . (i + 1) . ')}'
+			if bufname =~ 'Netrw'
+				let bufname = '!list'
+			endif
     	let s .= bufname
 		endif
     if bufmodified && bufname !~ "!bash"

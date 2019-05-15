@@ -26179,3 +26179,95 @@ ls
 cd exercises/
 ls
 vim
+cd ~
+git sttaus
+git status
+git diff .gitconfig
+vim .gitconfig 
+jobs
+./config.sh push
+git diff HEAD^ .dconf
+date +%s -d 1557890522
+date -d 1557890522
+jobs
+date +%s
+ll .config/dconf/user
+ll -h .config/dconf/user
+history | grep gsettings
+gsettings set org.gnome.software show-upgrade-prerelease
+git status
+git diff
+gsettings set org.gnome.software check-timestamp 100000000000000
+git status
+./config.sh push
+git status
+git diff HEAD^ .dconf
+git status
+git status
+git diff
+git config --global core.pager 'less -x1,4'
+git diff
+git config --global core.pager 'less -x1,3'
+git diff
+git status
+git diff
+ls
+git status
+cd ~
+./config.sh pull
+git status
+git diff HEAD^ .dconf
+git diff
+ls
+jobs
+ls
+git branch
+ls
+cabal
+cabal install ghc-mod
+cabal update
+cabal install ghc-mod
+curl google.com
+cabal install ghc-mod
+sudo apt install ghc-mod
+jobs
+ghc-mod
+ghc-mod --help
+ghci
+ls
+crontab --help
+man contab
+man crontab
+compgen man 
+compgen "man " 
+compgen -p "man " 
+compgen --help
+complete --help
+complete man
+complete "man"
+tldr complete
+
+complete -C ls
+complete -C
+complete -C ls
+complete -F cd
+\complete -F cd
+type complete 
+complete -F cd
+complete -F c
+complete -F cd pan
+complete -F "cd pan"
+ls
+man page-completions
+man completions
+man completion
+man complete
+man bash
+complete -p ls
+complete -p cd
+complete -p ls
+complete --help
+complete ls
+complete -F ls
+complete -p ls
+curl google.com
