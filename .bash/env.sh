@@ -7,3 +7,4 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 #export GOROOT="/usr/lib/go"  #go1.10
 export PATH="/home/gjs/anaconda3/bin:$PATH"
 #export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
+export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
