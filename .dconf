@@ -22,7 +22,7 @@ statusbar-visible=true
 show-tabs-mode='auto'
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/fc/ai-cloth-webserver/script/ksonnet/environments/dev'
+virtual-root='file:///home/gjs/fc/common-util/src/pinyin_utils'
 tree-view=true
 root='file:///'
 
@@ -31,7 +31,7 @@ active-plugins=['docinfo', 'modelines', 'filebrowser', 'time', 'spell']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=4
+state=132
 bottom-panel-size=140
 side-panel-size=200
 side-panel-active-page='GeditWindowDocumentsPanel'
@@ -299,7 +299,7 @@ audible-bell=false
 [org/gnome/software]
 allow-updates=false
 download-updates=false
-check-timestamp=int64 1557894122
+check-timestamp=int64 1557961191
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
@@ -331,7 +331,7 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=222
-window-position=(2372, 186)
+window-position=(4257, 186)
 show-size-column=true
 show-hidden=false
 window-size=(1086, 581)

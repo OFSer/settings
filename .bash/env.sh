@@ -8,3 +8,4 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PATH="/home/gjs/anaconda3/bin:$PATH"
 #export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
 export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
+export PATH="$HOME/.stack/programs/x86_64-linux/ghc-8.2.2/bin:$PATH"
