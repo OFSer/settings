@@ -12,6 +12,9 @@
 !README.md
 !config.sh
 !.bash/
+!.vim/
+.vim/plugged
+.vim/.netrwhist
 .config/Code/
 .config/pulse/
 .config/netease-cloud-music/
