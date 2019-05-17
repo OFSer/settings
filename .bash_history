@@ -27166,3 +27166,26 @@ vim
 history | grep ubuntu
 \ssh -N -D localhost:1080 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
 sudo reboot
+ls
+cd ~
+cd .config/
+ls
+cd autostart/
+ls
+cat xinput.desktop 
+vim gnome-software-service.desktop
+sudo reboot
+git status
+ls
+./config.sh push
+history | grep gsettings
+gsettings set org.gnome.software check-timestamp 0
+git status
+./config.sh push
+ls
+cd /etc/xdg/autostart/
+ls
+history | grep software
+ls | grep software
+vim gnome-software-service.desktop
+sudo vim gnome-software-service.desktop
