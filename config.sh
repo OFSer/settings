@@ -106,14 +106,17 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 	sudo apt-get update
 	sudo apt upgrade -y
 }
+other(){
+	sudo apt install -y nvidia-384
+	sudo apt install -y ubuntu-unity-desktop
+	sudo apt remove -y --purge ubuntu-desktop
+	sudo apt remove -y --purge gnome-desktop3-data
+	sudo apt remove -y --purge gnome-software*
+}
 install(){
-	#sudo apt install -y nvidia-384
-	#sudo apt install -y ubuntu-unity-desktop
-	#sudo apt remove -y --purge ubuntu-desktop
 	sudo apt-get -y install vim-gnome	
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-	sudo apt remove --purge gnome-desktop3-data
 	sudo apt install -y most
 	sudo apt install -y git sshpass jq curl
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
