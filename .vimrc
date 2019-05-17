@@ -85,7 +85,7 @@ Plug 'iamcco/markdown-preview.vim'
 " markdwon 的快捷键
 map <silent> <F5> <Plug>MarkdownPreview
 map <silent> <F6> <Plug>StopMarkdownPreview
-let g:mkdp_auto_close = 0
+"let g:mkdp_auto_close = 0
 call plug#end()
 "--------------------------------------------------------------"
 let g:go_highlight_functions = 1
@@ -345,7 +345,7 @@ func CloseNetrw()
 	endif
 endfunc
 "--------------------------Explorer----------------------------------"
-let g:netrw_list_hide = '.*\.sw.*\|\.nfs'
+let g:netrw_list_hide = '.*\.sw.*\|\.nfs\|\.git'
 let g:netrw_winsize = -20
 let g:netrw_liststyle = 3
 let g:netrw_banner = 0
@@ -747,7 +747,7 @@ set incsearch
 set ignorecase
 syntax enable
 syntax on                    " 开启文件类型侦测
-filetype plugin indent on    " 启用自动补全
+filetype plugin indent on   
 
 set number " 设置绝对行号
 "set relativenumber " 设置相对行号

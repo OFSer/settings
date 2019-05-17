@@ -27207,3 +27207,261 @@ ls
 jobs
 ls
 jobs
+git status
+ps -ef | grep gnome-software
+./config.sh push
+git diff HEAD^ .dconf
+ps -ef | grep software
+history | grep gsettings
+gsettings set org.gnome.software check-timestamp 0
+git status
+./config.sh push
+gnome-software --gapplication-service
+ps -ef | grep software
+ps -ejfH
+ps -ejfH | grep gnome
+gnome-session-binary --session=unity
+/usr/lib/gnome-session/gnome-session-binary --session=unity
+gnome-software --gapplication-service
+sudo rm -rf /var/cache/PackageKit/28/metadata/updates/packages/
+gsettings set org.gnome.software check-timestamp 0
+gnome-software --gapplication-service
+jobs
+git status
+git diff .vim
+git diff .vimrc
+./config.sh push
+git diff HEAD^ .dconf
+git status
+vim .dconf
+dconf dump --help
+dconf watch
+dconf lis
+dconf list
+dconf list /
+dconf list /*
+dconf list 
+dconf list --help
+dconf 
+dconf help list
+dconf list /
+dconf list /org/gtk/settings/color-chooser/
+history | grep dconf
+history | grep gsettings
+gsettings list-recursively
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+cd ~
+ls
+vim .vimrc
+ls
+ssh -o "StrictHostKeyChecking no" -p 19632 hypereal@registry-corp.hypereal.com
+vim
+ls
+cd ~
+ls
+cd .vim/
+ls
+cd ftplugin/
+ls
+vim haskell.vim 
+jobs
+fg
+ls
+jobs
+mv haskell.vim haskel.vim
+ls
+mv haskel.vim haskell.vim 
+ls
+vim haskell.vim 
+jobs
+cd go/
+ls
+vim gocomplete.vim 
+ll
+cd ..
+ls
+cd ..
+ls
+cd after/
+ls
+cd syntax/
+ls
+vim python.vim 
+ls
+cd ..
+ls
+cd ..
+ls
+cd autoload/
+ls
+cd ..
+ls
+cd ftplugin/
+ls
+cd go/
+ls
+cd ..
+ls
+cd ..
+ls
+cd plugged/
+ls
+cd ~
+ls
+cd .
+cd .vim/
+ls
+cd ftplugin/
+ls
+vim haskell.vim 
+jobs
+cd ..
+ls
+cd ~
+vim .vimrc
+git status
+cd .vim/after/
+ls
+cd ..
+ls
+cd autoload/
+ls
+cd ..
+ls
+cd colors/
+ls
+ls -a
+ll
+vim monokai.vim 
+ls
+cd ..
+ls
+cd ~
+ls
+阿凡达02
+ssh -o "StrictHostKeyChecking no" -p 19389 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17370 hypereal@registry-corp.hypereal.com
+jobs
+us
+jobs
+ls
+cd ..
+ls
+touch README.md
+vim README.md 
+git status
+git diff
+git status
+git diff
+git add .
+git status
+git add .
+us
+git status
+cd ~
+cd ~
+vim .vimrc
+ls
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim
+jobs
+cd ..
+ls
+cd detection-machine-daemon/
+ls
+vim main.py 
+ls
+cd ..
+ls
+cd ..
+ls
+cd haskell/
+ls
+cd cis194/
+ls
+vim
+ls
+git status
+git status
+git diff HEAD^ .dconf
+git status
+git sttaus
+git statusz
+git status
+git diff HEAD^ .dconf
+git status
+ls
+sudo apt remove gnome-software
+sudo apt remove --purge gnome-software*
+git status
+git diff
+./config.sh push
+git diff HEAD^ .dconf
+git status
+history | grep gsettings
+git status
+gsettings set org.gnome.software check-timestamp 0
+ls
+jobs
+git status
+git diff
+git status
+ls
+jobs
+git status
+vim config.sh 
+git status
+vim config.sh 
+git status
+git diff
+./config.sh push update config
+git status
+./config.sh push "update config"
+git log
+ls
+jobs
+vim config.sh 
+./config.sh push "remove gnome software"
+jobs
+ls
+cd haskell/
+ls
+cd cis194/
+ls
+mkdir 2
+ls
+cd 2
+ls
+vim 1.lhs
+mv 1.lhs 2.lhs
+ls
+vim 2.lhs 
+ls
+rm 2.lhs 
+ls
+vim
+ls
+vim LogAnalysis.hs 
+ls
+sudo reboot
+history | grep ssh
+history | grep ssh | grep "\-D
+"
+history | grep ssh | grep "\-D"
+\ssh -N -D localhost:1080 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+which python
+which python3
+$(which python)
+vim .vimrc
+git status
