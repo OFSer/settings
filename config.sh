@@ -111,10 +111,10 @@ other(){
 	sudo apt install -y ubuntu-unity-desktop
 	sudo apt remove -y --purge ubuntu-desktop
 	sudo apt remove -y --purge gnome-desktop3-data
-	sudo apt remove -y --purge gnome-software*
 }
 install(){
-	sudo apt-get -y install vim-gnome	
+	sudo apt -y install vim-gnome	
+	sudo apt remove -y --purge gnome-software*
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	sudo apt install -y most
