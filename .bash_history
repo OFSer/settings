@@ -26890,3 +26890,279 @@ ssh -o "StrictHostKeyChecking no" -p 11714 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 12778 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 15446 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13921 hypereal@registry-corp.hypereal.com
+ls
+sss
+ls
+sss
+git status
+ls
+cd ~
+vim .vimrc
+ls
+cd ~
+ls
+cd ~
+bash
+ls
+git status
+git diff .vimrc
+git status
+git diff .bash/env.sh
+git status
+ls
+git diff .vimrc
+git status
+git diff .bash/env.sh
+git stsatus
+git status
+./config.sh push
+vim .vimrc
+ls
+git status
+git diff
+git status
+cd .vim/
+ls
+cd ..
+ls
+vim .gitignore 
+ls
+cd .vim/
+ls
+cd colors/
+ls
+cd ..
+ls
+du -hl --max-depth=1
+cd ~
+ls
+vim .vimrc
+vim .gitignore 
+ls
+fg
+git status
+ls
+git diff .vim
+git diff .vim/
+cat .vim/.netrwhist
+ls
+jobs
+vim .gitignore 
+git status
+cat .vim/ftplugin/haskell.vim
+./config.sh push
+ls
+git status
+git diff HEAD~3 .dconf
+history | grep org
+history | grep org | grep software
+history | grep gnome-soft
+ps -ef | grep gnome-soft
+cd /etc/init/rc
+cd /etc/init/
+ls
+ll
+cd ..
+ls
+cd -
+cd init.d/
+ls
+cd ..
+ls
+cd rc0.d/
+ls
+cd ..
+ls
+find rc
+ls rc
+ls rc*
+ls rc* | grep soft
+cd rc.local
+ps -ef | grep gnome
+ps -ef | grep gnome-software
+ps -ef
+ps -ef | grep gnome-software
+ps -ejH
+ps -jH
+ps -ajH
+ps -ejH
+ps -efjH
+ps -efjH | grep software
+cd /etc/xdg/autostart/
+ls
+vim gnome-software-service.desktop
+sudo systemctl mask packagekit.service
+ls
+cd ..
+ls
+cd autostart/
+ls
+gsettings set org.gnome.software check-timestamp 0
+git status
+cd ~
+git status
+./config.sh push
+git status
+ls
+cd ..
+ls
+cd common-util/
+ls
+go get -v -insecure
+git status
+git diff
+git status
+git mod
+git status
+go mod
+go mod tidy
+git status
+git diff
+git status
+git add .
+git commit -m "fix"
+git push
+jobs
+vim
+ls
+ghci
+ls
+cd ..
+ls
+cd ..
+ls
+cd haskell/
+ls
+cd ..
+ls
+cd haskell/
+ls
+cat README.md 
+ls
+cd ..
+mv haskell/ exercism
+ls
+mkdir haskell
+mv exercism/ haskell/
+ls
+cd haskell/
+ls
+mkdir cis194
+ls
+cd cis194/
+ls
+git init
+git status
+ls
+mkdir 1
+ls
+cd 1
+ls
+touch Validating-Credit-Card-Numbers.hs
+vim Validating-Credit-Card-Numbers.hs 
+ls
+rm Validating-Credit-Card-Numbers.hs 
+vim number.hs 
+ls
+cd ..
+ls
+cd ~
+git status
+git diff .bash/env.sh
+git diff .vimrc
+ls
+cat nohup.out 
+ls
+cat socks.json 
+ls
+cat dconf 
+git status
+ls
+git status
+git diff .bash/env.sh
+ls
+complete -p man
+cd fc/ai-cloth-webserver/
+ls
+vim
+s
+ls
+ll
+sudo su
+ls
+sudo su
+ls
+cd .vim/
+ls
+cd autoload/
+ls
+vim plug.vim 
+ls
+vim plug.vim 
+ls
+cd ..
+ls
+cd autoload/
+ls
+cd ..
+ls
+cd plugged/
+ls
+cd ..
+ls
+cd ftplugin/
+ls
+cd ..
+ls
+cd plugged/
+ls
+cd ghcmod-vim/
+ls
+cd ..
+ls
+cd ~
+ls
+cd haskell/
+ls
+cd exercises/
+ls
+cd pangram/
+l
+cd src/
+ls
+vim Pangram.hs 
+ls
+cd ..
+ls
+cd test/
+ls
+vim Tests.hs 
+ls
+vim Tests.hs 
+cd ~!
+cd ~
+git diff HEAD^ .dconf
+ls
+jobs
+ls
+vim .vimrc
+ls
+history | grep admin
+\ssh admin@ai-ssh.sihe6.com
+ls
+cd fc/
+ls
+cd http-
+cd http-dhcp-server/
+ls
+vim
+cd fc/
+ls
+cd detection-machine-daemon/
+ls
+vim
+ls
+vim
+history | grep ubuntu
+\ssh -N -D localhost:1080 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+sudo reboot
