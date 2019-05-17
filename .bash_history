@@ -27189,3 +27189,21 @@ history | grep software
 ls | grep software
 vim gnome-software-service.desktop
 sudo vim gnome-software-service.desktop
+git status
+ls
+ghci
+ls
+cd ..
+ls
+cd common-util/
+ls
+vim
+ls
+ls
+cd ~
+ls
+vim .vimrc
+ls
+jobs
+ls
+jobs
