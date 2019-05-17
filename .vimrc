@@ -18,7 +18,8 @@ let g:go_fmt_fail_silently = 1
 au FileType go nmap d <Plug>(go-def-tab)
 Plug 'Valloric/YouCompleteMe'
 nnoremap d :tab split \| YcmCompleter GoToDefinition<cr>
-let g:ycm_server_python_interpreter='/home/gjs/anaconda3/bin/python'
+"let g:ycm_server_python_interpreter='/home/gjs/anaconda3/bin/python'
+"let g:ycm_server_python_interpreter='/usr/bin/python3'
 let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 let g:ycm_autoclose_preview_window_after_completion=1
 "let g:ycm_semantic_triggers = {'haskell' : ['re!.']}

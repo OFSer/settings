@@ -27465,3 +27465,4 @@ which python3
 $(which python)
 vim .vimrc
 git status
+ls
