@@ -124,6 +124,7 @@ install(){
 	sudo apt install -y compizconfig-settings-manager
 	sudo snap install vscode --classic
 	sudo snap install electronic-wechat
+	sudo apt -y install build-essential cmake python-dev python3-dev
 }
 install_chrome(){
 	#sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
