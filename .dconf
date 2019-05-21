@@ -22,7 +22,7 @@ statusbar-visible=true
 show-tabs-mode='auto'
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/fc/common-util/src/pinyin_utils'
+virtual-root='file:///home/gjs/Downloads'
 tree-view=true
 root='file:///'
 

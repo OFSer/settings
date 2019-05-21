@@ -27466,3 +27466,155 @@ $(which python)
 vim .vimrc
 git status
 ls
+cd ~
+vim .vimrc
+jobs
+ls
+vim 1.py
+jobs
+ls
+rm 1.py
+ls
+vim .vimrc
+git status
+./config.sh push "comment ycm python path"
+git push
+git status
+git diff
+vim .vimrc
+ls
+jobs
+git status
+ls
+git status
+vim .vimrc
+jobs
+git status
+git diff .vimrc
+git pull
+vim config.sh 
+git log
+vim config.sh 
+git status
+git diff
+git status
+git diff .vim
+git diff .vimrc
+./config.sh push
+ls
+vim .vimrc
+ls
+python3
+whichpython3
+which python3
+which python2
+vim .vimrc
+fg
+vim .vimrc
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd YouCompleteMe/
+/usr/bin/python3 install.py --all
+ls
+cd ~
+ls
+jobs
+cd .vim/
+ls
+cd ftplugin/
+ls
+cd ..
+ls
+cd ..
+ls
+sudo reboot
+steam
+ls
+jobs
+sudo apt-get install libgtk3-nocsd0:i386
+steam
+sudo apt-get install xfonts-100dpi
+steam
+nvidia-smi
+steam
+sudo ln -s /usr/lib/libGL.so.1  /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0
+ldconfig -p | grep libGL.so.1
+ldconfig -p
+ldconfig -p | grep libGL.so.1
+ls /usr/lib/i386-linux-gnu/libGL.so.1
+ls /usr/lib/x86_64-linux-gnu/libGL.so.1
+cd /usr/lib/x86_64-linux-gnu/
+ls
+cd -
+ls
+cd -~1
+cd ~-`
+cd ~-1
+ls
+cd ~-2
+cd ~-3
+dirs -p
+cd ~
+ls
+dirs -p
+cd ~-
+cd ~-0
+cd ~-1
+cd ~-2
+cd ~-3
+rm /usr/lib/x86_64-linux-gnu/libGL/libGL.so.1
+/usr/lib/x86_64-linux-gnu/libGL/libGL.so.1.2.0
+/usr/lib/i386-linux-gnu/libGL/libGL.so.1
+/usr/lib/i386-linux-gnu/libGL/libGL.so.1.2.0
+ldconfig -p | grep libGL
+rm /usr/lib/x86_64-linux-gnu/libGL/libGL.so.1
+/usr/lib/x86_64-linux-gnu/libGL/libGL.so.1.2.0
+ls
+sudo reboot
+ls
+jobs
+ls
+cd haskell/cis194/
+ls
+vim
+ls
+vim README.md 
+ghci
+git status
+git diff
+ls
+cd .vim/
+ls
+cd ~
+ls
+ssh -o "StrictHostKeyChecking no" -p 15477 hypereal@registry-corp.hypereal.com
+ls
+\
+ls
+jobs
+ls
+llllllllllllllllllllllllllllllllllllllllllllllll
+ls
+ghci
+ssh -o "StrictHostKeyChecking no" -p 15768 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11703 hypereal@registry-corp.hypereal.com
+git status
+git diff
+git branch
+git add .
+git commit -m "fix ssh hosts"
+git push
+git status
+ls
+history | grep ssh
+history | grep admin
+\ssh admin@ai-ssh.sihe6.com
+ls
+cd ~
+ls
+vim
+vim --help
+ls

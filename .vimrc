@@ -239,7 +239,7 @@ set timeoutlen=0
 set updatetime=0
 autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'bufbash'|| bufname('%') =~ 'Netrw') | set nonu | else | set nu | endif
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
-autocmd BufLeave,FocusLost,InsertLeave * silent! wall | silent! Remove Netrw*
+autocmd BufLeave,FocusLost,InsertLeave,TextChanged * silent! wall | silent! Remove Netrw*
 au FileType netrw au BufLeave <buffer> setlocal nocursorline
 au FileType netrw au BufEnter <buffer> setlocal cursorline
 "--------------------------GetBuffer---------------------------------"
