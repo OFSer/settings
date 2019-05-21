@@ -125,6 +125,7 @@ func Bufferbash()
 endfunc
 tnoremap <silent> \ <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
 nnoremap <silent> \ :call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
 function MyTabLabel(n)
 	let buflist = tabpagebuflist(a:n)
 	let winnr = len(buflist)
@@ -469,7 +470,6 @@ tnoremap <silent> > <c-\><c-n>gt
 nnoremap <silent> t :tab term bash<cr>
 inoremap <silent> t <esc>:tab term bash<cr>
 tnoremap <silent> t <c-\><c-n>:tab term bash<cr>
-tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
 "--------------------------WindowMap-------------------------------"
 nnoremap <silent>  h <c-w>h:call Terins()<cr>
 nnoremap <silent>  j <c-w>j:call Terins()<cr>
@@ -782,6 +782,7 @@ set statusline=%1*
 set laststatus=0
 set noshowmode
 set noruler
+hi Normal guibg=NONE ctermbg=NONE
 "-----------------------"
 autocmd filetype netrw call Netrw_mappings()
 function! Netrw_mappings()

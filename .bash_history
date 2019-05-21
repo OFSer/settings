@@ -27618,3 +27618,94 @@ ls
 vim
 vim --help
 ls
+ls
+vim .vimrc
+cd ~
+vim .vimrc
+ls
+cd .vim/
+ls
+cd a
+cd after/
+ls
+cd syntax/
+ls
+cd ~
+ls
+cd .vim/
+ls
+cd ~
+ls
+vim .vimrc
+ghci
+python3
+ls
+sl
+ls
+l
+sl
+s
+ls
+git status
+git branch
+ls
+cd fc/
+ls
+cd http-
+cd http-dhcp-server/
+ls
+vim
+ssh -o "StrictHostKeyChecking no" -p 12932 hypereal@registry-corp.hypereal.com
+ls
+cd ..
+ls
+cd detection-machine-daemon/
+ls
+jobs
+ls
+jobs
+ssh -o "StrictHostKeyChecking no" -p 12932 hypereal@registry-corp.hypereal.com
+ls
+vim jumpserver_forward.sh 
+ls
+cd ~
+ls
+python3
+ls
+ghci
+ls
+man mmap
+man ls
+man mmap
+ls
+cd test/
+cd cpp/
+ls
+cd IPC/
+ls
+vim msg.cpp 
+ls
+cd ~
+vim .vimrc
+ls
+git status
+git diff .vimrc
+./config.sh push "vim always save"
+git diff HEAD^ .dconf
+fdisk -l
+df -hl
+cd test/
+ls
+cd cpp/
+ls
+cd IPC/
+ls
+vim mmap
+ls
+vim mmap.cpp
+ls
+jobs
+sudo ipcs
+ls
+sl
+ls
