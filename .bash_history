@@ -27709,3 +27709,77 @@ sudo ipcs
 ls
 sl
 ls
+dot 
+tldr dot
+ls
+cd test/
+ls
+mkdir dot
+cd d
+cd dot/
+ls
+vim 1.dota
+ls
+rm 1.dota
+vim 1.dot
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd .vim/
+ls
+cd colors/
+ls
+cd ..
+ls
+cd autoload/
+ls
+cd ..
+ls
+cd colors/
+ls
+vim monokai.vim 
+ls
+cd ..
+ls
+cd ftplugin/
+ls
+cd ..
+ls
+cd ..
+ls
+vim .vimrc
+ls
+vim .vimrc
+ls
+git status
+git diff
+git diff .vimrc
+./config.sh push "vim disable ctermbg"
+dot
+sudo apt install graphviz
+dot
+man dot
+tldr dot
+git status
+vim config.sh 
+ls
+cd cp
+ls
+python3
+ls
+ssss
+sss
+you-get https://www.56.com/u25/v_MTUzMzc4NjQ2.html
+you-get https://www.56.com/u25/v_MTUzMzc4NjQ2.html --debug
+python3
+python
+ls
+cd cp
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
