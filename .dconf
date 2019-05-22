@@ -22,7 +22,7 @@ statusbar-visible=true
 show-tabs-mode='auto'
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/Desktop'
+virtual-root='file:///home/gjs/Downloads'
 tree-view=true
 root='file:///'
 
@@ -316,7 +316,7 @@ cpu-colors=[(uint32 0, '#FF6E00'), (1, '#CB0C29'), (2, '#49A835'), (3, '#2D7DB3'
 [org/gnome/gnome-system-monitor/proctree]
 columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
 sort-order=0
-sort-col=15
+sort-col=8
 
 [org/gnome/gnome-system-monitor/disktreenew]
 col-6-visible=true
@@ -553,7 +553,7 @@ blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416b
 text-scale-factor=1.0
 
 [com/canonical/unity/launcher]
-favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'application://vmware-workstation.desktop', 'application://unity-control-center.desktop', 'application://electronic-wechat.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
+favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'application://unity-control-center.desktop', 'application://electronic-wechat.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14

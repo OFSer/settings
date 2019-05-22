@@ -27783,3 +27783,31 @@ cd cpp/
 ls
 vim 1.cpp
 ls
+top
+htop
+ls
+cd ~
+ls
+cd test/
+ls
+git clone https://github.com/MengRao/SPSC_Queue.git
+ls
+cd SPSC_Queue/
+ls
+vim
+sudo ./shmq_recv 
+top
+ps -ef | grep multh
+ls
+cd ..
+ls
+cd SPSC_Queue/
+ls
+vim 
+ls
+./build.sh 
+ls
+sudo ./shmq_send 
+./build.sh 
+sudo ./shmq_send 
+sudo ./shmq_recv 
