@@ -18,8 +18,9 @@ BASE_FLAGS = [
         '-xc++',
         '-I/usr/lib/',
         '-I/usr/include/',
-        '-I/usr/inclue/c++/7',
-        '-I/usr/include/x86_64-linux-gnu/'
+        '-I/usr/include/c++/7/',
+        '-I/usr/include/x86_64-linux-gnu/',
+        '-I/usr/include/x86_64-linux-gnu/c++/7/'
         ]
 
 SOURCE_EXTENSIONS = [
@@ -44,7 +45,8 @@ HEADER_EXTENSIONS = [
         ]
 
 HEADER_DIRECTORIES = [
-        'include'
+        'include',
+        'inc'
         ]
 
 BUILD_DIRECTORY = 'build';

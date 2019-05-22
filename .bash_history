@@ -27811,3 +27811,182 @@ sudo ./shmq_send
 ./build.sh 
 sudo ./shmq_send 
 sudo ./shmq_recv 
+ls
+cd ~/test/
+cd cpp/
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+git status
+vim .ycm_extra_conf.py 
+ls
+g++ --help
+man g++
+man g++ | grep '\-I'
+cd /usr/lib/
+ls
+cd ..
+ls
+cd src/
+ls
+cd ..
+ls
+cd include/
+ls
+cd ..
+ls
+cd lib/
+ls
+cd ..
+ls
+cd ..
+ls
+cd sys/
+ls
+cd /usr/include/
+ls
+find .| grep sys
+find .| grep std
+find .| grep stdc
+ls
+find .| grep stdc
+ls
+ls *.h
+ls
+man g++ | grep '-I'
+man g++ | grep '\-I'
+man g++ | grep '\-L'
+man g++ | grep '\-I'
+ls
+find . | grep stdc
+cd ./x86_64-linux-gnu/c++/7/
+ls
+find .
+cd ..
+ls
+find .
+cd 7.4.0
+ls
+find .
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+find . | grep unistd
+find . | grep shm.h
+cd x86_64-linux-gnu/
+ls
+find .
+ls
+cd ..
+ls
+ll
+ls
+cd ..
+ls
+cd lib/
+ls
+find .
+ls
+cd ls
+cd ..
+ls
+cd cin
+cd include/
+ls
+cd x86_64-linux-gnu/
+ls
+cd c++
+ls
+cd 7
+ls
+find .
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+find . | grep iostream
+cd c++
+ls
+cd 7
+ls
+vim iostream 
+ls
+vim cmath 
+ls
+cd bits/
+ls
+cd ..
+ls
+cd ..
+ls
+cd 7.4.0
+ls
+g++ --help
+cd ..
+ls
+cd ..
+ls
+cd c++
+ls
+cd 7
+ls
+cd ..
+ls
+ll
+cd /usr/include/
+ls
+cd c++
+ls
+cd 7
+ls
+cd ..
+ls
+cd ..
+ls
+find . |grep cmath
+cd c++
+cd 7
+ls
+cd ex
+cd ext
+ls
+cat cmath
+cd ..
+ls
+cat cmath
+compgen -au
+compgen -ac
+compgen -ac | grep diff
+icdiff cmath ext/cmath 
+find . | grep cmath
+vim cmath
+ls
+cd ex
+cd ..
+find . | grep cmath
+cd c++
+cd 7
+ls
+find .
+cd /usr/inclue/c++/7.4.0/
+ls
+cd ..
+ls
+cd 7.4.0
+ls
+cd find . | grep std
+cd find . | grep stdc
+cd ..
+find . | grep stdc
+cd ..
+find . | grep stdc
+cd ~
+ls
+vim .vimrc
