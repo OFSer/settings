@@ -27990,3 +27990,199 @@ find . | grep stdc
 cd ~
 ls
 vim .vimrc
+ls
+cd ~
+ls
+top
+nvidia-smi
+ls
+vim .ycm_extra_conf.py 
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd YouCompleteMe/
+ls
+vim .ycm_extra_conf.py 
+ls
+cd plugin/
+ls
+cd ..
+ls
+find . | grep ycm_extra
+cd ycmd
+cd third_party/ycmd/
+ls
+vim .ycm_extra_conf.py 
+ls
+cd ~
+ls
+cd -
+ls
+cd ycmd/
+ls
+cd ..
+ls
+cd cpp/
+ls
+cd ycm/
+ls
+cd ~
+ls
+vim .vimrc
+cd -
+cd ..
+ls
+vim .ycm_extra_conf.py 
+ls
+pwd
+ls
+vim .ycm_extra_conf.py 
+ls
+cd ~
+git status
+git diff .vimrc
+git checkout -- .vimrc
+git status
+git diff .ycm_extra_conf.py
+./config.sh push "upd ycm"
+git push
+git status
+cd ~
+vim .vimrc
+history | grep admin
+\ssh admin@ai-ssh.sihe6.com
+\ssh yisong@ai-ssh.sihe6.com
+\ssh admin@ai-ssh.sihe6.com
+cd ~
+git status
+git diff .ycm_extra_conf.py
+./config.sh push "upd ycm_extra_conf include"
+git push
+cd test/cpp/
+ls
+vim 1.cpp
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+vim .ycm_extra_conf.py 
+ls
+vim .vimrc
+ls
+vim .vimrc
+git sttaus
+git status
+ls
+cd .vim/plugged/YouCompleteMe/
+ls
+cd third_party/ycmd/
+ls
+vim .ycm_extra_conf.py 
+cd ~
+ls
+vim .ycm_extra_conf.py 
+git diff
+git diff .ycm_extra_conf.py
+jobs
+fg
+git status
+git checkout -- .ycm_extra_conf.py
+vim .ycm_extra_conf.py 
+git status
+vim .vimrc
+ls
+git staus
+git sta
+git status 
+cd ~
+git status
+git diff
+./config.sh push upd
+git diff HEAD^ .dconf
+git staus
+git status
+git diff
+ls
+cd etc/
+ls
+cd bash_completion.d/
+ls
+ll
+cd ~
+ls
+vim config.sh 
+ls
+cd fc/
+ls
+cd shmls/
+ls
+cd ..
+ll
+rm -r shmls/
+ls
+mkdir ipc-shm
+ls
+cd ipc-shm/
+ls
+mkdir src
+mkdir inc
+ls
+touch README.md
+git init
+git status
+git add .
+git commit -m "fm"
+ls
+git commit --amend 
+git status
+git log
+ls
+ll
+ls
+mkdir test
+ls
+mkdir doc
+touch .gitignore
+ls
+vim .gitignore 
+ls
+vim .gitignore 
+ls
+cd ~
+l
+ls
+git status
+rm .vimrc
+vim
+git checkout -- .vimrc
+vim .vimrc
+rm .vimrc
+#1558523830
+history | grep admin
+vim
+im
+vim
+ls
+git checkout -- .vimrc
+git status
+git diff
+vim .vimrc
+ls
+sss
+cd ~
+vim .vimrc
+ls
+cd .vim/
+ls
+cd plugin/
+ls
+cd plugged
+ls
+cd ..
+ls
+cd plug
+cd plugged/
+ls

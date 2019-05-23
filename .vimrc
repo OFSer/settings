@@ -5,7 +5,8 @@ nnoremap f :ProjSearch<space>
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
-Plug 'neovimhaskell/haskell-vim'
+Plug 'chinnkarahoi/haskell-vim'
+"Plug 'idris-hackers/idris-vim'
 "Plug 'eagletmt/neco-ghc'
 "Plug 'eagletmt/ghcmod-vim'
 "Plug 'bitc/vim-hdevtools'
