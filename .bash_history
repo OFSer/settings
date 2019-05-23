@@ -28186,3 +28186,82 @@ ls
 cd plug
 cd plugged/
 ls
+cd ~
+ls
+cd test/
+cd cpp/
+ls
+vim 1.cpp
+ls
+vim 2.cpp
+l
+sls
+ls
+cd ..
+ls
+cd ..
+ls
+cd fc/
+ls
+cd flaw_checker/
+ls
+vim
+cd ~
+vim .vimrc
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd haskell-vim/
+ls
+cd syntax/
+ls
+vim haskell.vim 
+ls
+vim haskell.vim 
+ls
+cd ..
+ls
+cd syntax/
+ls
+vim cabal.vim 
+cd ..
+ls
+cd after/
+ls
+cd ftplugin/
+ls
+vim haskell.vim 
+ls
+cd ..
+ls
+cd ..
+ls
+cd syntax/
+ls
+vim haskell.vim 
+cd ~
+ls
+cd .vim/colors/
+ls
+vim monokai.vim 
+man librt
+\man librt
+librt
+man librt
+man rt
+man lrt
+g++ --help
+man g++ | grep \-l
+man g++ | grep '\-l'
+man g++ | grep '\-r'
+man g++ | grep '\ *-r'
+man g++ | grep ' *\-r'
+man g++ | grep '^ *\-r'
+ssh -o "StrictHostKeyChecking no" -p 19489 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11327 hypereal@registry-corp.hypereal.com
+history | grep admin
+\ssh nan.li@ai-ssh.sihe6.com
+ssh -o "StrictHostKeyChecking no" -p 15470 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 11327 hypereal@registry-corp.hypereal.com
