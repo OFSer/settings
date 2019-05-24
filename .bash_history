@@ -28265,3 +28265,391 @@ history | grep admin
 \ssh nan.li@ai-ssh.sihe6.com
 ssh -o "StrictHostKeyChecking no" -p 15470 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 11327 hypereal@registry-corp.hypereal.com
+cd ~
+vim .vimrc
+git status
+git diff .vimrc
+./config.sh push "diable
+./config.sh push "diable ycm syntax check"
+git push
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+cd .vim/
+ls
+cd ftplugin/
+ls
+vim haskell.vim 
+ls
+cd go/
+ls
+cd ..
+ls
+vim haskell.vim 
+ls
+vim haskell.vim 
+ls
+cp haskell.vim cpp.vim
+ls
+vim cpp.vim 
+ls
+vim cpp.vim 
+ls
+cd ~
+ls
+cd test/
+ls
+cd SPSC_Queue/
+ls
+vim shmq_recv.cc 
+ls
+vim SPSCQueue.h 
+ls
+vim
+ls
+vim
+ls
+vim
+ls
+vim SPSCQueueOPT.h 
+vim SPSCQueue.h 
+ls
+cd ~
+ls
+cd .vim/
+ls
+cd colors/
+ls
+cd ..
+ls
+cd ftplugin/
+ls
+vim haskell.vim 
+ls
+cd ..
+ls
+cd plugged/
+ls
+cd haskell-vim/
+ls
+cd indent/
+ls
+cd ..
+ls
+cd syntax/
+ls
+vim haskell.vim 
+cd ~
+ls
+vim .vimrc
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd haskell-vim/
+ls
+cd syntax/
+ls
+vim haskell.vim 
+ls
+git status
+git diff
+git origin show branch
+git origin 
+git remote
+git remote show origin
+git remote update  origin
+git status
+git diff
+git status
+git remote
+git remote show origin
+git remote --help
+git remote set-url origin
+git remote set-url --push origin git@github.com:chinnkarahoi/haskell-vim.git
+git remote show origin
+git remote --help
+git remote set-url --push --all origin git@github.com:chinnkarahoi/haskell-vim.git
+git remote --help
+git remote set-url --delete origin git@github.com:chinnkarahoi/haskell-vim.git
+git remote show origin
+git remote --help
+git remote remove origin
+git remote --help
+git remote add origin git@github.com:chinnkarahoi/haskell-vim.git
+git branch show origin
+git remote show origin
+git status
+git add .
+git status
+git diff
+git diff --cached 
+git add .
+git commit -m "fix haskellType hl"
+git commit --amend 
+git push
+git push --set-upstream origin master
+git diff
+git status
+ls
+cd ~
+ls
+vim .vimrc
+git status
+git diff
+git diff .vimrc
+./config.sh push
+ls
+vim .vimrc
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd haskell-vim/
+ls
+cd ..
+ls
+cd ~
+ls
+cd fc/
+ls
+cd ..
+cd test/
+ls
+cd SPSC_Queue/
+ls
+vim 
+jobs
+fg
+ls
+cd ..
+ls
+cp -R SPSC_Queue/ ../fc/ipc-shm/
+ls
+cp -R SPSC_Queue/ ../fc/ipc-shm/
+cd ~
+ls
+cd fc/
+ls
+cd flaw_checker/
+ls
+vim CMakeLists.txt 
+ls
+cd fc/
+ls
+cd ipc-shm/
+ls
+cd inc
+ls
+vim msg_head.h
+ls
+jobs
+fg
+vim
+ls
+cd ..
+ls
+cp SPSC_Queue/* inc/
+ls
+cd inc/
+ls
+cd ..
+ls
+rm SPSC_Queue/
+ls
+rm -r SPSC_Queue/
+rm -rf SPSC_Queue/
+ls
+cd inc/
+ls
+ls -a
+git status
+ls
+vim
+ls
+cd ..
+ls
+rm build.sh 
+ls
+cd inc/
+ls
+rm *
+cd ..
+ls
+cd inc/
+ls
+cd ..
+ls
+cd src/r
+cd src/
+ls
+rm *
+ls
+cd ..
+ls
+cd ..
+ls
+cd ipc-shm/
+ls
+vim
+ls
+vim
+ls
+vim
+cd haskell/cis194/
+ls
+cd 5/
+ls
+vim Calc.hs 
+ls
+vim StackVM.hs 
+ls
+vim StackVM.hs 
+ls
+git status
+git diff
+git status
+git checkout -- Calc.hs
+git status
+git diff --cached 
+git commit -m "upd"
+git push
+ls
+git status
+ls
+jobs
+ls
+jobs
+cd ~
+ls
+vim config.sh 
+ls
+cd test/
+ls
+cd py
+cd ..
+cd cpp/
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+cd haskell/cis194/
+ls
+cd 5
+sl
+ls
+cd ..
+ls
+vim README.md 
+ls
+ghci
+sudo reboot
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd build/
+ls
+sudo ./shmq_recv 
+make -j4
+sudo ./shmq_recv 
+make -j4
+sudo ./shmq_recv 
+make -j4
+sudo ./shmq_recv 
+make -j4
+sudo ./shmq_recv 
+make -j4
+sudo ./shmq_recv 
+make -j4
+sudo ./shmq_recv 
+\ssh admin@ai-ssh.sihe6.com
+make -j4
+sudo ./shmq_recv 
+make -j4
+sudo ./shmq_recv 
+make -j4
+sudo ./shmq_recv 
+make -j4
+sudo ./shmq_recv 
+make -j4
+sudo ./shmq_recv 
+cd build/
+ls
+sudo ./shmq_send 
+#1558669499
+ls
+#1558669510
+cd ~
+#1558669510
+ls
+#1558669554
+cd build/
+#1558669588
+sudo ./shmq_recv
+#1558669572
+cd build/
+#1558669572
+ls
+#1558669580
+sudo ./shmq_send
+#1558669623
+echo $PS1
+#1558669624
+ls
+#1558669627
+cd ~
+#1558669627
+ls
+#1558669629
+vim .bashrc
+#1558669632
+ls
+#1558669673
+include <bits/stdc++.h>
+#1558669673
+#include "rdtsc.h"
+#1558669673
+#include "cpupin.h"
+#1558669673
+#include "shmq_msg.h"
+#1558669673
+int main() {
+#1558669700
+sudo ./shmq_send
+#1558669704
+cd ../build/
+#1558669705
+sudo ./shmq_send
+#1558669682
+cd ..
+#1558669683
+cd build/
+#1558669683
+ls
+#1558669687
+sudo ./shmq_recv 
+#1558669771
+ls
+#1558669767
+ls
+#1558669768
+cd ~
+#1558669769
+ls
+tmux
+#1558669793
+echo $TERM
