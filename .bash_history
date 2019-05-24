@@ -28653,3 +28653,403 @@ ls
 tmux
 #1558669793
 echo $TERM
+#1558669919
+ls
+#1558669990
+vim
+#1558670017
+ls
+#1558670017
+vim
+#1558670020
+vim .vimrc
+#1558670059
+vim
+#1558670062
+. .bashrc
+#1558670063
+vim
+#1558670066
+ls
+#1558670071
+vim .vimrc
+#1558670076
+ls
+tmux
+ls
+vim PS1.sh 
+#1558670195
+ls
+#1558670196
+vim .vimrc
+#1558670242
+ls
+ls
+tmux
+sudo apt install tmux
+tmux
+ls
+tmux
+ls
+cd ~/.bash/
+ls
+vim env.sh 
+vim PS1.sh 
+ls
+cd ~
+git status
+git diff
+gits tatus
+git status
+git diff .vim/ftplugin/cpp.vim
+cat .vim/ftplugin/cpp.vim 
+./config.sh push "upd PS1"
+ls
+tmux
+ls
+tmux
+ls
+tmux
+#1558670256
+ls
+#1558670402
+vim
+#1558670404
+vim .vimrc
+tmux
+ls
+sl
+ls
+cd fc/
+ls
+cd ipc-shm/
+ls
+cd ..
+ls
+mv ipc-shm/ shmmsg
+ls
+cd shmmsg/
+ls
+vim
+#1558670417
+vim .vimrc
+#1558670421
+ls
+#1558670422
+vim .vimrc
+#1558670425
+ls
+tmux
+#1558670457
+ls
+#1558670282
+vim
+#1558670285
+ls
+#1558670287
+cd ~
+#1558670287
+ls
+#1558670289
+vim .vimrc
+#1558670538
+ls
+#1558670531
+sss
+#1558670595
+ls
+#1558670609
+bash
+#1558670631
+ls
+#1558670632
+cd ~
+#1558670633
+ls
+mysql
+#1558670653
+ls
+#1558670656
+mysql
+tmux
+bash
+tmux
+ls
+cd .bash/
+ls
+vim feature.sh 
+#1558670718
+echo $TERM
+echo $TERM
+tmux
+#1558670732
+mysql
+#1558670734
+ls
+#1558670742
+cd .bash/
+#1558670742
+ls
+#1558670744
+vim feature.sh 
+#1558670755
+echo $TERM
+#1558670762
+vim feature.sh 
+#1558670777
+trap
+#1558670778
+jobs
+#1558670781
+trap
+#1558670784
+jobs
+#1558670784
+fg
+#1558670852
+ls
+#1558670856
+cd .bash/
+#1558670858
+git status
+#1558670861
+git checkout -- feature.sh
+#1558670863
+git status
+#1558670864
+git diff
+#1558670868
+git status
+#1558670871
+git diff
+#1558670875
+ls
+#1558670877
+cd ~
+#1558670877
+ls
+#1558670879
+history 
+#1558670885
+ls
+tmux
+ls
+#1558670903
+ls
+#1558670912
+bash
+#1558670921
+ls
+#1558670919
+ls
+#1558670929
+bash
+#1558670932
+ls
+#1558670935
+cd .bash/
+#1558670937
+vim feature.sh 
+#1558670948
+ls
+#1558670962
+cd .bash/
+#1558670963
+ls
+#1558670965
+vim feature.sh 
+#1558670986
+ls
+#1558671001
+vim .bash/feature.sh 
+#1558671006
+jobs
+#1558671008
+fg
+#1558671049
+ls
+#1558671086
+cd fc/
+#1558671087
+ls
+#1558671089
+cd saki_detection/
+#1558671090
+ls
+#1558671095
+mysql
+#1558671103
+ls
+#1558671104
+mysql
+#1558671106
+python
+#1558671115
+ls
+#1558671126
+cd .bash/
+#1558671127
+ls
+#1558671129
+vim feature.sh 
+#1558671141
+ls
+#1558671142
+cd fc/
+#1558671142
+ls
+#1558671143
+cd ..
+#1558671144
+mysql
+#1558671155
+ls
+#1558671161
+cd fc/saki_detection/
+#1558671162
+ls
+#1558671164
+cd ~
+#1558671164
+ls
+#1558671166
+git status
+#1558671171
+git checkout -- .bash/
+#1558671173
+git status
+#1558671194
+ls
+#1558671195
+cd fc/
+#1558671196
+ls
+#1558671198
+ls
+tmux
+#1558671214
+git status
+ls
+tmux
+ls
+cd fc/
+ls
+cd build/
+ls
+tmux
+ssh sshtron.zachlatta.com
+ssh sshtron.zachlatta.com
+ssh sshtron.zachlatta.com
+ls
+ssh sshtron.zachlatta.com
+nslookup sshtron.zachlatta.com
+ssh sshtron.zachlatta.com
+sudo apt install bsdgames
+atc
+ls
+man atc
+ls
+git status
+#1558678211
+ls
+#1558678306
+set -g status off
+ls
+tmux
+ls
+cd ~
+ls
+tmux
+vim .tmux.conf
+tmux
+#1558678363
+tmux set -g status off
+tmux 
+tmux
+git status
+ls
+cd fc/
+ls
+cd shmmsg/
+ls
+vim
+#1558678375
+ls
+#1558678379
+git status
+#1558678384
+vim .tmux.conf 
+tmux
+#1558678483
+source .tmux.conf 
+#1558678502
+cd .config/
+#1558678502
+ls
+#1558678508
+cd ..
+#1558678508
+ls
+#1558678511
+ll | grep tmux
+#1558678558
+echo $TERM
+vim .tmux.conf 
+ls
+vim .tmux.conf 
+tmux
+vim .tmux.conf 
+ls
+vim .tmux.conf 
+tmux
+vim .tmux.conf 
+vim .bashrc
+tmux
+sss
+ls
+ssh gjs@dl-5
+ls
+                                                                          tmux
+ls
+vim .bashrc
+tmux
+vim .bashrc
+ls
+tmux
+git status
+git diff
+set -g status off
+tmux set -g status off
+tmux
+vim .tmux.conf 
+ls
+tmux
+vim .tmux.conf 
+ls
+vim .tmux.conf 
+cat /usr/share/doc/tmux/example_tmux.conf
+tmux
+ls
+vim .tmux.conf 
+tmux new-session -d testing
+tmux
+ls
+rm .tmux.conf 
+ls
+tmux
+#1558679580
+ls
+ls
+vim .tmux_conf
+mv .tmux_conf .tmux.conf
+vim .tmux.conf 
+ls
+tmux
+     vim .tmux.conf 
+ls
+tmux
+ps -ef | grep tmux
+tmux
+#1558679845
+ls
+tmux
