@@ -29053,3 +29053,118 @@ tmux
 #1558679845
 ls
 tmux
+ls
+cd ../build/
+ls
+sudo ./test_c
+ls
+tmux
+ps -ef | grep tmux
+git status
+./config.sh push
+git diff HEAD^ .dconf
+ps -ef | grep test
+killall -9 "sudo ./test_c"
+sudo killall -9 "sudo ./test_c"
+ps -ef | grep test
+sudo killall -9 test_c
+ps -ef | grep test
+ls
+cd test/
+ls
+cd sh/
+ls
+cd ..
+ls
+cd sh/
+ls
+vim 1.sh
+ls
+cd ~
+ls
+vim .bashrc
+cd .bash/
+ls
+vim feature.sh 
+cd ~
+ls
+cd fc/
+cd ~/gt
+cd ~/test/
+ls
+cd sh
+vim 1.sh
+#1558684017
+sudo ./test_s
+#1558686108
+sudo ./test_s'
+#1558686111
+
+#1558690340
+sudo ./test_s'
+#1558690342
+sudo ./test_s
+#1558684011
+ls
+#1558684013
+sudo ./test_c
+#1558767981
+a
+#1558767981
+sdf
+#1558767981
+as
+cataclysm
+man Cataclysm
+man cataclysm
+sudo apt install Cataclysm
+sudo apt install cataclysm
+sudo snap install  cataclysm
+cataclysm 
+sudo cataclysm 
+sudo mount --rbind /root /tmp/snap.rootfs_fB6tHG//root
+sudo su
+sudo cataclysm
+mount --rbind /root /tmp/snap.rootfs_ToQj7q
+sudo mount --rbind /root /tmp/snap.rootfs_ToQj7q//
+sudo cataclysm
+sudo mount --rbind /root /tmp/snap.rootfs_ToQj7q//root
+sudo mount --rbind /root /tmp/snap.rootfs_ToQj7q//root:
+sudo mount --rbind /root /tmp/snap.rootfs_ToQj7q/
+sudo cataclysm
+sudo snap install cataclysm
+snap help refresh
+man cataclysm 
+cataclysm  --help
+sudo cataclysm 
+cd /root
+ls
+cd ..
+ls
+cd ~
+ls
+cd /
+rm root
+sudo rm root
+mkdir root
+sudo mkdir root
+cd ~
+sudo cataclysm 
+ls
+cataclysm 
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
+cataclysm 
+ls
+cd .bash/
+ls
+vim env.sh 
+cd ~
+ls
+cd .bah
+cd .bash/
+ls
+vim env.sh 
+ls
+cd ~
+cataclysm 
+echo $LD_PRELOAD 
