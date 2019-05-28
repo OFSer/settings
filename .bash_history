@@ -29168,3 +29168,452 @@ ls
 cd ~
 cataclysm 
 echo $LD_PRELOAD 
+steam
+sudo steam
+steam
+sudo su
+steam
+ls
+cd ~
+ls
+cd .bash/
+ls
+vim env.sh 
+cd ~
+git status
+git diff
+git diff .bash
+./config.sh push
+man mmap
+ls
+cd ~
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd .
+cd ..
+ls
+cd plugged/
+ls
+cd YouCompleteMe/
+ls
+cd plugin/
+ls
+vim youcompleteme.vim 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd .vim/
+ls
+cd colors/
+ls
+cd ..
+ls
+cd plugged/
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+sudo apt install nvidia-384
+sudo apt autoremove 
+cd build/
+ls
+tmux
+ls
+tmux
+ls
+cd ~
+git status
+git diff
+ls
+vim .bash_history 
+ls
+qls
+ls
+vim .vimrc
+ls
+sudo reboot
+ls
+vim .tmux.conf 
+ls
+vim
+ls
+vim
+ls
+cd fc/
+ls
+cd shmmsg/
+ls
+vim
+ls
+l
+ls
+tmux
+ls
+cd ~
+cd -
+ls
+vim 
+ls
+nethack
+sudo apt install nethack
+sudo apt install nethack-console 
+nethack
+ls
+sudo apt remove nethack*
+sudo snap install nethack
+nethack
+sudo reboot
+ls
+cd haskell/
+ls
+cd cis194/
+ls
+mkdir 6
+ls
+cd 6
+ls
+vim knapsack01.hs
+ls
+cd ~
+ls
+cd ~
+ls
+cd haskell/cis194/
+ls
+mkdir 7
+ls
+cd 7
+ls
+vim 1.lhds
+vim 1.lhs
+ls
+cd ~
+ls
+cd fc/
+ls
+cd shmmsg/
+ls
+vim
+#1558924101
+cd build/
+#1558924101
+ls
+#1558924102
+./test_
+#1558924104
+./test_s
+#1558924106
+
+#1558925339
+./test_s
+#1558925349
+
+#1558927619
+./test_s
+#1558924089
+cd build/
+#1558924089
+ls
+#1558924096
+./test_c
+#1558924110
+sudo ./test_c
+#1558928217
+
+#1558930077
+./test_c
+#1558930087
+ls
+cd ~
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+cd ..
+ls
+git status
+cd ..
+git staus
+git status
+git diff .con
+git diff .config
+ls
+vim .gitignore 
+ls
+vim .vimrc
+ls
+cd .vim/
+ls
+cd plug
+cd plugin
+ls
+vim search.vim
+ls
+nslookup ssh-proxy-pod.ssh-proxy.jumpserver.svc.cluster.local
+ls
+cd ~
+ls
+history | grep ubuntu
+\ssh -i 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+\ssh -p 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+\ssh -P 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+\ssh -p 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+\ssh  ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+\ssh -p ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+\ssh -P ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
+\ssh -i .ssh/web-dev.pem ubuntu@52.80.24.136
+history | grep ssh
+\ssh yisong@ai-ssh.sihe6.com
+\ssh admin@ai-ssh.sihe6.com
+ls
+cd /usr/
+ls
+cd include/
+ls
+cd x86_64-linux-gnu/
+ls
+cd sys/
+ls
+vim sem.h 
+ls'
+ls
+cd ~
+ls
+cd /usr/lib
+ls
+find . | grep glibc
+find . | grep libc
+find . | grep libc.
+find . | grep libc\.
+find . | grep "libc\."
+ls
+cd /etc/
+ls
+cd grub.d/
+ls
+vim README 
+ls
+cd ..
+cd default/
+ls
+vim grub 
+ls
+cd ..
+ls
+cd grub.d/
+ls
+cd ..
+ls
+find . | grep grub
+sudo find . | grep grub
+cd ..
+ls
+cd /opt/
+ls
+cd ..
+ls
+cd bin/
+ls
+cd ..
+ls
+cd boot/
+ls
+cd grub/
+ls
+vim grub.cfg 
+ls
+sss
+ssh gjs@dl-5
+\ssh gjs@dl-5
+echo $PAGER
+echo $pager
+echo $P{ager
+echo $Pager
+man semctl
+export MANPAGER="col -b | vim -MR - "
+man vim
+\man vim
+export MANPAGER="col -b | vim -MR - "
+man vim
+#1558938492
+cd build/
+#1558938493
+ls
+#1558938495
+sudo ./test_c
+#1558938928
+ls
+#1558938931
+sudo ./test_c
+#1558938489
+cd build/
+#1558938489
+ls
+#1558938499
+sudo ./test_s
+ssh qiangfeng.fan@ssh-ai.sihe6.com
+\ssh qiangfeng.fan@ssh-ai.sihe6.com
+history | grep admin
+\ssh qiangfeng.fan@ai-ssh.sihe6.com
+\ssh admin@ai-ssh.sihe6.com
+ls
+cd ~
+ls
+cd fc/dh
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim
+ls
+cd ~
+ls
+cd test/
+ls
+conan install -r conan-local/sihe/shmmsg/1.0.0/stable/
+conan install -r=conan-local/sihe/shmmsg/1.0.0/stable/
+ls
+cd cpp
+conan get shmmsg/1.0.0@sihe/stable -r sihe
+ls
+vim 1.cpp
+ls
+find .
+find . | grep shmmsg
+ls
+conan get shmmsg/1.0.0@sihe/stable -r sihe
+conan install shmmsg/1.0.0@sihe/stable -r sihe
+conan download shmmsg/1.0.0@sihe/stable -r sihe
+ls
+g++ 1.cpp
+cd /usr/
+ls
+find . | grep shmmsg
+sudo find . | grep shmmsg
+sudo find . | grep conan
+cd -
+ls
+cd ~/test/
+ls
+cd cpp
+ls
+cd ..
+ls
+find . | grep shmmsg
+ls
+cd ..
+sl
+ls
+cd fc/
+ls
+git clone git@gitlab.sho.hypereal.com:robotic/transformer-pipeline.git
+ls
+cd transformer-pipeline/
+ls
+vim
+ls
+man semophore
+man semaphore
+man semget
+ls
+man semctl
+\man
+\man semctl
+man semctl | less
+man semctl
+ls
+cd ~
+ls
+cd .bash/
+ls
+vim env.sh 
+vim feature.sh 
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd test/
+ls
+ls '
+ls
+ls 
+ls
+man shm_open
+g++ 1.cpp
+tmux
+tmu
+tmux
+man semget
+man shm_open
+ls
+#1559013763
+cd build/
+#1559013763
+ls
+#1559013765
+sudo ./test_c
+#1559013842
+make -j4
+#1559013844
+sudo ./test_c
+#1559013879
+make -j4
+#1559013881
+sudo ./test_c
+#1559013891
+make -j4
+#1559013893
+sudo ./test_c
+#1559013898
+make -j4
+#1559013899
+sudo ./test_c
+#1559013905
+make -j4
+#1559013907
+sudo ./test_c
+#1559013916
+make -j4
+#1559013918
+sudo ./test_c
+#1559013925
+make -j4 && sudo ./test_c
+#1559014819
+./test_c
+#1559014821
+sudo ./test_c
+#1559014877
+make -j4 && sudo ./test_c
+#1559013752
+cd build/
+#1559013752
+ls
+#1559013770
+
+#1559015899
+ls
+#1559015903
+sudo ./test_s
+#1559016569
+make -j4 && sudo ./test_c
+#1559016575
+sudo ./test_s
