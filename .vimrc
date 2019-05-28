@@ -246,6 +246,9 @@ au FileType netrw au BufEnter <buffer> setlocal cursorline
 func Del()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
 	for i in a
+		if bufname(i) =~ "Toggle!bash"
+			continue
+		endif
 		if bufname(i) == ""
 			silent! exe "bw! ".i
 			silent! exe "bw! buf!bash".i
