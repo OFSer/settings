@@ -1,10 +1,16 @@
 runtime! ftplugin/man.vim
 set noswapfile
 syntax on
+nnoremap q <nop>
+nnoremap t <nop>
+nnoremap . <nop>
+nnoremap , <nop>
+tnoremap <c-v> <c-w>"0
 "---------------------------term-----------------------------------"
-let g:term='bash'
+let g:term='!bash'
 let g:sidebar='Netrw'
-let g:toggle_bash#command = get(g:,'toggle_bash#command',g:term)
+let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
+let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
 let g:loaded_toggle_bash = 1
 tnoremap <silent> \ <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
 nnoremap <silent> \ :call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
@@ -59,7 +65,6 @@ set signcolumn=yes
 Plug 'ianva/vim-youdao-translater'
 nmap a :Ydc<cr>
 
-
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
@@ -74,7 +79,6 @@ Plug 'iamcco/markdown-preview.vim'
 map <silent> <F5> <Plug>MarkdownPreview
 map <silent> <F6> <Plug>StopMarkdownPreview
 "let g:mkdp_auto_close = 0
-
 call plug#end()
 "--------------------------------------------------------------"
 func GetCurnr(n)
@@ -93,29 +97,7 @@ func GetCurnr(n)
 		endfor
 	endfor
 endfunc
-au CursorMoved,TextChanged * call MyTabLine()
-set tabline=%!MyTabLine()
-function! Flash()
-    sleep 10m
-endfunction
-"tnoremap <silent> <cr> <cr><c-\><c-n>:let line=MyTabLine()<cr>:exe 'set tabline='.'"'.line.'"'<cr>i
-"tnoremap <silent> <cr> <cr><c-\><c-n>i<c-\><c-n>i
-"tnoremap <silent> <c-d> <c-d><c-\><c-n>i<c-\><c-n>i
 
-set showtabline=2
-"nnoremap q <nop>
-nnoremap t <nop>
-nnoremap . <nop>
-nnoremap , <nop>
-tnoremap <c-v> <c-w>"0
-augroup netrw_mapping
-  autocmd!
-  autocmd filetype netrw call NetrwMapping()
-augroup END
-func! NetrwMapping()
-  noremap <buffer> i <nop>
-  noremap <buffer> s <nop>
-endfunc
 "--------------------------Options-----------------------------------"
 set ai
 set nu
@@ -129,11 +111,7 @@ hi goSpaceError ctermbg=256
 set ttimeoutlen=0
 set timeoutlen=0
 set updatetime=0
-autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'bufbash'|| bufname('%') =~ 'Netrw') | set nonu | else | set nu | endif
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
-autocmd BufLeave,FocusLost,InsertLeave,TextChanged * silent! wall | silent! Remove Netrw*
-au FileType netrw au BufLeave <buffer> setlocal nocursorline
-au FileType netrw au BufEnter <buffer> setlocal cursorline
 "--------------------------GetBuffer---------------------------------"
 func Del()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')

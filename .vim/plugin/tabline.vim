@@ -14,7 +14,7 @@ function! MyTabLine()
 			let bufnr = buflist[j]
 			let bufmodified = getbufvar(bufnr, "&mod")
 			let bufname = fnamemodify(bufname(bufnr), ':t')
-			if bufname !~ "Netrw" && bufname !~ "!bash"
+			if bufname !~ g:sidebar && bufname !~ g:term
 				break
 			endif
 		endfor
@@ -58,5 +58,13 @@ function! MyTabLine()
   endif
   return s
 endfunction
-
+au CursorMoved,TextChanged * call MyTabLine()
+set tabline=%!MyTabLine()
+function! Flash()
+    sleep 10m
+endfunction
+set showtabline=2
+"tnoremap <silent> <cr> <cr><c-\><c-n>:let line=MyTabLine()<cr>:exe 'set tabline='.'"'.line.'"'<cr>i
+"tnoremap <silent> <cr> <cr><c-\><c-n>i<c-\><c-n>i
+"tnoremap <silent> <c-d> <c-d><c-\><c-n>i<c-\><c-n>i
 
