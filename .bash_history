@@ -29618,3 +29618,524 @@ make -j4 && sudo ./test_c
 #1559016575
 sudo ./test_s
 ls
+#1559017617
+cd build/
+#1559017617
+ls
+#1559017620
+./s1
+#1559025386
+ls
+#1559025389
+sudo ./test_s
+#1559017613
+cd build/
+#1559017614
+ls
+#1559017622
+./s2
+#1559025398
+sudo ./test_c
+#1559026796
+ls
+top
+ps -ef | grep './s1'
+top
+htop
+sudo htop
+htop
+tmux
+ls
+tmux
+ls
+cd test/
+ls
+./test.sh 
+jobs
+ls
+cd ../build/
+ls
+tmux
+ls
+cd ~
+ls
+vim .vimrc
+ls
+git status
+git diff .vimrc
+git checkout -- .vimrc
+jobs
+vim .vimrc
+git status
+vim .vimrc
+git diff
+./config.sh push
+vim .vimrc
+git status
+git diff .vimrc
+git checkout -- .vimrc
+vim .vimrc
+git status
+./config.sh push "fix vim"
+cd ~
+ls
+cd fc/
+ls
+cd shmmsg/
+ls
+l,ls
+ls
+vim
+vim README.md 
+vim CMakeLists.txt 
+s
+cd ~/test/
+ls
+cd cpp/
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+PAGER=vim
+\man semctl
+PAGER=vim man semctl
+PAGER=vim \man semctl
+ls
+jobs
+man semctl | vim
+obs
+ls
+man semctl | pg
+sudo apt install pg
+pg
+man semctl | vim --view
+man semctl | nano --view
+PAGER=nano \man semctl
+PAGER=w3m \man semctl
+man ls | vi -
+jobs
+ls
+man ls | vim -
+man semctl | vim -
+jobs
+vim
+ls
+rm nano*
+ls
+vim
+ls
+vim
+ls
+vim
+ls
+cd ..
+ls
+cd SPSC_Queue/
+ls
+vim shmq_recv.cc 
+ls
+ipcs
+ipcs -m
+sudo ipcs
+free -g
+ipcs -s
+ls
+cd ..
+ls
+cat test
+touch test
+cat test
+ipcs -s
+ipcs -p
+ipcs -s
+sudo reboot
+ls
+vim 
+ls
+vim
+vim .vimrc
+ls
+vim .vimrc
+ls
+vim .vimrc
+git status
+git add -A
+git statu
+git status
+git commit -m "add SPSCQ test"
+git push
+ls
+
+ls
+./test.sh 
+git status
+git add -A
+git status
+git commit -m "run ok"
+gitp ush
+git push
+./test.sh 
+git status
+git commit -am "fix"
+git push
+./test.sh 
+git status
+git diff
+git status
+git diff
+git add -A
+git status
+git commit -m "test ok"
+git push
+git status
+git diff
+git status
+git diff
+./test.sh 
+./test.sh 123
+./test.sh 234
+./test.sh 
+./test.sh 234
+./test.sh 53543
+ls
+./test.sh 53543
+
+./test.sh 53543
+./test.sh 235
+./test.sh 53543
+./test.sh 5354f
+./test.sh fasdf
+./test.sh fasdf423
+./test.sh fasdf423423
+./test.sh fa43sdf423423
+./test.sh fa43sdf42342343
+./test.sh fa43sdf42342343532
+./test.sh fa43sdf44322342343532
+./test.sh fa43sdf4432234532
+./test.sh fa4df4432234532
+./test.sh 23523454
+./test.sh 
+./test.sh 4324
+./test.sh 432443
+
+./test.sh 432443
+./test.sh 432443423
+./test.sh 1234
+./test.sh 2345
+./test.sh 23452345
+./test.sh 612345
+./test.sh 6325
+./test.sh 
+./test.sh 6325
+./test.sh 
+git status
+git add -A
+git status
+git commit -m "run ok"
+git push
+./test.sh 
+git push
+./test.sh 
+./test.sh ac
+git status
+git add -A
+git commit -m "fix"
+git push
+git status
+./test.sh 
+ls
+./test.sh 
+./test.sh ab
+./test.sh abc
+./test.sh abcd
+ls
+./test.sh abcd
+./test.sh 23
+./test.sh ab
+./test.sh cde
+git status
+git diff
+./test.sh cde
+./test.sh bbc
+git diff
+./test.sh cce
+./test.sh abe
+./test.sh bed
+./test.sh cedf
+git status
+git add -A
+git statusz
+git status
+git commit -m "use ftok"
+git push
+./test.sh 
+./test.sh bed
+./te
+#1559034354
+sudo ./test_s
+#1559034356
+sudo ./test_s 234
+#1559035028
+sudo ./test_s 123
+#1559036696
+sudo ./test_s 1234
+#1559037023
+sudo ./test_s 5324
+#1559037031
+sudo ./test_s a
+#1559037156
+sudo ./test_s 5324
+#1559034344
+ls
+#1559034347
+sudo ./test_c
+#1559034350
+sudo ./test_c 234
+#1559035023
+sudo ./test_c
+#1559035025
+sudo ./test_c 123
+#1559036699
+sudo ./test_c 1234
+#1559037018
+sudo ./test_c 5324
+#1559037033
+sudo ./test_c a
+#1559037161
+sudo ./test_c 5324
+ls
+cd build/
+tmux
+ipcs 
+ipcrm -s
+ipcrm --help
+ipcs -s
+ipcs --all=sem
+ipcrm --all=sem
+sudo ipcrm --all=sem
+ipcs -s
+ls
+cd /tmp/
+ls
+man mmap
+sudo ipcrm --all=sem
+ipcs
+ipcs -s
+sudo ipcrm --all=sem
+ipcs -s
+tmux
+#1559037863
+ls
+#1559037866
+sudo ./test_c
+#1559037868
+sudo ./test_c 123
+#1559037878
+sudo ./test_c 1234
+#1559037886
+sudo ./test_c 2343
+#1559037959
+sudo ./test_c 123
+#1559038122
+sudo ./test_c 234
+#1559038168
+sudo ./test_c 123
+#1559038241
+jobs
+#1559038722
+pmap -X
+#1559038724
+sudo pmap -X
+#1559038725
+sudo pmap
+#1559038737
+sudo pmap -X
+#1559038739
+sudo pmap -x
+#1559038747
+sudo pmap 
+#1559038750
+sudo pmap -A
+#1559039188
+sudo ./test_c 123
+#1559039197
+sudo ./test_c 1234
+#1559037871
+sudo ./test_s
+#1559037872
+sudo ./test_s 123
+#1559037879
+sudo ./test_s 1234
+#1559037883
+sudo ./test_s 2343
+#1559037961
+sudo ./test_s 123
+#1559037974
+ls
+#1559037979
+sudo ./test_s 123
+#1559038124
+sudo ./test_s 234
+#1559038164
+sudo ./test_s 123
+#1559039195
+sudo ./test_s 1234
+ls
+git status
+git diff
+./test.sh 
+./test.sh ab
+./test.sh afasd
+git diff
+./test.sh afasd
+ls
+./test.sh afasd
+./test.sh 
+./test.sh ab
+jobs
+ps -ef | grep 'test_c'
+ps -ef | grep 'test_s'
+./test.sh 
+./test.sh 123
+git staus
+git status
+git diff
+git reset HEAD --hard
+git status
+./test.sh abdsdrfe
+./test.sh 23453
+./test.sh ab
+./test.sh bc
+./test.sh b
+./test.sh bc
+./test.sh cd
+./test.sh bc
+./test.sh ab
+./test.sh
+./test.sh 
+./test.sh 123
+./test.sh 1234
+git status
+git diff
+./test.sh 5324
+git status
+git diff HEAD^
+./test.sh 
+./test.sh  2432
+./test.sh abc
+./test.sh 
+ls
+./test.sh 
+git status
+git diff
+git commit -am "fix"
+git push
+git status
+git diff
+git status
+git diff
+git diff HEAD^
+git status
+git diff
+git commit -am "format"
+git push
+./test.sh 
+git status
+git diff
+./test.sh 
+git status
+git diff
+git add -A
+git status
+git commit -m "add test delay"
+git push
+nethack
+ls
+git status
+git diff
+git status
+git diff
+git reset HEAD --hard
+git status
+./test.sh 
+ls
+sudo ipcrm --all=sem
+ipcs -s
+cd /dev/shm/
+ls
+ll
+ls
+vim 1234C2S 
+ls
+ll
+ls
+sudo rm -rf *
+ls
+sudo rm -rf *
+ls
+rm 123*
+sudo rm 123*
+ls
+ipcs -s
+ipcs
+ls
+ll
+vim 1234C2S 
+ls
+ll
+ls
+jobs
+ll
+cat /proc/meminfo | grep Shmem
+cat /proc/meminfo 
+cat /proc/meminfo | grep Shmem
+ls
+sudo rm -rf *
+cat /proc/meminfo | grep Shmem
+sudo rm -rf *
+ls
+sss
+ls
+sss
+cd build/
+ls
+tmux
+ls
+cd ..
+ls
+cd test/
+ls
+./test.sh 
+ls
+cd ~
+ls
+vim
+sudo apt update
+apt list --upgradable
+bash --version
+sudo apt upgrade
+sudo apt autoremove
+ls
+cd .bash/
+ls
+vim env.sh 
+sudo systemctl unmask packagekit.service
+sudo systemctl start packagekit.service
+sudo apt upgrade
+ipcs -p
+ipcs -s
+ls
+cd fc/
+ls
+cd shmmsg/
+ls
+git status
+git diff
+git push
+ls
+vim
+sudo reboot
