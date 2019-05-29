@@ -1,38 +1,3 @@
-func Next(x)
-	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	let ret=a:x
-	for i in a
-		if bufname(i) =~ g:term || Exist(i)
-			continue
-		endif
-		if i>a:x
-			return i
-		endif
-		if ret == a:x
-			let ret=i
-		endif
-	endfor
-	return ret
-endfunc
-
-func Prev(x)
-	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	let a=reverse(a)
-	let ret=a:x
-	for i in a
-		if bufname(i) =~ g:term || Exist(i)
-			continue
-		endif
-		if i<a:x
-			return i
-		endif
-		if ret == a:x
-			let ret=i
-		endif
-	endfor
-	return ret
-endfunc
-
 
 func Exist(x)   "check if buffer x is not hidden
 	let tn=tabpagenr('$')
@@ -73,5 +38,3 @@ func GetCurnr(n)
 		endfor
 	endfor
 endfunc
-
-

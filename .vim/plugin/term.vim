@@ -1,15 +1,20 @@
+"---------------------------term-----------------------------------"
+let g:term='!bash'
+let g:bufterm='buf'.g:term
+let g:toggleterm='Toggle'.g:term
+let g:sidebar='Netrw'
+let g:toggle_terminal#command = get(g:,'toggle_bash#command','bash')
+let g:buffer_terminal#command = get(g:,'toggle_bash#command','bash')
+let g:loaded_toggle_bash = 1
+tnoremap <silent> \ <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> \ :call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
+"-------------------------------------------------------------------
 func Terins()
 	call feedkeys(":\<bs>",'n')
 	if &buftype =~ 'terminal'
 		call feedkeys("i")
 	endif
-endfunc
-func Tervspl()
-	if bufname('%') != 'Togglebash'
-		exe "rightbelow vert term bash"
-		return 
-	endif
-	call feedkeys('i')
 endfunc
 func Terspl()
 	if bufname('%') =~ '!bash' && bufname('%') != 'Togglebash'
@@ -60,3 +65,24 @@ func Togglebash()
 	endif
 endfunc
 
+
+"--------------------------Togglebash------------------------------------"
+func MoveLeft()
+	if bufname('%') =~ g:sidebar
+		call feedkeys("\<c-w>l")
+	endif
+endfunc
+func CloseTogglebash()
+	if bufnr(g:toggleterm) >= 0
+		silent! exe 'bw! '.g:toggleterm
+	endif
+endfunc
+inoremap <silent> ; <esc>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> ; :call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+inoremap <silent> : <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> : :call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+"inoremap <silent> ; <esc>:call Togglebash()<CR>
+"nnoremap <silent> ; :call Togglebash()<CR>
+"tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>

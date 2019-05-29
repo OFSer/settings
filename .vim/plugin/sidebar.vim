@@ -42,6 +42,18 @@ let g:netrw_list_hide = '.*\.sw.*\|\.nfs\|\.git'
 let g:netrw_winsize = -20
 let g:netrw_liststyle = 3
 let g:netrw_banner = 0
+
+autocmd filetype netrw call Netrw_mappings()
+function! Netrw_mappings()
+  noremap <buffer>% :call CreateInPreview()<cr>
+endfunction
+function! CreateInPreview()
+  let l:filename = input("please enter filename: ")
+  execute 'silent !touch ' . b:netrw_curdir.'/'.l:filename 
+  redraw!
+	exe "Explore"
+endf
+
 inoremap <silent> e <esc>:call Toggle()<cr>:call MoveLeft()<cr>
 nnoremap <silent> e :call Toggle()<CR>:call MoveLeft()<cr>
 tnoremap <silent> e <c-\><c-n>:call Toggle()<CR>:call MoveLeft()<cr>

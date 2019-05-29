@@ -66,3 +66,6 @@ inoremap <silent>  j <esc><c-w>j:call Terins()<cr>
 inoremap <silent>  k <esc><c-w>k:call Terins()<cr>
 inoremap <silent>  l <esc><c-w>l:call Terins()<cr>
 "inoremap <silent>  ww <esc><c-w>w:call Terins()<cr>
+"--------------------Markdown--------------------------------"
+map <silent> <F5> <Plug>MarkdownPreview
+map <silent> <F6> <Plug>StopMarkdownPreview

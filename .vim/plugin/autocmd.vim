@@ -20,7 +20,7 @@ func Del()
 		if bufname(i) =~ g:toggleterm || bufname(i) =~ g:bufterm
 			continue
 		endif
-		if bufname(i) == "" && len(a) > 1
+		if bufname(i) == "" && getbufvar(i, '&filetype') == "" && len(a) > 1
 			silent! exe "bw! ".i
 			silent! exe "bw! ".g:bufterm.i
 		endif
@@ -31,5 +31,5 @@ func Del()
 	endfor
 endfunc
 au CursorMoved * cal Del()
-
 autocmd TabNew * silent! call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>l:call Terins()\<cr>", 'n') 
+autocmd BufEnter * silent! lcd %:p:h
