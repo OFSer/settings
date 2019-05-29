@@ -24,7 +24,7 @@ let g:term='!bash'
 let g:bufterm='buf'.g:term
 let g:toggleterm='Toggle'.g:term
 let g:sidebar='Netrw'
-let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
+let g:toggle_terminal#command = get(g:,'toggle_bash#command','bash')
 let g:buffer_terminal#command = get(g:,'toggle_bash#command','bash')
 let g:loaded_toggle_bash = 1
 tnoremap <silent> \ <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
@@ -95,177 +95,8 @@ map <silent> <F5> <Plug>MarkdownPreview
 map <silent> <F6> <Plug>StopMarkdownPreview
 "let g:mkdp_auto_close = 0
 call plug#end()
-"--------------------------Options-----------------------------------"
 
-"--------------------------GetBuffer---------------------------------"
 
-"--------------------------Explorer----------------------------------"
-let g:netrw_list_hide = '.*\.sw.*\|\.nfs\|\.git'
-let g:netrw_winsize = -20
-let g:netrw_liststyle = 3
-let g:netrw_banner = 0
-inoremap <silent> e <esc>:call Toggle()<cr>:call MoveLeft()<cr>
-nnoremap <silent> e :call Toggle()<CR>:call MoveLeft()<cr>
-tnoremap <silent> e <c-\><c-n>:call Toggle()<CR>:call MoveLeft()<cr>
-"autocmd! TabEnter * call TabEn() | call TabEn()
-
-"--------------------------Edit--------------------------------------"
-inoremap <c-y> <esc>pa
-nnoremap <c-a> maggvG$
-nnoremap <c-v> "+P
-vnoremap <c-c> "+y
-vnoremap <c-x> "+d
-"--------------------------bash-----------------------------------"
-tnoremap <c-\> <c-\><c-n>
-"noremap <silent> ; :below term<CR>
-"--------------------------Tab-----------------------------------"
-func Tervspl()
-	if bufname('%') != 'Togglebash'
-		exe "rightbelow vert term bash"
-		return 
-	endif
-	call feedkeys('i')
-endfunc
-func Terspl()
-	if bufname('%') =~ '!bash' && bufname('%') != 'Togglebash'
-		exe "rightbelow term bash"
-		return 
-	endif
-	call feedkeys('i')
-endfunc
-inoremap <silent> L <esc>:tabm +<cr>i
-nnoremap <silent> L <esc>:tabm +<cr>
-tnoremap <silent> L <c-\><c-n>:tabm +<cr>i
-
-inoremap <silent> H <esc>:tabm -<cr>i
-nnoremap <silent> H <esc>:tabm -<cr>
-tnoremap <silent> H <c-\><c-n>:tabm -<cr>i
-
-inoremap <silent> , <esc>gT:call Terins()<cr>
-nnoremap <silent> , <esc>gT:call Terins()<cr>
-tnoremap <silent> , <c-\><c-n>gT:call Terins()<cr>
-inoremap <silent> . <esc>gt:call Terins()<cr>
-nnoremap <silent> . <esc>gt:call Terins()<cr>
-tnoremap <silent> . <c-\><c-n>gt:call Terins()<cr>
-inoremap <silent> < <esc>gT
-nnoremap <silent> < <esc>gT
-tnoremap <silent> < <c-\><c-n>gT
-inoremap <silent> > <esc>gt
-nnoremap <silent> > <esc>gt
-tnoremap <silent> > <c-\><c-n>gt
-nnoremap <silent> t :tab term bash<cr>
-inoremap <silent> t <esc>:tab term bash<cr>
-tnoremap <silent> t <c-\><c-n>:tab term bash<cr>
-"--------------------------WindowMap-------------------------------"
-nnoremap <silent>  h <c-w>h:call Terins()<cr>
-nnoremap <silent>  j <c-w>j:call Terins()<cr>
-nnoremap <silent>  k <c-w>k:call Terins()<cr>
-nnoremap <silent>  l <c-w>l:call Terins()<cr>
-"nnoremap <silent>  ww <c-w>w:call Terins()<cr>
-tnoremap <silent>  h <c-\><c-n><c-w>h:call Terins()<cr>
-tnoremap <silent>  j <c-\><c-n><c-w>j:call Terins()<cr>
-tnoremap <silent>  k <c-\><c-n><c-w>k:call Terins()<cr>
-tnoremap <silent>  l <c-\><c-n><c-w>l:call Terins()<cr>
-"tnoremap <silent>  ww <c-w>w:call Terins()<cr>
-"inoremap <silent>  w <esc><c-w>:call Terins()<cr>
-inoremap <silent>  h <esc><c-w>h:call Terins()<cr>
-inoremap <silent>  j <esc><c-w>j:call Terins()<cr>
-inoremap <silent>  k <esc><c-w>k:call Terins()<cr>
-inoremap <silent>  l <esc><c-w>l:call Terins()<cr>
-"inoremap <silent>  ww <esc><c-w>w:call Terins()<cr>
-"--------------------------TabClose---------------------------"
-func Tabclose()
-	if tabpagenr('$')==1 
-		return
-	endif
-	let a=tabpagebuflist()
-	exe "tabc!"
-	call CloseNetrw()
-endfunc
-tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
-nnoremap <silent> c :call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
-"--------------------------Save&&Quit-------------------------"
-func Close()
-	let nr=bufnr('%')
-	let tp=tabpagenr()
-	let flag=ExistOther(tp,nr)
-	if bufname('%') =~ '!bash' 
-		silent! exe "q!"
-		silent! exe "bw! ".nr
-		silent! exe "bw! buf!bash".nr
-		return
-	endif
-	if bufname('%') =~ "help" || bufname('%') =~ "Netrw"
-		silent! exe "q!"
-		return
-	endif
-	silent! exe "w"
-	let t=Next(nr)
-	if nr == t || tabpagenr() != 1
-		silent! exe "q!"
-	else
-		silent! exe "b! ".Next(nr)
-	endif
-	if flag == 0
-		silent! exe "bw! ".nr
-		silent! exe "bw! buf!bash".nr
-	endif
-endfunc
-"tnoremap <silent> w w
-"tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
-nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
-"tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
-"--------------------------Quit-------------------------------"
-func Quit()
-	let nr=bufnr('%')
-	let tp=tabpagenr()
-	let flag=ExistOther(tp,nr)
-	if bufname('%') =~ '!bash' || bufname('%') =~ 'bufbash'
-		exe "q!"
-		silent! exe "bw! ".nr
-		silent! exe "bw! buf!bash".nr
-		call CloseNetrw()
-		return
-	endif
-	if &buftype =~ "help" || bufname('%') =~ "Netrw"
-		exe "q!"
-		silent! exe "bw! ".nr
-		silent! exe "bw! buf!bash".nr
-		call CloseNetrw()
-		return
-	endif
-	let t=Next(nr)
-	if tabpagenr() != 1
-		exe "q!"
-		if flag == 0
-			silent! exe "bw! ".nr
-			silent! exe "bw! buf!bash".nr
-		endif
-		call CloseNetrw()
-		return
-	endif
-	if nr == t && tabpagenr() == 1
-		let g:back = 0
-		return
-	endif
-	if nr != t && tabpagenr() == 1
-		exe "b! ".Next(nr)
-		silent! exe "bw! ".nr
-		silent! exe "bw! buf!bash".nr
-	endif
-	if flag == 0
-		silent! exe "bw! ".nr
-		silent! exe "bw! buf!bash".nr
-	endif
-	call CloseNetrw()
-endfunc
-func Back()
-	if g:back == 1
-		call feedkeys("gT")
-	endif
-endfunc
-tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call Back()<cr>:call Terins()<cr>
-nnoremap <silent> q :call Quit()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Compile&&Run-------------------------------"
 "map <silent> <F3> :call Bomp()<CR>
 "func Bomp()
@@ -287,28 +118,6 @@ nnoremap <silent> q :call Quit()<cr>:call Back()<cr>:call Terins()<cr>
 "--------------------------Togglebash------------------------------------"
 let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
 let g:loaded_toggle_bash = 1
-func Togglebash()
-	if bufname('%') =~ 'Netrw'
-		return
-	endif
-	let bufferNum = bufnr('Toggle!bash')
-	if bufferNum == -1 || bufloaded(bufferNum) != 1
-		silent execute 'rightbelow term ++close ++kill=term '.g:toggle_bash#command
-		"set noswapfile
-		silent file Toggle!bash
-		"set swapfile
-		"silent exe "!rm .Toggle!bash.swp > /dev/null 2>&1"
-	else
-		let windowNum = bufwinnr(bufferNum)
-		if windowNum == -1
-			silent execute 'rightbelow sbuffer '.bufferNum
-						"call feedkeys('i')	
-		else
-			execute windowNum.'wincmd w'
-			hide 
-		endif
-	endif
-endfunc
 func MoveLeft()
 	if bufname('%') =~ 'Netrw'
 		call feedkeys("\<c-w>l")

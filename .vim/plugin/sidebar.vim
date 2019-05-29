@@ -19,7 +19,6 @@ func Toggle()
 	endfor
 	exe "Lex"
 endfunc
-
 func TabEn()
 	let n=0
 	for i in range(1,tabpagenr('$'))
@@ -30,7 +29,7 @@ func TabEn()
 		endfor
 	endfor
 	for i in tabpagebuflist()
-		if bufname(i) =~ "Netrw" 
+		if bufname(i) =~ g:sidebar
 			return
 		endif
 	endfor
@@ -39,4 +38,10 @@ func TabEn()
 	endif
 	exe "Lex"
 endfunc
-
+let g:netrw_list_hide = '.*\.sw.*\|\.nfs\|\.git'
+let g:netrw_winsize = -20
+let g:netrw_liststyle = 3
+let g:netrw_banner = 0
+inoremap <silent> e <esc>:call Toggle()<cr>:call MoveLeft()<cr>
+nnoremap <silent> e :call Toggle()<CR>:call MoveLeft()<cr>
+tnoremap <silent> e <c-\><c-n>:call Toggle()<CR>:call MoveLeft()<cr>
