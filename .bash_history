@@ -30190,3 +30190,196 @@ ll
 find .
 find . | wc -l
 ls
+cd ~
+ls
+rm .vimrc
+ls
+ln ~/.vimrc .vimrc
+ls
+ll
+ls
+nvidia-smi
+ll
+cd fc/
+ls
+cd ~
+git status
+git diff
+ls
+jobs
+ls
+git status
+./config.sh push upd
+git diff HEAD^ .dconf
+ls
+jobs
+ls
+cd .vim/
+ls
+cd plug
+cd plugin
+ls
+vim search.vim 
+ls
+vim search.vim 
+ls
+vim search.vim 
+ls
+cd ~
+git status
+git diff
+jobs
+ls
+cd .vim/
+ls
+cd plugin/
+ls
+vim auto.vim
+ls
+mv auto.vim autocmd.vim
+ls
+vim autocmd.vim 
+ls
+vim term.vim
+ls
+cd ~
+ls
+cd -
+cd ~
+ls
+echo $MYVIMRC
+ls
+git status
+git add -A
+git diff
+git diff --cached 
+git status
+git commit -m "upd"
+git push
+ls
+cd .vim/
+ls
+cd ftplugin/
+ls
+cd ..
+ls
+cd plugged/
+ls
+cd neco-ghc/
+sl
+cd ..
+ls
+cd vim-go/
+ls
+cd plugin/
+ls
+vim go.vim 
+ls
+cd ~
+git status
+git diff
+git add .
+git diff
+ls
+sss
+git status
+git diff
+git add -A
+git status
+git commit -m "upd prev next"
+git push
+git status
+git add -A
+git status
+git commit -m "add file"
+git push
+git status
+git add -A
+git commit -m "toggle buffer"
+git commit --amend 
+git push
+vim .vimrc
+ls
+sss
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd neodark.vim/
+ls
+cd ..
+ls
+cd neodark.vim/
+ls
+cd colors/
+ls
+vim neodark.vim 
+ls
+cd ..
+ls
+vim 
+ls
+cd ~
+vim 
+ls
+cd ~
+git status
+git add -A
+git diff --cached
+git status
+git commit -m "update"
+git push
+git log
+ls
+git status
+git log
+ls
+zsh
+sh
+ls
+vim
+ls
+stat .vimrc
+vim .vimrc
+ls
+vim .vimrc
+ls
+cd .vim/
+ls
+cd plug
+cd plugin
+ls
+ll
+cd ~
+git status
+ls
+cd .vim/
+ls
+cd plugin
+ls
+ll
+ls
+cd ~
+ls
+cd .vim/
+ls
+cd plugin/
+ls
+ll
+ls
+cd ~
+ls
+cd -
+ls
+vim
+ls
+cd ~
+ls
+vim --help
+vim -T
+vim --help
+vim --help | grep term
+vim -T bash
+ls
+cd ~

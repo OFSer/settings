@@ -86,3 +86,18 @@ tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call Togglebash()<CR>
 "inoremap <silent> ; <esc>:call Togglebash()<CR>
 "nnoremap <silent> ; :call Togglebash()<CR>
 "tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>
+
+"------------------------------------scroll---------------------------------------"
+function! ExitNormalMode()
+    unmap <buffer> <silent> <RightMouse>
+    call feedkeys("a")
+endfunction
+function! EnterNormalMode()
+  if bufname('%') =~ g:term && mode('') == 't'
+    call feedkeys("\<c-w>N")
+    call feedkeys("\<c-y>")
+    map <buffer> <silent> <RightMouse> :call ExitNormalMode()<CR>
+  endif
+endfunc
+tmap <silent> <ScrollWheelUp> <c-w>:call EnterNormalMode()<CR>
+tmap <silent> <ScrollWheelDown> <c-w>:call EnterNormalMode()<CR>
