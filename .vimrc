@@ -1,4 +1,14 @@
 runtime! ftplugin/man.vim
+set noswapfile
+syntax on
+"---------------------------term-----------------------------------"
+let g:term='bash'
+let g:sidebar='Netrw'
+let g:toggle_bash#command = get(g:,'toggle_bash#command',g:term)
+let g:loaded_toggle_bash = 1
+tnoremap <silent> \ <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
+nnoremap <silent> \ :call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
+tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
@@ -11,8 +21,22 @@ Plug 'chinnkarahoi/haskell-vim'
 "Plug 'dgryski/vim-godef'
 Plug 'hdima/python-syntax'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_extra_types = 1
 let g:go_doc_keywordprg_enabled = 0
 let g:go_fmt_fail_silently = 1
+let g:go_autodetect_gopath = 1
+let g:go_version_warning = 1
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_generate_tags = 1
+let g:godef_split=2
 au FileType go nmap d <Plug>(go-def-tab)
 Plug 'Valloric/YouCompleteMe'
 nnoremap d :tab split \| YcmCompleter GoToDefinition<cr>
@@ -24,112 +48,35 @@ let g:ycm_show_diagnostics_ui = 0
 "let g:ycm_semantic_triggers = {'haskell' : ['re!.']}
 set completeopt-=preview
 Plug 'octol/vim-cpp-enhanced-highlight'
-" Vim 中文文档
-"Plug 'yianwillis/vimcdoc'
 
-" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
-" 可以快速对齐的插件
-Plug 'junegunn/vim-easy-align'
-
-" 用来提供一个导航目录的侧边栏
 Plug 'scrooloose/nerdtree'
-
-" 可以使 nerdtree Tab 标签的名称更友好些
 Plug 'jistr/vim-nerdtree-tabs'
-
-" 可以在导航目录中看到 git 版本信息
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
-"Plug 'vim-syntastic/syntastic'
-
-" 查看当前代码文件中的变量和函数列表的插件，
-" 可以切换和跳转到代码中对应的变量和函数的位置
-" 大纲式导航, Go 需要 https://github.com/jstemmer/gotags 支持
-"Plug 'majutsushi/tagbar'
-
-" 自动补全括号的插件，包括小括号，中括号，以及花括号
-"Plug 'jiangmiao/auto-pairs'
-
-" Vim状态栏插件，包括显示行号，列号，文件类型，文件名，以及Git状态
-"Plug 'vim-airline/vim-airline'
-"Plug 'vim-airline/vim-airline-themes'
-" 可以在文档中显示 git 信息
 Plug 'airblade/vim-gitgutter'
 set signcolumn=yes
-autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'bufbash'|| bufname('%') =~ 'Netrw') | set signcolumn=no | else | set signcolumn=yes | endif
-autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ '!bash' || bufname('%') == 'Togglebash' || bufname('%') =~ 'bufbash') | set nocursorline | else | set cursorline | endif
 
-" 有道词典在线翻译
 Plug 'ianva/vim-youdao-translater'
 nmap a :Ydc<cr>
 
 
-" 下面两个插件要配合使用，可以自动生成代码块
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
-" 配色方案
-" colorscheme neodark
+" colorscheme
 Plug 'KeitaNakamura/neodark.vim'
-" colorscheme monokai
 Plug 'crusoexia/vim-monokai'
-" colorscheme github 
 Plug 'acarapetis/vim-colors-github'
-" colorscheme one 
 Plug 'rakr/vim-one'
 
-" markdown 插件
 Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.vim'
-" majutsushi/tagbar 插件打开关闭快捷键
-" markdwon 的快捷键
 map <silent> <F5> <Plug>MarkdownPreview
 map <silent> <F6> <Plug>StopMarkdownPreview
 "let g:mkdp_auto_close = 0
+
 call plug#end()
 "--------------------------------------------------------------"
-let g:go_highlight_functions = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_extra_types = 1
-syntax on
-set noswapfile
-let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
-let g:loaded_toggle_bash = 1
-func Bufferbash()
-	if bufname('%') =~ 'Netrw'
-		return
-	endif
-	if bufname('%') =~ 'buf!bash'
-		hide 
-		return
-	endif
-	let g:bn = 'buf!bash'.bufnr('%')
-	let bufferNum = bufnr('buf!bash'.bufnr('%'))
-	if bufferNum == -1 || bufloaded(bufferNum) != 1
-		silent execute 'vert rightbelow term ++close ++kill=term '.g:toggle_bash#command
-		"set noswapfile
-		silent execut 'file '.g:bn
-		"set swapfile
-		"silent exe "!rm .Togglebash.swp > /dev/null 2>&1"
-	else
-		let windowNum = bufwinnr(bufferNum)
-		if windowNum == -1
-			silent execute 'vert rightbelow sbuffer '.bufferNum
-						"call feedkeys('i')	
-		else
-			execute windowNum.'wincmd w'
-			hide 
-		endif
-	endif
-endfunc
-tnoremap <silent> \ <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
-nnoremap <silent> \ :call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
-tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
-function MyTabLabel(n)
-	let buflist = tabpagebuflist(a:n)
-	let winnr = len(buflist)
-	return fnamemodify(bufname(buflist[winnr - 1]), ':t')
-endfunction
 func GetCurnr(n)
 	let buflist = tabpagebuflist(a:n)
 	for i in reverse(range(len(buflist)))
@@ -146,61 +93,6 @@ func GetCurnr(n)
 		endfor
 	endfor
 endfunc
-function! MyTabLine()
-  let s = ''
-  for i in range(tabpagenr('$'))
-    let tab = i + 1
-		let buflist = tabpagebuflist(tab)
-		let curnr = tabpagewinnr(tab) - 1
-		let bufnr = buflist[curnr]
-		for j in range(len(buflist))
-			let bufnr = buflist[j]
-			let bufmodified = getbufvar(bufnr, "&mod")
-			let bufname = fnamemodify(bufname(bufnr), ':t')
-			if bufname !~ "Netrw" && bufname !~ "!bash"
-				break
-			endif
-		endfor
-
-    let s .= '%' . tab . 'T'
-    let s .= (tab == tabpagenr() ? '%#TabLineSel#' : '%#TabLine#')
-    "let s .= ' ' . tab .':'
-		let s .= ' '
-		if bufname == ''
-    	let s .= '[No Name]'
-		elseif bufname =~ "!bash"
-			let t = term_gettitle(bufnr)
-			let t = ''
-			let t = substitute(t, "^.*:", "", "")
-			let cmd = substitute(t, "^.*\\$", "", "")
-			let t = substitute(t, "\\$.*$", "", "")
-			let t = substitute(t, "/\\([^/]\\)[^/]*", "/\\1", "g")
-			let s .= t[-5:-1]
-			let s .= "!bash"
-			let s .= cmd[0:15]
-			if len(cmd) > 15
-				let s .= '...'
-			endif
-		else
-    	"let s .= '%{MyTabLabel(' . (i + 1) . ')}'
-			if bufname =~ 'Netrw'
-				let bufname = '!list'
-			endif
-    	let s .= bufname
-		endif
-    if bufmodified && bufname !~ "!bash"
-      let s .= '[*] '
-		else 
-      let s .= ' '
-    endif
-  endfor
-
-  let s .= '%#TabLineFill#'
-  if (exists("g:tablineclosebutton"))
-    let s .= '%=%999XX'
-  endif
-  return s
-endfunction
 au CursorMoved,TextChanged * call MyTabLine()
 set tabline=%!MyTabLine()
 function! Flash()
@@ -766,18 +658,6 @@ color neodark
 " 开启24bit的颜色，开启这个颜色会更漂亮一些
 "set termguicolors
 " 配色方案, 可以从上面插件安装中的选择一个使用 
-let g:go_autodetect_gopath = 1
-let g:go_version_warning = 1
-let g:go_highlight_types = 1
-let g:go_highlight_fields = 1
-let g:go_highlight_functions = 1
-let g:go_highlight_function_calls = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_extra_types = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_generate_tags = 1
-let g:godef_split=2
-
 
 "set statusline=%1*%F%h%m%=\ [%p%%]\ [%l/%L]:%c
 set statusline=%1*

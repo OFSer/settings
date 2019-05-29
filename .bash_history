@@ -30139,3 +30139,54 @@ git push
 ls
 vim
 sudo reboot
+sss
+git status
+sss
+ls
+cd ~
+ls
+du -hl --max-depth=1
+git status
+git diff
+git status
+git branch
+git status
+git diff
+git log
+sss
+./crawler.sh 
+jobs
+sudo vim crawler.sh 
+./crawler.sh 
+cat crawler.sh 
+ossutil ls oss://ai-cloth-public/debug-data
+history | grep dd
+history | grep dd | grep input
+history | grep dd | grep input | grep output
+history | grep dd | grep if
+cd ~
+dd
+ls
+dd if=/dev/zero of=/dev/null block=100M
+tldr dd
+dd if=/dev/zero of=/dev/null bs=1M count=1000
+dd if=/dev/urandom of=/dev/null bs=1M count=1000
+ls
+jobs
+df
+ls
+rm -rf home
+sudo rm -rf home
+sudo rm -rf *
+df
+df -h
+df
+ls
+sss
+ls
+cd pack/
+ls
+ll
+find .
+find . | wc -l
+ls
