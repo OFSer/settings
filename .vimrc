@@ -8,9 +8,11 @@ nnoremap , <nop>
 tnoremap <c-v> <c-w>"0
 "---------------------------term-----------------------------------"
 let g:term='!bash'
+let g:bufterm='buf'.g:term
+let g:toggleterm='Toggle'.g:term
 let g:sidebar='Netrw'
 let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
-let g:toggle_bash#command = get(g:,'toggle_bash#command','bash')
+let g:buffer_terminal#command = get(g:,'toggle_bash#command','bash')
 let g:loaded_toggle_bash = 1
 tnoremap <silent> \ <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
 nnoremap <silent> \ :call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
@@ -113,85 +115,38 @@ set timeoutlen=0
 set updatetime=0
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
 "--------------------------GetBuffer---------------------------------"
-func Del()
-	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	for i in a
-		if bufname(i) =~ "Toggle!bash"
-			continue
-		endif
-		if bufname(i) == ""
-			silent! exe "bw! ".i
-			silent! exe "bw! buf!bash".i
-		endif
-		if bufname(i) =~ "buf!bash"
-			continue
-		endif
-		if bufname(i) =~ "!bash" && Exist(i) == 0
-			silent! exe "bw! ".i
-			silent! exe "bw! buf!bash".i
-		endif
-	endfor
-endfunc
-func Exist(x)
-	let tn=tabpagenr('$')
-	for i in range(1,tn)
-		if index(tabpagebuflist(i),a:x)>=0
-			return 1
-		endif
-	endfor
-	return 0
-endfunc
-func ExistOther(tp,x)
-	let tn=tabpagenr('$')
-	for i in range(1,tn)
-		if i == a:tp
-			continue
-		endif
-		if index(tabpagebuflist(i),a:x)>=0
-			return 1
-		endif
-	endfor
-	return 0
-endfunc
 func Next(x)
-	call Del()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	let n=len(a)
+	let ret=a:x
 	for i in a
-		if bufname(i) =~ '!bash' || bufname(i) == 'Togglebash' || Exist(i) == 1
+		if bufname(i) =~ g:term || Exist(i)
 			continue
 		endif
 		if i>a:x
 			return i
 		endif
-	endfor
-	for i in a
-		if bufname(i) =~ '!bash' || bufname(i) == 'Togglebash' || Exist(i) == 1
-			continue
+		if ret == a:x
+			let ret=i
 		endif
-		return i
 	endfor
-	return a:x
+	return ret
 endfunc
 func Prev(x)
-	call Del()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
 	let a=reverse(a)
+	let ret=a:x
 	for i in a
-		if bufname(i) =~ '!bash' || bufname(i) == 'Togglebash' || Exist(i) == 1
+		if bufname(i) =~ g:term || Exist(i)
 			continue
 		endif
 		if i<a:x
 			return i
 		endif
-	endfor
-	for i in a
-		if bufname(i) =~ '!bash' || bufname(i) == 'Togglebash' || Exist(i) == 1
-			continue
+		if ret == a:x
+			let ret=i
 		endif
-		return i
 	endfor
-	return a:x
+	return ret
 endfunc
 func Terins()
 	call feedkeys(":\<bs>",'n')
@@ -366,7 +321,6 @@ func Tabclose()
 	endif
 	let a=tabpagebuflist()
 	exe "tabc!"
-	call Del()
 	call CloseNetrw()
 endfunc
 tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>

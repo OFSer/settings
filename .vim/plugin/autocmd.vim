@@ -12,3 +12,22 @@ autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ g:term || bufname('%
 autocmd BufLeave,FocusLost,InsertLeave,TextChanged * silent! wall | silent! Remove Netrw*
 au FileType netrw au BufLeave <buffer> setlocal nocursorline
 au FileType netrw au BufEnter <buffer> setlocal cursorline
+
+
+func Del()
+	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
+	for i in a
+		if bufname(i) =~ g:toggleterm || bufname(i) =~ g:bufterm
+			continue
+		endif
+		if bufname(i) == "" && len(a) > 1
+			silent! exe "bw! ".i
+			silent! exe "bw! ".g:bufterm.i
+		endif
+		if bufname(i) =~ g:term && Exist(i) == 0
+			silent! exe "bw! ".i
+			silent! exe "bw! ".g:bufterm.i
+		endif
+	endfor
+endfunc
+au CursorMoved * cal Del()
