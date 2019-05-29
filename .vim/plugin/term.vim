@@ -17,7 +17,7 @@ func Terins()
 	endif
 endfunc
 func Terspl()
-	if bufname('%') =~ '!bash' && bufname('%') != 'Togglebash'
+	if bufname('%') =~ g:term
 		exe "rightbelow term bash"
 		return 
 	endif
@@ -79,9 +79,6 @@ tnoremap <silent> ; <c-w>:call Togglebash()<CR>
 inoremap <silent> : <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR>
 nnoremap <silent> : :call CloseTogglebash()<cr>:call Togglebash()<CR>
 tnoremap <silent> : <c-w>:call CloseTogglebash()<cr>:call Togglebash()<CR>
-"inoremap <silent> ; <esc>:call Togglebash()<CR>
-"nnoremap <silent> ; :call Togglebash()<CR>
-"tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>
 
 "------------------------------------scroll---------------------------------------"
 function! ExitNormalMode()

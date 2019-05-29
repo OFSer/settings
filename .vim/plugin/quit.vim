@@ -6,7 +6,7 @@ func CloseNetrw()
 	let a=tabpagebuflist()
 	let flag=1
 	for i in a
-		if bufname(i) !~ "Netrw"
+		if bufname(i) !~ g:sidebar
 			let flag=0
 		endif
 	endfor
@@ -27,21 +27,21 @@ func Tabclose()
 	exe "tabc!"
 	call CloseNetrw()
 endfunc
-tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr>:call Back()<cr>
-nnoremap <silent> c :call Tabclose()<cr>:call Back()<cr>
+tnoremap <silent> c <c-w>:call Tabclose()<cr><c-w>:call Back()<cr>
+nnoremap <silent> c :call Tabclose()<cr><c-w>:call Back()<cr>
 
 "--------------------------Save&&Quit-------------------------"
 func Close()
 	let nr=bufnr('%')
 	let tp=tabpagenr()
 	let flag=ExistOther(tp,nr)
-	if bufname('%') =~ '!bash' 
+	if bufname('%') =~ g:term
 		silent! exe "q!"
 		silent! exe "bw! ".nr
-		silent! exe "bw! buf!bash".nr
+		silent! exe "bw! "g:bufterm.nr
 		return
 	endif
-	if bufname('%') =~ "help" || bufname('%') =~ "Netrw"
+	if bufname('%') =~ "help" || bufname('%') =~ g:sidebar
 		silent! exe "q!"
 		return
 	endif
@@ -54,26 +54,26 @@ func Close()
 	endif
 	if flag == 0
 		silent! exe "bw! ".nr
-		silent! exe "bw! buf!bash".nr
+		silent! exe "bw! ".g:bufterm.nr
 	endif
 endfunc
-nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>
+nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr><c-w>:call Back()<cr>
 "--------------------------Quit-------------------------------"
 func Quit()
 	let nr=bufnr('%')
 	let tp=tabpagenr()
 	let flag=ExistOther(tp,nr)
-	if bufname('%') =~ '!bash' || bufname('%') =~ 'bufbash'
+	if bufname('%') =~ '!bash' || bufname('%') =~ g:bufterm
 		exe "q!"
 		silent! exe "bw! ".nr
-		silent! exe "bw! buf!bash".nr
+		silent! exe "bw! ".g:bufterm.nr
 		call CloseNetrw()
 		return
 	endif
-	if &buftype =~ "help" || bufname('%') =~ "Netrw"
+	if &buftype =~ "help" || bufname('%') =~ g:sidebar
 		exe "q!"
 		silent! exe "bw! ".nr
-		silent! exe "bw! buf!bash".nr
+		silent! exe "bw! ".g:bufterm.nr
 		call CloseNetrw()
 		return
 	endif
@@ -82,7 +82,7 @@ func Quit()
 		exe "q!"
 		if flag == 0
 			silent! exe "bw! ".nr
-			silent! exe "bw! buf!bash".nr
+			silent! exe "bw! ".g:bufterm.nr
 		endif
 		call CloseNetrw()
 		return
@@ -94,11 +94,11 @@ func Quit()
 	if nr != t && tabpagenr() == 1
 		exe "b! ".Next(nr)
 		silent! exe "bw! ".nr
-		silent! exe "bw! buf!bash".nr
+		silent! exe "bw! ".g:bufterm.nr
 	endif
 	if flag == 0
 		silent! exe "bw! ".nr
-		silent! exe "bw! buf!bash".nr
+		silent! exe "bw! ".g:bufterm.nr
 	endif
 	call CloseNetrw()
 endfunc
@@ -107,6 +107,6 @@ func Back()
 		call feedkeys("gT")
 	endif
 endfunc
-tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call Back()<cr>
-nnoremap <silent> q :call Quit()<cr>:call Back()<cr>
+tnoremap <silent> q <c-w>:call Quit()<cr><c-w>:call Back()<cr>
+nnoremap <silent> q :call Quit()<cr><c-w>:call Back()<cr>
 
