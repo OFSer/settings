@@ -1,3 +1,10 @@
+func Terins()
+	call feedkeys(":\<bs>",'n')
+	if &buftype =~ 'terminal'
+		call feedkeys("i")
+	endif
+endfunc
+
 func Bufferbash()
 	if bufname('%') =~ g:sidebar
 		return

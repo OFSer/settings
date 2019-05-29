@@ -31,3 +31,5 @@ func Del()
 	endfor
 endfunc
 au CursorMoved * cal Del()
+
+autocmd TabNew * silent! call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>l:call Terins()\<cr>", 'n') 

@@ -1,3 +1,16 @@
+set ai
+set nu
+set ts=2
+set sw=2
+set ma
+set mouse=a
+set twsl=100000
+hi Error ctermbg=256
+hi goSpaceError ctermbg=256
+set ttimeoutlen=0
+set timeoutlen=0
+set updatetime=0
+command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
 runtime! ftplugin/man.vim
 set noswapfile
 syntax on
@@ -82,174 +95,20 @@ map <silent> <F5> <Plug>MarkdownPreview
 map <silent> <F6> <Plug>StopMarkdownPreview
 "let g:mkdp_auto_close = 0
 call plug#end()
-"--------------------------------------------------------------"
-func GetCurnr(n)
-	let buflist = tabpagebuflist(a:n)
-	for i in reverse(range(len(buflist)))
-		if bufname(buflist[i]) =~ 'Netrw'
-			if len(buflist) > 1 
-				return 1
-			endif
-			return 0
-		endif
-		for j in getbufinfo()
-			if buflist[i] == j['bufnr'] && j['lnum'] > 0
-				return i
-			endif
-		endfor
-	endfor
-endfunc
-
 "--------------------------Options-----------------------------------"
-set ai
-set nu
-set ts=2
-set sw=2
-set ma
-set mouse=a
-set twsl=100000
-hi Error ctermbg=256
-hi goSpaceError ctermbg=256
-set ttimeoutlen=0
-set timeoutlen=0
-set updatetime=0
-command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
+
 "--------------------------GetBuffer---------------------------------"
-func Next(x)
-	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	let ret=a:x
-	for i in a
-		if bufname(i) =~ g:term || Exist(i)
-			continue
-		endif
-		if i>a:x
-			return i
-		endif
-		if ret == a:x
-			let ret=i
-		endif
-	endfor
-	return ret
-endfunc
-func Prev(x)
-	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	let a=reverse(a)
-	let ret=a:x
-	for i in a
-		if bufname(i) =~ g:term || Exist(i)
-			continue
-		endif
-		if i<a:x
-			return i
-		endif
-		if ret == a:x
-			let ret=i
-		endif
-	endfor
-	return ret
-endfunc
-func Terins()
-	call feedkeys(":\<bs>",'n')
-	if &buftype =~ 'terminal'
-		call feedkeys("i")
-	endif
-endfunc
-func CloseNetrw()
-	let g:back = 0
-	if tabpagenr('$') == 1
-		return
-	endif
-	let a=tabpagebuflist()
-	let flag=1
-	for i in a
-		if bufname(i) !~ "Netrw"
-			let flag=0
-		endif
-	endfor
-	if flag == 1
-		if tabpagenr() != 1 && tabpagenr() != tabpagenr('$')
-			let g:back = 1
-		endif
-		silent! exe "q!"
-	endif
-endfunc
+
 "--------------------------Explorer----------------------------------"
 let g:netrw_list_hide = '.*\.sw.*\|\.nfs\|\.git'
 let g:netrw_winsize = -20
 let g:netrw_liststyle = 3
 let g:netrw_banner = 0
-func Test()
-	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	let n=len(a)
-	return index(a,bufnr('%'))>=0
-endfunc
-func Toggle()
-	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	if bufname('%') =~ "Netrw" && len(tabpagebuflist()) == 1
-		let n=len(a)
-		for i in a
-			if bufname(i) !~ "!bash" && bufname(i) != 'Togglebash'
-				exe "b! ".i
-				return
-			endif
-		endfor
-		return
-	endif
-	for i in tabpagebuflist()
-		if bufname(i) =~ "Netrw" 
-			silent! exe "bw! ".i
-			silent! exe "bw! buf!bash".i
-			return 
-		endif
-	endfor
-	exe "Lex"
-endfunc
-func TabNw()
-	"echo tabpagenr()
-	"echo tabpagenr()
-endfunc
-func TabEn()
-	let n=0
-	for i in range(1,tabpagenr('$'))
-		for j in tabpagebuflist(i)
-			if bufnr('%') == j
-				let n+=1
-			endif
-		endfor
-	endfor
-	for i in tabpagebuflist()
-		if bufname(i) =~ "Netrw" 
-			return
-		endif
-	endfor
-	if n > 1
-		return
-	endif
-	exe "Lex"
-endfunc
 inoremap <silent> e <esc>:call Toggle()<cr>:call MoveLeft()<cr>
 nnoremap <silent> e :call Toggle()<CR>:call MoveLeft()<cr>
 tnoremap <silent> e <c-\><c-n>:call Toggle()<CR>:call MoveLeft()<cr>
-autocmd! TabNew * silent call TabNw()
 "autocmd! TabEnter * call TabEn() | call TabEn()
-"--------------------------Jump--------------------------------------"
-inoremap <c-l> <del>
-inoremap <c-k> <up>
-inoremap <c-j> <down>
-inoremap <c-b> <left>
-inoremap <c-f> <right>
-inoremap <c-e> <esc>A
-inoremap <c-a> <esc>^i
 
-cnoremap <c-a> <home>
-cnoremap <c-b> <left>
-cnoremap <c-r> <c-f>
-cnoremap <c-f> <right>
-
-nnoremap <silent> <c-j> <cr>
-nnoremap <silent> <c-k> k
-nnoremap <silent> <c-h> h
-nnoremap <silent> <c-l> l
 "--------------------------Edit--------------------------------------"
 inoremap <c-y> <esc>pa
 nnoremap <c-a> maggvG$
@@ -502,20 +361,7 @@ nnoremap <silent> n :call Switch(0)<cr>
 inoremap <silent> n <esc>:call Switch(0)<cr>
 nnoremap <silent> p :call Switch(1)<cr>
 inoremap <silent> p <esc>:call Switch(1)<cr>
-"--------------------------Trash-------------------------------"
-"inoremap } }<ESC>==A
-"inoremap { {<CR><TAB><ESC>o<BS>}<ESC>ka
-"--------------------------Test-------------------------------"
-"autocmd VimEnter * :Lexplore | call feedkeys("\<c-w>l")
-autocmd TabNew * silent! call feedkeys("\<c-\>\<c-n>:Lexplore\<cr>\<c-w>l:call Terins()\<cr>", 'n') 
-"func Format()
-"	if &filetype == 'cpp'
-"		exec "w"
-"		silent exec "!clang-format -i -style='{BasedOnStyle: WebKit, IndentWidth: 2,BreakBeforeBraces: Custom}' %"
-"		exec "!sed -i 's/  /	/g' %"
-"	endif
-"endfunc
-"nnoremap <silent> <c-I> :call Format()<cr>
+
 func Comment()
   let [line_start, column_start] = getpos("'<")[1:2]
   let [line_end, column_end] = getpos("'>")[1:2]
