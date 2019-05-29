@@ -25,7 +25,7 @@ function! MyTabLine()
 		let s .= ' '
 		if bufname == ''
     	let s .= '[No Name]'
-		elseif bufname =~ "!bash"
+		elseif bufname =~ g:term
 			let t = term_gettitle(bufnr)
 			let t = ''
 			let t = substitute(t, "^.*:", "", "")
@@ -33,19 +33,19 @@ function! MyTabLine()
 			let t = substitute(t, "\\$.*$", "", "")
 			let t = substitute(t, "/\\([^/]\\)[^/]*", "/\\1", "g")
 			let s .= t[-5:-1]
-			let s .= "!bash"
+			let s .= g:term
 			let s .= cmd[0:15]
 			if len(cmd) > 15
 				let s .= '...'
 			endif
 		else
     	"let s .= '%{MyTabLabel(' . (i + 1) . ')}'
-			if bufname =~ 'Netrw'
+			if bufname =~ g:sidebar
 				let bufname = '!list'
 			endif
     	let s .= bufname
 		endif
-    if bufmodified && bufname !~ "!bash"
+    if bufmodified && bufname !~ g:term
       let s .= '[*] '
 		else 
       let s .= ' '
@@ -58,12 +58,12 @@ function! MyTabLine()
   endif
   return s
 endfunction
-au CursorMoved,TextChanged * call MyTabLine()
 set tabline=%!MyTabLine()
 function! Flash()
     sleep 10m
 endfunction
 set showtabline=2
+"au CursorMoved,TextChanged * call MyTabLine()
 "tnoremap <silent> <cr> <cr><c-\><c-n>:let line=MyTabLine()<cr>:exe 'set tabline='.'"'.line.'"'<cr>i
 "tnoremap <silent> <cr> <cr><c-\><c-n>i<c-\><c-n>i
 "tnoremap <silent> <c-d> <c-d><c-\><c-n>i<c-\><c-n>i
