@@ -6,9 +6,9 @@ let g:sidebar='Netrw'
 let g:toggle_terminal#command = get(g:,'toggle_bash#command','bash')
 let g:buffer_terminal#command = get(g:,'toggle_bash#command','bash')
 let g:loaded_toggle_bash = 1
-tnoremap <silent> \ <c-\><c-n>:call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
-nnoremap <silent> \ :call Bufferbash()<cr><c-\><c-n>:call Terins()<cr>
-tnoremap <silent> - <c-\><c-n>:call Terspl()<cr>
+tnoremap <silent> \ <c-w>:call Bufferbash()<cr>
+nnoremap <silent> \ :call Bufferbash()<cr>
+tnoremap <silent> - <c-w>:call Terspl()<cr>
 "-------------------------------------------------------------------
 func Terins()
 	call feedkeys(":\<bs>",'n')
@@ -67,22 +67,18 @@ endfunc
 
 
 "--------------------------Togglebash------------------------------------"
-func MoveLeft()
-	if bufname('%') =~ g:sidebar
-		call feedkeys("\<c-w>l")
-	endif
-endfunc
+
 func CloseTogglebash()
 	if bufnr(g:toggleterm) >= 0
 		silent! exe 'bw! '.g:toggleterm
 	endif
 endfunc
-inoremap <silent> ; <esc>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-nnoremap <silent> ; :call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-inoremap <silent> : <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-nnoremap <silent> : :call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
-tnoremap <silent> : <c-\><c-n>:call CloseTogglebash()<cr>:call Togglebash()<CR><c-\><c-n>:call Terins()<cr>
+inoremap <silent> ; <esc>:call Togglebash()<CR>
+nnoremap <silent> ; :call Togglebash()<CR>
+tnoremap <silent> ; <c-w>:call Togglebash()<CR>
+inoremap <silent> : <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR>
+nnoremap <silent> : :call CloseTogglebash()<cr>:call Togglebash()<CR>
+tnoremap <silent> : <c-w>:call CloseTogglebash()<cr>:call Togglebash()<CR>
 "inoremap <silent> ; <esc>:call Togglebash()<CR>
 "nnoremap <silent> ; :call Togglebash()<CR>
 "tnoremap <silent> ; <c-\><c-n>:call Togglebash()<CR>

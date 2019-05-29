@@ -27,8 +27,8 @@ func Tabclose()
 	exe "tabc!"
 	call CloseNetrw()
 endfunc
-tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
-nnoremap <silent> c :call Tabclose()<cr>:call Back()<cr>:call Terins()<cr>
+tnoremap <silent> c <c-\><c-n>:call Tabclose()<cr>:call Back()<cr>
+nnoremap <silent> c :call Tabclose()<cr>:call Back()<cr>
 
 "--------------------------Save&&Quit-------------------------"
 func Close()
@@ -57,10 +57,7 @@ func Close()
 		silent! exe "bw! buf!bash".nr
 	endif
 endfunc
-"tnoremap <silent> w w
-"tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Terins()<cr>
-nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
-"tnoremap <silent> w <c-\><c-n>:call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>:call Terins()<cr>
+nnoremap <silent> w :call Close()<cr>:call CloseNetrw()<cr>:call Back()<cr>
 "--------------------------Quit-------------------------------"
 func Quit()
 	let nr=bufnr('%')
@@ -110,6 +107,6 @@ func Back()
 		call feedkeys("gT")
 	endif
 endfunc
-tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call Back()<cr>:call Terins()<cr>
-nnoremap <silent> q :call Quit()<cr>:call Back()<cr>:call Terins()<cr>
+tnoremap <silent> q <c-\><c-n>:call Quit()<cr>:call Back()<cr>
+nnoremap <silent> q :call Quit()<cr>:call Back()<cr>
 

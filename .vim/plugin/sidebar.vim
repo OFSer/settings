@@ -54,6 +54,11 @@ function! CreateInPreview()
 	exe "Explore"
 endf
 
+func MoveLeft()
+	if bufname('%') =~ g:sidebar
+		call feedkeys("\<c-w>l")
+	endif
+endfunc
 inoremap <silent> e <esc>:call Toggle()<cr>:call MoveLeft()<cr>
-nnoremap <silent> e :call Toggle()<CR>:call MoveLeft()<cr>
-tnoremap <silent> e <c-\><c-n>:call Toggle()<CR>:call MoveLeft()<cr>
+nnoremap <silent> e :call Toggle()<cr>:call MoveLeft()<cr>
+tnoremap <silent> e <c-w>:call Toggle()<cr><c-w>:call MoveLeft()<cr>
