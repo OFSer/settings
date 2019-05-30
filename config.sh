@@ -205,6 +205,8 @@ run(){
 }
 push(){
 	msg=${1:-upd}
+	his="~/.bash_history"
+	cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his) > $his
 	dconf dump / > .dconf
 	git add -A
 	git commit -m "$msg"
