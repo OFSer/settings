@@ -30600,3 +30600,4 @@ ls
 ll
 ls
 ls
+history 
