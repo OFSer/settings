@@ -29,6 +29,8 @@ BASE_FLAGS = [
         '-I./library',
         ]
 
+BUILD_DIRECTORY = './build';
+
 SOURCE_EXTENSIONS = [
         '.cpp',
         '.cxx',
@@ -55,7 +57,6 @@ HEADER_DIRECTORIES = [
         'inc'
         ]
 
-BUILD_DIRECTORY = './build';
 
 def IsHeaderFile(filename):
     extension = os.path.splitext(filename)[1]
