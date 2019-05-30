@@ -32,7 +32,6 @@ nnoremap t <nop>
 nnoremap . <nop>
 nnoremap , <nop>
 tnoremap <c-v> <c-w>"0
-
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}

@@ -30588,3 +30588,15 @@ git checkout -- .ycm_extra_conf.py
 vim .ycm_extra_conf.py 
 vim .ycm_extra_conf.py 
 ls
+git status
+git diff
+ls
+git status
+ls
+ll
+ls
+rm eNetrw\(\) 
+ls
+ll
+ls
+ls
