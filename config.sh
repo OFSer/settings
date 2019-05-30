@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ~
 config_scroll(){
 	sudo apt install xbindkeys xdotool -y
