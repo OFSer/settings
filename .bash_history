@@ -7199,3 +7199,141 @@ ll
 ls
 ls
 history 
+cd ~
+ls
+vim .ycm_extra_conf.py 
+ls
+cd fc/
+ls
+cd detection-machine-daemon/
+ls
+vim main.py 
+cd ~
+ls
+git status
+git diff .vim
+git diff .vimrc
+git diff .ycm_extra_conf.py
+./config.sh push
+git status
+git diff .vimrc
+vim .vimrc
+git status
+git diff quit.vim
+git diff .vim/plugin/quit.vim
+ls
+jobs
+git status
+git diff .vimrc
+git status
+git diff .vimrc
+git diff .vim/plugin/quit.vim
+./config.sh push
+ls
+git status
+git diff
+./config.sh push
+history 
+vim .bash_history 
+git status
+git diff
+vim .bash_history 
+git status
+history | grep dot
+ls
+jobs
+sort .bash_history 
+sort .bash_history | unique -d
+sort .bash_history | uniq -d
+sort .bash_history | uniq -d | wc -l
+sort .bash_history | uniq 
+sort .bash_history | uniq -d
+sort .bash_history | uniq -c
+uniq --help
+sort .bash_history | uniq -u
+sort .bash_history | uniq -u | wc -l
+sed -n '1,$p' .bash_history | sort | uniq -u
+sed -n '1,10p' .bash_history | sort | uniq -u
+sed -n '1,10$' .bash_history | sort | uniq -u
+cat `sort .bash_history | sort | uniq -u` `tail -n 100 .bash_history`
+cat <(sort .bash_history | sort | uniq -u) <(tail -n 100 .bash_history)
+history
+cat <(sort .bash_history | sort | uniq -u) <(tail -n 100 .bash_history)
+
+history 
+history 
+cat <(sort .bash_history | sort | uniq -u) <(tail -n 100 .bash_history)
+cat <(sort .bash_history | sort | uniq -u) <(tail -n 3 .bash_history)
+cat <(sort .bash_history | sort | uniq -u) <(tail -n 1000 .bash_history)
+jobs
+ls
+cat <(sort .bash_history | sort | uniq -u) <(tail -n 1000 .bash_history)
+vim config.sh 
+jobs
+cat <(sort ~/.bash_history | sort | uniq -u) <(tail -n 1000 ~/.bash_history)
+vim config.sh 
+git status
+git diff config.sh
+git add config.sh 
+git commit -m "delete repeat cmd in bash_history"
+guts tatus
+git status
+./config.sh push
+cat ~/.bash_history
+./config.sh push
+vim config.sh 
+./config.sh push
+vim config.sh 
+his="~/.bash_history"
+cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his)
+sort $his
+his="~/.bash_history"
+cat ~/.bash_history 
+sort $his
+his=~/.bash_history
+sort $his
+vim config.sh 
+./config.sh push
+git diff HEAD^ .bash_history
+ls
+vim .bash_history 
+vim config.sh 
+git status
+git reset HEAD^ --hard
+git status
+vim .bash_history 
+ls
+vim config.sh 
+his="~/.bash_history"
+cat <(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his)) > $his
+his=~/.bash_history
+cat <(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his)) > $his
+cat $his
+git status
+git checkout -- .bash_history
+cat <(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his)) > $his
+cat $his
+git checkout -- .bash_history
+cat .bash_history 
+echo $(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his))
+cat $(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his))
+cat <<<$(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his))
+cat <<<$(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his)) > $his
+echo "$(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his))" > $his
+cat $his
+vim config.sh 
+git status
+git diff .bash_history
+git status
+git add -A
+git commit -m "fix config"
+git push
+git push -f
+git log
+git diff HEAD^ .bash_history
+cat .bash_history | wc -l
+vim .bash_history 
+vim config.sh 
+ls
+vim .bash_history 
+history 
