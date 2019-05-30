@@ -20,7 +20,13 @@ BASE_FLAGS = [
         '-I/usr/include/',
         '-I/usr/include/c++/7/',
         '-I/usr/include/x86_64-linux-gnu/',
-        '-I/usr/include/x86_64-linux-gnu/c++/7/'
+        '-I/usr/include/x86_64-linux-gnu/c++/7/',
+        '-I./inc',
+        '-I./include',
+        '-I./src',
+        '-I./source',
+        '-I./lib',
+        '-I./library',
         ]
 
 SOURCE_EXTENSIONS = [
@@ -49,7 +55,7 @@ HEADER_DIRECTORIES = [
         'inc'
         ]
 
-BUILD_DIRECTORY = 'build';
+BUILD_DIRECTORY = './build';
 
 def IsHeaderFile(filename):
     extension = os.path.splitext(filename)[1]
