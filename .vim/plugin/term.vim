@@ -1,21 +1,18 @@
 "---------------------------term-----------------------------------"
+let g:tabterm="bash"
 let g:term='!bash'
 let g:bufterm='buf'.g:term
 let g:toggleterm='Toggle'.g:term
-let g:sidebar='Netrw'
 let g:toggle_terminal#command = get(g:,'toggle_bash#command','bash')
 let g:buffer_terminal#command = get(g:,'toggle_bash#command','bash')
 let g:loaded_toggle_bash = 1
 tnoremap <silent> \ <c-w>:call Bufferbash()<cr>
 nnoremap <silent> \ :call Bufferbash()<cr>
 tnoremap <silent> - <c-w>:call Terspl()<cr>
+inoremap <silent> t <esc>:exec "tab term ".g:tabterm<cr>
+nnoremap <silent> t :exec "tab term ".g:tabterm<cr>
+tnoremap <silent> t <c-w>:exec "tab term ".g:tabterm<cr>
 "-------------------------------------------------------------------
-func Terins()
-	call feedkeys(":\<bs>",'n')
-	if &buftype =~ 'terminal'
-		call feedkeys("i")
-	endif
-endfunc
 func Terspl()
 	if bufname('%') =~ g:term
 		exe "rightbelow term bash"

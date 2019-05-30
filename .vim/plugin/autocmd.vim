@@ -10,8 +10,8 @@ func! NetrwMapping()
 endfunc
 autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ g:term || bufname('%') =~ g:sidebar) | set nonu | else | set nu | endif
 autocmd BufLeave,FocusLost,InsertLeave,TextChanged * silent! wall | silent! Remove Netrw*
-au FileType netrw au BufLeave <buffer> setlocal nocursorline
-au FileType netrw au BufEnter <buffer> setlocal cursorline
+au FileType netrw,nerdtree au BufLeave <buffer> setlocal nocursorline
+au FileType netrw,nerdtree au BufEnter <buffer> setlocal cursorline
 
 
 func Del()
@@ -31,5 +31,4 @@ func Del()
 	endfor
 endfunc
 au CursorMoved * cal Del()
-autocmd TabNew * silent! call feedkeys("\<c-w>:Lexplore\<cr>\<c-w>l", 'n') 
 autocmd BufEnter * silent! lcd %:p:h

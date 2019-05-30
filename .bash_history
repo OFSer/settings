@@ -30383,3 +30383,39 @@ vim --help | grep term
 vim -T bash
 ls
 cd ~
+ls
+ls
+sss
+git status
+git checkout -- .bash_history
+git status
+git diff
+git commit -am "upd"
+git status
+git push
+ls
+vim
+ls
+vim
+ls
+vim .vimrc
+jobs
+ls
+ls
+vim ls
+ls
+cd ~
+ls
+cd ~
+ls
+cd /dev/
+ls
+cd shm/
+ls
+ll
+ll -h
+ls -lh
+ls -alh
+ls
+rm ls
+ls

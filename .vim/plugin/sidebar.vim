@@ -62,3 +62,4 @@ endfunc
 inoremap <silent> e <esc>:call Toggle()<cr>:call MoveLeft()<cr>
 nnoremap <silent> e :call Toggle()<cr>:call MoveLeft()<cr>
 tnoremap <silent> e <c-w>:call Toggle()<cr><c-w>:call MoveLeft()<cr>
+"autocmd TabNew * silent! call feedkeys("\<c-w>:Lexplore\<cr>\<c-w>l", 'n') 

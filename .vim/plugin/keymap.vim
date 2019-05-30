@@ -45,9 +45,6 @@ tnoremap <silent> < <c-w>gT
 inoremap <silent> > <esc>gt
 nnoremap <silent> > gt
 tnoremap <silent> > <c-w>gt
-inoremap <silent> t <esc>:tab term bash<cr>
-nnoremap <silent> t :tab term bash<cr>
-tnoremap <silent> t <c-w>:tab term bash<cr>
 "--------------------------WindowMap-------------------------------"
 nnoremap <silent>  h <c-w>h
 nnoremap <silent>  j <c-w>j

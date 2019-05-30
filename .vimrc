@@ -22,6 +22,7 @@ hi goSpaceError ctermbg=256
 hi TabLineFill ctermfg=Black
 hi TabLineSel ctermfg=White ctermbg=Darkgrey
 hi TabLine ctermfg=Blue ctermbg=0
+let g:sidebar='netrw'
 
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
 runtime! ftplugin/man.vim
@@ -81,3 +82,11 @@ call plug#end()
 "-----------------------"
 color neodark
 hi Normal guibg=NONE ctermbg=NONE
+"-------------------------------------------------------"
+let NERDTreeShowLineNumbers=0
+let NERDTreeAutoCenter=1
+let NERDTreeShowHidden=1
+let NERDTreeWinSize=25
+let NERDTreeIgnore=['\.pyc','\~$','\.swp']
+let NERDTreeShowBookmarks=2
+let g:nerdtree_tabs_open_on_console_startup=1

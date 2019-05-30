@@ -1,4 +1,9 @@
-
+func ExistInArray(a,x)
+	if index(a:a,a:x)>=0 
+		return 1
+	endif
+	return 0;
+endfunc
 func Exist(x)   "check if buffer x is not hidden
 	let tn=tabpagenr('$')
 	for i in range(1,tn)
@@ -20,8 +25,6 @@ func ExistOther(tp,x) "check if buffer x is not hidden in one of all tabs excpet
 	endfor
 	return 0
 endfunc
-
-
 func GetCurnr(n)
 	let buflist = tabpagebuflist(a:n)
 	for i in reverse(range(len(buflist)))
