@@ -58,6 +58,15 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 "Plug 'Xuyuanp/nerdtree-git-plugin'
+let NERDTreeShowLineNumbers=0
+let NERDTreeAutoCenter=1
+let NERDTreeShowHidden=1
+let NERDTreeWinSize=22
+let NERDTreeIgnore=['\.pyc','\~$','\.swp','\.git$']
+let NERDTreeShowBookmarks=2
+let NERDTreeDirArrowExpandable="+"
+let NERDTreeDirArrowCollapsible="-"
+let g:nerdtree_tabs_open_on_console_startup=1
 
 Plug 'airblade/vim-gitgutter'
 
@@ -75,20 +84,11 @@ Plug 'rakr/vim-one'
 
 Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.vim'
-"let g:mkdp_auto_close = 0
+let g:mkdp_auto_close = 0
 call plug#end()
 
 "-----------------------"
 color neodark
 hi Normal guibg=NONE ctermbg=NONE
 "-------------------------------------------------------"
-let NERDTreeShowLineNumbers=0
-let NERDTreeAutoCenter=1
-let NERDTreeShowHidden=1
-let NERDTreeWinSize=22
-let NERDTreeIgnore=['\.pyc','\~$','\.swp','\.git$']
-let NERDTreeShowBookmarks=2
-let NERDTreeDirArrowExpandable="+"
-let NERDTreeDirArrowCollapsible="-"
-let g:nerdtree_tabs_open_on_console_startup=1
 
