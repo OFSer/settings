@@ -23,7 +23,6 @@ hi TabLineFill ctermfg=Black
 hi TabLineSel ctermfg=White ctermbg=Darkgrey
 hi TabLine ctermfg=Blue ctermbg=0
 let g:sidebar='NERD'
-
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
 runtime! ftplugin/man.vim
 syntax on
@@ -67,6 +66,7 @@ let NERDTreeShowBookmarks=2
 let NERDTreeDirArrowExpandable="+"
 let NERDTreeDirArrowCollapsible="-"
 let g:nerdtree_tabs_open_on_console_startup=1
+let NERDTreeMinimalUI=1
 
 Plug 'airblade/vim-gitgutter'
 

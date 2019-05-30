@@ -30419,3 +30419,14 @@ ls -alh
 ls
 rm ls
 ls
+./test/
+ls
+mv README.md README1.md
+mv README1.md README.md 
+ls
+ll
+git status
+git diff
+git diff .vimrc
+git status
+git diff
