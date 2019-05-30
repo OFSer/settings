@@ -30490,3 +30490,101 @@ sss
 git status
 git diff
 :call CloseNetrw()
+lg
+ls
+cd ~
+ls
+git status
+git diff
+./config.sh push
+ls
+vim .ycm_extra_conf.py 
+ls
+git status
+git diff
+python3
+ls
+cp .ycm_extra_conf.py .ycm_extra_con.py 
+python3
+ls
+ll
+rm .ycm_extra_con.py 
+cp .ycm_extra_conf.py ycm.py
+vim ycm.py 
+ls
+vim .ycm_extra_conf.py 
+git status
+git stash
+vim .ycm_extra_conf.py 
+ls
+gits tatus
+git status
+vim .ycm_extra_conf.py 
+git status
+git log
+ls
+jobs
+vim .ycm_extra_conf.py 
+ls
+vim .ycm_extra_conf.py 
+git status
+git checkout -- .bash_history
+./config.sh push
+vim .ycm_extra_conf.py 
+git status
+./config.sh push
+vim .ycm_extra_conf.py 
+ls
+cd .vim/
+ls
+cd plugged/YouCompleteMe/
+ls
+vim .ycm_extra_conf.py 
+ls
+cd third_party/
+ls
+cd ycmd/
+ls
+vim .ycm_extra_conf.py 
+ls
+cd ~
+ls
+git status
+vim .ycm_extra_conf.py 
+ls
+cd fc/
+cd detection-machine-daemon/
+ls
+vim main.py 
+cd ~
+ls
+vim .ycm_extra_conf.py 
+ls
+git status
+git stash
+git status
+vim .ycm_extra_conf.py 
+ls
+git status
+git diff
+s
+ls
+us
+git status
+./config.sh push
+git stash pop
+git status
+vim .ycm_extra_conf.py 
+ls
+vim .ycm_extra_conf.py 
+ls
+git status
+vim .ycm_extra_conf.py 
+ls
+vim .ycm_extra_conf.py 
+ls
+git status
+git checkout -- .ycm_extra_conf.py
+vim .ycm_extra_conf.py 
+vim .ycm_extra_conf.py 
+ls

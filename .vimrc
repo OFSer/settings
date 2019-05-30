@@ -42,7 +42,7 @@ Plug 'hdima/python-syntax'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 Plug 'Valloric/YouCompleteMe'
-nnoremap d :tab split \| YcmCompleter GoToDefinition<cr>
+nnoremap <silent> d :tab split \| YcmCompleter GoTo<cr>
 au FileType go nmap d <Plug>(go-def-tab)
 let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 let g:ycm_confirm_extra_conf = 0
