@@ -78,6 +78,7 @@ Plug 'honza/vim-snippets'
 
 " colorscheme
 Plug 'KeitaNakamura/neodark.vim'
+
 Plug 'crusoexia/vim-monokai'
 Plug 'acarapetis/vim-colors-github'
 Plug 'rakr/vim-one'
@@ -86,9 +87,7 @@ Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.vim'
 let g:mkdp_auto_close = 0
 call plug#end()
-
-"-----------------------"
 color neodark
 hi Normal guibg=NONE ctermbg=NONE
-"-------------------------------------------------------"
+"set termguicolors
 

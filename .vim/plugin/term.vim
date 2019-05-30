@@ -1,10 +1,10 @@
 "---------------------------term-----------------------------------"
 let g:tabterm="bash"
-let g:term='!bash'
+let g:term='!'.g:tabterm
 let g:bufterm='buf'.g:term
 let g:toggleterm='Toggle'.g:term
-let g:toggle_terminal#command = get(g:,'toggle_bash#command','bash')
-let g:buffer_terminal#command = get(g:,'toggle_bash#command','bash')
+let g:toggle_terminal#command = get(g:,'toggle_bash#command',g:tabterm)
+let g:buffer_terminal#command = get(g:,'toggle_bash#command',g:tabterm)
 let g:loaded_toggle_bash = 1
 tnoremap <silent> \ <c-w>:call Bufferbash()<cr>
 nnoremap <silent> \ :call Bufferbash()<cr>

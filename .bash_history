@@ -30430,3 +30430,63 @@ git diff
 git diff .vimrc
 git status
 git diff
+ls
+ipcs -s
+mysql
+git status
+git diff
+cd ~
+git status
+git diff .vimrc
+git status
+git push
+git log
+git remote show origin
+git status
+git checkout -- .bash_history
+git status
+./config.sh push upd
+git diff HEAD^
+git status
+./config.sh push
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd neodark.vim/
+ls
+cd autoload/
+ls
+cd airline/
+ls
+cd themes/
+ls
+vim neodark.vim 
+ls
+vim neodark.vim 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd after/
+ls
+cd syntax/
+ls
+cd ..
+ls
+vim test.vim
+ls
+rm test.vim 
+ls
+sss
+git status
+git diff
+:call CloseNetrw()
