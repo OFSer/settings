@@ -22,7 +22,7 @@ hi goSpaceError ctermbg=256
 hi TabLineFill ctermfg=Black
 hi TabLineSel ctermfg=White ctermbg=Darkgrey
 hi TabLine ctermfg=Blue ctermbg=0
-let g:sidebar='netrw'
+let g:sidebar='NERD'
 
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
 runtime! ftplugin/man.vim
@@ -57,10 +57,9 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
-Plug 'Xuyuanp/nerdtree-git-plugin'
+"Plug 'Xuyuanp/nerdtree-git-plugin'
 
 Plug 'airblade/vim-gitgutter'
-set signcolumn=yes
 
 Plug 'ianva/vim-youdao-translater'
 nmap a :Ydc<cr>
@@ -86,7 +85,10 @@ hi Normal guibg=NONE ctermbg=NONE
 let NERDTreeShowLineNumbers=0
 let NERDTreeAutoCenter=1
 let NERDTreeShowHidden=1
-let NERDTreeWinSize=25
-let NERDTreeIgnore=['\.pyc','\~$','\.swp']
+let NERDTreeWinSize=22
+let NERDTreeIgnore=['\.pyc','\~$','\.swp','\.git$']
 let NERDTreeShowBookmarks=2
+let NERDTreeDirArrowExpandable="+"
+let NERDTreeDirArrowCollapsible="-"
 let g:nerdtree_tabs_open_on_console_startup=1
+

@@ -2,7 +2,7 @@ func Next(x)
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
 	let ret=a:x
 	for i in a
-		if bufname(i) =~ g:term || Exist(i)
+		if bufname(i) =~ g:term || bufname(i) =~ '/' || Exist(i) 
 			continue
 		endif
 		if i>a:x
@@ -20,7 +20,7 @@ func Prev(x)
 	let a=reverse(a)
 	let ret=a:x
 	for i in a
-		if bufname(i) =~ g:term || Exist(i)
+		if bufname(i) =~ g:term || bufname(i) =~ '/' || Exist(i) 
 			continue
 		endif
 		if i<a:x
@@ -38,15 +38,15 @@ func Switch(r)
 "	if tabpagenr() != 1
 "		return
 "	endif
-	if bufname('%') =~ '!bash' || bufname('%') =~ "help" || bufname('%') =~ "Netrw"
+	if bufname('%') =~ g:term || bufname('%') =~ "help" || bufname('%') =~ g:sidebar
 		return
 	endif
 	let cur=bufnr('%')
 	if cur == Next(cur)
 		return
 	endif
-	let g:bn = 'buf!bash'.bufnr('%')
-	let bufferNum = bufnr('buf!bash'.bufnr('%'))
+	let g:bn = g:bufterm.bufnr('%')
+	let bufferNum = bufnr(g:bufterm.bufnr('%'))
 	if bufloaded(bufferNum) == 1
 		let windowNum = bufwinnr(bufferNum)
 		if windowNum != -1

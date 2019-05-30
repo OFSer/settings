@@ -59,7 +59,14 @@ func MoveLeft()
 		call feedkeys("\<c-w>l")
 	endif
 endfunc
-inoremap <silent> e <esc>:call Toggle()<cr>:call MoveLeft()<cr>
-nnoremap <silent> e :call Toggle()<cr>:call MoveLeft()<cr>
-tnoremap <silent> e <c-w>:call Toggle()<cr><c-w>:call MoveLeft()<cr>
+if g:sidebar =~'netrw'
+	inoremap <silent> e <esc>:call Toggle()<cr>:call MoveLeft()<cr>
+	nnoremap <silent> e :call Toggle()<cr>:call MoveLeft()<cr>
+	tnoremap <silent> e <c-w>:call Toggle()<cr><c-w>:call MoveLeft()<cr>
+else
+	inoremap <silent> e <esc>:NERDTreeToggle<cr>:call MoveLeft()<cr>
+	nnoremap <silent> e :NERDTreeToggle<cr>:call MoveLeft()<cr>
+	tnoremap <silent> e <c-w>:NERDTreeToggle<cr><c-w>:call MoveLeft()<cr>
+endif
+
 "autocmd TabNew * silent! call feedkeys("\<c-w>:Lexplore\<cr>\<c-w>l", 'n') 
