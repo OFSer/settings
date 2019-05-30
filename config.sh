@@ -207,7 +207,8 @@ run(){
 push(){
 	msg=${1:-upd}
 	his=~/.bash_history
-	echo "$(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his))" > $his
+	#echo "$(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his))" > $his
+	echo "$(cat <(sort $his | sort | uniq -u))" > $his
 	dconf dump / > .dconf
 	git add -A
 	git commit -m "$msg"

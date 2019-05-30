@@ -65,7 +65,7 @@ let NERDTreeIgnore=['\.pyc','\~$','\.swp','\.git$']
 let NERDTreeShowBookmarks=2
 let NERDTreeDirArrowExpandable="+"
 let NERDTreeDirArrowCollapsible="-"
-let g:nerdtree_tabs_open_on_console_startup=1
+"let g:nerdtree_tabs_open_on_console_startup=1
 let NERDTreeMinimalUI=1
 
 Plug 'airblade/vim-gitgutter'
