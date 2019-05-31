@@ -462,6 +462,8 @@ $0
 #1559288137
 #1559288214
 #1559288217
+#1559294867
+#1559296345
 ./1 e
 ./1 -e 234
 ./1 -e 345
@@ -721,6 +723,7 @@ bg --help
 bind
 bind -p
 #!/bin/sh
+bjos
 blkid
 break --help
 c=2
@@ -766,6 +769,7 @@ cat 'Btop - 16:28:42 up 2 days,  2:17,  1 user,  load average: 2.03, 1.79, 1.54B
 catch
 cat .config/mednaffe.conf
 cat .config/totem/state.ini
+cat .config/unity-monitors.xml 
 cat .config/yad.conf 
 cat database.sh 
 cat dconf 
@@ -817,12 +821,11 @@ ccd ..
 ./cconfigure 
 \cd
 \cd ~
-cd 
 cd ~-
 cd ~-`
 cd ~!
 cd ~/
-cd ..
+cd /
 cd ../
 cd ../..
 cd ...
@@ -853,7 +856,6 @@ cd after/
 cd anaconda3/
 cd api/
 cd applications/
-cd autoload/
 cd .bah
 cd ~/.bash/
 cd .bash/
@@ -956,6 +958,8 @@ cd files/
 cd find . | grep std
 cd find . | grep stdc
 cd fl
+cd flaw_checker/
+cd fonts/
 cd freefont/
 cd ftplugin/
 cd g
@@ -997,9 +1001,9 @@ cd jl/
 cd kube/
 cd ..l
 cd lib
+cd lib/
 cd /lib/systemd/system
 cd .local/bin/
-cd .local/share/
 cd .local/share/app-info/
 cd .local/share/app-info/xmls/
 cd logkeys
@@ -1015,9 +1019,6 @@ cd /mnt/boot
 cd /mnt/boot/
 cd mod/
 cd mysql/
-cd nerdtree
-cd nerdtree-git-plugin/
-cd nerdtree_plugin/
 cd ./.nuget/
 cd ~/o
 cd online_tools/
@@ -1036,9 +1037,11 @@ cd p-
 cd pack/
 CDPATH=/
 CDPATH=123
+cd plug
+cd ../plug
 cd plugged
-cd plugged/
 cd plugged/YouCompleteMe/
+cd ../plugin/
 cd port/
 cd /proc/
 cd /proc/self/fd
@@ -1080,7 +1083,6 @@ cdte
 cd templates/
 cd tes
 cd ~/tes
-cd test/
 cd test/cpp/test/
 cd ~/test/empty/
 cd ~/test/IPC/
@@ -1114,14 +1116,12 @@ cd /var
 cd /var/lib/docker/
 cd /var/lib/docker/volumes/
 cd /var/run
-cd ~/.vim/
 cd .vim/after/
 cd .vim/after/syntax/
 cd .vim/after/syntax/p
 cd .vim/after/syntax/py.vim
 cd vim-go/
 cd ~/.vim/plugged/
-cd .vim/plugged/
 cd ~/.vim/plugged/neodark.vim
 cd .vim/plugged/YouCompleteMe/
 cd .vimr
@@ -1248,7 +1248,6 @@ config
 ./config.sh config_scroll
 ./config.sh proxy_run
 . config.sh push
-./config.sh push
 ./config.sh push "comment ycm python path"
 ./config.sh push "diable
 ./config.sh push "diable ycm syntax check"
@@ -2739,10 +2738,8 @@ git commit -m "vim remove auto lcd"
 git config --global core.pager 'less -x1,3'
 git config --global core.pager 'less -x1,4'
 git dff
-git diff
 git diff^
 git diff addBlindInfo
-git diff .bash_history
 git diff .bash_profile
 \git diff .bashrc
 git diff blow_detector.py
@@ -2754,6 +2751,7 @@ git diff --cached
 git diff --cached config.sh
 git diff --cached run.sh
 git diff .con
+git diff .config/unity-monitors.xml
 git diff crawler.sh
 git diff dconf .dconf
 git diff .dconf HEAD^
@@ -2761,6 +2759,7 @@ git diff detection.cpp
 \git diff dev
 git diff .gitconfig
 git diff .gitignore
+git diff HEAD^
 git diff HEAD~2 config.sh
 git diff HEAD^3 .config/gtk-3.0/gtk.css
 git diff HEAD^3.config/gtk-3.0/gtk.css
@@ -2870,7 +2869,6 @@ git reset HEAD^
 git reset HEAD^1 --hard
 \git reset HEAD --hard 
 git reset HEAD^ --hard
-git reset HEAD --hard
 git reset HEAD submodules/saki_detection
 git reset remotes/origin/ssh-proxy
 git revert f674dffc3679de9789500d98b429cec4cba4dbd9
@@ -3356,6 +3354,7 @@ kill -TERM 4258
 kill -term 7491
 kpartx -av /dev/loop20
 kubectl version
+l
 ./la
 ./labeler.sh
 ./labeler.sh  > /dev/null
@@ -3903,6 +3902,9 @@ mv blow.yaml webserver/
 mv config config.sh
 mv craw.sh db
 mv Downloads/web-dev.pem .ssh/
+mv "Droid Sans Mono Nerd Font Complete.otf" "Droid Sans Mono Nerd Font Complete.ttf"
+mv "Droid Sans Mono Nerd Font Complete.otf" DroidSansMonoNerdFontComplete.ttf
+mv "Droid Sans Mono Nerd Font Complete.ttf" DroidSansMonoNerdFontComplete.ttf
 mv exercism/ haskell/
 mv .gitignore blow_check/
 mv ~/go/src/http-hello .
@@ -3981,6 +3983,7 @@ nautilus /data
 nautilus /data &
 nautilus trash/
 nautilus /usr/share/fonts/truetype/ubuntu/
+nerdtree
 nethack
 nethogs --help
 nethogs -v 3
@@ -4254,6 +4257,7 @@ ps --help
 ps --help | grep group
 ps -jH
 ps -o
+pstree
 ps  xao pid,ppid,pgid,sid,comm 
 ps  xao pid,ppid,pgid,sid,comm  | grep 695
 ps  xao pid,ppid,pgid,sid,comm  | grep 704
@@ -4377,6 +4381,7 @@ rm .config/gtk-3.0/gtk.css
 rm cpp.tar
 rm c.vim 
 rm detection.h 
+rm DroidSansMonoNerdFontComplete.ttf 
 rm echo 
 rm 'EVA 新世纪福音战士：第7话 人造之物[00].flv.download' 
 rm -- -f
@@ -5874,7 +5879,6 @@ trap 'sleep 30' SIGRETURN
 trap sleep 3 EXIT
 trap sleep 3 HUP
 trap sleep 3 RETURN
-tree
 true || echo 1
 true && echo 1
 true && false || echo 1 || echo 2
@@ -5954,8 +5958,11 @@ umount /home/gjs/test/tmp
 umount /mnt/boot/efi
 uniq --help
 unique --help
+unity-control-center
+unity-greeter
+unity-scope-loader
+unity-settings-daemon
 unity-settings-daemon 
-unity --version
 unset ${a[1]}
 unset a[1]
 unset a[2]
@@ -5996,7 +6003,7 @@ var=global
 var="This is a variable"
 vedio
 \vi
-vim
+vim 
 vim ~
 vim'
 vim 1552626743892.dat 
@@ -6025,7 +6032,6 @@ vim .bash_logout
 vim ~/.bash_profile
 vim .bash_profile
 vim .bashr 
-vim .bashrc
 vim . bashrc
 vim .bashrc 
 vim .bashrc.bak 
@@ -6088,12 +6094,12 @@ vim /etc/ssh_config
 vim /etc/ssh/ssh_config 
 vim /etc/ssh/sshd_config 
 vim /etc/sudoers
+vim flag_set.vim 
 vim flaw_checker/
 vim fstab 
 vim .git
 vim .gitconfig 
 vim git status
-vim git_status.vim 
 vim-gnome
 vim go11.go 
 vim go_test.go 
@@ -6186,6 +6192,7 @@ vim  .vimrc
 vim .vimrc 
 vim walk.go 
 vim .xbindkeysrc 
+vim ycm.py 
 vim youcompleteme.vim 
 vium
 watch -n 10 date

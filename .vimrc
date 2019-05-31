@@ -55,6 +55,7 @@ set completeopt-=preview
 Plug 'octol/vim-cpp-enhanced-highlight'
 
 Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
 let NERDTreeChDirMode = 2
 let NERDTreeShowLineNumbers=0
 let NERDTreeAutoCenter=1
@@ -65,9 +66,9 @@ let NERDTreeShowBookmarks=2
 let NERDTreeDirArrowExpandable="+"
 let NERDTreeDirArrowCollapsible="-"
 let NERDTreeHighlightCursorline=0
-"let g:nerdtree_tabs_open_on_console_startup=1
 let NERDTreeMinimalUI=1
-Plug 'jistr/vim-nerdtree-tabs'
+"let g:nerdtree_tabs_open_on_console_startup=1
+"Plug 'ryanoasis/vim-devicons'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "*",

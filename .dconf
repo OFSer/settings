@@ -22,7 +22,7 @@ statusbar-visible=true
 show-tabs-mode='auto'
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/Downloads'
+virtual-root='file:///home/gjs/Downloads/droid-sans-mono'
 tree-view=true
 root='file:///'
 
@@ -486,13 +486,13 @@ inactive-shadow-color='#000000ff'
 [org/compiz/profiles/unity/plugins/expo]
 ground-color1='#b3b3b3cc'
 ground-color2='#b3b3b300'
-x-offset=70
+x-offset=77
 
 [org/compiz/profiles/unity/plugins/staticswitcher]
 background-color='#333333d9'
 
 [org/compiz/profiles/unity/plugins/core]
-outputs=['1920x1080+1920+0', '1920x1080+0+0', '1920x1080+3840+0']
+outputs=['1920x1080+1920+0', '1920x1080+0+0']
 vsize=5
 active-plugins=['core', 'composite', 'opengl', 'place', 'regex', 'resize', 'session', 'snap', 'vpswitch', 'wall', 'animation', 'commands', 'compiztoolbox', 'fade', 'grid', 'imgpng', 'mousepoll', 'move', 'scale', 'workarounds', 'expo', 'ezoom', 'switcher', 'unityshell']
 
@@ -553,6 +553,7 @@ blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416b
 
 [com/canonical/unity/interface]
 text-scale-factor=1.0
+app-fallback-to-maximum-scale-factor=true
 
 [com/canonical/unity/launcher]
 favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'application://unity-control-center.desktop', 'application://electronic-wechat.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
@@ -562,12 +563,12 @@ regular-auto-launch-interval=14
 release-check-time=uint32 1558662537
 
 [com/ubuntu/user-interface]
-scale-factor={'DP-4': 10, 'DP-2': 10, 'DP-0': 10}
+scale-factor={'DP-4': 11, 'HDMI-0': 11}
 
 [com/ubuntu/user-interface/desktop]
 scaling-factor=uint32 1
-cursor-size=30
-text-scaling-factor=1.25
+cursor-size=33
+text-scaling-factor=1.375
 
 [com/ubuntu/sound]
 allow-amplified-volume=false
