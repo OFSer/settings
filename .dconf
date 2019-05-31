@@ -81,7 +81,7 @@ use-tree-view=false
 default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'mime_type', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'recency']
 
 [org/gnome/evince/default]
-window-ratio=(3.0212418300653594, 1.2651515151515151)
+window-ratio=(1.9260416666666667, 1.8555555555555556)
 
 [org/gnome/file-roller/listing]
 sort-method='name'

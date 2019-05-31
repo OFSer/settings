@@ -55,6 +55,7 @@ set completeopt-=preview
 Plug 'octol/vim-cpp-enhanced-highlight'
 
 Plug 'scrooloose/nerdtree'
+let NERDTreeChDirMode = 2
 let NERDTreeShowLineNumbers=0
 let NERDTreeAutoCenter=1
 let NERDTreeShowHidden=1

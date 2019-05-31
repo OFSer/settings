@@ -3,8 +3,7 @@ let g:tabterm="bash"
 let g:term='!'.g:tabterm
 let g:bufterm='buf'.g:term
 let g:toggleterm='Toggle'.g:term
-let g:toggle_terminal#command = get(g:,'toggle_bash#command',g:tabterm)
-let g:buffer_terminal#command = get(g:,'toggle_bash#command',g:tabterm)
+let g:terminal = 'bash'
 let g:loaded_toggle_bash = 1
 tnoremap <silent> \ <c-w>:call Bufferbash()<cr>
 nnoremap <silent> \ :call Bufferbash()<cr>
@@ -31,7 +30,11 @@ func Bufferbash()
 	let l:bn = g:bufterm.bufnr('%')
 	let l:bufferNum = bufnr(g:bufterm.bufnr('%'))
 	if l:bufferNum == -1 || bufloaded(bufferNum) != 1
-		silent execute 'vert rightbelow term ++close ++kill=term '.g:buffer_terminal#command
+		if g:terminal == 'bash'
+			silent execute 'vert rightbelow term ++close ++kill=term '.'bash -c "cd '.expand('%:p:h').'; exec bash --login -i"'
+		else
+			silent execute 'vert rightbelow term ++close ++kill=term '.g:terminal
+		endif
 		silent execut 'file '.l:bn
 	else
 		let l:windowNum = bufwinnr(l:bufferNum)
@@ -49,7 +52,11 @@ func Togglebash()
 	endif
 	let bufferNum = bufnr(g:toggleterm)
 	if bufferNum == -1 || bufloaded(bufferNum) != 1
-		silent! execute 'rightbelow term ++close ++kill=term '.g:toggle_terminal#command
+		if g:terminal == 'bash'
+			silent! execute 'rightbelow term ++close ++kill=term '.'bash -c "cd '.expand('%:p:h').'; exec bash --login -i"'
+		else
+			silent! execute 'rightbelow term ++close ++kill=term '.g:terminal
+		endif
 		silent! exec "file ".g:toggleterm
 	else
 		let windowNum = bufwinnr(bufferNum)
@@ -75,7 +82,7 @@ nnoremap <silent> ; :call Togglebash()<CR>
 tnoremap <silent> ; <c-w>:call Togglebash()<CR>
 inoremap <silent> : <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR>
 nnoremap <silent> : :call CloseTogglebash()<cr>:call Togglebash()<CR>
-tnoremap <silent> : <c-w>:call CloseTogglebash()<cr>:call Togglebash()<CR>
+tnoremap <silent> : <c-w>:call CloseTogglebash()<cr><c-w>:call Togglebash()<CR>
 
 "------------------------------------scroll---------------------------------------"
 function! ExitNormalMode()

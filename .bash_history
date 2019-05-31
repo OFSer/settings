@@ -435,6 +435,33 @@ $0
 #1559025389
 #1559025398
 #1559026796
+#1559276026
+#1559281910
+#1559282009
+#1559282010
+#1559282014
+#1559282016
+#1559282018
+#1559284041
+#1559284042
+#1559285684
+#1559285685
+#1559285691
+#1559285692
+#1559286696
+#1559286743
+#1559286744
+#1559286746
+#1559286755
+#1559286810
+#1559286811
+#1559286813
+#1559286814
+#1559287752
+#1559288136
+#1559288137
+#1559288214
+#1559288217
 ./1 e
 ./1 -e 234
 ./1 -e 345
@@ -651,29 +678,36 @@ b=$a
 baidu.com
 bar='host: \h'
 bas
+bash /
 bash 2.sh
-bash -c
+bash -c "cd /"
+bash -c "cd .."
 bash "cd /"
 bash -c 'echo "$BASH_ENV"'
 bash -c 'echo BASH_ENV'
 bash -c "echo $BASH_ENV"
 bash -c echo "$BASH_ENV"
-bash -c help
+bash -c --help
 $BASH_COMMAND
 bash exec -c echo Linux C++   
 bash --help 
 bash --help | comp
 bash --help | grep comp
+bash -i
 bash jumpserver_forward.sh 
 bash --login /
+bash --login -i ; cd /
+bash --login -i -s cd /tmp;
 . .bashr 
 . .bashr c
 bash run.sh
 bash -s 1 2 3
 bash start.sh
 bash -t "cd /"
+bash -t "cd .."
 bash --version
 bash --version 
+bash --working-directory=/
 b=b
 bc=cd
 bcd(){ echo 123; }
@@ -783,9 +817,12 @@ ccd ..
 ./cconfigure 
 \cd
 \cd ~
+cd 
 cd ~-
 cd ~-`
+cd ~!
 cd ~/
+cd ..
 cd ../
 cd ../..
 cd ...
@@ -979,6 +1016,8 @@ cd /mnt/boot/
 cd mod/
 cd mysql/
 cd nerdtree
+cd nerdtree-git-plugin/
+cd nerdtree_plugin/
 cd ./.nuget/
 cd ~/o
 cd online_tools/
@@ -998,6 +1037,7 @@ cd pack/
 CDPATH=/
 CDPATH=123
 cd plugged
+cd plugged/
 cd plugged/YouCompleteMe/
 cd port/
 cd /proc/
@@ -1040,7 +1080,6 @@ cdte
 cd templates/
 cd tes
 cd ~/tes
-cd test/
 cd test/cpp/test/
 cd ~/test/empty/
 cd ~/test/IPC/
@@ -1074,6 +1113,7 @@ cd /var
 cd /var/lib/docker/
 cd /var/lib/docker/volumes/
 cd /var/run
+cd ~/.vim/
 cd .vim/after/
 cd .vim/after/syntax/
 cd .vim/after/syntax/p
@@ -2441,8 +2481,8 @@ ghc-mod --help
 ghi
 git 
 git add ,.
-git add .
 git add 1.sh
+git add -a
 git add - A
 git add .bash_profile 
 git add blow_check/usb_blow_detector
@@ -2536,8 +2576,9 @@ git chekcout -b jumpserver
 git chekcout sa
 git chekcout saki
 git chekcout -- .vimrc
+git clean
 git clean 
-git clean -f
+git clean --help
 git clone git@github.com:chinnkarahoi/settings.git
 git clone git@gitlab.sho.hypereal.com:AIFactory/ai-cloth-webserver.git
 git clone git@gitlab.sho.hypereal.com:AIFactory/blow_check.git
@@ -2605,6 +2646,7 @@ git commit -m -a "fix"
 git commit -m "app.run debug mode cause bug"
 git commit -m "big changej"
 git commit -m "block side"
+git commit -m "change cmake"
 git commit -m "change host"
 git commit -m "change param"
 git commit -m "change quit for vim"
@@ -2691,18 +2733,20 @@ git commit -m "version 0.1.5"
 git commit -m "version 0.2.5"
 git commit -m "vim add close in buffer"
 git commit -m "vim fix mkd auto_close"
+git commit -m "vim remove auto lcd"
 git config --global core.pager 'less -x1,3'
 git config --global core.pager 'less -x1,4'
 git dff
 git diff^
 git diff addBlindInfo
+git diff .bash_history
 git diff .bash_profile
 \git diff .bashrc
 git diff blow_detector.py
 git diff branch addBlindInfo
 \git diff --cache
+git diff --cachecd
 \git diff --cached
-git diff --cached
 git diff --cached 
 git diff --cached config.sh
 git diff --cached run.sh
@@ -2714,6 +2758,7 @@ git diff detection.cpp
 \git diff dev
 git diff .gitconfig
 git diff .gitignore
+git diff HEAD^ 
 git diff HEAD~2 config.sh
 git diff HEAD^3 .config/gtk-3.0/gtk.css
 git diff HEAD^3.config/gtk-3.0/gtk.css
@@ -2823,6 +2868,7 @@ git reset HEAD^
 git reset HEAD^1 --hard
 \git reset HEAD --hard 
 git reset HEAD^ --hard
+git reset HEAD --hard
 git reset HEAD submodules/saki_detection
 git reset remotes/origin/ssh-proxy
 git revert f674dffc3679de9789500d98b429cec4cba4dbd9
@@ -2865,9 +2911,9 @@ git stash pop
 git stash .vimrc
 git stastus
 git staths
+git statu
 git statuis
 git st atus
-gits tatus
 git statusz
 git staus
 git ststaus
@@ -2895,6 +2941,7 @@ gnome-logs
 gnome-menus-blacklist 
 gnome-session-binary --session=unity
 gnome-shell
+gnome-terminal
 gnome-terminal -
 gnome-terminal.real 
 gnome-terminal --tab "bash"
@@ -4403,6 +4450,8 @@ rm -r shmls/
 rm -r SPSC_Queue/
 rm -r ssh
 rm -r tmp
+rm s.cpp
+rm s.cpp 
 rm SPSC_Queue/
 rm sql
 rm sql.run 
@@ -4462,6 +4511,7 @@ rsync fc ~/dd/
 s
 `s
 ./s1
+>s1.cpp
 ./s2
 scd ~
 scp .bash_profile mac@10.0.10.55:~
@@ -4580,6 +4630,7 @@ set "x" "y z"
 set x 'y z'
 #set 会重新排列参数的顺序，也就是改变$1,$2...$n的值，这些值在getopt中重新排列过了
 sh
+sh -c "cd /tmp; exec sh --login -i"
 shfit
 shopt
 short_pwd 
@@ -6039,6 +6090,7 @@ vim fstab
 vim .git
 vim .gitconfig 
 vim git status
+vim git_status.vim 
 vim-gnome
 vim go11.go 
 vim go_test.go 
@@ -6224,30 +6276,3 @@ Zathura
 zsh
 #经过getopt的处理，下面处理具体选项。
 阿凡达02
-ls
-git status
-git diff
-git status
-git diff
-git status
-git diff
-git diff --cachecd
-git diff --cached
-git commit -m "change cmake"
-git push
-ls
-git status
-git add .
-git status
-ls
-cd test/
-ls
->s1.cpp
-git status
-git clean
-git status
-git clean -f
-git status
-ls
-git status
-ls
