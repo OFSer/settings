@@ -22,7 +22,7 @@ statusbar-visible=true
 show-tabs-mode='auto'
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/fc/ai-cloth-webserver/script/ksonnet/environments/dev'
+virtual-root='file:///home/gjs/Downloads/droid-sans-mono'
 tree-view=true
 root='file:///'
 
@@ -31,7 +31,7 @@ active-plugins=['docinfo', 'modelines', 'filebrowser', 'time', 'spell']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=4
+state=132
 bottom-panel-size=140
 side-panel-size=200
 side-panel-active-page='GeditWindowDocumentsPanel'
@@ -81,7 +81,7 @@ use-tree-view=false
 default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'mime_type', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'recency']
 
 [org/gnome/evince/default]
-window-ratio=(3.0212418300653594, 1.2651515151515151)
+window-ratio=(1.9260416666666667, 1.8555555555555556)
 
 [org/gnome/file-roller/listing]
 sort-method='name'
@@ -273,30 +273,42 @@ close-tab='<Primary><Shift>w'
 move-tab-left='<Primary><Shift><Alt>h'
 new-tab='<Primary>t'
 
+[org/gnome/terminal/legacy/profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
+
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
-foreground-color='rgb(165,181,183)'
-palette=['rgb(46,52,54)', 'rgb(204,110,0)', 'rgb(6,154,68)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,136,41)', 'rgb(50,207,105)', 'rgb(252,233,79)', 'rgb(80,157,167)', 'rgb(173,127,168)', 'rgb(57,210,210)', 'rgb(238,238,236)']
+foreground-color='rgb(184,193,194)'
+visible-name='custom1'
+palette=['rgb(46,52,54)', 'rgb(228,123,0)', 'rgb(7,175,77)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(225,234,216)', 'rgb(85,87,83)', 'rgb(239,136,41)', 'rgb(47,217,107)', 'rgb(252,233,79)', 'rgb(45,182,201)', 'rgb(173,127,168)', 'rgb(66,227,227)', 'rgb(233,233,226)']
 bold-is-bright=true
+custom-command='tmux'
+cursor-shape='block'
+cursor-colors-set=false
+highlight-colors-set=false
 use-system-font=false
-use-transparent-background=true
+use-custom-command=false
 use-theme-colors=false
 font='Ubuntu Mono 16'
 use-theme-transparency=false
+allow-bold=true
+use-transparent-background=true
+bold-color-same-as-fg=true
 background-color='rgb(31,36,37)'
 background-transparency-percent=4
 scrollback-lines=100000
 audible-bell=false
 
 [org/gnome/software]
+allow-updates=false
 download-updates=false
-check-timestamp=int64 1557699989
+check-timestamp=int64 1558063430
 
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
 active-plugins=['skipto', 'screenshot', 'apple-trailers', 'media_player_keys', 'vimeo', 'movie-properties', 'autoload-subtitles', 'variable-rate', 'recent', 'save-file', 'screensaver']
 
 [org/gnome/gnome-system-monitor]
-current-tab='processes'
+current-tab='resources'
 show-whose-processes='user'
 window-state=(1206, 786, 714, 30)
 maximized=false
@@ -331,8 +343,8 @@ sort-order='ascending'
 location-mode='path-bar'
 
 [org/gtk/settings/color-chooser]
-selected-color=(true, 0.7686274509803922, 0.62745098039215685, 0.0, 1.0)
-custom-colors=[(0.023529411764705882, 0.59607843137254901, 0.60392156862745094, 1.0), (0.22230000000000003, 0.82333333333333336, 0.82333333333333336, 1.0), (0.23787777777777788, 0.90333333333333343, 0.90333333333333343, 1.0), (0.17434444444444455, 0.73666666666666669, 0.73666666666666669, 1.0), (0.17434444444444447, 0.73666666666666669, 0.73666666666666669, 1.0), (0.20392156862745098, 0.88627450980392153, 0.88627450980392153, 1.0), (0.31359999999999999, 0.61667146282973617, 0.65333333333333332, 1.0), (0.31359999999999999, 0.47735635491606698, 0.65333333333333332, 1.0)]
+selected-color=(true, 0.72200000000000009, 0.75683333333333336, 0.76000000000000001, 1.0)
+custom-colors=[(0.72200000000000009, 0.75683333333333336, 0.76000000000000001, 1.0), (0.65404444444444443, 0.69005925925925926, 0.69333333333333336, 1.0), (0.75686274509803919, 0.80000000000000004, 0.80392156862745101, 1.0), (0.7578111111111111, 0.79827530864197538, 0.80333333333333334, 1.0), (0.59750000000000003, 0.73305555555555568, 0.75, 1.0), (0.52431111111111117, 0.61529382716049397, 0.62666666666666671, 1.0), (0.52431111111111117, 0.61529382716049386, 0.62666666666666671, 1.0), (0.64786666666666681, 0.83642962962962975, 0.8600000000000001, 1.0)]
 
 [org/compiz]
 existing-profiles=['Default', 'unity', 'unity-lowgfx']
@@ -445,7 +457,7 @@ arrow-shadow-color='#dcdcdcd9'
 icon-size=40
 launcher-hide-mode=0
 launcher-minimize-window=true
-num-launchers=1
+num-launchers=0
 inactive-shadow-color='#000000a5'
 launcher-capture-mouse=false
 
@@ -474,13 +486,13 @@ inactive-shadow-color='#000000ff'
 [org/compiz/profiles/unity/plugins/expo]
 ground-color1='#b3b3b3cc'
 ground-color2='#b3b3b300'
-x-offset=70
+x-offset=77
 
 [org/compiz/profiles/unity/plugins/staticswitcher]
 background-color='#333333d9'
 
 [org/compiz/profiles/unity/plugins/core]
-outputs=['1920x1080+1920+0', '1920x1080+0+0', '1920x1080+3840+0']
+outputs=['1920x1080+1920+0', '1920x1080+0+0']
 vsize=5
 active-plugins=['core', 'composite', 'opengl', 'place', 'regex', 'resize', 'session', 'snap', 'vpswitch', 'wall', 'animation', 'commands', 'compiztoolbox', 'fade', 'grid', 'imgpng', 'mousepoll', 'move', 'scale', 'workarounds', 'expo', 'ezoom', 'switcher', 'unityshell']
 
@@ -503,10 +515,10 @@ show-hud=['disabled']
 
 [apps/update-manager]
 first-run=false
-launch-time=int64 1557455385
+launch-time=int64 1558669560
 window-height=540
 show-details=true
-launch-count=9
+launch-count=10
 window-width=1008
 
 [com/canonical/indicator/datetime]
@@ -541,21 +553,22 @@ blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416b
 
 [com/canonical/unity/interface]
 text-scale-factor=1.0
+app-fallback-to-maximum-scale-factor=true
 
 [com/canonical/unity/launcher]
-favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'unity://running-apps', 'application://code_code.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'application://vmware-workstation.desktop', 'application://unity-control-center.desktop', 'application://electronic-wechat.desktop', 'unity://expo-icon', 'unity://devices']
+favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'application://unity-control-center.desktop', 'application://electronic-wechat.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14
-release-check-time=uint32 1557410922
+release-check-time=uint32 1558662537
 
 [com/ubuntu/user-interface]
-scale-factor={'DP-4': 10, 'DP-2': 10, 'DP-0': 10}
+scale-factor={'DP-4': 11, 'HDMI-0': 11}
 
 [com/ubuntu/user-interface/desktop]
 scaling-factor=uint32 1
-cursor-size=30
-text-scaling-factor=1.25
+cursor-size=33
+text-scaling-factor=1.375
 
 [com/ubuntu/sound]
 allow-amplified-volume=false

@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ~
 config_scroll(){
 	sudo apt install xbindkeys xdotool -y
@@ -106,14 +107,17 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 	sudo apt-get update
 	sudo apt upgrade -y
 }
+other(){
+	sudo apt install -y nvidia-384
+	sudo apt install -y ubuntu-unity-desktop
+	sudo apt remove -y --purge ubuntu-desktop
+	sudo apt remove -y --purge gnome-desktop3-data
+}
 install(){
-	#sudo apt install -y nvidia-384
-	#sudo apt install -y ubuntu-unity-desktop
-	#sudo apt remove -y --purge ubuntu-desktop
-	sudo apt-get -y install vim-gnome	
+	sudo apt -y install vim-gnome	
+	sudo apt remove -y --purge gnome-software*
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-	sudo apt remove --purge gnome-desktop3-data
 	sudo apt install -y most
 	sudo apt install -y git sshpass jq curl
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
@@ -121,6 +125,7 @@ install(){
 	sudo apt install -y compizconfig-settings-manager
 	sudo snap install vscode --classic
 	sudo snap install electronic-wechat
+	sudo apt -y install build-essential cmake python-dev python3-dev
 }
 install_chrome(){
 	#sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
@@ -201,6 +206,9 @@ run(){
 }
 push(){
 	msg=${1:-upd}
+	his=~/.bash_history
+	#echo "$(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his))" > $his
+	echo "$(cat <(sort $his | sort | uniq -u))" > $his
 	dconf dump / > .dconf
 	git add -A
 	git commit -m "$msg"

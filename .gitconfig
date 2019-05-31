@@ -2,3 +2,5 @@
 	email = chinnkarahoi@gmail.com
 [url "git@gitlab.sho.hypereal.com:"]
 	insteadOf = http://gitlab.sho.hypereal.com/
+[core]
+	pager = less -x1,3

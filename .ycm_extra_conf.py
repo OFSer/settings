@@ -14,11 +14,22 @@ BASE_FLAGS = [
         '-fexceptions',
         '-ferror-limit=10000',
         '-DNDEBUG',
-        '-std=c++1z',
+        '-std=c++14',
         '-xc++',
         '-I/usr/lib/',
-        '-I/usr/include/'
+        '-I/usr/include/',
+        '-I/usr/include/c++/7/',
+        '-I/usr/include/x86_64-linux-gnu/',
+        '-I/usr/include/x86_64-linux-gnu/c++/7/',
+        '-I./inc',
+        '-I./include',
+        '-I./src',
+        '-I./source',
+        '-I./lib',
+        '-I./library',
         ]
+
+BUILD_DIRECTORY = './build';
 
 SOURCE_EXTENSIONS = [
         '.cpp',
@@ -42,10 +53,10 @@ HEADER_EXTENSIONS = [
         ]
 
 HEADER_DIRECTORIES = [
-        'include'
+        'include',
+        'inc'
         ]
 
-BUILD_DIRECTORY = 'build';
 
 def IsHeaderFile(filename):
     extension = os.path.splitext(filename)[1]
