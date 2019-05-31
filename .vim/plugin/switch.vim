@@ -1,8 +1,9 @@
 func Next(x)
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
 	let ret=a:x
+	let cp=expand("#".a:x.":p:h")
 	for i in a
-		if bufname(i) =~ g:term || bufname(i) =~ '/' || Exist(i) 
+		if bufname(i) =~ g:term || expand("#".i.":p:h") != cp || Exist(i) 
 			continue
 		endif
 		if i>a:x
@@ -19,8 +20,9 @@ func Prev(x)
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
 	let a=reverse(a)
 	let ret=a:x
+	let cp=expand("#".a:x.":p:h")
 	for i in a
-		if bufname(i) =~ g:term || bufname(i) =~ '/' || Exist(i) 
+		if bufname(i) =~ g:term || expand("#".i.":p:h") != cp || Exist(i) 
 			continue
 		endif
 		if i<a:x

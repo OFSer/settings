@@ -6224,3 +6224,30 @@ Zathura
 zsh
 #经过getopt的处理，下面处理具体选项。
 阿凡达02
+ls
+git status
+git diff
+git status
+git diff
+git status
+git diff
+git diff --cachecd
+git diff --cached
+git commit -m "change cmake"
+git push
+ls
+git status
+git add .
+git status
+ls
+cd test/
+ls
+>s1.cpp
+git status
+git clean
+git status
+git clean -f
+git status
+ls
+git status
+ls

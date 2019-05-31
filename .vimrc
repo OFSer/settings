@@ -42,7 +42,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 Plug 'Valloric/YouCompleteMe'
 nnoremap <silent> d :tab split \| YcmCompleter GoTo<cr>
-au FileType go nmap d <Plug>(go-def-tab)
+au FileType go nmap <buffer> d <Plug>(go-def-tab)
 let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_autoclose_preview_window_after_completion=1
@@ -55,8 +55,6 @@ set completeopt-=preview
 Plug 'octol/vim-cpp-enhanced-highlight'
 
 Plug 'scrooloose/nerdtree'
-Plug 'jistr/vim-nerdtree-tabs'
-"Plug 'Xuyuanp/nerdtree-git-plugin'
 let NERDTreeShowLineNumbers=0
 let NERDTreeAutoCenter=1
 let NERDTreeShowHidden=1
@@ -65,8 +63,23 @@ let NERDTreeIgnore=['\.pyc','\~$','\.swp','\.git$']
 let NERDTreeShowBookmarks=2
 let NERDTreeDirArrowExpandable="+"
 let NERDTreeDirArrowCollapsible="-"
+let NERDTreeHighlightCursorline=0
 "let g:nerdtree_tabs_open_on_console_startup=1
 let NERDTreeMinimalUI=1
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "*",
+    \ "Staged"    : "+",
+    \ "Untracked" : "@",
+    \ "Renamed"   : "%",
+    \ "Unmerged"  : "^",
+    \ "Deleted"   : "-",
+    \ "Dirty"     : "&",
+    \ "Clean"     : "~",
+    \ "Ignored"   : "$",
+    \ "Unknown"   : "?"
+    \ }
 
 Plug 'airblade/vim-gitgutter'
 

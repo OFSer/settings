@@ -31,4 +31,4 @@ func Del()
 	endfor
 endfunc
 au CursorMoved * cal Del()
-autocmd BufEnter * silent! lcd %:p:h
+"autocmd BufEnter * silent! lcd %:p:h

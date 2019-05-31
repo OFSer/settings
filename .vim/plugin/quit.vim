@@ -3,11 +3,8 @@ func Quit()
 	let nr=bufnr('%')
 	let tp=tabpagenr()
 	let flag=ExistOther(tp,nr)
+	let g:back = 0
 	if bufname('%') =~ g:sidebar
-		return
-	endif
-	if flag 
-		exe "q!"
 		return
 	endif
 	if &buftype =~ 'quickfix' || bufname('%') =~ g:term || bufname('%') =~ g:bufterm || &buftype =~ "help"
@@ -17,22 +14,32 @@ func Quit()
 		return
 	endif
 	let t=Next(nr)
-	let g:back = 0
-	if tabpagenr() != 1 && tabpagenr() != tabpagenr('$')
+	if tabpagenr() != 1 && tabpagenr() != tabpagenr('$') && nr == t
 		let g:back = 1
 	endif
-	if nr != t
-		let g:back = 0
+	if flag 
+		exe "q!"
+		if g:back == 1
+			exe "tabprevious"
+		endif
+		return
 	endif
-	exe "b! ".Next(nr)
+	if nr != t
+		exe "b! ".Next(nr)
+	else  
+		if bufname('%') == "" 
+			exe "q!"
+		else
+			silent! exe "tabc!"
+		endif
+	endif
 	silent! exe "bw! ".nr
 	silent! exe "bw! ".g:bufterm.nr
-endfunc
-func Back()
 	if g:back == 1
-		call feedkeys("gT")
+		exe "tabprevious"
 	endif
 endfunc
-tnoremap <silent> q <c-w>:call Quit()<cr><c-w>:call Back()<cr>
-nnoremap <silent> q :call Quit()<cr><c-w>:call Back()<cr>
+tnoremap <silent> q <c-w>:call Quit()<cr>
+nnoremap <silent> q :call Quit()<cr>
+au FileType nerdtree nmap <buffer> <silent> q <c-w>l<c-w>:call Quit()<cr>
 
