@@ -114,6 +114,7 @@ other(){
 	sudo apt remove -y --purge gnome-software*
 }
 install_vim(){
+	mkdir -p ~/Downloads
 	sudo apt -y install vim-gnome	
 	sudo apt install -y build-essential cmake python-dev python3-dev build-essential 
 	sudo apt install -y cmake python-dev python3-dev ctags gcc g++ clang libclang-dev
