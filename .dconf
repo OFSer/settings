@@ -486,7 +486,7 @@ inactive-shadow-color='#000000ff'
 [org/compiz/profiles/unity/plugins/expo]
 ground-color1='#b3b3b3cc'
 ground-color2='#b3b3b300'
-x-offset=77
+x-offset=70
 
 [org/compiz/profiles/unity/plugins/staticswitcher]
 background-color='#333333d9'
@@ -563,12 +563,12 @@ regular-auto-launch-interval=14
 release-check-time=uint32 1558662537
 
 [com/ubuntu/user-interface]
-scale-factor={'DP-4': 11, 'HDMI-0': 11}
+scale-factor={'DP-4': 10, 'HDMI-0': 10}
 
 [com/ubuntu/user-interface/desktop]
 scaling-factor=uint32 1
-cursor-size=33
-text-scaling-factor=1.375
+cursor-size=30
+text-scaling-factor=1.25
 
 [com/ubuntu/sound]
 allow-amplified-volume=false

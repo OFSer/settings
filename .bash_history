@@ -464,6 +464,18 @@ $0
 #1559288217
 #1559294867
 #1559296345
+#1559391920
+#1559391922
+#1559392876
+#1559393746
+#1559393748
+#1559393749
+#1559393750
+#1559393752
+#1559393753
+#1559394010
+#1559394047
+#1559394048
 ./1 e
 ./1 -e 234
 ./1 -e 345
@@ -760,7 +772,6 @@ cat 3<2
 cat &<5
 cat <6
 cat abc-file | parallel echo
-cataclysm
 cataclysm  --help
 cat asdf
 cat .bash_history | sort
@@ -842,8 +853,8 @@ cd ~32
 cd 5
 cd ~-5
 cd 5/
-cd 6
 cd ~-6
+cd 7/
 cd 70-4D-7B-64-E1-97/
 cd ~-8
 cd a
@@ -858,7 +869,6 @@ cd api/
 cd applications/
 cd .bah
 cd ~/.bash/
-cd .bash/
 cd /bin/
 cd bin/
 cd bits/
@@ -876,6 +886,7 @@ cd build-plan
 cd bus/
 cd camera01-190216-141151-S5
 cd `cat <(ls -d */ &> /dev/null || echo .) | head -n 1`
+cd /cdrom/
 cd cd third_party/ycmd/third_party/
 cd cin
 cd clang/
@@ -901,6 +912,8 @@ cd .config/htop/
 cd .config/totem/
 cd controller/
 cd controllers/
+cd ~/cp
+cd cpp/
 cd cpp/test/
 cd d
 cd .dbus/
@@ -981,6 +994,8 @@ cd go/src/
 cd ~/gt
 cd gtk-
 cd gu
+cd ~/haskell/
+cd haskell/
 cd --help | grep rand
 cd /home/
 cd /home/gjs/go/bin
@@ -989,6 +1004,8 @@ cd $HOME/.steam/ubuntu12_32
 cd $HOME/.steam/ubuntu12_32/
 cd $HOME/.steam/ubuntu12_32/steam-runtime/amd64/usr/lib/x86_64-linux-gnu
 cd hosts
+cd http-
+cd http-hello/
 cd ibus/
 cd inc
 cd indent/
@@ -1001,7 +1018,6 @@ cd jl/
 cd kube/
 cd ..l
 cd lib
-cd lib/
 cd /lib/systemd/system
 cd .local/bin/
 cd .local/share/app-info/
@@ -1019,6 +1035,7 @@ cd /mnt/boot
 cd /mnt/boot/
 cd mod/
 cd mysql/
+cd nerdtree
 cd ./.nuget/
 cd ~/o
 cd online_tools/
@@ -1040,6 +1057,7 @@ CDPATH=123
 cd plug
 cd ../plug
 cd plugged
+cd plugged/
 cd plugged/YouCompleteMe/
 cd ../plugin/
 cd port/
@@ -1062,7 +1080,6 @@ cd settings/
 cd share/app
 cd shm
 cd shmls/
-cd snap/
 cd SogouPY
 cd SogouPY.users/
 cd sources/
@@ -1083,6 +1100,7 @@ cdte
 cd templates/
 cd tes
 cd ~/tes
+cd ~/test/
 cd test/cpp/test/
 cd ~/test/empty/
 cd ~/test/IPC/
@@ -1104,7 +1122,7 @@ cd ubuntu/
 cd /usr/bin
 cd /usr/inclue/c++/7.4.0/
 cd /usr/lib
-cd /usr/lib/
+cd /usr/lib64
 cd /usr/lib/x86_64-linux-gnu/
 cd /usr/local/go/
 cd usr/local/include/tensorflow/bazel-genfiles/external/llvm/
@@ -1116,6 +1134,7 @@ cd /var
 cd /var/lib/docker/
 cd /var/lib/docker/volumes/
 cd /var/run
+cd ~/.vim/
 cd .vim/after/
 cd .vim/after/syntax/
 cd .vim/after/syntax/p
@@ -1248,6 +1267,7 @@ config
 ./config.sh config_scroll
 ./config.sh proxy_run
 . config.sh push
+./config.sh push "add font"
 ./config.sh push "comment ycm python path"
 ./config.sh push "diable
 ./config.sh push "diable ycm syntax check"
@@ -2296,6 +2316,7 @@ fasdgasdfasdfasdfasdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 fc -ln
 fc -l | wc -l
 fd
+fdisk
 fdisk /dev/sdc
 fdisk vd
 fd -l
@@ -2381,6 +2402,7 @@ find . | grep libc
 find . | grep "libc\."
 find . | grep libc.
 find . | grep libc\.
+find . | grep libgmp
 find . |grep mod
 find . |grep mod 
 find . |grep mod | grep bin
@@ -2399,6 +2421,7 @@ find . | grep sogou
 find . | grep Sogou
 find .  | grep Sogou
 find .| grep std
+find . | grep sudo libgmp
 find .| grep sys
 find . | grep unistd
 find . | grep ycm_extra
@@ -2476,6 +2499,7 @@ gedit
 get get -u -v golang.org/x/tools/go/gcexportdata
 g++ -fPIC -shared -o ./dll/libadd.so add.cpp
 ggit status
+ghc
 ghc --help
 ./ghci
 ghc-mod --help
@@ -2484,6 +2508,7 @@ git
 git add ,.
 git add 1.sh
 git add -a
+git add -A
 git add - A
 git add .bash_profile 
 git add blow_check/usb_blow_detector
@@ -3181,6 +3206,7 @@ history | grep ssh | grep "\-D"
 history | grep ssh | grep '-i'
 history | grep ssh | grep '\-i'
 history| grep ssh | grep mac
+history | grep stack
 history | grep system
 history | grep systemd
 history | grep tldr
@@ -3354,7 +3380,6 @@ kill -TERM 4258
 kill -term 7491
 kpartx -av /dev/loop20
 kubectl version
-l
 ./la
 ./labeler.sh
 ./labeler.sh  > /dev/null
@@ -3425,6 +3450,8 @@ line='aab'
 [[ $line =~ ([[:space:]]*?)(a)b ]]
 [[ $line =~ ([[:space:]])(a)b ]] && echo 1
 ./list.sh 
+lks
+ll
 ll 
 ll 1
 ll -a ??
@@ -3473,6 +3500,7 @@ logkeys --version
 log=/var/log/qmail/current IFS=/
 losetup /dev/loop20 im
 `\ls
+;ls
 ! ls
 'ls
 "$(ls)"
@@ -3984,7 +4012,6 @@ nautilus /data &
 nautilus trash/
 nautilus /usr/share/fonts/truetype/ubuntu/
 nerdtree
-nethack
 nethogs --help
 nethogs -v 3
 netogs
@@ -4339,6 +4366,7 @@ read --help
 read -i 123
 readonly
 readonly 
+reboot
 return
 return 3
 rm :\: 
@@ -4638,6 +4666,7 @@ set x 'y z'
 #set 会重新排列参数的顺序，也就是改变$1,$2...$n的值，这些值在getopt中重新排列过了
 sh
 sh -c "cd /tmp; exec sh --login -i"
+shell
 shfit
 shopt
 short_pwd 
@@ -5294,7 +5323,6 @@ sudo apt install minikube
 sudo apt install moc
 sudo apt install mono-devel 
 sudo apt install neovim
-sudo apt install nethack
 sudo apt install nethack-console 
 sudo apt install nethogs
 sudo apt install nettools
@@ -5392,6 +5420,7 @@ sudo find . | grep osu
 sudo find . | grep osu | grep mp3
 sudo find . | grep osu | grep png
 sudo find . | grep shmmsg
+sudo ghci
 sudo git add .
 sudo git add -A
 sudo git clean -fd
@@ -5467,6 +5496,7 @@ sudo kill -sighup 30262
 sudo kill -sighup 30362
 sudo kill -sigterm 30298
 sudo kpartx -av /dev/loop20
+sudo ln -s libgmp.so.3 libgmp.so
 sudo ln -s /usr/lib/libGL.so.1  /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1.2.0
 sudo logkeys -s --no-daemon
 sudo logkeys --start
@@ -5551,6 +5581,7 @@ sudo  pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar
 sudo python3 blow_detector.py --name blow00
 sudo read a <(/dev/fd/59)
 sudo rm \[
+sudo rm libgmp.so 
 sudo rm log
 sudo rm logkes.pid
 sudo rm logkeys.pid
@@ -5799,6 +5830,7 @@ tldr ffmpeg
 tldr ghc
 tldr hash
 tldr kill
+tldr ln
 tldr mysql
 tldr nethogs
 tldr nethogs 
@@ -6007,10 +6039,12 @@ vim
 vim ~
 vim'
 vim 1552626743892.dat 
+vim 1.cpp
 vim 1.dot
 vim 1.dota
 vim 1.jl
 vim 1.lhds
+vim 1.lhs 
 vim .1sh
 vim 1.tex
 vim 1.xh
@@ -6147,6 +6181,7 @@ vim PS1rc
 vim PS1.sh
 vim py.vim 
 vim -r 1
+vim README.md 
 vim README.sh
 vim recently-used.xbel
 vim record.txt 
@@ -6189,9 +6224,11 @@ vim ~/.vim/after/syntax/c.vim
 vim ~/.vim/after/syntax/py.vim
 vim .vimr
 vim  .vimrc
+vim .vimrc
 vim .vimrc 
 vim walk.go 
 vim .xbindkeysrc 
+vim .ycm_extra_conf.py 
 vim ycm.py 
 vim youcompleteme.vim 
 vium
