@@ -105,7 +105,6 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 	sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
 	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
 	sudo apt-get update
-	sudo apt upgrade -y
 }
 other(){
 	sudo apt install -y --no-install-recommends nvidia-384
@@ -193,13 +192,14 @@ proxy_run(){
 	sudo sslocal -c socks.json > /dev/null 2>&1 &
 }
 run(){
-	#system_setting
+	system_setting
 	config_mouse
 	update_source
 	install
 	install_chrome
 	install_netease
 	install_sogou
+	sudo apt upgrade -y
 	#install_lang
 	#config_vscode
 	#config_privoxy
