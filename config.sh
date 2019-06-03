@@ -108,14 +108,14 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 	sudo apt upgrade -y
 }
 other(){
-	sudo apt remove -y --purge --no-install-recommends gnome-desktop3-data
 	sudo apt install -y --no-install-recommends nvidia-384
-	sudo apt install -y --no-install-recommends ubuntu-unity-desktop
 	sudo apt remove -y --purge --no-install-recommends ubuntu-desktop
+	sudo apt remove -y --purge --no-install-recommends gnome-desktop3-data
+	sudo apt install -y --no-install-recommends ubuntu-unity-desktop
+	sudo apt remove -y --purge gnome-software*
 }
 install(){
 	sudo apt -y install vim-gnome	
-	sudo apt remove -y --purge gnome-software*
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	sudo apt install -y most
@@ -193,8 +193,8 @@ proxy_run(){
 	sudo sslocal -c socks.json > /dev/null 2>&1 &
 }
 run(){
-	system_setting
-	#config_mouse
+	#system_setting
+	config_mouse
 	update_source
 	install
 	install_chrome
