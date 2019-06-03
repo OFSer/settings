@@ -113,8 +113,14 @@ other(){
 	sudo apt install -y --no-install-recommends ubuntu-unity-desktop
 	sudo apt remove -y --purge gnome-software*
 }
-install(){
+install_vim(){
 	sudo apt -y install vim-gnome	
+	sudo apt install -y build-essential cmake python-dev python3-dev build-essential 
+	sudo apt install -y cmake python-dev python3-dev ctags gcc g++ clang libclang-dev
+	vim -c "PlugInstall" -c "q!" -c "q!"
+	(cd ~/.vim/plugged/YouCompleteMe && ./install.py --all)
+}
+install(){
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	sudo apt install -y most
@@ -124,7 +130,6 @@ install(){
 	sudo apt install -y compizconfig-settings-manager
 	sudo snap install vscode --classic
 	sudo snap install electronic-wechat
-	sudo apt -y install build-essential cmake python-dev python3-dev
 }
 install_chrome(){
 	#sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
