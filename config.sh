@@ -202,6 +202,7 @@ run(){
 	config_mouse
 	other
 	update_source
+	install_vim
 	install
 	install_chrome
 	install_netease
