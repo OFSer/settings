@@ -198,9 +198,9 @@ proxy_run(){
 	sudo sslocal -c socks.json > /dev/null 2>&1 &
 }
 run(){
-	other
 	system_setting
 	config_mouse
+	other
 	update_source
 	install
 	install_chrome
