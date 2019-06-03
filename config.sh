@@ -108,10 +108,10 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 	sudo apt upgrade -y
 }
 other(){
-	sudo apt install -y nvidia-384
-	sudo apt install -y ubuntu-unity-desktop
-	sudo apt remove -y --purge ubuntu-desktop
-	sudo apt remove -y --purge gnome-desktop3-data
+	sudo apt remove -y --purge --no-install-recommends gnome-desktop3-data
+	sudo apt install -y --no-install-recommends nvidia-384
+	sudo apt install -y --no-install-recommends ubuntu-unity-desktop
+	sudo apt remove -y --purge --no-install-recommends ubuntu-desktop
 }
 install(){
 	sudo apt -y install vim-gnome	
