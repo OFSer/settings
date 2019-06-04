@@ -835,7 +835,6 @@ ccd ..
 ./cconfigure 
 \cd
 \cd ~
-cd ~
 cd ~-
 cd ~-`
 cd ~!
@@ -950,7 +949,9 @@ cd /etc/init/rc
 cd /etc/ssh/
 cd /etc/sudoers.d/
 cd ext
+cd f
 ( cd fc )
+cd fc
 cd fc/ai-cloth-webserver/
 cd fc/bl
 cd ~/fc/detection-machine-daemon/
@@ -975,7 +976,6 @@ cd files/
 cd find . | grep std
 cd find . | grep stdc
 cd fl
-cd flaw_checker/
 cd fonts/
 cd freefont/
 cd ftplugin/
@@ -983,6 +983,7 @@ cd g
 cd .gconf/
 cd .git/
 cd gjs
+cd gl/
 cd ./glib-2.0/schemas/
 cd godef/
 cd golang
@@ -1272,6 +1273,7 @@ config
 ./config.sh config_proxy
 ./config.sh config_scroll
 ./config.sh proxy_run
+./config.sh pull
 . config.sh push
 ./config.sh push "add font"
 ./config.sh push "comment ycm python path"
@@ -2146,7 +2148,6 @@ echo $OLDPWD
 echo $pager
 echo $Pager
 echo $P{ager
-echo $PAGER
 echo parent pid is $$ child pid is $XXX_PID
 echo $pid
 echo $PID
@@ -2270,6 +2271,7 @@ exec -l ls
 exec {tr[1]}>&-
 ex --help
 exit 10
+expman test
 export a=123
 export abc
 export DHCP_ENV="local"
@@ -2279,6 +2281,11 @@ export LC_ALL=en_jp.utf8
 export LC_ALL=jp_US.utf8
 export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
 export -n
+export PAGER=nano --view
+export PAGER=nano \--view
+export PAGER=nano \-\-view
+export PAGER=pg
+export PAGER=pg man test
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export TEST=123
 expr 0 == 00
@@ -2911,7 +2918,6 @@ git reset HEAD^
 git reset HEAD^1 --hard
 \git reset HEAD --hard 
 git reset HEAD^ --hard
-git reset HEAD --hard
 git reset HEAD submodules/saki_detection
 git reset remotes/origin/ssh-proxy
 git revert f674dffc3679de9789500d98b429cec4cba4dbd9
@@ -2958,8 +2964,8 @@ git statu
 git statuis
 git st atus
 git statusz
-git staus
 git ststaus
+git ststua
 git sttatus
 git submodule --init
 git submodule update a03b17558683735d4149835d2c3a0de75ecd42e0 submodules/saki_detection/
@@ -3299,6 +3305,7 @@ ipcs -q 163845
 ipcs -q -i 163845
 irm .Togglebash.swp > /dev/null 2>&1
 j=0
+jobs
 jobs :
 jobs %+
 jobs +
@@ -4083,8 +4090,11 @@ ossutil ls oss://ai-cloth-public/debug-data > t
 ossutil ls oss://ai-cloth-public/debug-data | wc -l
 p
 p=(a)b
+PAGER=less;man test
 PAGER=most;info expr
 PAGER=nano \man semctl
+PAGER=pg man test
+PAGER=pg;man test
 PAGER=vim
 PAGER=vim \man semctl
 PAGER=vim man semctl
@@ -6159,6 +6169,7 @@ vim flaw_checker/
 vim fstab 
 vim .git
 vim .gitconfig 
+vim .gitmodules 
 vim git status
 vim-gnome
 vim go11.go 
