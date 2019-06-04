@@ -215,7 +215,7 @@ run(){
 }
 push(){
 	cd .config/google-chrome
-	git commit -am "upd" && git push
+	git add -A && git commit -m "upd" && git push
 	cd ~
 	msg=${1:-upd}
 	his=~/.bash_history
