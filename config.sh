@@ -214,9 +214,9 @@ run(){
 	#config_privoxy
 }
 push(){
-	cd .config/google-chrome
-	git add -A && git commit -m "upd" && git push
-	cd ~
+	git submodule foreach --recursive git add -A
+	git submodule foreach --recursive git commit -m "upd"
+	git submodule foreach --recursive git push
 	msg=${1:-upd}
 	his=~/.bash_history
 	#echo "$(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his))" > $his
