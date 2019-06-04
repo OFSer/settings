@@ -6439,3 +6439,107 @@ echo $USER
 echo $USERNAME
 ls
 tmux
+./install.sh 
+ls
+cd ~
+ls
+. .bashrc
+ls
+bash
+ls
+cd .bash
+ls
+vim env.sh 
+ls
+jobs
+cat /etc/issue
+ls
+ls
+cd gl/
+ls
+cd flaw_checker/
+ls
+cd ~
+l
+ls
+cd -
+ls
+cd ~
+history 
+vim .bash_history 
+cat .bash_history | awk /87Co7r/
+cat .bash_history | awk /a:~Co7r/
+cat .bash_history | awk /87Co7r/
+cat .bash_history | awk "$0 ~/.vim/colors/ '87Co7r'"
+cat .bash_history | awk $1 ~/.vim/colors/ '87Co7r
+cat .bash_history | awk $1 ~ 123
+cat .bash_history | awk /$1 ~ 123/
+cat .bash_history | grep awk
+cat .bash_history | awk '{print $0}'
+cat .bash_history | awk '$0 ~ /87Co7r/ {print $0}'
+cat .bash_history | awk '$0 !~ /87Co7r/ {print $0}'
+cat .bash_history | awk '$0 ~ /87Co7r/ {print $0}'
+cat .bash_history | awk '$0 !~ /87Co7r/ {print $0}'
+ls
+jobs
+git status
+nslookup registry-corp.hypereal.com
+ifconfig
+ls
+sudo apt install net-tools
+tree
+cd /root/
+ls
+sudo su
+ls
+sudo cp ~/.ssh/ /root/.ssh/
+sudo cp -r ~/.ssh/ /root/.ssh/
+sudo su
+ls
+unset PAGER
+echo $PAGER
+man test
+\man test
+PAGER=pg \man test
+PAGER="nano --view" \man test
+export PAGER="nano --view"
+\man test
+export PAGER=most
+\man test
+ls
+cd .bash/
+vim
+ls
+cd ~ls
+cd ~
+git status
+./config.sh push
+vim .vimrc
+curl -sSL https://get.haskellstack.org/ | sh
+sudo apt install stack
+stack
+sudo apt install haskell-stack
+stack ghci
+ghci
+sudo apt install ghc
+df -h
+df
+df -h
+ls
+sss
+ls
+type sss
+sshpass
+sss
+sshpass -p root ssh root@dl-6 -p 30263 -t 'bash --login'
+sudo rm fc
+sudo rm -r fc
+ls
+cd gl
+ls
+rm -rf blur_detection/
+ls
+cd saki_detection/
+ls
+mysql < mydb
+mysql

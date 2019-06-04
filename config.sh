@@ -1,5 +1,8 @@
 #!/bin/bash
 cd ~
+install_tools(){
+	sudo apt install -y tree net-tools nethogs openssh-server
+}
 config_scroll(){
 	sudo apt install xbindkeys xdotool -y
 	xbindkeys --defaults > $HOME/.xbindkeysrc
@@ -106,7 +109,7 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
 	sudo apt-get update
 }
-other(){
+install_desktop(){
 	#sudo apt install -y --no-install-recommends nvidia-384
 	sudo apt install -y --no-install-recommends nvidia-driver-390
 	sudo apt remove -y --purge --no-install-recommends ubuntu-desktop
@@ -203,11 +206,12 @@ run(){
 	config_mouse
 	update_source
 	install_vim
-	other
+	install_desktop
 	install
 	install_chrome
 	install_netease
 	install_sogou
+	install_tools
 	sudo apt upgrade -y
 	#install_lang
 	#config_vscode
