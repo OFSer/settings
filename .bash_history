@@ -6358,3 +6358,84 @@ ysql
 zathura 
 Zathura
 zsh
+mkdir gh
+cd gh/
+ls
+git clone git://github.com/rkitover/vimpager
+cd vimpager/
+sudo make install
+vimpager 
+ls
+cd ~
+ls
+export PAGER=vimpager 
+man test
+ls
+git status
+git add --help
+export PAGER=most
+git add --help
+export PAGER=vimpager 
+git add --help
+ls
+vim
+ls
+rm nano.save*
+ls
+cd Steam/
+ls
+find .
+cd ..
+ls
+rm -rf Steam/
+ls
+cd Public/
+ls
+cat b
+ls
+rm b
+ls
+cd ..
+ls
+git status
+vim config.sh 
+git status
+./config.sh push
+ls
+cd .config/google-chrome/
+git staus
+git status
+cd ..
+ls
+cd ..
+ls
+vim config.sh 
+ls
+cd .config/google-chrome/
+git add -A
+git status
+cd ~
+ls
+cd -
+git reset HEAD
+git status
+cd ~
+ls
+vim config.sh 
+git submodule foreach --recursive git add -A
+cd .config/google-chrome/
+git status
+git reset HEAD 
+git statsus
+git status
+cd ~
+./config.sh push
+git status
+vim config.sh 
+ls
+git diff HEAD^
+git diff HEAD~2
+echo $USER
+echo $USERNAME
+ls
+tmux
