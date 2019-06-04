@@ -13,6 +13,9 @@ func Quit()
 		silent! exe "bw! ".g:bufterm.nr
 		return
 	endif
+	if len(filter(range(1, bufnr('$')), 'buflisted(v:val)')) == 1
+		exe "q!"
+	endif
 	let t=Next(nr)
 	if tabpagenr() != 1 && tabpagenr() != tabpagenr('$') && nr == t
 		let g:back = 1
