@@ -1,4 +1,3 @@
-
 ------------+----------+-----------------+-----------------------------------------------------------------------------------+------+
 ;;
 :
@@ -694,6 +693,7 @@ b=$a
 baidu.com
 bar='host: \h'
 bas
+bash
 bash /
 bash 2.sh
 bash -c "cd /"
@@ -715,6 +715,7 @@ bash --login /
 bash --login -i ; cd /
 bash --login -i -s cd /tmp;
 . .bashr 
+. .bashrc
 . .bashr c
 bash run.sh
 bash -s 1 2 3
@@ -776,6 +777,14 @@ cat <6
 cat abc-file | parallel echo
 cataclysm  --help
 cat asdf
+cat b
+cat .bash_history | awk "$0 ~/.vim/colors/ '87Co7r'"
+cat .bash_history | awk /$1 ~ 123/
+cat .bash_history | awk $1 ~ 123
+cat .bash_history | awk $1 ~/.vim/colors/ '87Co7r
+cat .bash_history | awk /a:~Co7r/
+cat .bash_history | awk '{print $0}'
+cat .bash_history | grep awk
 cat .bash_history | sort
 cat .bash_history | sort | uniq -c
 cat 'Btop - 16:28:42 up 2 days,  2:17,  1 user,  load average: 2.03, 1.79, 1.54B;49mB;49m1h25l'
@@ -797,6 +806,7 @@ cat e
 cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
 cat /etc/debian_chroot
 cat /etc/debian_chroot 
+cat /etc/issue
 cat /etc/ld.so.conf
 cat file
 cat File 
@@ -871,6 +881,8 @@ cd anaconda3/
 cd api/
 cd applications/
 cd .bah
+cd .bash
+cd .bash/
 cd /bin/
 cd bin/
 cd bits/
@@ -906,7 +918,6 @@ cd .config/dconf/
 cd .config/evolution/
 cd .config/gnome-
 cd .config/gnome-games/
-cd .config/google-chrome/
 cd ~/.config/google-chrome/Default/Extensions
 cd .config/gtk-3.0/
 cd .config/gtk-4.0/
@@ -931,7 +942,7 @@ cd ~/disk/pack/
 cd disk/pack/70-4D-7B-64-E1-97/
 cd Do
 cd ~/Do
-cd docker/
+cd .docker
 cd dockerfiles/
 cd dockerfiles/dl-tensorflow/
 cd docs
@@ -976,14 +987,16 @@ cd files/
 cd find . | grep std
 cd find . | grep stdc
 cd fl
+cd flaw_checker/
 cd fonts/
 cd freefont/
 cd ftplugin/
 cd g
 cd .gconf/
+cd gh/
 cd .git/
 cd gjs
-cd gl/
+cd gl
 cd ./glib-2.0/schemas/
 cd godef/
 cd golang
@@ -1023,6 +1036,7 @@ cd jl/
 cd kube/
 cd ..l
 cd lib
+cd lib/
 cd /lib/systemd/system
 cd .local/bin/
 cd .local/share/app-info/
@@ -1030,7 +1044,6 @@ cd .local/share/app-info/xmls/
 cd .local/share/unity-settings-daemon/
 cd logkeys
 cd logkeys/
-cd ~ls
 cd `ls -d */ &> /dev/null || echo .`
 cd `ls -d */ | shuf`
 cd markdown-preview.vim/
@@ -1060,10 +1073,8 @@ cd p-
 cd pack/
 CDPATH=/
 CDPATH=123
-cd plug
 cd ../plug
 cd plugged
-cd plugged/
 cd plugged/YouCompleteMe/
 cd ../plugin/
 cd port/
@@ -1071,14 +1082,15 @@ cd /proc/
 cd /proc/self/fd
 cd programs/
 cd ./programs/x86_64-linux/ghc-8.2.2/bin
+cd Public/
 cd python-syntax/
 cd r
 cd rc0.d/
 cd rc.local
 cd rogpeppe/
 cd root
-cd /root/
 cd run
+cd saki_detection/
 cd sbin/
 cd sem
 cd server/
@@ -1099,6 +1111,7 @@ cd .sta
 cd stack
 cd ste
 cd .steam/
+cd Steam/
 cd syntax/
 cd system
 cd Target/
@@ -1138,6 +1151,7 @@ cd /usr/share/application
 cd /usr/share/fonts
 cd /usr/share/fonts/truetype/
 cd /var
+cd /var/
 cd /var/lib/docker/
 cd /var/lib/docker/volumes/
 cd /var/run
@@ -1147,6 +1161,7 @@ cd .vim/after/syntax/
 cd .vim/after/syntax/p
 cd .vim/after/syntax/py.vim
 cd vim-go/
+cd vimpager/
 cd ~/.vim/plugged/
 cd ~/.vim/plugged/neodark.vim
 cd .vim/plugged/YouCompleteMe/
@@ -1207,6 +1222,7 @@ clang-format -style="{BasedOnStyle: WebKit, IndentWidth: 2,BreakBeforeBraces: Cu
 cloc *
 cloc *.py
 cmake .
+cmp -l artifacts.zip 'artifacts (1).zip'
 command
 command -l
 command_not_found_handle
@@ -1425,7 +1441,6 @@ curl -s 'https://m.10010.com/NumApp/NumberCenter/qryNum?callback=jsonp_queryMore
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 curl  smb://share/TempExchange/HuangWei/tf-cc
 curl smb://share/TempExchange/HuangWei/tf-cc
-curl -sSL https://get.haskellstack.org/ | sh
 curl -sSL https://get.haskellstack.org/ | sudo sh
 curl wttr.in
 curl www.google.com
@@ -1513,6 +1528,10 @@ DIALOG
 $DIALOG --backtitle "Package configuration"        --title "Configuring sun-java6-jre"        $OPTS \
 die() {   local frame=0;   while caller $frame; do     ((frame++));   done;   echo "$*";   exit 1; }
 diff 1 2
+diff -a  artifacts.zip 'artifacts (1).zip'
+diff -a  artifacts.zip 'artifacts (1).zip' | hexdump -C 
+diff -a  artifacts.zip 'artifacts (1).zip' | hexdump -C -n 
+diff artifacts.zip 'artifacts (1).zip'
 diff main.py misc.py
 diff save save.txt
 dig 123
@@ -1552,6 +1571,7 @@ disown -h 14779
 disown --help
 dmesg
 dmesg | grep "Memory:" -n -A 8
+docker
 docker build .
 docker build . -t registry-sho.hypereal.com/dl/dl-tf:190201
 docker build . -t registry-sho.hypereal.com/dl/dl-tf:190301
@@ -1571,6 +1591,8 @@ docker commit 9dc5feeb949a flawck
 docker commit a26de13842a6 ubuntu:16.04
 docker commit cf775521fdd2 ubuntu:16.04
 docker commit e62401416096 flawck
+docker container
+docker container ls
 docker exec e8913cd65083
 docker exec --help e8913cd65083
 docker exec -it ad7ced710bcd /bin/bash
@@ -1587,10 +1609,14 @@ docker --help | grep list
 docker image prune
 docker image prune --force --all
 docker image rm e34b64de9667
+docker image rm nvidia/cuda:9.0-cudnn7-devel
 docker images 
+docker images -a -q
 docker images -f "dangling=true" -q
 docker images -f “gjs=true” -q
 docker images --help
+docker images rm nvidia/cuda:9.0-cudnn7-devel
+docker info
 docker -it ubuntu:16.04 "bash"
 docker -it -v fc:/root test "bash
 docker -it -v fc:/root test "bash"
@@ -1598,10 +1624,12 @@ docker -it -v fc:/root ubuntu:16.04
 docker -it -v fc:/root ubuntu:16.04 run /bin/bash
 docker jobs
 docker list
+docker ps -a
 docker ps --all
 docker ps -a -q
 docker ps -l
 docker ps -n
+docker ps -q
 docker pull registry.jumpserver.org/public/jumpserver:1.0.0
 docker pull registry-sho.hypereal.com/library/sho-k8s-tools:v20190308
 docker push . -t registry-sho.hypereal.com/dl/dl-tf:190301
@@ -1701,8 +1729,8 @@ dotnet-sdk.dotnet run
 dotnet-sdk.dotnet run --project osu.Desktop
 du
 du -h
+du -hl
 du -hl --max-depth=
-du -hl --max-depth=1
 du -hl --max-depth==1
 du -l
 du -l --max-depth=1| sort -n -k 1
@@ -2148,6 +2176,7 @@ echo $OLDPWD
 echo $pager
 echo $Pager
 echo $P{ager
+echo $PAGER
 echo parent pid is $$ child pid is $XXX_PID
 echo $pid
 echo $PID
@@ -2190,8 +2219,6 @@ echo $TMOUT
 echo $TMPIP
 echo {ucb/{ex,edit},lib/{ex?.?*,how_ex}}
 echo $'\uHHHH'
-echo $USER
-echo $USERNAME
 echo ~usr
 echo "$var"
 echo what: /home/gjs
@@ -2281,6 +2308,7 @@ export LC_ALL=en_jp.utf8
 export LC_ALL=jp_US.utf8
 export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
 export -n
+export PAGER="nano --view"
 export PAGER=nano --view
 export PAGER=nano \--view
 export PAGER=nano \-\-view
@@ -2395,7 +2423,6 @@ file:///.
 file=camera07-190125-093353-S5.tar
 file:///home/gjs/fc/saki_detection/pack/通元02-GPU号/camera06-190125-153140-S5
 file:///home/gjs/fc/saki_detection/通元02-GPU号/camera06-190125-153140-S5
-find .
 find ab cpp
 find . |grep cmath
 find . | grep dota
@@ -2521,18 +2548,18 @@ g++ -fPIC -shared -o ./dll/libadd.so add.cpp
 ggit status
 ghc
 ghc --help
+ghci
 ./ghci
 ghc-mod --help
 ghi
 git 
 git add ,.
+git add .
 git add 1.sh
 git add -a
-git add -A
 git add - A
 git add .bash_profile 
 git add blow_check/usb_blow_detector
-git add config.sh 
 git add dll
 git add -f after autoload/ colors/ ftplugin/
 git add -f .bash
@@ -2543,7 +2570,6 @@ git add -f .bashrc
 git add --force .dconf
 git add -f user
 git add -f .ycm_extra_conf.py
-git add --help
 git add README.md 
 git add saki_detection/
 git add scp.sh 
@@ -2627,6 +2653,7 @@ git clean
 git clean -df
 git clean --help
 git clone git@github.com:chinnkarahoi/settings.git
+git clone git://github.com/rkitover/vimpager
 git clone git@gitlab.sho.hypereal.com:AIFactory/ai-cloth-webserver.git
 git clone git@gitlab.sho.hypereal.com:AIFactory/blow_check.git
 git clone git@gitlab.sho.hypereal.com:go/common-util.git
@@ -2727,6 +2754,7 @@ git commit -m 'fix status bug"
 git commit -m "fix status bug"
 git commit -m "fix toggle"
 git commit -m "fix .vimrc"
+git commit -m "ln .vimrc"
 git commit -m "merge master"
 git commit -m "merge new_blow"
 git commit -m "move test"
@@ -2757,6 +2785,7 @@ git commit -m "start from 0"
 git commit -m "test"
 git commit -m "upd"
 git commit -m "upd cal method"
+git commit -m "upd ci"
 git commit -m "upd config response"
 git commit -m "upd cookie"
 git commit -m "upd count"
@@ -2794,7 +2823,6 @@ git diff branch addBlindInfo
 \git diff --cache
 git diff --cachecd
 \git diff --cached
-git diff --cached 
 git diff --cached config.sh
 git diff --cached run.sh
 git diff .con
@@ -2807,7 +2835,7 @@ git diff detection.cpp
 \git diff dev
 git diff .gitconfig
 git diff .gitignore
-git diff HEAD^
+git diff HEAD~2
 git diff HEAD~2 config.sh
 git diff HEAD^3 .config/gtk-3.0/gtk.css
 git diff HEAD^3.config/gtk-3.0/gtk.css
@@ -2880,6 +2908,7 @@ git push public HEAD:master
 \git push public master
 git push --set-upstream origin craw
 git push --set-upstream origin master
+git push --set-upstream origin mk3-dockerize 
 git push --set-upstream origin new_blow_tmp
 git push --set-upstream origin optimize 
 git push --set-upstream origin point_blow
@@ -2914,7 +2943,9 @@ git reset .config/dconf/user
 git reset d46401482d5f5a403e5e0ce1de7b7db798346f7d
 git reset --hard 4ca8f123f6894cdc407d6d6fedd978f67d8a0cc2
 git reset --hard config.py
+git reset HEAD
 git reset HEAD^
+git reset HEAD 
 git reset HEAD^1 --hard
 \git reset HEAD --hard 
 git reset HEAD^ --hard
@@ -2958,15 +2989,17 @@ git stash apply
 git stash list
 git stash pop
 git stash .vimrc
-git stastus
 git staths
+git statsus
 git statu
 git statuis
 git st atus
 git statusz
+git staus
 git ststaus
 git ststua
 git sttatus
+git submodule foreach --recursive git add -A
 git submodule --init
 git submodule update a03b17558683735d4149835d2c3a0de75ecd42e0 submodules/saki_detection/
 git submodule update --init --recursive 
@@ -3111,6 +3144,8 @@ help help
 help --help
 help -m enable
 hexdump 1
+hexdump artifacts
+hexdump artifacts.zip 
 hexdump -C "$a"
 hexdump -C ab
 hexdump -C boot.mod 
@@ -3151,6 +3186,7 @@ hexdump -C -n 512 /dev/sdc
 hexdump -C -n <(echo $IFS)
 hexdump -C test
 hexdump -C test_pipe_size.cpp 
+hexdump -C .vimrc
 hexdump <(echo $IFS)
 hexdump $IFS
 hexdump -n 1000 /dev/sdb
@@ -3162,6 +3198,7 @@ hexdump -n 512 /dev/sda
 hexdump -n 512 im
 hexdump test
 hexdump vd
+hexdump .vimrc
 hiso
 history |
 history | awk '{$1=""}1'
@@ -3177,6 +3214,7 @@ history -d 10
 history -d 1 10
 history | grep
 history | grep '\*\/'
+history |grep admin
 history | grep aptcache
 history | grep apt cache
 history | grep apt-cache
@@ -3212,6 +3250,7 @@ history | grep IFS
 history | grep install
 history | grep kill
 history | grep madison
+history | grep mysql
 history | grep mysqldump 
 history | grep org
 history | grep org | grep software
@@ -3261,6 +3300,8 @@ i=~
 i="~"
 i=13
 i="~/abc bcd"
+icdiff artifacts.zip 'artifacts (1).zip'
+icdiff artifacts.zip artifacts\ \(1\).zip 
 icdiff cmath ext/cmath 
 if [ $? != 0 ] ; then echo "Terminating..." >&2 ; exit 1 ; fi
 if (( 2 < 1 ));then  echo 123; fi
@@ -3268,6 +3309,7 @@ if (( 2 > 1 ));then  echo 123; fi
 if [ "$BOOTSTRAP_TOKEN" = "" ]; then BOOTSTRAP_TOKEN=`cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 16`; echo "BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN" >> ~/.bashrc; echo $BOOTSTRAP_TOKEN; else echo $BOOTSTRAP_TOKEN; fi
 if [ "$BOOTSTRAP_TOKEN" = "" ]; then BOOTSTRAP_TOKEN=`cat /dev/urandom | tr -dc A-Za-z0-9 | head -c 16`echo "BOOTSTRAP_TOKEN=$BOOTSTRAP_TOKEN" >> ~/.bashrc; echo $BOOTSTRAP_TOKEN; else echo $BOOTSTRAP_TOKEN; fi
 i=~/fc
+ifconfig
 IFS=:
 IFS=:;
 IFS=''
@@ -3293,6 +3335,7 @@ include <bits/stdc++.h>
 indows': [1000], 'hidden': 0, 'listed': 1, 'changedtick': 3}, {'lnum': 0, 'bufnr': 2, 'variables': {'changedtick': 2}, 'name': '!bash', 'chan
 inhibitsinhibits{ucb/{ex,edit},lib/{ex?.?*,how_ex}}This construct is typically used as shorthand when the common prefix of the strings to be generated is longer than in the above example:
 ./install.py --go-completer
+./install.sh 
 {     int len = 0;     while( *str++ != END);     {            len ++;      }   ;     return len;
 int main() {
 int my_strlen(char *str)
@@ -3305,7 +3348,7 @@ ipcs -q 163845
 ipcs -q -i 163845
 irm .Togglebash.swp > /dev/null 2>&1
 j=0
-jobs
+jllslsdfjklldskfjlkj;fdlkjdslkj
 jobs :
 jobs %+
 jobs +
@@ -3405,6 +3448,7 @@ kill -TERM 4258
 kill -term 7491
 kpartx -av /dev/loop20
 kubectl version
+l
 ./la
 ./labeler.sh
 ./labeler.sh  > /dev/null
@@ -3497,7 +3541,6 @@ ll | grep test
 ll | grep tmux
 ll | grep vim
 ll  -h
-ll -h
 ll -h .config/dconf/user
 ll -h | grep mydb;
 ll -h | grep tar
@@ -3509,7 +3552,7 @@ ll stdin
 ll -t
 ln --help
 ln -s /home/gjs root
-ln -s ~/.vimrc .vimrc
+ln -s ../../.vimrc .vimrc
 localc
 locale -a
 logger
@@ -3761,6 +3804,7 @@ ls | xargs -n 4 -P 4 find | wc -l
 ls | xargs -P 4 -L 1 tar xvf 
 ls .ycm
 lsza
+lv
 | mac               | camid    | dt         | tm       | alias           | url                                                                               | type |
 make
 ./make.bash 
@@ -3910,6 +3954,7 @@ mkdir dot
 mkdir empty
 mkdir -- -f
 mkdir ftplugin
+mkdir gh
 mkdir go
 mkdir img
 mkdir inc
@@ -3991,7 +4036,6 @@ my
 mycd(){ \cd "$@"; for i in `dirs -p | sed -n '2,$p'`;do done
 mycli
 mysel
-mysql
 mysqld
 mysqld start
 mysqldump --login-path=gjs mydb
@@ -4007,6 +4051,7 @@ mysql --help | grep password
 mysql -h localhost -u gjs
 \mysql --login-path=gjs
 mysql --login-path=gjs
+mysql < mydb
 mysql -p
 mysql -p 31239 root@dl-4 -p
 mysql -P 31239 root@dl-4 -p
@@ -4053,6 +4098,7 @@ nolookup
 nosetests 
 # Note the quotes around `$TEMP': they are essential!
 nslookup 
+nslookup ai-ssh.sihe6.com
 nslookup DL-1
 nslookup dl-4
 nslookup dl-5
@@ -4061,6 +4107,7 @@ nslookup DL-8
 nslookup -h
 nslookup --help
 nslookup k8s-master.sihe6.com
+nslookup registry-corp.hypereal.com
 nslookup ssh-proxy-pod.ssh-proxy.jumpserver.svc.cluster.local
 nslookup sshtron.zachlatta.com
 nugetrestore
@@ -4071,7 +4118,10 @@ nvidia-docker images
 nvidia-smi -a
 nvim
 od
+od -b .vimrc
+od -C -b .vimrc
 od -c hello
+od -C  .vimrc
 od --help
 OLDPWD=abc
 OS
@@ -4093,6 +4143,8 @@ p=(a)b
 PAGER=less;man test
 PAGER=most;info expr
 PAGER=nano \man semctl
+PAGER="nano --view" \man test
+PAGER=pg \man test
 PAGER=pg man test
 PAGER=pg;man test
 PAGER=vim
@@ -4400,6 +4452,7 @@ return 3
 rm :\: 
 rm '
 rm '['
+rm *
 rm \: 
 rm \[
 rm 0
@@ -4425,6 +4478,7 @@ rm a
 rm abc\ bcd/
 rm acc.dat 
 rm awk 
+rm b
 rm backup.sh 
 rm bad
 rm bash 
@@ -4452,12 +4506,14 @@ rm grep
 rm .hdevtools.sock 
 rm in
 rm index.html 
+rm install.sh 
 rm label
 rm label.sh 
 rm logkes.pid
 rm mydb 
 rm mysql 
 rm nano*
+rm nano.save*
 rm 'NetrwTreeListing *'
 rm NetrwTreeListing\ 10 
 rm 'NetrwTreeListing 15' 
@@ -4484,6 +4540,7 @@ rm -r -- -f
 rm -rf 
 rm -rf 123
 rm -rf 70-85-C2-80-18-4E/
+rm -rf blur_detection/
 rm -rf data
 rm -rf electronic-wechat/
 rm -rf ffmpeg/
@@ -4503,6 +4560,7 @@ rm -rf root/
 rm -rf savesave 
 rm -rf SPSC_Queue/
 rm -rf ss
+rm -rf Steam/
 rm -rf syntax/
 rm -r ftplugin/
 rm -rf trash/
@@ -4530,7 +4588,6 @@ rm .tmux.conf
 rm ToggleTerminal 
 rm Validating-Credit-Card-Numbers.hs 
 rm -vfr /home/gjs/go/pkg/mod/github.com/ugorji/go@v1.1.4/codec
-rm .vimrc
 rm .vimrc.swp
 rm wechat 
 rm wget-log 
@@ -5155,7 +5212,6 @@ ssh -p 8002 admin@127.0.0.1
 \ssh -p 8011 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
 \ssh -p 8022 -i .ssh/web-dev.pem ubuntu@52.80.24.136
 \ssh -P 8022 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
-sshpass
 sshpass 87Co7r scp online_tools/ -o -p 12118 hypereal@registry-corp.hypereal.com:online_tools/
 sshpass 87Co7r scp online_tools/ -o "StrictHostKeyChecking no" -p 12118 hypereal@registry-corp.hypereal.com:online_tools/
 sshpass 87Co7r ssh hyreal@10.0.10.59
@@ -5185,6 +5241,7 @@ sshpass -p admin ssh admin@ai-ssh.sihe6.com
 sshpass -p admin ssh admin@ai-ssh.sihe6.com 
 sshpass -p admin ssh admin@ai-ssh.sihe6.com < 8
 sshpass -p admin ssh admin@ai-ssh.sihe6.com <(echo 8)
+sshpass -p root ssh root@dl-6 -p 30263 -t 'bash --login'
 sshpass -p ssh hypereal@10.0.18.131
 sshpass -p s ssh gjs@10.0.18.131
 sshpass -p s ssh gjs@10.0.18.131 -t "sudo timeout 40 perf record -e cpu-clock -g /opt/flaw_checker/flaw_checker"
@@ -5227,9 +5284,11 @@ sss60
 ssss
 { sss;sleep 5; }
 sss;sleep 5
+stack
 stack clean *
 stack clean --full
 stack clean --help
+stack ghci
 stack ghci 
 stack ghc-mod --version
 stack ghc --version
@@ -5326,6 +5385,8 @@ sudo apt install docker
 sudo apt install docker.io
 sudo apt install emacs
 sudo apt install -f vim=2:8.0.1453-1ubuntu1
+sudo apt install gawk
+sudo apt install ghc
 sudo apt install gnome-software
 sudo apt install gnome-vim
 sudo apt install go
@@ -5335,9 +5396,9 @@ sudo apt install graphviz
 sudo apt install gstreamer1.0-libav
 sudo apt install gvim
 sudo apt install haskell
+sudo apt install haskell-stack
 sudo apt install hdevtools
 sudo apt install htop
-sudo apt install icdiff
 sudo apt install iftop
 sudo apt install ivm
 sudo apt install jq
@@ -5358,12 +5419,12 @@ sudo apt install neovim
 sudo apt install nethack-console 
 sudo apt install nethogs
 sudo apt install nettools
-sudo apt install net-tools
 sudo apt install nload
 sudo apt install nvidia
 sudo apt install nvidia-390
 sudo apt install nvidia-driver-390 
 sudo apt install openssh-server
+sudo apt install openssh-server 
 sudo apt install parallel
 sudo apt install pg
 sudo apt install  pkg-config
@@ -5373,6 +5434,7 @@ sudo apt install python-hy
 sudo apt install rename
 sudo apt install setxkbmap
 sudo apt install ssh
+sudo apt install stack
 sudo apt install sudo
 sudo apt install tldr
 sudo apt install tmux
@@ -5429,6 +5491,8 @@ sudo chown -R .docker gjs
 sudo chown -rf gjs *
 sudo chown -R gjs *
 sudo chown -R gjs .docker/
+sudo cp -r ~/.ssh/ /root/.ssh/
+sudo cp ~/.ssh/ /root/.ssh/
 sudo dd if=/dev/sda
 sudo \docker run -it -v fc:/root test "bash"
 sudo docker run --runtime=nvidia -it --rm nvidia/cuda:10.0-base nvida-smi 
@@ -5440,6 +5504,9 @@ sudo dpkg -i libcudnn7*.deb
 sudo dpkg -i nv-tensorrt-repo-ubuntu1804-cuda10.0-trt5.0.2.6-ga-20181009_1-1_amd64.deb
 sudo dpkg -i packages-microsoft-prod.deb
 sudo dpkg -i /tmp/nvidia-docker*.deb && rm /tmp/nvidia-docker*.deb
+sudo du -hl --max-depth=1 | sort
+sudo du -hl --max-depth=1 | sort -n
+sudo du -l --max-depth=1 | sort -n
 sudo /etc/init.d/mysqld start
 sudo /etc/init.d/sshresart
 sudo /etc/init.d/ssh start
@@ -5550,7 +5617,6 @@ sudo lsof -i:8085
 sudo lsof -i:8086
 sudo lsof -i:8087
 sudo ./make.bash 
-sudo make install
 sudo mkdir -p boot/efi
 sudo mkdir root
 sudo mkfs.ext4 /dev/mapper/loop*
@@ -5616,6 +5682,7 @@ sudo python3 blow_detector.py --name blow00
 sudo read a <(/dev/fd/59)
 sudo reboot
 sudo rm \[
+sudo rm fc
 sudo rm google-chrome.list.*
 sudo rm libgmp.so 
 sudo rm log
@@ -5624,6 +5691,7 @@ sudo rm logkeys.pid
 sudo rm './--no-timestamp' 
 sudo rm -r camera06-190121-231522-S5/
 sudo rm -rf *
+sudo rm -r fc
 sudo rm -rf grub
 sudo rm -rf /home/gjs/go/pkg/mod/github.com/ugorji/go/codec@v0.0.0-20190320090025-2dc34c0b8780
 sudo rm -rf /home/gjs/go/pkg/mod/github.com/ugorji/go@v1.1.4/codec
@@ -5639,6 +5707,7 @@ sudo rm /var/lib/apt/lists/partial/* &>/dev/null 2>&1
 sudo ./run.sh 
 sudo service mysql start
 sudo service mysql stop
+sudo service ssh restart
 sudo service usb_blow_detector status
 sudo ./shmq_recv
 sudo snap find bash 
@@ -5883,6 +5952,7 @@ tldr xargs
 TMPIP=$(echo $IP)
 tmp="   xy z"
 tmu
+tmux
 tmux 
 tmux new-session -d testing
 top | cat 
@@ -5948,6 +6018,7 @@ trap 'sleep 30' SIGRETURN
 trap sleep 3 EXIT
 trap sleep 3 HUP
 trap sleep 3 RETURN
+tree
 true || echo 1
 true && echo 1
 true && false || echo 1 || echo 2
@@ -6000,7 +6071,6 @@ type solve
 type ssh
 type '\ssh'
 type \ssh
-type sss
 type stack
 type stack 
 type "stack ghci"
@@ -6040,6 +6110,7 @@ unset FUNCNEST
 unset HOME
 unset IFS
 unset -n b
+unset PAGER
 us
 use mysql
 useradd  -G root test
@@ -6099,6 +6170,7 @@ vim .bash
 vim .bash/env.sh 
 vim .bash/feature.sh 
 vim ~/.bash_history 
+vim .bash_history 
 vim .bash_logout 
 vim ~/.bash_profile
 vim .bash_profile
@@ -6146,6 +6218,7 @@ vim dl-k8s-kube/
 vim ~/.docker/config.json
 vim Dockerfile
 vim en-US-8-0.bdic 
+vim env.sh 
 vim /etc/
 vim /etc/default/keyboard
 vim /etc/default/keyboard 
@@ -6209,6 +6282,7 @@ vim mysql
 vim .netrwhist 
 vim number.hs 
 vim .ossutilconfig 
+vimpager 
 vim part10.lhs 
 vim part11.lhs 
 vim pipe.cpp 
@@ -6261,7 +6335,6 @@ vim ~/.vim/after/syntax/c.vim
 vim ~/.vim/after/syntax/py.vim
 vim .vimr
 vim  .vimrc
-vim .vimrc
 vim .vimrc 
 vim walk.go 
 vim .xbindkeysrc 
@@ -6358,188 +6431,3 @@ ysql
 zathura 
 Zathura
 zsh
-mkdir gh
-cd gh/
-ls
-git clone git://github.com/rkitover/vimpager
-cd vimpager/
-sudo make install
-vimpager 
-ls
-cd ~
-ls
-export PAGER=vimpager 
-man test
-ls
-git status
-git add --help
-export PAGER=most
-git add --help
-export PAGER=vimpager 
-git add --help
-ls
-vim
-ls
-rm nano.save*
-ls
-cd Steam/
-ls
-find .
-cd ..
-ls
-rm -rf Steam/
-ls
-cd Public/
-ls
-cat b
-ls
-rm b
-ls
-cd ..
-ls
-git status
-vim config.sh 
-git status
-./config.sh push
-ls
-cd .config/google-chrome/
-git staus
-git status
-cd ..
-ls
-cd ..
-ls
-vim config.sh 
-ls
-cd .config/google-chrome/
-git add -A
-git status
-cd ~
-ls
-cd -
-git reset HEAD
-git status
-cd ~
-ls
-vim config.sh 
-git submodule foreach --recursive git add -A
-cd .config/google-chrome/
-git status
-git reset HEAD 
-git statsus
-git status
-cd ~
-./config.sh push
-git status
-vim config.sh 
-ls
-git diff HEAD^
-git diff HEAD~2
-echo $USER
-echo $USERNAME
-ls
-tmux
-./install.sh 
-ls
-cd ~
-ls
-. .bashrc
-ls
-bash
-ls
-cd .bash
-ls
-vim env.sh 
-ls
-jobs
-cat /etc/issue
-ls
-ls
-cd gl/
-ls
-cd flaw_checker/
-ls
-cd ~
-l
-ls
-cd -
-ls
-cd ~
-history 
-vim .bash_history 
-cat .bash_history | awk /87Co7r/
-cat .bash_history | awk /a:~Co7r/
-cat .bash_history | awk /87Co7r/
-cat .bash_history | awk "$0 ~/.vim/colors/ '87Co7r'"
-cat .bash_history | awk $1 ~/.vim/colors/ '87Co7r
-cat .bash_history | awk $1 ~ 123
-cat .bash_history | awk /$1 ~ 123/
-cat .bash_history | grep awk
-cat .bash_history | awk '{print $0}'
-cat .bash_history | awk '$0 ~ /87Co7r/ {print $0}'
-cat .bash_history | awk '$0 !~ /87Co7r/ {print $0}'
-cat .bash_history | awk '$0 ~ /87Co7r/ {print $0}'
-cat .bash_history | awk '$0 !~ /87Co7r/ {print $0}'
-ls
-jobs
-git status
-nslookup registry-corp.hypereal.com
-ifconfig
-ls
-sudo apt install net-tools
-tree
-cd /root/
-ls
-sudo su
-ls
-sudo cp ~/.ssh/ /root/.ssh/
-sudo cp -r ~/.ssh/ /root/.ssh/
-sudo su
-ls
-unset PAGER
-echo $PAGER
-man test
-\man test
-PAGER=pg \man test
-PAGER="nano --view" \man test
-export PAGER="nano --view"
-\man test
-export PAGER=most
-\man test
-ls
-cd .bash/
-vim
-ls
-cd ~ls
-cd ~
-git status
-./config.sh push
-vim .vimrc
-curl -sSL https://get.haskellstack.org/ | sh
-sudo apt install stack
-stack
-sudo apt install haskell-stack
-stack ghci
-ghci
-sudo apt install ghc
-df -h
-df
-df -h
-ls
-sss
-ls
-type sss
-sshpass
-sss
-sshpass -p root ssh root@dl-6 -p 30263 -t 'bash --login'
-sudo rm fc
-sudo rm -r fc
-ls
-cd gl
-ls
-rm -rf blur_detection/
-ls
-cd saki_detection/
-ls
-mysql < mydb
-mysql

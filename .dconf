@@ -563,7 +563,7 @@ regular-auto-launch-interval=14
 release-check-time=uint32 1558662537
 
 [com/ubuntu/user-interface]
-scale-factor={'DP-4': 10, 'HDMI-0': 10}
+scale-factor={'HDMI-0': 10, 'DP-4': 10}
 
 [com/ubuntu/user-interface/desktop]
 scaling-factor=uint32 1

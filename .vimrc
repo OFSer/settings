@@ -73,13 +73,13 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "*",
     \ "Staged"    : "+",
-    \ "Untracked" : "@",
+    \ "Untracked" : "~",
     \ "Renamed"   : "%",
     \ "Unmerged"  : "^",
     \ "Deleted"   : "-",
-    \ "Dirty"     : "&",
-    \ "Clean"     : "~",
-    \ "Ignored"   : "$",
+    \ "Dirty"     : "$",
+    \ "Clean"     : "@",
+    \ "Ignored"   : "&",
     \ "Unknown"   : "?"
     \ }
 
