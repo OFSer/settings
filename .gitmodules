@@ -1,3 +1,6 @@
 [submodule "/home/gjs/.config/google-chrome"]
-	path = /home/gjs/.config/google-chrome
+	path = .config/google-chrome
 	url = git@github.com:chinnkarahoi/chrome.git
+[submodule "test"]
+	path = test
+	url = git@github.com:chinnkarahoi/test.git
