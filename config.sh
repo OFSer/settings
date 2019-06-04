@@ -201,9 +201,9 @@ proxy_run(){
 run(){
 	system_setting
 	config_mouse
-	other
 	update_source
 	install_vim
+	other
 	install
 	install_chrome
 	install_netease
