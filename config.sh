@@ -214,6 +214,9 @@ run(){
 	#config_privoxy
 }
 push(){
+	cd .config/google-chrome
+	git commit -am "upd" && git push
+	cd ~
 	msg=${1:-upd}
 	his=~/.bash_history
 	#echo "$(cat <(sort $his | sort | uniq -u) <(tail -n 1000 $his))" > $his
