@@ -1,3 +1,4 @@
+
 ------------+----------+-----------------+-----------------------------------------------------------------------------------+------+
 ;;
 :
@@ -5,6 +6,7 @@
 : ~
 ?
 .
+'
 [[ . =~ \. ]]
 $@
 $*
@@ -802,6 +804,7 @@ cat ghcmod.vim
 cat gocomplete.vim 
 cat /home/user/logs/monitor.pid
 cat htoprc 
+cat input-sources-converted 
 cat known_hosts
 cat .local/share/gsettings-data-convert
 cat <(ls -d */) '.'
@@ -832,6 +835,7 @@ ccd ..
 ./cconfigure 
 \cd
 \cd ~
+cd ~
 cd ~-
 cd ~-`
 cd ~!
@@ -868,7 +872,6 @@ cd anaconda3/
 cd api/
 cd applications/
 cd .bah
-cd ~/.bash/
 cd /bin/
 cd bin/
 cd bits/
@@ -941,6 +944,7 @@ cd `echo <(ls -d */ &> /dev/null || echo .) | head -n 1`
 cd EFI
 cd electronic-wechat/
 cd /etc
+cd /etc/apt/sources.list.d/
 cd /etc/init/
 cd /etc/init/rc
 cd /etc/ssh/
@@ -1022,6 +1026,7 @@ cd /lib/systemd/system
 cd .local/bin/
 cd .local/share/app-info/
 cd .local/share/app-info/xmls/
+cd .local/share/unity-settings-daemon/
 cd logkeys
 cd logkeys/
 cd ~ls
@@ -1092,6 +1097,7 @@ cd .st
 cd .sta
 cd stack
 cd ste
+cd .steam/
 cd syntax/
 cd system
 cd Target/
@@ -1497,7 +1503,6 @@ declare -t a
 #define END '\0'
 delcare -t a
 den': 0, 'listed': 0, 'changedtick': 301}, {'lnum': 0, 'bufnr': 6, 'variables': {'changedtick': 2}, 'name': '!bash (2)', 'changed': 1, 'loade
-df -h
 df -h -h
 df -l
 df  -T
@@ -1545,7 +1550,6 @@ disown -h 14779
 disown --help
 dmesg
 dmesg | grep "Memory:" -n -A 8
-docker 
 docker build .
 docker build . -t registry-sho.hypereal.com/dl/dl-tf:190201
 docker build . -t registry-sho.hypereal.com/dl/dl-tf:190301
@@ -1565,12 +1569,18 @@ docker commit 9dc5feeb949a flawck
 docker commit a26de13842a6 ubuntu:16.04
 docker commit cf775521fdd2 ubuntu:16.04
 docker commit e62401416096 flawck
+docker exec e8913cd65083
+docker exec --help e8913cd65083
 docker exec -it ad7ced710bcd /bin/bash
+docker exec -it e8913cd65083
+docker exec -it e8913cd65083 /bin/bash
+docker exec -it e8913cd65083 "/bin/bash"
 docker exec  -it jms_all /bin/bash
 docker exec -it jms_all /bin/bash -v ~:/root
 docker exec -it -v ~:/root jms_all /bin/bash
 docker exec -v ~:/root -it jms_all /bin/bash
 docker exec v ~:/root -it jms_all /bin/bash
+docker --help
 docker --help | grep list
 docker image prune
 docker image prune --force --all
@@ -1586,7 +1596,10 @@ docker -it -v fc:/root ubuntu:16.04
 docker -it -v fc:/root ubuntu:16.04 run /bin/bash
 docker jobs
 docker list
+docker ps --all
 docker ps -a -q
+docker ps -l
+docker ps -n
 docker pull registry.jumpserver.org/public/jumpserver:1.0.0
 docker pull registry-sho.hypereal.com/library/sho-k8s-tools:v20190308
 docker push . -t registry-sho.hypereal.com/dl/dl-tf:190301
@@ -2604,6 +2617,7 @@ git chekcout saki
 git chekcout -- .vimrc
 git clean
 git clean 
+git clean -df
 git clean --help
 git clone git@github.com:chinnkarahoi/settings.git
 git clone git@gitlab.sho.hypereal.com:AIFactory/ai-cloth-webserver.git
@@ -2763,6 +2777,7 @@ git commit -m "vim remove auto lcd"
 git config --global core.pager 'less -x1,3'
 git config --global core.pager 'less -x1,4'
 git dff
+git diff
 git diff^
 git diff addBlindInfo
 git diff .bash_profile
@@ -2776,6 +2791,7 @@ git diff --cached
 git diff --cached config.sh
 git diff --cached run.sh
 git diff .con
+git diff .config/fcitx/conf
 git diff .config/unity-monitors.xml
 git diff crawler.sh
 git diff dconf .dconf
@@ -2811,6 +2827,7 @@ git diff run.sh
 git diff sql.sh
 git diff .vim
 git diff .vim/
+git diff .vim/autoload/plug.vim
 git diff .vim/ftplugin/cpp.vim
 \git diff .vimrc
 git fetch --help
@@ -2894,6 +2911,7 @@ git reset HEAD^
 git reset HEAD^1 --hard
 \git reset HEAD --hard 
 git reset HEAD^ --hard
+git reset HEAD --hard
 git reset HEAD submodules/saki_detection
 git reset remotes/origin/ssh-proxy
 git revert f674dffc3679de9789500d98b429cec4cba4dbd9
@@ -3451,7 +3469,6 @@ line='aab'
 [[ $line =~ ([[:space:]])(a)b ]] && echo 1
 ./list.sh 
 lks
-ll
 ll 
 ll 1
 ll -a ??
@@ -3878,6 +3895,7 @@ mkdir /boot/efi
 mkdir build
 mkdir cis194
 mkdir db
+mkdir Desktop
 mkdir disk
 mkdir dll
 mkdir doc
@@ -4418,6 +4436,7 @@ rm file
 rm File 
 rm flaw_checker.tar 
 rm .gitigore 
+rm google-chrome.list.*
 rm grep
 rm grep 
 rm .hdevtools.sock 
@@ -5297,6 +5316,7 @@ sudo apt install docker
 sudo apt install docker.io
 sudo apt install emacs
 sudo apt install -f vim=2:8.0.1453-1ubuntu1
+sudo apt install gnome-software
 sudo apt install gnome-vim
 sudo apt install go
 sudo apt install gocode
@@ -5318,6 +5338,8 @@ sudo apt install latexmk
 sudo apt install libavcodec-extra-53
 sudo apt install libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
 sudo apt install  libgtk2.0-dev
+sudo apt install libnvidia-gl-390
+sudo apt install libnvidia-gl-418:i386
 sudo apt install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
 sudo apt install minikube
 sudo apt install moc
@@ -5329,6 +5351,8 @@ sudo apt install nettools
 sudo apt install net-tools
 sudo apt install nload
 sudo apt install nvidia
+sudo apt install nvidia-390
+sudo apt install nvidia-driver-390 
 sudo apt install openssh-server
 sudo apt install parallel
 sudo apt install pg
@@ -5362,9 +5386,9 @@ sudo apt-mark hold kubelet kubeadm kubectl
 sudo apt purge vim
 sudo apt remove --force ubuntu-desktop 
 sudo apt remove gnome-desktop3-data 
-sudo apt remove gnome-software
 sudo apt remove nethack*
 sudo apt remove --purge gnome-software*
+sudo apt remove --purge nvidia-*
 sudo apt remove --purge  steam*
 sudo apt remove --purge vim
 sudo apt remove vim
@@ -5580,13 +5604,16 @@ sudo perf record -e cpu-clock -g ./flaw_checker
 sudo  pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
 sudo python3 blow_detector.py --name blow00
 sudo read a <(/dev/fd/59)
+sudo reboot
 sudo rm \[
+sudo rm google-chrome.list.*
 sudo rm libgmp.so 
 sudo rm log
 sudo rm logkes.pid
 sudo rm logkeys.pid
 sudo rm './--no-timestamp' 
 sudo rm -r camera06-190121-231522-S5/
+sudo rm -rf *
 sudo rm -rf grub
 sudo rm -rf /home/gjs/go/pkg/mod/github.com/ugorji/go/codec@v0.0.0-20190320090025-2dc34c0b8780
 sudo rm -rf /home/gjs/go/pkg/mod/github.com/ugorji/go@v1.1.4/codec
@@ -6109,7 +6136,6 @@ vim dl-k8s-kube/
 vim ~/.docker/config.json
 vim Dockerfile
 vim en-US-8-0.bdic 
-vim env.sh 
 vim /etc/
 vim /etc/default/keyboard
 vim /etc/default/keyboard 
