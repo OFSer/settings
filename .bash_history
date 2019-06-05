@@ -569,6 +569,7 @@ a={a,b}{c,d}
 a='abc\nabc'
 [[ a == a ]]; echo $?
 [ A == a ] && echo 1
+aafire --help
 ab
 a+=$b
 a+=${b}
@@ -632,11 +633,14 @@ a='\n'
 ans=$(zenity --scale --text "pick a number" --min-value=2 --max-value=100 --value=2 
 [[ a =~ $pattern ]] && echo 1
 [[ a =~ $pattern] && echo 1
+apt-build moo
 apt-cache madison search julia
 apt-cache search dict
 apt-cache search julia
+apt-get -h
 apt-get install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
 apt-get install -y kubelet kubeadm kubectl
+apt-get moo
 apt-get update && apt-get install -y apt-transport-https curl
 apt install gnome-vim
 apt install ifconfig
@@ -645,6 +649,11 @@ apt install openssh-server
 apt install setxkbmap
 apt install sshpass
 apt install -y yasm pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
+aptitude -vvv moo
+aptitude -vvvvv moo
+aptitude -vvvvvv moo
+aptitude -vvvvvvv moo
+aptitude -vvvvvvvvvvvvvvvvvvvvvvvvv moo
 apt search dict
 apt search dictionary
 apt search search julia
@@ -663,6 +672,9 @@ as
 ascii a
 ascii "$a"
 ascii $a
+asciiquarium
+asciiquarium 
+asciiquarium  | lolcat
 asdgasd
 asdgasdfasdfasdfasdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 a=`sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p 14101 hypereal@registry-corp.hypereal.com -t "ls /data/saki/tmp"`
@@ -775,6 +787,7 @@ cat 3<2
 cat &<5
 cat <6
 cat abc-file | parallel echo
+cataclysm 
 cataclysm  --help
 cat asdf
 cat b
@@ -849,7 +862,9 @@ cd ~-
 cd ~-`
 cd ~!
 cd ~/
+cd -
 cd /
+cd .
 cd ../
 cd ../..
 cd ...
@@ -858,6 +873,7 @@ cd 1
 cd ~+1
 cd -1
 cd -~1
+cd 1141/
 cd 18aa974c-2266-4d72-8a1e-aa8bf26d25a6/
 \cd ~-2
 cd -2
@@ -880,9 +896,8 @@ cd after/
 cd anaconda3/
 cd api/
 cd applications/
+cd auxiliary_tools/
 cd .bah
-cd .bash
-cd .bash/
 cd /bin/
 cd bin/
 cd bits/
@@ -902,6 +917,8 @@ cd camera01-190216-141151-S5
 cd `cat <(ls -d */ &> /dev/null || echo .) | head -n 1`
 cd /cdrom/
 cd cd third_party/ycmd/third_party/
+cd Certificate
+cd CertificateTransparency/
 cd cin
 cd clang/
 cd CloudMusic/
@@ -918,6 +935,7 @@ cd .config/dconf/
 cd .config/evolution/
 cd .config/gnome-
 cd .config/gnome-games/
+cd .config/google-chrome/
 cd ~/.config/google-chrome/Default/Extensions
 cd .config/gtk-3.0/
 cd .config/gtk-4.0/
@@ -929,6 +947,7 @@ cd ~/cp
 cd cpp/
 cd cpp/test/
 cd d
+cd db/
 cd .dbus/
 cd dd
 cd default/
@@ -982,12 +1001,12 @@ cd fcitx/
 cd fc/sa
 cd fc/sshproxy/
 cd fd/
+cd ffmpeg/
 cd file/
 cd files/
 cd find . | grep std
 cd find . | grep stdc
 cd fl
-cd flaw_checker/
 cd fonts/
 cd freefont/
 cd ftplugin/
@@ -997,7 +1016,9 @@ cd gh/
 cd .git/
 cd gjs
 cd gl
+cd gl/flaw_checker/
 cd ./glib-2.0/schemas/
+cd gl/saki_detection/
 cd godef/
 cd golang
 cd google-chrome/
@@ -1055,6 +1076,8 @@ cd /mnt/boot/
 cd mod/
 cd mysql/
 cd nerdtree
+cd nerdtree-git-plugin/
+cd nerdtree_plugin/
 cd ./.nuget/
 cd ~/o
 cd online_tools/
@@ -1070,13 +1093,14 @@ cd ./osu.Game.Tests/Resources/
 cd osu-lazer-linux-installer
 cd p
 cd p-
-cd pack/
 CDPATH=/
 CDPATH=123
 cd ../plug
 cd plugged
+cd plugged/
 cd plugged/YouCompleteMe/
 cd ../plugin/
+cd plugin/
 cd port/
 cd /proc/
 cd /proc/self/fd
@@ -1090,7 +1114,6 @@ cd rc.local
 cd rogpeppe/
 cd root
 cd run
-cd saki_detection/
 cd sbin/
 cd sem
 cd server/
@@ -1098,6 +1121,8 @@ cd settings/
 cd share/app
 cd shm
 cd shmls/
+cd shmmsg/
+cd snap/
 cd SogouPY
 cd SogouPY.users/
 cd sources/
@@ -1121,6 +1146,7 @@ cd templates/
 cd tes
 cd ~/tes
 cd ~/test/
+cd test/
 cd test/cpp/test/
 cd ~/test/empty/
 cd ~/test/IPC/
@@ -1128,7 +1154,6 @@ cd test/IPC/
 cd ~/test/os
 cd test/os
 cd tex/
-cd third_party/
 cd /third_party/ycmd
 cd tmp
 cd /tmp/
@@ -1161,11 +1186,13 @@ cd .vim/after/syntax/
 cd .vim/after/syntax/p
 cd .vim/after/syntax/py.vim
 cd vim-go/
+cd ~/.vim/nerdtree_plugin/override_tab_mapping.vim
 cd vimpager/
 cd ~/.vim/plugged/
 cd ~/.vim/plugged/neodark.vim
 cd .vim/plugged/YouCompleteMe/
 cd .vimr
+cd vscode/
 cd ~/work/
 cd ./x86_64-linux-gnu/c++/7/
 cd yaml/
@@ -1222,6 +1249,7 @@ clang-format -style="{BasedOnStyle: WebKit, IndentWidth: 2,BreakBeforeBraces: Cu
 cloc *
 cloc *.py
 cmake .
+cmatrix
 cmp -l artifacts.zip 'artifacts (1).zip'
 command
 command -l
@@ -1291,6 +1319,7 @@ config
 ./config.sh proxy_run
 ./config.sh pull
 . config.sh push
+./config.sh push
 ./config.sh push "add font"
 ./config.sh push "comment ycm python path"
 ./config.sh push "diable
@@ -1328,6 +1357,10 @@ coproc read a
 coproc (read a;echo $a;sleep 600;)
 coproc sleep 1
 coproc sleep 5
+cowsay 
+cowsay  asdf
+cowsay  asdf | lolcat
+cowsay --help
 cp * ../../fc/sshproxy/
 cp haskell.vim cpp.vim
 cp --help
@@ -1447,6 +1480,7 @@ curl www.google.com
 curl -X GET http://127.0.0.1:5000/cmd/service
 curl -X HEAD http://127.0.0.1:5000/cmd/service
 curl -X POST -d method=restart http://127.0.0.1:5000/cmd/service
+[ -d . ]
 dash --help
 dash ls
 data +%Y%m%d
@@ -1500,6 +1534,7 @@ dd
 dd if=/dev/sda
 dd if=/dev/zero of=im bs=1M count=100
 deb https://apt.kubernetes.io/ kubernetes-xenial main
+[ -d . ] && echo 1
 declare -A
 declare a=b
 declare -ap
@@ -1523,6 +1558,7 @@ den': 0, 'listed': 0, 'changedtick': 301}, {'lnum': 0, 'bufnr': 6, 'variables': 
 df -h -h
 df -l
 df  -T
+[ -d gl ] && echo 1
 dialog
 DIALOG
 $DIALOG --backtitle "Package configuration"        --title "Configuring sun-java6-jre"        $OPTS \
@@ -1661,6 +1697,7 @@ docker run -i 5295fec4d1ea -t /bin/bash
 docker run -it 190201 /bin/bash
 docker run -it 5295fec4d1ea
 docker run -it fc:/root ubuntu:16.04 /bin/bash
+docker run -it registry-sho.hypereal.com/ci/flawck-mk2
 docker run -it registry-sho.hypereal.com/dl/dl-tf
 docker run -it registry-sho.hypereal.com/dl/dl-tf /bin/bash
 docker run -it registry-sho.hypereal.com/library/sho-k8s-tools
@@ -1729,12 +1766,12 @@ dotnet-sdk.dotnet run
 dotnet-sdk.dotnet run --project osu.Desktop
 du
 du -h
-du -hl
 du -hl --max-depth=
 du -hl --max-depth==1
 du -l
 du -l --max-depth=1| sort -n -k 1
 du -l | sort -n -k 1
+[ -d .vimrc ] && echo 1
 echi $HISTCMD
 ( echo $$ )
 echo `.`
@@ -2137,8 +2174,8 @@ echo "IFS"
 echo ${IFS}
 echo "$IFS" | od  -b
 echo "$IFS"  | od -b
+echo $LC_ALL 
 echo  $LC_MESSAGES
-echo $LD_PRELOAD 
 echo "{'lnum': 14, 'bufnr': 1, 'variables': {'current_syntax': 'vim', 'changedtick': 3}, 'name': '/home/gjs/.vimrc', 'changed': 0, 'loaded': 1, 'w
 echo [{'lnum': 14, 'bufnr': 1, 'variables': {'current_syntax': 'vim', 'changedtick': 3}, 'name': '/home/gjs/.vimrc', 'changed': 0, 'loaded': 1, 'w
 echo $localhost
@@ -2248,6 +2285,7 @@ enable -p
 enable -p | grep test
 env
 <<EOF
+eog
 eog 0000.png
 eog 1.jpg
 eog 256.png 
@@ -2369,6 +2407,7 @@ fdisk /dev/sdc
 fdisk vd
 fd -l
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff@gjs:~$ 
+ffg
 ffmpeg 
 ffmpeg -aq 100 -f image2 -i %04d.png video.mpg
 ffmpeg -aq  -f image2 -i %04d.png video.mpg
@@ -2423,6 +2462,7 @@ file:///.
 file=camera07-190125-093353-S5.tar
 file:///home/gjs/fc/saki_detection/pack/通元02-GPU号/camera06-190125-153140-S5
 file:///home/gjs/fc/saki_detection/通元02-GPU号/camera06-190125-153140-S5
+find .
 find ab cpp
 find . |grep cmath
 find . | grep dota
@@ -2516,6 +2556,10 @@ for i in `ls *.png`;do mv $i `printf %05d t`.png; done
 for i in $var;do echo $i; done
 for i in $var;do echo $i | od -b; done
 fork
+fortune --help
+fortune-mod
+forture
+forturn
 for x in $TMPIP ;do      Xip="${x}.$Xip"; done
 from PIL import Image
 fsdfsadf
@@ -2548,18 +2592,18 @@ g++ -fPIC -shared -o ./dll/libadd.so add.cpp
 ggit status
 ghc
 ghc --help
-ghci
 ./ghci
 ghc-mod --help
 ghi
 git 
 git add ,.
-git add .
 git add 1.sh
 git add -a
+git add -A
 git add - A
 git add .bash_profile 
 git add blow_check/usb_blow_detector
+git add build_all.sh 
 git add dll
 git add -f after autoload/ colors/ ftplugin/
 git add -f .bash
@@ -2575,13 +2619,16 @@ git add saki_detection/
 git add scp.sh 
 \git add src/camera_process.cpp 
 git add submodules/saki_detection/
-git add .vimrc 
+git add third_party/build_all.sh 
+git add .vim/plugin/quit.vim 
 git add .ycm_extra_conf.py
 git barnch
 git branch- a
 git branch -A
 git branch -b optimize
 git branch -d jumpserver
+git branch -d mk3-ci
+git branch -D mk3-ci
 git branch -D new_branch_name
 git branch -D point_blow 
 git  branch -d public
@@ -2603,6 +2650,10 @@ git checkout -b craw
 git checkout -b craw remotes/origin/craw
 git checkout -b dev
 git checkout -- blow_check/BlowProcess_PointLaser.cpp
+git checkout -b mk2.5
+git checkout -b mk3-dockerize
+git checkout -b mk3 origin/mk3
+git checkout -b net_camera-dockerize
 git checkout -b opt
 git checkout -b optimize
 git checkout -b pinyin
@@ -2627,7 +2678,7 @@ git checkout jumpserver
 git checkout jumpserver/
 git checkout -- labeler.sh
 git checkout master interface.py
-git checkout net_camera
+git checkout mk3-dockerize .gitlab-ci.yml
 git checkout new_blow blow_check/BlowChecker_LineLaser.cpp
 git checkout new_branch_name 
 git checkout opt
@@ -2650,12 +2701,14 @@ git chekcout saki
 git chekcout -- .vimrc
 git clean
 git clean 
-git clean -df
-git clean --help
+git clean -df 
+git clean -fdx
+git clean -ffdx
 git clone git@github.com:chinnkarahoi/settings.git
 git clone git://github.com/rkitover/vimpager
 git clone git@gitlab.sho.hypereal.com:AIFactory/ai-cloth-webserver.git
 git clone git@gitlab.sho.hypereal.com:AIFactory/blow_check.git
+git clone git@gitlab.sho.hypereal.com:AIFactory/shmmsg.git
 git clone git@gitlab.sho.hypereal.com:go/common-util.git
 git clone git@gitlab.sho.hypereal.com:go/http-hello.git
 git clone git@gitlab.sho.hypereal.com:monitoring/prometheus-exporter.git
@@ -2765,6 +2818,7 @@ git commit -m "pull"
 git commit -m "re-add .config/dconf/user"
 git commit -m "reconstruct"
 git commit -m "reconstruct .bashrc"
+git commit -m "redefine nerdtree t"
 git commit -m "remove all dark"
 git commit -m "remove bash tabline"
 git commit -m "remove file"
@@ -2783,9 +2837,7 @@ git commit -m "set vim term tab title"
 git commit -m "sh -> md"
 git commit -m "start from 0"
 git commit -m "test"
-git commit -m "upd"
 git commit -m "upd cal method"
-git commit -m "upd ci"
 git commit -m "upd config response"
 git commit -m "upd cookie"
 git commit -m "upd count"
@@ -2813,7 +2865,6 @@ git commit -m "vim remove auto lcd"
 git config --global core.pager 'less -x1,3'
 git config --global core.pager 'less -x1,4'
 git dff
-git diff
 git diff^
 git diff addBlindInfo
 git diff .bash_profile
@@ -2825,6 +2876,7 @@ git diff --cachecd
 \git diff --cached
 git diff --cached config.sh
 git diff --cached run.sh
+git diff --cached .vimrc
 git diff .con
 git diff .config/fcitx/conf
 git diff .config/unity-monitors.xml
@@ -2835,6 +2887,7 @@ git diff detection.cpp
 \git diff dev
 git diff .gitconfig
 git diff .gitignore
+git diff HEAD^^
 git diff HEAD~2
 git diff HEAD~2 config.sh
 git diff HEAD^3 .config/gtk-3.0/gtk.css
@@ -2857,6 +2910,7 @@ git diff HEAD^^ .vimrc
 git diff master
 git diff master blow_detector.py
 git diff master interface.py
+git diff mk3-dockerize .gitlab-ci.yml
 git diff new_blow 
 git diff run.sh
 git diff sql.sh
@@ -2865,8 +2919,10 @@ git diff .vim/
 git diff .vim/autoload/plug.vim
 git diff .vim/ftplugin/cpp.vim
 \git diff .vimrc
+git diff .vimrc
 git fetch --help
 git fetch master
+git flaw_checker/
 git@github.com:chinnkarahoi/settings.git
 git git status
 git idff
@@ -2899,6 +2955,7 @@ git pull origin dev --recurse-submodules
 git pull origin gjsz
 git pull origin optparam
 git pull --rebase 
+git pull --recurse-submodules 
 git push origin master
 git push origin point_blow
 git push origin saki
@@ -2909,6 +2966,7 @@ git push public HEAD:master
 git push --set-upstream origin craw
 git push --set-upstream origin master
 git push --set-upstream origin mk3-dockerize 
+git push --set-upstream origin net_camera-dockerize
 git push --set-upstream origin new_blow_tmp
 git push --set-upstream origin optimize 
 git push --set-upstream origin point_blow
@@ -2929,13 +2987,13 @@ git remote add origin git@github.com:chinnkarahoi/DotaAutoChess.git
 git remote add origin git@github.com:chinnkarahoi/haskell-vim.git
 git remote add origin git@github.com:chinnkarahoi/IPC.git
 git remote add origin git@gitlab.sho.hypereal.com:jingshen.gao/analysis-flawck.git
+git remote --help
 git remote remove origin
 git remote set-url --delete origin git@github.com:chinnkarahoi/haskell-vim.git
 git remote set-url origin
 git remote set-url --push --all origin git@github.com:chinnkarahoi/haskell-vim.git
 git remote set-url --push origin git@github.com:chinnkarahoi/haskell-vim.git
 \git remote show origin
-git remote show origin
 git remote update  origin
 git remove -v
 git reset 87b2a8aba67e7445dd17c769c54dbd87d92d37dd
@@ -2989,18 +3047,22 @@ git stash apply
 git stash list
 git stash pop
 git stash .vimrc
+git stastus
 git staths
 git statsus
 git statu
 git statuis
 git st atus
 git statusz
-git staus
 git ststaus
 git ststua
 git sttatus
 git submodule foreach --recursive git add -A
+git submodule -h
+git submodule --help
 git submodule --init
+git submodule update
+git submodule update 
 git submodule update a03b17558683735d4149835d2c3a0de75ecd42e0 submodules/saki_detection/
 git submodule update --init --recursive 
 git submodule update --init -–recursive
@@ -3058,6 +3120,11 @@ go get -v -u golang.org/x/tools/go/gcexportdata
 go get -v -u google.golang.org/grpc
 go help modules
 go install
+gold 
+gold back
+goldendict 
+goldendict --help
+gold  --help
 go mod tidy
 google-chrome https://baidu.com
 go run main
@@ -3362,6 +3429,7 @@ jobs -n
 jobs -r
 jobs -s
 jobvs
+josb
 jq
 julia
 julia --color=yes
@@ -3412,6 +3480,7 @@ kill -9 6134
 kill 9740
 killall -9 dota2
 killall -9 electronic-wechat
+killall -9 electronic-wechat 
 killall -9 "sudo ./test_c"
 killall --help
 killall -V
@@ -3448,7 +3517,6 @@ kill -TERM 4258
 kill -term 7491
 kpartx -av /dev/loop20
 kubectl version
-l
 ./la
 ./labeler.sh
 ./labeler.sh  > /dev/null
@@ -3482,7 +3550,6 @@ l
 ./label.sh &> /dev/null
 latex
 lcdiff
-ld
 ldconfig -p
 ldconfig -p | grep libGL
 ldd
@@ -3553,7 +3620,9 @@ ll -t
 ln --help
 ln -s /home/gjs root
 ln -s ../../.vimrc .vimrc
+local
 localc
+locale
 locale -a
 logger
 logger 123
@@ -3842,6 +3911,11 @@ man contab
 man crontab
 man curl | grep head 
 man curl | head 
+man -D 1 man 
+man -D 1 sprintf
+man -D 2 man 
+man -D 2man 
+man -D 2 printf
 man dash
 man df | cache
 man df | grep cache
@@ -3854,6 +3928,7 @@ man ffmpeg | grep format
 man find 
 man find | grep file
 man find | grep type
+man fortune
 man g++
 man g++ | grep '-I'
 man g++ | grep '\-l'
@@ -3864,6 +3939,8 @@ man g++ | grep ' *\-r'
 man g++ | grep '\ *-r'
 man g++ | grep '\-r'
 man gjs
+man gold 
+man goldendict
 man grep
 man hexdump
 man hexdump 
@@ -3872,11 +3949,15 @@ man hup
 man imagetops
 man ipcs
 man jobs
+man -k man
+man -k printf
 man lesspipe
 \man librt
 man lrt
 man ls | vi -
 man ls | vim -
+man man.7
+man mazn
 man mmap
 man mocp
 man mysql
@@ -3907,7 +3988,12 @@ man set
 man set-title
 man shift
 man shopt
+man snap
 man solve 
+man sprintf
+man sprintf 3
+man sprintf(3)
+man sprintf -D 3
 man ssh_config | grep ClienAliveInterval
 man sshd_config 
 man sudo
@@ -3966,6 +4052,7 @@ mkdir lib
 mkdir -p $GOPATH/src/golang.org/x/
 mkdir -p /mnt/boot
 mkdir -p ~/.vim/colors/
+mkdir -p ~/.vim/nerdtree_plugin/override_tab_mapping.vim
 mkdir py
 mkdir python
 mkdir root
@@ -3976,6 +4063,7 @@ mkdir syntax
 mkdir tex
 mkdir tmp
 mkdir udp
+mkdir ~/.vim/nerdtree_plugin/override_tab_mapping.vim
 mkdir ~/work
 mkfs.ext4 /dev/mapper/loop*
 moc .
@@ -4005,6 +4093,7 @@ mv "Droid Sans Mono Nerd Font Complete.otf" DroidSansMonoNerdFontComplete.ttf
 mv "Droid Sans Mono Nerd Font Complete.ttf" DroidSansMonoNerdFontComplete.ttf
 mv exercism/ haskell/
 mv .gitignore blow_check/
+mv gl/ fc/
 mv ~/go/src/http-hello .
 mv haskell/ exercism
 mv haskell.vim haskel.vim
@@ -4499,6 +4588,7 @@ rm fff fd ipc file
 rm file
 rm File 
 rm flaw_checker.tar 
+rm -f override_tab_mapping.vim/
 rm .gitigore 
 rm google-chrome.list.*
 rm grep
@@ -4526,6 +4616,7 @@ rm "--no-timestamp"
 rm osu/
 rm out 
 rm output*
+rm override_tab_mapping.vim/
 rm pipe
 rm *.png
 rm 'port?mac=40-B0-76-7B-EC-C3' 
@@ -4555,6 +4646,7 @@ rm -rf log
 rm -rf os
 rm -rf osu/
 rm -rf osu-lazer-linux-installer/
+rm -rf override_tab_mapping.vim/
 rm -rf prometheus-exporter/
 rm -rf root/
 rm -rf savesave 
@@ -4767,6 +4859,7 @@ sleep 100 &
 sleep 10000
 sleep 100m
 sleep 1 2 3
+sl-h
 slslslslsls
 snap help refresh
 sol
@@ -5280,6 +5373,7 @@ ssh -XYC gjs@dl-5
 ssh -XYC gjs@dl-5 mocp
 \ssh zyk@mac
 sslsslsl
+sss
 sss60
 ssss
 { sss;sleep 5; }
@@ -5326,6 +5420,7 @@ su
 sudo ./1
 sudo add-apt-repository multiverse
 sudo add-apt-repository ppa:jonathonf/vim
+sudo add-apt-repository ppa:ytvwld/asciiquarium
 sudo add-apt-repository universe
 sudo add-apt-repository -y ppa:jonathonf/vim
 sudo apt-cached madision bash
@@ -5335,6 +5430,7 @@ sudo apt-cache madison bash
 sudo apt-cache madison ubuntu-unity-desktop
 sudo apt-cache madison vim
 sudo apt-get install apt-transport-https
+sudo apt-get install asciiquarium
 sudo apt-get install build-essential
 sudo apt-get install gstreamer0.10-ffmpeg
 sudo apt-get install gstreamer1.0-libav
@@ -5365,6 +5461,7 @@ sudo apt-get install -y kubelet kubeadm kubectl
 sudo apt-get update && apt-get install -y apt-transport-https curl
 sudo apt install  
 sudo apt install aclocal
+sudo apt install amatrix
 sudo apt install aptitude
 sudo apt install ascii
 sudo apt install autoconf
@@ -5380,10 +5477,14 @@ sudo apt install cabal-install
 sudo apt install cataclysm
 sudo apt install Cataclysm
 sudo apt install cloc
+sudo apt install cmatrix
+sudo apt install cowsay
 sudo apt install dialog
 sudo apt install docker
 sudo apt install docker.io
 sudo apt install emacs
+sudo apt install eog
+sudo apt install fortune
 sudo apt install -f vim=2:8.0.1453-1ubuntu1
 sudo apt install gawk
 sudo apt install ghc
@@ -5392,6 +5493,9 @@ sudo apt install gnome-vim
 sudo apt install go
 sudo apt install gocode
 sudo apt install golang=1.12
+sudo apt install goldendict
+sudo apt install goldendict goldendict-wordnet -y
+sudo apt install goldendict -y
 sudo apt install graphviz
 sudo apt install gstreamer1.0-libav
 sudo apt install gvim
@@ -5406,12 +5510,14 @@ sudo apt install julia
 sudo apt install julius
 sudo apt install latex
 sudo apt install latexmk
+sudo apt install libaa-bin
 sudo apt install libavcodec-extra-53
 sudo apt install libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
 sudo apt install  libgtk2.0-dev
 sudo apt install libnvidia-gl-390
 sudo apt install libnvidia-gl-418:i386
 sudo apt install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
+sudo apt install lolcat
 sudo apt install minikube
 sudo apt install moc
 sudo apt install mono-devel 
@@ -5433,6 +5539,7 @@ sudo apt install python3-hy
 sudo apt install python-hy
 sudo apt install rename
 sudo apt install setxkbmap
+sudo apt install sl
 sudo apt install ssh
 sudo apt install stack
 sudo apt install sudo
@@ -5524,6 +5631,8 @@ sudo find . | grep shmmsg
 sudo ghci
 sudo git add .
 sudo git add -A
+sudo git branch -d mk2.5
+sudo git clean -df
 sudo git clean -fd
 sudo git commit -a -m "fix"
 sudo git commit -a -m "fix file read bug"
@@ -5714,7 +5823,7 @@ sudo snap find bash
 sudo snap find julia
 sudo snap find vim
 sudo snap instal code
-sudo snap install cataclysm
+sudo snap install asciiquarium
 sudo snap install  cataclysm
 sudo snap install docker
 sudo snap install dotnet-sdk
@@ -6181,6 +6290,8 @@ vim .bashrc.bak
 vim ~/.bashrh
 vim bookmarks 
 vim BOOTX64.EFI 
+vim build/
+vim build_all.sh 
 vim c
 vim cabal.vim 
 vim Calc.hs 
@@ -6218,7 +6329,6 @@ vim dl-k8s-kube/
 vim ~/.docker/config.json
 vim Dockerfile
 vim en-US-8-0.bdic 
-vim env.sh 
 vim /etc/
 vim /etc/default/keyboard
 vim /etc/default/keyboard 
@@ -6244,6 +6354,7 @@ vim .git
 vim .gitconfig 
 vim .gitmodules 
 vim git status
+vim git_status.vim 
 vim-gnome
 vim go11.go 
 vim go_test.go 
@@ -6292,7 +6403,6 @@ vim PS1rc
 vim PS1.sh
 vim py.vim 
 vim -r 1
-vim README.md 
 vim README.sh
 vim recently-used.xbel
 vim record.txt 
@@ -6329,6 +6439,7 @@ vim .tmux.conf
 vim ToggleTerminal 
 vim usb_blow_detector.service 
 vim Validating-Credit-Card-Numbers.hs 
+vim --version
 vim version.
 vim version.h 
 vim ~/.vim/after/syntax/c.vim
@@ -6345,6 +6456,10 @@ vium
 watch -n 10 date
 watch -n 1 date
 ' | wc -c
+wd
+wd -s synopsis
+wd -s sysnopsis
+wd -s test
 weupj;lksafdasdfcxvz./,mbv      
 wget baidu.coim
 wget baidu.com

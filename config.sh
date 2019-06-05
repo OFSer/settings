@@ -9,9 +9,8 @@ snap_install(){
 install_wd(){
 	pip3 install bs4
 	pip3 install lxml
-	cd ~/Downloads
-	git clone https://github.com/chestnutheng/wudao-dict
-	cd ./wudao-dict/wudao-dict
+	git clone https://github.com/chestnutheng/wudao-dict .wudao-dict
+	cd .wudao-dict/wudao-dict
 	sudo bash setup.sh
 	cd ~
 }
