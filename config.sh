@@ -1,7 +1,24 @@
 #!/bin/bash
 cd ~
+snap_install(){
+	sudo snap install code --classic
+	sudo snap install electronic-wechat
+	sudo snap install nethack
+	sudo snap install cataclysm
+}
+install_wd(){
+	pip3 install bs4
+	pip3 install lxml
+	cd ~/Downloads
+	git clone https://github.com/chestnutheng/wudao-dict
+	cd ./wudao-dict/wudao-dict
+	sudo bash setup.sh
+	cd ~
+}
 install_tools(){
-	sudo apt install -y tree net-tools nethogs openssh-server
+	sudo apt install -y tree net-tools nethogs openssh-server 
+	sudo apt install -y sl cmatrix fortune cowsay lolcat asciiquarium
+	sudo apt install -y python3 python3-pip 
 }
 config_scroll(){
 	sudo apt install xbindkeys xdotool -y
@@ -105,6 +122,7 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 	sudo apt-get update
 	sudo apt install software-properties-common -y
 	sudo add-apt-repository -y ppa:jonathonf/vim
+  sudo add-apt-repository -y ppa:ytvwld/asciiquarium
 	sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
 	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
 	sudo apt-get update
@@ -133,8 +151,6 @@ install(){
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
 	sudo apt install -y steam
 	sudo apt install -y compizconfig-settings-manager
-	sudo snap install vscode --classic
-	sudo snap install electronic-wechat
 }
 install_chrome(){
 	#sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
@@ -212,6 +228,8 @@ run(){
 	install_netease
 	install_sogou
 	install_tools
+	snap_install
+	install_wd
 	sudo apt upgrade -y
 	#install_lang
 	#config_vscode
