@@ -80,9 +80,11 @@ endfunc
 inoremap <silent> ; <esc>:call Togglebash()<CR>
 nnoremap <silent> ; :call Togglebash()<CR>
 tnoremap <silent> ; <c-w>:call Togglebash()<CR>
+au FileType nerdtree nmap <buffer> <silent> ; <c-w>l<c-w>:call Togglebash()<CR>
 inoremap <silent> : <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR>
 nnoremap <silent> : :call CloseTogglebash()<cr>:call Togglebash()<CR>
 tnoremap <silent> : <c-w>:call CloseTogglebash()<cr><c-w>:call Togglebash()<CR>
+au FileType nerdtree nmap <buffer> <silent> : <c-w>l<c-w>:call CloseTogglebash()<cr><c-w>:call Togglebash()<CR>
 
 "------------------------------------scroll---------------------------------------"
 function! ExitNormalMode()

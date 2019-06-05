@@ -66,7 +66,7 @@ use-experimental-views=false
 [org/gnome/nautilus/window-state]
 sidebar-width=256
 start-with-sidebar=true
-geometry='909x280+257+380'
+geometry='909x480+257+380'
 maximized=false
 
 [org/gnome/nautilus/compression]

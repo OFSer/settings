@@ -634,8 +634,12 @@ ans=$(zenity --scale --text "pick a number" --min-value=2 --max-value=100 --valu
 [[ a =~ $pattern ]] && echo 1
 [[ a =~ $pattern] && echo 1
 apt-build moo
+apt-cache madison "dict"
+apt-cache madison "dict package"
 apt-cache madison search julia
 apt-cache search dict
+apt-cache search "dict"
+apt-cache search "dict package"
 apt-cache search julia
 apt-get -h
 apt-get install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
@@ -654,6 +658,7 @@ aptitude -vvvvv moo
 aptitude -vvvvvv moo
 aptitude -vvvvvvv moo
 aptitude -vvvvvvvvvvvvvvvvvvvvvvvvv moo
+apt madison "dict package"
 apt search dict
 apt search dictionary
 apt search search julia
@@ -673,7 +678,7 @@ ascii a
 ascii "$a"
 ascii $a
 asciiquarium
-asciiquarium 
+asciiquarium  --help
 asciiquarium  | lolcat
 asdgasd
 asdgasdfasdfasdfasdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -864,7 +869,6 @@ cd ~!
 cd ~/
 cd -
 cd /
-cd .
 cd ../
 cd ../..
 cd ...
@@ -875,6 +879,7 @@ cd -1
 cd -~1
 cd 1141/
 cd 18aa974c-2266-4d72-8a1e-aa8bf26d25a6/
+cd 1.cpp
 \cd ~-2
 cd -2
 cd -3
@@ -926,7 +931,6 @@ cd cmd/
 cd /cmd/gc
 cd /cmd/gc/walk.c
 cd cmd/go
-cd colors/
 cd compile/
 cd con
 cd ~/.config/
@@ -944,7 +948,6 @@ cd .config/totem/
 cd controller/
 cd controllers/
 cd ~/cp
-cd cpp/
 cd cpp/test/
 cd d
 cd db/
@@ -956,6 +959,7 @@ cd /dev/
 cd dev/fd/
 cd /dev/mapper/
 cd /dev/pts/
+cd dictd
 cd Dictionaries/
 cd ~/disk/pack/
 cd disk/pack/70-4D-7B-64-E1-97/
@@ -967,6 +971,8 @@ cd dockerfiles/dl-tensorflow/
 cd docs
 cd docs local
 cd dot/
+cd ~/Downloads/
+cd Downloads/
 cde
 cde(){ abc; }
 cd `echo <(ls -d */ &> /dev/null || echo .) | head -n 1`
@@ -974,6 +980,7 @@ cd EFI
 cd electronic-wechat/
 cd /etc
 cd /etc/apt/sources.list.d/
+cd /etc/dictd/
 cd /etc/init/
 cd /etc/init/rc
 cd /etc/ssh/
@@ -982,6 +989,7 @@ cd ext
 cd f
 ( cd fc )
 cd fc
+cd fc/
 cd fc/ai-cloth-webserver/
 cd fc/bl
 cd ~/fc/detection-machine-daemon/
@@ -1012,7 +1020,6 @@ cd freefont/
 cd ftplugin/
 cd g
 cd .gconf/
-cd gh/
 cd .git/
 cd gjs
 cd gl
@@ -1035,6 +1042,7 @@ cd gtk-
 cd gu
 cd ~/haskell/
 cd haskell/
+cd haskell-vim/
 cd --help | grep rand
 cd /home/
 cd /home/gjs/go/bin
@@ -1047,7 +1055,6 @@ cd http-
 cd http-hello/
 cd ibus/
 cd inc
-cd indent/
 cd init.d/
 cd input/
 cd internal/gc/
@@ -1075,6 +1082,7 @@ cd /mnt/boot
 cd /mnt/boot/
 cd mod/
 cd mysql/
+cd neodark.vim/
 cd nerdtree
 cd nerdtree-git-plugin/
 cd nerdtree_plugin/
@@ -1097,7 +1105,6 @@ CDPATH=/
 CDPATH=123
 cd ../plug
 cd plugged
-cd plugged/
 cd plugged/YouCompleteMe/
 cd ../plugin/
 cd plugin/
@@ -1122,7 +1129,6 @@ cd share/app
 cd shm
 cd shmls/
 cd shmmsg/
-cd snap/
 cd SogouPY
 cd SogouPY.users/
 cd sources/
@@ -1137,7 +1143,6 @@ cd stack
 cd ste
 cd .steam/
 cd Steam/
-cd syntax/
 cd system
 cd Target/
 cd tcp
@@ -1146,7 +1151,6 @@ cd templates/
 cd tes
 cd ~/tes
 cd ~/test/
-cd test/
 cd test/cpp/test/
 cd ~/test/empty/
 cd ~/test/IPC/
@@ -1181,6 +1185,7 @@ cd /var/lib/docker/
 cd /var/lib/docker/volumes/
 cd /var/run
 cd ~/.vim/
+cd .vim/
 cd .vim/after/
 cd .vim/after/syntax/
 cd .vim/after/syntax/p
@@ -1194,6 +1199,7 @@ cd .vim/plugged/YouCompleteMe/
 cd .vimr
 cd vscode/
 cd ~/work/
+cd wudao-dict/
 cd ./x86_64-linux-gnu/c++/7/
 cd yaml/
 cd ycmd
@@ -1249,7 +1255,6 @@ clang-format -style="{BasedOnStyle: WebKit, IndentWidth: 2,BreakBeforeBraces: Cu
 cloc *
 cloc *.py
 cmake .
-cmatrix
 cmp -l artifacts.zip 'artifacts (1).zip'
 command
 command -l
@@ -1316,6 +1321,7 @@ config
 ./config.sh config_privoxy
 ./config.sh config_proxy
 ./config.sh config_scroll
+./config.sh install_wd
 ./config.sh proxy_run
 ./config.sh pull
 . config.sh push
@@ -1360,7 +1366,22 @@ coproc sleep 5
 cowsay 
 cowsay  asdf
 cowsay  asdf | lolcat
+cowsay  -d 1234
+cowsay -d 234
+cowsay -d -f pony 234
+cowsay -d -f pony 234 | lolcat
+cowsay  -d -g 1234
+cowsay -d -g 1234
+cowsay -f default
+cowsay -f turkey 1234
+cowsay -f www
+cowsay -f www 1234
+cowsay -g
+cowsay  -g 1234
+cowsay -g 1234
+cowsay -g -d 1234
 cowsay --help
+cowsay  -p 1234
 cp * ../../fc/sshproxy/
 cp haskell.vim cpp.vim
 cp --help
@@ -1562,6 +1583,12 @@ df  -T
 dialog
 DIALOG
 $DIALOG --backtitle "Package configuration"        --title "Configuring sun-java6-jre"        $OPTS \
+dict -d gcide help
+dict -d gcide penguin
+dict -d gcide test
+dict -d moby-thesaurus test
+dict --help
+dict test
 die() {   local frame=0;   while caller $frame; do     ((frame++));   done;   echo "$*";   exit 1; }
 diff 1 2
 diff -a  artifacts.zip 'artifacts (1).zip'
@@ -2174,6 +2201,7 @@ echo "IFS"
 echo ${IFS}
 echo "$IFS" | od  -b
 echo "$IFS"  | od -b
+echo "KTHXBAI" | toilet | lolcat
 echo $LC_ALL 
 echo  $LC_MESSAGES
 echo "{'lnum': 14, 'bufnr': 1, 'variables': {'current_syntax': 'vim', 'changedtick': 3}, 'name': '/home/gjs/.vimrc', 'changed': 0, 'loaded': 1, 'w
@@ -2462,7 +2490,6 @@ file:///.
 file=camera07-190125-093353-S5.tar
 file:///home/gjs/fc/saki_detection/pack/通元02-GPU号/camera06-190125-153140-S5
 file:///home/gjs/fc/saki_detection/通元02-GPU号/camera06-190125-153140-S5
-find .
 find ab cpp
 find . |grep cmath
 find . | grep dota
@@ -2556,7 +2583,24 @@ for i in `ls *.png`;do mv $i `printf %05d t`.png; done
 for i in $var;do echo $i; done
 for i in $var;do echo $i | od -b; done
 fork
-fortune --help
+fortune | cowsay -f apt | lolcat
+fortune | cowsay -f bunny | lolcat
+fortune | cowsay -f elephant-in-snake | lolcat
+fortune | cowsay -f eyes | lolcat
+fortune | cowsay -f gnu | lolcat
+fortune | cowsay -f hellokitty | lolcat
+fortune | cowsay -f luke-koala | lolcat
+fortune | cowsay -f mech-and-cow | lolcat
+fortune | cowsay -f pony | lolcat
+fortune | cowsay -f snake | lolcat
+fortune | cowsay -f snowman | lolcat
+fortune | cowsay -f stegosaurus | lolcat
+fortune | cowsay -f stimpy | lolcat
+fortune | cowsay -f suse | lolcat
+fortune | cowsay -f turkey
+fortune | cowsay -f turtle | lolcat
+fortune | cowsay -f vader | lolcat
+fortune | cowsay | lolcat -a
 fortune-mod
 forture
 forturn
@@ -2604,6 +2648,7 @@ git add - A
 git add .bash_profile 
 git add blow_check/usb_blow_detector
 git add build_all.sh 
+git add config.sh 
 git add dll
 git add -f after autoload/ colors/ ftplugin/
 git add -f .bash
@@ -2713,9 +2758,11 @@ git clone git@gitlab.sho.hypereal.com:go/common-util.git
 git clone git@gitlab.sho.hypereal.com:go/http-hello.git
 git clone git@gitlab.sho.hypereal.com:monitoring/prometheus-exporter.git
 git clone git@gitlab.sho.hypereal.com:robotic/transformer-pipeline.git
+git clone --help
 git clone http://gitlab.sho.hypereal.com/AIFactory/dl-k8s-kube
 git clone http://gitlab.sho.hypereal.com/AIFactory/dl-k8s-kube/tree/master
 git clone https://github.com/Alexmitter/osu-lazer-linux-installer.git
+git clone https://github.com/chestnutheng/wudao-dict
 git clone https://github.com/exercism/haskell.git
 git clone https://github.com/golang/tools.git
 git clone https://github.com/hdima/python-syntax.git
@@ -2887,6 +2934,8 @@ git diff detection.cpp
 \git diff dev
 git diff .gitconfig
 git diff .gitignore
+git diff H
+git diff HEAD
 git diff HEAD^^
 git diff HEAD~2
 git diff HEAD~2 config.sh
@@ -3316,7 +3365,6 @@ history | grep gsetting
 history | grep IFS
 history | grep install
 history | grep kill
-history | grep madison
 history | grep mysql
 history | grep mysqldump 
 history | grep org
@@ -3517,6 +3565,7 @@ kill -TERM 4258
 kill -term 7491
 kpartx -av /dev/loop20
 kubectl version
+la
 ./la
 ./labeler.sh
 ./labeler.sh  > /dev/null
@@ -3587,6 +3636,7 @@ line='aab'
 [[ $line =~ ([[:space:]])(a)b ]] && echo 1
 ./list.sh 
 lks
+ll
 ll 
 ll 1
 ll -a ??
@@ -3634,6 +3684,9 @@ logkeys --start
 logkeys --start --output
 logkeys --version
 log=/var/log/qmail/current IFS=/
+lolcat config.sh
+lolcat --help
+lolcat -v
 losetup /dev/loop20 im
 `\ls
 ;ls
@@ -3883,6 +3936,7 @@ man
 man 
 man 2to3
 \man 7 undocumented
+man asciiquarium 
 man atc
 man bash | grep comp
 man bash | grep compil
@@ -3929,6 +3983,7 @@ man find
 man find | grep file
 man find | grep type
 man fortune
+man fortune 
 man g++
 man g++ | grep '-I'
 man g++ | grep '\-l'
@@ -3953,9 +4008,11 @@ man -k man
 man -k printf
 man lesspipe
 \man librt
+man lolcat 
 man lrt
 man ls | vi -
 man ls | vim -
+man man
 man man.7
 man mazn
 man mmap
@@ -4031,6 +4088,7 @@ mkdir blur_detection
 mkdir /boot/efi
 mkdir build
 mkdir cis194
+mkdir cpp
 mkdir db
 mkdir Desktop
 mkdir disk
@@ -4171,6 +4229,7 @@ nautilus /data &
 nautilus trash/
 nautilus /usr/share/fonts/truetype/ubuntu/
 nerdtree
+nethack
 nethogs --help
 nethogs -v 3
 netogs
@@ -4288,6 +4347,7 @@ ping towel.blinkenlights.nl
 pip
 pip2
 pip3 freeze 
+pip3 install lxml
 pip3 install pynvim --upgrade 
 pip3 install --upgrade you-get
 pip install cv
@@ -5427,11 +5487,16 @@ sudo apt-cached madision bash
 sudo apt-cache madision bash
 sudo apt-cache madison
 sudo apt-cache madison bash
+sudo apt-cache madison nethack
 sudo apt-cache madison ubuntu-unity-desktop
 sudo apt-cache madison vim
+sudo apt-cache search "dict package"
 sudo apt-get install apt-transport-https
 sudo apt-get install asciiquarium
 sudo apt-get install build-essential
+sudo apt-get install dictd dict
+sudo apt-get install dict-gcide
+sudo apt-get install dict-moby-thesaurus
 sudo apt-get install gstreamer0.10-ffmpeg
 sudo apt-get install gstreamer1.0-libav
 sudo apt-get install gstreamer1.0-libav gstreamer0.10-ffmpeg
@@ -5522,6 +5587,7 @@ sudo apt install minikube
 sudo apt install moc
 sudo apt install mono-devel 
 sudo apt install neovim
+sudo apt install nethack
 sudo apt install nethack-console 
 sudo apt install nethogs
 sudo apt install nettools
@@ -5545,6 +5611,7 @@ sudo apt install stack
 sudo apt install sudo
 sudo apt install tldr
 sudo apt install tmux
+sudo apt install toilet
 sudo apt install ubuntu-unity-desktop 
 sudo apt install ucommon-utils
 sudo apt install uff-converter-tf
@@ -5555,6 +5622,7 @@ sudo apt install vim-syntax-go
 sudo apt install yasm
 sudo apt install -y libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
 sudo apt install you-get
+sudo apt install -y python3 python3-pip
 sudo apt install -y yasm
 sudo apt install zathura
 sudo aptitude install mono-devel 
@@ -5786,6 +5854,8 @@ sudo passwd mid
 sudo passwd root
 sudo passwd server
 sudo perf record -e cpu-clock -g ./flaw_checker
+sudo pip3 install bs4 lxml
+sudo pip3 install lxml
 sudo  pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
 sudo python3 blow_detector.py --name blow00
 sudo read a <(/dev/fd/59)
@@ -5821,10 +5891,13 @@ sudo service usb_blow_detector status
 sudo ./shmq_recv
 sudo snap find bash 
 sudo snap find julia
+sudo snap find nethack
 sudo snap find vim
 sudo snap instal code
 sudo snap install asciiquarium
 sudo snap install  cataclysm
+sudo snap install code
+sudo snap install code --classic
 sudo snap install docker
 sudo snap install dotnet-sdk
 sudo snap install dotnet-sdk --classic 
@@ -5833,7 +5906,6 @@ sudo snap install haskell
 sudo snap install julia-stable 
 sudo snap install logkeys
 sudo snap install logkyes
-sudo snap install nethack
 sudo snap install steam
 sudo snap remove dotnet-sdk 
 sudo snap remove vscode 
@@ -6064,6 +6136,8 @@ tmu
 tmux
 tmux 
 tmux new-session -d testing
+toilet 1234
+toilet 1234abc
 top | cat 
 top | echo
 top --help
@@ -6252,11 +6326,11 @@ var=global
 var="This is a variable"
 vedio
 \vi
+vim
 vim 
 vim ~
 vim'
 vim 1552626743892.dat 
-vim 1.cpp
 vim 1.dot
 vim 1.dota
 vim 1.jl
@@ -6312,6 +6386,7 @@ vim .config/gtk-3.0/servers
 vim ~/.config/nvim/init.vim
 vim config.py 
 vim ~/config.sh 
+vim config.sh 
 vim .config/Trolltech.conf 
 vim config.yaml 
 vim .config/yelp/
@@ -6324,14 +6399,18 @@ vim daemon.sh
 vim daemon.sh 
 vim dconf
 vim detection.cpp 
+vim dict.conf 
+vim dictd.order 
 vim dirlist 
 vim dl-k8s-kube/
 vim ~/.docker/config.json
 vim Dockerfile
+vim Downloads/
 vim en-US-8-0.bdic 
 vim /etc/
 vim /etc/default/keyboard
 vim /etc/default/keyboard 
+vim /etc/dictd/dictd.conf
 vim  /etc/environment
 vim /etc/fstab 
 vim /etc/host
@@ -6363,6 +6442,7 @@ vim grub
 vim grub.cfg 
 vim.gtk3
 vim gtkfilechooser.ini 
+vim haskell.vim 
 vim --help | grep term
 vim /home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py
 vim hosts
@@ -6390,6 +6470,7 @@ vim msgrcv.cpp
 vim .mycli-history 
 vim .myclirc 
 vim mysql
+vim neodark.vim 
 vim .netrwhist 
 vim number.hs 
 vim .ossutilconfig 
@@ -6403,6 +6484,7 @@ vim PS1rc
 vim PS1.sh
 vim py.vim 
 vim -r 1
+vim README.md 
 vim README.sh
 vim recently-used.xbel
 vim record.txt 
@@ -6457,6 +6539,10 @@ watch -n 10 date
 watch -n 1 date
 ' | wc -c
 wd
+wd animate
+wd  epigrams
+wd -s  calvin 
+wd -s epigrams
 wd -s synopsis
 wd -s sysnopsis
 wd -s test
