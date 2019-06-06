@@ -609,6 +609,7 @@ abc=q123
 ac=123
 aclocal
 add-apt-repository ppa:jonathonf/vim
+add-apt-repository -y ppa:jonathonf/vim
 a=dirs;
 a=dirs;${a##*\/}
 a=`echo 123`
@@ -646,13 +647,15 @@ apt-get install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
 apt-get install -y kubelet kubeadm kubectl
 apt-get moo
 apt-get update && apt-get install -y apt-transport-https curl
+apt install git
 apt install gnome-vim
 apt install ifconfig
+apt install locale
 apt install locales
 apt install openssh-server
 apt install setxkbmap
+apt install software-properties-common -y
 apt install sshpass
-apt install sudo
 apt install -y yasm pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
 aptitude -vvv moo
 aptitude -vvvvv moo
@@ -663,7 +666,6 @@ apt madison "dict package"
 apt search dict
 apt search dictionary
 apt search search julia
-apt update
 a=($PWD $PWD)
 args "$"
 args $(*
@@ -712,7 +714,6 @@ b=$a
 baidu.com
 bar='host: \h'
 bas
-bash
 bash /
 bash 2.sh
 bash -c "cd /"
@@ -869,7 +870,6 @@ cd ~-
 cd ~-`
 cd ~!
 cd ~/
-cd -
 cd ../
 cd ../..
 cd ...
@@ -904,6 +904,7 @@ cd api/
 cd applications/
 cd auxiliary_tools/
 cd .bah
+cd .bash/
 cd /bin/
 cd bin/
 cd bits/
@@ -970,6 +971,7 @@ cd dictd
 cd Dictionaries/
 cd ~/disk/pack/
 cd disk/pack/70-4D-7B-64-E1-97/
+cd dl-k8s-kube/
 cd Do
 cd ~/Do
 cd .docker
@@ -996,6 +998,7 @@ cd /etc/sudoers.d/
 cd ext
 cd f
 ( cd fc )
+cd fc/
 cd fc/ai-cloth-webserver/
 cd fc/bl
 cd ~/fc/detection-machine-daemon/
@@ -1013,7 +1016,7 @@ cd fcitx/
 { cd fc;ls }
 { cd fc;ls; }
 cd fc/sa
-cd fc/saki_detection/
+cd fc/saki_detection
 cd fc/sshproxy/
 cd fd/
 cd ffmpeg/
@@ -1108,6 +1111,7 @@ cd ./osu.Game.Tests/Resources/
 cd osu-lazer-linux-installer
 cd p
 cd p-
+cd pack
 cd pack/
 CDPATH=/
 CDPATH=123
@@ -1128,7 +1132,6 @@ cd rc0.d/
 cd rc.local
 cd rogpeppe/
 cd root
-cd /root
 cd run
 cd sa
 cd sbin/
@@ -1195,6 +1198,7 @@ cd /var/lib/docker/
 cd /var/lib/docker/volumes/
 cd /var/run
 cd ~/.vim/
+cd .vim
 cd .vim/
 cd .vim/after/
 cd .vim/after/syntax/
@@ -1331,6 +1335,8 @@ config
 ./config.sh config_privoxy
 ./config.sh config_proxy
 ./config.sh config_scroll
+./config.sh install vim
+./config.sh install_vim
 ./config.sh install_wd
 ./config.sh proxy_run
 . config.sh push
@@ -1350,6 +1356,7 @@ config
 ./config.sh push "vim always save"
 ./config.sh push "vim disable ctermbg"
 ./config.sh test
+./config.sh update_source
 ./configure 
 connect
 convert 0000.jpg 0000.jpeg
@@ -2263,6 +2270,7 @@ echo $PID
 echo $PPID
 echo $PROMPT_COMMAND 
 echo "$PS1"
+echo $PS1
 echo "$PS3"
 echo "$PS3" | od -b
 echo ${PWD}
@@ -2395,6 +2403,7 @@ export PAGER=nano \-\-view
 export PAGER=pg
 export PAGER=pg man test
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export TERM=xterm-256color
 export TEST=123
 expr 0 == 00
 expr 0 \< 00
@@ -2773,6 +2782,7 @@ git clone git@github.com:chinnkarahoi/settings.git
 git clone git://github.com/rkitover/vimpager
 git clone git@gitlab.sho.hypereal.com:AIFactory/ai-cloth-webserver.git
 git clone git@gitlab.sho.hypereal.com:AIFactory/blow_check.git
+git clone  git@gitlab.sho.hypereal.com:AIFactory/dl-k8s-kube.git
 git clone git@gitlab.sho.hypereal.com:AIFactory/shmmsg.git
 git clone git@gitlab.sho.hypereal.com:go/common-util.git
 git clone git@gitlab.sho.hypereal.com:go/http-hello.git
@@ -3706,10 +3716,9 @@ ll -t
 ln --help
 ln -s /home/gjs root
 ln -s ../../.vimrc .vimrc
-local
 localc
-locale
 locale -a
+locale-gen en_US.utf8
 local --help
 logger
 logger 123
@@ -3918,7 +3927,6 @@ ls -l --author
 ls -lF
 ls ~/.local/bin
 ls -lR
-lsls
 ls *.mp4
 lsof -i :117
 lsof -i:117
@@ -4827,7 +4835,6 @@ rsync fc ~/dd/
 ./run.sh -pfu
 ./run.sh -pgu
 ./run.sh -u -a
-s
 `s
 ./s1
 >s1.cpp
@@ -6375,7 +6382,6 @@ var=global
 var="This is a variable"
 vedio
 \vi
-vim
 vim 
 vim ~
 vim'
@@ -6406,6 +6412,7 @@ vim .bash_logout
 vim ~/.bash_profile
 vim .bash_profile
 vim .bashr 
+vim .bashrc
 vim . bashrc
 vim .bashrc 
 vim .bashrc.bak 
@@ -6457,6 +6464,7 @@ vim Dockerfile
 vim Downloads/
 vim en-US-8-0.bdic 
 vim env.ini 
+vim env.sh 
 vim /etc/
 vim /etc/default/keyboard
 vim /etc/default/keyboard 
@@ -6573,7 +6581,6 @@ vim .tmux.conf
 vim ToggleTerminal 
 vim usb_blow_detector.service 
 vim Validating-Credit-Card-Numbers.hs 
-vim --version
 vim version.
 vim version.h 
 vim ~/.vim/after/syntax/c.vim

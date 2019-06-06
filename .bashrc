@@ -12,8 +12,8 @@ esac
 function load {
 	[ -f $1 ] && . $1
 }
-load $HOME/.bash/PS1.sh
 load $HOME/.bash/env.sh
+load $HOME/.bash/PS1.sh
 load $HOME/.bash/alias.sh
 load $HOME/.bash/feature.sh
 load $HOME/.bash/mycmd.sh

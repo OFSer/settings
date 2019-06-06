@@ -138,6 +138,7 @@ install_desktop(){
 }
 install_vim(){
 	sudo apt -y install vim-gnome	locales
+	locale-gen en_US.UTF-8
 	sudo apt install -y build-essential cmake python-dev python3-dev build-essential 
 	sudo apt install -y cmake python-dev python3-dev ctags gcc g++ clang libclang-dev
 	vim -c "PlugInstall" -c "q!" -c "q!"
