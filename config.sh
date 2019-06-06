@@ -171,6 +171,7 @@ install_sogou(){
 	sudo apt install -f -y
 	rm ~/Downloads/1.deb
 	sudo apt install -y $(check-language-support)
+	sudo apt remove -y fcitx-ui-qimpanel
 }
 system_setting(){
 	#export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
