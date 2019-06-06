@@ -4,3 +4,6 @@
 [submodule "test"]
 	path = test
 	url = git@github.com:chinnkarahoi/test.git
+[submodule ".cache/netease-cloud-music/Cef/Cache/Local Storage"]
+	path = .cache/netease-cloud-music/Cef/Cache/Local Storage
+	url = git@github.com:chinnkarahoi/ntm-local.git

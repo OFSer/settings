@@ -10,6 +10,7 @@ size=(1080, 607)
 [org/gnome/gedit/preferences/editor]
 display-right-margin=false
 display-overview-map=false
+scheme='oblivion'
 tabs-size=uint32 2
 display-line-numbers=true
 insert-spaces=true
@@ -20,10 +21,11 @@ wrap-last-split-mode='word'
 [org/gnome/gedit/preferences/ui]
 statusbar-visible=true
 show-tabs-mode='auto'
+side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/Downloads/droid-sans-mono'
-tree-view=false
+virtual-root='file:///home/gjs'
+tree-view=true
 root='file:///'
 
 [org/gnome/gedit/plugins]
@@ -33,8 +35,8 @@ active-plugins=['docinfo', 'spell', 'filebrowser', 'time', 'modelines']
 size=(984, 640)
 state=132
 bottom-panel-size=140
-side-panel-size=200
-side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=250
+side-panel-active-page='GeditFileBrowserPanel'
 
 [org/gnome/calculator]
 target-currency='DZD'
@@ -67,7 +69,7 @@ use-experimental-views=false
 sidebar-width=256
 start-with-sidebar=true
 geometry='909x480+257+380'
-maximized=false
+maximized=true
 
 [org/gnome/nautilus/compression]
 default-compression-format='zip'
