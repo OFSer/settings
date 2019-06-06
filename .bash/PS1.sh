@@ -30,7 +30,7 @@ function git-branch {
 	ref=$(git symbolic-ref --short HEAD 2>/dev/null )
 	[ -z "$ref" ] && return
 	#echo "["${ref#refs/heads/}$([ -n "$(git status -s)" ] && echo '*')];
-	status=$(git diff-files --no-ext-diff --quiet --ignore-submodules || echo '*')
+	status=$(git diff-files --no-ext-diff --quiet --ignore-submodules 2>/dev/null || echo '*')
 	echo "["$ref$status"]";
 }
 # If this is an xterm set the title to user@host:dir

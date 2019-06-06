@@ -6695,3 +6695,8 @@ ysql
 zathura 
 Zathura
 [-z "$(git status -s)"] && echo '*'
+ls
+cd ~/.git/
+ls
+git diff-files --no-ext-diff --quiet --ignore-submodules
+ls
