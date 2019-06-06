@@ -6683,3 +6683,38 @@ ysql
 zathura 
 Zathura
 [-z "$(git status -s)"] && echo '*'
+ls
+cd ~
+ls
+./config.sh install_vim
+apt update
+apt install sudo
+./config.sh install_vim
+jobs
+ls
+cd /root
+ls
+cd Desktop/
+ls
+cd ~
+ls
+cd fc/saki_detection/
+ls
+cd fc
+ls
+cd saki_detection
+ls
+cd ~
+ls
+cd fc
+ls
+cd saki_detection
+ls
+cd ~
+vim .inputrc 
+git status
+git add .inputrc 
+ls
+git status
+cd fc
+ls

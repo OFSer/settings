@@ -125,6 +125,8 @@ deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 	sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
 	wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
 	sudo apt-get update
+	mkdir -p ~/Downloads
+	sudo apt -y install vim-gnome	locales
 }
 install_desktop(){
 	#sudo apt install -y --no-install-recommends nvidia-384
@@ -135,8 +137,6 @@ install_desktop(){
 	sudo apt remove -y --purge gnome-software*
 }
 install_vim(){
-	mkdir -p ~/Downloads
-	sudo apt -y install vim-gnome	
 	sudo apt install -y build-essential cmake python-dev python3-dev build-essential 
 	sudo apt install -y cmake python-dev python3-dev ctags gcc g++ clang libclang-dev
 	vim -c "PlugInstall" -c "q!" -c "q!"
