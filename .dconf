@@ -23,11 +23,11 @@ show-tabs-mode='auto'
 
 [org/gnome/gedit/plugins/filebrowser]
 virtual-root='file:///home/gjs/Downloads/droid-sans-mono'
-tree-view=true
+tree-view=false
 root='file:///'
 
 [org/gnome/gedit/plugins]
-active-plugins=['docinfo', 'modelines', 'filebrowser', 'time', 'spell']
+active-plugins=['docinfo', 'spell', 'filebrowser', 'time', 'modelines']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)

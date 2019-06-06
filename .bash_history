@@ -1031,6 +1031,7 @@ cd freefont/
 cd ftplugin/
 cd g
 cd .gconf/
+cd ~/.git/
 cd .git/
 cd gjs
 cd gl
@@ -2969,7 +2970,6 @@ git diff .dconf HEAD^
 git diff detection.cpp
 \git diff dev
 git diff-files
-git diff-files --no-ext-diff --quiet --ignore-submodules
 git diff .gitconfig
 git diff .gitignore
 git diff H
@@ -6695,8 +6695,3 @@ ysql
 zathura 
 Zathura
 [-z "$(git status -s)"] && echo '*'
-ls
-cd ~/.git/
-ls
-git diff-files --no-ext-diff --quiet --ignore-submodules
-ls
