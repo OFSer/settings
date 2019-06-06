@@ -30,6 +30,7 @@ config_mouse(){
 	echo xinput set-prop \"$mouse\" \"libinput Accel Speed\" -0.7 | sudo tee /etc/profile.d/mouse.d > /dev/null
 }
 update_source(){
+	sudo apt-get clean && sudo rm -rf /var/lib/apt/lists/*
 	sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 	sudo echo "
 # deb cdrom:[Ubuntu 18.04 LTS _Bionic Beaver_ - Release amd64 (20180426)]/ bionic main restricted
