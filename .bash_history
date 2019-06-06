@@ -1323,7 +1323,6 @@ config
 ./config.sh config_scroll
 ./config.sh install_wd
 ./config.sh proxy_run
-./config.sh pull
 . config.sh push
 ./config.sh push
 ./config.sh push "add font"
@@ -2089,6 +2088,7 @@ echo $'\cdf'
 echo $cdpath
 echo $'\cf'
 echo $'\cF'
+echo $(check-language-support)
 echo c | od -b
 echo $color_prompt
 echo ".config/mednaffe.conf" >> .gitignore 
@@ -3056,6 +3056,7 @@ git reset HEAD
 git reset HEAD^1 --hard
 \git reset HEAD --hard 
 git reset HEAD^ --hard
+git reset HEAD --hard
 git reset HEAD submodules/saki_detection
 git reset remotes/origin/ssh-proxy
 git revert f674dffc3679de9789500d98b429cec4cba4dbd9
@@ -5541,6 +5542,7 @@ sudo apt install cabal
 sudo apt install cabal-install
 sudo apt install cataclysm
 sudo apt install Cataclysm
+sudo apt install $(check-language-support)
 sudo apt install cloc
 sudo apt install cmatrix
 sudo apt install cowsay
@@ -5620,6 +5622,7 @@ sudo apt install vim==2:8.0.1453-1ubuntu1
 sudo apt install vim=8.0.1453
 sudo apt install vim-syntax-go
 sudo apt install yasm
+sudo apt install -y $(check-language-support)
 sudo apt install -y libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
 sudo apt install you-get
 sudo apt install -y python3 python3-pip
@@ -5646,6 +5649,7 @@ sudo apt search vim
 sudo apt search vim | 8.1
 sudo apt search vim | grep 8.1
 sudo apt update
+sudo apt upgrade
 sudo apt upgrade 
 sudo apt upgrade gvim
 sudo apt upgrade steam
@@ -5859,7 +5863,6 @@ sudo pip3 install lxml
 sudo  pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
 sudo python3 blow_detector.py --name blow00
 sudo read a <(/dev/fd/59)
-sudo reboot
 sudo rm \[
 sudo rm fc
 sudo rm google-chrome.list.*
@@ -6326,7 +6329,6 @@ var=global
 var="This is a variable"
 vedio
 \vi
-vim
 vim 
 vim ~
 vim'
@@ -6386,7 +6388,6 @@ vim .config/gtk-3.0/servers
 vim ~/.config/nvim/init.vim
 vim config.py 
 vim ~/config.sh 
-vim config.sh 
 vim .config/Trolltech.conf 
 vim config.yaml 
 vim .config/yelp/
