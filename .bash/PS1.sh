@@ -27,9 +27,11 @@ if [ -n "$force_color_prompt" ]; then
 	fi
 fi
 function git-branch {
-	ref=$(git symbolic-ref HEAD 2> /dev/null) || return;
+	ref=$(git symbolic-ref --short HEAD 2>/dev/null )
+	[ -z "$ref" ] && return
 	#echo "["${ref#refs/heads/}$([ -n "$(git status -s)" ] && echo '*')];
-	echo "["${ref#refs/heads/}"]";
+	status=$(git diff-files --no-ext-diff --quiet --ignore-submodules || echo '*')
+	echo "["$ref$status"]";
 }
 # If this is an xterm set the title to user@host:dir
 

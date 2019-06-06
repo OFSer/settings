@@ -868,7 +868,6 @@ cd ~-`
 cd ~!
 cd ~/
 cd -
-cd /
 cd ../
 cd ../..
 cd ...
@@ -932,11 +931,14 @@ cd /cmd/gc
 cd /cmd/gc/walk.c
 cd cmd/go
 cd compile/
+cd .compiz/
 cd con
 cd ~/.config/
 cd .config/cef_user_data/
 cd .config/dconf/
 cd .config/evolution/
+cd .config/fcitx
+cd .config/fcitx-qimpanel/
 cd .config/gnome-
 cd .config/gnome-games/
 cd .config/google-chrome/
@@ -944,16 +946,20 @@ cd ~/.config/google-chrome/Default/Extensions
 cd .config/gtk-3.0/
 cd .config/gtk-4.0/
 cd .config/htop/
+cd .config/SogouPY
 cd .config/totem/
+cd containerd
 cd controller/
 cd controllers/
 cd ~/cp
 cd cpp/test/
 cd d
+cd d~
 cd db/
 cd .dbus/
 cd dd
 cd default/
+cd Desktop
 cd Desktop/
 cd /dev/
 cd dev/fd/
@@ -979,6 +985,7 @@ cd `echo <(ls -d */ &> /dev/null || echo .) | head -n 1`
 cd EFI
 cd electronic-wechat/
 cd /etc
+cd /etc/
 cd /etc/apt/sources.list.d/
 cd /etc/dictd/
 cd /etc/init/
@@ -989,7 +996,6 @@ cd ext
 cd f
 ( cd fc )
 cd fc
-cd fc/
 cd fc/ai-cloth-webserver/
 cd fc/bl
 cd ~/fc/detection-machine-daemon/
@@ -1101,6 +1107,7 @@ cd ./osu.Game.Tests/Resources/
 cd osu-lazer-linux-installer
 cd p
 cd p-
+cd pack/
 CDPATH=/
 CDPATH=123
 cd ../plug
@@ -1121,15 +1128,16 @@ cd rc.local
 cd rogpeppe/
 cd root
 cd run
+cd sa
 cd sbin/
 cd sem
 cd server/
+cd session/
 cd settings/
 cd share/app
 cd shm
 cd shmls/
-cd shmmsg/
-cd SogouPY
+cd skin/
 cd SogouPY.users/
 cd sources/
 cd src
@@ -1993,6 +2001,7 @@ echo ": a:b::c:"
 echo ${a^^b|c}
 echo ${a^^b\|c}
 echo ${a^^bc}
+echo  abc>a
 echo {a,b,c}{a,b,c}
 echo {a,b,c}{a,bc}
 echo {a,b,c}{a,b,c}{a,b,c}
@@ -2168,6 +2177,7 @@ echo {foo,bar}
 echo $force_color_prompt
 echo $FUNCNEST
 echo ${g:=~/fc}
+echo $(git symbolic-ref HEAD 2> /dev/null)
 echo ~gjs
 echo ~'gjs'
 echo ~'gjs'/
@@ -2266,6 +2276,7 @@ echo ((RAND % 10000))
 echo $((RAND % 10000))
 echo $((RANDOM % 10))
 echo $((RANDOM % 10000))
+echo ${ref#refs/}
 echo $RESIDUAL
 echo ~root
 echo $SHELLOPTS 
@@ -2301,6 +2312,7 @@ echo 测试 | od -A=10
 echo 测试 | od -A 10
 echo 测试 | od -b
 echo 测试 | od -i
+emacs
 emacs25
 emacs25-x
 emacsclient
@@ -2624,6 +2636,7 @@ function name() echo 123
 function set-title() {   if [[ -z "$ORIG" ]]; then     ORIG=$PS1;   fi;   TITLE="\[\e]2;$*\a\]";   PS1=${ORIG}${TITLE}; }
 function shorten_pwd {  PWD=$(pwd)  REPLACE="/.."  RESIDUAL=${PWD#$HOME}  if [ X"$RESIDUAL"!= X"$PWD" ];  then  PREFIX="~";  fi  TRUNC_LENGTH=$(($MAX_PWD_LENGTH - ${#PREFIX} - ${#REPLACE} - 1));  NORMAL=${PREFIX}${RESIDUAL};  if [ ${#NORMAL} -ge $(($MAX_PWD_LENGTH)) ];  then  newPWD=${PREFIX}${REPLACE}${RESIDUAL:((${#RESIDUAL} - $TRUNC_LENGTH)):$TRUNC_LENGTH};  else  newPWD=${PREFIX}${RESIDUAL};  fi  echo $newPWD; }
 function shorten_pwd {  PWD=$(pwd)  RESIDUAL=${PWD#$HOME}  if [ X"$RESIDUAL"!= X"$PWD" ];  then  PREFIX="~";  fi  NORMAL=${PREFIX}${RESIDUAL};  if [ ${#NORMAL} -ge $(($MAX_PWD_LENGTH)) ];  then  newPWD=${PREFIX};  OIFS=$IFS;  IFS='/';  bits=$RESIDUAL;  for x in $bits;  do  if [ ${#x} -ge 3 ];  then  NEXT="/${x:0:1}";  else  NEXT="$x";  fi;  newPWD="$newPWD$NEXT";  done;  IFS=$OIFS;  else  newPWD=${PREFIX}${RESIDUAL};  fi  echo $newPWD; }
+g
 g++ 1.cpp -o 1 `pkg-config --cflags --libs gtk+-2.0`
 g++ 2.cpp -o 2
 g++ 2.cpp -o 2 && ./2
@@ -2639,17 +2652,19 @@ ghc --help
 ./ghci
 ghc-mod --help
 ghi
-git 
 git add ,.
 git add 1.sh
 git add -a
-git add -A
 git add - A
+git add .bash/
 git add .bash_profile 
+git add .bash/PS1.sh 
 git add blow_check/usb_blow_detector
 git add build_all.sh 
+git add .config/fcitx-qimpanel/main.conf 
 git add config.sh 
 git add dll
+git add env.ini 
 git add -f after autoload/ colors/ ftplugin/
 git add -f .bash
 git add -f .bash_history 
@@ -2657,11 +2672,13 @@ git add -f .bash_profile
 git add -f .bashrc
 \git add . --force
 git add --force .dconf
+git add -f SogouPY
 git add -f user
 git add -f .ycm_extra_conf.py
 git add README.md 
 git add saki_detection/
 git add scp.sh 
+git add SogouPY
 \git add src/camera_process.cpp 
 git add submodules/saki_detection/
 git add third_party/build_all.sh 
@@ -2926,12 +2943,16 @@ git diff --cached run.sh
 git diff --cached .vimrc
 git diff .con
 git diff .config/fcitx/conf
+git diff .config/fcitx/config
+git diff .config/fcitx-qimpanel/main.conf
 git diff .config/unity-monitors.xml
 git diff crawler.sh
 git diff dconf .dconf
 git diff .dconf HEAD^
 git diff detection.cpp
 \git diff dev
+git diff-files
+git diff-files --no-ext-diff --quiet --ignore-submodules
 git diff .gitconfig
 git diff .gitignore
 git diff H
@@ -2961,7 +2982,11 @@ git diff master blow_detector.py
 git diff master interface.py
 git diff mk3-dockerize .gitlab-ci.yml
 git diff new_blow 
+git diff --no-ext-diff 
+git diff --no-ext-diff --quiet
+git diff --no-ext-diff --quiet --exit-code || echo *
 git diff run.sh
+git diff --shortstat
 git diff sql.sh
 git diff .vim
 git diff .vim/
@@ -2976,6 +3001,7 @@ git@github.com:chinnkarahoi/settings.git
 git git status
 git idff
 git init 
+git log
 git log 
 git log --oneline --graph --decorate
 \git ls-files --full-name --exclude-standard -om
@@ -3056,7 +3082,6 @@ git reset HEAD
 git reset HEAD^1 --hard
 \git reset HEAD --hard 
 git reset HEAD^ --hard
-git reset HEAD --hard
 git reset HEAD submodules/saki_detection
 git reset remotes/origin/ssh-proxy
 git revert f674dffc3679de9789500d98b429cec4cba4dbd9
@@ -3103,6 +3128,8 @@ git statsus
 git statu
 git statuis
 git st atus
+git status --porcelain
+git status -s
 git statusz
 git ststaus
 git ststua
@@ -3123,7 +3150,10 @@ git submodule update --remote a03b17558683735d4149835d2c3a0de75ecd42e0 submodule
 git submodule update --remote test submodules/saki_detection/
 git submodule update submodules/saki_detection/
 git submodule update submodules/saki_detection/ 
+$(git symbolic-ref HEAD 2> /dev/null)
 git symbolic-ref HEAD 2>/dev/null | cut -d"/" -f 3
+git symbolic-ref -q HEAD | sed -e 's|^refs/heads/||'
+git symbolic-ref --short HEAD
 git sztatus
 git tatus
 gjs --help
@@ -3331,6 +3361,7 @@ history -d 10
 history -d 1 10
 history | grep
 history | grep '\*\/'
+history | grep admin
 history |grep admin
 history | grep aptcache
 history | grep apt cache
@@ -3465,6 +3496,7 @@ ipcs -q -i 163845
 irm .Togglebash.swp > /dev/null 2>&1
 j=0
 jllslsdfjklldskfjlkj;fdlkjdslkj
+jobs
 jobs :
 jobs %+
 jobs +
@@ -3566,6 +3598,7 @@ kill -TERM 4258
 kill -term 7491
 kpartx -av /dev/loop20
 kubectl version
+l
 la
 ./la
 ./labeler.sh
@@ -3600,6 +3633,7 @@ la
 ./label.sh &> /dev/null
 latex
 lcdiff
+ldconfig --help
 ldconfig -p
 ldconfig -p | grep libGL
 ldd
@@ -3637,7 +3671,6 @@ line='aab'
 [[ $line =~ ([[:space:]])(a)b ]] && echo 1
 ./list.sh 
 lks
-ll
 ll 
 ll 1
 ll -a ??
@@ -3675,6 +3708,7 @@ local
 localc
 locale
 locale -a
+local --help
 logger
 logger 123
 logger 123423412
@@ -4031,6 +4065,8 @@ man ps | grep group
 man pwd
 man pypinyin
 man read
+man readline
+man readline 
 \man rsync | grep exclude
 man rt
 man scp
@@ -4108,6 +4144,7 @@ mkdir ipc-shm
 mkdir jl
 mkdir kube
 mkdir lib
+mkdir -p data/topa
 mkdir -p $GOPATH/src/golang.org/x/
 mkdir -p /mnt/boot
 mkdir -p ~/.vim/colors/
@@ -4236,6 +4273,8 @@ nethogs -v 3
 netogs
 netstat -tlp
      -n 'example.bash' -- "$@"`
+[ -n $(git status -s) ] && echo '*'
+[-n $(git status -s)] && echo '*'
 nmtmi
 nmtui
 nohup
@@ -4597,6 +4636,11 @@ read -i 123
 readonly
 readonly 
 reboot
+ref=$(git symbolic-ref HEAD 2> /dev/null)
+ref=$(git symbolic-ref --short HEAD)
+ref=$(git symbolic-ref --short HEAD);echo $?
+ref=$(git symbolic-ref --short HEAD || exit)
+ref=$(git symbolic-ref --short HEAD || return)
 return
 return 3
 rm :\: 
@@ -4624,7 +4668,6 @@ rm 3
 rm 58
 rm 6
 rm 60
-rm a
 rm abc\ bcd/
 rm acc.dat 
 rm awk 
@@ -4913,7 +4956,6 @@ short_pwd() {  cwd=$(pwd | perl -F/-ane 'print join("/", map { $i++ <@F - 1? sub
 shuf -i10000-20000 -n1
 shuf <(ls -d */)
 shuf <(ls -d */) <(ls -d */)
-sl
 sleep 10
 sleep 100
 sleep 100 &
@@ -5084,6 +5126,7 @@ ssh -o "StrictHostKeyChecking no" -p 12949 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13022 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13052 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13155 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 13193 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13274 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13320 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13366 hypereal@registry-corp.hypereal.com
@@ -5157,6 +5200,7 @@ ssh -o "StrictHostKeyChecking no" -p 15550 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 15590 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 15635 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 15645 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 15662 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 15685 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 15708 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 15764 hypereal@registry-corp.hypereal.com
@@ -5434,9 +5478,7 @@ ssh -XYC gjs@dl-5
 ssh -XYC gjs@dl-5 mocp
 \ssh zyk@mac
 sslsslsl
-sss
 sss60
-ssss
 { sss;sleep 5; }
 sss;sleep 5
 stack
@@ -5642,6 +5684,7 @@ sudo apt remove --purge nvidia-*
 sudo apt remove --purge  steam*
 sudo apt remove --purge vim
 sudo apt remove vim
+sudo apt remove -y fcitx-qimpanel
 sudo apt search bash
 sudo apt search bash | grep 5
 sudo apt search julius
@@ -5863,6 +5906,7 @@ sudo pip3 install lxml
 sudo  pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
 sudo python3 blow_detector.py --name blow00
 sudo read a <(/dev/fd/59)
+sudo reboot
 sudo rm \[
 sudo rm fc
 sudo rm google-chrome.list.*
@@ -6329,6 +6373,7 @@ var=global
 var="This is a variable"
 vedio
 \vi
+vim
 vim 
 vim ~
 vim'
@@ -6351,7 +6396,6 @@ vim Anaconda3-2018.12-Linux-x86_64.sh
 vim auth.go 
 vim authorized_keys
 vim authorized_keys 
-vim .bash
 vim .bash/env.sh 
 vim .bash/feature.sh 
 vim ~/.bash_history 
@@ -6384,6 +6428,8 @@ vim color.vim
 vim color.vim 
 vim config
 vim .config/cef_user_data/
+vim .config/fcitx/config 
+vim .config/fcitx-qimpanel/main.conf
 vim .config/gtk-3.0/servers
 vim ~/.config/nvim/init.vim
 vim config.py 
@@ -6408,6 +6454,7 @@ vim ~/.docker/config.json
 vim Dockerfile
 vim Downloads/
 vim en-US-8-0.bdic 
+vim env.ini 
 vim /etc/
 vim /etc/default/keyboard
 vim /etc/default/keyboard 
@@ -6427,11 +6474,11 @@ vim /etc/ssh_config
 vim /etc/ssh/ssh_config 
 vim /etc/ssh/sshd_config 
 vim /etc/sudoers
+vim feature.sh 
 vim flag_set.vim 
 vim flaw_checker/
 vim fstab 
 vim .git
-vim .gitconfig 
 vim .gitmodules 
 vim git status
 vim git_status.vim 
@@ -6449,6 +6496,7 @@ vim /home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_co
 vim hosts
 vim in
 vim index.html 
+vim .inputrc 
 vim install.py 
 vim install.sh 
 vim iostream 
@@ -6460,6 +6508,7 @@ vim /lib/systemd/system/usb_blow_detector.service
 vim .local/share/app-info/xmls/extensions-web.xml
 vim LogAnalysis.hs 
 vim logkeys.pid 
+vim main.conf 
 vim <(man top)
 vim mkdp.vim 
 vim mmap
@@ -6483,6 +6532,7 @@ vim .profile
 vim proxy
 vim PS1rc
 vim PS1.sh
+vim PS1.sh 
 vim py.vim 
 vim -r 1
 vim README.md 
@@ -6632,4 +6682,4 @@ you-get -p v mpv 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
 ysql
 zathura 
 Zathura
-zsh
+[-z "$(git status -s)"] && echo '*'
