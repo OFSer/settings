@@ -866,6 +866,7 @@ ccd ..
 ./cconfigure 
 \cd
 \cd ~
+cd ~
 cd ~-
 cd ~-`
 cd ~!
@@ -1623,6 +1624,9 @@ dig -t A Dl-5
 dig -t baidu.com
 dir ~
 dir --color=auto
+dircolors
+dircolors | grep link
+dircolors | grep ln
 dir --help
 dir /home/gjs
 dirname
@@ -3610,7 +3614,6 @@ kill -TERM 4258
 kill -term 7491
 kpartx -av /dev/loop20
 kubectl version
-l
 la
 ./la
 ./labeler.sh
@@ -6443,6 +6446,7 @@ vim .config/gtk-3.0/servers
 vim ~/.config/nvim/init.vim
 vim config.py 
 vim ~/config.sh 
+vim config.sh 
 vim .config/Trolltech.conf 
 vim config.yaml 
 vim .config/yelp/

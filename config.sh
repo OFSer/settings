@@ -138,6 +138,8 @@ install_desktop(){
 }
 install_vim(){
 	sudo apt -y install vim-gnome	locales
+	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	locale-gen en_US.UTF-8
 	sudo apt install -y build-essential cmake python-dev python3-dev build-essential 
 	sudo apt install -y cmake python-dev python3-dev ctags gcc g++ clang libclang-dev
@@ -145,8 +147,6 @@ install_vim(){
 	(cd ~/.vim/plugged/YouCompleteMe && ./install.py --all)
 }
 install(){
-	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	sudo apt install -y most
 	sudo apt install -y git sshpass jq curl
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
