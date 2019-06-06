@@ -652,6 +652,7 @@ apt install locales
 apt install openssh-server
 apt install setxkbmap
 apt install sshpass
+apt install sudo
 apt install -y yasm pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
 aptitude -vvv moo
 aptitude -vvvvv moo
@@ -662,6 +663,7 @@ apt madison "dict package"
 apt search dict
 apt search dictionary
 apt search search julia
+apt update
 a=($PWD $PWD)
 args "$"
 args $(*
@@ -960,7 +962,6 @@ cd .dbus/
 cd dd
 cd default/
 cd Desktop
-cd Desktop/
 cd /dev/
 cd dev/fd/
 cd /dev/mapper/
@@ -995,7 +996,6 @@ cd /etc/sudoers.d/
 cd ext
 cd f
 ( cd fc )
-cd fc
 cd fc/ai-cloth-webserver/
 cd fc/bl
 cd ~/fc/detection-machine-daemon/
@@ -1013,6 +1013,7 @@ cd fcitx/
 { cd fc;ls }
 { cd fc;ls; }
 cd fc/sa
+cd fc/saki_detection/
 cd fc/sshproxy/
 cd fd/
 cd ffmpeg/
@@ -1127,6 +1128,7 @@ cd rc0.d/
 cd rc.local
 cd rogpeppe/
 cd root
+cd /root
 cd run
 cd sa
 cd sbin/
@@ -2675,6 +2677,7 @@ git add --force .dconf
 git add -f SogouPY
 git add -f user
 git add -f .ycm_extra_conf.py
+git add .inputrc 
 git add README.md 
 git add saki_detection/
 git add scp.sh 
@@ -3496,7 +3499,6 @@ ipcs -q -i 163845
 irm .Togglebash.swp > /dev/null 2>&1
 j=0
 jllslsdfjklldskfjlkj;fdlkjdslkj
-jobs
 jobs :
 jobs %+
 jobs +
@@ -6496,7 +6498,6 @@ vim /home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_co
 vim hosts
 vim in
 vim index.html 
-vim .inputrc 
 vim install.py 
 vim install.sh 
 vim iostream 
@@ -6683,38 +6684,3 @@ ysql
 zathura 
 Zathura
 [-z "$(git status -s)"] && echo '*'
-ls
-cd ~
-ls
-./config.sh install_vim
-apt update
-apt install sudo
-./config.sh install_vim
-jobs
-ls
-cd /root
-ls
-cd Desktop/
-ls
-cd ~
-ls
-cd fc/saki_detection/
-ls
-cd fc
-ls
-cd saki_detection
-ls
-cd ~
-ls
-cd fc
-ls
-cd saki_detection
-ls
-cd ~
-vim .inputrc 
-git status
-git add .inputrc 
-ls
-git status
-cd fc
-ls
