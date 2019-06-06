@@ -866,7 +866,6 @@ ccd ..
 ./cconfigure 
 \cd
 \cd ~
-cd ~
 cd ~-
 cd ~-`
 cd ~!
@@ -876,6 +875,7 @@ cd ../..
 cd ...
 cd ~+0
 cd 1
+cd ~-1
 cd ~+1
 cd -1
 cd -~1
@@ -905,7 +905,6 @@ cd api/
 cd applications/
 cd auxiliary_tools/
 cd .bah
-cd .bash/
 cd /bin/
 cd bin/
 cd bits/
@@ -921,10 +920,17 @@ cd /boot/grub2/i386-pc/
 cd /bootl
 cd build-plan
 cd bus/
+cd CachedSongs/
+cd ~/.cache/netease-cloud-music/Cef/Cache/"Local Storage"
+cd ~/.cache/netease-cloud-music/Cef/Cache/Local Storage
 cd camera01-190216-141151-S5
 cd `cat <(ls -d */ &> /dev/null || echo .) | head -n 1`
 cd /cdrom/
 cd cd third_party/ycmd/third_party/
+cd  Cef/
+cd Cef/Cache/"Local Storage"/
+cd Cef/Cache/"Local Storage"/orpheus_orpheus_0.localstorage
+cd Cef/Cache/Local Storage/orpheus_orpheus_0.localstorage
 cd Certificate
 cd CertificateTransparency/
 cd cin
@@ -936,6 +942,7 @@ cd /cmd/gc/walk.c
 cd cmd/go
 cd compile/
 cd .compiz/
+cd completions/
 cd con
 cd ~/.config/
 cd .config/cef_user_data/
@@ -945,7 +952,6 @@ cd .config/fcitx
 cd .config/fcitx-qimpanel/
 cd .config/gnome-
 cd .config/gnome-games/
-cd .config/google-chrome/
 cd ~/.config/google-chrome/Default/Extensions
 cd .config/gtk-3.0/
 cd .config/gtk-4.0/
@@ -969,7 +975,6 @@ cd dev/fd/
 cd /dev/mapper/
 cd /dev/pts/
 cd dictd
-cd Dictionaries/
 cd ~/disk/pack/
 cd disk/pack/70-4D-7B-64-E1-97/
 cd dl-k8s-kube/
@@ -986,11 +991,13 @@ cd Downloads/
 cde
 cde(){ abc; }
 cd `echo <(ls -d */ &> /dev/null || echo .) | head -n 1`
+cd Ef
 cd EFI
 cd electronic-wechat/
 cd /etc
-cd /etc/
 cd /etc/apt/sources.list.d/
+cd /etc/bash_completion
+cd /etc/bash_completion.d/
 cd /etc/dictd/
 cd /etc/init/
 cd /etc/init/rc
@@ -999,7 +1006,6 @@ cd /etc/sudoers.d/
 cd ext
 cd f
 ( cd fc )
-cd fc/
 cd fc/ai-cloth-webserver/
 cd fc/bl
 cd ~/fc/detection-machine-daemon/
@@ -1017,7 +1023,9 @@ cd fcitx/
 { cd fc;ls }
 { cd fc;ls; }
 cd fc/sa
+cd ~/fc/saki_detection/
 cd fc/saki_detection
+cd fc/saki_detection/
 cd fc/sshproxy/
 cd fd/
 cd ffmpeg/
@@ -1029,10 +1037,8 @@ cd fl
 cd fonts/
 cd freefont/
 cd ftplugin/
-cd g
 cd .gconf/
 cd ~/.git/
-cd .git/
 cd gjs
 cd gl
 cd gl/flaw_checker/
@@ -1051,6 +1057,8 @@ cd $GOROOT/misc/vim
 cd go/src/
 cd ~/gt
 cd gtk-
+cd gtk-2.0/
+cd gtk-3.0/
 cd gu
 cd ~/haskell/
 cd haskell/
@@ -1078,6 +1086,7 @@ cd ..l
 cd lib
 cd lib/
 cd /lib/systemd/system
+cd .local/
 cd .local/bin/
 cd .local/share/app-info/
 cd .local/share/app-info/xmls/
@@ -1144,8 +1153,9 @@ cd settings/
 cd share/app
 cd shm
 cd shmls/
-cd skin/
+cd shmmsg/
 cd SogouPY.users/
+cd sogou-qimpanel/
 cd sources/
 cd src
 cd src/r
@@ -1158,6 +1168,7 @@ cd stack
 cd ste
 cd .steam/
 cd Steam/
+cd StorageCache/
 cd system
 cd Target/
 cd tcp
@@ -1192,6 +1203,9 @@ cd /usr/local/go/
 cd usr/local/include/tensorflow/bazel-genfiles/external/llvm/
 cd /usr/share/
 cd /usr/share/application
+cd /usr/share/applications/
+cd /usr/share/bash-completion/
+cd /usr/share/bash-completion/bash_
 cd /usr/share/fonts
 cd /usr/share/fonts/truetype/
 cd /var
@@ -1338,12 +1352,11 @@ config
 ./config.sh config_proxy
 ./config.sh config_scroll
 ./config.sh install vim
-./config.sh install_vim
 ./config.sh install_wd
 ./config.sh proxy_run
 . config.sh push
-./config.sh push
 ./config.sh push "add font"
+./config.sh push "add submodule ntm-local"
 ./config.sh push "comment ycm python path"
 ./config.sh push "diable
 ./config.sh push "diable ycm syntax check"
@@ -1683,6 +1696,7 @@ docker exec -it ad7ced710bcd /bin/bash
 docker exec -it e8913cd65083
 docker exec -it e8913cd65083 /bin/bash
 docker exec -it e8913cd65083 "/bin/bash"
+docker exec -it ebf41eb3fe55 bash
 docker exec  -it jms_all /bin/bash
 docker exec -it jms_all /bin/bash -v ~:/root
 docker exec -it -v ~:/root jms_all /bin/bash
@@ -1708,7 +1722,6 @@ docker -it -v fc:/root ubuntu:16.04
 docker -it -v fc:/root ubuntu:16.04 run /bin/bash
 docker jobs
 docker list
-docker ps -a
 docker ps --all
 docker ps -a -q
 docker ps -l
@@ -1797,6 +1810,7 @@ docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi
 docker run --runtime=nvidia ubuntu:18.04 nvidia-smi
 docker run ubuntu:15.10 /bin/echo "Hello world"
 docker run ubuntu:16.04 /bin/echo "Hello world"
+docker start ebf41eb3fe55
 docker stop $(docker ps -a -q)
 docker system prune
 docker --version
@@ -1836,6 +1850,7 @@ echo "\"
 echo "\""
 echo "\$"
 echo "\\"
+echo $?
 echo $'\''
 echo $'\\'
 echo ${*##*/}
@@ -2518,8 +2533,10 @@ file:///.
 file=camera07-190125-093353-S5.tar
 file:///home/gjs/fc/saki_detection/pack/通元02-GPU号/camera06-190125-153140-S5
 file:///home/gjs/fc/saki_detection/通元02-GPU号/camera06-190125-153140-S5
+find .
 find ab cpp
 find . |grep cmath
+find . | grep cookie
 find . | grep dota
 find . | grep fcitxs
 find . | grep ghc
@@ -2533,6 +2550,7 @@ find . | grep grub
 find . | grep *.h
 find . | grep host
 find . |grep host
+find . | grep -i cookie
 find . | grep -i ext
 find . | grep -i exten | xargs -i test -f {}
 find . | grep -i exten | xargs -i test -f {} && echo {}
@@ -2549,6 +2567,7 @@ find . |grep mod
 find . |grep mod 
 find . |grep mod | grep bin
 find . | grep Mono
+find . | grep music
 find . | grep 'my.cnf'
 find . | grep osu
 find . | grep requ
@@ -2672,11 +2691,14 @@ git add ,.
 git add 1.sh
 git add -a
 git add - A
+git add AlbumCover/
 git add .bash/
 git add .bash_profile 
 git add .bash/PS1.sh 
 git add blow_check/usb_blow_detector
 git add build_all.sh 
+git add CachedSongs/
+git add Cef/
 git add .config/fcitx-qimpanel/main.conf 
 git add config.sh 
 git add dll
@@ -2692,12 +2714,15 @@ git add -f SogouPY
 git add -f user
 git add -f .ycm_extra_conf.py
 git add .inputrc 
+git add Logs/
 git add README.md 
 git add saki_detection/
 git add scp.sh 
 git add SogouPY
 \git add src/camera_process.cpp 
+git add StorageCache/
 git add submodules/saki_detection/
+git add TempFiles/
 git add third_party/build_all.sh 
 git add .vim/plugin/quit.vim 
 git add .ycm_extra_conf.py
@@ -2919,6 +2944,7 @@ git commit -m "set vim term tab title"
 git commit -m "sh -> md"
 git commit -m "start from 0"
 git commit -m "test"
+git commit -m "upd":
 git commit -m "upd cal method"
 git commit -m "upd config response"
 git commit -m "upd cookie"
@@ -2946,6 +2972,7 @@ git commit -m "vim fix mkd auto_close"
 git commit -m "vim remove auto lcd"
 git config --global core.pager 'less -x1,3'
 git config --global core.pager 'less -x1,4'
+git ddiff
 git dff
 git diff^
 git diff addBlindInfo
@@ -2963,13 +2990,14 @@ git diff .con
 git diff .config/fcitx/conf
 git diff .config/fcitx/config
 git diff .config/fcitx-qimpanel/main.conf
+git diff config.sh 
 git diff .config/unity-monitors.xml
 git diff crawler.sh
 git diff dconf .dconf
 git diff .dconf HEAD^
 git diff detection.cpp
 \git diff dev
-git diff-files
+git diff-files -s
 git diff .gitconfig
 git diff .gitignore
 git diff H
@@ -2991,6 +3019,7 @@ git diff HEAD blow_detector.py
 git diff HEAD^ .config.sh
 git diff HEAD^ config.sh
 git diff HEAD^^^ .dconf
+git diff HEAD^ .dconf
 git diff HEAD^&^^ .dconf
 git diff HEAD^^^ .vimrc
 git diff HEAD^^ .vimrc
@@ -3063,6 +3092,7 @@ git push --set-upstream origin new_blow_tmp
 git push --set-upstream origin optimize 
 git push --set-upstream origin point_blow
 git push --set-upstream origin vim
+git push -u origin master
 git push -u origin test
 git push -u public 1241d4e1bddb9c55389c86aa7d599158a83b1ae3:master
 git push -u public 1241d4e1bddb9c55389c86aa7d599158a83b1ae3:ref/heads/master
@@ -3078,6 +3108,7 @@ git remote add origin git@github.com:chinnkarahoi/cpp.git
 git remote add origin git@github.com:chinnkarahoi/DotaAutoChess.git
 git remote add origin git@github.com:chinnkarahoi/haskell-vim.git
 git remote add origin git@github.com:chinnkarahoi/IPC.git
+git remote add origin git@github.com:chinnkarahoi/ntm-local.git
 git remote add origin git@gitlab.sho.hypereal.com:jingshen.gao/analysis-flawck.git
 git remote --help
 git remote remove origin
@@ -3127,6 +3158,7 @@ git rm -r --cached webserver/
 git rm -rf submodules/saki_detection/
 git rm -r submodules/saki_detection/
 git rm -R submodules/saki_detection/
+git satus
 git show branch origin
 git show origin
 git show origin 
@@ -3146,14 +3178,16 @@ git statu
 git statuis
 git st atus
 git status --porcelain
-git status -s
 git statusz
 git ststaus
 git ststua
 git sttatus
+git submodule add -f git@github.com:chinnkarahoi/ntm-local.git .cache/netease-cloud-music/Cef/Cache/"Local Storage"
+git submodule add git@github.com:chinnkarahoi/ntm-local.git .cache/netease-cloud-music/Cef/Cache/"Local Storage"
+git submodule add --help
+git submodule foreach git add -A
 git submodule foreach --recursive git add -A
 git submodule -h
-git submodule --help
 git submodule --init
 git submodule update
 git submodule update 
@@ -3170,7 +3204,6 @@ git submodule update submodules/saki_detection/
 $(git symbolic-ref HEAD 2> /dev/null)
 git symbolic-ref HEAD 2>/dev/null | cut -d"/" -f 3
 git symbolic-ref -q HEAD | sed -e 's|^refs/heads/||'
-git symbolic-ref --short HEAD
 git sztatus
 git tatus
 gjs --help
@@ -3364,6 +3397,7 @@ hexdump test
 hexdump vd
 hexdump .vimrc
 hiso
+history 
 history |
 history | awk '{$1=""}1'
 history | awk '{$1=$2=""}'
@@ -3407,7 +3441,9 @@ history | grep git | grep branch
 history | grep git | grep checkout
 history | grep git | grep remote
 history | grep git | grep show
+history | grep git | grep submodule
 history | grep git | grep tree
+history | grep "git submodule add"
 history | grep global
 history | grep gnome-soft
 history | grep gsetting
@@ -3513,6 +3549,7 @@ ipcs -q -i 163845
 irm .Togglebash.swp > /dev/null 2>&1
 j=0
 jllslsdfjklldskfjlkj;fdlkjdslkj
+jobs
 jobs :
 jobs %+
 jobs +
@@ -3578,6 +3615,7 @@ kill 9740
 killall -9 dota2
 killall -9 electronic-wechat
 killall -9 electronic-wechat 
+killall -9 netease-cloud-music 
 killall -9 "sudo ./test_c"
 killall --help
 killall -V
@@ -3707,6 +3745,7 @@ ll | grep test
 ll | grep tmux
 ll | grep vim
 ll  -h
+ll -h
 ll -h .config/dconf/user
 ll -h | grep mydb;
 ll -h | grep tar
@@ -3716,7 +3755,9 @@ llllllllllllllllllllllllllllllllllllllllllllllll
 l,ls
 ll stdin
 ll -t
+ln ~/.bashrc .bashrc
 ln --help
+ln -s ~/.bashrc .bashrc
 ln -s /home/gjs root
 ln -s ../../.vimrc .vimrc
 localc
@@ -3751,6 +3792,7 @@ ls ????????
 ls ?????????
 ls ..
 ls '
+ls *
 ls'
 ls[
 ls 0000
@@ -3796,6 +3838,10 @@ ls -a | sed -n '/(^.git$|.|..)/!p'
 lsattr
 lsattr --help
 ls --author
+ls | awk '$1 !~ StorageCache'
+ls | awk '$1 !~ /StorageCache/' | git add 
+ls | awk '$1 !~ /StorageCache/' | git add -
+ls | awk '$1 !~ /StorageCache/' | xargs git add 
 ls | awk nr==1
 ls | awk 'NR==1'
 ls | awk 'NR=1'
@@ -3986,6 +4032,7 @@ man 2to3
 \man 7 undocumented
 man asciiquarium 
 man atc
+man bash
 man bash | grep comp
 man bash | grep compil
 man bash | grep dir
@@ -4006,6 +4053,7 @@ man cd
 man \cd
 man cd 
 man cd | grep rand
+man color
 man complete
 man completion
 man completions
@@ -4188,7 +4236,6 @@ mocp -v
 mount --rbind /root /tmp/snap.rootfs_ToQj7q
 mount  -t tmpfs -o size=20m  tmpfs tmp
 mpv
-msyql
 mv 1.lhs 2.lhs
 mv add.cpp dll
 mv add.h add.cpp test.cpp dll/*
@@ -4234,6 +4281,7 @@ my
 mycd(){ \cd "$@"; for i in `dirs -p | sed -n '2,$p'`;do done
 mycli
 mysel
+mysql
 mysqld
 mysqld start
 mysqldump --login-path=gjs mydb
@@ -4688,8 +4736,10 @@ rm b
 rm backup.sh 
 rm bad
 rm bash 
+rm .bashrc 
 rm build.sh 
 rm c
+rm Cache/
 rm cat
 rm Cm 
 rm color.vim 
@@ -4746,14 +4796,15 @@ rm receive.py
 rm record.txt 
 rm -r -- -f
 rm -rf 
+rm -rf *
 rm -rf 123
 rm -rf 70-85-C2-80-18-4E/
 rm -rf blur_detection/
+rm -rf Cache/
 rm -rf data
 rm -rf electronic-wechat/
 rm -rf ffmpeg/
 rm -rf flaw_checker
-rm -rf .git
 rm -rf gocode
 rm -rf gocode/
 rm -rf grub
@@ -4798,6 +4849,7 @@ rm ToggleTerminal
 rm Validating-Credit-Card-Numbers.hs 
 rm -vfr /home/gjs/go/pkg/mod/github.com/ugorji/go@v1.1.4/codec
 rm .vimrc.swp
+rm 'Visited Links' 
 rm wechat 
 rm wget-log 
 rsync -av fc/ ~/dd/fc/
@@ -4927,6 +4979,7 @@ set "$a" "$b" "$c"
 set $a $b $c
 set -- "'abc' 'bcd'"
 set -- "abc bcd"
+set colored-stats on
 set completion-query-items 0
 set -d' '
 set "d''"
@@ -4963,11 +5016,13 @@ sh -c "cd /tmp; exec sh --login -i"
 shell
 shfit
 shopt
+shopt -s globstar
 short_pwd 
 short_pwd() {  cwd=$(pwd | perl -F/-ane 'print join("/", map { $i++ <@F - 1? substr $_,0,1 : $_ } @F)');  echo -n $cwd; }
 shuf -i10000-20000 -n1
 shuf <(ls -d */)
 shuf <(ls -d */) <(ls -d */)
+sl
 sleep 10
 sleep 100
 sleep 100 &
@@ -5138,7 +5193,6 @@ ssh -o "StrictHostKeyChecking no" -p 12949 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13022 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13052 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13155 hypereal@registry-corp.hypereal.com
-ssh -o "StrictHostKeyChecking no" -p 13193 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13274 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13320 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 13366 hypereal@registry-corp.hypereal.com
@@ -5756,8 +5810,8 @@ sudo find . | grep osu | grep mp3
 sudo find . | grep osu | grep png
 sudo find . | grep shmmsg
 sudo ghci
-sudo git add .
 sudo git add -A
+sudo git add Cef
 sudo git branch -d mk2.5
 sudo git clean -df
 sudo git clean -fd
@@ -6385,7 +6439,6 @@ var=global
 var="This is a variable"
 vedio
 \vi
-vim 
 vim ~
 vim'
 vim 1552626743892.dat 
@@ -6417,10 +6470,8 @@ vim .bash_profile
 vim .bashr 
 vim .bashrc
 vim . bashrc
-vim .bashrc 
 vim .bashrc.bak 
 vim ~/.bashrh
-vim bookmarks 
 vim BOOTX64.EFI 
 vim build/
 vim build_all.sh 
@@ -6446,10 +6497,11 @@ vim .config/gtk-3.0/servers
 vim ~/.config/nvim/init.vim
 vim config.py 
 vim ~/config.sh 
-vim config.sh 
 vim .config/Trolltech.conf 
 vim config.yaml 
 vim .config/yelp/
+vim console.log 
+vim Cookies
 vim core.efi 
 vim crawler.sh
 vim craw.sh 
@@ -6466,10 +6518,12 @@ vim dl-k8s-kube/
 vim ~/.docker/config.json
 vim Dockerfile
 vim Downloads/
+vim en-US-7-1.bdic 
 vim en-US-8-0.bdic 
 vim env.ini 
 vim env.sh 
 vim /etc/
+vim /etc/bash_completion
 vim /etc/default/keyboard
 vim /etc/default/keyboard 
 vim /etc/dictd/dictd.conf
@@ -6488,12 +6542,11 @@ vim /etc/ssh_config
 vim /etc/ssh/ssh_config 
 vim /etc/ssh/sshd_config 
 vim /etc/sudoers
-vim feature.sh 
 vim flag_set.vim 
 vim flaw_checker/
 vim fstab 
 vim .git
-vim .gitmodules 
+vim .gitignore 
 vim git status
 vim git_status.vim 
 vim-gnome
@@ -6521,8 +6574,11 @@ vim /lib/systemd/system/usb_blow_detector.service
 vim .local/share/app-info/xmls/extensions-web.xml
 vim LogAnalysis.hs 
 vim logkeys.pid 
-vim main.conf 
+vim /Logs/webview.log
+vim Logs/webview.log
+vim lzip 
 vim <(man top)
+vim mc
 vim mkdp.vim 
 vim mmap
 vim mmap2.cpp
@@ -6534,6 +6590,8 @@ vim .mycli-history
 vim .myclirc 
 vim mysql
 vim neodark.vim 
+vim netease-cloud-music.desktop 
+vim netease-cloud-music.ini 
 vim .netrwhist 
 vim number.hs 
 vim .ossutilconfig 
@@ -6560,7 +6618,6 @@ vim run.sh
 vim search.vim
 vim sem.h 
 vim server.js 
-vim servers 
 vim shadow
 vim ./share/glib-2.0/schemas/org.gnome.software.gschema.xml
 vim socks.json
@@ -6592,11 +6649,14 @@ vim ~/.vim/after/syntax/py.vim
 vim .vimr
 vim  .vimrc
 vim .vimrc 
+vim Visited\ Links 
 vim walk.go 
+vim webview.log
 vim .xbindkeysrc 
 vim .ycm_extra_conf.py 
 vim ycm.py 
 vim youcompleteme.vim 
+vim ypcat
 vium
 watch -n 10 date
 watch -n 1 date
