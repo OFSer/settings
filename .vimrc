@@ -9,7 +9,8 @@ set nocompatible
 set incsearch
 set ignorecase
 set cursorline 
-set statusline=%1*
+"set statusline=%1*
+set statusline=%1*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%=>
 set laststatus=0
 set noshowmode
 set noruler
@@ -41,6 +42,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'skywind3000/asyncrun.vim'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'chinnkarahoi/haskell-vim'
+Plug 'PangPangPangPangPang/vim-terminal'
 
 Plug 'hdima/python-syntax'
 Plug 'tpope/vim-fugitive'
@@ -66,7 +68,7 @@ let NERDTreeChDirMode = 2
 let NERDTreeShowLineNumbers=0
 let NERDTreeAutoCenter=1
 let NERDTreeShowHidden=1
-let NERDTreeWinSize=22
+let NERDTreeWinSize=21
 let NERDTreeIgnore=['\.pyc','\~$','\.swp','\.git$']
 let NERDTreeShowBookmarks=2
 let NERDTreeDirArrowExpandable="+"

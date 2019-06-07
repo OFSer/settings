@@ -53,15 +53,16 @@ func Togglebash()
 	let bufferNum = bufnr(g:toggleterm)
 	if bufferNum == -1 || bufloaded(bufferNum) != 1
 		if g:terminal == 'bash'
-			silent! execute 'rightbelow term ++close ++kill=term '.'bash -c "cd '.expand('%:p:h').'; exec bash --login -i"'
+			silent! execute 'rightbelow term ++close ++kill=term ++rows=10 '.'bash -c "cd '.expand('%:p:h').'; exec bash --login -i"'
 		else
-			silent! execute 'rightbelow term ++close ++kill=term '.g:terminal
+			silent! execute 'rightbelow term ++close ++kill=term ++rows=10 '.g:terminal
 		endif
 		silent! exec "file ".g:toggleterm
 	else
 		let windowNum = bufwinnr(bufferNum)
 		if windowNum == -1
 			silent execute 'rightbelow sbuffer '.bufferNum
+			resize 10
 		else
 			execute windowNum.'wincmd w'
 			hide 
