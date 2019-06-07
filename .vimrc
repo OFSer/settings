@@ -35,6 +35,7 @@ nnoremap t <nop>
 nnoremap . <nop>
 nnoremap , <nop>
 tnoremap <c-v> <c-w>"0
+
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
 Plug 'skywind3000/asyncrun.vim'
@@ -45,7 +46,7 @@ Plug 'hdima/python-syntax'
 Plug 'tpope/vim-fugitive'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
-Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all' }
 nnoremap <silent> d :tab split \| YcmCompleter GoTo<cr>
 au FileType go nmap <buffer> d <Plug>(go-def-tab)
 let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
@@ -110,4 +111,5 @@ call plug#end()
 color neodark
 hi Normal guibg=NONE ctermbg=NONE
 "set termguicolors
+
 

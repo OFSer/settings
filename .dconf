@@ -12,10 +12,12 @@ display-right-margin=false
 display-overview-map=false
 scheme='oblivion'
 tabs-size=uint32 2
+editor-font='Monospace 15'
 display-line-numbers=true
 insert-spaces=true
 right-margin-position=uint32 82
 background-pattern='none'
+use-default-font=false
 wrap-last-split-mode='word'
 
 [org/gnome/gedit/preferences/ui]
@@ -525,10 +527,10 @@ direct-width=1024
 
 [apps/update-manager]
 first-run=false
-launch-time=int64 1558669560
+launch-time=int64 1559900491
 window-height=540
 show-details=true
-launch-count=10
+launch-count=11
 window-width=1008
 
 [com/canonical/indicator/datetime]
@@ -570,7 +572,7 @@ favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chr
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14
-release-check-time=uint32 1558662537
+release-check-time=uint32 1559872468
 
 [com/ubuntu/user-interface]
 scale-factor={'HDMI-0': 10, 'DP-4': 10}

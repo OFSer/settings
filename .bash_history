@@ -662,6 +662,10 @@ aptitude -vvvvv moo
 aptitude -vvvvvv moo
 aptitude -vvvvvvv moo
 aptitude -vvvvvvvvvvvvvvvvvvvvvvvvv moo
+apt list --installed
+apt list --installed | grep netease
+apt list --installed  | grep wps
+apt list --installed --upgradable  
 apt madison "dict package"
 apt search dict
 apt search dictionary
@@ -683,7 +687,9 @@ ascii "$a"
 ascii $a
 asciiquarium
 asciiquarium  --help
+asciiquarium --help
 asciiquarium  | lolcat
+asciitopgm 
 asdgasd
 asdgasdfasdfasdfasdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 a=`sshpass -p 87Co7r ssh -o "StrictHostKeyChecking no" -p 14101 hypereal@registry-corp.hypereal.com -t "ls /data/saki/tmp"`
@@ -870,6 +876,7 @@ cd ~-
 cd ~-`
 cd ~!
 cd ~/
+cd -
 cd ../
 cd ../..
 cd ...
@@ -902,7 +909,6 @@ cd afl
 cd after/
 cd anaconda3/
 cd api/
-cd applications/
 cd auxiliary_tools/
 cd .bah
 cd /bin/
@@ -965,6 +971,7 @@ cd ~/cp
 cd cpp/test/
 cd d
 cd d~
+cdd ~
 cd db/
 cd .dbus/
 cd dd
@@ -978,7 +985,6 @@ cd dictd
 cd ~/disk/pack/
 cd disk/pack/70-4D-7B-64-E1-97/
 cd dl-k8s-kube/
-cd Do
 cd ~/Do
 cd .docker
 cd dockerfiles/
@@ -987,7 +993,6 @@ cd docs
 cd docs local
 cd dot/
 cd ~/Downloads/
-cd Downloads/
 cde
 cde(){ abc; }
 cd `echo <(ls -d */ &> /dev/null || echo .) | head -n 1`
@@ -1006,6 +1011,7 @@ cd /etc/sudoers.d/
 cd ext
 cd f
 ( cd fc )
+cd fc/
 cd fc/ai-cloth-webserver/
 cd fc/bl
 cd ~/fc/detection-machine-daemon/
@@ -1039,6 +1045,7 @@ cd freefont/
 cd ftplugin/
 cd .gconf/
 cd ~/.git/
+cd .git/
 cd gjs
 cd gl
 cd gl/flaw_checker/
@@ -1128,9 +1135,9 @@ CDPATH=/
 CDPATH=123
 cd ../plug
 cd plugged
+cd plugged/
 cd plugged/YouCompleteMe/
 cd ../plugin/
-cd plugin/
 cd port/
 cd /proc/
 cd /proc/self/fd
@@ -1145,11 +1152,13 @@ cd rogpeppe/
 cd root
 cd run
 cd sa
+cd saki_detection/
 cd sbin/
 cd sem
 cd server/
 cd session/
 cd settings/
+cd share/
 cd share/app
 cd shm
 cd shmls/
@@ -1199,6 +1208,7 @@ cd /usr/inclue/c++/7.4.0/
 cd /usr/lib
 cd /usr/lib64
 cd /usr/lib/x86_64-linux-gnu/
+cd /usr/local/
 cd /usr/local/go/
 cd usr/local/include/tensorflow/bazel-genfiles/external/llvm/
 cd /usr/share/
@@ -1215,7 +1225,6 @@ cd /var/lib/docker/volumes/
 cd /var/run
 cd ~/.vim/
 cd .vim
-cd .vim/
 cd .vim/after/
 cd .vim/after/syntax/
 cd .vim/after/syntax/p
@@ -1285,6 +1294,14 @@ clang-format -style="{BasedOnStyle: WebKit, IndentWidth: 2,BreakBeforeBraces: Cu
 cloc *
 cloc *.py
 cmake .
+cmatrix 
+cmatrix  -a
+cmatrix  -b
+cmatrix -b
+cmatrix  -B
+cmatrix  -f
+cmatrix  --hell
+cmatrix  -l
 cmp -l artifacts.zip 'artifacts (1).zip'
 command
 command -l
@@ -1826,6 +1843,8 @@ dot
 dotnet publish --self-contained --configuration Release --runtime ubuntu.16.10-x64
 dotnet-sdk.dotnet run
 dotnet-sdk.dotnet run --project osu.Desktop
+dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb 
+dpkg -i wps-office_11.1.0.8392_amd64.deb 
 du
 du -h
 du -hl --max-depth=
@@ -2309,6 +2328,7 @@ echo $((RANDOM % 10000))
 echo ${ref#refs/}
 echo $RESIDUAL
 echo ~root
+echo $SESSION_MANAGER 
 echo $SHELLOPTS 
 echo $SHLVL
 echo smb://data
@@ -2535,6 +2555,7 @@ file:///home/gjs/fc/saki_detection/pack/通元02-GPU号/camera06-190125-153140-S
 file:///home/gjs/fc/saki_detection/通元02-GPU号/camera06-190125-153140-S5
 find .
 find ab cpp
+find . | grep 2
 find . |grep cmath
 find . | grep cookie
 find . | grep dota
@@ -2688,6 +2709,7 @@ ghc --help
 ghc-mod --help
 ghi
 git add ,.
+git add 1
 git add 1.sh
 git add -a
 git add - A
@@ -2831,6 +2853,7 @@ git clone https://github.com/kernc/logkeys
 git clone https://github.com/MengRao/SPSC_Queue.git
 git clone https://github.com/ppy/osu
 git clone https://github.com/ppy/osu.git
+git comit -m "upd"
 git commit --amend 
 git commit -a -m "fix buf"
 git commit -a -m "fix file read bug"
@@ -3057,6 +3080,7 @@ git merge addBlindInfo
 git merge /dev
 git merge dev 
 git merge gjs
+git merge --help
 git merge master
 git merge optparam 
 git merge origin/addBlindInfo
@@ -3179,9 +3203,13 @@ git statuis
 git st atus
 git status --porcelain
 git statusz
+git staus
+git staut
+git stauts
 git ststaus
 git ststua
 git sttatus
+git sttus
 git submodule add -f git@github.com:chinnkarahoi/ntm-local.git .cache/netease-cloud-music/Cef/Cache/"Local Storage"
 git submodule add git@github.com:chinnkarahoi/ntm-local.git .cache/netease-cloud-music/Cef/Cache/"Local Storage"
 git submodule add --help
@@ -3312,7 +3340,6 @@ gsettings set org.gnome.Terminal.SettingsList:/
 gst-play-1.0 
 gst-play-1.0 test.mp4 
 gstreamer-codec-install 
-gvim
 hash .
 hash -d python3
 hash fc/saki_detection/
@@ -3615,7 +3642,6 @@ kill 9740
 killall -9 dota2
 killall -9 electronic-wechat
 killall -9 electronic-wechat 
-killall -9 netease-cloud-music 
 killall -9 "sudo ./test_c"
 killall --help
 killall -V
@@ -3724,6 +3750,7 @@ line='aab'
 [[ $line =~ ([[:space:]])(a)b ]] && echo 1
 ./list.sh 
 lks
+ll
 ll 
 ll 1
 ll -a ??
@@ -4030,7 +4057,6 @@ man
 man 
 man 2to3
 \man 7 undocumented
-man asciiquarium 
 man atc
 man bash
 man bash | grep comp
@@ -4053,6 +4079,7 @@ man cd
 man \cd
 man cd 
 man cd | grep rand
+man cmatrix 
 man color
 man complete
 man completion
@@ -4070,6 +4097,7 @@ man dash
 man df | cache
 man df | grep cache
 man dot
+man dpkg
 man expr 
 man false
 man fc
@@ -4328,6 +4356,8 @@ nautilus /data &
 nautilus trash/
 nautilus /usr/share/fonts/truetype/ubuntu/
 nerdtree
+netease-cloud-music --help
+netease-cloud-music  --version
 nethack
 nethogs --help
 nethogs -v 3
@@ -5750,6 +5780,7 @@ sudo apt remove --purge nvidia-*
 sudo apt remove --purge  steam*
 sudo apt remove --purge vim
 sudo apt remove vim
+sudo apt remove wps-office 
 sudo apt remove -y fcitx-qimpanel
 sudo apt search bash
 sudo apt search bash | grep 5
@@ -5779,6 +5810,13 @@ sudo chown -R .docker gjs
 sudo chown -rf gjs *
 sudo chown -R gjs *
 sudo chown -R gjs .docker/
+sudo cmatrix  -h
+sudo cmatrix  -l
+sudo cmatrix  -n
+sudo cmatrix  -s
+sudo cmatrix  -u
+sudo cmatrix  -V
+sudo cmatrix  -x
 sudo cp -r ~/.ssh/ /root/.ssh/
 sudo cp ~/.ssh/ /root/.ssh/
 sudo dd if=/dev/sda
@@ -5789,9 +5827,11 @@ sudo docker run --runtime=nvidia nvidia/cuda
 sudo dotnet restore
 sudo dpkg -i cuda-repo-ubuntu1804-10-0-local-10.0.130-410.48_1.0-1_amd64.deb
 sudo dpkg -i libcudnn7*.deb
+sudo dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb 
 sudo dpkg -i nv-tensorrt-repo-ubuntu1804-cuda10.0-trt5.0.2.6-ga-20181009_1-1_amd64.deb
 sudo dpkg -i packages-microsoft-prod.deb
 sudo dpkg -i /tmp/nvidia-docker*.deb && rm /tmp/nvidia-docker*.deb
+sudo dpkg -i wps-office_11.1.0.8392_amd64.deb 
 sudo du -hl --max-depth=1 | sort
 sudo du -hl --max-depth=1 | sort -n
 sudo du -l --max-depth=1 | sort -n
@@ -6263,8 +6303,10 @@ top -n 1 | sed -n '2,5p;8,$p' > 1
 top -n 1 | sed -n '2,5p;8,$p' | cat
 top -n 1 | sed -n '2,5p;8,$p' | cat > 1
 totem
+touch 1
 touch 123\!234
 touch 1.cpp
+touch 2
 touch a
 touch bash
 touch \!bash
@@ -6439,6 +6481,7 @@ var=global
 var="This is a variable"
 vedio
 \vi
+vim 
 vim ~
 vim'
 vim 1552626743892.dat 
@@ -6451,6 +6494,7 @@ vim .1sh
 vim 1.tex
 vim 1.xh
 vim 1.zh
+vim 2
 vim 2.lhs 
 vim8.1
 vim add.cpp 
@@ -6590,7 +6634,6 @@ vim .mycli-history
 vim .myclirc 
 vim mysql
 vim neodark.vim 
-vim netease-cloud-music.desktop 
 vim netease-cloud-music.ini 
 vim .netrwhist 
 vim number.hs 
@@ -6605,6 +6648,7 @@ vim PS1rc
 vim PS1.sh
 vim PS1.sh 
 vim py.vim 
+vim quit.vim 
 vim -r 1
 vim README.md 
 vim README.sh
@@ -6648,7 +6692,6 @@ vim ~/.vim/after/syntax/c.vim
 vim ~/.vim/after/syntax/py.vim
 vim .vimr
 vim  .vimrc
-vim .vimrc 
 vim Visited\ Links 
 vim walk.go 
 vim webview.log
@@ -6755,53 +6798,3 @@ ysql
 zathura 
 Zathura
 [-z "$(git status -s)"] && echo '*'
-killall -9 netease-cloud-music 
-echo $SESSION_MANAGER 
-cd /usr/local/
-ls
-cd ..
-ls
-cd share/
-ls
-cd applications/
-ls
-vim netease-cloud-music.desktop 
-cd ~
-vim config.sh 
-git status
-man dpkg
-cmatrix 
-cmatrix  --help
-cmatrix  -a
-cmatrix  -b
-man cmatrix 
-cmatrix  -B
-cmatrix  -f
-cmatrix  --help
-cmatrix  --hell
-cmatrix  -l
-sudo cmatrix  -l
-sudo cmatrix  -h
-sudo cmatrix  -n
-sudo cmatrix  -s
-sudo cmatrix  -x
-sudo cmatrix  -V
-sudo cmatrix  -u
-cmatrix -b
-apt list --installed
-apt list --installed | grep netease
-ls
-apt list --installed 
-asciitopgm 
-asciiquarium --help
-man asciiquarium 
-ls
-cd Do
-cd Downloads/
-ls
-dpkg -i wps-office_11.1.0.8392_amd64.deb 
-sudo dpkg -i wps-office_11.1.0.8392_amd64.deb 
-apt list --installed --upgradable  
-apt list --installed 
-apt list --installed  | grep wps
-sudo apt remove wps-office 
