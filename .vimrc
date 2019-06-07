@@ -16,6 +16,9 @@ set noruler
 set ttimeoutlen=0
 set timeoutlen=0
 set updatetime=0
+set splitbelow
+set diffopt+=vertical
+set diffopt+=foldcolumn:0
 set noswapfile
 hi Error ctermbg=256
 hi goSpaceError ctermbg=256
@@ -39,6 +42,7 @@ Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'chinnkarahoi/haskell-vim'
 
 Plug 'hdima/python-syntax'
+Plug 'tpope/vim-fugitive'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 Plug 'Valloric/YouCompleteMe'
