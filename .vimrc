@@ -108,7 +108,7 @@ Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.vim'
 let g:mkdp_auto_close = 0
 call plug#end()
-color neodark
+silent! color neodark
 hi Normal guibg=NONE ctermbg=NONE
 "set termguicolors
 
