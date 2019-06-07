@@ -6755,3 +6755,53 @@ ysql
 zathura 
 Zathura
 [-z "$(git status -s)"] && echo '*'
+killall -9 netease-cloud-music 
+echo $SESSION_MANAGER 
+cd /usr/local/
+ls
+cd ..
+ls
+cd share/
+ls
+cd applications/
+ls
+vim netease-cloud-music.desktop 
+cd ~
+vim config.sh 
+git status
+man dpkg
+cmatrix 
+cmatrix  --help
+cmatrix  -a
+cmatrix  -b
+man cmatrix 
+cmatrix  -B
+cmatrix  -f
+cmatrix  --help
+cmatrix  --hell
+cmatrix  -l
+sudo cmatrix  -l
+sudo cmatrix  -h
+sudo cmatrix  -n
+sudo cmatrix  -s
+sudo cmatrix  -x
+sudo cmatrix  -V
+sudo cmatrix  -u
+cmatrix -b
+apt list --installed
+apt list --installed | grep netease
+ls
+apt list --installed 
+asciitopgm 
+asciiquarium --help
+man asciiquarium 
+ls
+cd Do
+cd Downloads/
+ls
+dpkg -i wps-office_11.1.0.8392_amd64.deb 
+sudo dpkg -i wps-office_11.1.0.8392_amd64.deb 
+apt list --installed --upgradable  
+apt list --installed 
+apt list --installed  | grep wps
+sudo apt remove wps-office 
