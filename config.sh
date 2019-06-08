@@ -15,9 +15,14 @@ install_wd(){
 	cd ~
 }
 install_tools(){
+	sudo apt install -y most
+	sudo apt install -y git sshpass jq curl
+	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
+	sudo apt install -y steam
+	sudo apt install -y compizconfig-settings-manager
 	sudo apt install -y tree net-tools nethogs openssh-server 
 	sudo apt install -y sl cmatrix fortune cowsay lolcat asciiquarium toilet
-	sudo apt install -y python3 python3-pip 
+	sudo apt install -y python-pip python3 python3-pip
 }
 config_scroll(){
 	sudo apt install xbindkeys xdotool -y
@@ -146,18 +151,8 @@ install_vim(){
 	vim -c "PlugInstall" -c "q!" -c "q!"
 	(cd ~/.vim/plugged/YouCompleteMe && ./install.py --all)
 }
-install(){
-	sudo apt install -y most
-	sudo apt install -y git sshpass jq curl
-	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
-	sudo apt install -y steam
-	sudo apt install -y compizconfig-settings-manager
-}
 install_chrome(){
-	#sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
-	#wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
-	#sudo apt update
-	sudo apt install google-chrome-stable
+	sudo apt install -y google-chrome-stable
 }
 install_netease(){
 	sudo apt install -y curl 
@@ -166,6 +161,8 @@ install_netease(){
 	sudo apt install -f -y
 	rm ~/Downloads/1.deb
 	sudo sed -i 's/Exec=.*/Exec=sh -c "unset SESSION_MANAGER \&\& netease-cloud-music"/' /usr/share/applications/netease-cloud-music.desktop
+	sudo apt install -y mpg123
+	pip install NetEase-MusicBox
 }
 install_sogou(){
 	curl 'http://cdn2.ime.sogou.com/dl/index/1524572264/sogoupinyin_2.2.0.0108_amd64.deb?st=VxugmC-KUwg_qPH3oC7MkA&amp;e=1546613868&amp;fn=sogoupinyin_2.2.0.0108_amd64.deb' --output ~/Downloads/1.deb
@@ -226,11 +223,10 @@ run(){
 	update_source
 	install_vim
 	install_desktop
-	install
+	install_tools
 	install_chrome
 	install_netease
 	install_sogou
-	install_tools
 	snap_install
 	install_wd
 	sudo apt upgrade -y
