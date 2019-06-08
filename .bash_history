@@ -541,6 +541,7 @@ a=*
 a:~
 a=0
 a=\1
+__a=123
 ${a}123
 a='1/2/3'
 a=123123123123
@@ -569,6 +570,7 @@ a={a,b}{c,d}
 a='abc\nabc'
 [[ a == a ]]; echo $?
 [ A == a ] && echo 1
+aafire 
 aafire --help
 ab
 a+=$b
@@ -596,6 +598,11 @@ abcd
 a=bcd
 a b[c d[e]]
 a.b[c.d[e]]
+[[ "abcde" =~ "abcde" ]] && echo 1
+[[ "abcde" =~ "abcdef" ]] && echo 1
+[[ "abcde" =~ "ab" ]] && echo 1
+[[ "abcde" =~ "bcd" ]] && echo 1
+[[ "abcde" =~ "bcdef" ]] && echo 1
 abc() { declare -n a=$1; echo $a; }
 abcdefgh
 abc() { echo $0; }
@@ -627,6 +634,7 @@ alias abc='bcd'
 alias ab='echo'
 alias bc='echo 123'
 alias cd='mycd'
+alias --help
 a=`ls`
 a="`ls`"
 a=$(ls)
@@ -663,6 +671,7 @@ aptitude -vvvvvv moo
 aptitude -vvvvvvv moo
 aptitude -vvvvvvvvvvvvvvvvvvvvvvvvv moo
 apt list --installed
+apt list --installed 
 apt list --installed | grep netease
 apt list --installed  | grep wps
 apt list --installed --upgradable  
@@ -720,6 +729,7 @@ b=$a
 baidu.com
 bar='host: \h'
 bas
+bash
 bash /
 bash 2.sh
 bash -c "cd /"
@@ -741,7 +751,6 @@ bash --login /
 bash --login -i ; cd /
 bash --login -i -s cd /tmp;
 . .bashr 
-. .bashrc
 . .bashr c
 bash run.sh
 bash -s 1 2 3
@@ -762,7 +771,8 @@ bg --help
 /bin/bash
 /bin/bash crawler.sh 
 bind
-bind -p
+bind -o
+bind -p | grep unix-filename-rubout
 #!/bin/sh
 bjos
 blkid
@@ -801,7 +811,6 @@ cat 3<2
 cat &<5
 cat <6
 cat abc-file | parallel echo
-cataclysm 
 cataclysm  --help
 cat asdf
 cat b
@@ -870,7 +879,6 @@ cat wget-log
 cat xinput.desktop 
 ccd ..
 ./cconfigure 
-\cd
 \cd ~
 cd ~-
 cd ~-`
@@ -905,6 +913,7 @@ cd AA12A72612A6F70B/
 cd ab
 cd ab/
 cd accumulate/
+cd afds
 cd afl
 cd after/
 cd anaconda3/
@@ -912,6 +921,7 @@ cd api/
 cd auxiliary_tools/
 cd .bah
 cd /bin/
+cd ./bin/
 cd bin/
 cd bits/
 cd bl
@@ -921,6 +931,7 @@ cd boot
 cd /boot
 cd /boot/
 cd /boot/efi/
+cd /boot/grub/
 cd /boot/grub2
 cd /boot/grub2/i386-pc/
 cd /bootl
@@ -946,6 +957,7 @@ cd cmd/
 cd /cmd/gc
 cd /cmd/gc/walk.c
 cd cmd/go
+cd colors/
 cd compile/
 cd .compiz/
 cd completions/
@@ -967,6 +979,7 @@ cd .config/totem/
 cd containerd
 cd controller/
 cd controllers/
+cd cp
 cd ~/cp
 cd cpp/test/
 cd d
@@ -1011,7 +1024,6 @@ cd /etc/sudoers.d/
 cd ext
 cd f
 ( cd fc )
-cd fc/
 cd fc/ai-cloth-webserver/
 cd fc/bl
 cd ~/fc/detection-machine-daemon/
@@ -1031,7 +1043,6 @@ cd fcitx/
 cd fc/sa
 cd ~/fc/saki_detection/
 cd fc/saki_detection
-cd fc/saki_detection/
 cd fc/sshproxy/
 cd fd/
 cd ffmpeg/
@@ -1042,6 +1053,17 @@ cd find . | grep stdc
 cd fl
 cd fonts/
 cd freefont/
+cd fsad
+cd fsad 
+cd fsad 1&>/dev/null 
+cd fsad 2>&1 &> /dev/null
+cd fsad 2>&1&> /dev/null
+cd fsad 2 &> /dev/null 
+cd fsad 2&> /dev/null 
+cd fsad 2&>/dev/null 
+\cd fsad &>/dev/null 
+cd fsad &>/dev/null 
+cd fsad &> /dev/null 2>&1
 cd ftplugin/
 cd .gconf/
 cd ~/.git/
@@ -1091,9 +1113,8 @@ cd jl/
 cd kube/
 cd ..l
 cd lib
-cd lib/
 cd /lib/systemd/system
-cd .local/
+cd ~/.local/bin
 cd .local/bin/
 cd .local/share/app-info/
 cd .local/share/app-info/xmls/
@@ -1110,10 +1131,8 @@ cd /mnt/boot
 cd /mnt/boot/
 cd mod/
 cd mysql/
-cd neodark.vim/
 cd nerdtree
 cd nerdtree-git-plugin/
-cd nerdtree_plugin/
 cd ./.nuget/
 cd ~/o
 cd online_tools/
@@ -1129,13 +1148,11 @@ cd ./osu.Game.Tests/Resources/
 cd osu-lazer-linux-installer
 cd p
 cd p-
-cd pack
 cd pack/
 CDPATH=/
 CDPATH=123
 cd ../plug
 cd plugged
-cd plugged/
 cd plugged/YouCompleteMe/
 cd ../plugin/
 cd port/
@@ -1144,6 +1161,7 @@ cd /proc/self/fd
 cd programs/
 cd ./programs/x86_64-linux/ghc-8.2.2/bin
 cd Public/
+cd python3.6/
 cd python-syntax/
 cd r
 cd rc0.d/
@@ -1162,7 +1180,6 @@ cd share/
 cd share/app
 cd shm
 cd shmls/
-cd shmmsg/
 cd SogouPY.users/
 cd sogou-qimpanel/
 cd sources/
@@ -1194,6 +1211,7 @@ cd ~/test/os
 cd test/os
 cd tex/
 cd /third_party/ycmd
+cd ti
 cd tmp
 cd /tmp/
 cd tmp/70-4D-7B-64-E1-97/
@@ -1204,6 +1222,8 @@ cd totem/
 cd transformer-pipeline/
 cd ubuntu/
 cd /usr/bin
+cd /usr/bin/
+cd /usr/bin/musicbox
 cd /usr/inclue/c++/7.4.0/
 cd /usr/lib
 cd /usr/lib64
@@ -1223,7 +1243,6 @@ cd /var/
 cd /var/lib/docker/
 cd /var/lib/docker/volumes/
 cd /var/run
-cd ~/.vim/
 cd .vim
 cd .vim/after/
 cd .vim/after/syntax/
@@ -1235,6 +1254,7 @@ cd vimpager/
 cd ~/.vim/plugged/
 cd ~/.vim/plugged/neodark.vim
 cd .vim/plugged/YouCompleteMe/
+cd .vim/plugin/
 cd .vimr
 cd vscode/
 cd ~/work/
@@ -1310,9 +1330,13 @@ command_not_found_handle
 command_not_found_handle  abc
 command_not_found_handle dot
 command_not_found_handle you-get
+compgen -a
+compgen -ac
 compgen -ac 
+compgen -ac | grep box
 compgen -ac | grep cd
 compgen -ac | grep diff
+compgen -ac | grep music
 compgen -ac | grep v
 compgen -ac | grep vedio
 compgen -ac | grep vedion
@@ -1322,8 +1346,8 @@ compgen -ac 'ls -ab'
 compgen -ac 'ls ab'
 compgen -ac 'ls b'
 compgen -ac | wc -l
-compgen -an
 compgen -ap
+compgen -au
 compgen -au | grep v
 compgen -au | grep vedio
 compgen b
@@ -1372,11 +1396,13 @@ config
 ./config.sh install_wd
 ./config.sh proxy_run
 . config.sh push
+./config.sh push
 ./config.sh push "add font"
 ./config.sh push "add submodule ntm-local"
 ./config.sh push "comment ycm python path"
 ./config.sh push "diable
 ./config.sh push "diable ycm syntax check"
+./config.sh push "fix bashrc env"
 ./config.sh push "fix vim"
 ./config.sh push "remove gnome software"
 ./config.sh push "remove terminal bold"
@@ -1488,6 +1514,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubuserconte
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 curl git clone -b dev --recursive git@gitlab.sho.hypereal.com:AIFactory/flaw_checker.git
 curl gitlab.sho.hypereal.com
+curl google.com
 curl -H 127.0.0.1:12345
 curl -H 'Cookie: loglevel=0; node_selected=undefined; csrftoken=cpqjaAQJLab3Wd3wOdXXbVQAqWhzO658OnEqXoLa2jr7SrSivU4AZem6aGJhPO3u; sessionid=y5qyd1a3fpw22iilpkbhjmhs3ul1h0yt' http://127.0.0.1:8001/assets/asset/create/
 curl -H 'Cookie: loglevel=0; node_selected=undefined; csrftoken=cpqjaAQJLab3Wd3wOdXXbVQAqWhzO658OnEqXoLa2jr7SrSivU4AZem6aGJhPO3u; sessionid=y5qyd1a3fpw22iilpkbhjmhs3ul1h0yt' http://127.0.0.1:8001/assets/asset/create/ | grep csrfmiddlewaretoken
@@ -1509,6 +1536,7 @@ curl http://127.0.0.1:8001/assets/asset/create/
 curl ';http://127.0.0.1:8080/port?mac=40-B0-76-7B-EC-C3&name=%E4%BF%A1%E5%85%83%E8%BE%BE05-GPU%E5%8F%B7'
 curl 'http://127.0.0.1:8080/port?mac=40-B0-76-7B-EC-C3&name=%E4%BF%A1%E5%85%83%E8%BE%BE05-GPU%E5%8F%B7'
 curl http://127.0.0.1:8080/port?mac=40-B0-76-7B-EC-C3&name=%E4%BF%A1%E5%85%83%E8%BE%BE05-GPU%E5%8F%B7
+curl http://127.0.0.1:9079/markdown/15599733931
 curl http://logkeys.googlecode.com/files/logkeys-0.1.1a.tar.gz
 curl https://ai-cloth-public.hypereal.com/machineSnapshots/v2/20190309/04-92-26-D2-72-A0/9/20190309095107.jpg
 curl https://ai-cloth-public.hypereal.com/machineSnapshots/v2/20190309/04-92-26-D2-72-A0/9/20190309095107.jpg -- .
@@ -1847,6 +1875,7 @@ dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
 dpkg -i wps-office_11.1.0.8392_amd64.deb 
 du
 du -h
+du -hl
 du -hl --max-depth=
 du -hl --max-depth==1
 du -l
@@ -1869,7 +1898,6 @@ echo "\"
 echo "\""
 echo "\$"
 echo "\\"
-echo $?
 echo $'\''
 echo $'\\'
 echo ${*##*/}
@@ -1994,6 +2022,7 @@ echo a
 echo ~'a'
 echo {a..'}
 echo {a..\'}
+echo $__a
 echo $'\a'
 echo ${!a*}
 echo ${${a}}
@@ -2309,7 +2338,6 @@ echo $PID
 echo $PPID
 echo $PROMPT_COMMAND 
 echo "$PS1"
-echo $PS1
 echo "$PS3"
 echo "$PS3" | od -b
 echo ${PWD}
@@ -2336,6 +2364,7 @@ echo $ssh60
 echo '' | \ssh -p 8002 gjs@10.0.10.63
 echo $svr
 echo $temp
+echo $TERMINAL
 echo test
 echo "This is important message" <5
 echo "This is important message" <&5
@@ -2343,6 +2372,7 @@ echo "This is important message" > /dev/tty
 echo $TIMEFORMAT
 echo $TMOUT
 echo $TMPIP
+echo $tty
 echo {ucb/{ex,edit},lib/{ex?.?*,how_ex}}
 echo $'\uHHHH'
 echo ~usr
@@ -2434,6 +2464,8 @@ export -f abc
 export GOROOT=/usr/local/go
 export LC_ALL=en_jp.utf8
 export LC_ALL=jp_US.utf8
+export LC_ALL=zh_CN.utf8
+export LC_ALL=zh_CN.UTF-8
 export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
 export -n
 export PAGER="nano --view"
@@ -2443,7 +2475,10 @@ export PAGER=nano \-\-view
 export PAGER=pg
 export PAGER=pg man test
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-export TERM=xterm-256color
+export PS1=""
+export PS1=\u@\h
+export TERM=linux
+export $TERM=xterm-256color
 export TEST=123
 expr 0 == 00
 expr 0 \< 00
@@ -2490,6 +2525,7 @@ False
 false || echo 1
 false && echo 1
 fasdgasdfasdfasdfasdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fbterm 
 fc -ln
 fc -l | wc -l
 fd
@@ -2584,11 +2620,11 @@ find . | grep "libc\."
 find . | grep libc.
 find . | grep libc\.
 find . | grep libgmp
+find . | grep menu | tail -n 1
 find . |grep mod
 find . |grep mod 
 find . |grep mod | grep bin
 find . | grep Mono
-find . | grep music
 find . | grep 'my.cnf'
 find . | grep osu
 find . | grep requ
@@ -2611,6 +2647,8 @@ find . |grep ycm_extra_conf
 find . | grep ycm_extra_conf.py
 find . -iname "extension"
 find . | ls 
+find menu
+find . menu
 find -name '*.img' -o -name "*fs.mod" .
 find -name '*.img' -o -name "*fs.mod" -o .
 find . -name '*.img' -o -name "*fs.mod" -o -name 
@@ -2699,7 +2737,6 @@ g++ 2.cpp -o 2 && ./2
 gcc 1.cpp -o 1 `pkg-config --cflags --libs gtk+-2.0`
 gcc --version
 g() { echo $a; }
-gedit
 get get -u -v golang.org/x/tools/go/gcexportdata
 g++ -fPIC -shared -o ./dll/libadd.so add.cpp
 ggit status
@@ -2712,8 +2749,10 @@ git add ,.
 git add 1
 git add 1.sh
 git add -a
+git add -A
 git add - A
 git add AlbumCover/
+git add .bash
 git add .bash/
 git add .bash_profile 
 git add .bash/PS1.sh 
@@ -2735,7 +2774,6 @@ git add --force .dconf
 git add -f SogouPY
 git add -f user
 git add -f .ycm_extra_conf.py
-git add .inputrc 
 git add Logs/
 git add README.md 
 git add saki_detection/
@@ -2746,9 +2784,12 @@ git add StorageCache/
 git add submodules/saki_detection/
 git add TempFiles/
 git add third_party/build_all.sh 
+git add .vim
 git add .vim/plugin/quit.vim 
+git add .vimrc .vim
 git add .ycm_extra_conf.py
 git barnch
+git branch
 git branch- a
 git branch -A
 git branch -b optimize
@@ -2761,6 +2802,8 @@ git  branch -d public
 git  branch -D public
 git branch -d remotes/origin/ssh-proxy
 git branch -D remotes/origin/ssh-proxy
+git branch -d test
+git branch -D test
 git branch --help
 git branch --help | grep current
 git branch new_branch_name $(echo "commit message" | git commit-tree HEAD^{tree})
@@ -2786,7 +2829,7 @@ git checkout -b pinyin
 git checkout -b point_blow 
 git checkout -b remotes/origin/ssh-proxy
 git checkout -b ssh-proxy remotes/origin/ssh-proxy
-git checkout -b test
+git checkout -b t
 git checkout -b vim
 git checkout -- Calc.hs
 git checkout -- config.py
@@ -2820,6 +2863,7 @@ git checkout testSock
 git checkout testSock 
 git checkout -- third_party/ffmpeg
 git checkout unity 
+git checkout -- .vim/plugin/autocmd.vim
 git checkout -- .ycm_extra_conf.py
 git chekcout -b jumpserver
 git chekcout sa
@@ -2827,6 +2871,7 @@ git chekcout saki
 git chekcout -- .vimrc
 git clean
 git clean 
+git clean -df
 git clean -df 
 git clean -fdx
 git clean -ffdx
@@ -2854,6 +2899,7 @@ git clone https://github.com/MengRao/SPSC_Queue.git
 git clone https://github.com/ppy/osu
 git clone https://github.com/ppy/osu.git
 git comit -m "upd"
+git commit -am "1234"
 git commit --amend 
 git commit -a -m "fix buf"
 git commit -a -m "fix file read bug"
@@ -2942,6 +2988,7 @@ git commit -m "merge master"
 git commit -m "merge new_blow"
 git commit -m "move test"
 git commit -m "nb"
+git commit -m "NERDTreeWinSize=22 causes buffers not aligned after toggle"
 git commit -m "pack online_blow"
 git commit -m "png -> jpg"
 git commit -m "pull"
@@ -2998,6 +3045,7 @@ git config --global core.pager 'less -x1,4'
 git ddiff
 git dff
 git diff^
+git diff 
 git diff addBlindInfo
 git diff .bash_profile
 \git diff .bashrc
@@ -3014,6 +3062,7 @@ git diff .config/fcitx/conf
 git diff .config/fcitx/config
 git diff .config/fcitx-qimpanel/main.conf
 git diff config.sh 
+git diff .config/SogouPY/pingback.time
 git diff .config/unity-monitors.xml
 git diff crawler.sh
 git diff dconf .dconf
@@ -3044,8 +3093,11 @@ git diff HEAD^ config.sh
 git diff HEAD^^^ .dconf
 git diff HEAD^ .dconf
 git diff HEAD^&^^ .dconf
+git diff HEAD^ HEAD
+git diff HEAD HEAD^
 git diff HEAD^^^ .vimrc
 git diff HEAD^^ .vimrc
+git diff .inputrc
 git diff master
 git diff master blow_detector.py
 git diff master interface.py
@@ -3057,20 +3109,19 @@ git diff --no-ext-diff --quiet --exit-code || echo *
 git diff run.sh
 git diff --shortstat
 git diff sql.sh
-git diff .vim
+git diff test
 git diff .vim/
 git diff .vim/autoload/plug.vim
 git diff .vim/ftplugin/cpp.vim
+git diff .vim/plugin/autocmd.vim
 \git diff .vimrc
-git diff .vimrc
+git diff .vimrc .vim
 git fetch --help
 git fetch master
 git flaw_checker/
 git@github.com:chinnkarahoi/settings.git
 git git status
 git idff
-git init 
-git log
 git log 
 git log --oneline --graph --decorate
 \git ls-files --full-name --exclude-standard -om
@@ -3084,8 +3135,10 @@ git merge --help
 git merge master
 git merge optparam 
 git merge origin/addBlindInfo
+git merge t
 git merge test --no-ff 
 git mod
+git mrege test
 git origin 
 git origin show branch
 git pul
@@ -3151,9 +3204,11 @@ git reset --hard config.py
 git reset HEAD
 git reset HEAD^
 git reset HEAD 
+git reset HEAD^1
 git reset HEAD^1 --hard
 \git reset HEAD --hard 
 git reset HEAD^ --hard
+git reset HEAD --harx
 git reset HEAD submodules/saki_detection
 git reset remotes/origin/ssh-proxy
 git revert f674dffc3679de9789500d98b429cec4cba4dbd9
@@ -3165,6 +3220,7 @@ git rm --cached *
 git rm --cached 1
 git rm --cached .bash_history
 git rm --cached .config/mimeapps.list 
+git rm --cached .config/SogouPY/pingback.time
 git rm --cached .config/totem/state.ini
 git rm --cached .config/vlc/vlc-qt-interface.conf
 git rm --cached config.yaml 
@@ -3203,7 +3259,6 @@ git statuis
 git st atus
 git status --porcelain
 git statusz
-git staus
 git staut
 git stauts
 git ststaus
@@ -3448,6 +3503,7 @@ history | grep apt\-cache
 history | grep bin
 history | grep cache
 history | grep caps
+history | grep compgen
 history | grep "-D"
 history | grep \-D
 history | grep daemon
@@ -3504,6 +3560,7 @@ history | grep tmp
 history | grep var
 history | grep var | grep lib
 history | grep vim
+history | grep "vim -c"
 history | grep 'vim /etc'
 history | grep webserver
 history | grep xargs
@@ -3576,7 +3633,6 @@ ipcs -q -i 163845
 irm .Togglebash.swp > /dev/null 2>&1
 j=0
 jllslsdfjklldskfjlkj;fdlkjdslkj
-jobs
 jobs :
 jobs %+
 jobs +
@@ -3678,6 +3734,7 @@ kill -TERM 4258
 kill -term 7491
 kpartx -av /dev/loop20
 kubectl version
+l
 la
 ./la
 ./labeler.sh
@@ -3958,6 +4015,7 @@ ls | grep img
 ls | grep *.img
 ls | grep -i 'sogou'
 ls | grep mount
+ls | grep music
 ls | grep '?!o'
 ls | grep osu
 ls | grep ?osu
@@ -4057,6 +4115,7 @@ man
 man 
 man 2to3
 \man 7 undocumented
+man alias
 man atc
 man bash
 man bash | grep comp
@@ -4154,8 +4213,7 @@ man ps | grep group
 man pwd
 man pypinyin
 man read
-man readline
-man readline 
+man readlin
 \man rsync | grep exclude
 man rt
 man scp
@@ -4196,6 +4254,7 @@ man type
 man uniq
 \man vim
 man vim | grep term
+man w3m
 man whereis 
 man which
 mautilus /mnt
@@ -4225,6 +4284,7 @@ mkdir empty
 mkdir -- -f
 mkdir ftplugin
 mkdir gh
+mkdir git
 mkdir go
 mkdir img
 mkdir inc
@@ -4264,6 +4324,7 @@ mocp -v
 mount --rbind /root /tmp/snap.rootfs_ToQj7q
 mount  -t tmpfs -o size=20m  tmpfs tmp
 mpv
+./musicbox 
 mv 1.lhs 2.lhs
 mv add.cpp dll
 mv add.h add.cpp test.cpp dll/*
@@ -4309,7 +4370,6 @@ my
 mycd(){ \cd "$@"; for i in `dirs -p | sed -n '2,$p'`;do done
 mycli
 mysel
-mysql
 mysqld
 mysqld start
 mysqldump --login-path=gjs mydb
@@ -4358,7 +4418,7 @@ nautilus /usr/share/fonts/truetype/ubuntu/
 nerdtree
 netease-cloud-music --help
 netease-cloud-music  --version
-nethack
+NetEase-MusicBox
 nethogs --help
 nethogs -v 3
 netogs
@@ -4481,12 +4541,17 @@ pip3 freeze
 pip3 install lxml
 pip3 install pynvim --upgrade 
 pip3 install --upgrade you-get
+pip --help
+pip --help | grep del
+pip --help | grep remove
 pip install cv
 pip install import cv2
 pip install opencv
 pip install opencv2
 pip install py-opencv-3.4.2
+pip list
 pip search cv
+pip uninstall NetEase-MusicBox
 pkg-config
 pkg-config --cflags --libs 
 pkg-config --cflags --libs gtk+
@@ -4920,6 +4985,7 @@ rsync fc ~/dd/
 ./run.sh -pfu
 ./run.sh -pgu
 ./run.sh -u -a
+s
 `s
 ./s1
 >s1.cpp
@@ -5016,6 +5082,7 @@ set "d''"
 set d' '
 set -- home/gjs home/gjs
 set "`ls`"
+set -o
 set -o emacs
 set -o | grep ex
 set -o posix 
@@ -5041,7 +5108,6 @@ set +vx
 set "x" "y z"
 set x 'y z'
 #set 会重新排列参数的顺序，也就是改变$1,$2...$n的值，这些值在getopt中重新排列过了
-sh
 sh -c "cd /tmp; exec sh --login -i"
 shell
 shfit
@@ -5611,6 +5677,7 @@ stat %s dconf
 stat +%s dconf
 stat --size camera00-20190301140841.jpg
 status
+steam
 ./steam 
 steam 
 steam --reset
@@ -5622,6 +5689,7 @@ sudo add-apt-repository ppa:jonathonf/vim
 sudo add-apt-repository ppa:ytvwld/asciiquarium
 sudo add-apt-repository universe
 sudo add-apt-repository -y ppa:jonathonf/vim
+sudo adduser $(whoami) video  
 sudo apt-cached madision bash
 sudo apt-cache madision bash
 sudo apt-cache madison
@@ -5647,6 +5715,8 @@ sudo apt-get install libavcodec-ffmpeg56
 sudo apt-get install libgtk3-nocsd0:i386
 sudo apt-get install logkeys
 sudo apt-get install mednafen
+sudo apt-get install mpg123
+sudo apt-get install mpg123 -y
 sudo apt-get install openssh-server
 sudo apt-get install steam
 sudo apt-get install texlive
@@ -5689,6 +5759,7 @@ sudo apt install docker
 sudo apt install docker.io
 sudo apt install emacs
 sudo apt install eog
+sudo apt install fbterm
 sudo apt install fortune
 sudo apt install -f vim=2:8.0.1453-1ubuntu1
 sudo apt install gawk
@@ -5743,6 +5814,7 @@ sudo apt install  pkg-config
 sudo apt install  pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
 sudo apt install python3-hy
 sudo apt install python-hy
+sudo apt install python-pip
 sudo apt install rename
 sudo apt install setxkbmap
 sudo apt install sl
@@ -5759,6 +5831,9 @@ sudo apt install unity
 sudo apt install vim==2:8.0.1453-1ubuntu1
 sudo apt install vim=8.0.1453
 sudo apt install vim-syntax-go
+sudo apt install w3m-*
+sudo apt install w3m-el
+sudo apt install w3m-img
 sudo apt install yasm
 sudo apt install -y $(check-language-support)
 sudo apt install -y libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg
@@ -5766,6 +5841,7 @@ sudo apt install you-get
 sudo apt install -y python3 python3-pip
 sudo apt install -y yasm
 sudo apt install zathura
+sudo apt install zhcon
 sudo aptitude install mono-devel 
 sudo aptitude install mono-devel nuget -y
 sudo apt-key add /var/cuda-repo-10-0-local-10.0.130-410.48/7fa2af80.pub
@@ -5839,6 +5915,8 @@ sudo /etc/init.d/mysqld start
 sudo /etc/init.d/sshresart
 sudo /etc/init.d/ssh start
 sudo /etc/ld.so.conf
+sudo fbterm
+sudo fbterm 
 sudo fdisk /dev/sdc
 sudo fdisk -l /dev/sda
 sudo fdisk -l | grep sdc
@@ -6006,9 +6084,11 @@ sudo passwd fff
 sudo passwd mid
 sudo passwd root
 sudo passwd server
+sudo passwd test
 sudo perf record -e cpu-clock -g ./flaw_checker
 sudo pip3 install bs4 lxml
 sudo pip3 install lxml
+sudo pip install NetEase-MusicBox
 sudo  pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
 sudo python3 blow_detector.py --name blow00
 sudo read a <(/dev/fd/59)
@@ -6126,11 +6206,14 @@ sudo useradd -m -d /home/fffg -s /usr/sbin/nologin fffg
 sudo useradd -m -d /home/mac -s /bin/bash -G sudo mac
 sudo useradd -m -d /home/mid -G sudo mid
 sudo useradd -m -d /home/server -G sudo -p s server 
+sudo useradd -m -d /home/test -G sudo test
 sudo useradd -m -d /usr/mac -G sudo mac
 sudo userdel fffg
 sudo userdel mac
 sudo /usr/bin/python3 /home/gjs/fc/usb_blow_detector/webserver/server.py
+sudo vim /boot/grub/menu.lst
 sudo vim /etc/apt/sources.list
+sudo vim /etc/group
 sudo vim /etc/init.d/docker 
 sudo vim /etc/pam.d/login
 sudo vim /etc/profile 
@@ -6202,6 +6285,7 @@ telnet localhost
 telnet towel.blinkenlights.nl 666
 temp="-a -b 'arg' -c '' -- 'arg1' '234'"
 TEMP=`getopt -o ab:c:: --long a-long,b-long:,c-long:: \
+TERM=linux
 test
 ./test
 ./test_
@@ -6330,6 +6414,7 @@ tr a b
 tr abcd jkmn
 tr abcd jkmn <<EOF
 tr [a-c] [A-C] <<<a
+trap
 trap 1234 DEBUG
 trap 'echo 123' RETURN
 trap 'echo 234' EXIT
@@ -6364,7 +6449,9 @@ true && false || echo 1 && echo 2
 true && true || echo 1 && echo 2
 true && true || echo 2 && echo 1
 true && true || false && echo 1
+tty
 tty5
+tty --help
 type
 type '('
 type (
@@ -6395,6 +6482,7 @@ type gjs
 type hash
 type --help
 type kill
+type mycd
 type mysql
 type \\mysql
 type -p
@@ -6433,6 +6521,7 @@ umask -S u=rwx,g=rwx,o=rwx
 umount /dev/mapper/loop18p1
 umount /home/gjs/test/tmp
 umount /mnt/boot/efi
+unalias cd
 uniq --help
 unique --help
 unity-control-center
@@ -6444,6 +6533,7 @@ unset ${a[1]}
 unset a[1]
 unset a[2]
 unset b
+unset cd
 unset FUNCNEST
 unset HOME
 unset IFS
@@ -6452,6 +6542,7 @@ unset PAGER
 us
 use mysql
 useradd  -G root test
+useradd --help
 useradd --help | grep login
 useradd --hlep
 useradd mac
@@ -6459,6 +6550,8 @@ useradd macn
 useradd -m -d /home/fffg -s /usr/sbin/nologin fffg
 useradd -m -d /home/fff -s /usr/sbin/nologin fff
 useradd -m -d /home/server -G sudo server
+useradd -m -d /home/test -G sudo
+useradd -m -d /home/test -G sudo test
 useradd -m -d /usr/mac -G sudo gjs
 useradd -m -d /usr/mac -G sudo mac
 userdel mac
@@ -6504,7 +6597,7 @@ vim Anaconda3-2018.12-Linux-x86_64.sh
 vim auth.go 
 vim authorized_keys
 vim authorized_keys 
-vim .bash/env.sh 
+vim ~/.bash/env.sh 
 vim .bash/feature.sh 
 vim ~/.bash_history 
 vim .bash_history 
@@ -6533,6 +6626,7 @@ vim color
 ~/.vim/colors/
 vim color.vim
 vim color.vim 
+vim con
 vim config
 vim .config/cef_user_data/
 vim .config/fcitx/config 
@@ -6586,6 +6680,7 @@ vim /etc/ssh_config
 vim /etc/ssh/ssh_config 
 vim /etc/ssh/sshd_config 
 vim /etc/sudoers
+vim `find . | grep menu | tail -n 1`
 vim flag_set.vim 
 vim flaw_checker/
 vim fstab 
@@ -6607,6 +6702,7 @@ vim /home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_co
 vim hosts
 vim in
 vim index.html 
+vim .inputrc 
 vim install.py 
 vim install.sh 
 vim iostream 
@@ -6633,11 +6729,11 @@ vim msgrcv.cpp
 vim .mycli-history 
 vim .myclirc 
 vim mysql
-vim neodark.vim 
 vim netease-cloud-music.ini 
 vim .netrwhist 
 vim number.hs 
 vim .ossutilconfig 
+vim override_tab_mapping.vim 
 vimpager 
 vim part10.lhs 
 vim part11.lhs 
@@ -6650,7 +6746,6 @@ vim PS1.sh
 vim py.vim 
 vim quit.vim 
 vim -r 1
-vim README.md 
 vim README.sh
 vim recently-used.xbel
 vim record.txt 
@@ -6676,6 +6771,7 @@ vim .swo
 vim system-proxy.source 
 vim t
 vim -T
+vim tabline.vim 
 vim -T bash
 vim term
 vim --term
@@ -6695,12 +6791,20 @@ vim  .vimrc
 vim Visited\ Links 
 vim walk.go 
 vim webview.log
+vim ./x86_64-efi/gfxmenu.mod
 vim .xbindkeysrc 
 vim .ycm_extra_conf.py 
 vim ycm.py 
 vim youcompleteme.vim 
 vim ypcat
 vium
+vm
+w3m 127.0.0.1:9079/markdown/15599733931
+w3m github.com
+w3m http://127.0.0.1:9079/markdown/15599733931?L2hvbWUvZ2pzL1JFQURNRS5tZCYvaG9tZS9nanMvLnZpbS9wbHVnZ2VkL21hdGhqYXgtc3VwcG9ydC1mb3ItbWtkcC9tYXRoamF4LXN0YXRpYy8=
+w3m https://github.com/chinnkarahoi/settings
+w3m  http://w3m.sourceforge.net
+w3m -M http://w3m.sourceforge.net
 watch -n 10 date
 watch -n 1 date
 ' | wc -c
@@ -6709,6 +6813,7 @@ wd animate
 wd  epigrams
 wd -s  calvin 
 wd -s epigrams
+wd -s obsolete
 wd -s synopsis
 wd -s sysnopsis
 wd -s test
@@ -6798,3 +6903,4 @@ ysql
 zathura 
 Zathura
 [-z "$(git status -s)"] && echo '*'
+zhcon -utf8

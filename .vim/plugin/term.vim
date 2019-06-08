@@ -46,7 +46,9 @@ func Bufferbash()
 		endif
 	endif
 endfunc
+let g:togglebash=0
 func Togglebash()
+	let g:togglebash=1-g:togglebash
 	if bufname('%') =~ g:sidebar
 		return
 	endif
@@ -69,6 +71,23 @@ func Togglebash()
 		endif
 	endif
 endfunc
+func Syncbash()
+	let bufferNum = bufnr(g:toggleterm)
+	if g:togglebash==0
+		if bufferNum != -1 && bufloaded(bufferNum) == 1
+			let windowNum = bufwinnr(bufferNum)
+			execute windowNum.'wincmd w'
+			hide 
+		endif
+	else
+		let windowNum = bufwinnr(bufferNum)
+		if windowNum == -1
+			silent execute 'rightbelow sbuffer '.bufferNum
+			resize 10
+		endif
+	endif
+endfunc
+"au BufEnter * call Syncbash()
 
 
 "--------------------------Togglebash------------------------------------"
