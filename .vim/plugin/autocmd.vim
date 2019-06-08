@@ -1,6 +1,7 @@
-autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ g:term || &filetype =~ g:sidebar) | set signcolumn=no | else | set signcolumn=yes | endif
-autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ g:term || &filetype =~ g:sidebar) | set nonu | else | set nu | endif
-autocmd CursorHold,BufAdd,CursorMoved * if (bufname('%') =~ g:term) | set nocursorline | else | set cursorline | endif
+autocmd BufNew,BufEnter * if (bufname('%') =~ g:term || &filetype =~ g:sidebar) | set signcolumn=no | else | set signcolumn=yes | endif
+autocmd BufNew,BufEnter * if (bufname('%') =~ g:term || &filetype =~ g:sidebar) | set nonu | else | set nu | endif
+autocmd BufNew,BufEnter * if (bufname('%') =~ g:term) | set nocursorline | else | set cursorline | endif
+autocmd FileType tagbar,nerdtree setlocal signcolumn=no | setlocal nonu
 augroup netrw_mapping
   autocmd!
   autocmd filetype netrw call NetrwMapping()
@@ -9,7 +10,7 @@ func! NetrwMapping()
   noremap <buffer> i <nop>
   noremap <buffer> s <nop>
 endfunc
-autocmd BufLeave,FocusLost,InsertLeave,TextChanged * silent! wall | silent! Remove Netrw*
+autocmd BufLeave,FocusLost,InsertLeave,TextChanged * silent! wall
 au FileType netrw,nerdtree au BufLeave <buffer> setlocal nocursorline
 au FileType netrw,nerdtree au BufEnter <buffer> setlocal cursorline
 
@@ -30,5 +31,5 @@ func Del()
 		endif
 	endfor
 endfunc
-au CursorMoved * cal Del()
+au Tabclosed * cal Del()
 "autocmd BufEnter * silent! lcd %:p:h

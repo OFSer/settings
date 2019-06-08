@@ -31,7 +31,7 @@ func Bufferbash()
 	let l:bufferNum = bufnr(g:bufterm.bufnr('%'))
 	if l:bufferNum == -1 || bufloaded(bufferNum) != 1
 		if g:terminal == 'bash'
-			silent execute 'vert rightbelow term ++close ++kill=term '.'bash -c "cd '.expand('%:p:h').'; exec bash --login -i"'
+			silent execute 'vert rightbelow term ++close ++kill=term '.'bash -c "cd '.expand('%:p:h').' &> /dev/null; exec bash --login -i"'
 		else
 			silent execute 'vert rightbelow term ++close ++kill=term '.g:terminal
 		endif
@@ -53,7 +53,7 @@ func Togglebash()
 	let bufferNum = bufnr(g:toggleterm)
 	if bufferNum == -1 || bufloaded(bufferNum) != 1
 		if g:terminal == 'bash'
-			silent! execute 'rightbelow term ++close ++kill=term ++rows=10 '.'bash -c "cd '.expand('%:p:h').'; exec bash --login -i"'
+			silent! execute 'rightbelow term ++close ++kill=term ++rows=10 '.'bash -c "cd '.expand('%:p:h').' &> /dev/null; exec bash --login -i"'
 		else
 			silent! execute 'rightbelow term ++close ++kill=term ++rows=10 '.g:terminal
 		endif

@@ -8,5 +8,5 @@ set completion-query-items 0
 set page-completions off
 set mark-directories on
 Tab: menu-complete
+"w": unix-word-rubout
 "[Z": menu-complete-backward
-

@@ -32,7 +32,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-case "$TERM" in
+case "$_TERM" in
 xterm*|rxvt*)
 	PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}:`dirs -p | head -n 1`$\007"'
 	# Show the currently running command in the terminal title:
