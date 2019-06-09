@@ -10,7 +10,10 @@ func Quit()
 	if bufname('%') == g:toggleterm
 		let g:togglebash=0
 	endif
-	if &buftype =~ 'quickfix' || bufname('%') =~ g:term || bufname('%') =~ g:bufterm || &buftype =~ "help"
+	if bufname('%') =~ "^".g:term
+		exe "tabc"
+	endif
+	if &buftype =~ 'quickfix' || bufname('%') =~ g:bufterm || &buftype =~ "help"
 		exe "q!"
 		silent! exe "bw! ".nr
 		silent! exe "bw! ".g:bufterm.nr

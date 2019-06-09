@@ -98,7 +98,7 @@ func Synccursor()
 endfunc
 au TabLeave * let g:cursorPos=bufnr('%')
 au TabEnter * call Synccursor()
-au BufEnter * if bufname('%') != "" | call Syncbash() | endif
+au BufEnter,TerminalOpen * if bufname('%') != "" | call Syncbash() | endif
 
 
 "--------------------------Togglebash------------------------------------"
