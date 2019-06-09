@@ -814,6 +814,7 @@ cat abc-file | parallel echo
 cataclysm  --help
 cat asdf
 cat b
+cat .bash_history 
 cat .bash_history | awk "$0 ~/.vim/colors/ '87Co7r'"
 cat .bash_history | awk /$1 ~ 123/
 cat .bash_history | awk $1 ~ 123
@@ -821,6 +822,7 @@ cat .bash_history | awk $1 ~/.vim/colors/ '87Co7r
 cat .bash_history | awk /a:~Co7r/
 cat .bash_history | awk '{print $0}'
 cat .bash_history | grep awk
+cat .bash_history | grep "vim -c"
 cat .bash_history | sort
 cat .bash_history | sort | uniq -c
 cat 'Btop - 16:28:42 up 2 days,  2:17,  1 user,  load average: 2.03, 1.79, 1.54B;49mB;49m1h25l'
@@ -1399,6 +1401,7 @@ config
 ./config.sh install_wd
 ./config.sh proxy_run
 . config.sh push
+./config.sh push
 ./config.sh push "add font"
 ./config.sh push "add submodule ntm-local"
 ./config.sh push "comment ycm python path"
@@ -1579,6 +1582,8 @@ curl www.google.com
 curl -X GET http://127.0.0.1:5000/cmd/service
 curl -X HEAD http://127.0.0.1:5000/cmd/service
 curl -X POST -d method=restart http://127.0.0.1:5000/cmd/service
+cut -c 1- "asdb asdf asdf"
+cut --help
 [ -d . ]
 dash --help
 dash ls
@@ -1673,6 +1678,13 @@ diff -a  artifacts.zip 'artifacts (1).zip'
 diff -a  artifacts.zip 'artifacts (1).zip' | hexdump -C 
 diff -a  artifacts.zip 'artifacts (1).zip' | hexdump -C -n 
 diff artifacts.zip 'artifacts (1).zip'
+diff `history | awk '$1="";$2'` .bash_history 
+diff <<<`history | awk '$1="";$2'` .bash_history 
+diff <(history | awk '$1="";{printf("\b%s\n",$0)}') .bash_history ~
+diff <(history | awk '$1="";{printf("\c%s\n",$0)}') .bash_history ~
+diff <(history | awk '$1="";{printf(" %s\n",$0)}') .bash_history 
+diff <(history | awk '$1="";{printf("%s\n",$0)}') .bash_history 
+diff <(history | cut -c 7-) .bash_history
 diff main.py misc.py
 diff save save.txt
 dig 123
@@ -3485,7 +3497,6 @@ hexdump test
 hexdump vd
 hexdump .vimrc
 hiso
-history 
 history |
 history | awk '{$1=""}1'
 history | awk '{$1=$2=""}'
@@ -3493,9 +3504,30 @@ history | awk '{$1=$2=""}''
 history | awk '{$1=$2=""}1'
 history | awk '{$1=$2="";print}'
 history | awk '{$1="";print}'
+history | awk '$1="";print $2'
+history | awk '$1="";{printf $2}'
+history | awk '$1="";printf $2'
+history | awk '$1="";{printf "$2\n"}'
+history | awk '$1="";{printf $2\n}'
+history | awk '$1="";{printf %s $2}'
+history | awk '$1="";{printf("%s",$2)}'
+history | awk '$1="";{printf(" %s\n",$0)}'
+history | awk '$1="";{printf("%s\n",$0)}')
+history | awk '$1="";{printf("%s\n",$2)}'
+history | awk '$1="";{println $2}'
 history | awk '{print $2}'
 history | awk '{print $2,NF}'
 history | awk '{print $2,NR}'
+history | cut -c '{{1-}}'
+history | cut -c '1-'
+history | cut -c "1-"
+history | cut -c {1-}
+history | cut -c 1-
+history | cut -c '2-'
+history | cut -c '3-'
+history | cut -c '4-'
+history | cut -c '5-'
+history | cut -c 8-
 history -d 10
 history -d 1 10
 history | grep
@@ -3571,6 +3603,7 @@ history | grep 'vim /etc'
 history | grep webserver
 history | grep xargs
 history | grep xml
+history   | head -n 10
 history | wc -l
 histoyr
 /home/gjs/anaconda3/bin/python2
@@ -3593,6 +3626,7 @@ i="~/abc bcd"
 icdiff artifacts.zip 'artifacts (1).zip'
 icdiff artifacts.zip artifacts\ \(1\).zip 
 icdiff cmath ext/cmath 
+icdiff <(history | awk '$1="";$2') .bash_history 
 if [ $? != 0 ] ; then echo "Terminating..." >&2 ; exit 1 ; fi
 if (( 2 < 1 ));then  echo 123; fi
 if (( 2 > 1 ));then  echo 123; fi
@@ -6586,6 +6620,7 @@ var=global
 var="This is a variable"
 vedio
 \vi
+vim
 vim 
 vim ~
 vim'
@@ -6612,6 +6647,7 @@ vim authorized_keys
 vim ~/.bash/env.sh 
 vim .bash/feature.sh 
 vim ~/.bash_history 
+vim .bash_history 
 vim .bash_logout 
 vim ~/.bash_profile
 vim .bash_profile
