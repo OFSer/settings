@@ -72,22 +72,28 @@ func Togglebash()
 	endif
 endfunc
 func Syncbash()
+	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
+	for i in a
+		if bufname(i) == "" 
+			silent! exe "bw! ".i
+		endif
+	endfor
 	let bufferNum = bufnr(g:toggleterm)
+	let windowNum = bufwinnr(bufferNum)
 	if g:togglebash==0
-		if bufferNum != -1 && bufloaded(bufferNum) == 1
+		if bufferNum != -1 && windowNum != -1
 			let windowNum = bufwinnr(bufferNum)
 			execute windowNum.'wincmd w'
 			hide 
 		endif
 	else
-		let windowNum = bufwinnr(bufferNum)
 		if windowNum == -1
 			silent execute 'rightbelow sbuffer '.bufferNum
 			resize 10
 		endif
 	endif
 endfunc
-"au BufEnter * call Syncbash()
+au BufEnter * if bufname('%') != "" | call Syncbash() | endif
 
 
 "--------------------------Togglebash------------------------------------"

@@ -7,7 +7,7 @@ func Comment()
 	if &filetype == 'sh' || &filetype == 'python'
 		silent! exe line_start.','.line_end.'s/^/#/'
 	endif
-	if bufname('%') =~ 'vimrc'
+	if &filetype == 'vim'
 		silent! exe line_start.','.line_end.'s/^/"/'
 	endif
 endfunc
@@ -20,7 +20,7 @@ func Uncomment()
 	if &filetype == 'sh' || &filetype == 'python'
 		silent! exe line_start.','.line_end.'s/^#//'
 	endif
-	if bufname('%') =~ 'vimrc'
+	if &filetype == 'vim'
 		silent! exe line_start.','.line_end.'s/^"//'
 	endif
 endfunc
