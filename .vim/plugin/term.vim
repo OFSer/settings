@@ -48,12 +48,12 @@ func Bufferbash()
 endfunc
 let g:togglebash=0
 func Togglebash()
-	let g:togglebash=1-g:togglebash
 	if bufname('%') =~ g:sidebar
 		return
 	endif
+	let g:togglebash=1-g:togglebash
 	let bufferNum = bufnr(g:toggleterm)
-	if bufferNum == -1 || bufloaded(bufferNum) != 1
+	if bufferNum == -1
 		if g:terminal == 'bash'
 			silent! execute 'rightbelow term ++close ++kill=term ++rows=10 '.'bash -c "cd '.expand('%:p:h').' &> /dev/null; exec bash --login -i"'
 		else
@@ -61,14 +61,7 @@ func Togglebash()
 		endif
 		silent! exec "file ".g:toggleterm
 	else
-		let windowNum = bufwinnr(bufferNum)
-		if windowNum == -1
-			silent execute 'rightbelow sbuffer '.bufferNum
-			resize 10
-		else
-			execute windowNum.'wincmd w'
-			hide 
-		endif
+		call Syncbash()
 	endif
 endfunc
 func Syncbash()
@@ -84,7 +77,9 @@ func Syncbash()
 		if bufferNum != -1 && windowNum != -1
 			let windowNum = bufwinnr(bufferNum)
 			execute windowNum.'wincmd w'
-			hide 
+			if bufnr('%')==bufferNum 
+				hide 
+			endif
 		endif
 	else
 		if windowNum == -1
@@ -93,6 +88,16 @@ func Syncbash()
 		endif
 	endif
 endfunc
+func Synccursor()
+	let bufferNum = bufnr(g:toggleterm)
+	if bufferNum == g:cursorPos
+		call feedkeys("\<c-w>j")
+	else
+		call feedkeys("\<c-w>k")
+	endif
+endfunc
+au TabLeave * let g:cursorPos=bufnr('%')
+au TabEnter * call Synccursor()
 au BufEnter * if bufname('%') != "" | call Syncbash() | endif
 
 
