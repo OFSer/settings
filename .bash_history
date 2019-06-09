@@ -882,7 +882,6 @@ ccd ..
 \cd ~
 cd ~-
 cd ~-`
-cd ~!
 cd ~/
 cd -
 cd ../
@@ -981,6 +980,7 @@ cd controller/
 cd controllers/
 cd cp
 cd ~/cp
+cd cpp/
 cd cpp/test/
 cd d
 cd d~
@@ -1121,6 +1121,7 @@ cd .local/share/app-info/xmls/
 cd .local/share/unity-settings-daemon/
 cd logkeys
 cd logkeys/
+cd ~ls
 cd `ls -d */ &> /dev/null || echo .`
 cd `ls -d */ | shuf`
 cd markdown-preview.vim/
@@ -1131,7 +1132,6 @@ cd /mnt/boot
 cd /mnt/boot/
 cd mod/
 cd mysql/
-cd nerdtree
 cd nerdtree-git-plugin/
 cd ./.nuget/
 cd ~/o
@@ -1176,6 +1176,7 @@ cd sem
 cd server/
 cd session/
 cd settings/
+cd sh
 cd share/
 cd share/app
 cd shm
@@ -1203,6 +1204,7 @@ cd templates/
 cd tes
 cd ~/tes
 cd ~/test/
+cd test/
 cd test/cpp/test/
 cd ~/test/empty/
 cd ~/test/IPC/
@@ -1252,6 +1254,7 @@ cd vim-go/
 cd ~/.vim/nerdtree_plugin/override_tab_mapping.vim
 cd vimpager/
 cd ~/.vim/plugged/
+cd .vim/plugged/
 cd ~/.vim/plugged/neodark.vim
 cd .vim/plugged/YouCompleteMe/
 cd .vim/plugin/
@@ -1396,7 +1399,6 @@ config
 ./config.sh install_wd
 ./config.sh proxy_run
 . config.sh push
-./config.sh push
 ./config.sh push "add font"
 ./config.sh push "add submodule ntm-local"
 ./config.sh push "comment ycm python path"
@@ -1702,6 +1704,7 @@ dirs -1
 dirs +2
 dirs -3
 dirs /home/gjs
+dirs -p
 dirs -p | head -n 1 | rev | awk -F'/' '{print $1}' | rev
 dirs -p | sed '2,$'
 dirs -p | sed '2,$p'
@@ -2583,6 +2586,7 @@ ffmpeg -r $FPS -f image2        -i %04d.png -vcodec libx264 -crf $CRF -pix_fmt y
 ffmpeg -r $FPS -f image2 -s ${WIDTH}x$HEIGHT -start_number $FIRSTFRAME        -i %04d.png -vcodec libx264 -crf $CRF -pix_fmt yuv420p output.mp4
 ffmpge -f
 ffmpge --help
+fg
 fgc
 fgjobs
 file:///.
@@ -2752,7 +2756,6 @@ git add -a
 git add -A
 git add - A
 git add AlbumCover/
-git add .bash
 git add .bash/
 git add .bash_profile 
 git add .bash/PS1.sh 
@@ -2761,7 +2764,6 @@ git add build_all.sh
 git add CachedSongs/
 git add Cef/
 git add .config/fcitx-qimpanel/main.conf 
-git add config.sh 
 git add dll
 git add env.ini 
 git add -f after autoload/ colors/ ftplugin/
@@ -2784,7 +2786,6 @@ git add StorageCache/
 git add submodules/saki_detection/
 git add TempFiles/
 git add third_party/build_all.sh 
-git add .vim
 git add .vim/plugin/quit.vim 
 git add .vimrc .vim
 git add .ycm_extra_conf.py
@@ -2854,6 +2855,7 @@ git checkout opt
 git checkout optimize
 git checkout optparam
 git checkout optparam 
+git checkout -- README.md
 git checkout remotes/origin/ssh-proxy
 git checkout  -- scp.sh
 git checkout -- sql.sh
@@ -2940,6 +2942,7 @@ git commit -m "add report"
 git commit -m "add save file"
 git commit -m "add scp"
 git commit -m "add scroll to vim"
+git commit -m "add sync term"
 git commit -m "add toggle terminal"
 git commit -m "add vendor"
 git commit -m "add .vim"
@@ -3014,6 +3017,7 @@ git commit -m "set vim term tab title"
 git commit -m "sh -> md"
 git commit -m "start from 0"
 git commit -m "test"
+git commit -m "upd"
 git commit -m "upd":
 git commit -m "upd cal method"
 git commit -m "upd config response"
@@ -3110,7 +3114,6 @@ git diff run.sh
 git diff --shortstat
 git diff sql.sh
 git diff test
-git diff .vim/
 git diff .vim/autoload/plug.vim
 git diff .vim/ftplugin/cpp.vim
 git diff .vim/plugin/autocmd.vim
@@ -3259,12 +3262,13 @@ git statuis
 git st atus
 git status --porcelain
 git statusz
+git staus
 git staut
 git stauts
-git ststaus
 git ststua
 git sttatus
 git sttus
+git stus
 git submodule add -f git@github.com:chinnkarahoi/ntm-local.git .cache/netease-cloud-music/Cef/Cache/"Local Storage"
 git submodule add git@github.com:chinnkarahoi/ntm-local.git .cache/netease-cloud-music/Cef/Cache/"Local Storage"
 git submodule add --help
@@ -3340,6 +3344,8 @@ goldendict --help
 gold  --help
 go mod tidy
 google-chrome https://baidu.com
+googler
+googler baidu
 go run main
 go run main.go
 g++ -o test test.cpp -L .
@@ -3559,8 +3565,8 @@ history | grep tldr
 history | grep tmp
 history | grep var
 history | grep var | grep lib
-history | grep vim
-history | grep "vim -c"
+history | grep 'vim \-c'
+history | grep "vim \-c"
 history | grep 'vim /etc'
 history | grep webserver
 history | grep xargs
@@ -3633,6 +3639,7 @@ ipcs -q -i 163845
 irm .Togglebash.swp > /dev/null 2>&1
 j=0
 jllslsdfjklldskfjlkj;fdlkjdslkj
+jobs
 jobs :
 jobs %+
 jobs +
@@ -3806,7 +3813,6 @@ line='aab'
 [[ $line =~ ([[:space:]]*?)(a)b ]]
 [[ $line =~ ([[:space:]])(a)b ]] && echo 1
 ./list.sh 
-lks
 ll
 ll 
 ll 1
@@ -4073,6 +4079,7 @@ ls -R
 ls rc
 ls rc*
 ls rc* | grep soft
+lss
 ls | sed -n 1p
 ls | sed -n 2p
 ls | sed -n '/\.git/p'
@@ -4106,6 +4113,7 @@ ls | xargs -P 4 -L 1 tar xvf
 ls .ycm
 lsza
 lv
+lynx google.com
 | mac               | camid    | dt         | tm       | alias           | url                                                                               | type |
 make
 ./make.bash 
@@ -4939,6 +4947,7 @@ rm test.go
 rm test_pipe_size
 rm tmp.json 
 rm .tmux.conf 
+rm Toggle\!bash 
 "rm .Togglebash.swp > /dev/null 2>&1
 rm ToggleTerminal 
 rm Validating-Credit-Card-Numbers.hs 
@@ -5677,7 +5686,6 @@ stat %s dconf
 stat +%s dconf
 stat --size camera00-20190301140841.jpg
 status
-steam
 ./steam 
 steam 
 steam --reset
@@ -5704,6 +5712,7 @@ sudo apt-get install build-essential
 sudo apt-get install dictd dict
 sudo apt-get install dict-gcide
 sudo apt-get install dict-moby-thesaurus
+sudo apt-get install googler
 sudo apt-get install gstreamer0.10-ffmpeg
 sudo apt-get install gstreamer1.0-libav
 sudo apt-get install gstreamer1.0-libav gstreamer0.10-ffmpeg
@@ -5794,6 +5803,8 @@ sudo apt install libnvidia-gl-390
 sudo apt install libnvidia-gl-418:i386
 sudo apt install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
 sudo apt install lolcat
+sudo apt install lynx
+sudo apt install Lynx
 sudo apt install minikube
 sudo apt install moc
 sudo apt install mono-devel 
@@ -5831,6 +5842,7 @@ sudo apt install unity
 sudo apt install vim==2:8.0.1453-1ubuntu1
 sudo apt install vim=8.0.1453
 sudo apt install vim-syntax-go
+sudo apt install w3m 
 sudo apt install w3m-*
 sudo apt install w3m-el
 sudo apt install w3m-img
@@ -6600,7 +6612,6 @@ vim authorized_keys
 vim ~/.bash/env.sh 
 vim .bash/feature.sh 
 vim ~/.bash_history 
-vim .bash_history 
 vim .bash_logout 
 vim ~/.bash_profile
 vim .bash_profile
@@ -6643,6 +6654,7 @@ vim Cookies
 vim core.efi 
 vim crawler.sh
 vim craw.sh 
+vim -c "set showtabline=0" -c "tab term"
 vim c.sh 
 vim c.vim
 vim daemon.sh
@@ -6684,6 +6696,7 @@ vim `find . | grep menu | tail -n 1`
 vim flag_set.vim 
 vim flaw_checker/
 vim fstab 
+vim func.vim 
 vim .git
 vim .gitignore 
 vim git status
@@ -6775,6 +6788,7 @@ vim tabline.vim
 vim -T bash
 vim term
 vim --term
+vim term.vim 
 vim test.md 
 vim .tmux_conf
 vim .tmux.conf
@@ -6787,6 +6801,7 @@ vim version.h
 vim ~/.vim/after/syntax/c.vim
 vim ~/.vim/after/syntax/py.vim
 vim .vimr
+vim ~/.vimrc
 vim  .vimrc
 vim Visited\ Links 
 vim walk.go 
@@ -6800,6 +6815,7 @@ vim ypcat
 vium
 vm
 w3m 127.0.0.1:9079/markdown/15599733931
+w3m baidu.com
 w3m github.com
 w3m http://127.0.0.1:9079/markdown/15599733931?L2hvbWUvZ2pzL1JFQURNRS5tZCYvaG9tZS9nanMvLnZpbS9wbHVnZ2VkL21hdGhqYXgtc3VwcG9ydC1mb3ItbWtkcC9tYXRoamF4LXN0YXRpYy8=
 w3m https://github.com/chinnkarahoi/settings
