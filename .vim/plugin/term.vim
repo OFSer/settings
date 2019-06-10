@@ -85,13 +85,14 @@ func Syncbash()
 endfunc
 func Synccursor()
 	let bufferNum = bufnr(g:toggleterm)
-	if bufferNum == g:cursorPos
-		let windowNum = bufwinnr(bufferNum)
-		"exe windowNum."wincmd w"
-		call feedkeys("\<c-w>j")
-	else
-		call feedkeys("\<c-w>k")
-	endif
+"	if bufferNum == g:cursorPos
+"		let windowNum = bufwinnr(bufferNum)
+"		exe windowNum."wincmd w"
+"		call feedkeys("\<c-w>j")
+"	else
+"		call feedkeys("\<c-w>k")
+"	endif
+	call feedkeys("\<c-w>k")
 endfunc
 au TabLeave * let g:cursorPos=bufnr('%')
 au TabEnter * call Synccursor()

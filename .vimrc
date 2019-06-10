@@ -50,7 +50,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all' }
-nnoremap <silent> d :tab split \| YcmCompleter GoTo<cr>
+nnoremap <silent> D :tab split \| YcmCompleter GoTo<cr>
+nnoremap <silent> d :YcmCompleter GoTo<cr>
 au FileType go nmap <buffer> d <Plug>(go-def-tab)
 let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 let g:ycm_confirm_extra_conf = 0

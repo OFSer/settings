@@ -12,6 +12,7 @@ func Quit()
 	endif
 	if bufname('%') =~ "^".g:term
 		exe "tabc!"
+		return
 	endif
 	if &buftype =~ 'quickfix' || bufname('%') =~ g:bufterm || &buftype =~ "help"
 		exe "q!"

@@ -490,6 +490,7 @@ $0
 [[ 1 -eq 2 ]] && echo 1 || echo 0
 ./1 -m 10
 . 1.sh
+./1.sh
 .1/.sh
 ./1.sh 11035
 ./1.sh 11085
@@ -690,6 +691,7 @@ args ${a[*]}
 args "$log"
 args $*ls
 args $var
+arp -a
 as
 ascii a
 ascii "$a"
@@ -730,6 +732,7 @@ baidu.com
 bar='host: \h'
 bas
 bash
+. .bash
 bash /
 bash 2.sh
 bash -c "cd /"
@@ -751,6 +754,7 @@ bash --login /
 bash --login -i ; cd /
 bash --login -i -s cd /tmp;
 . .bashr 
+. .bashrc
 . .bashr c
 bash run.sh
 bash -s 1 2 3
@@ -882,10 +886,13 @@ cat xinput.desktop
 ccd ..
 ./cconfigure 
 \cd ~
+cd ~
 cd ~-
 cd ~-`
 cd ~/
 cd -
+cd .
+cd ..
 cd ../
 cd ../..
 cd ...
@@ -896,6 +903,7 @@ cd ~+1
 cd -1
 cd -~1
 cd 1141/
+cd 1.3.1/
 cd 18aa974c-2266-4d72-8a1e-aa8bf26d25a6/
 cd 1.cpp
 \cd ~-2
@@ -919,11 +927,13 @@ cd afl
 cd after/
 cd anaconda3/
 cd api/
+cd autoload/
 cd auxiliary_tools/
 cd .bah
 cd /bin/
 cd ./bin/
 cd bin/
+cd bincrafters/
 cd bits/
 cd bl
 cd blow_check/usb_blow_detector/
@@ -936,6 +946,7 @@ cd /boot/grub/
 cd /boot/grub2
 cd /boot/grub2/i386-pc/
 cd /bootl
+cd build/
 cd build-plan
 cd bus/
 cd CachedSongs/
@@ -958,11 +969,13 @@ cd cmd/
 cd /cmd/gc
 cd /cmd/gc/walk.c
 cd cmd/go
+cd .co
 cd colors/
 cd compile/
 cd .compiz/
 cd completions/
 cd con
+cd .conan/
 cd ~/.config/
 cd .config/cef_user_data/
 cd .config/dconf/
@@ -987,6 +1000,7 @@ cd cpp/test/
 cd d
 cd d~
 cdd ~
+cd ./data/spdlog
 cd db/
 cd .dbus/
 cd dd
@@ -1026,6 +1040,7 @@ cd /etc/sudoers.d/
 cd ext
 cd f
 ( cd fc )
+cd fc/
 cd fc/ai-cloth-webserver/
 cd fc/bl
 cd ~/fc/detection-machine-daemon/
@@ -1045,6 +1060,7 @@ cd fcitx/
 cd fc/sa
 cd ~/fc/saki_detection/
 cd fc/saki_detection
+cd fc/shmmsg/
 cd fc/sshproxy/
 cd fd/
 cd ffmpeg/
@@ -1075,6 +1091,7 @@ cd gl
 cd gl/flaw_checker/
 cd ./glib-2.0/schemas/
 cd gl/saki_detection/
+cd go/
 cd godef/
 cd golang
 cd google-chrome/
@@ -1106,6 +1123,7 @@ cd http-
 cd http-hello/
 cd ibus/
 cd inc
+cd include/
 cd init.d/
 cd input/
 cd internal/gc/
@@ -1153,15 +1171,19 @@ cd p-
 cd pack/
 CDPATH=/
 CDPATH=123
+cd plug
 cd ../plug
 cd plugged
+cd plugged/
 cd plugged/YouCompleteMe/
 cd ../plugin/
+cd plugin/
 cd port/
 cd /proc/
 cd /proc/self/fd
 cd programs/
 cd ./programs/x86_64-linux/ghc-8.2.2/bin
+cd PthreadPool/
 cd Public/
 cd python3.6/
 cd python-syntax/
@@ -1183,6 +1205,7 @@ cd share/
 cd share/app
 cd shm
 cd shmls/
+cd shmmsg/
 cd SogouPY.users/
 cd sogou-qimpanel/
 cd sources/
@@ -1198,6 +1221,7 @@ cd ste
 cd .steam/
 cd Steam/
 cd StorageCache/
+cd syntax/
 cd system
 cd Target/
 cd tcp
@@ -1246,8 +1270,10 @@ cd /var
 cd /var/
 cd /var/lib/docker/
 cd /var/lib/docker/volumes/
+cd /var/log/
 cd /var/run
 cd .vim
+cd .vim/
 cd .vim/after/
 cd .vim/after/syntax/
 cd .vim/after/syntax/p
@@ -1511,6 +1537,7 @@ curl 127.0.0.1 > /dev/null | grep Connect
 curl 127.0.0.1 | wc -l
 curl 127.0.1.1:20002
 curl 172.17.0.2
+curl   192.168.6.100:1999
 curl 192.168.8.2
 curl 192.168.8.2:2233
 [ `curl 192.168.8.2:2233 | wc -l` -gt 0 ]
@@ -1577,11 +1604,13 @@ curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add
 curl  smb://share/TempExchange/HuangWei/tf-cc
 curl smb://share/TempExchange/HuangWei/tf-cc
 curl -sSL https://get.haskellstack.org/ | sudo sh
+curl -v  192.168.6.100:1999
 curl wttr.in
 curl www.google.com
 curl -X GET http://127.0.0.1:5000/cmd/service
 curl -X HEAD http://127.0.0.1:5000/cmd/service
 curl -X POST -d method=restart http://127.0.0.1:5000/cmd/service
+curseofwar 
 cut -c 1- "asdb asdf asdf"
 cut --help
 [ -d . ]
@@ -2217,6 +2246,11 @@ echo -e "\\033[0;31m系统颜色设置代码调试，此颜色为一号颜色 - 
 echo -e "\\033[0;31m系统颜色设置代码调试，此颜色为三号颜色 - 黄！"
 echo -e "\\033[0;33m系统颜色设置代码调试，此颜色为三号颜色 - 黄！"
 echo -e "\\033[0;34m系统颜色设置代码调试，此颜色为三号颜色 - 黄！"
+echo -e "1\n1 2\n1 2 3"
+echo -e "1\n1 2\n1 2 3" | sort | sort | uniq -u
+echo -e "1\n1 2\n1 2 3" | sort | uniq -u
+echo -e '1\n1\n' | uniq
+echo -e '1\n1\n' | uniq -u
 echo -e "\a"
 echo -e "a b"
 echo "echo "*""
@@ -2609,6 +2643,7 @@ find .
 find ab cpp
 find . | grep 2
 find . |grep cmath
+find . | grep conan
 find . | grep cookie
 find . | grep dota
 find . | grep fcitxs
@@ -2654,6 +2689,7 @@ find . | grep shm.h
 find . | grep sogou
 find . | grep Sogou
 find .  | grep Sogou
+find . | grep spdlog
 find .| grep std
 find . | grep sudo libgmp
 find .| grep sys
@@ -2661,6 +2697,7 @@ find . | grep unistd
 find . | grep ycm_extra
 find . |grep ycm_extra_conf
 find . | grep ycm_extra_conf.py
+find --help
 find . -iname "extension"
 find . | ls 
 find menu
@@ -2668,6 +2705,8 @@ find . menu
 find -name '*.img' -o -name "*fs.mod" .
 find -name '*.img' -o -name "*fs.mod" -o .
 find . -name '*.img' -o -name "*fs.mod" -o -name 
+find . -path ./home -prune -o conan
+find . -path ./home -prune -o -iname conan
 find rc
 find sh ss
 find -type d . | grep -i exten | xargs -i test -f {} && echo {}
@@ -2747,6 +2786,7 @@ function set-title() {   if [[ -z "$ORIG" ]]; then     ORIG=$PS1;   fi;   TITLE=
 function shorten_pwd {  PWD=$(pwd)  REPLACE="/.."  RESIDUAL=${PWD#$HOME}  if [ X"$RESIDUAL"!= X"$PWD" ];  then  PREFIX="~";  fi  TRUNC_LENGTH=$(($MAX_PWD_LENGTH - ${#PREFIX} - ${#REPLACE} - 1));  NORMAL=${PREFIX}${RESIDUAL};  if [ ${#NORMAL} -ge $(($MAX_PWD_LENGTH)) ];  then  newPWD=${PREFIX}${REPLACE}${RESIDUAL:((${#RESIDUAL} - $TRUNC_LENGTH)):$TRUNC_LENGTH};  else  newPWD=${PREFIX}${RESIDUAL};  fi  echo $newPWD; }
 function shorten_pwd {  PWD=$(pwd)  RESIDUAL=${PWD#$HOME}  if [ X"$RESIDUAL"!= X"$PWD" ];  then  PREFIX="~";  fi  NORMAL=${PREFIX}${RESIDUAL};  if [ ${#NORMAL} -ge $(($MAX_PWD_LENGTH)) ];  then  newPWD=${PREFIX};  OIFS=$IFS;  IFS='/';  bits=$RESIDUAL;  for x in $bits;  do  if [ ${#x} -ge 3 ];  then  NEXT="/${x:0:1}";  else  NEXT="$x";  fi;  newPWD="$newPWD$NEXT";  done;  IFS=$OIFS;  else  newPWD=${PREFIX}${RESIDUAL};  fi  echo $newPWD; }
 g
+g++ 1.cpp
 g++ 1.cpp -o 1 `pkg-config --cflags --libs gtk+-2.0`
 g++ 2.cpp -o 2
 g++ 2.cpp -o 2 && ./2
@@ -2762,6 +2802,7 @@ ghc --help
 ghc-mod --help
 ghi
 git add ,.
+git add .
 git add 1
 git add 1.sh
 git add -a
@@ -2769,6 +2810,7 @@ git add -A
 git add - A
 git add AlbumCover/
 git add .bash/
+git add .bash/alias.sh 
 git add .bash_profile 
 git add .bash/PS1.sh 
 git add blow_check/usb_blow_detector
@@ -2798,7 +2840,9 @@ git add StorageCache/
 git add submodules/saki_detection/
 git add TempFiles/
 git add third_party/build_all.sh 
+git add .vim
 git add .vim/plugin/quit.vim 
+git add .vimrc
 git add .vimrc .vim
 git add .ycm_extra_conf.py
 git barnch
@@ -2853,6 +2897,7 @@ git checkout -- feature.sh
 git checkout -- ffmpeg/ 
 git checkout  HEAD~3 config.sh
 git checkout HEAD~5 test.sh
+git checkout HEAD^ config.sh
 git checkout HEAD^^^^^^^ test.sh
 git checkout HEAD^^ test.sh
 git checkout HEAD^ .vimrc
@@ -2887,8 +2932,10 @@ git clean
 git clean 
 git clean -df
 git clean -df 
+git clean -dff
 git clean -fdx
 git clean -ffdx
+git clone git@github.com:chinnkarahoi/PthreadPool.git
 git clone git@github.com:chinnkarahoi/settings.git
 git clone git://github.com/rkitover/vimpager
 git clone git@gitlab.sho.hypereal.com:AIFactory/ai-cloth-webserver.git
@@ -2993,6 +3040,7 @@ git commit -m "fix README"
 git commit -m "fix saki"
 git commit -m "fix saki sbm bug"
 git commit -m "fix size"
+git commit -m "fix some bug & accel"
 git commit -m "fix ssh hosts"
 git commit -m 'fix status bug"
 git commit -m "fix status bug"
@@ -3045,6 +3093,8 @@ git commit -m "upd point blow sbm"
 git commit -m "upd run.sh"
 git commit -m "upd save pic"
 git commit -m "upd sql"
+git commit -m "upd status change event"
+git commit -m "upd sync term"
 git commit -m "upd tab font"
 git commit -m "upd test"
 git commit -m "ver0.2.0"
@@ -3060,6 +3110,7 @@ git config --global core.pager 'less -x1,3'
 git config --global core.pager 'less -x1,4'
 git ddiff
 git dff
+git diff
 git diff^
 git diff 
 git diff addBlindInfo
@@ -3070,6 +3121,8 @@ git diff branch addBlindInfo
 \git diff --cache
 git diff --cachecd
 \git diff --cached
+git diff --cached
+git diff --cached 
 git diff --cached config.sh
 git diff --cached run.sh
 git diff --cached .vimrc
@@ -3085,11 +3138,13 @@ git diff dconf .dconf
 git diff .dconf HEAD^
 git diff detection.cpp
 \git diff dev
+git diff-files --no-ext-diff --quiet --ignore-submodules
 git diff-files -s
 git diff .gitconfig
 git diff .gitignore
 git diff H
 git diff HEAD
+git diff HEAD^
 git diff HEAD^^
 git diff HEAD~2
 git diff HEAD~2 config.sh
@@ -3103,6 +3158,7 @@ git diff HEAD~5 .bash_profile
 git diff HEAD^5 .config
 git diff HEAD^5 config.sh
 git diff HEAD~5 config.sh
+git diff HEAD^ .bash_history
 git diff HEAD blow_detector.py
 git diff HEAD^ .config.sh
 git diff HEAD^ config.sh
@@ -3130,6 +3186,7 @@ git diff .vim/autoload/plug.vim
 git diff .vim/ftplugin/cpp.vim
 git diff .vim/plugin/autocmd.vim
 \git diff .vimrc
+git diff .vimrc
 git diff .vimrc .vim
 git fetch --help
 git fetch master
@@ -3137,6 +3194,7 @@ git flaw_checker/
 git@github.com:chinnkarahoi/settings.git
 git git status
 git idff
+git log
 git log 
 git log --oneline --graph --decorate
 \git ls-files --full-name --exclude-standard -om
@@ -3158,6 +3216,7 @@ git origin
 git origin show branch
 git pul
 \git pull
+git pull
 git pull git@github.com:mdempsky/gocode.git
 git pullgit@github.com:mdempsky/gocode.git
 git pull --help
@@ -3169,6 +3228,7 @@ git pull origin gjsz
 git pull origin optparam
 git pull --rebase 
 git pull --recurse-submodules 
+git push
 git push origin master
 git push origin point_blow
 git push origin saki
@@ -3196,10 +3256,13 @@ git rebase -9i
 git rebase --abort
 git rebase -i fa2e7bf
 git rebase -i fa2e7bf6a47996ba1e6a01e68e478549ba580785
+git remote 
+git remote add git@github.com:chinnkarahoi/nerdtree-git-plugin.git
 git remote add origin git@github.com:chinnkarahoi/cpp.git
 git remote add origin git@github.com:chinnkarahoi/DotaAutoChess.git
 git remote add origin git@github.com:chinnkarahoi/haskell-vim.git
 git remote add origin git@github.com:chinnkarahoi/IPC.git
+git remote add origin git@github.com:chinnkarahoi/nerdtree-git-plugin.git
 git remote add origin git@github.com:chinnkarahoi/ntm-local.git
 git remote add origin git@gitlab.sho.hypereal.com:jingshen.gao/analysis-flawck.git
 git remote --help
@@ -3209,7 +3272,12 @@ git remote set-url origin
 git remote set-url --push --all origin git@github.com:chinnkarahoi/haskell-vim.git
 git remote set-url --push origin git@github.com:chinnkarahoi/haskell-vim.git
 \git remote show origin
+git remote show origin
+git remote show origin | less
+git remote show origin | more
+git remote show origin | most
 git remote update  origin
+git remote -v
 git remove -v
 git reset 87b2a8aba67e7445dd17c769c54dbd87d92d37dd
 git reset .config/dconf/user
@@ -3223,6 +3291,7 @@ git reset HEAD^1
 git reset HEAD^1 --hard
 \git reset HEAD --hard 
 git reset HEAD^ --hard
+git reset HEAD --hard
 git reset HEAD --harx
 git reset HEAD submodules/saki_detection
 git reset remotes/origin/ssh-proxy
@@ -3271,8 +3340,10 @@ git staths
 git statsus
 git statu
 git statuis
+git status
 git st atus
 git status --porcelain
+git status -s
 git statusz
 git staus
 git staut
@@ -3303,6 +3374,7 @@ git submodule update submodules/saki_detection/
 $(git symbolic-ref HEAD 2> /dev/null)
 git symbolic-ref HEAD 2>/dev/null | cut -d"/" -f 3
 git symbolic-ref -q HEAD | sed -e 's|^refs/heads/||'
+git symbolic-ref --short HEAD
 git sztatus
 git tatus
 gjs --help
@@ -3497,6 +3569,7 @@ hexdump test
 hexdump vd
 hexdump .vimrc
 hiso
+history 
 history |
 history | awk '{$1=""}1'
 history | awk '{$1=$2=""}'
@@ -3597,8 +3670,11 @@ history | grep tldr
 history | grep tmp
 history | grep var
 history | grep var | grep lib
+history | grep vim
 history | grep 'vim \-c'
+history | grep "vim -c"
 history | grep "vim \-c"
+history  | grep "vim -c"
 history | grep 'vim /etc'
 history | grep webserver
 history | grep xargs
@@ -3902,6 +3978,7 @@ lolcat config.sh
 lolcat --help
 lolcat -v
 losetup /dev/loop20 im
+ls
 `\ls
 ;ls
 ! ls
@@ -3942,6 +4019,7 @@ ls -a ??
 ls _A
 ls- A
 ls -ad */
+ls -a | grep conan
 ls -a | grep So
 ls -a | grep SogouPY
 ls -a | grep team
@@ -4152,6 +4230,7 @@ lynx google.com
 make
 ./make.bash 
 make -j2
+make -j4
 man
 \man
 man 
@@ -4189,6 +4268,7 @@ man contab
 man crontab
 man curl | grep head 
 man curl | head 
+man curseofwar 
 man -D 1 man 
 man -D 1 sprintf
 man -D 2 man 
@@ -4204,6 +4284,7 @@ man false
 man fc
 man ffmpeg
 man ffmpeg | grep format
+man find
 man find 
 man find | grep file
 man find | grep type
@@ -4246,12 +4327,14 @@ man mysql
 man mysql | dump
 man mysql | grep dump
 man mysql | grep 'dump'
+man nc
 man nslookup
 man page-completions
 man perf
 man popd
 man print
 man ps | grep group
+man pthread_create
 man pwd
 man pypinyin
 man read
@@ -4457,10 +4540,18 @@ nautilus /data
 nautilus /data &
 nautilus trash/
 nautilus /usr/share/fonts/truetype/ubuntu/
+nc baidu.com
+nc --help
+nc -t baidu.com
+nc -u   192.168.6.100 1999
+nc -u   192.168.6.100:1999
+nc -u   192.168.6.100 2019
+nc -u baidu.com
 nerdtree
 netease-cloud-music --help
 netease-cloud-music  --version
 NetEase-MusicBox
+nethack
 nethogs --help
 nethogs -v 3
 netogs
@@ -4491,6 +4582,7 @@ nslookup k8s-master.sihe6.com
 nslookup registry-corp.hypereal.com
 nslookup ssh-proxy-pod.ssh-proxy.jumpserver.svc.cluster.local
 nslookup sshtron.zachlatta.com
+nsnake
 nugetrestore
 nvcc --version
 nvidia-docker 
@@ -4498,6 +4590,7 @@ nvidia-docker images
 ./NVIDIA-Linux-x86_64-418.43.run
 nvidia-smi -a
 nvim
+obs
 od
 od -b .vimrc
 od -C -b .vimrc
@@ -4521,6 +4614,7 @@ ossutil ls oss://ai-cloth-public/debug-data > t
 ossutil ls oss://ai-cloth-public/debug-data | wc -l
 p
 p=(a)b
+PAGER=less man curseofwar 
 PAGER=less;man test
 PAGER=most;info expr
 PAGER=nano \man semctl
@@ -4531,6 +4625,7 @@ PAGER=pg;man test
 PAGER=vim
 PAGER=vim \man semctl
 PAGER=vim man semctl
+PAGER=vimpager man curseofwar 
 PAGER=w3m \man semctl
 parallel
 parallel --citation
@@ -4570,6 +4665,10 @@ ping 101.191.123.135
 ping 101.19.122.123
 ping 172.17.0.2
 ping 180.149.145.241
+ping 192.168.6.100
+ping 192.168.6.101
+ping 192.168.6.115
+ping 192.168.6.80
 ping 202.38.97.230 
 ping202.38.97.230 
 ping dl-4
@@ -4948,6 +5047,7 @@ rm -rf grub
 rm -rf jumpserver/aws/
 rm -rf lib/
 rm -rf log
+rm -rf nerdtree-git-plugin
 rm -rf os
 rm -rf osu/
 rm -rf osu-lazer-linux-installer/
@@ -5171,6 +5271,7 @@ sleep 1 2 3
 sl-h
 slslslslsls
 snap help refresh
+sod find . | grep spdlog
 sol
 sol --help
 solve 
@@ -5797,6 +5898,7 @@ sudo apt install $(check-language-support)
 sudo apt install cloc
 sudo apt install cmatrix
 sudo apt install cowsay
+sudo apt install curseofwar
 sudo apt install dialog
 sudo apt install docker
 sudo apt install docker.io
@@ -5848,6 +5950,7 @@ sudo apt install nethack-console
 sudo apt install nethogs
 sudo apt install nettools
 sudo apt install nload
+sudo apt install nsnake
 sudo apt install nvidia
 sudo apt install nvidia-390
 sudo apt install nvidia-driver-390 
@@ -5866,6 +5969,7 @@ sudo apt install sl
 sudo apt install ssh
 sudo apt install stack
 sudo apt install sudo
+sudo apt install supertux
 sudo apt install tldr
 sudo apt install tmux
 sudo apt install toilet
@@ -5888,6 +5992,7 @@ sudo apt install -y python3 python3-pip
 sudo apt install -y yasm
 sudo apt install zathura
 sudo apt install zhcon
+sudo apt instlal supertux
 sudo aptitude install mono-devel 
 sudo aptitude install mono-devel nuget -y
 sudo apt-key add /var/cuda-repo-10-0-local-10.0.130-410.48/7fa2af80.pub
@@ -5973,6 +6078,9 @@ sudo find . | grep osu
 sudo find . | grep osu | grep mp3
 sudo find . | grep osu | grep png
 sudo find . | grep shmmsg
+sudo find . | grep spdlog
+sudo find . -path ./home -prune -o -iname conan
+sudo find . -path ./home -prune -o -iname spdlog
 sudo ghci
 sudo git add -A
 sudo git add Cef
@@ -6277,6 +6385,7 @@ sudo vmvare
 sudo vmware
 sudo  vmware
 suod nethogs -v 3
+supertux2 
 su root 
 su rot
 su servers
@@ -6625,6 +6734,7 @@ vim
 vim ~
 vim'
 vim 1552626743892.dat 
+vim 1.cpp
 vim 1.dot
 vim 1.dota
 vim 1.jl
@@ -6644,7 +6754,10 @@ vim Anaconda3-2018.12-Linux-x86_64.sh
 vim auth.go 
 vim authorized_keys
 vim authorized_keys 
+vim .bash
+vim .bash/alias.sh 
 vim ~/.bash/env.sh 
+vim .bash/env.sh 
 vim .bash/feature.sh 
 vim ~/.bash_history 
 vim .bash_history 
@@ -6667,6 +6780,7 @@ vim <(cat 1
 vim <(cat 1)
 vim Cm
 vim CMakeLists.txt
+vim CMakeLists.txt 
 vim cmath
 vim cmath 
 vim color
@@ -6682,15 +6796,18 @@ vim .config/gtk-3.0/servers
 vim ~/.config/nvim/init.vim
 vim config.py 
 vim ~/config.sh 
+vim config.sh 
 vim .config/Trolltech.conf 
 vim config.yaml 
 vim .config/yelp/
 vim console.log 
 vim Cookies
 vim core.efi 
+vim cpp.vim 
 vim crawler.sh
 vim craw.sh 
 vim -c "set showtabline=0" -c "tab term"
+vim -c "set showtabline=0" -c "tab term bash"
 vim c.sh 
 vim c.vim
 vim daemon.sh
@@ -6704,6 +6821,7 @@ vim dl-k8s-kube/
 vim ~/.docker/config.json
 vim Dockerfile
 vim Downloads/
+vim -D README.md 
 vim en-US-7-1.bdic 
 vim en-US-8-0.bdic 
 vim env.ini 
@@ -6795,6 +6913,8 @@ vim PS1.sh
 vim py.vim 
 vim quit.vim 
 vim -r 1
+vim  README.md 
+vim README.md 
 vim README.sh
 vim recently-used.xbel
 vim record.txt 
@@ -6831,14 +6951,18 @@ vim .tmux.conf
 vim .tmux.conf 
 vim ToggleTerminal 
 vim usb_blow_detector.service 
+vimux
 vim Validating-Credit-Card-Numbers.hs 
 vim version.
 vim version.h 
+vim .vim
 vim ~/.vim/after/syntax/c.vim
 vim ~/.vim/after/syntax/py.vim
+vim .vim/plugin/
 vim .vimr
 vim ~/.vimrc
 vim  .vimrc
+vim .vimrc
 vim Visited\ Links 
 vim walk.go 
 vim webview.log
@@ -6850,6 +6974,7 @@ vim youcompleteme.vim
 vim ypcat
 vium
 vm
+vtmux 
 w3m 127.0.0.1:9079/markdown/15599733931
 w3m baidu.com
 w3m github.com
@@ -6865,7 +6990,13 @@ wd animate
 wd  epigrams
 wd -s  calvin 
 wd -s epigrams
+wd -s habitable
+wd -s infra
+wd -s infrastructure
+wd -s infrastructure,
 wd -s obsolete
+wd -s populate
+wd -s populated
 wd -s synopsis
 wd -s sysnopsis
 wd -s test
