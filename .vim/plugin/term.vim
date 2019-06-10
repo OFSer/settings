@@ -66,11 +66,6 @@ func Togglebash()
 endfunc
 func Syncbash()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
-	for i in a
-		if bufname(i) == "" 
-			silent! exe "bw! ".i
-		endif
-	endfor
 	let bufferNum = bufnr(g:toggleterm)
 	let windowNum = bufwinnr(bufferNum)
 	if g:togglebash==0
@@ -91,6 +86,8 @@ endfunc
 func Synccursor()
 	let bufferNum = bufnr(g:toggleterm)
 	if bufferNum == g:cursorPos
+		let windowNum = bufwinnr(bufferNum)
+		"exe windowNum."wincmd w"
 		call feedkeys("\<c-w>j")
 	else
 		call feedkeys("\<c-w>k")

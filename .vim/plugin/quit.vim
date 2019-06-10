@@ -11,7 +11,7 @@ func Quit()
 		let g:togglebash=0
 	endif
 	if bufname('%') =~ "^".g:term
-		exe "tabc"
+		exe "tabc!"
 	endif
 	if &buftype =~ 'quickfix' || bufname('%') =~ g:bufterm || &buftype =~ "help"
 		exe "q!"
@@ -27,7 +27,7 @@ func Quit()
 		let g:back = 1
 	endif
 	if flag 
-		exe "q!"
+		exe "tabc!"
 		if g:back == 1
 			exe "tabprevious"
 		endif

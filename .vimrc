@@ -78,7 +78,7 @@ let NERDTreeHighlightCursorline=0
 let NERDTreeMinimalUI=1
 "let g:nerdtree_tabs_open_on_console_startup=1
 "Plug 'ryanoasis/vim-devicons'
-Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'chinnkarahoi/nerdtree-git-plugin'
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "*",
     \ "Staged"    : "+",
