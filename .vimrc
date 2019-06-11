@@ -30,6 +30,7 @@ hi TabLine ctermfg=Blue ctermbg=0
 let g:sidebar='NERD'
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
 runtime! ftplugin/man.vim
+let g:ft_man_open_mode = 'tab'
 syntax on
 filetype plugin indent on  
 nnoremap q <nop>

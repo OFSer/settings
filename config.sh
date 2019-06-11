@@ -235,13 +235,15 @@ run(){
 	#config_privoxy
 }
 push(){
-	git submodule foreach --recursive git add -A
-	git submodule foreach --recursive git commit -m "upd"
-	git submodule foreach --recursive git push
-	msg=${1:-upd}
-	his=~/.bash_history
-	#echo "$(cat <(sort $his | sort | uniq) <(tail -n 1000 $his))" > $his
-	echo "$(cat <(sort $his | sort | uniq))" > $his
+	[ "$1" == "sub" ]  && {
+		git submodule foreach --recursive git add -A
+		git submodule foreach --recursive git commit -m "upd"
+		git submodule foreach --recursive git push
+		msg=${2:-upd}
+	} || {
+		msg=${1:-upd}
+	}
+	#his=~/.bash_history && echo "$(cat <(sort $his | sort | uniq))" > $his
 	dconf dump / > .dconf
 	git add -A
 	git commit -m "$msg"

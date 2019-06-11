@@ -1,5 +1,5 @@
 autocmd BufNew,BufEnter,TerminalOpen * if (bufname('%') =~ g:term || &filetype =~ g:sidebar) | set signcolumn=no | else | set signcolumn=yes | endif
-autocmd BufNew,BufEnter,TerminalOpen * if (bufname('%') =~ g:term || &filetype =~ g:sidebar) | set nonu | else | set nu | endif
+autocmd BufNew,BufEnter,TerminalOpen * if (bufname('%') =~ g:term || &filetype =~ g:sidebar || &filetype == 'man') | set nonu | else | set nu | endif
 autocmd BufNew,BufEnter,TerminalOpen * if (bufname('%') =~ g:term) | set nocursorline | else | set cursorline | endif
 autocmd FileType tagbar,nerdtree setlocal signcolumn=no | setlocal nonu
 augroup netrw_mapping
