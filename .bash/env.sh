@@ -7,7 +7,6 @@ export HISTFILESIZE=50000000
 [ ${#HOSTNAME} -gt 5 ] && {
 	export HOSTNAME="k8s"
 }
-export PAGER=most
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US
 export LC_ALL=en_US.utf8
@@ -24,4 +23,4 @@ export TERM=xterm-256color
 [ -f /usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0 ] && {
 	export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
 }
-export MANPAGER='vim -M +MANPAGER -c "set showtabline=1" -'
+export PAGER='vim -M +MANPAGER -c "set showtabline=1" -'

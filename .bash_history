@@ -28265,3 +28265,63 @@ history | grep admin
 \ssh nan.li@ai-ssh.sihe6.com
 ssh -o "StrictHostKeyChecking no" -p 15470 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 11327 hypereal@registry-corp.hypereal.com
+vtmux 
+vim config.sh 
+git status
+export MANPAGER="vim -M +MANPAGER -"
+man nc
+vtmx
+vtmux
+man nc
+ls
+man nc
+cd .vim/
+ls
+cd after/
+ls
+cd syntax/
+ls
+vim man.vim
+cd ~
+man nc
+vim .bash
+ls
+git status
+git add .bash .vim
+git status
+git add .bash .vim .vimrc
+git status
+git diff
+git diff --cached
+ls
+git checkout -- HEAD~30 .bash_history
+git checkout -- HEAD^ .bash_history
+git checkout HEAD^ .bash_history
+git checkout HEAD~30 .bash_history
+git status
+vim .bash_history 
+git checkout HEAD~50 .bash_history
+vim .bash_history 
+git checkout HEAD~100 .bash_history
+vim .bash_history 
+vim config.sh 
+git status
+git add config.sh 
+git commit -m "upd"
+git push
+git status
+vim .config/SogouPY/sgim_eng_usr.bin
+ls
+cd .con
+cd .config/
+ls
+cd SogouPY
+ls
+cd ~
+ls
+git status
+ll .config/SogouPY/sgim_eng_usr.bin
+ll -h .config/SogouPY/sgim_eng_usr.bin
+ls
+git status
+git status -s
