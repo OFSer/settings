@@ -26,7 +26,7 @@ show-tabs-mode='auto'
 side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs'
+virtual-root='file:///home/gjs/fc/transformer-pipeline'
 tree-view=true
 root='file:///'
 
@@ -59,6 +59,7 @@ accuracy=9
 include-pointer=false
 include-border=true
 border-effect='none'
+delay=0
 last-save-directory='file:///home/gjs/Pictures'
 
 [org/gnome/nautilus/preferences]
@@ -283,7 +284,7 @@ list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 foreground-color='rgb(184,193,194)'
 visible-name='custom1'
-palette=['rgb(46,52,54)', 'rgb(228,123,0)', 'rgb(7,175,77)', 'rgb(196,160,0)', 'rgb(82,137,208)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(225,234,216)', 'rgb(85,87,83)', 'rgb(239,136,41)', 'rgb(47,217,107)', 'rgb(252,233,79)', 'rgb(45,182,201)', 'rgb(173,127,168)', 'rgb(66,227,227)', 'rgb(233,233,226)']
+palette=['rgb(46,52,54)', 'rgb(228,123,0)', 'rgb(7,175,77)', 'rgb(196,160,0)', 'rgb(55,112,186)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(225,234,216)', 'rgb(85,87,83)', 'rgb(239,136,41)', 'rgb(47,217,107)', 'rgb(252,233,79)', 'rgb(112,167,237)', 'rgb(173,127,168)', 'rgb(66,227,227)', 'rgb(233,233,226)']
 bold-is-bright=true
 custom-command='tmux'
 cursor-shape='block'
@@ -341,7 +342,7 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=222
-window-position=(2372, 186)
+window-position=(2372, 264)
 show-size-column=true
 show-hidden=false
 window-size=(1086, 581)
@@ -351,8 +352,8 @@ sort-order='ascending'
 location-mode='path-bar'
 
 [org/gtk/settings/color-chooser]
-selected-color=(true, 0.32122222222222224, 0.53823507805325999, 0.81666666666666676, 1.0)
-custom-colors=[(0.32122222222222224, 0.53823507805325999, 0.81666666666666676, 1.0), (0.30203333333333338, 0.49240991735537198, 0.73666666666666669, 1.0), (0.47715555555555556, 0.6244069788797062, 0.81333333333333335, 1.0), (0.36862745098039218, 0.57647058823529407, 0.84313725490196079, 1.0), (0.36825555555555567, 0.57610208333333279, 0.84333333333333338, 1.0), (0.32806666666666673, 0.50828749999999956, 0.7400000000000001, 1.0), (0.45210000000000017, 0.68743124999999938, 0.9900000000000001, 1.0), (0.34595555555555563, 0.52126666666666621, 0.7466666666666667, 1.0)]
+selected-color=(true, 0.21656666666666666, 0.44068439153439143, 0.73000000000000009, 1.0)
+custom-colors=[(0.21656666666666666, 0.44068439153439143, 0.73000000000000009, 1.0), (0.056399999999999985, 0.30532592592592578, 0.62666666666666671, 1.0), (0.23846666666666669, 0.45302486772486772, 0.73000000000000009, 1.0), (0.32156862745098042, 0.53725490196078429, 0.81568627450980391, 1.0), (0.12039999999999992, 0.51816837606837585, 0.57333333333333336, 1.0), (0.12039999999999998, 0.51816837606837585, 0.57333333333333336, 1.0), (0.11844444444444446, 0.49451139601139588, 0.54666666666666675, 1.0), (0.17647058823529413, 0.71372549019607845, 0.78823529411764703, 1.0)]
 
 [org/compiz]
 existing-profiles=['Default', 'unity', 'unity-lowgfx']
@@ -572,7 +573,7 @@ text-scale-factor=1.0
 app-fallback-to-maximum-scale-factor=true
 
 [com/canonical/unity/launcher]
-favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'application://unity-control-center.desktop', 'application://electronic-wechat.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
+favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://unity-control-center.desktop', 'application://electronic-wechat.desktop', 'unity://running-apps', 'application://gedit.desktop', 'unity://expo-icon', 'unity://devices']
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14

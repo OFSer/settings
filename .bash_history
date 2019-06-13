@@ -28325,3 +28325,856 @@ ll -h .config/SogouPY/sgim_eng_usr.bin
 ls
 git status
 git status -s
+git status
+g++ 1.cpp
+./1
+./a.out 
+g++ 1.cpp && ./a.out 
+ls
+cd ~
+ls
+sudo tcpdump -i lo port 9000 -X –S
+sudo tcpdump -i lo port 9000 -X -S
+man tcpdump
+echo $LS_COLORS 
+echo "[34madj. 混杂的；杂乱的[0m"
+echo "[34madj. 混杂的；杂乱的[0m"
+curseofwar 
+ls
+git status
+git diff
+ls
+vim .vimrc
+cd .vim/
+ls
+vim
+ls
+git status
+rm -rf plugin/
+ls
+git status
+rm ../.vimrc
+ls
+git status
+git staus
+git status
+ls
+cd autoload/
+ls
+cd ..
+ls
+rm autoload
+rm -rf autoload
+s
+ls
+rm -rf ftplugin/
+git status
+ls
+rm after
+rm -rf after colors
+ls
+s
+ls
+cd plugged/
+ls
+cd ..
+ls
+cd nerdtree_plugin/
+ls
+cd ..
+ls
+git staus
+ls -a
+cd ..
+ls
+git status
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd ..
+ls
+mv plugged/ .plugged
+ls
+rm nerdtree_plugin/
+ls
+git status
+ls
+cd /etc/
+ls
+cd vim/
+ls
+vim vimrc
+ls
+ls -a
+ls
+cd ~
+ls
+git statusz
+ls
+git status
+cd .vim/
+ls
+mv .plugged/ plugged
+ls
+git status
+git reset HEAD --hard
+git status
+ls
+cd ..
+ls
+cd .vim/
+ls
+cd after/
+ls
+cd syntax/
+ls
+vim cpp.vim
+ls
+vim
+cd ~
+git staus
+git status
+ls
+cd .vim/
+ls
+cd ftplugin/
+ls
+cd ..
+ls
+cd after/
+ls
+mv ftplugin/ indent
+ls
+cd ..
+ls
+cd ..
+ls
+git status
+./config.sh push
+ls
+cd .vim/
+ls
+cd after/
+ls
+cd indent/
+ls
+vim cpp.vim 
+ls
+vim python.vim 
+ls
+vim cpp.vim 
+ls
+git status
+cd ~
+ls
+vim .bash
+ls
+cd test/cpp/
+ls
+vim 1.cpp
+ls
+history | grep tcpdump
+cd fc/shmmsg/
+ls
+cd inc/
+ls
+vim semaphore.h 
+ls
+cd ..
+git status
+git fsck
+ls
+nmtui
+wd -s Ethernet
+ls
+ll
+git  status
+cd ~!
+cd ~
+ls
+history | grep tcpdump
+git sttaus
+git status
+history | grep tcpdump
+git status
+ls
+cd ..
+ls
+git status
+cd ..
+ls
+cd ~
+ls
+cd ../git/
+ls
+git status
+git worktree prune 
+git status
+git worktree list 
+git worktree prune --help
+git worktree -v
+git worktree prune -v
+git worktree prune ../worktree
+ls
+echo 3 > 3
+git status
+git worktree prune -v
+git status
+ls
+cd ..
+ls
+rm worktree/
+ls
+rm -rf worktree/
+ls
+cd git/
+ls
+git worktree list 
+git worktree prune 
+git worktree list 
+git worktree list -v
+git worktree -v
+git worktree prune -v
+git worktree prune 
+git worktree prune -v
+ifconfig
+ls
+expr --help
+echo $((0xff))
+echo $((0123))
+echo $((8#123))
+echo $((64#123))
+echo $((10#123))
+echo $((8#123))
+echo $((16#123))
+ls
+jobs
+bc --help
+man bc
+printf %o 100
+printf %x 100
+curl 192.168.6.100:1999
+ls
+expr (7210)10
+expr 7210(10)
+expr --help
+echo $((0x7210))
+echo $((0x1072))
+echo $((0x8e71))
+echo $((0x718e))
+echo $((0xe817))
+echo $((0x7210))
+echo $((0x0172))
+echo $((0x1072))
+echo $((0xd5df))
+echo $((0x22bb))
+echo $((0x22b8))
+nc -l 9000
+echo $((0x22b8))
+nc -l 9000
+curl iqiyi.com
+curl -v iqiyi.com
+curl -v https://iqiyi.com
+curl -v https://www.iqiyi.com
+sudo lsof -i:5000
+ps -ef | grep 13470
+ls
+xmodmap -pke
+history | grep tcpdump
+sudo tcpdump -i lo port 9000 -X -S
+curl 192.168.6.100:1999
+nc -l 9000
+nc -I 10 -l 9000
+nc -i 1000 -l 9000
+nc -i 1 -l 9000
+nc -l 9000
+ssh gjs@dl-5
+\ssh gjs@dl-5
+ls
+cd ~/test/
+cd cpp/
+ls
+vim 1.cpp
+ls
+vim 1.cpp
+su test
+vim 1.cpp 
+cd ~
+git status
+ls
+git status
+ls
+git status
+git subtree --help
+git submodule --help
+git submodule summary 
+git submodule --help
+git fsck
+git show 88c16c9e30bd9a70e7ed2e3516c3970251384519
+git cherry --help
+ls
+git add --help
+git name-rev 
+git name-rev  --help
+git icdiff 
+ls
+git status
+git icdiff .bash_history
+ls
+git diff
+PAGER=most git icdiff .bash_history
+git mv --help
+git worktree 
+echo " add  am  annotate  apply  archive  bisect  blame  branch  bundle  checkout  cherry  cherry-pick  clean  clone  commit  config  describe  diff  difftool  fetch  filter-branch  format-patch  fsck  gc  get-tar-commit-id  grep  help  icdiff  imap-send  init  instaweb  interpret-trailers  log  merge  mergetool  mv  name-rev  notes  pull  push  rebase  reflog  remote  repack  replace  request-pull  reset  revert  rm  shortlog  show  show-branch  stage  stash  status  submodule  subtree  tag  verify-commit  whatchanged  worktree  "
+echo " add  am  annotate  apply  archive  bisect  blame  branch  bundle  checkout  cherry  cherry-pick  clean  clone  commit  config  describe  diff  difftool  fetch  filter-branch  format-patch  fsck  gc  get-tar-commit-id  grep  help  icdiff  imap-send  init  instaweb  interpret-trailers  log  merge  mergetool  mv  name-rev  notes  pull  push  rebase  reflog  remote  repack  replace  request-pull  reset  revert  rm  shortlog  show  show-branch  stage  stash  status  submodule  subtree  tag  verify-commit  whatchanged  worktree  " | grep rev
+ls
+git diff HEAD~100 .bashrc 
+git diff HEAD~200 .bashrc 
+git rev-parse
+git rev-parse --help
+ls
+git rev-parse  --help
+man git rev-parse
+ls
+git status
+vim /etc/adduser.conf 
+ls
+vim .bash
+git shortlog
+cd test/
+ls
+cd git/
+ls
+git status
+cd ..
+ls
+cd cpp/
+ls
+git status
+cd ..
+ls
+mkdir worktree
+ls
+cd ..
+cd test/
+ls
+cd worktree/
+ls
+echo 5 > 5
+ls
+cd ..
+ls
+cd bash/
+ls
+git status
+cd ..
+cd cpp/
+ls
+cd. .
+ls
+cd ..
+ls
+cd git/
+ls
+git status
+git status -s
+git worktree add ../worktree/
+git worktree add ../worktree/ test
+git status
+ls
+cd ..
+ls
+rm -rf worktree/
+ls
+cd ..
+cd git
+ls
+cd test/
+ls
+cd git/
+git worktree add ../worktree/ test
+cd ..
+ls
+cd cpp/
+ls
+cd ../git/
+ls
+git status
+git branch
+cd .
+cd ..
+ls
+cd worktree/
+ls
+cd ..
+ls
+cd worktree/
+ls
+git status
+cd ..
+ls
+cd git/
+ls
+git status
+git branch
+cat 1
+vim 1
+echo 1 > 1
+git status
+cd ..
+ls
+cd worktree/
+git status
+cat 
+cat  1
+ls
+git checkout master
+git branch
+git checkout t
+git checkout test
+git status
+ls -a
+vim .git
+git status
+git worktree prune 
+ls
+ls -a
+git status
+git worktree prune .
+git worktree prune -v
+git worktree prune -n
+ls
+git status
+ls -a
+git checkout mastere
+git checkout master
+vtmux 
+ls
+man tcpdump
+ls
+man tcpdump
+sudo man tcpdump
+man tcpdump
+nc -l 10.0.10.63 
+nc -l 10.0.10.63 5000
+nc -l 10.0.10.63:5000
+nc -l 10.0.10.63 5000
+nc -l 5000
+nc -l 4000
+ls
+vtmux 
+ls
+cd ..
+ls
+vtmux 
+ls
+vtmux
+ls
+sudo tcpdump -i 192.168.6.100 1999 -X -S
+sudo tcpdump -i 192.168.6.80 1999 -X -S
+sudo tcpdump -i eth1 1999 -X -S
+ifconfig
+sudo tcpdump -i enx00e04c3675bd 1999 -X -S
+sudo tcpdump -i enx00e04c3675bd port 1999 -X -S
+vtmux 
+$(2#001100)
+echo $(2#001100)
+echo $((2#001100))
+sss
+ssh gjs@dl-5
+ssh gjs@dl-4
+\ssh gjs@dl-4
+\ssh gjs@dl-6
+\ssh gjs@dl-5
+man netcat 
+ls
+man nc
+ssh gjs@dl-5
+\ssh gjs@dl-5
+man nc
+nc -z -v -n 20-25
+nc -z -v -n localhost 20-25
+nc -z -v -n 127.0.0.1 20-25
+sudo nc -z -v -n 127.0.0.1 20-25
+nc -v 127.0.0.1 22
+nc -z -v -n 127.0.0.1 20-25
+nc -z -v -n dl-5 20-25
+nc -z -v  dl-5 20-25
+nc -z -v  dl-5 1-200
+nc -z -v  dl-5 1-2000
+nc -z -v  dl-5 1-2000 | grep -v "failed"
+nc -z -v  dl-5 1-2000 | grep -n "failed"
+nc -z -v  dl-5 1-2000 | grep -v "failed"
+nc -z -v  dl-5 1-2000 | grep  "failed"
+nc -z -v  dl-5 1-2000 2&>1 | grep  "failed"
+nc -z -v  dl-5 1-2000 2&>1
+nc -z -v  dl-5 1-2000 2>&1
+nc -z -v  dl-5 1-2000 2>&1 | grep -v "failed"
+nc -z -v  dl-5 1-20000 2>&1 | grep -v "failed"
+nc -v dl-5 6014
+nc -v dl-5 8000
+nc -v dl-5 19003
+\]ssh gjs@dl-5
+\ssh gjs@dl-5
+ls
+tldr nc
+wd -s versatile
+ssh gjs@dl-5
+\ssh gjs@dl-5
+ls
+nc dl-5 9000
+tcpdump
+man tcpdump
+tldr nc
+ls
+cd fc/
+ls
+cd ..
+ls
+cd Downloads/
+nc -l -p 1234 -q 1 > something.zip < /dev/null
+ls
+ll
+ll -h
+cat netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb | nc dl-5 9000
+nc 10.0.10.63 5000
+vim .vimrc
+git status
+vim .vimrc
+
+nslookup dl-4
+history 
+vim .inputrc 
+history 
+ffffffffffffffffffff
+nc 10.0.200.104 9000
+man nc
+tldr nc
+nc -v 10.0.200.104 9000
+nc  10.0.200.104 9000 -v
+nc  dl-5 9000
+man grep 
+nc -l 9000
+sudo tcpdump -i any port 9000
+sudo tcpdump -i any port 9000 -vv
+sudo tcpdump -i any port 9000
+nc 9000
+nc localhost 9000
+ping dl-5
+ls
+gits tatus
+ls
+git status
+ls
+git diff .vimrc
+man ip
+man tcp
+man ip protocol
+man "ip protocol"
+man tcp
+man rfc
+man tcp
+man ip
+ifconfig
+nmtui
+cat /etc/resolv.conf
+netstat -r
+cat /etc/sysconfig/network
+cat /etc/sysconfig/network-scripts/ifcfg-eth0
+traceroute
+sudo apt install traceroute
+traceroute
+traceroute baidu.com
+netstat -r
+ip 
+ip route show
+ping 10.0.10.1
+history | grep nc | grep '\-z'
+nc -z -v  10.0.10.1 1-2000
+nc -z -v -n  10.0.10.1 1-2000
+nc -z -v -n  10.0.10.1 22-2000
+nc -z -v -n  10.0.10.1 1000-2000
+route
+route -n
+netstat -r
+netstat -rn
+netstate --help
+netstat 
+netstat  --help
+vim /etc/hosts
+wd -s reslove
+wd -s resolve
+vim /etc/hostname 
+ls
+route
+route --help
+ls
+cd ~
+ls
+history | grep nc | grep '\-z'
+nc --help
+man nc
+nc -z -v  dl-5 1-2000
+qls
+ls
+telnet 10.0.10.63
+sudo telnet 10.0.10.63
+ifconfig
+telnet 10.0.10.63
+man telnet
+tldr telnet
+telnet dl-5
+cd /proc/net
+ls
+cat tcp
+ls
+cat icmp
+cat arp
+cat arp | grep 63
+cat dev
+;s
+cd ..
+ls
+ccd bu
+cd bus
+ls
+cd pci/
+ls
+cat devices 
+cd ..
+ls
+cd input/
+ls
+cat devices 
+ifconfig
+ifconfig -a
+cat /sys/class/net/eth0/address 
+cat /sys/class/net/enp0s31f6/address 
+cat /proc/net/arp 
+nslookup baidu.com
+sudo nc -z -v 127.0.0.1 0-100
+sudo nc -z -v 127.0.0.1 1-100
+ls
+nslookup baidu.com
+cat /etc/resolv.conf
+nslookup hypereal.local
+sudo nc -z -v 10.0.100.7 1-100
+ping 10.0.100.7
+sudo nc -z -v 10.0.100.7 53
+sudo nc -z -v 10.0.100.7 2
+sudo nc -z -v 10.0.100.7 22
+sudo nc -z -v 10.0.100.7 53
+sudo nc -z -v 10.0.100.7 22
+sudo nc -z -v 10.0.100.7 100
+sudo nc -z -v 10.0.100.7 80
+sudo nc -v 10.0.100.7 80
+nc -v 10.0.100.7 80
+nc -z -v 10.0.100.7 80
+nc -z -v 10.0.100.7 53
+nc --v 10.0.100.7 53
+nc -v 10.0.100.7 53
+telnet 10.0.100.7 53
+nc 10.0.100.7 53
+netfilter
+iptables
+iptables -h
+man iptables 
+man iptables  -h
+ls
+cd ~
+ls
+cd fc/
+cd transformer-pipeline/
+ls
+vim
+ls
+cd ~
+ls
+chsh
+chsh --help
+man chsh 
+contab
+compgen -an
+compgen -av
+compgen -au
+tldr compgen
+compgen -ac
+compgen -ac con
+compgen -ac | grep tab
+crontab --help
+man crontab 
+crontab 
+ls
+man crontab
+cat Pos_Above_translate
+jobs
+ls
+cat /etc/crontab 
+w3m
+ls
+jobs
+g++ 1.cpp
+./a.out 
+g++ 1.cpp && ./a.out
+ping 10.0.20.52
+jobs
+nmap
+sudo apt install namp
+sudo apt install nmap
+nmap
+tldr nmap
+arp -a
+ls
+arp -a
+history | grep tcpdump
+ls
+vim
+ls
+cd fc/
+ls
+cd transformer-pipeline/
+ls
+vim
+ls
+cd ~
+ls
+cat 1
+rm 1
+ls
+cd test/
+ls
+mkdir tmp
+cd tmp/
+ls
+vim 1.txt
+ls
+cd ~
+ls
+cd fc/
+ls
+cd ..
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+wd -s recurse
+ls
+wd -s curse
+ls
+vim 1.cpp
+ls
+l
+sl
+ls-h
+sl-h
+ls
+cd ../../build/bin/
+ls
+cd ..
+cmake ..
+make -j4
+ls
+bin/test_drivers_udp_socket 
+cmake ..
+make -j4
+ls
+git status
+git checkout -- ../../CMakeLists.txt
+git status
+git add -A
+git status
+git commit -m "add udp test"
+git push
+git status
+git diff
+git add -A
+git status
+git commit -m "fix name"
+git push
+git status
+git fsck
+git rev-parse
+git status
+git rev-parse
+git rev-parse --all
+git rev-parse --git-dir
+echo $GIT_DIR
+git rev-parse --git-common-dir
+git rev-parse --absolute-git-dir
+git rev-parse --is-inside-git-dir
+cd ../../.git/
+git rev-parse --is-inside-git-dir
+cd ..
+git rev-parse --is-inside-work-tree
+cd .git/
+git rev-parse --is-inside-work-tree
+cd ..
+ls
+git rev-parse --local-env-vars
+echo $GIT_DIR
+git rev-parse --git-path
+ls
+git rev-parse --resolve-git-dir build/
+git rev-parse --resolve-git-dir build_frontend.sh
+ls
+cd build/
+ls
+git rev-parse --show-toplevel
+cd ..
+cd .git/
+git rev-parse --show-toplevel
+git status
+cd ..
+ls
+git rev-parse --is-inside-git-dir
+cd .git/
+git rev-parse --is-inside-git-dir
+cd ..
+ls
+add_executable(test_drivers_udp_socket tests/drivers/test_upd_socket.cpp)
+target_link_libraries(test_drivers_udp_socket ${INFRA_LIBS})
+git rev-parse --symbolic-full-name
+git rev-parse --symbolic-full-name orogin
+git rev-parse --symbolic-full-name origin
+sudo apt install git
+git --version
+sudo apt autoremove 
+ls
+jobs
+git worktree 
+git worktree
+git status
+ls
+porcelain
+ls
+git status
+ls
+ipcs -a
+ls
+ls
+cd ../../build/
+ls
+cd bin/
+ls
+./test_drivers_udp_socket 
+ls
+vim
+ls
+vim
+ls
+musicbox 
+ls
+zhcon --uti8
+zhcon --utf8
+ls
+git status
+ls
+vim
+ls
+git status
+git diff .vimrc
+ls
+g++ 1.cpp
