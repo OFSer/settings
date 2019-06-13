@@ -48,6 +48,8 @@ Plug 'PangPangPangPangPang/vim-terminal'
 
 Plug 'hdima/python-syntax'
 Plug 'tpope/vim-fugitive'
+Plug 'chinnkarahoi/vim-find-files'
+let g:find_files_findprg = 'find . -type f -name "*$**"'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all' }

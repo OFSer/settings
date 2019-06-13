@@ -29367,3 +29367,188 @@ ls
 sudo apt remove autojump 
 gs
 man gs
+git status
+ls
+cd ..
+ls
+cd dl-k8s-kube/
+ls
+cd ..
+ls
+cd shmmsg/
+git status
+ls
+git log
+cd ..
+ls
+cd saki_detection/
+cd ..
+ls
+cd flaw_checker/
+cd ..
+ls
+cd dl-k8s-kube/
+ls
+du -hl
+du -hd1
+cd ..
+ls
+cd shmmsg/
+du -hd1
+cd ~
+ls
+ping fe80::e646:daff:fe6f:5e3a
+ifconfig
+ping fe80::1f4c:3f7f:fdd7:dfd9
+ping 'fe80::1f4c:3f7f:fdd7:dfd9'
+ping -6 'fe80::1f4c:3f7f:fdd7:dfd9'
+ping --help
+man ping 
+ping 2001:470:f8c7:10:f193:5f97:b63f:1df9
+ping 2001:470:f8c7:10:b0c5:bd4f:b520:bdb4
+ping ::1
+ping 2001:470:f8c7:10:e646:daff:fe6f:5e3a
+ifconfig
+ping 2001:470:f8c7:10:f193:5f97:b63f:1df9
+ping 2001:470:f8c7:10:b0c5:bd4f:b520:bdb4
+ping fe80::8dbb:6b67:89de:ec0d
+ping 2001:470:f8c7:10:f193:5f97:b63f:1df9
+ssh 2001:470:f8c7:10:f193:5f97:b63f:1df9@leaf
+\ssh 2001:470:f8c7:10:f193:5f97:b63f:1df9@leaf
+\ssh 2001:470:f8c7:10:f193:5f97:b63f:1df9
+\ssh gjs@2001:470:f8c7:10:f193:5f97:b63f:1df9
+\ssh test@2001:470:f8c7:10:f193:5f97:b63f:1df9
+\ssh gjs@2001:470:f8c7:10:f193:5f97:b63f:1df9
+ping 2001:470:f8c7:10:f193:5f97:b63f:1df9
+ifconfig
+xterm
+git status
+ls
+git diff .bash/alias.sh
+vim .bash/alias.sh 
+ls
+mysql
+ls
+git status
+gits
+gits
+ls
+git status
+gits
+./config.sh push
+type gits
+gits
+cd ~
+ls
+ls
+dirs -p
+cd ..
+cd ../../
+cd build/
+ls
+dirs -p
+gits
+cd fc/
+ls
+cd transformer-pipeline/
+ls
+vim
+gits
+ls
+cd fc/shmmsg/
+ls
+vim
+cd ~
+vim .vimrc
+cd fc/shmmsg/
+vim
+ls
+vim README.md 
+ls
+cd ~
+ls
+vim .vimrc
+ls
+git status
+vim
+find . | grep dynamic_configs_impl.hpp
+find . ! -type d test
+find .  -type d test
+find .  test
+find . -iname test
+ls
+find . -iname test
+find . -name test
+find . -iname test
+find  -iname test
+find . -iname 'test'
+find . -name 'test'
+cd ..
+find . -name 'test'
+find . -name test
+cd ..
+find . -name test
+ls
+find . ! -type d test
+find . -type d test
+find . -name test
+find .
+tldr find
+find . -type f test
+find . -type f -name test
+find . -type f -name "*.test"
+find . -type f -name "*.*"
+find . -type f -name "*test*"
+cd ~
+ls
+git status
+ls
+curseofwar 
+ls
+git status
+ls
+a=b
+b=c
+echo ${!a}
+vim .vimrc
+cd fc/shmmsg/
+cd ~
+vim .vimrc
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd vim-find-files/
+ls
+vim
+git status
+git remote --help
+git remote show origin
+git remote remove origin
+git remote add origin git@github.com:chinnkarahoi/vim-find-files.git
+git status
+git idff
+git diff
+git commit -m "upd
+git commit -m "use cgete"
+git commit -am "use cgete"
+git push
+git push --set-upstream origin master
+cd ~
+ls
+vim .vimrc
+git status
+cd .vim/
+ls
+cd plugged/
+ls
+rm -rf vim-find-files/
+ls
+cd ..
+ls
+cd ..
+sl
+ls
+cd ~
+ls
