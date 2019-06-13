@@ -573,7 +573,7 @@ text-scale-factor=1.0
 app-fallback-to-maximum-scale-factor=true
 
 [com/canonical/unity/launcher]
-favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://unity-control-center.desktop', 'application://electronic-wechat.desktop', 'unity://running-apps', 'application://gedit.desktop', 'unity://expo-icon', 'unity://devices']
+favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://unity-control-center.desktop', 'unity://running-apps', 'application://gedit.desktop', 'unity://expo-icon', 'unity://devices']
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14

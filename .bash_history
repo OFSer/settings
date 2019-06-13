@@ -29178,3 +29178,192 @@ git status
 git diff .vimrc
 ls
 g++ 1.cpp
+cd ~
+ls
+cd fc/
+ls
+cd ..
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+cd ~
+ls
+vim .vimrc
+cd -
+vim 1.cpp
+ls
+ps -ef | grep wechat
+electronic-wechat 
+git status
+cd ~
+git status
+git add .vim*
+git status
+git commit -m "upd"
+git push
+nvidia-smi
+sudo apt-cache madison nvidia
+sudo apt-cache search nvidia
+sudo apt-cache search nvidia | grep 410
+ls
+nvidia-smi
+history | grep docker | grep nvidia
+docker run --runtime=nvidia nvidia/cuda
+docker run --runtime=nvidia nvidia/cuda9.0
+sudo docker run --runtime=nvidia -it --rm nvidia/cuda:9.0-base nvida-smi
+nvida-smi
+nvidia-smi
+sudo apt list
+sudo apt madison nvidia
+sudo apt-cache madison 
+sudo apt-cache madison nvidia
+sudo apt-cache madison nvidia-384
+sudo apt-cache madison nvidia-410
+sudo apt-cache madison nvidia-384
+sudo apt-cache madison nvidia-390
+sudo apt-cache madison nvidia-384
+nvidia-smi
+history | grep docker | grep nvidia
+git status
+vim .gitignore
+fg
+git rm --cached .config/SogouPY/sgim_eng_usr.bin
+git status
+git diff .config/user-dirs.dirs
+./config.sh push
+git status
+cd .config/google-chrome/
+ls
+git status
+cd ..
+git status
+git status -s
+git status --help
+git status --ignore-submodules 
+git status --ignored
+ls
+vim .vimrc
+ls
+vim config.sh 
+ls
+git status --ignore-submodules 
+git status --ignore-submodules  -s
+git status --ignore-submodules -s
+git status -s --ignore-submodules 
+git status -s 
+git status -s --ignore-submodules 
+vim .bash/alias.sh 
+. .bashrc
+gssis 
+git status
+gssis
+vim .gitconfig 
+ls
+cd .git/
+ls
+cd ..
+git status --ignore
+git status --ignored
+git status --ignored | grep gitconfig
+cd .tldr/
+ls
+cd tldr/
+ls
+cat README.md 
+cd ..
+ls
+cd ..
+ls
+cat /etc/issue
+cat /etc/issue.net 
+arp -a
+nc -z -v 10.0.10.254
+nc -z -v 10.0.10.254 1-2000
+nc -z -v 10.0.10.254 1-2000 | grep -v "failed"
+nc -z -v 10.0.10.254 1-2000 2>&1 | grep -v "failed"
+curl 10.0.10.254:80
+nc -z -v 10.0.10.254 1-20000 2>&1 | grep -v "failed"
+telnet 10.0.10.254 1688
+nc 10.0.10.254 1688
+curl -v 10.0.10.254:1688
+ls
+arp -a
+nc -z -v 10.0.10.1 1-2000
+nc -z -v 10.0.10.1 22-2000
+nc -z -v 10.0.10.1 22-2000 2>&1 | grep -v "failed"
+curl 10.0.10.1
+curl -v 10.0.10.1
+man telnet
+ls
+g++ 1.cpp
+man g++
+ls
+man g++
+ls
+man g++
+ls
+git status
+echo $GITPAGER
+w3m
+w3m baidu.com
+ls
+vim 1.cpp
+git status
+cd ~
+git status
+electronic-wechat 
+echo $XDG_DATA_DIR
+steam
+ls
+electronic-wechat 
+vim .bash/env.sh 
+echo $LD_PRELOAD
+jobs
+fg
+unset LD_PRELOAD 
+electronic-wechat 
+vim .local/share/glib-2.0/schemas
+ls
+cd /usr/share/glib-2.0/schemas/
+ls
+ls glib-compile-schemas
+glib-compile-schemas
+glib-compile-schemas /usr/share/glib-2.0/schemas/
+sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
+sudo glib-compile-schemas .
+electronic-wechat 
+export GSETTINGS_SCHEMA_DIR=/usr/share/glib-2.0/schemas
+electronic-wechat 
+sudo snap remove electronic-wechat 
+sudo snap install electronic-wechat 
+electronic-wechat 
+sudo electronic-wechat 
+sudo su
+electronic-wechat
+electronic-wechat 
+killall -9 electronic-wechat 
+ls
+cd ~
+sudo apt install autojump 
+ls
+j fc/
+autojump fc/
+ls
+autojump 
+sudo apt install autojump 
+autojump --help
+autojump 
+cd ~
+ls | grep autojump
+ls | grep auto
+vim .bashrc
+ls
+cd fc/
+ls
+cd ..
+ls
+sudo apt remove autojump 
+gs
+man gs
