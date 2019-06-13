@@ -1,4 +1,5 @@
 tnoremap <c-\> <c-\><c-n>
+inoremap w <c-w>
 "--------------------------Jump--------------------------------------"
 inoremap <c-l> <del>
 inoremap <c-k> <up>
