@@ -33,12 +33,6 @@ runtime! ftplugin/man.vim
 let g:ft_man_open_mode = 'tab'
 syntax on
 filetype plugin indent on  
-nnoremap q <nop>
-nnoremap t <nop>
-nnoremap . <nop>
-nnoremap , <nop>
-tnoremap <c-v> <c-w>"0
-
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
 Plug 'skywind3000/asyncrun.vim'
@@ -53,6 +47,7 @@ let g:find_files_findprg = 'find . -type f -name "*$**"'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all' }
+Plug 'chinnkarahoi/vim-cmake-completion'
 nnoremap <silent> D :tab split \| YcmCompleter GoTo<cr>
 nnoremap <silent> d :YcmCompleter GoTo<cr>
 au FileType go nmap <buffer> d <Plug>(go-def-tab)

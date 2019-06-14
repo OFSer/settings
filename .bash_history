@@ -29552,3 +29552,83 @@ sl
 ls
 cd ~
 ls
+gits
+vim
+tldr find
+ls
+find . -name test
+cd ~
+vim .vimrc
+ls
+git status
+./config.sh push
+ls
+git status
+ls
+du -hd1
+s
+ls
+du -hl
+ls
+arping
+arping -A
+arpscan
+sudo apt install arp-scan
+arsscan
+arpscan
+arp-scan
+sudo arp-scan
+sudo arp-scan --help
+arping 10.0.10.63
+arping -I 10.0.10.63
+sudo arping -I 10.0.10.63
+sudo arping  10.0.10.63
+sudo arping  -A 10.0.10.63
+ifconfig
+sudo arping  -I enp0s31f6 10.0.10.63
+sudo arping  -I enp0s31f6 10.0.10.59
+ifconfig
+sudo arping  -I enp0s31f6 10.0.10.1
+sudo arping  -I enp0s31f6 10.0.10.59
+arp -s
+arp -a
+sudo arping  -I enp0s31f6 10.0.10.240
+sudo arping  -I enp0s31f6 10.0.10.58
+sudo arping  -I enp0s31f6 10.0.10.1-10.0.10.20
+arping --help
+netstat -u
+netstat -a
+netstat -v
+history | grep netstat
+netstat --help
+man netstat
+ls
+cd ~/test/cpp/cmake/
+ls
+vim CMakeLists.txt 
+vim ~/.vimrc
+mkdir build
+ls
+cd build/
+ls
+cmake ..
+rm -rf *
+cmake ..
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake ..
+make -j4
+rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j4
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j4
+ls
+bin/1 
+>.gitignore
+ls
+git status
+ls
+cmake ..
+make -j4
+bin/1
+make -j4 && bin/1
