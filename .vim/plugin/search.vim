@@ -11,5 +11,5 @@ command -nargs=1 ProjSearch silent! exec "vimgrep /<args>/gj ".g:searchlist | co
 command -nargs=1 Search silent! exec "Find <args>" | copen
 set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,*.pdf,*.bak,*.beam,build/**,frontend/**
 nnoremap f :ProjSearch<space>
-nnoremap F :Search<space> 
+nnoremap F :Search<space>
 

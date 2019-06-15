@@ -5,7 +5,7 @@ export HISTCONTROL=ignoreboth
 export HISTSIZE=50000000
 export HISTFILESIZE=50000000
 [ ${#HOSTNAME} -gt 5 ] && {
-	export HOSTNAME="k8s"
+	export HOSTNAME="docker"
 }
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US
