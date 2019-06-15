@@ -29877,3 +29877,345 @@ wd -s fortress
 git diff
 git diff search
 git diff search.vim
+cd .config/sogou-qimpanel/
+cd ..
+cd SogouPY
+ls
+du -hl
+du -hd
+du -hd1
+cd ..
+ls
+cd fcitx
+ls
+cd ..
+ls
+cd SogouPY.users/
+ls
+du -hd1
+cd ..
+ls
+cd ..
+ls
+git status
+ls
+vim README.md 
+ls
+cd ~/test/
+ls
+cd cpp/rttr/
+ls
+vim CMakeLists.txt 
+cd ~
+git status
+git add .vim
+git status
+cd .config/SogouPY/Backup/
+ls
+git status
+cd ..
+ls
+vim ~/.gitignore 
+git rm --cached ~/.config/SogouPY/Backup
+git rm -r --cached ~/.config/SogouPY/Backup
+git status
+cd ~
+git status
+vim .gitignore 
+git rm --cached .config/SogouPY/sgim_usr_v3new.bin
+vim .gitignore 
+git status
+cd .config/SogouPY
+ls
+git status
+cd ~
+git status
+cd .config/SogouPY/
+vim sogouEnv.ini 
+ls
+vim scdlist.ini 
+ls
+cd ~
+ls
+git status
+ls
+git status
+./config.sh push
+ls
+cd fc/shmmsg/
+vim
+git symbolic-ref --short HEAD
+git show-branch
+git show-branch --help
+git branch
+git branch --help
+git branch | grep \* | cut -d ' ' -f2
+git rev-parse --abbrev-ref HEAD
+echo $GIT
+cd fc/shmmsg/
+echo $GITOP
+echo $GITOP 
+cd fc/
+ls
+echo $GITOP 
+cd transformer-pipeline/
+echo $GITOP 
+cd fc/transformer-pipeline/
+echo $GITOP 
+cd ~
+declare --help
+declare --help | grep ref
+ls
+git rev-parse --show-toplevel
+cd ..
+git rev-parse --show-toplevel
+echo $GITOP
+cd fc/transformer-pipeline/
+echo $GITOP
+cd ..
+ls
+cd ~
+ls
+vim .vim
+ls
+mysql
+ls
+mysql
+ls
+mysql
+git rev-parse --show-toplevel
+cd `git rev-parse --show-toplevel`
+ls
+cd .git/
+cd `git rev-parse --show-toplevel`
+cd ..
+git rev-parse --show-toplevel
+cd ..
+ls
+git status
+git add -A
+git status
+git stash
+git status
+git pull
+git checkout wukong_1.0_dev 
+git status
+git branch
+git status
+git checkout -b wk_config
+git stash apply
+git stastus
+gits
+git stash list
+git status
+git reset HEAD --hard
+git stash apply@{1}
+git stash apply --help
+git stash list
+git stash apply stash@{0} 
+git status
+gits
+git status
+git add -A
+git staus
+git status
+ls
+gits
+cp ../../config/Machine_VT2/ST3_W2.json resources/config_registry/
+ls
+cd $GITTOP
+echo $GITTOP 
+cd $GITTOP/build
+ls
+cmake ..
+make -j4
+ls
+bin/unit_test_main 
+make -j4
+bin/unit_test_main 
+make -j4
+bin/unit_test_main 
+make -j4
+bin/unit_test_main 
+rm -rf *
+cmake ..
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j6
+make -j4
+bin/unit_test_main 
+make -j4
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake clean
+cmake -DCMAKE_BUILD_TYPE=Release ..
+rm -rf *
+cmake ..
+cmake -DCMAKE_BUILD_TYPE=Release ..
+rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release ..
+rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cd ..
+git submodule update
+cd  build/
+ls
+cmake -DCMAKE_BUILD_TYPE=Release ..
+ls
+rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release ..
+ls
+cmake -DCMAKE_BUILD_TYPE=Release ..
+git status
+git add -A
+git status
+git stash
+git status
+docker images
+docker tag --help
+docker tag registry-sho.hypereal.com/ci/flawck-mk3:latest registry-sho.hypereal.com/ci/flawck-mk3:1.0.0
+docker images
+history | grep docker | grep push
+docker push registry-sho.hypereal.com/ci/flawck-mk3:1.0.0
+ls
+jobs
+docker images
+docker run registry-sho.hypereal.com/ci/flawck-mk3
+docker ps -l
+docker exec -it f12e4b5ea957
+docker exec -it f12e4b5ea957 bash
+docker start f12e4b5ea957 
+docker exec -it  f12e4b5ea957 bash
+docker restart f12e4b5ea957 
+docker exec -it  f12e4b5ea957 bash
+docker restart f12e4b5ea957 -it bash
+docker ps -l
+docker container prune 
+docker imgeas
+docker images
+docker ps -a
+docker container ls
+docker run -it registry-sho.hypereal.com/ci/flawck-mk3:latest 
+docker ps -l
+docker exec -it 283bab682488
+docker exec -it 283bab682488 bash
+docker run -it registry-sho.hypereal.com/ci/flawck-mk3:latest 
+docker images
+docker run -it registry-sho.hypereal.com/ci/flawck-mk3:1.0.1
+docker build . -t registry-sho.hypereal.com/ci/flawck-mk3:1.0.1
+docker push registry-sho.hypereal.com/ci/flawck-mk3:1.0.1
+git branch
+git diff
+git status
+git add -A
+git status
+git commit -m "add flawck-ci"
+git push
+git push --set-upstream origin flawck
+ls
+cd ~
+vim .vimrc
+vim .vim
+curseofwar 
+ls
+curseofwar 
+asciisec
+sudo apt install asciisec
+sudo snap install asciisec
+sudo snap find asciisec
+sudo apt-cache search asciisec
+sudo     apt-get install libsdl1.2debian libsdl-mixer1.2 libsmpeg0
+sudo     apt-get install libsdl1.2debian libsdl-mixer1.2 libsmpeg0 -y
+asciisec
+sudo apt install apt-get install libsdl1.2debian
+sudo apt-get install libsdl1.2debian
+sudo apt install  libsdl-mixer1.2
+ls
+cd fc/
+ls
+cd ~/.vim/plugged/
+ls
+cd nerdtree-git-plugin/
+ls
+vim
+git staus
+git status
+git add .
+git diff
+git diff --cached
+git commit -m "disable auto upd"
+git push
+ls
+cd ..
+ls
+cd -
+git remote show origin
+cd ..
+ls
+git remote show orogin
+git remote show origin
+cd ..
+ls
+cd plug
+cd plugged/
+cd ..
+cd plugin/
+vim 
+cd ~
+git status
+vim .vim
+ls
+git rev-parse --help
+git rev-parse --git-dir
+git rev-parse {
+git rev-parse --show-toplevel
+ls
+jobs
+ls
+git rev-parse --show-toplevel
+git rev-parse --show-toplevel > /dev/null
+vim .bash
+git status
+git add .bash
+git status
+git add .vim
+git status
+git diff --cached 
+git commit -m "upd"
+git push
+cd test/
+ls
+cd cpp/rttr/
+ls
+vim 1.cpp 
+ls
+cd ~
+ls
+vim .vim
+python3
+ls
+cd fc/
+ls
+cd dl-k8s-kube/
+ls
+cd ai-cloth/
+ls
+cd ..
+ls
+vim
+docker imgaes
+docker images
+docker run -it registry-sho.hypereal.com/ci/flawck-mk3:1.0.1
+docker tag registry-sho.hypereal.com/ci/flawck-mk3:1.0.1 registry-sho.hypereal.com/ci/flawck-mk3:latest
+docker images
+docker push registry-sho.hypereal.com/ci/flawck-mk3:latest 
+ls
+git status
+ls
+cd ~
+cd fc/
+ls
+git status
+ls
+ls
+git status
+ls
+git status

@@ -35,7 +35,7 @@ active-plugins=['docinfo', 'spell', 'filebrowser', 'time', 'modelines']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=132
+state=4
 bottom-panel-size=140
 side-panel-size=250
 side-panel-active-page='GeditFileBrowserPanel'

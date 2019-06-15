@@ -25,7 +25,7 @@ function git-branch {
 # If this is an xterm set the title to user@host:dir
 
 if [ "$color_prompt" = yes ]; then
-	PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@$HOSTNAME\[\033[0m\]\[\033[01;35m\]\$(git-branch)\[\033[0m\]\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\033[01;31m\]$\[\033[00m\] "
+	PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[0m\]\[\033[01;32m\]@\[\033[0m\]\[\033[01;32m\]$HOSTNAME\[\033[0m\]\[\033[01;35m\]\$(git-branch)\[\033[0m\]\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\033[01;31m\]$\[\033[00m\] "
 	#PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
 	PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
