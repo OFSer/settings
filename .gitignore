@@ -65,3 +65,5 @@
 .config/totem/state.ini
 .config/mednaffe.conf
 .config/SogouPY/sgim_eng_usr.bin
+.config/SogouPY/Backup
+.config/SogouPY/sgim_usr_v3new.bin

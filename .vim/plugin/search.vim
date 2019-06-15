@@ -1,5 +1,14 @@
-command -nargs=1 ProjSearch silent! vimgrep /<args>/gj **/*.{c,h,hpp,cpp,py,sh,hs,txt,go,vim} **/.{vimrc} | copen
-command -nargs=1 Search Find "<args>" 
+let g:searchtype = ["c","h","hpp","cpp","cxx","py","sh","hs","txt","go","vim"]
+let g:searchfile = ["Dockerfile"]
+let g:searchlist = ''
+for i in g:searchtype
+	let g:searchlist .= "**/*." . i . ' '
+endfor
+for i in g:searchfile
+	let g:searchlist .= i . ' '
+endfor
+command -nargs=1 ProjSearch silent! exec "vimgrep /<args>/gj ".g:searchlist | copen
+command -nargs=1 Search silent! exec "Find <args>" | copen
 set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,*.pdf,*.bak,*.beam,build/**,frontend/**
 nnoremap f :ProjSearch<space>
 nnoremap F :Search<space> 

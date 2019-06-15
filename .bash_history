@@ -29632,3 +29632,248 @@ cmake ..
 make -j4
 bin/1
 make -j4 && bin/1
+ls
+cd gh/cis194/
+ls
+find .
+ls
+find .
+ls
+cd ..
+ls
+cd ~
+vim .vimrc
+vim .vim
+ls
+cd .vim/
+ls
+cd plug
+cd plugin/
+ls
+vim
+cd ~/fc/shmmsg/
+ls
+vim
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+mkdir rttr
+ls
+cd rttr/
+ls
+touch CMakeLists.txt
+vim CMakeLists.txt 
+cd ~
+ls
+vim .vimrc 
+vim .vim
+ls
+cd ~
+ls
+vim .vimrc
+vim .vim
+ls
+cd test/
+ls
+vim .giti
+ls
+cd cpp/
+ls
+vim .gitignore 
+ls
+cd ..
+ls
+git status
+cd ~
+ls
+vim .vimrc
+cd test/cpp/
+ls
+mkdir cmake
+ls
+cd cmake/
+ls
+vim CMakeLists.txt
+ls
+cd ~/
+ls
+cd .vim/
+ls
+cd plugged/
+sl
+ls
+cd vim-cmake-completion/
+ls
+cd plugin/
+ls
+vim cmakecomplete.vim 
+ls
+git status
+cd ..
+ls
+git status
+vim plugin/cmakecomplete.vim 
+ls
+vim plugin/cmakecomplete.vim 
+ls
+cd  ~
+ls
+vim .vimrc
+vim .vim
+cd -
+ls
+vim 
+ls
+git status
+jobs
+vim
+git remote remove origin
+git remote add origin git@github.com:chinnkarahoi/vim-cmake-completion.git
+git staus
+gtis
+gits
+git add plugin/cmakecomplete.vim 
+git commit -m "remove preview"
+git push
+git push --set-upstream origin master
+ls
+cd ~
+ls \.*
+ls -f \.*
+ls  \.*
+df -h
+ls
+mysql
+ls
+gits
+git diff
+ls
+./config.sh push
+cd ~
+ls
+vim .vimrc
+vim .vim
+cd test/
+ls
+cd cpp/cmake/
+ls
+vim CMakeLists.txt 
+ls
+cd ..
+ls
+cd rttr/
+ls
+vim
+ls
+cd build/
+ls
+make -j4
+make -j4 && bin/1 
+ls
+./doomrl_konsole 
+sudo ./doomrl_konsole 
+chmod +x doomrl*
+./doomrl_gnome-terminal 
+./doomrl_konsole 
+ll
+vim doomrl_konsole 
+bash doomrl_konsole 
+./doomrl
+vim doomrl_konsole 
+konsole --workdir=`pwd` -e ./doomrl -console
+bash --workdir=`pwd` -e ./doomrl -console
+ls
+./doomrl_gnome-terminal 
+./doomrl -console
+./doomrl_gnome-terminal 
+./asciisec 
+sudo ./asciisec 
+sudo apt install libSDL2_mixer-2.0
+sudo apt install libsdl2_mixer-2.0
+sudo apt install libsdl2-2.0
+sudo apt install libsdl2_mixer-2.0
+sudo snap install libsdl2_mixer-2.0
+sudo apt install libsdl2_mixer-2.0
+sudo apt-cache search libsdl2_mixer
+sudo apt-cache search libsdl2
+sudo apt install libsdl2-mixer-2.0
+./asciisec 
+ls
+vim readme.txt 
+ls
+vim readme.txt 
+ls
+sudo apt install doomrl
+sudo snap install doomrl
+sudo snap find doom
+sudo apt install asciijump
+ls
+./asciisec --help
+./asciisec --console
+ls
+vim readme.txt 
+ls
+vim options.txt 
+ls
+asciijump 
+git status
+cd ../../
+ls
+cd ..
+cd build/
+ls
+cmake ..
+make -j4
+cmake ..
+make -j4
+cmake ...
+cmake ..
+make -j4
+cd ~
+git status
+cd -
+cd ~1
+cd ~2
+ls
+dirs -p
+git status
+gs
+gits
+ls
+cd fc/
+cd transformer-pipeline/
+ls
+vim
+git status
+vim
+git status
+cd build/
+ls
+cmake ..
+make -j4
+bin/1
+bin/2
+bin/1
+make -j4
+bin/2
+make -j4
+bin/2
+make -j4
+bin/2
+make -j4
+bin/2
+make -j4
+bin/2
+make -j4
+bin/2
+make -j4
+bin/2
+make -j4 && bin/2
+wd -s fortress
+git diff
+git diff search
+git diff search.vim

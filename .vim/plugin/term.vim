@@ -103,6 +103,7 @@ au BufEnter,TerminalOpen * if bufname('%') != "" | call Syncbash() | endif
 
 func CloseTogglebash()
 	if bufnr(g:toggleterm) >= 0
+		let g:togglebash=0
 		silent! exe 'bw! '.g:toggleterm
 	endif
 endfunc
