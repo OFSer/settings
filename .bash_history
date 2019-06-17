@@ -30219,3 +30219,82 @@ ls
 git status
 ls
 git status
+ls
+ls
+cd build/
+ls
+rm -rf *
+cmake ..
+cmake -DCMAKE_BUILD_TYPE=Release ..
+rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release ..
+git status
+git pull
+git branch
+git checkout wukong_1.0_dev 
+git pull
+rm -rf *
+cmake ..
+rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release ..
+git branch
+git branch -a
+git checkout master 
+git stash apply
+git status
+git stash list
+git reset HEAD --hard
+rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake ..
+make -j4
+git checkout wukong_1.0_dev 
+gits
+git stash apply
+rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j4
+bin/unit_test_main 
+make -j4 
+bin/unit_test_main 
+make -j4 
+rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j4
+bin/unit_test_main 
+make -j4
+bin/unit_test_main 
+git status
+git add -A
+git status
+make -j4
+bin/unit_test_main 
+git add -A
+git status
+git commit -m "add move config"
+git status
+git add -A
+git status
+git diff --cached
+gits
+cd $GITTOP
+git status
+git stash list
+git add -A
+git status
+ls
+cd $GITTOP
+git status
+git add -A
+git status
+git commit -m "delete ST3_W2.json"
+git push
+git push --help
+git push --set-upstream origin/St3W2Config
+git push --set-upstream origin origin/St3W2Config
+git branch
+git push
+git help config
+ls
+git push
+git push origin St3W2Config
