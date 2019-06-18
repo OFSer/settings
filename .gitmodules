@@ -7,3 +7,6 @@
 [submodule ".cache/netease-cloud-music/Cef/Cache/Local Storage"]
 	path = .cache/netease-cloud-music/Cef/Cache/Local Storage
 	url = git@github.com:chinnkarahoi/ntm-local.git
+[submodule "games"]
+	path = games
+	url = git@github.com:chinnkarahoi/games.git
