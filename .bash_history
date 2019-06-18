@@ -30298,3 +30298,88 @@ git help config
 ls
 git push
 git push origin St3W2Config
+ls
+git status
+cd fc/saki_detection/
+ls
+cd ~
+ls
+w3m https://www.seas.upenn.edu/~cis194/spring13/lectures/10-applicative.html
+ls
+cd gh/cis194/
+ls
+mkdir 10
+cd 10
+ls
+cd ~
+ls
+cd -
+ls
+cd ..
+ls
+mkdir lhs
+ls
+cd lhs/
+ls
+vim 10.lhc
+vim 10.lhs
+ls
+vim 10.lhs
+cd ~
+bspwm
+sudo apt install bspwm
+bspwm
+ls
+cd test/
+ls
+vim
+history | grep "git clean"
+cd ..
+cd ~
+ls
+gits
+ls
+git status
+gits
+ls
+git status
+cd test/
+ls
+cd ~
+vim .bash
+gits
+git add .bash
+./config.sh push
+cmake --help
+tldr cmake
+vim .vimrc
+vim .vim
+git status
+git diff vim
+git diff .vim
+./config.sh push
+git diff HEAD^ .dconf
+jobs
+gits
+git status
+nvidia-smi
+top
+htop
+ls
+ls
+cd ..
+vim 1.cpp
+ls
+cd ~
+vim .vimrc
+ls
+gits
+git status
+gits
+gnome-terminal
+./gnome-terminal
+ls
+./doomrl_gnome-terminal 
+./asciisec 
+./asciisec -A
+cd $GITTOP

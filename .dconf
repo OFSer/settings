@@ -312,7 +312,7 @@ subtitle-encoding='UTF-8'
 active-plugins=['skipto', 'screenshot', 'apple-trailers', 'media_player_keys', 'vimeo', 'movie-properties', 'autoload-subtitles', 'variable-rate', 'recent', 'save-file', 'screensaver']
 
 [org/gnome/gnome-system-monitor]
-current-tab='resources'
+current-tab='processes'
 show-whose-processes='user'
 window-state=(1206, 786, 714, 30)
 maximized=false
