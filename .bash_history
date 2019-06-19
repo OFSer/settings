@@ -30824,3 +30824,44 @@ sudo apt install gnuchess
 history 
 sudo apt install empire
 sudo snap install ascii-clock 
+angband -mgcu
+l
+vim .bash/alias.sh 
+git status
+./config.sh push
+ls
+git status
+gits
+snap find ascii
+gnuchess
+gnuchessx
+gnuchess
+gnuchessu
+gnuchess
+gnuchessx
+gnuchess
+angband 
+angband  --help
+angband -a
+angband --help
+angband -ngcu
+angband -n gcu
+angband -n -a
+angband -n gcu -a
+angband -nx11
+angband -n x11
+man angband 
+angband 
+angband --help
+angband -n x11
+angband -n sdl
+angband -s
+angband -s sdl
+tldr angband
+vim /usr/share/applications/angband-x11.desktop 
+angband -m gcu
+angband -mgcu
+vimtutor 
+vim.tiny
+ls
+vtmux 
