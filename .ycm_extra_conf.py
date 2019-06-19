@@ -29,7 +29,7 @@ BASE_FLAGS = [
         '-I./library',
         ]
 
-BUILD_DIRECTORY = './build';
+BUILD_DIRECTORY = './ycm';
 
 SOURCE_EXTENSIONS = [
         '.cpp',
