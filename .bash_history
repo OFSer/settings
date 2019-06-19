@@ -30911,3 +30911,54 @@ cat pref.prf
 ls
 cat keys-gcu.prf 
 vim keys-gcu.prf 
+ls
+git status
+atc
+sudo apt install bsdgames
+atc
+man atc
+ls
+man atc
+sudo man atc
+man atc
+ls
+sudo su
+vim --help
+PAGER='vim -M +MANPAGER -c "set showtabline=1" -'
+man man
+PAGER='vim +MANPAGER -c "set showtabline=1" -'
+man man
+PAGER='vim +MANPAGER -c "set showtabline=1"'
+man man
+ls
+git status
+ls
+PAGER='vim -M +MANPAGER -c "set showtabline=1" -'
+man man
+PAGER='vim -c "set showtabline=1" -'
+man man
+PAGER='vim -M +MANPAGER -c "set showtabline=1" -'
+vim .vimrc
+ls
+vim
+man man
+vim --version
+man man
+vimpager 
+vimpager man
+vim --help
+man vim
+vim +vimpager
+man man | vim +vimpager -
+type PAGER
+type $PAGER
+echo $PAGER
+man man | vim -M +MANPAGER -c "set showtabline=1" -
+man man | vim -M +MANPAGER -c "set showtabline=1"
+man man | vim -M +MANPAGER -c "set showtabline=1" -
+man man
+\man man | vim -M +MANPAGER -c "set showtabline=1" -
+\man man | vim -M +MANPAGER -c "set showtabline=1" - | vim -M +MANPAGER -c "set showtabline=1" -
+man man
+\man man
+man man

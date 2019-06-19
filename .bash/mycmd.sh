@@ -4,6 +4,10 @@ args(){
 	echo
 }
 
+myman(){
+	\man "$@" | vim -M +MANPAGER -c "set showtabline=1" -
+}
+
 callssh(){
 	sshpass -p 87Co7r \ssh -o StrictHostKeyChecking=no "$@" || sshpass -p s \ssh -o StrictHostKeyChecking=no "$@" || \ssh "$@"
 }
