@@ -21,7 +21,7 @@ install_tools(){
 	sudo apt install -y steam
 	sudo apt install -y compizconfig-settings-manager
 	sudo apt install -y tree net-tools nethogs openssh-server 
-	sudo apt install -y sl cmatrix fortune cowsay lolcat asciiquarium toilet
+	sudo apt install -y sl cmatrix fortune cowsay lolcat asciiquarium toilet gnuchess screenfetch empire
 	sudo apt install -y python-pip python3 python3-pip
 }
 config_scroll(){

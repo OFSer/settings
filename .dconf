@@ -26,8 +26,8 @@ show-tabs-mode='auto'
 side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/Downloads/doomrl-linux-x64-0997'
-tree-view=false
+virtual-root='file:///home/gjs/games/diablorl'
+tree-view=true
 root='file:///'
 
 [org/gnome/gedit/plugins]

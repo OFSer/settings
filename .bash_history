@@ -30671,3 +30671,156 @@ gits
 git status
 rm -rf .local/share/autojump/
 git status
+rm -rf .local/share/autojump/
+git status
+./config.sh push
+git diff HEAD^ .dconf
+jobs
+ls
+git status
+j fc
+. /usr/share/autojump/autojump.bash
+j fc
+ls
+j fc
+ls
+j 
+j
+ls
+git status
+gits
+j
+j --help
+j cpp
+j ~
+autojump ~
+j ~
+j ..
+ls
+j home
+ls
+cd ~
+ls
+vim .bashrc
+ls
+git status
+rm -rf .local/share/autojump/
+ls
+gits
+cd .
+cd ..
+ls
+cd dl-k8s-kube/
+ls
+vim
+ls
+cd ..
+cd dl-k8s-kube/
+ls
+cd ..
+sl
+ls
+sudo apt remove sl
+sl
+jobs
+ls
+cd ~
+ls
+cd games/
+ls
+git init
+git status
+git add -A
+du -hd1
+git status
+ls
+jobs
+du -hd1
+git commit -m "fm"
+git remote add origin git@github.com:chinnkarahoi/games.git
+git push -u origin master
+cd ~
+ls
+vim .vimrc
+vim .vim
+git status
+gits
+git diff .vimrc
+vim .vimrc
+git status
+./config.sh push
+history | grep "git submodule add"
+git submodule add --help
+ls
+vim .gitmodules 
+git submodule add git@github.com:chinnkarahoi/games.git games
+git submodule add git@github.com:chinnkarahoi/games.git games -f
+git submodule add -f git@github.com:chinnkarahoi/games.git games
+git status
+vim .gitmodules 
+git diff --cached
+./config.sh push "add submodule"
+git diff HEAD^
+git status
+gits
+ls
+cd games/
+ls
+cd ..
+ls
+git status
+vim .vim/after/
+htop
+vtmux 
+type vtmux
+vim .vimrc
+vim .vim
+vim .vimrc
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+git status
+mv 1.cpp ls
+ls
+mv ls 1.cpp
+ls
+git status
+git add -A
+git status
+git commit -m "upd"
+git push
+gits
+cd ~
+ls
+vim .vimrc
+vim .vim
+gits
+git diff HEAD^
+git diff HEAD^ .vim
+ls
+cd ~
+ls
+vim config.sh 
+ls
+sss
+ls
+./rl
+./rl
+cat RE
+ls
+cat readme.txt 
+vim readme.txt 
+ls
+./rl --help
+xterm 
+./rl
+./pyramid_builder_linux.x86_64 
+man asciijump 
+sudo apt install gnuches
+sudo apt install gnuchess
+history 
+sudo apt install empire
+sudo snap install ascii-clock 
