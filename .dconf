@@ -27,7 +27,7 @@ side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
 virtual-root='file:///home/gjs/Downloads/doomrl-linux-x64-0997'
-tree-view=true
+tree-view=false
 root='file:///'
 
 [org/gnome/gedit/plugins]

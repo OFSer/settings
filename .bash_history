@@ -30494,3 +30494,180 @@ git tatus
 gits
 git commit -m "add dynamic config"
 git push
+htop
+cd ~
+ls
+cd games/
+ls
+cd ..
+gits
+cd gh/cis194/
+ls
+cd lhs/ 
+ls
+vim 10.lhs 
+man pthread
+man pthread_create
+gits
+cd ~
+gits
+git diff .vim
+vim .ycm_extra_conf.py 
+ls
+git s
+gits
+git diff .ycm
+git diff .ycm*
+git diff -- .ycm
+ls
+vim .bashrc
+cd .vim/
+ls
+cd after/
+ls
+cd indent/
+vim
+cd ~
+vim .ycm_extra_conf.py 
+cd test/
+ls
+mkdir sh
+cd sh
+ls
+vim 1.sh
+cd ~
+ls
+vim .ycm_extra_conf.py 
+git status
+gits
+./config.sh push
+vtmux 
+mysql
+./build.sh local
+git status
+git reset HEAD --hard
+git status
+git add build.sh 
+git add build.sh -f
+git status
+git add -A
+git status
+git commit -m "add local cmake"
+git push
+git status
+git checkout -- CMakeLists.txt
+git status
+git checkout -- CMakeLists.txt
+git status
+git add -A
+git status
+git reset HEAD CMakeLists.txt --hard
+git status
+git reset HEAD CMakeLists.txt
+git status
+ls
+git status
+cat config/transformers/A451/size.json
+ls
+./build.sh local
+build_local/bin/unit_test_main 
+cd build_local/
+make -j4
+ls
+cd ..
+ls
+./build.sh local
+build_local/bin/unit_test_main 
+ls
+cd test/cpp/
+ls
+vim 1.cpp
+cd ~
+ls
+vim .vim
+git status
+gits
+cd test/
+ls
+cd cpp/
+ls
+vim 2.cpp
+autojump
+sudo apt install autojump 
+autojump 
+. /usr/share/autojump/autojump.sh
+autojump
+ls
+cd ~
+vim .bash
+vim .bashrc
+autojump 
+vim .bash
+chmod 755 /usr/share/autojump/autojump.sh
+sudo chmod 755 /usr/share/autojump/autojump.sh
+autojump 
+vim .bashrc
+fg
+obs
+jobs
+vim .bashrc
+vim .bash
+cd test/
+autojump 
+ls
+cd ..
+ls
+jobs
+j fc
+jobs
+ls
+cd fc/
+ls
+cd ..
+ls
+vim .bash
+ls
+git status
+vim .bashrc
+autojump fc
+autojump 
+autojump
+jobs
+vim .bash
+. /usr/share/autojump/autojump.sh
+j fc
+autojump
+ls
+. /usr/share/autojump/autojump.bash
+j fc
+autojump fc
+ls
+vim /usr/share/autojump/autojump.bash
+vim .bash
+ls
+j fc
+cd fc/
+ls
+cd ..
+ls
+git status
+ls
+gits
+j fc
+ls
+jo fc/saki_detection/
+ls
+jobs
+cd fc/saki_detection/
+ls
+vim /usr/share/autojump/autojump.bash
+ls
+vim .bashrc
+git status
+gits
+rm .local/share/autojump/
+rm -rf .local/share/autojump/
+gits
+git status
+rm -rf .local/share/autojump/
+git status

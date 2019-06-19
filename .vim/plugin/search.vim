@@ -13,3 +13,6 @@ set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.
 nnoremap f :ProjSearch<space>
 nnoremap F :Search<space>
 
+command -nargs=0 Fileopen silent! exec 'call feedkeys(":tabnew '.expand('%').'")'
+nnoremap o :Fileopen<cr>
+
