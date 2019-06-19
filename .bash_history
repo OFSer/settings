@@ -30383,3 +30383,114 @@ ls
 ./asciisec 
 ./asciisec -A
 cd $GITTOP
+echo {cpp,hpp}
+echo {ab,cd}.{cpp,hpp}
+echo *.{cpp,hpp}
+echo **/*.{cpp,hpp}
+echo */*.{cpp,hpp}
+man cd
+\man cd
+type cd
+man cd
+man \cd
+curseofwar 
+man curseofwar 
+ls
+vim README.md 
+cd fc/
+ls
+cd transformer-pipeline/
+ls
+vim
+ls
+vim CMakeLists.txt 
+jobs
+vim CMakeLists.txt 
+jobs
+gits
+cd ..
+ls
+cd transformer-pipeline/
+git status
+git pull
+git checkout wukong_1.0_dev 
+git pull
+git log
+git status
+git reset HEAD --hard
+git checkout wukong_1.0_dev 
+git pull
+git status
+git log
+git status
+cd ..
+ls
+rm -rf transformer-pipeline/
+git pull git@gitlab.sho.hypereal.com:robotic/transformer-pipeline.git
+ls
+ls -a
+git pull git@gitlab.sho.hypereal.com:robotic/transformer-pipeline.git
+git status
+git pull git@gitlab.sho.hypereal.com:robotic/transformer-pipeline.git
+git pull git@gitlab.sho.hypereal.com:robotic/transformer-pipeline.git --allow-unrelated-histories
+git status
+ls
+cd ..
+ls
+git reset HEAD --hard
+git status
+ls
+vim .ycm_extra_conf.py 
+vim .vim/after/syntax/cpp.vim 
+vim .vim/after/indent/cpp.vim 
+git status
+./config.sh push
+ls
+git status
+mkdir ycm
+ls
+mkdir build
+cd ycm/
+cmake ..
+rm -rf *
+cmake -DCMAKE_BUILD_TYPE=Release ..
+git status
+ls
+[ 'a' -eq 'a' ] && echo 1
+[ 'a' == 'a' ] 
+[ 'a' == 'a' ]  && echo 1
+gits
+git status
+./1.sh
+chmod +x 1.sh
+./1.sh
+[ "a" != "b" ] && echo 1
+[ "a" != "a" ] && echo 1
+git status
+git diff .gitignore
+git status
+git diff
+git reset HEAD --hard
+git status
+git branch
+git checkout vt2_config 
+git status
+git add -A
+gits
+git status
+ls
+cd ..
+git status
+git add -A
+git status
+git reset HEAD middleware/grabber.cpp
+git status
+git reset HEAD middleware/grabber.cpp
+git status
+git reset HEAD middleware/grabber.hpp
+git status
+git checkout -- middleware/grabber.hpp
+git tatus
+gits
+git commit -m "add dynamic config"
+git push

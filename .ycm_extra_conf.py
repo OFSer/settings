@@ -14,7 +14,7 @@ BASE_FLAGS = [
         '-fexceptions',
         '-ferror-limit=10000',
         '-DNDEBUG',
-        '-std=c++14',
+        '-std=c++17',
         '-xc++',
         '-I/usr/lib/',
         '-I/usr/include/',
@@ -29,7 +29,7 @@ BASE_FLAGS = [
         '-I./library',
         ]
 
-BUILD_DIRECTORY = './ycm';
+BUILD_DIRECTORY = './build';
 
 SOURCE_EXTENSIONS = [
         '.cpp',
