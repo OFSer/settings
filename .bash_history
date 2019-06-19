@@ -30865,3 +30865,49 @@ vimtutor
 vim.tiny
 ls
 vtmux 
+anacron 
+anacron  --help
+man anacron 
+ls
+git status
+angband 
+jobs
+angband  --help
+angband  -n 3
+angband -mgcu  -n 3
+angband -mgcu  -a
+\angband -mgcu  -a
+\angband -mgcu 
+\angband -m -a
+\angband -mgcu-n1
+\angband -mgcu-n2
+\angband -mgcu -n2
+\angband -mgcu-B
+\angband -mgcuB
+\angband -mgcu -B
+\angband -mgcu -B -n6
+\angband -mgcu -m -n6
+\angband -mgcu -m-n6
+\angband -mgcu -mn6
+\angband -mgcu n6
+\angband -mgcun6
+\angband -mgcu-n6
+\angband -mgcu -m -n6
+\angband -mgcu 6
+\angband -mgcu -n6
+man angband
+angband 
+angband  -a
+angband  --a
+\angband  -mgcu --a
+\angband  -mgcu -- a
+\angband  -mgcu -- -a
+\angband  -mgcu -- -a -B -n2
+\angband  -mgcu -- -a -B -n6
+cat /etc/angband/pref
+cd /etc/angband/pref
+ls
+cat pref.prf 
+ls
+cat keys-gcu.prf 
+vim keys-gcu.prf 
