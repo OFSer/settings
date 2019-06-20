@@ -20,6 +20,7 @@ cnoremap <c-a> <home>
 cnoremap <c-b> <left>
 cnoremap <c-r> <c-f>
 cnoremap <c-f> <right>
+cnoremap w <c-w>
 
 nnoremap <silent> <c-j> <cr>
 nnoremap <silent> <c-k> k
