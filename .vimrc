@@ -95,7 +95,9 @@ Plug 'airblade/vim-gitgutter'
 
 Plug 'ianva/vim-youdao-translater'
 nnoremap a :Ydc<cr>
-nnoremap <buffer> <silent> <RightMouse> <LeftMouse>:Ydc<CR>
+nnoremap <silent> <RightMouse> <LeftMouse>:Ydc<CR>
+inoremap <silent> <RightMouse> <esc><LeftMouse>:Ydc<CR>
+tnoremap <silent> <RightMouse> <c-\><c-n><LeftMouse>:Ydc<CR>
 
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
