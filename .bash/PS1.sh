@@ -16,16 +16,16 @@ if [ -n "$force_color_prompt" ]; then
 	fi
 fi
 function git-branch {
-	ref=$(git symbolic-ref --short HEAD 2>/dev/null )
-	[ -z "$ref" ] && return
+	#GITREF=$(git symbolic-ref --short HEAD 2>/dev/null )
+	[ -z "$GITREF" ] && return
 	#echo "["${ref#refs/heads/}$([ -n "$(git status -s)" ] && echo '*')];
-	status=$(git diff-files --no-ext-diff --quiet --ignore-submodules 2>/dev/null || echo '*')
-	echo "["$ref$status"]";
+	#GITSTATUS=$(git diff-files --no-ext-diff --quiet --ignore-submodules 2>/dev/null || echo '*')
+	echo "["$GITREF$GITSTATUS"]";
 }
 # If this is an xterm set the title to user@host:dir
 
 if [ "$color_prompt" = yes ]; then
-	PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[0m\]\[\033[01;32m\]@\[\033[0m\]\[\033[01;32m\]$HOSTNAME\[\033[0m\]\[\033[01;35m\]\$(git-branch)\[\033[0m\]\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\033[01;31m\]$\[\033[00m\] "
+	PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@$HOSTNAME\[\033[0m\]\[\033[01;35m\]\$(git-branch)\[\033[0m\]\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\033[01;31m\]$\[\033[00m\] "
 	#PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 else
 	PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '

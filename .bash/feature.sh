@@ -35,14 +35,28 @@ fi
 case "$_TERM" in
 xterm*|rxvt*)
 	PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}:`dirs -p | head -n 1`$\007"'
-	show_command_in_title_bar(){
+	TrapUpdate(){
+		GITREF=$(git symbolic-ref --short HEAD 2>/dev/null )
 		GITTOP=$(git rev-parse --show-toplevel 2>/dev/null)
+		TOP="$GITTOP"
+		GITSTATUS=$(git diff-files --no-ext-diff --quiet --ignore-submodules 2>/dev/null || echo '*')
+	}
+	CommandTrap(){
 		case "$BASH_COMMAND" in
-		*\033]0*);;
-		*)echo -ne "\033]0;${USER}@${HOSTNAME}:$(sed -E 's/([^/])[^/]*/\1/g' <(dirs -p | head -n 1) )$ ${BASH_COMMAND}\007";;
+			"$PROMPT_COMMAND") #after
+				[[ "$PREPWD" != "$PWD" || "$PRECMD" =~ 'git' ]] && TrapUpdate
+				PRECMD=""
+				PREPWD="$PWD"
+			;;
+			*)								 #before
+				echo -ne "\033]0;${USER}@${HOSTNAME}:$(sed -E 's/([^/])[^/]*/\1/g' <(dirs -p | head -n 1) )$ ${BASH_COMMAND}\007"
+				[ -z "$PREPWD" ] && TrapUpdate
+				PRECMD="$BASH_COMMAND"
+				PREPWD="$PWD"
+			;;
 		esac
 	}
-	trap show_command_in_title_bar DEBUG
+	trap CommandTrap DEBUG
 ;;
 *);;
 esac
