@@ -94,7 +94,8 @@ let g:NERDTreeIndicatorMapCustom = {
 Plug 'airblade/vim-gitgutter'
 
 Plug 'ianva/vim-youdao-translater'
-nmap a :Ydc<cr>
+nnoremap a :Ydc<cr>
+nnoremap <buffer> <silent> <RightMouse> <LeftMouse>:Ydc<CR>
 
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'

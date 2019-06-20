@@ -30962,3 +30962,62 @@ man man
 man man
 \man man
 man man
+man git status
+man git add
+git add --help
+man git add
+ls
+man man
+ls
+git status
+./config.sh push
+ls
+curseofwar 
+asciijump 
+sudo apt install empire
+empire
+man empire
+sudo apt install bombardier
+bombardier 
+sudo apt install angband
+sudo apt install angband -y
+sudo snap find diablorl
+sudo snap find diablo
+sudo snap find ascii
+screenfetch
+sudo apt install screenfetch
+sudo apt install screenfetch -y
+screenfetch 
+vim config.sh 
+git diff HEAD^ .vim
+git diff HEAD^
+vim config.sh 
+git status
+./config.sh push
+vim config.sh 
+git status
+git diff config.sh
+vim config.sh 
+./config.sh push
+ls
+vtmux 
+sudo su
+man man
+vim .bash
+git status
+man man | vim -M +MANPAGER -c "set showtabline=1" -
+git status --help
+echo $PAGER
+man man
+man man | vim -M +MANPAGER -c "set showtabline=1" -
+man git status
+PAGER=vim -M +MANPAGER -c "set showtabline=1" -;man man
+PAGER=vim -M +MANPAGER -c "set showtabline=1" -;\man man
+man man | vim -M +MANPAGER -c "set showtabline=1" -
+vim
+man man
+sudo man man
+sudo su
+man man
+man vimpager
+vim .bash
