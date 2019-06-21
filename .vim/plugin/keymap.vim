@@ -30,6 +30,7 @@ nnoremap <silent> <c-l> l
 inoremap <c-y> <esc>pa
 nnoremap <c-a> maggvG$
 nnoremap <c-v> "+P
+nnoremap <c-p> "0p
 vnoremap <c-c> "+y
 vnoremap <c-x> "+d
 
@@ -67,6 +68,3 @@ inoremap <silent>  h <esc><c-w>h
 inoremap <silent>  j <esc><c-w>j
 inoremap <silent>  k <esc><c-w>k
 inoremap <silent>  l <esc><c-w>l
-"--------------------Markdown--------------------------------"
-map <silent> <F5> <Plug>MarkdownPreview
-map <silent> <F6> <Plug>StopMarkdownPreview

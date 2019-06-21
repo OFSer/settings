@@ -532,10 +532,10 @@ direct-width=1024
 
 [apps/update-manager]
 first-run=false
-launch-time=int64 1559900491
+launch-time=int64 1561121600
 window-height=540
 show-details=true
-launch-count=11
+launch-count=12
 window-width=1008
 
 [com/canonical/indicator/datetime]

@@ -31601,3 +31601,115 @@ git status
 git add -A
 git status
 git diff
+git status
+git add -A
+git status
+git add -A
+git diff --cached 
+git commit -m "move to vt2_config"
+git push
+g++ -std=c++17 4.cpp -pthread && ./a.out
+g++ -std=c++17 4.cpp && ./a.out
+ls
+cd test/
+ls
+touch a
+touch A
+ls
+rm a A
+ls
+cd ~
+vim .vimrc
+vim .vim
+cd ~
+vim .ycm_extra_conf.py 
+git status
+git diff .ycm
+git diff .ycm_extra_conf.py
+git diff .vim/plugin/keymap.vim
+git checkout  .vim/plugin/keymap.vim
+git status
+./config.sh push "disable ycm some warning"
+git push
+cd ~
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+vim 4.cpp
+cd ~
+ghci
+cd gh/
+ls
+cd cis194/
+ls
+vim
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/rttr/
+ls
+vim
+cd ..
+git status
+cd ..
+git status
+git add -A
+git status
+git commit -m "upd":
+git commit --amend 
+git push
+ls
+gits
+git status
+ls
+jobs
+cd cpp/
+ls
+vim 1.cpp
+vim
+ls
+cd ~
+ls
+vim .ycm_extra_conf.py 
+vim .gitignore 
+vim .ycm_extra_conf.py 
+cd fc/
+ls
+git clone git@gitlab.sho.hypereal.com:robotic/transformer-pipeline.git
+cd transformer-pipeline/
+ls
+git status
+ls
+git submodule update --init
+ls
+git checkout wukong_1.0_dev 
+git log
+git status
+git log
+ls
+vim
+ls
+vim
+git checkout -b vt2_config
+ls
+vim
+vim CMakeLists.txt 
+ls
+vim CMakeLists.txt 
+g++ 4.cpp && ./a.out
+ls
+git status
+git sttaus
+ls
+git sttaus
+gits
+cd ~
+vim .vim
+git status
+ls
+git status
+ls
