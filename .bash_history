@@ -31330,3 +31330,274 @@ ls
 vim
 jobs
 history 
+ls
+s
+ls
+sl
+git status
+gits
+git status
+gits
+git status
+ls
+git status
+git status
+ll
+vim .inputrc 
+git status
+vim .viminfo.tmp 
+ls
+vim .viminfo
+ls
+ll
+bash/
+-rw-r--r--    1 gjs  gjs   523835 Jun 20 14:08 .bash_history
+-rw-r--r--    1 gjs  gjs       32 Jun  3 20:44 .bash_profile
+-rw-r--r--    1 gjs  gjs      416 Jun 20 13:42 .bashrc
+drwxr-xr-x   25 gjs  gjs     4096 Jun  7 21:22 .cache/
+drwxr-xr-x    2 gjs  gjs     4096 Jun  3 22:26 CloudMusic/
+drwx------    3 gjs  gjs     4096 Jun  3 22:23 .compiz/
+drwxr-xr-x    5 gjs  gjs     4096 Jun 10 10:40 .conan/
+drwxr-xr-x   36 gjs  gjs     4096 Jun 19 21:11 .bash/
+-rw-r--r--    1 gjs  gjs   523835 Jun 20 14:08 .bash_history
+-rw-r--r--    1 gjs  gjs       32 Jun  3 20:44 .bash_profile
+-rw-r--r--    1 gjs  gjs      416 Jun 20 13:42 .bashrc
+drwxr-xr-x   25 gjs  gjs     4096 Jun  7 21:22 .cache/
+drwxr-xr-x    2 gjs  gjs     4096 Jun  3 22:26 CloudMusic/
+drwx------    3 gjs  gjs     4096 Jun  3 22:23 .compiz/
+drwxr-xr-x    5 gjs  gjs     4096 Jun 10 10:40 .conan/
+hibs
+jobs
+ls
+jobs
+vtmux
+history | grep pthread
+g++ future.cpp && ./a.out 
+g++ -std=c++11 future.cpp && ./a.out 
+g++ -std=c++17 future.cpp && ./a.out 
+g++ -std=c++11 -lpthread future.cpp && ./a.out 
+g++ -std=c++11 -lpthread future.cpp
+g++ -std=c++11 -pthread future.cpp
+g++ -std=c++11 -pthread future.cpp && ./a.out
+g++ 3.cpp 
+g++ 3.cpp  && ./a.out
+g++ -std=c++11 -pthread future.cpp && ./a.out
+g++ -std=c++11 -pthread 5.cpp && ./a.out
+g++ 4.cpp
+./a.out 
+g++ 4.cpp && ./.aout
+g++ 4.cpp && ./.a.out
+g++ 4.cpp && ./a.out
+g++ -S 4.cpp -o 4.o
+ls
+g++ -S 4.cpp -o 4.s
+g++ -std=c++11 -pthread future.cpp && ./a.out
+ls
+g++ -std=c++11 -pthread future.cpp && ./a.out
+ls
+git status
+git add -A
+git commit -m "upd"
+git status
+cd ..
+git status
+cd ~
+ls
+cd ..
+ls
+cd ~
+sudo su
+history 
+ls
+history 
+ls
+cd ~
+vim .bash_history 
+git status
+vim .bash_history 
+history 
+vim .bash_history 
+git status
+./config.sh push
+vim .vimrc
+vim .vim
+git status
+git diff .vimrc
+git checkout -- .vimrc
+git status
+man man
+w3m https://google.github.io/styleguide/cppguide.html#C++_Version
+git status
+vtmux
+fsd f safssfd asd f
+ls
+git status
+lspci
+lspci | grep -i nvidia
+nvidia-smi
+ssh gjs@10.0.10.60
+sss
+ls
+cd test/cpp/
+ls
+vim 1.cpp
+vim future.cpp
+cd ~
+vim .ycm
+vim .ycm_extra_conf.py 
+ls
+git status
+nasm
+sudo apt install nasm
+nasm
+ls
+cd ~
+cd test/
+ls
+cd asm
+mkdir asm
+cd asm/
+ls
+vim 1.asm
+ld --help
+ls
+ld --help
+man ld
+ls
+cd ~
+ls
+cd test/
+ls
+cd asm/
+ls
+./1
+./1.o
+chmod +x 1.o
+./1.o
+ls
+ld -o 1 1.o
+./1
+hexdump -C -n 100 1
+hexdump -C -n 1000 1
+hexdump -C -n 10000 1
+icdiff <(hexdump -C -n 10000 1) <(hexdump -C -n 10000 1.o)
+hexdump -C -n 10000 1.o
+hexdump -C -n 10000 1
+man angband
+man conctab
+crontab
+man crontab
+history | grep ron
+man crontab
+man empire 
+history | grep g++ | grep error
+history | grep error
+mail -s "测试"  jingshen.gao@hypereal.com
+mail -s test jingshen.gao@hypereal.com
+ls
+mail
+emial
+email
+sudo apt install mailutils
+mail
+sudo mail
+sudo sudo mail
+mail -f
+mailx
+sudo mailx
+sudo vim /etc/mail.rc
+cd /etc/
+ls
+ls | grep mail
+find . | grep mail
+sudo find . | grep mail
+cd alternatives/
+ls
+vim mail
+ls
+cd ..
+ls
+vim mail.rc
+echo "hello" | mail -s "Title" jingshen.gao@gmail.com
+mail
+sudo mail
+echo "hello" | sudo mail -s "Title" jingshen.gao@gmail.com
+ls
+sudo apt-get install postfix
+vim /etc/mail/sendmail.mc
+ls
+vim /etc/mail.rc
+ls
+vim mailcap
+vim mailcap.order 
+vim mail.rc
+sudo vim mail.rc
+ls
+nslookup smtp.hypereal.com
+nslookup smtp.gmail.com
+sudo apt-get install ssmtp
+sudo /etc/ssmtp/ssmtp.conf
+sudo vim /etc/ssmtp/ssmtp.conf
+echo "HEllo" | mail -s "just a test" 496867394@qq.com
+echo $?
+echo "HEllo" | sudo mail -s "just a test" 496867394@qq.com
+sudo vim /etc/ssmtp/ssmtp.conf
+echo "HEllo" | sudo mail -s "just a test" 496867394@qq.com
+mail -s "just a test" 496867394@qq.com
+jobs
+fg
+mail -s "just a test" 496867394@qq.com
+echo "HEllo" | sudo mail -s "just a test" 496867394@qq.com
+echo "HEllo" |  mail -s "just a test" 496867394@qq.com
+ls
+g++ 4.cpp
+g++ 4.cpp && ./a.out
+g++ -O0 4.cpp && ./a.out
+gcc -O0 4.cpp && ./a.out
+g++ -O0 4.cpp && ./a.out
+g++  -fno-elide-constructors -O0 4.cpp && ./a.out
+ls
+g++  -fno-elide-constructors -O0 4.cpp && ./a.out
+ls
+g++  -fno-elide-constructors -O0 4.cpp && ./a.out
+ls
+git status
+g++  -fno-elide-constructors -O0 4.cpp && ./a.out
+g++ -std=c++17 4.cpp && ./a.out
+git status
+git rm --cached MyCMake.cmake 
+git rm --cached build.sh 
+git status
+git add -A
+git status
+git add -A
+git status
+git commit -m "rm MyCMake build.sh"
+git push
+git status
+ls
+gits
+git status
+git reflog
+git reset 920713c7 --hard
+git status
+git log
+git diff HEAD^
+git checkout -b modify_vt2_config
+git push 
+git push --set-upstream origin modify_vt2_config 
+git status
+git checkout vt2_config 
+git status
+git reflog
+git status
+git diff
+gits
+rm src/middleware/dynamic_configs.cpp 
+ls
+git status
+git diff
+git status
+git add -A
+git status
+git diff

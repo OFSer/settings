@@ -577,7 +577,7 @@ favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chr
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14
-release-check-time=uint32 1559872468
+release-check-time=uint32 1561082596
 
 [com/ubuntu/user-interface]
 scale-factor={'HDMI-0': 10, 'DP-4': 10}
