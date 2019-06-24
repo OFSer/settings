@@ -30,7 +30,8 @@ nnoremap <silent> <c-l> l
 inoremap <c-y> <esc>pa
 nnoremap <c-a> maggvG$
 nnoremap <c-v> "+P
-nnoremap <c-p> "0p
+nnoremap 0 "0
+nnoremap 1 "1
 vnoremap <c-c> "+y
 vnoremap <c-x> "+d
 

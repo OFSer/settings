@@ -31713,3 +31713,131 @@ git status
 ls
 git status
 ls
+vim .vimrc
+ls
+git status
+gits
+vim README.md 
+ls
+vim README.md 
+gits
+git diff .vim
+./config.sh push 
+git diff HEAD^ .dconf
+git diff HEAD^^ .dconf
+git diff HEAD^^^ .dconf
+git diff HEAD^^^^ .dconf
+git diff HEAD~5 .dconf
+git diff HEAD~10 .dconf
+git diff HEAD~50 .dconf
+git status
+ls
+man git status
+ls
+man git status
+ls
+git status
+man git status
+ls
+git status
+git status
+vtmux 
+man git status
+vtmux
+ls
+gs
+gs --help
+gss
+g
+git status
+ls
+cd build/
+ls
+make -j4
+ls
+bin/2
+make -j4
+bin/2
+make -j4
+bin/2
+make -j4
+bin/2
+make -j4
+bin/2
+make -j4
+bin/2
+make -j4
+bin/2
+make -j4
+bin/2
+make -j4 && bin/2
+ls
+cd test/
+ls
+cd cpp/
+ls
+cd rttr/
+ls
+vim
+cd ~
+vim .vimrc
+cd /tmp/
+ls
+touch 1
+ls
+rm 1
+ls
+git status
+git reset head --hard
+git reset HEAD --hard
+git status
+git clean -dff
+git status
+cd third_party/ffmpeg/
+git clean -dff
+git status
+cd ..
+git status
+cd ..
+git status
+git checkout master
+git status
+ls
+cd build
+ls
+rm -rf *
+cmake ..
+ls
+cd ~
+ls
+cd -
+ls
+cd ~1
+cd ~2
+ls
+cd ..
+ls
+>.ycm_extra_conf.py
+angband 
+nethack
+ls
+git status
+git diff
+git diff HEAD^
+ls
+git status
+man iptables
+vtmux 
+jobs
+git status
+cd fc/
+ls
+cd transformer-pipeline/
+ls
+cd build
+ls
+cd ..
+./build.sh main
+ls
+git status
+ls

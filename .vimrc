@@ -46,6 +46,7 @@ Plug 'chinnkarahoi/vim-find-files'
 let g:find_files_findprg = 'find . -type f -name "*$**"'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all' }
 Plug 'chinnkarahoi/vim-cmake-completion'
 nnoremap <silent> D :tab split \| YcmCompleter GoTo<cr>
@@ -97,7 +98,7 @@ Plug 'ianva/vim-youdao-translater'
 nnoremap a :Ydc<cr>
 nnoremap <silent> <RightMouse> <LeftMouse>:Ydc<CR>
 inoremap <silent> <RightMouse> <esc><LeftMouse>:Ydc<CR>
-tnoremap <silent> <RightMouse> <c-\><c-n><LeftMouse>:Ydc<CR>
+tnoremap <silent> <RightMouse> <c-\><c-n><LeftMouse>:Ydc<cr>i
 
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
