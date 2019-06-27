@@ -39,6 +39,8 @@ Plug 'skywind3000/asyncrun.vim'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'chinnkarahoi/haskell-vim'
 Plug 'PangPangPangPangPang/vim-terminal'
+Plug 'vim-scripts/Conque-GDB'
+Plug 'cpiger/NeoDebug'
 
 Plug 'hdima/python-syntax'
 Plug 'tpope/vim-fugitive'
