@@ -67,3 +67,6 @@
 .config/SogouPY/sgim_eng_usr.bin
 .config/SogouPY/Backup
 .config/SogouPY/sgim_usr_v3new.bin
+.config/evolution/sources/
+.local/share/webkitgtk/
+.config/goa-1.0/

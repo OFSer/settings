@@ -1,3 +1,6 @@
+[system/proxy]
+use-same-proxy=false
+
 [org/gnome/settings-daemon/plugins/media-keys]
 terminal='<Control><Alt>t'
 
@@ -6,6 +9,15 @@ favorite-apps=['ubiquity.desktop', 'org.gnome.Nautilus.desktop', 'firefox.deskto
 
 [org/gnome/charmap/window-state]
 size=(1080, 607)
+
+[org/gnome/gedit/preferences/print]
+print-syntax-highlighting=true
+print-header=true
+print-line-numbers=uint32 0
+print-font-body-pango='Monospace 9'
+print-font-numbers-pango='Sans 8'
+print-font-header-pango='Sans 11'
+print-wrap-mode='word'
 
 [org/gnome/gedit/preferences/editor]
 display-right-margin=false
@@ -26,7 +38,7 @@ show-tabs-mode='auto'
 side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/Downloads'
+virtual-root='file:///home/gjs/Desktop'
 tree-view=true
 root='file:///'
 
@@ -71,8 +83,8 @@ use-experimental-views=false
 [org/gnome/nautilus/window-state]
 sidebar-width=256
 start-with-sidebar=true
-geometry='909x480+257+380'
-maximized=true
+geometry='909x415+0+30'
+maximized=false
 
 [org/gnome/nautilus/compression]
 default-compression-format='zip'
@@ -352,7 +364,7 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=222
-window-position=(668, 447)
+window-position=(417, 186)
 show-size-column=true
 show-hidden=false
 window-size=(1086, 581)
@@ -386,11 +398,13 @@ skip-animation=true
 [org/compiz/profiles/unity-lowgfx/plugins/unityshell]
 shadow-x-offset=1
 icon-size=40
+reveal-trigger=1
 menus-discovery-fadeout=0
 menus-discovery-fadein=0
 menus-fadeout=0
 menus-fadein=0
 dash-blur-experimental=0
+edge-responsiveness=6.5129496402877693
 active-shadow-radius=3
 inactive-shadow-color='#000000a5'
 autohide-animation=1
@@ -473,12 +487,14 @@ arrow-base-color='#e6e6e6d9'
 arrow-shadow-color='#dcdcdcd9'
 
 [org/compiz/profiles/unity/plugins/unityshell]
-icon-size=40
-launcher-hide-mode=0
 launcher-minimize-window=true
+icon-size=40
 num-launchers=1
-inactive-shadow-color='#000000a5'
 launcher-capture-mouse=false
+reveal-trigger=1
+edge-responsiveness=6.5129496402877693
+inactive-shadow-color='#000000a5'
+launcher-hide-mode=0
 
 [org/compiz/profiles/unity/plugins/composite]
 refresh-rate=50
@@ -571,19 +587,20 @@ migrated=true
 interested-media-players=['netease-cloud-music.desktop', 'vlc.desktop']
 
 [com/canonical/unity]
-minimize-count=100
+lowgfx=false
 integrated-menus=false
 always-show-menus=false
+minimize-count=100
 
 [com/canonical/unity/devices]
-blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416bfc-44d5-46d7-b000-2003986f48d3-', '64D7-F69D-', 'E725-991D-', '25B8-F1E8-', '72cafc1a-4c8c-4f08-aecf-23e05ba22c64-', '4ba7120e-637b-4c68-85d8-3f1726813cc4-', '42fec6ee-3be4-46bb-8986-927537f9947c-', '4e483be3-d2bc-4a76-97ed-01dcfcefd2cf-', '00c33688-c9cb-4849-8409-45bf62a5e2c7-']
+blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416bfc-44d5-46d7-b000-2003986f48d3-', '64D7-F69D-', 'E725-991D-', '25B8-F1E8-', '72cafc1a-4c8c-4f08-aecf-23e05ba22c64-', '4ba7120e-637b-4c68-85d8-3f1726813cc4-', '42fec6ee-3be4-46bb-8986-927537f9947c-', '4e483be3-d2bc-4a76-97ed-01dcfcefd2cf-', '00c33688-c9cb-4849-8409-45bf62a5e2c7-', 'google-drive://chinnkarahoi@gmail.com/-']
 
 [com/canonical/unity/interface]
 text-scale-factor=1.0
 app-fallback-to-maximum-scale-factor=true
 
 [com/canonical/unity/launcher]
-favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://unity-control-center.desktop', 'application://gedit.desktop', 'unity://running-apps', 'application://electronic-wechat.desktop', 'unity://expo-icon', 'unity://devices']
+favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://unity-control-center.desktop', 'application://gedit.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14

@@ -113,7 +113,7 @@ Plug 'acarapetis/vim-colors-github'
 Plug 'rakr/vim-one'
 
 Plug 'iamcco/mathjax-support-for-mkdp'
-Plug 'iamcco/markdown-preview.vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 let g:mkdp_auto_close = 0
 call plug#end()
 silent! color neodark
