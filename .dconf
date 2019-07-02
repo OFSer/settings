@@ -38,7 +38,7 @@ show-tabs-mode='auto'
 side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/Desktop'
+virtual-root='file:///home/gjs/Downloads'
 tree-view=true
 root='file:///'
 
@@ -83,7 +83,7 @@ use-experimental-views=false
 [org/gnome/nautilus/window-state]
 sidebar-width=256
 start-with-sidebar=true
-geometry='909x415+0+30'
+geometry='909x374+0+30'
 maximized=false
 
 [org/gnome/nautilus/compression]

@@ -31601,3 +31601,647 @@ git status
 git add -A
 git status
 git diff
+history | grep tcpdump
+hi
+history 
+git status
+cd ~
+git status
+git checkout HEAD~5 .bash_history
+vim .bash_history 
+git status
+./config.sh push
+history | grep tcpdump
+history | grep tcpdump
+man tcpdump 
+ls
+cd ~
+ls
+git status
+git diff .bash_history
+sudo apt install libc6-dbg
+gdb a.out 
+gdb a.out core 
+g++ future.cpp && ./a.out 
+g++ -pthread future.cpp && ./a.out 
+g++ -g -pthread future.cpp && ./a.out 
+ls
+g++ -g -pthread future.cpp && ./a.out 
+ulimit -c unlimited
+./a.out 
+ls
+rm core 
+./a.out 
+ls
+cd bu
+ls
+g++ -pthread future.cpp && ./a.out 
+sudo apt install dpkg-dev
+cd /opt/src
+cd /opt/
+ls
+mkdir src
+ls
+sudo mkdir src
+cd /opt/src
+apt source libc6
+sudo apt source libc6
+ls
+find $PWD -maxdepth 1 -type d -name 'glibc*'
+gdb
+ls
+cd glibc-2.27/
+sl
+ls
+cd ..
+ls
+find $PWD -maxdepth 1 -type d -name 'glibc*'
+cd /build/glibc-OTsEL5/glibc-2.27/signal
+ls
+cd /build/glibc-OTsEL5/glibc-2.27
+ls
+sudo su
+ls
+l
+cd ~
+ls
+git status
+git diff
+git status
+sudo apt install ghc
+ghci
+ls
+cd ~/test/
+ls
+cd cpp/
+ls
+vim future.cpp 
+ls
+man ghc
+man ghci
+ghci
+stack
+stack install ghci
+cd ~
+stack install ghc
+ls
+cd .stack/
+ls
+cd ~
+ls
+rm -rf .stack
+stack install ghc
+ls -a 
+ls -a  | grep font
+cd .config/
+ls
+find . | grep font
+cd ~
+ls
+make
+stack ghc
+stack install ghc
+stack install ghci
+stack ghci
+sudo apt install xelatex
+xelatex
+sudo apt install texlive-xetex
+ls
+cd gh/
+git clone https://github.com/google/haskell-trainings.git
+ls
+cd haskell-trainings/
+ls
+vim
+ls
+vim CONTRIBUTING 
+ls
+make
+stack test
+stack install test
+stack ghci
+stack ghc
+ls
+vim .gitconfig 
+ls
+git remote show origin
+cd fc/
+ls
+cd flaw_checker/
+ls
+git remote show origin
+sudo apt remove ghc
+stack ghci
+ls
+cd ~
+ls
+rm .stack
+rm -rf .stack
+ls
+stack install ghc
+stack ghc
+stack ghci
+stack test
+stack
+stack ghci
+ls
+cd ~
+ls
+rm .stack/
+rm -rf .stack/
+ls
+stack ghci
+stack test
+cd ~
+vim ~/.stack/config.yaml
+sudo apt install ghc
+ghci
+stack ghci
+ghci
+ls
+cd ~
+ls
+cd gh/
+ls
+cd voltron/
+ls
+l
+cd ~/g
+ls
+cd ~/gh/
+ls
+cd haskell-trainings/
+ls
+vim 
+qcd ..
+ls
+cd ..
+ls
+stack ghci
+ls
+git clone https://github.com/bitemyapp/fp-course.git
+ls
+cd fp-course/
+ls
+vim
+gcc 1.c
+gcc -g 1.c
+ls
+ifconfig
+sudo iptables-save
+ls
+ls
+cd ~/test/cpp/
+ls
+vim 1.cpp
+ls
+vim 1.c
+cd ~
+git status
+iptables
+iptables --help
+man iptables 
+ls
+tldr iptables
+s
+sudo iptables -vnL
+iptables-save
+sudo iptables-save
+ping --help
+sudo iptables-save
+sudo ping 
+ping --help
+tldr ping
+man ping
+ping -i 0.1 10.0.10.63 
+sudo ping -i 0.1 10.0.10.63 
+sudo ping -i 0.001 10.0.10.63 
+sudo ping -i 0.0001 10.0.10.63 
+sudo ping -i 0.0001 10.0.10.64
+sudo ping -i 0.0001 10.0.10.63
+sudo ping -i 0.0001 10.0.10.64
+sudo ping -i 0.0001 10.0.10.63
+sudo ping -i 0.0001 10.0.10.64
+ls
+git status
+sudo ping -i 0.0001 10.0.10.63
+sudo ping -i 0.00001 10.0.10.63
+sudo ping -i 0.0001 10.0.10.63
+iptables -I INPUT -p icmp -j REJECT
+sudo iptables -I INPUT -p icmp -j REJECT
+ping 10.0.10.63
+iptables-save
+sudo iptables-save
+sudo iptables -I INPUT -p icmp -j ACCEPT
+ping 10.0.10.6t3
+ping 10.0.10.63
+sudo iptables -I INPUT -p icmp -j REJECT
+ping 10.0.10.63
+ping localhost 
+man iptables
+netfilter
+iptables
+vi
+ls
+dig
+man dig
+dig baidu.com
+nslookup baidu.com
+traceroute 123.125.114.144
+traceroute baidu.com
+traceroute http://baidu.com
+traceroute baidu.com
+traceroute google.com
+man ascii
+shyaml
+sudo apt install shyaml
+pip install shyaml
+shyaml 
+ls
+cd fc/
+ls
+cd transformer-pipeline/
+ls
+cd config/
+ls
+find . | grep yaml
+find . | grep yaml | tail -n 1
+shyaml `find . | grep yaml | tail -n 1`
+find . | grep yaml | tail -n 1
+cat `find . | grep yaml | tail -n 1`
+cat  `find . | grep yaml | tail -n 1`
+cat  `find . | grep yaml | tail -n 1` | shyaml 
+cat  `find . | grep yaml | tail -n 1` | shyaml  -y
+shyaml  `find . | grep yaml | tail -n 1`
+shyaml -y `find . | grep yaml | tail -n 1`
+man cut
+tldr cut
+cut -c 1-5 1234567
+echo 1234567 | cut -c 1-5 
+echo {1..5}
+echo {1..5} | cut -c 1-5 
+echo {1..5} | cut -c 3-5 
+echo {1..5} | cut -c 3- 
+echo {1..5} | cut -d' '-c 3- 
+echo {1..5} | cut -d' ' -c 3- 
+echo {1..5} | cut -d'\ ' -c 3- 
+echo {1..5} | cut -d  -c 3- 
+echo {1..5} | cut -d' '  -c 3- 
+echo {1..5} | cut -d' '  -f 3- 
+man cut
+echo {1..5} | cut -f 3-
+echo {1..5} | cut -f 1-
+echo {1..5} | cut -f 5-
+echo {1..5} | cut -f 2-3
+echo {1..5} | cut -d ' ' -f 2-3
+echo {1..5} | cut -d' ' -f 2-3
+man cut
+man join
+tldr join
+join 123 234
+join <(echo 123) <(echo 234)
+ls
+git sttus
+git status
+cd ~
+ls
+cd test/
+ls
+cd sh/
+ls
+cat 1.sh
+tldr join
+tldr paste
+join 1.sh 2.sh
+ls
+cat 1.sh
+tldr join
+join <(echo {1..5}) <(echo {1..10})
+man join
+join <(echo {1..2}) <(echo {1..3})
+ls
+vim 1
+echo aa 1 2
+bb 2 3
+cc 4 6
+echo 'aa 1 2
+bb 2 3
+cc 4 6
+dd 3 3' > 1
+echo 'aa 2 1
+bb 8 2
+ff 2 4
+cc 4 4
+dd 5 5'
+echo 'aa 2 1
+bb 8 2
+ff 2 4
+cc 4 4
+dd 5 5' > 2
+join 1 2
+join 1 2 2>/dev/null
+join -1 2 -2 3 1 2
+cat 1
+cat 2
+join -1 1 -2 1 1 2
+vim 2
+join -1 1 -2 1 1 2
+tldr paste
+man paste
+paste1 2
+paste 1 2
+paste -s 1 2
+wd -s versatile
+history | grep sort
+man sort
+ncdu
+sudo apt install ncdu
+ncdu
+cd ~
+ncdu 
+ls
+man ncdu
+httpie
+httpee
+ss
+iftop
+ps -ef 
+gdb attach 31849
+gdb attach
+kill --help
+man kill
+klll --help
+kill --help
+kill -s
+kill -n
+kill -l
+ls
+history 
+cd test/
+ls
+cd sh/
+ls
+vim 1.sh
+vim 3.sh
+chmod +x 3.sh
+./3.sh &
+ps -ef | grep 3\.sh
+ps -ef | grep '3\.sh'
+ps -ef | grep '3.sh'
+jobs
+ps -ef | grep sh
+ps -ef | grep './'
+ps -ef | grep '\./'
+ps -ef | grep 'sleep'
+ps -ef | grep 16090
+ulimit -c unlimited
+kill -6 16090
+ls
+jobs
+ls
+cd /var/cache/
+ls
+cd /proc/sys/kernel/core_pattern
+cd /proc/sys/kernel/
+ls
+vim core_pattern 
+cd /usr/share/apport/apport
+cd /usr/share/apport/
+ls
+cat /usr/share/apport/apport
+cd /proc/sys/kernel/core_pattern
+cat /proc/sys/kernel/core_pattern
+/usr/share/apport/apport
+/usr/share/apport/apport 12345 
+ls
+cd /
+find . -iname 16090
+sudo find . -iname 16090
+sudo find . -path /home -prune -iname 16090 
+sudo find . -path /home -prune -iname core
+ls
+sudo find . -path /home -prune -iname bin
+sudo find / -path /home -prune -iname bin
+umount /run/user/1000/gvfs
+sudo umount /run/user/1000/gvfs
+rm -rf /run/user/1000/gvfs
+sudo find / -path /home -prune -iname bin
+ls
+sudo find / -path /home -prune -iname initrd.img
+sudo find / -path /home -prune -iname 16090
+sudo find / -path /home -prune -iname bin
+sudo find / -path /home -prune 
+sudo find / -path /home -prune -o -iname bin
+sudo find / -path /home -prune -o -iname 16090
+sudo find / -path /home -prune -o -iname core
+sudo find / -path /home -prune -o -iname core\.
+sudo find / -path /home -prune -o -iname core
+ls
+cd ~/test/
+ls
+cd cpp/
+ls
+./1
+./a.out 
+ls
+vim a.out 
+vim 1.cpp
+g++ 1.cpp
+./a.out &
+jobs
+gdb attach 18490
+gdb a.out 18490
+jobs
+ps -ef | grep a.out
+gdb
+sudo gdb
+ls
+jobs
+fg
+cd ..
+l
+cd sh/
+ls
+./1.sh
+./3.sh &
+jobs
+gdb
+sudo gdb
+jobs
+ssh -o "StrictHostKeyChecking no" -p 18373 hypereal@registry-corp.hypereal.com
+sudo systemctl enable apport.service
+ls
+./3.sh &
+kill -6 21126
+jobs
+cd /var/crash/
+ls
+ll
+ulimit -c unlimited
+ulimit -c unlimite
+ulimit -c unlimited
+cd -
+cd ~-1
+ls
+./3.sh &
+jobs
+./3.sh &
+jobs
+ls
+cd ../sh/
+ls
+./3.sh &
+ls
+jobs
+ls
+cat core
+ls
+gdb core
+gdb ./3.sh core
+ls
+rm core 
+ls
+./3.sh &
+jobs
+fg 1
+jobs
+kill -6 21724
+jobs
+ls
+gdb ./3.sh core
+gdb 3.sh core
+gdb bash core
+ls
+jobs
+ls
+ll
+ll h
+ls -h
+ls -lh
+taocl 
+sudo apt  install xmlstarlet pandoc -y
+taocl
+nc
+sudo taocl
+taocl
+ls
+cat config.sh | nl
+git log -p .bash_history | nl | more
+git log -p .bash_history | nl | less
+git log -p .bash_history | nl 
+git log -p .bash_history 
+git log -p .bash_history | git
+git log -p .bash_history | git log
+git log -p .bash_history 
+git log -p .bash_history | less
+printenv
+m4
+man m4
+tldr m4
+yes
+yes 234
+ls
+fold config.sh 
+tldr fold
+fold -w30 config.sh
+toe
+man toe
+tldr toe
+cd ~
+ls
+git log -p .gdbinit
+git log -p .bash_history
+ls
+git log -p .bash_history | wc -l
+ls
+vim .bash
+git status
+git diff HEAD^ .dconf
+git diff HEAD~3 .dconf
+ls
+git status
+history 
+abort
+history | grep release
+history | grep issue
+cat /etc/issue
+wd -s issue
+cd /dev/
+ls
+cd fd
+ls
+lsof 0
+lsof 1
+lsof 2
+sudo lsof 2
+tty
+ls
+git status
+cd ~
+ls
+git status
+gs
+man gs
+gits
+git status
+git status 
+type gitamp 
+git diff-index --name-only HEAD
+git diff-index HEAD
+git diff-index --name-only HEAD
+git diff --name-only HEAD
+ls
+git status
+taocl 
+mintty
+mdir
+mdig
+dig
+nslookup 
+nslookup baidu.com
+traceroute baidu.com
+nslookup 127.0.0.1
+cat /etc/resolv.conf
+nslookup hypereal.local
+nc -z -v 10.0.100.7 1-10000
+nc -z -v 10.0.100.7 22-10000
+ping 10.0.100.7
+ping 10.0.100.98
+ping 10.0.100.8
+ping 127.0.0.53
+ping 10.0.10.63
+iptables-save
+sudo iptables-save
+iptables -A INPUT -p icmp -j ACCEPT
+sudo iptables -A INPUT -p icmp -j ACCEPT
+ping 10.0.10.63
+sudo iptables-save
+iptables -F
+sudo iptables -F
+iptables-save 
+sudo iptables-save 
+ping 10.0.10.63
+ping 127.0.0.53
+nc -z -v  127.0.0.53 1-1000
+nc -z -v  127.0.0.53 1-10000 | grep -v failed
+nc -z -v  127.0.0.53 1-10000 2>/dev/null | grep -v failed
+nc -z -v  127.0.0.53 1-10000 2>/dev/null 
+nc -z -v  127.0.0.1 1-10000 2>/dev/null 
+nc -z -v  10.0.10.63 1-10000 2>/dev/null 
+nc -z -v  10.0.10.63 1-10000 2>&1 | grep -v failed
+nc -z -v  127.0.0.53  1-10000 2>&1 | grep -v failed
+nc -z -v  10.0.100.7  1-10000 2>&1 | grep -v failed
+cat /etc/resolv.conf
+nslookup hypereal.local
+ping 10.0.100.8
+nc -z -v  10.0.100.8  1-10000 2>&1 | grep -v failed
+nslookup 127.0.0.1
+dig
+nslookup k.root-servers.net
+ping k.root-servers.net
+ping 193.0.14.129
+dig
+cat /etc/resolv.conf
+systemd-resolve --status
+ls
+cat /etc/resolv.conf
