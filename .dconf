@@ -84,7 +84,7 @@ use-experimental-views=false
 sidebar-width=256
 start-with-sidebar=true
 geometry='909x374+0+30'
-maximized=false
+maximized=true
 
 [org/gnome/nautilus/compression]
 default-compression-format='zip'

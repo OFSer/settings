@@ -32245,3 +32245,170 @@ cat /etc/resolv.conf
 systemd-resolve --status
 ls
 cat /etc/resolv.conf
+ssh -o "StrictHostKeyChecking no" -p 15941 hypereal@registry-corp.hypereal.com
+ls
+git status
+ls
+man man
+man man.7
+man man.6
+man man.7
+ls
+cd ~/g
+cd ~/gh/
+ls
+cd ~
+ls
+vim .gdbinit.d/auto 
+cd ~
+git status
+git diff .bash
+git checkout -- .bash/feature.sh
+git status
+git add .gdbinit
+git status
+git add .gdbinit.d/
+git status
+cd .gdbinit.d/
+ls
+git add auto
+git add -f auto
+cd ~
+git status
+./config.sh push
+history 
+ls
+cd gh/
+ls
+cd fp-course/
+ls
+vim 
+ls
+vim stack.yaml
+cat /etc/resolv.conf 
+ll /etc/resolv.conf 
+ls
+mysql
+wd -s affiliates
+wd -s affiliate
+wd -s auxiliary
+ls
+cd ..
+ls
+cd ~
+ls
+make -j4 && ./1  -a=1 -d=1 -h=8 --sc --ml=0.011 --pc --rs -w=8 --sl=0.019 1.yaml
+cd build/
+ls
+make -j4 && ./1  -a=1 -d=1 -h=8 --sc --ml=0.011 --pc --rs -w=8 --sl=0.019 1.yaml
+arp
+ping 10.0.10.63
+arp
+arp --help
+arp -a
+nc -z -v 10.0.10.1 1-10000 2>&1 | grep -v failed
+nc -z -v 10.0.10.1 1-10000 2>&1
+nc -z -v 10.0.10.1 22-10000 2>&1
+nc -z -v 10.0.10.1 22-10000 2>&1 
+nc -z -v 10.0.10.1 180-10000 2>&1 
+nc -z -v 10.0.10.1 180-10000 2>&1 | grep succ
+curl 10.0.10.1
+curl -v 10.0.10.1
+curl -v 10.0.10.1:443
+curl -v https://10.0.10.1/simple/view/login.html?redirect=http://10.0.10.1
+curl -v https://10.0.10.1/simple/view/login.html
+curl -v 'https://10.0.10.1/simple/view/login.html'
+nc 10.0.10.1
+nc 10.0.10.1 -p 443
+nc 10.0.10.1 80
+GET / HTTP/1.1
+GET
+GET --help
+POST --help
+type POST
+GET baidu.com
+GET https://baidu.com
+POST --help
+ls
+git status
+cd ~/.vim/
+ls
+cd plugged/
+ls
+rm -rf markdown-preview.nvim/
+cd ~
+ls
+vim .vimrc
+cd test/
+cd ~
+ls
+cd fc/
+ls
+cd aruco/
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+lc
+cd /proc/
+ls
+cd 1
+ls
+du -hd1
+sudo du -hd1
+ls
+cd .
+ls
+cd ..
+ls
+du -hd 1
+ls
+cat meminfo 
+ll meminfo 
+vim meminfo 
+ls
+cat vmstat 
+ls
+cd ~/test/cpp/
+ls
+readelf -S 1|grep debug
+gdb 1
+ls
+vim 1.cpp
+ls
+cd ~
+cd fc/aruco/
+ls
+cd build/
+ls
+readelf -S 1|grep debug
+readelf -S 1
+ls
+vim
+cd ~
+ls
+cd test/
+ls
+mkdir txt
+ls
+cd t
+cd txt/
+ls
+vim 793.txt
+mv 793.txt tcp.txt
+vim ip.txt
+ls
+vim tcp.txt 
+ls
+vim tcp.txt 
+ndd
+sysctl -d net.inet.tcp.msl
+sysctl net.inet.tcp.msl
+vim tcp.txt 
+ls
+man time_wait
