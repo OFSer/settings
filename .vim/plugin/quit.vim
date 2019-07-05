@@ -1,4 +1,5 @@
 let g:back=0
+let g:fugitive='fugitive'
 func Quit()
 	let nr=bufnr('%')
 	let tp=tabpagenr()
@@ -14,7 +15,7 @@ func Quit()
 		exe "tabc!"
 		return
 	endif
-	if &buftype =~ 'quickfix' || bufname('%') =~ g:bufterm || &buftype =~ "help"
+	if &buftype =~ 'quickfix' || bufname('%') =~ g:bufterm || &buftype =~ "help" || &filetype == g:fugitive || expand('%') =~ g:fugitive
 		exe "q!"
 		silent! exe "bw! ".nr
 		silent! exe "bw! ".g:bufterm.nr
@@ -49,7 +50,7 @@ func Quit()
 		exe "tabprevious"
 	endif
 endfunc
-tnoremap <silent> q <c-w>:call Quit()<cr>
+tnoremap <silent> q <c-d><c-w>:call Quit()<cr>
 nnoremap <silent> q :call Quit()<cr>
 au FileType nerdtree nmap <buffer> <silent> q <c-w>l<c-w>:call Quit()<cr>
 

@@ -1,3 +1,33 @@
+BASE_FLAGS = []
+BASE_FLAGS += [
+'-Wall',
+'-Wextra',
+'-Werror',
+'-Wno-long-long',
+'-Wno-variadic-macros',
+'-Wno-unused-variable',
+'-Wno-unused-parameter',
+'-Wno-unused-value',
+'-Wno-return-type',
+'-fexceptions',
+'-ferror-limit=10000',
+'-DNDEBUG',
+'-std=c++17',
+'-xc++',
+'-I/usr/lib/',
+'-I/usr/include/',
+'-I/usr/include/c++/7/',
+'-I/usr/include/x86_64-linux-gnu/',
+'-I/usr/include/x86_64-linux-gnu/c++/7/',
+'-I./inc',
+'-I./include',
+'-I./src',
+'-I./source',
+'-I./lib',
+'-I./library',
+'-I./.',
+]
+
 import os
 import os.path
 import fnmatch
@@ -5,33 +35,6 @@ import logging
 import ycm_core
 import re
 
-BASE_FLAGS = [
-        '-Wall',
-        '-Wextra',
-        '-Werror',
-        '-Wno-long-long',
-        '-Wno-variadic-macros',
-        '-Wno-unused-variable',
-        '-Wno-unused-parameter',
-        '-Wno-unused-value',
-        '-Wno-return-type',
-        '-fexceptions',
-        '-ferror-limit=10000',
-        '-DNDEBUG',
-        '-std=c++17',
-        '-xc++',
-        '-I/usr/lib/',
-        '-I/usr/include/',
-        '-I/usr/include/c++/7/',
-        '-I/usr/include/x86_64-linux-gnu/',
-        '-I/usr/include/x86_64-linux-gnu/c++/7/',
-        '-I./inc',
-        '-I./include',
-        '-I./src',
-        '-I./source',
-        '-I./lib',
-        '-I./library',
-        ]
 
 BUILD_DIRECTORY = './build';
 

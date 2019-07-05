@@ -17,3 +17,4 @@ load $HOME/.bash/PS1.sh
 load $HOME/.bash/feature.sh
 load $HOME/.bash/alias.sh
 load $HOME/.bash/mycmd.sh
+load $HOME/.bash/ycm.sh

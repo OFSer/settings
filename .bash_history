@@ -32412,3 +32412,608 @@ sysctl net.inet.tcp.msl
 vim tcp.txt 
 ls
 man time_wait
+ls
+cd ~
+ls
+cat /etc/resolv.conf 
+ls /etc/resolvconf/
+ls
+git status
+./config.sh push
+git status
+git diff HEAD^ .dconf
+git log -p .dconf
+ls
+git status
+ls
+git status
+ls
+git status
+ls
+git status
+cd ..
+ls
+vim flaw_checker/
+ls
+cd flaw_checker/
+cd /usr/local/include/
+ls
+cd opencv
+ls
+cd ..
+cd opencv2
+ls
+cd aruco/
+ls
+cd ..
+ls
+cd ~
+ls
+cd fc/flaw_checker/
+ls
+cd third_party/
+ls
+cd opencv/
+ls
+find . | grep module
+cd modules/
+sl
+ls
+find . | grep create_marker.cpp
+find . | grep "create_marker.cpp"
+find . | grep "create_marker"
+cd ..
+ls
+cd opencv_contrib/
+ls
+cd modules/
+ls
+cd ..
+ls
+cd samples/
+ls
+cd ..
+ls
+cd modules/
+ls
+cd ~
+ls
+cd gh/
+ls
+git clone https://github.com/opencv/opencv_contrib.git
+sudo apt-get install caca-utils
+git clone https://github.com/stefanhaustein/TerminalImageViewer.git
+cd TerminalImageViewer/src/main/cpp
+make
+sudo make install
+ls
+tlv
+tiv
+ls
+cd ~
+ls
+cd fc/
+ls
+cd ~/Downloads/
+ls
+tiv 'webwxgetmsgimg (3rd copy).jpg'
+lsix
+tiv
+ls
+tiv webwxgetmsgimg.jpg 
+fbi webwxgetmsgimg.jpg 
+fbi
+fbi *.jpg
+screenfetch 
+screenfetch --help
+ls
+cd ~/test/
+cd ~/gh/
+ls
+cd opencv_contrib/
+ls
+cd modules/
+ls
+cd aruco/
+ls
+cd include/
+ls
+cd ..
+ls
+git status
+ls
+cd samples/
+ls
+cd ..
+ls
+cd samples/
+ls
+vim detect_markers.cpp 
+ls
+vim create_diamond.cpp 
+ls
+vim create_diamond.cpp 
+ls
+cd ..
+ls
+cd tutorials/
+ls
+vim table_of_content_aruco.markdown 
+ls
+vim table_of_content_aruco.markdown 
+ls
+cd ..
+ls
+vim README.md 
+ls
+cd ~
+ls
+cd test/
+ls
+cd t
+cd txt/
+ls
+vim upd.txt
+vim ip.txt 
+ls
+stack test --ta "--match=Course.List/headOr"
+cd ~
+ls
+cd gh/
+ls
+cd fp-course/
+ls
+vim 
+ls
+git status
+vim
+ls
+ls
+git status
+ls
+git status
+ls
+vim .bashrc
+ls
+top
+htop
+reboot
+htop
+cd ..
+ls
+vim 6.cpp
+cd ~
+ls
+arp -a
+ifconfig -a 
+ifconfig 
+ifconfig  
+ifconfig  -a
+ifconfig  -a | grep HW
+ioctl
+ifconfig\
+ifconfig
+ls
+cd test/
+ls
+cd cpp/
+ls
+cd cmake/
+ls
+vim CMakeLists.txt 
+cd ~
+ls
+vim .gdbinit.d/auto 
+cd cp
+cd test/cpp/
+ls
+cd rttr/
+ls
+vim 1.cpp
+cd build/
+ls
+make -j4
+./1
+ls
+bin/1
+make -j4 && bin/1
+sleep 5
+ls
+cd fc/transformer-pipeline/
+ls
+rm __DebugConsole__ 
+ls
+git status
+rm .gdb_history 
+ls
+vim CMakeLists.txt 
+g++ 6.cpp && ./a.out
+ls
+g++ 6.cpp && ./a.out
+gdb build_local/bin/unit_test_main 
+./build.sh local
+git status
+cd ~
+cd -
+cd ~1
+cd ~2
+cd ..
+git status
+cd ..
+git status
+ls
+rm .gdb_history 
+git status
+git checkout master 
+git status
+git pull
+git status
+gits
+htop
+top
+htop
+ls
+git status
+ssh gjs@dl-6
+\ssh gjs@dl-6
+\ssh gjs@dl-4
+sss
+\ssh gjs@dl-5
+ls
+cd ~
+ls
+cd .conan/
+ls
+find . | grep variant
+find . | grep rttr
+cd ./data/rttr/
+ls
+find . | grep variant
+vim
+ls
+cd ..
+ls
+cd r
+cd rttr/
+ls
+find . | grep cpp
+ls
+cd ..
+ls
+find . |  grep cpp
+find . |  grep *.cpp
+ls
+cd ~/.conan/
+ls
+g++ 3.cpp && ./a.out
+ls
+g++ 3.cpp && ./a.out
+rm .ycm_extra_conf.py 
+ls
+cd build/
+ls
+rm -rf *
+cmake ..
+ls
+ls
+cd ~/test/cpp/
+ls
+cd rttr/
+ls
+vim 1.cpp
+cd ~
+ls
+vim .ycm_extra_conf.py 
+git checkout -- .ycm_extra_conf.py
+git status
+ls
+git status
+vim .ycm_extra_conf.py 
+cd ~
+ls
+vim .vimrc 
+cd /tmp/tmpez7AGn/src/
+vim .ycm_extra_conf.py 
+git checkout -- .ycm_extra_conf.py
+ls
+git status
+ls
+cd vim
+cd .vim/
+ls
+cd plugged/
+ls
+cd YCM-Generator/
+ls
+vim
+ls
+test
+yes
+history 
+ls
+git status
+history 
+vim .vimrc
+history 
+ls
+cd /tmp/
+ls
+ls tmpCpC8D4
+ll tmpVWh19J
+ls
+cd tmpwjNGIs/
+ls
+cd Cm
+ls
+cd CMakeFiles/
+ls
+cd ..
+ls
+cd ..
+ls
+ll
+ls
+du -hl
+ls
+ll
+ll -t
+ll -ts
+ll -tv
+ls -tr
+ll -tr
+cd tmpwjNGIs/
+ls
+cd CMakeFiles/
+ls
+cd 3.10.2/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+ll -tr
+ls
+cd ~
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd YCM-Generator/
+ls
+vim config_gen.py 
+rm .ycm_extra_conf.py 
+pip3 install you-get
+you-get 
+you-get  https://www.iqiyi.com/v_19rro9qgts.html
+you-get  -d https://www.iqiyi.com/v_19rro9qgts.html
+you-get --format=TD https://www.iqiyi.com/v_19rro9qgts.html
+you-get-i https://www.iqiyi.com/v_19rro9qgts.html
+you-get -i https://www.iqiyi.com/v_19rro9qgts.html
+you-get --format=TD  http://cache.m.iqiyi.com/mus/202745901/f83caf1aedfc76d65f1d3cbc760dbf1c/afbe8fd3d73448c9//20190514/c4/76/9a18ef81daf360948907f4ff23eb6721.m3u8?qd_originate=tmts_py&tvid=386676700&bossStatus=0&qd_vip=0&px=&src=3_31_312&prv=&previewType=&previewTime=&from=&qd_time=1562302436844&qd_p=da01113e&qd_asc=8bf3c6adcb6d2f1eda349a75d848616d&qypid=386676700_04022000001000000000_4&qd_k=f1be2dbbb61ce6659e701b5280c922c6&isdol=0&code=2&ff=f4v&iswb=0&qd_s=otv&vf=a00bdf5440fdc14fdf4fff739ef916a4&np_tag=nginx_part_tag
+you-get --format=TD http://cache.m.iqiyi.com/mus/202745901/f83caf1aedfc76d65f1d3cbc760dbf1c/afbe8fd3d73448c9//20190514/c4/76/9a18ef81daf360948907f4ff23eb6721.m3u8?qd_originate=tmts_py&tvid=386676700&bossStatus=0&qd_vip=0&px=&src=3_31_312&prv=&previewType=&previewTime=&from=&qd_time=1562302436844&qd_p=da01113e&qd_asc=8bf3c6adcb6d2f1eda349a75d848616d&qypid=386676700_04022000001000000000_4&qd_k=f1be2dbbb61ce6659e701b5280c922c6&isdol=0&code=2&ff=f4v&iswb=0&qd_s=otv&vf=a00bdf5440fdc14fdf4fff739ef916a4&np_tag=nginx_part_tag
+jobs
+you-get --format=TD[http://cache.m.iqiyi.com/mus/202745901/f83caf1aedfc76d65f1d3cbc760dbf1c/afbe8fd3d73448c9//20190514/c4/76/9a18ef81daf360948907f4ff23eb6721.m3u8?qd_originate=tmts_py&tvid=386676700&bossStatus=0&qd_vip=0&px=&src=3_31_312&prv=&previewType=&previewTime=&from=&qd_time=1562302436844&qd_p=da01113e&qd_asc=8bf3c6adcb6d2f1eda349a75d848616d&qypid=386676700_04022000001000000000_4&qd_k=f1be2dbbb61ce6659e701b5280c922c6&isdol=0&code=2&ff=f4v&iswb=0&qd_s=otv&vf=a00bdf5440fdc14fdf4fff739ef916a4&np_tag=nginx_part_tag]
+you-get --format=TD [http://cache.m.iqiyi.com/mus/202745901/f83caf1aedfc76d65f1d3cbc760dbf1c/afbe8fd3d73448c9//20190514/c4/76/9a18ef81daf360948907f4ff23eb6721.m3u8?qd_originate=tmts_py&tvid=386676700&bossStatus=0&qd_vip=0&px=&src=3_31_312&prv=&previewType=&previewTime=&from=&qd_time=1562302436844&qd_p=da01113e&qd_asc=8bf3c6adcb6d2f1eda349a75d848616d&qypid=386676700_04022000001000000000_4&qd_k=f1be2dbbb61ce6659e701b5280c922c6&isdol=0&code=2&ff=f4v&iswb=0&qd_s=otv&vf=a00bdf5440fdc14fdf4fff739ef916a4&np_tag=nginx_part_tag]
+you-get --format=TD "http://cache.m.iqiyi.com/mus/202745901/f83caf1aedfc76d65f1d3cbc760dbf1c/afbe8fd3d73448c9//20190514/c4/76/9a18ef81daf360948907f4ff23eb6721.m3u8?qd_originate=tmts_py&tvid=386676700&bossStatus=0&qd_vip=0&px=&src=3_31_312&prv=&previewType=&previewTime=&from=&qd_time=1562302436844&qd_p=da01113e&qd_asc=8bf3c6adcb6d2f1eda349a75d848616d&qypid=386676700_04022000001000000000_4&qd_k=f1be2dbbb61ce6659e701b5280c922c6&isdol=0&code=2&ff=f4v&iswb=0&qd_s=otv&vf=a00bdf5440fdc14fdf4fff739ef916a4&np_tag=nginx_part_tag"
+rm .ycm_extra_conf.py 
+ls
+vim .ycm_extra_conf.py 
+ls
+vim .vimrc
+cd .vim/
+ls
+cd plugged/YouCompleteMe/
+ls
+python3 install.py --all
+vim install.py 
+vim install.sh 
+cd ~
+ls
+vim config.sh 
+ls
+cd /tmp/
+ls
+du -hd1
+g++ #include <iostream>
+using namespace std;
+class A{
+};
+A f()
+{     return A();
+}
+int main(void)
+{     A o = f();
+}
+--------------------- 
+作者：XiyouLinux_Kangyijie 
+来源：CSDN 
+原文：https://blog.csdn.net/xiyoulinux_kangyijie/article/details/78939291 
+g++ -fno-elide-constructors 4.cpp && ./a.out
+g++ 4.cpp && ./a.out
+ls
+vim .ycm_extra_conf.py 
+history | grep g++
+cd test/cpp/
+ls
+vim 4.
+vim 4.cpp 
+ls
+history 
+rm .ycm_extra_conf.py 
+ls
+cd ~
+ls
+cd fc/
+cd ~/test/
+ls
+cd cpp/
+ls
+vim 4.cpp
+ls
+cd ~
+vim .ycm
+vim .ycm_extra_conf.py 
+history | grep c++
+history | grep g++
+vim .vimrc
+vim .vim
+vim config.sh 
+sudo snap install code
+sudo snap remove vscode
+sudo snap install code --classic
+/usr/bin/python3
+/usr/bin/python2
+vim .ycm_extra_conf.py 
+vim .vimrc
+ls
+vim .ycm_extra_conf.py 
+sudo apt install libclang-4.0-dev 
+sudo apt install clang-8
+sudo apt install clang-8 -y
+cd .vim/plugged/YouCompleteMe/
+cd third_party/
+ls
+cd ycmd/
+ls
+git pull
+git status
+git branch
+git checkout master 
+git status
+git pull
+git status
+git reset HEAD --hard
+git clean -dff
+git status
+cd ..
+ls
+git status
+cd ycmd/
+ls
+git status
+git clean -dff
+git status
+git pull
+git pull https://github.com/puremourning/ycmd-1/tree/alt-translation-unit
+ls
+cd ..
+ls
+rm -rf ycmd
+git clone https://github.com/puremourning/ycmd-1/tree/alt-translation-unit
+ls
+git clone https://github.com/puremourning/ycmd-1.git
+git clone https://github.com/puremourning/ycmd-1.git ycmd
+git status
+git submodule update
+git status
+cd ycmd/
+git status
+cd ..
+git status
+git pull
+git status
+cd ycmd/
+git status
+ls
+git status
+ls
+git status
+git branch
+git log
+git branch -a
+git status
+cd ..
+ls
+cd ..
+ls
+git status
+cd third_party/ycmd/
+ls
+git status
+ls
+git checkout master
+git status
+git log
+cd ..
+git status
+cd ..
+ls
+git pull
+./install.sh --al
+./install.sh --all
+git submodule update --init --recursive
+./install.sh --all
+cd ~
+ls
+vim .ycm_extra_conf.py 
+ls
+git status
+/usr/bin/clang
+clang
+clang-x64
+vim .ycm_extra_conf.py 
+htop
+ls
+ls
+cd build/
+ls
+make -j4
+git status
+git diff
+python3
+ls
+cat .ycm_extra_conf.py 
+cat -n .ycm_extra_conf.py 
+cat .ycm_extra_conf.py | head -n 34
+cat <(cat .ycm_extra_conf.py | head -n 34)
+sed -n '35,$p'
+sed -n '35,$p' .ycm_extra_conf.py 
+cat <(cat .ycm_extra_conf.py | head -n 34) <(sed -n '35,$p' .ycm_extra_conf.py)
+cat <(cat .ycm_extra_conf.py | head -n 34) <(cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq) <(sed -n '35,$p' .ycm_extra_conf.py)
+python3
+vim .ycm_extra_conf.py 
+python3
+python2
+echo BASE_FLAGS =
+cd build/
+ls
+cat compile_commands.json | grep -f '\-I[^ ]*'
+cat compile_commands.json | grep -o '\-I[^ ]*'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '$1'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{print $1}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{print '$1'}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{print \'$1\'}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk "{print \'$1\'}"
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk "{print '$1'}"
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{print $1}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf $1}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf $1\n}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf("%s",$1)}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf("%s\n",$1)}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf("'%s'\n",$1)}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf("\'%s\'\n",$1)}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf("\'%s'\n",$1)}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf("%s\n",$1)}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf("\"%s\"\n",$1)}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{print ""}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{print \"\"}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf("\"%s\"\n",$1)}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf("\'%s\"\n",$1)}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk $'{printf("\'%s\"\n",$1)}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf("\'%s\"\n",$1)}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf("\"%s\"\n",$1)}'
+cat compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | awk '{printf("\"%s\",\n",$1)}'
+cd ..
+ls
+ls .bash
+ls ~/.bash
+~/.bash/ycm.sh 
+ls
+cat .ycm_extra_conf.py 
+ls
+chmod +x ycm.sh 
+chmod -x ycm.sh
