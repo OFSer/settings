@@ -1,5 +1,7 @@
+BUILD_DIRECTORY = './build';
+HEADER_DIRECTORIES = []
 BASE_FLAGS = []
-BASE_FLAGS += [
+BASE_FLAGS = [
 '-Wall',
 '-Wextra',
 '-Werror',
@@ -26,7 +28,7 @@ BASE_FLAGS += [
 '-I./lib',
 '-I./library',
 '-I./.',
-]
+] + BASE_FLAGS
 
 import os
 import os.path
@@ -36,7 +38,6 @@ import ycm_core
 import re
 
 
-BUILD_DIRECTORY = './build';
 
 SOURCE_EXTENSIONS = [
         '.cpp',
@@ -59,7 +60,7 @@ HEADER_EXTENSIONS = [
         '.hh'
         ]
 
-HEADER_DIRECTORIES = [
+HEADER_DIRECTORIES += [
         'include',
         'inc'
         ]

@@ -33017,3 +33017,88 @@ cat .ycm_extra_conf.py
 ls
 chmod +x ycm.sh 
 chmod -x ycm.sh
+genycm 
+ls
+cat .ycm_extra_conf.py 
+git status
+git diff
+git status
+git add -A
+git status
+git commit -m "add file load"
+git push
+git status
+ycmgen
+genycm 
+ls
+rm .ycm_extra_conf.py.bak 
+genycm 
+cd ~
+cd -
+cd ~/test/cpp/rttr/
+ls
+git clone https://github.com/rttrorg/rttr
+ls
+cd rttr/
+ls
+vim CMake
+vim CMakeLists.txt 
+ls
+rm .ycm_extra_conf.py 
+ls
+vim
+ls
+rm .ycm_extra_conf.py 
+ls
+vim
+rm .ycm_extra_conf.py 
+vim
+ls
+vim
+rm .ycm_extra_conf.py 
+ls
+vim CMake
+vim CMakeLists.txt 
+ls
+vim .ycm_extra_conf.py 
+ls
+vim CMake
+vim CMakeLists.txt 
+vim .ycm_extra_conf.py 
+rm .ycm_extra_conf.py 
+ls
+vim 
+sudo vim 
+vim 
+ls
+vim
+cd ~
+ls
+vim .ycm_extra_conf.py 
+cd ~-1
+cd ~-2
+ls
+vim CMake
+vim CMakeLists.txt 
+cd ~
+ls
+cd test/
+cd cpp/
+ls
+vim 1.cpp
+vim 8.cpp
+cd ~
+ls
+vim .ycm_extra_conf.py 
+vim .ycm_extra_conf.py 
+genycm 
+ls
+cat build/compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq
+cat build/compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | sed -E 's/-I(.*)/\1'
+cat build/compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | sed -E 's/-I(.*)/\1/'
+cat build/compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | sed -E 's/-I(.*)/\1/' | awk '{printf("\"%s\",\n",$1)}')
+cat build/compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | sed -E 's/-I(.*)/\1/' | awk '{printf("\"%s\",\n",$1)}'
+genycm 
+python3
+python3 .ycm_extra_conf.py 
+genycm 
