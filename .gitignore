@@ -70,3 +70,6 @@
 .config/evolution/sources/
 .local/share/webkitgtk/
 .config/goa-1.0/
+.local/share/jupyter
+.local/share/man
+

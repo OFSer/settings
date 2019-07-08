@@ -4,6 +4,7 @@ func Quit()
 	let nr=bufnr('%')
 	let tp=tabpagenr()
 	let flag=ExistOther(tp,nr)
+	let tpn=tabpagenr('$')
 	let g:back = 0
 	if bufname('%') =~ g:sidebar
 		return
@@ -12,7 +13,11 @@ func Quit()
 		let g:togglebash=0
 	endif
 	if bufname('%') =~ "^".g:term
-		exe "tabc!"
+		if tpn == 1
+			exe "cq"
+		else 
+			exe "tabc!"
+		endif
 		return
 	endif
 	if &buftype =~ 'quickfix' || bufname('%') =~ g:bufterm || &buftype =~ "help" || &filetype == g:fugitive || expand('%') =~ g:fugitive

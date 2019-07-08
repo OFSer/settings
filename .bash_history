@@ -33102,3 +33102,294 @@ genycm
 python3
 python3 .ycm_extra_conf.py 
 genycm 
+cd .vim/plugged/YouCompleteMe/third_party/ycmd/
+ls
+vim .ycm_extra_conf.py 
+ls
+cd ~
+ls
+cd .vim/plugged/
+ls
+cd YouCompleteMe/
+cd ..
+ls
+cd ~
+ls
+vim .vimrc 
+ls
+cd .vim/
+ls
+cd plugin/
+ls
+cd ~
+ls
+vim .bash
+vim .bashrc 
+vim .bash
+cd .bash
+ls
+cd ..
+ls
+git status
+./config.sh push
+ls
+vim .ycm_extra_conf.py 
+vim .bash/ycm.sh 
+vim .ycm_extra_conf.py 
+vim .bash/ycm.sh 
+vim .ycm_extra_conf.py 
+vim .ycm
+icdiff .ycm_extra_conf.py .ycm
+vim .ycm_extra_conf.py 
+vim -d .ycm_extra_conf.py .ycm
+ls
+git status
+ls
+ls
+cd test/cpp/
+ls
+vim 4.cpp
+vim 8.cpp
+ls
+cd rttr/build/
+ls
+cd ..
+ls
+cd rttr/
+ls
+vim
+cd ~
+ls
+vim .ycm_extra_conf.py 
+vim .bash/ycm.sh 
+git status
+git diff .ycm_extra_conf.py
+./config.sh push
+vim --version
+vim
+ls
+python3
+python3 server.py 
+pip3 install nnpy
+pip3 install nanomsg
+python3 server.py 
+python3
+pip3 install requirements.txt 
+pip3 install nnpy
+git status
+ls
+cd third_party/
+ls
+./build_all.sh 
+sudo ./build_all.sh 
+ls
+cd ..
+ls
+cd flaw_checker/
+ls
+vim
+cd fc/
+ls
+git clone -b newConfig-mk3 git@gitlab.sho.hypereal.com:AIFactory/detection-machine-daemon.git
+cd detection-machine-daemon/
+git status
+pip install requirements.txt -r
+pip install requirements.txt 
+pip3 install requirements.txt 
+sudo pip3 install requirements.txt 
+pip3 install requirements.txt 
+pip3 install flask
+python3
+ls
+vim
+pip3 install requirements.txt 
+pip3 install -r requirements.txt 
+ln -s /home/wasdns/p4factory/install_tmp/nanomsg-1.0.0/build/libnanomsg.so /usr/lib
+sudo ln -s /home/wasdns/p4factory/install_tmp/nanomsg-1.0.0/build/libnanomsg.so /usr/lib
+ln -s /home/wasdns/p4factory/install_tmp/nanomsg-1.0.0/build/libnanomsg.so.5.0.0 /usr/lib
+sudo ln -s /home/wasdns/p4factory/install_tmp/nanomsg-1.0.0/build/libnanomsg.so.5.0.0 /usr/lib
+ldconfig
+sudo ldconfig
+pip3 install -r requirements.txt 
+pip3 install nnpy
+pip install nnpy
+ls
+cd /usr/lib/python3/dist-packages/
+ls
+ls | grep nn
+ls | grep nano
+ls | grep flask
+ls
+find .  | grep flask
+cd ..
+ls
+cd ..
+ls
+pip show flask
+pip show yaml
+pip3 show yaml
+ls
+cd -
+dirs -p
+cd ~-2
+cd ~-1
+ls
+pip3 install nnpy
+cd /home/gjs/p4factory/install_tmp/nanomsg-1.0.0/build/libnanomsg.so
+cd /usr/bin/
+ls
+cd ..
+ls
+find .  | grep libnanomsg
+ls
+cd local
+ls
+cd ..
+ls
+find .  | grep libnanomsg
+ln -s /usr/local/lib/libnanomsg.a /usr/lib
+sudo ln -s /usr/local/lib/libnanomsg.a /usr/lib
+sudo ldconfig
+ls
+cd lib
+ls
+ll | grep libnanomsg.
+ll | grep libnanomsg
+sudo ln -s /usr/local/lib/libnanomsg.so /usr/lib
+rm libnanomsg.so
+sudo rm libnanomsg.so
+ll | grep nano
+sudo ln -s /usr/local/lib/libnanomsg.so /usr/lib
+sudo ldconfig
+ll | grep nano
+python3
+pip3 install nnpy
+pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com cffi
+pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com -r /opt/detection-machine-daemon/requirements.txt
+pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com -r requirements.txt
+python3
+ls
+cd ~
+ls
+cd fc/detection-machine-daemon/
+pip3
+sudo --help
+pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com -r /opt/detection-machine-daemon/requirements.txt
+pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com -r requirements.txt
+pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com cffi
+pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com -r requirements.txt
+cd /usr/lib
+ls
+ll | grep nano
+sudo pip install nnpy
+sudo -H pip3 install nnpy
+pip3 search nnpy
+python3
+export LD_LIBRARY_PATH=/usr/local/lib/x86_64-linux-gnu/
+pip3 install nnpy
+export LD_LIBRARY_PATH=/usr/local/lib
+pip3 install nnpy
+python3
+git status
+git checkout -- yaml/blow.json
+git checkout -- yaml/blow.yaml
+pip3 install -r requirements.txt 
+git reset HEAD --hard
+git status
+python3 server.py 
+pip3 
+cd ~/fc/detection-machine-daemon/
+ls
+pip3 install -r requirements.txt 
+ls
+cd ..
+ls
+cd flaw_checker/
+ls
+cd third_party/
+ls
+cd nanomsg/
+ls
+./build.sh 
+rm -rf build
+./build.sh 
+mkdir -p /opt/flaw_checker/config/
+vim /opt/flaw_checker/config/Device.json
+sudo mkdir -p /opt/flaw_checker/config/
+cd ~
+ls
+vim config.sh 
+pip3 install --upgrade nnpy
+pip install --upgrade nnpy
+cd /usr/lib
+ls
+ll | grep nano
+ls
+ll | grep nano
+find . | grep nano
+find .
+find . | grep nano
+ll | grep nano
+cd ..
+find . | grep nano
+sudo apt install nanomsg-python
+sudo apt install python-nanomsg 
+sudo apt install python3-nanomsg 
+python3
+sudo apt install python3-nnpy
+sudo apt install nnpy
+sudo apt search nnpy
+pip3 --help
+pip3 search nnpy
+pip3 search nnpy==1.4.2
+pip3 install nnpy==1.4.2
+pip3 --help
+pip3 uninstall nnpy
+docker run -it ubuntu:18.04
+docker run -v ~:/root -it ubuntu:18.04
+docker images
+docker run -v ~:/root -it registry-sho.hypereal.com/ci/flawck-mk3
+python3 server.py 
+python3
+python3 server.py 
+python3
+touch /opt/flaw_checker/config/Device.json
+mkdir -p  /opt/flaw_checker/config/
+sudo mkdir -p  /opt/flaw_checker/config/
+touch /opt/flaw_checker/config/Device.json
+sudo vim /opt/flaw_checker/config/Device.json
+python3
+cd webserver/
+python3
+cat test.json 
+ls
+cat test.json 
+ls
+git status
+python3
+cd ..
+ls
+sudo python3 server.py 
+git status
+git add -A
+git status
+git add -A
+git status
+git add -A
+git status
+git commit -m "change config to json"
+git push
+git status
+git pull
+git tatus
+git push
+git status
+cat /etc/ld.so.conf
+/lib/ld.sols
+ls
+sudo cmake --build . --target install
+sudo ldconfig
+vtmux 
+ls
+vtmux 
+ls
