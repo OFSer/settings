@@ -33393,3 +33393,303 @@ vtmux
 ls
 vtmux 
 ls
+mkdir build
+cd build/
+ls
+cmake .
+cmake ..
+cmake --build .
+ctest .
+ls
+ll
+ls
+ldconfig --help
+ldconfig 
+man ldconfig
+ls
+man ldconfig
+cd ~
+ls
+vim .vim
+vtmux 
+ls
+vim .vim
+git status
+vim .gitignore 
+git status
+./config.sh push
+vim config.sh 
+./config.sh push sub "update submodules"
+git status
+cd test/
+ls
+git status
+cat README.md 
+ls
+chmod -x README.md 
+ls
+git status
+ls
+git diff README.md
+sudo apt install shadowsocks
+haskell
+ghci
+ls
+ghci
+history | grep g++
+pip3 install nnpy
+python3
+cd ../detection-machine-daemon/
+ls
+vim requirements.txt 
+pip3 install 
+pip3 install cffi
+pip3 install nnpy
+pip install --upgrade
+pip3 install nnpy
+sudo pip3 install nnpy
+sudo apt install python3-pip
+pip3 install nnpy
+ls
+vim
+ls
+git status
+cd ~
+ls
+git status
+cd .local/share/jupyter/
+ls
+find .
+cd ..
+ls
+cd man/
+ls
+find .
+ls
+cd ~
+ls
+git status
+cd games/
+ls
+git status
+ls
+git remote show origin
+cd ..
+sl
+git status
+ls
+cat .bash
+cat .bash_history 
+free -h
+g++ 7.cpp && ./a.out
+g++ 7.cpp && time ./a.out
+ls
+git status
+cd rttr/
+ls
+vim
+ls
+git status
+ls
+cd ~
+ls
+vim config.sh 
+ls
+git staus
+ls
+cd gh/
+ls
+cd ..
+ls
+git status
+gits
+gs
+ls
+g++ 8.cpp
+g++ 8.cpp && ./a.out
+ls
+ls
+git status
+git reset HEAD --hard
+git status
+git status
+ls
+cd rttr/
+ls
+cd build/
+ls
+make install
+make
+make -j4
+git clone https://github.com/doxygen/doxygen.git
+jobs
+git status
+ls
+cd ~/fc/
+ls
+cd flaw_checker/
+ls
+vim CMakeLists.txt 
+ls
+cd submodules/
+ls
+vim saki_detection/
+vim
+ls
+cd ..
+ls
+cd build/
+ls
+cd ..
+cd third_party/
+ls
+cd boost/
+ls
+cd bu
+ls
+vim build.sh 
+ls
+git status
+cd ..
+ls
+git status
+cd ~
+ls
+git status
+ls
+cd ~/gh/
+git clone https://github.com/doxygen/doxygen.git
+cd doxygen
+mkdir build
+cd build
+cmake -G "Unix Makefiles" ..
+make -j4
+ls
+cmake -G "Unix Makefiles" ..
+git status
+git submodule update --init
+git status
+cmake ..
+echo $BOOST_ROOT
+sudo apt install doxygen
+cd /usr/include/
+ls
+cd ..
+find . | grep boot
+find . | grep boost
+cd local/include/
+ls
+cd boost/
+ls
+mkdir build
+cd build/
+ls
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j4
+cd /usr/
+find . | grep rttr
+git status
+ls
+cd build/
+ls
+cmake ..
+make -j4
+rm -rf *
+sudo rm -rf *
+cmake ..
+make- j4
+make -j4
+make install
+echo $RTTR_DIR
+echo $RTTR_ROOT
+cd ..
+find .  |grep RTTRConfig
+find .  |grep rttr-Config
+ls
+cd build/
+ls
+cd install/
+ls
+find .
+ls
+cd build/
+ls
+cmake ..
+rm -rf *
+cmake ..
+ls
+genycm 
+ls
+genycm 
+ls
+cd build/
+ls
+genycm 
+ls
+cd build/
+rm -rf *
+cmake ..
+rm -rf *
+cmake ..
+make -j4
+ls
+cd bin/
+ls
+1
+./1
+ls
+ls
+export RTTR_DIR=/home/gjs/test/cpp/rttr/rttr/build/
+cd build/
+ls
+rm -rf *
+cmake ..
+make -j4
+ls
+make -j4
+cmake ..
+export RTTR_DIR=/home/gjs/test/cpp/rttr/rttr/
+cmake ..
+rm -rf *
+cmake ..
+rm -rf *
+cmake ..
+rm -rf *
+cmake ..
+ls
+genycm 
+ls
+cd build/
+ls
+rm -rf *
+cmake ..
+make -j4
+cd build/
+ls
+make -j4
+ls
+bin/json_example 
+make -j4
+make -j4 && bin/json_example 
+gdb bin/json_example 
+make -j4 && bin/json_example 
+gdb bin/json_example 
+make -j4 && bin/json_example 
+gdb bin/json_example 
+make -j4 && bin/json_examplegit status
+git add -A
+git status
+git commit -m "fix"
+git push
+git status
+cd build/
+ls
+rm -rf *
+cmake ..
+make -j4
+ls
+bin/unit_tests 
+bin/unit_tests ?
+bin/unit_tests -?
+bin/unit_tests 
+ils

@@ -1,6 +1,6 @@
 genycm(){
 	[ -f build/compile_commands.json ] || {
-		exit
+		return
 	}
 	cat  \
 		<(echo BASE_FLAGS = [) \

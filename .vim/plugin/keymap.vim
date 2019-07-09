@@ -36,13 +36,13 @@ vnoremap <c-c> "+y
 vnoremap <c-x> "+d
 
 "--------------------------Tab-----------------------------------"
-inoremap <silent> L <esc>:tabm +<cr>i
+inoremap <silent> L <esc>:tabm +<cr>
 nnoremap <silent> L <esc>:tabm +<cr>
-tnoremap <silent> L <c-w>:tabm +<cr>i
+tnoremap <silent> L <c-w>:tabm +<cr>
 
-inoremap <silent> H <esc>:tabm -<cr>i
+inoremap <silent> H <esc>:tabm -<cr>
 nnoremap <silent> H <esc>:tabm -<cr>
-tnoremap <silent> H <c-w>:tabm -<cr>i
+tnoremap <silent> H <c-w>:tabm -<cr>
 
 inoremap <silent> , <esc>gT
 nnoremap <silent> , gT
