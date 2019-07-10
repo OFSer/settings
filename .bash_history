@@ -33693,3 +33693,472 @@ bin/unit_tests ?
 bin/unit_tests -?
 bin/unit_tests 
 ils
+cd ..
+ls
+vim 7.cpp
+vim 8.cpp
+cd rttr/
+ls
+cd rttr/
+ls
+vim
+ls
+cd ..
+ls
+vim
+ls
+cd rttr/
+ls
+vim
+ls
+vim
+git status
+git add -A
+git status
+git commit -m "fix "
+git log
+git reset b3a131cf6a42c8bbcd7dd75c2acc9c61c0722775 --hard
+git status
+vim 
+ls
+git status
+g++ --help
+tldr g++
+ls
+git status
+ls
+git status
+git diff
+ls
+git statu
+git status
+ls
+cd ~
+ls
+vim .bash
+git clone http://gitlab.sho.hypereal.com/yisong.jiang/rttr_rep/tree/master/include/rttr
+ls
+cd gh/
+ls
+cd ~/fc/
+ls
+git clone git@gitlab.sho.hypereal.com:yisong.jiang/rttr_rep.git
+ls
+cd rttr_rep/
+ls
+vim
+ls
+cd ~
+ls
+vim .vim
+git status
+./config.sh push
+wd -s realm
+git status
+git diff
+ls
+cd ~
+ls
+cd fc/
+ls
+man syscall
+ls
+git status
+sudo apt install bochs
+cd ~
+bochs
+bximage
+man bximage
+ls
+git status
+git branch
+git branch -a
+git checkout --help
+git branch --help
+ls
+git status
+git diff
+ls
+git status
+echo $BXSHARE
+git diff
+cd ~/test/cpp/
+ls
+vim 9.cpp
+ls
+git status
+cd ~
+ls
+cd /dev/
+ls
+ll
+ll | grep fd
+cd fd
+ls
+cd ~/test/cpp/
+ls
+vim 
+cd rttr/
+ls
+cd rttr/
+ls
+vim
+ls
+cd ~
+l
+sls
+ls
+cd /usr/local
+ls
+find . | gre bochs
+find . | grep bochs
+cd ..
+ls
+find . | grep bochs
+cd share/doc/bochs/examples
+ls
+ll
+ls
+tar tvf bochsrc.gz
+ls
+cd ..
+ls
+cat README
+cd ..
+ls
+cd ..
+find . | grep BIOS-bochs-latest
+find . | grep VGABIOS-lgpl-latest
+cat ./bachs/VGABIOS-lgpl-latest
+ls
+cd bochs/
+ls
+ll
+cat BIOS-bochs-latest
+ls
+cd keymaps/
+ls
+bochs
+bochs
+sudo bochs
+bochs
+pwd
+bochs
+ls
+bximage 
+dd if=1.bin of=1.img bs=512 count=1 conv=notrunc
+hexdump -C -n 200 1.img
+bochs
+ls
+rm a.img
+ls
+bochs
+sudo bochs
+ls
+git status
+sudo bochs
+> bochs.log
+bochs
+ls
+cat bochs.log 
+rm bochs.log
+ls
+bochs
+> bochs.log
+ls
+> bochs.out
+ls
+rm bochs.log 
+ls
+bochs
+cat bochs.out 
+ls
+bochs
+bximage 
+ls
+hexdump -C -n 100 1.img 
+bochs
+bochs -f bochsrc 
+ls
+history | grep dd
+dd if=1.bin of=1.img bs=512 count=1 conv=notrunc
+ls
+cat 1.img
+ls
+hexdump -C -n 1000 1.img 
+bochs
+cd /usr/share/bochs/
+ls
+cat /usr/share/bochs/keymaps/x11-pc-us.map
+cat /usr/share/bochs/BIOS-bochs-latest
+cat /usr/share/bochs/VGABIOS-lgpl-latest
+cd /usr/share/bochs/VGABIOS-lgpl-latest
+cd /usr/share/bochs
+ls
+cat VGABIOS-lgpl-latest 
+ls
+history | grep bochs
+sudo apt install bochs*
+sudo apt install bochs-term
+sudo apt remove bochs-x
+sudo apt install bochs-x
+sudo apt install bocks*
+sudo apt install bochs*
+man bochs-term
+man bochs
+git status
+cd ~
+bochs
+sudo apt-get install build-essential 
+bochs
+ls -a | grep bochs
+sudo apt install bochs
+bochs
+ls
+git status
+ls
+make
+ls
+echo a > a
+ls
+rm a
+ls
+make
+ls
+make
+ls
+make
+ls
+make
+cat c
+make
+cat c
+make
+cat a
+cat b
+cat c
+make
+ll
+make
+ll
+make
+ll
+ls
+git status
+cd ~
+git status
+ls
+make
+cat c
+make
+cat a
+make
+ls
+make
+cat c
+ls
+make
+git status
+g++ --help
+make
+ls
+make
+ls
+make
+ls
+make
+ls
+make
+ls
+cat a
+cat b
+cat c
+ls
+echo 123 > c
+ls
+make
+cat a
+cat c
+make clean
+ls
+make
+ls
+make clean
+make
+cat c
+make
+cat c
+make clean
+make
+cat c
+make clean
+make
+ls
+make clean
+ls
+mdkir build
+ls
+mkdir build
+ls
+cd build/
+ls
+make ..
+ls
+make -f ..
+ls
+make all
+make clean
+make all
+make
+ls
+cd ..
+ls
+make 
+make clean
+make all
+make clean
+make all
+ls
+make clean
+ls
+make
+ls
+echo a > a
+echo b > b
+make
+ls
+make clean
+ls
+make
+s
+ls
+make clean
+ls
+make
+make a
+make b
+make d
+ls
+make a b
+make a
+make clean
+make a b
+ls
+make clean
+make 
+ls
+make clean
+ls
+make
+ls
+make
+ls
+make
+cat c
+echo ab > a
+make
+echo c
+cat c
+make
+cat c
+make
+echo a > a
+make
+cat c
+ls
+ls -a
+echo b > a
+cat a
+make
+ls
+make
+ls
+make
+echo ab > a
+make
+echo abc > a
+make
+echo e > d
+make
+cat d
+ake
+make
+echo f > d
+make
+make clean
+ls
+cp inc/* ..
+ls
+ls inc
+ls
+cd ..
+ls
+rm add.h 
+ls
+cd make/
+ls
+cp inc/* .
+ls
+cp src/* .
+ls
+make
+ls
+./1
+make
+make clean
+make
+make 
+make clean
+make
+ls
+./1
+ls
+rm add*
+ls
+rm 1*
+ls
+make
+ls
+./1
+make
+make all
+ls
+rm 1*
+rm add*
+ls
+make
+ls
+mkdir obj
+ls
+make
+ls
+ls obj
+ls
+ls inc
+ls src
+make
+ls
+./1
+make clean
+ls
+mkdir bin
+ls
+rm 1
+ls
+make
+ls
+./1
+make
+ls
+make
+ls
+cd obj/
+ls
+cd ..
+ls
+make
+echo $RM
+make
+ls
+make clean
+ls

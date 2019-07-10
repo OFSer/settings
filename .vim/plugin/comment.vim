@@ -1,27 +1,23 @@
 func Comment()
   let [line_start, column_start] = getpos("'<")[1:2]
   let [line_end, column_end] = getpos("'>")[1:2]
-	if &filetype == 'cpp'
+	if &filetype == 'cpp' || &filetype == 'c'
 		silent! exe line_start.','.line_end.'s/^/\/\//'
-	endif
-	if &filetype == 'sh' || &filetype == 'python'
-		silent! exe line_start.','.line_end.'s/^/#/'
-	endif
-	if &filetype == 'vim'
+	elseif &filetype == 'vim'
 		silent! exe line_start.','.line_end.'s/^/"/'
+	else
+		silent! exe line_start.','.line_end.'Commentary'
 	endif
 endfunc
 func Uncomment()
   let [line_start, column_start] = getpos("'<")[1:2]
   let [line_end, column_end] = getpos("'>")[1:2]
-	if &filetype == 'cpp'
+	if &filetype == 'cpp' || &filetype == 'c'
 		silent! exe line_start.','.line_end.'s/^\/\///'
-	endif
-	if &filetype == 'sh' || &filetype == 'python'
-		silent! exe line_start.','.line_end.'s/^#//'
-	endif
-	if &filetype == 'vim'
+	elseif &filetype == 'vim'
 		silent! exe line_start.','.line_end.'s/^"//'
+	else
+		silent! exe line_start.','.line_end.'Commentary'
 	endif
 endfunc
 vnoremap <silent> / :<c-u>call Comment()<cr>
