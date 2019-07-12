@@ -34162,3 +34162,1214 @@ make
 ls
 make clean
 ls
+cd ~
+vim config.sh 
+ls
+git status
+git diff .dconf
+ls
+git status
+git reset HEAD --hard
+git status
+vagrant box add lvphu609/lucid32
+ls
+cd gh/so/
+ls
+vim
+ls
+cd ..
+ls
+cd ho/src/
+ls
+make all
+make clean
+make all
+git status
+git submodule update 
+git submodule update  --init
+git status
+make
+make clean
+ls
+git status
+git diff
+git reset HEAD --hard
+git status
+make all
+ls
+qemu
+vagrant box add lvphu609/lucid32
+cd kernel/
+ld -melf_i386 -static  -L ./  -T ./arch/x86/linker.ld
+ld -melf_i386 -static  -L ./  -T ./arch/x86/linker.ld -o kernel.elf arch/x86/start.o 
+cd ..
+la
+make
+make help
+make build
+make all
+ls
+make all
+ls
+git status
+ls
+git status
+git diff Vagrantfile
+ls
+git status
+g++ 9.cpp && ./a.out
+ls
+cd srv/
+ls
+cd ~/gh/ho/src/
+ls
+make
+apt install make
+cd ..
+ls
+cd ~
+ls
+./config.sh install_vim
+./config.sh 
+./config.sh install
+./config.sh run
+ls
+vim config.sh 
+ls
+vim config.sh 
+./config.sh 
+./config.sh install
+./config.sh run
+./config.sh update_source
+apt update
+./config.sh update_source
+ls
+cd ~
+ls
+cat /etc/issue
+ls
+cd ~
+ls
+./config.sh update_source
+ls
+cd build
+ls
+make tests
+make tests*
+make unit_test_main
+make -j4 unit_test_main
+bin/unit_test_main 
+ls
+ls
+git status
+git diff
+ls
+git status
+git diff
+ls
+git status
+git diff
+cd ~
+ls
+vim config.sh 
+git status
+git diff .dconf
+ls
+cd fc/
+ls
+cd ..
+ls
+ll
+vim .vimrc
+ls
+apt install libc6:i386
+sudo apt install libc6:i386
+sudo apt-get install ia32-libs
+sudo apt-get install  lib32ncurses5 lib32z1
+cd gh/ho/
+ls
+cd src/
+ls
+make
+make all
+sudo make all
+make clean
+sudo make all
+ld -melf_i386 -static
+ld -melf_i386 -static  -L ./  -T ./arch/x86/linker.ld
+ls
+vim
+jobs
+fg
+ls
+vim --version
+sudo apt install vim 
+vim --version
+ls
+vim 
+ls
+vim ~/config.sh 
+ls
+cd ~?ls
+cd ~/fc/
+ls
+cd transformer-pipeline/
+ls
+vim
+ls
+ls
+cd ~
+ls
+apt update
+ls
+cd gh/
+ls
+cd h
+cd ho/src/
+ls
+make
+apt install make
+make
+make all
+make clean
+apt install ld
+ld
+make
+make all
+apt install nasm
+make
+make all
+g++
+apt install g++
+ls
+make
+make all
+ld
+cat /etc/issue
+ls
+qemu
+s
+make
+ls
+make all
+make clean
+make all
+cat /etc/issue
+uname 
+uname  -a
+uname -a
+ls
+cd ~/test/cpp/
+ls
+vim 9.cpp 
+ls
+git status
+qemu
+sudo apt install qemu
+man qemu
+ls
+uname -a
+apt install make
+apt install g++
+cd ~/gh/so/
+ls
+cd src/
+la
+cd ../../ho/src/
+ls
+make 
+make all
+make clean
+make all
+apt install nasm
+make
+make all
+ls
+vim
+ls
+cd ..
+cd so/
+ls
+make clean
+make
+apt install bochs
+make
+ls
+hexdump
+apt install hexdump
+hexdump
+bochs
+apt install bochs*
+bochs
+qemu
+apt install qemu
+qemu-system-i386
+ls
+qemu
+sudo apt-get install qemu
+ls
+make clean
+make 
+make all
+docker run -v ~:~/root -it ubuntu:18.04
+docker run -it -v ~:~/root ubuntu:18.04
+history | grep docker
+docker run -it -v ~:/root ubuntu:18.04
+ls
+docker run --rm -it i686/ubuntu bash
+docker run -v ~:/root --rm -it i686/ubuntu bash
+docker run -v ~:/root --rm -it i686/ubuntu:18.04 bash
+docker run -v ~:/root --rm -it i386/ubuntu:18.04 bash
+docker run -v ~:/root --rm -it i686/ubuntu:18.04 bash
+docker run -v ~:/root --rm -it i686/ubuntu bash
+docker run -v ~:/root --rm -it i386/ubuntu bash
+docker run -v ~:/root --rm -it 32bit/ubuntu bash
+docker run -v ~:/root --rm -it 32bit/ubuntu:16.04 bash
+ls
+git clone https://github.com/docker-32bit/ubuntu.git
+ls
+cd u
+cd ubuntu/
+ls
+./build-image.sh 
+sudo ./build-image.sh 
+docker images
+docker run -v ~:/root --rm -it 32bit/ubuntu:bionic bash
+ls
+cd ~/gh
+ls
+ls
+cd ..
+cd so/
+ls
+hexdump -C -n 512 boot.bin 
+make
+make clean
+sudo make clean
+make
+hexdump -C -n 512 boot.bin 
+ls
+cd ~/gh/so/
+ls
+qemu-system-i386 so.img 
+ls
+git status
+bochs
+vagrant up
+vagrant up --provision
+ls
+cat Vagrantfile 
+vagrant add     int* b = new int;
+vagrant add bento/ubuntu-16.04-i386
+vagrant box add bento/ubuntu-16.04-i386
+vagrant up
+vagrant ssh
+vagrant up
+vagrant up lvphu609/lucid32
+vagrant up lucid32
+vagrant up
+vagrant box add lucid32 lvphu609/lucid32 
+vagrant up
+vagrant box lvphu609/lucid32 
+vagrant lis
+vagrant list
+vagrant list box
+vagrant up
+ls
+cd ~
+ls
+cd .vagrant.d/
+ls
+cd boxes/
+ls
+cd lvphu609-VAGRANTSLASH-lucid32/
+ls
+cd ..
+ls
+vagrant up
+vagrant init
+vagrant inup
+ls
+vagrant inup
+vagrant up
+cd ~/gh/ho/src/
+ls
+vagrant box add lvphu609/lucid32
+vagrant up
+vagrant up lvphu609/lucid32
+vagrant box add lucid32 https://vagrantcloud.com/lvphu609/lucid32
+vagrant up
+vagrant up lvphu609/lucid32
+vagrant up lucid32
+vagrant lvphu609/lucid32
+vagrant lvphu609/lucid32 up
+vagrant up --help
+cd .vagrant/
+ls
+cd machines/
+ls
+cd default/
+ls
+cd virtualbox/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf machines/
+ls
+cd ..
+ls
+vagrant up
+vagrant global-status --prune
+vagrant up
+cd ~
+ls
+rm -rf .vagrant.d/
+ls
+cd -
+ls
+cat Vagrantfile 
+ls
+vim Vagrantfile 
+jobs
+fg
+ls
+git status
+cd ~
+ls
+cd gh/so/
+ls
+vim boot.s
+as -o boot.o boot.s
+ld -Ttext=0x7C00 --oformat=binary -o boot.bin boot.o
+ls
+qemu-system-i386 boot.bin
+ls
+git status
+ls
+vim boot.s 
+hexdump -C -n 512 boot.bin 
+ls
+sudo dd if=boot.bin of=/dev/sdc
+ls
+sudo hexdump -C -n 512 /dev/sdc
+qemu-system-i386 /dev/sdc
+sudo qemu-system-i386 /dev/sdc
+ls
+sudo reboot
+ls
+apt install gcc
+ls
+cd ~/gh/ho/src/
+ls
+make
+apt install make
+make all
+make clean
+make
+make all
+apt install nasm
+make
+make all
+make clean
+make all
+apt install g++
+make all
+chmod +x env.sh
+./env.sh 
+naje
+history | grep curl
+history | grep curl | grep output
+ls
+cd ~
+ls
+cd -
+cd fc/transformer-pipeline/
+ls
+cd build
+ls
+vim
+tar xjf gmp-5.0.2.tar.bz2
+ls
+make
+ls
+rm -rf gmp-5.0.2
+make
+ls
+vim make
+nmtui
+ifconfig
+g++
+g++ --version
+gcc --version
+git status
+ls
+cd ..
+ls
+git status
+ls
+git status
+du -hl
+du
+ls
+ll
+ll -h
+apt-get install texinfo
+sudo apt-get install texinfo
+ls
+cd gdb-7.3.1/build/
+ls
+cat Makefile 
+make
+ls
+make
+rm -rf gdb-7.3.1
+ls
+make gdb-7.3.1
+make test
+gcc
+gcc --version
+g++ version
+ls
+cd gdb-7.3.1/
+ls
+sudo make all
+make all
+sudo make install
+vim
+make
+gdb
+make all
+make
+make all
+make install
+sudo make install
+sudo apt remove gdb
+sudo apt remove gdb*
+sudo make install
+sudo apt install gdb
+sudo make install
+ls
+cd ..
+ls
+rm -rf gdb-7.3.1
+make gdb-7.3.1 
+rm -rf gdb-7.3.1
+make gdb-7.3.1 
+ls
+cd gdb-7.3.1/
+ls
+cd build/
+ls
+cd ..
+ls
+git status
+ls
+cd ..
+ls
+cd gdb-7.3.1/
+ls
+cd ..
+ls
+cd gdb-7.3.1/
+make clean
+make
+cd build/
+ls
+cd ..
+ls
+cd ..
+ls
+cd /usr/local
+ls
+cd lib
+ls
+cd gcc/
+ls
+cd ..
+ls
+cd ..
+ls
+cd i386-jos-elf/
+ls
+cd ..
+ls
+rm -rf gdb-7.3.1
+ls
+make gdb-7.3.1 
+ls
+cd gdb-7.3.1/
+ls
+cd ..
+ls
+make
+make gdb-7.3.1 
+rm -rf gdb-7.3.1
+make gdb-7.3.1 
+ls
+cd gdb-7.3.1/
+ls
+make all
+make
+sudo su
+ls
+cd ..
+ls
+make clean
+ls
+git status
+du
+du -hd1
+ls
+cd /usr/lib
+ls
+cd -
+make test
+i386-jos-elf-objdump -i
+cd ~
+cd /usr/bin/
+ls
+ll | grep objdump
+which i386-jos-elf-objdump
+rm objdump 
+sudo rm objdump 
+sudo ln -s /usr/local/bin/i386-jos-elf-objdump objdump
+objdump -i
+ls
+cd ~
+ls
+cd gh/so/
+ls
+cd tool/
+ls
+cd qemu/
+ls
+make
+./configure --disable-kvm --disable-sdl --target-list="i386-softmmu x86_64-softmmu"
+g++ --version
+which g++
+cd /usr/bin/
+ls
+ll | grep c++
+ll | grep g++
+ls
+cd ~
+ls
+make test
+gcc --version
+apt install gcc
+apt
+ls
+git status
+apt update
+apt-get update
+apt-get install make
+ls
+sudo apt-get install gcc-multilib
+gcc -m32 -print-libgcc-file-name
+ls
+cd gh/ho/
+cd src/
+ls
+make
+make all
+make clean
+make all
+cd ~
+gcc -m32 -print-libgcc-file-name
+objdump -i
+gcc -m32 -print-libgcc-file-name
+g++ -m32 -print-libgcc-file-name
+ls
+echo $LD_LIBRARY_PATH
+ls
+cd ~
+ls
+cd gh/so/
+ls
+git status
+ls
+cd inc/
+ls
+cd ..
+ls
+make
+make clean
+make
+ls
+qemu-system-i386 so.img 
+ls
+git status
+ls
+git add boot.s
+git status
+git diff makefile
+git add makefile 
+git status
+git add -A
+git status
+git commit -m "upd:
+git commit -m "upd"
+git push
+git status
+ls
+make clean
+git status
+ls
+vim makefile 
+rm -rf *
+git status
+git add -A
+git st atus
+git sattus
+git commit -m "upd"
+git push
+ls
+vim build
+vim env.sh
+ls
+rm env.sh 
+ls
+mkdir tool
+ls
+cd tool/
+ls
+vim makefile
+ls
+cd ..
+ls
+cd tool/
+ls
+cp ~/Downloads/* .
+ls
+vim makefile 
+ls
+docker run -it yamamuteki/ubuntu-lucid-i386
+docker run -v ~:/root -it yamamuteki/ubuntu-lucid-i386
+sudo apt-get install -y build-essential libtool libglib2.0-dev libpixman-1-dev zlib1g-dev git libfdt-dev gcc-multilib gdb
+sudo apt autoremove
+sudo apt install qemu
+ls
+cd ~
+ls
+cd /usr/
+ls
+cd bin/
+ls
+ln -s gcc gcc-7
+sudo ln -s gcc gcc-7
+rm gcc
+sudo rm gcc
+sudo ln -s gcc gcc-7
+sudo ln -s gcc-7 gcc
+ls
+make qemu
+qemu-io
+qemu-io --help
+qemu-nbd
+qemu-nbd --help
+qemu-ga
+qemu-ga --help
+ls
+cd ~
+ls
+./configure --disable-kvm --target-list="i386-softmmu x86_64-softmmu" --disable-werror --python=/usr/bin/python2.7
+make
+make install
+sudo make install
+make qemu
+sudo apt remove qemu
+sudo apt autoremove 
+sudo make install
+qemu-system-i386 
+ls
+git clone https://github.com/mit-pdos/6.828-qemu.git qemu
+ls
+git 
+git clone https://github.com/mit-pdos/6.828-qemu.git qemu
+git clone https://github.com/mit-pdos/6.828-qemu.git
+git clone git@gitlab.sho.hypereal.com:robotic/shannon.git
+ls
+rm shannon/
+ls
+rm -rf shannon/
+ls
+git clone https://github.com/mit-pdos/6.828-qemu.git
+git clone http://github.com/mit-pdos/6.828-qemu.git
+sudo rm /usr/local/lib/libgmp.so*
+gcc --version
+ls
+vim
+ls
+cd qemu/
+ls
+vim
+ls
+python2
+objdump -i
+gcc -m32 -print-libgcc-file-name
+docker images
+docker run -it 32bit/ubuntu:bionic
+docker run -it 32bit/ubuntu:bionic bash
+docker run -v ~:/root -it 32bit/ubuntu:bionic bash
+cd Downloads/
+echo 'ftp://ftp.gmplib.org/pub/gmp-5.0.2/gmp-5.0.2.tar.bz2
+https://www.mpfr.org/mpfr-3.1.2/mpfr-3.1.2.tar.bz2
+http://www.multiprecision.org/downloads/mpc-0.9.tar.gz
+http://ftpmirror.gnu.org/binutils/binutils-2.21.1.tar.bz2
+http://ftpmirror.gnu.org/gcc/gcc-4.6.4/gcc-core-4.6.4.tar.bz2
+http://ftpmirror.gnu.org/gdb/gdb-7.3.1.tar.bz2' | xargs wget
+ls
+ll
+ll -h
+cd ~/gh/so/tool/
+ls
+cd qemu/
+ls
+cd ..
+ls
+cd qemu/
+ls
+qemu-img 
+qemu-img  --help
+ls
+cd ~
+ls
+cd /usr/bin/
+ls
+ll | grep i386-jos-elf-gcc
+which i386-jos-elf-gcc
+sudo rm gcc
+sudo ln -s /usr/local/bin/i386-jos-elf-gcc gcc
+ls
+gcc
+gcc --v
+gcc --version
+make clean
+ls
+cd tool/
+ls
+make clean
+ls
+make gcc-4.6.4 
+ls
+make
+make qemu
+make clean
+make
+sudo apt install objdump
+sudo apt install gcc
+sudo apt install gcc-4.8
+sudo apt search objdump
+sudo apt install binutils
+sudo apt-get install gcc-4.8 gcc-4.8-multilib 
+ls
+cd ~
+ls
+cd /usr/lib
+ls
+find . | grep objdump
+cd ..
+find . | grep objdump
+cd /bin/
+cd /usr/bin/
+ls
+ll | grep objdump
+sudo ln -s x86_64-linux-gnu-objdump objdump
+sudo rm objdump 
+sudo ln -s x86_64-linux-gnu-objdump objdump
+ls
+cd tool/
+ls
+make gdb-7.3.1
+ls
+make clean
+ls
+gcc --version
+ls
+make gdb-7.3.1 
+ls
+make clean
+make gdb-7.3.1 
+which gcc-4.8 
+make
+ls
+make clean
+make 
+make clean
+make
+ls
+cd binutils-2.21.1/
+ls
+sudo make uninstall 
+cd ..
+ls
+cd gmp-5.0.2/
+ls
+usod make uninstall
+sudo make uninstall
+cd ..
+ls
+cd gcc-4.6.4/
+ls
+cd build/
+ls
+sudo make uninstall 
+ls
+cd /usr/bin/
+ls
+cd ~
+ls
+echo $PATH
+which i386-jos-elf-gcc
+cd /usr/local/bin/
+ls
+ll
+ls i386-jos-elf*
+ls i386-jos-elf* | xargs -i mv {} {}.bak
+sudo ls i386-jos-elf* | xargs -i mv {} {}.bak
+ls i386-jos-elf* | sudo xargs -i mv {} {}.bak
+ls
+echo 12345 | cut -c 2 3
+echo 12345 | cut -c 2,3
+echo 12345 | cut -c 2,5
+tldr cut
+echo 12345.234 | cut -d'.' -f 1
+echo 12345.234 | cut -d'.' 1
+echo 12345.234 | cut -d'.' -f 1
+ls
+cd lab/
+ls
+objdump
+objdump -i
+ls
+cd /usr/
+ls
+cd ..
+ls
+cd tool/
+ls
+cd ..
+ls
+git status
+cd lab/
+ls
+cd ..
+ls
+mv lab/ ..
+ls
+git status
+cd tool/
+ls
+make clean
+git status
+cd qemu/
+ls
+make qemu
+git status
+cd ..
+ls
+git status
+ls
+cd so/tool/
+git status
+git diff
+git add -A
+git status
+git commit -m "upd"
+git push
+git status
+ls
+cat makefile 
+ls
+objdump -i
+gcc -m32 -print-objc-runtime-info 
+history | grep gcc
+sudo apt-get install gcc-4.8 gcc-4.8-multilib 
+cd /usr/bin
+sudo mv gcc gcc.bak
+sudo ln -s gcc-4.8 gcc
+gcc --vesion
+gcc -v
+gdb
+cd ~
+cd gh/so/
+ls
+cd tool/
+ls
+cd ..
+ls
+cd lab/
+ls
+make
+make qemu
+make clean
+cd /usr/bin/
+ls
+ll | grep gcc
+dirs
+dirs -p
+cd ~1
+ls
+./grade-lab1 
+i386-jos-elf-gcc
+i386-jos-elf-gcc -v
+i386-jos-elf-ld
+i386-jos-elf-ld -v
+gcc --version
+objdump -i
+sudo apt-get install gcc-4.6 gcc-4.6-multilib 
+ls
+cd /usr/bin/
+ls
+cd ~
+ls
+cd gh/so/tool/
+ls
+cd ~
+ls
+cd /usr/bin/
+find . | grep gcc | grep 4\.6
+find . | grep gcc 
+cd ..
+ls
+find . | grep gcc 
+find . | grep gcc | grep 4.6
+find . | grep gcc | grep 4\.6
+cd ./local/lib/gcc/i386-jos-elf/4.6.4
+ls
+cd ..
+ls
+cd ..
+ls
+cd i386-jos-elf/
+ls
+cd 4.6.4/
+ls
+cd include
+ls
+cd ..
+ls
+cd plugin/
+ls
+cd ..
+ls
+find .
+ls
+cd ~
+ls
+cd gh/so/
+ls
+cd lab/
+ls
+make
+make qemu
+ls
+vim GNUmakefile 
+history | grep gcc
+ls
+make
+gcc --version
+make clean
+make qemu
+i386-jos-elf-ld
+ls
+vm GNUmakefile 
+vim GNUmakefile 
+i386-jos-elf-gcc --version
+make
+make clean
+make
+gcc -m32 -print-libgcc-file-name
+cd ~
+gcc -m32 -print-libgcc-file-name
+ls
+gcc -m32 -print-libgcc-file-name
+cd ~1
+ls
+dirs -p
+ls
+cd ..
+ls
+cd ~
+ls
+cd gh/so/
+ls
+cd tool/
+ls
+cd ..
+ls
+cd lab/
+ls
+make
+gcc-4.8
+gcc-4.8 --version
+gcc-4.8 -m32 -print-libgcc-file-name
+export LD_LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/32/:$LD_LIBRARY_PATH
+gcc-4.8 -m32 -print-libgcc-file-name
+gcc -m32 -print-libgcc-file-name
+make
+i386-jos-elf-gcc -m32 -print-libgcc-file-name
+cd /usr/lib/
+ls
+cd g
+cd gcc/
+ls
+cd ..
+ls
+which gcc
+type gcc
+which gcc
+which i386-jos-elf-gcc -m32 -print-libgcc-file-name
+i386-jos-elf-gcc -m32 -print-libgcc-file-name
+export LD_LIBRARY_PATH=/usr/local
+i386-jos-elf-gcc -m32 -print-libgcc-file-name
+cd ~
+cd gh/so/lab/
+make
+ls
+vim GNUmakefile 
+ls
+cd /usr/bin/
+ls
+sudo rm gcc
+sudo ln -s gcc-4.8 gcc
+python2
+sudo reboot
+ls
+cd kern/
+ls
+cd ..
+cd obj/
+ls
+cd kern/
+ls
+hexdump -C -n 512 kernel.img
+sudo dd if=kernel.img of=/dev/sdc
+ll
+make qemu-nox
+make qemu
+make qemu-nox
+ls
+make clean
+make
+make qemu-nox
+cd ~/.ssh/web-dev.pem
+cd ~/.ssh/
+ls
+g++ -S 1.cpp
+ls
+cat 1.s
+ls
+g++ --help
+ssh -o "StrictHostKeyChecking no" -p 13879 hypereal@registry-corp.hypereal.com
+history | grep ssh | grep \-L
+history | grep ssh | grep '\-L'
+curl 180.149.145.241:80
+nslookup pan.baidu.com
+cd ~
+ls
+cd .ssh/
+ls
+vim proxy
+ls
+ssh -N -i ~/.ssh/proxy -L 0.0.0.0:12345:180.149.145.241:80 proxy@54.223.137.167
+\ssh -N -i ~/.ssh/proxy -L 0.0.0.0:12345:180.149.145.241:80 proxy@54.223.137.167
+cat proxy
+\ssh -N -i ~/.ssh/proxy -L 0.0.0.0:12345:180.149.145.241:80 proxy@54.223.137.167
+chmod 0600 proxy
+\ssh -N -i ~/.ssh/proxy -L 0.0.0.0:12345:180.149.145.241:80 proxy@54.223.137.167
+\ssh -v -N -i ~/.ssh/proxy -L 0.0.0.0:12345:180.149.145.241:80 proxy@54.223.137.167
+\ssh -v -N -i ~/.ssh/proxy -L 0.0.0.0:12345:180.149.145.241:80 proxy@ssh-proxy.sihe6.com
+ssh -v -N -i ~/.ssh/proxy -L 0.0.0.0:12345:180.149.145.241:80 proxy@ssh-proxy.sihe6.com
+ssh -v -N -i ~/.ssh/proxy -L -p 8022 0.0.0.0:12345:180.149.145.241:80 proxy@ssh-proxy.sihe6.com
+ssh -v -N -i ~/.ssh/proxy -L 0.0.0.0:12345:180.149.145.241:80 -p 8022 proxy@ssh-proxy.sihe6.com
+nc -z -v ssh-proxy.sihe6.com 1-200
+nc -z -v ssh-proxy.sihe6.com 2000-3000
+nc -z -v ssh-proxy.sihe6.com 2048-3000
+nc -z -v ssh-proxy.sihe6.com 10000-20000
+nslookup ssh-proxy.sihe6.com
+nc -z -v 52.81.4.122
+nc -z -v 52.81.4.122 10000-20000
+nc -z -v 10.0.10.63 10000-20000
+nc -z -v 52.81.4.122 10000-20000
+ping 52.81.4.122
+nc -z -v 52.81.4.122 22
+nc -z -v 52.81.4.122 80
+nc -z -v 52.81.4.122 443
+nc -z -v 52.81.4.122 23
+nc -z -v 52.81.4.122 21
+ssh -v -N -i ~/.ssh/proxy -L 0.0.0.0:12345:180.149.145.241:80 -p 8022 proxy@ssh-proxy.sihe6.com
+ping ssh-proxy.sihe6.com
+ls
+git status
+cd ~
+ls
+git status
+history | grep ssh
+history | grep ssh | grep '-L'
+history | grep ssh | grep '\-L'
+ssh -o "StrictHostKeyChecking no" 0.0.0.0:12345:192.168.8.2:2233 -p 13879 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" 0.0.0.0:12345:192.168.8.2:2233 -p 13879 hypereal@registry-corp.hypereal.com
+\ssh -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 13879 hypereal@registry-corp.hypereal.com
+ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 13879 hypereal@registry-corp.hypereal.com
+ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14354 hypereal@registry-corp.hypereal.com
+ls
+\ssh  -p 14354 hypereal@registry-corp.hypereal.com
+
+nslookup ssh registry-corp.hypereal.com
+nslookup registry-corp.hypereal.com
+\ssh  -p 14354 hypereal@registry-corp.hypereal.com
+ssh  -p 14354 hypereal@registry-corp.hypereal.com
+l
+cd gh/
+cd lab/
+ls
+g++ -S 1.cpp
+ls
+g++ 1.cpp
+cat 1.s
+g++ -S 1.cpp
+g++ 1.cpp
+g++ -S 1.cpp
+g++ -c 1.cpp
+gcc 1.cpp
+ls
+gcc 1.cpp
+mv  1.cpp 1.c
+ls
+gcc 1.c
+ls
+gcc 1.c
+ls
+./a.out
+gcc 1.c
+g++ 1.c
+ls
+./a.out
+ls
+mv 1.c 1.cpp
+ls
+g++ 1.cpp
+ls
+g++ 1.cpp
+gcc 1.cpp
+g++ 1.cpp
+objdump -d a.out
+ls
+g++ 1.cpp
+./a.out
+g++ 1.cpp && ./a.out
+gcc 1.cpp
+gcc 1.c
+ls
+./a.out
+gcc 1.c && ./a.out
+cd ~
+ls
+vim .vimrc
+vim .vim
+ls
