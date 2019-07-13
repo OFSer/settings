@@ -35373,3 +35373,80 @@ ls
 vim .vimrc
 vim .vim
 ls
+gcc 1.c
+gcc -S 1.c
+cat 1.c
+cat 1.s
+gcc -S 1.c
+cat 1.s
+gcc 1.c
+cd ~
+ls
+./config.sh push sub
+ls
+g++ 1.cpp
+./a.out
+#include<bits/stdc++.h>
+using namespace std;
+char s[200005];
+int main() {
+abc
+./a.out
+cd ~
+ls
+vim .gdbinit
+ls
+vim .gdbinit
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+git status
+./a.out 
+abc
+1
+g++ 1.cpp
+./a.out
+g++ 1.cpp
+./a.out
+ls
+cd te
+cd ..
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+gdb a.out 
+git status
+ls
+vim 1.cpp
+vim 1.c
+cd ..
+ls
+cd asm/
+ls
+vim 1.c
+ls
+cd ~/test/
+ls
+cd cpp/
+ls
+cd ..
+ls
+mkdir asm
+ls
+cd asm/
+ls
+cat 1.asm
+ls
+vim 1.cpp
+ls
+ps -ef | grep dota2
+ps -ef | grep dota
+steam
+sudo reboot
+steam
