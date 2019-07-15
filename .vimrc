@@ -61,7 +61,7 @@ let g:ycm_autoclose_preview_window_after_completion=1
 "let g:ycm_show_diagnostics_ui = 0
 set completeopt-=preview
 "let g:ycm_server_python_interpreter='/home/gjs/anaconda3/bin/python'
-"let g:ycm_server_python_interpreter='/usr/bin/python3'
+let g:ycm_server_python_interpreter='/usr/bin/python3'
 "let g:ycm_semantic_triggers = {'haskell' : ['re!.']}
 
 Plug 'octol/vim-cpp-enhanced-highlight'

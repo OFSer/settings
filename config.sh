@@ -124,6 +124,8 @@ deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted univ
 deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 # deb-src [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 	" | sudo tee /etc/apt/sources.list
+}
+apt_update(){
 	sudo apt-get update
 	sudo apt install software-properties-common -y
 	sudo add-apt-repository -y ppa:jonathonf/vim
@@ -142,14 +144,15 @@ install_desktop(){
 	sudo apt remove -y --purge gnome-software*
 }
 install_vim(){
-	sudo apt -y install vim-gnome	locales
+	export DEBIAN_FRONTEND=noninteractive
+	sudo apt install -y --no-install-recommends vim-gnome	locales curl
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	locale-gen en_US.UTF-8
-	sudo apt install -y build-essential cmake python-dev python3-dev build-essential 
+	sudo apt install -y git build-essential cmake python-dev python3-dev build-essential 
 	sudo apt install -y cmake python-dev python3-dev ctags gcc g++ clang libclang-dev
 	vim -c "PlugInstall" -c "q!" -c "q!"
-	(cd ~/.vim/plugged/YouCompleteMe && ./install.py --all)
+	(cd ~/.vim/plugged/YouCompleteMe && python3 install.py --all)
 }
 install_chrome(){
 	sudo apt install -y google-chrome-stable
@@ -221,6 +224,7 @@ run(){
 	system_setting
 	config_mouse
 	update_source
+	apt_update
 	install_vim
 	install_desktop
 	install_tools
