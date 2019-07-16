@@ -12,7 +12,7 @@ callssh(){
 	sshpass -p 87Co7r \ssh -o StrictHostKeyChecking=no "$@" || sshpass -p s \ssh -o StrictHostKeyChecking=no "$@" || \ssh "$@"
 }
 
-mycd(){
+c(){
 	IFS=$'\n'
 	[ $# -eq 0 ] && {
 		mycd `cat <(ls -d */ 2> /dev/null || echo .) | shuf | head -n 1`
@@ -72,3 +72,20 @@ Git(){
 	done
 	cd $prepwd
 }
+
+b() {
+	args=`getopt -o o:i: --long ibase:,obase: -- "$@"`
+	eval set -- "$args"
+	i=10
+	o=10
+	while :;do
+		case $1 in
+			-o|--obase) o=$2; shift 2;;
+			-i|--ibase) i=$2; shift 2;;
+			--) n=$2; break;;
+			*) echo format error; exit 1;;
+		esac
+	done
+	bc<<<"obase=$o;`bc<<<"ibase=$i;$n"`"
+}
+

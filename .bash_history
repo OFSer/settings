@@ -36201,3 +36201,171 @@ cd ..
 dirs
 ls
 cd ..
+g++ 1.cpp
+./a.out
+g++ 1.cpp
+./a.out
+g++ 1.cpp && ./a.out
+base 100
+ls
+git status
+base -i10 -o16 100
+base -i 10 -o 16 100
+ls
+base -i 10 -o 16 100
+base -i 10 100
+base -2 10 100
+base -i 2 100
+base -2
+ls
+nbc
+man nbc
+ls
+sudo apt install nbc
+man nbc
+ls
+base -i2 -o10 123
+base -i2 -o10 101
+base -i2 -o10 101101110
+base -i2 101011
+base -i2 101110
+bc
+ls
+echo $PS0
+echo $PS1
+echo $PS2
+echo $PS3
+base -o 12 -i 23 -c 123
+bcd
+nbc
+nbc --help
+man nbc
+ls
+base
+bs
+b
+b 10
+c --help
+ls
+g
+gss
+ls
+dirs
+cd ..
+cd ~
+dirs
+cd -
+cd ..
+dirs
+cd -
+dirs
+cd ~2
+cd ~3
+dirs
+cd ~1
+dirs
+cd ~1
+ls
+cd ~
+ls
+vim .bash
+ls
+git status
+bcd
+man bcd
+ls
+vim .bash
+ls
+cd status
+cd fc/
+ls
+cd ~
+ls
+vim .bash/alias.sh 
+ls
+c Desktop/
+ls
+cd ~
+ls
+cd ..
+ls
+cd ~
+ls
+dirs -p
+dirs 
+dirs  -p
+cd ..
+dis -p
+dirs -p
+cd ..
+ls
+dirs -p
+cd ~
+dirs -p
+ls
+vim .bash
+ls
+git status
+./config.sh push
+ls
+cd test/cpp/
+ls
+vim 1.cpp
+man bc
+echo 'ibash=2;obase=10;1010' | bc
+echo 'ibase=2;1010' | bc
+echo 'ibase=2;1010' | bc 'obase=8'
+echo 'ibase=2;1010' | bc 'obase=8' -
+man bc
+ls
+printf %x 10
+bc 'ibase=2;1010'
+bc --help
+tldr bc
+bc <<< 'ibase=2;1010'
+bc <<< "obase=8;`bc <<< "ibase=2;1010"`"
+a=1234
+a=1011110
+bc <<< "obase=8;`bc <<< "ibase=2;$a"`"
+bc<<<"obase=8;`bc<<<"ibase=2;$a"`"
+ls
+cd ~/fc/saki_detection/
+ls
+vim run.sh 
+cls
+ls
+c linux-ex/
+ls
+dirs
+man cd 
+cd --help
+ls
+make 
+ls
+make clean
+ls
+git status
+git diff
+ls
+make
+./1
+make
+./1
+make
+./1
+echo $((10#2))
+echo $((10#20))
+echo $((12#20))
+echo $((2#20))
+echo $((2#10))
+echo $((2#100))
+echo 0x3f
+printf 0x3f
+printf %x 0x3f
+printf %x 100
+printf %d 0x3f
+printf %d 1010
+printf %o 10
+printf %o 8
+printf %o 7
+printf %o 8
