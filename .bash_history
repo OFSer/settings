@@ -35450,3 +35450,754 @@ ps -ef | grep dota
 steam
 sudo reboot
 steam
+nasm 1.asm 
+nasm -f 1.asm 
+nasm -f 1 1.asm 
+nasm -f elf 1.asm 
+make
+ls
+./1
+ls
+nasm -f elf 1.asm
+ls
+rm a.out
+ls
+nasm -f elf 1.asm
+ls
+nasm 1.asm
+ls
+./1
+nasm -f elf 1.asm
+ls
+rm 1 1.o 1.c 1.s
+ls
+nasm -f elf 1.asm
+ls
+./1.o
+nasm -f coff first.asm
+nasm -f coff 1.asm
+ls
+gcc -o 1 1.o
+cd linux-ex/
+ls
+nasm -f coff first.asm
+gcc -o first first.o driver.c asm_io.o
+nasm -f coff asm_io.asm
+gcc -o first first.o driver.c asm_io.o
+ls
+rm first.o
+ls
+rm *.o
+ls
+nasm -f coff first.asm
+cd linux-ex/
+nasm -f coff first.asm
+ls
+nasm -f coff asm_io.asm
+nasm -f elf asm_io.asm
+nasm -f elf first.asm
+g++ -o first first.o driver.c asm_io.o
+gcc -o first first.o driver.c asm_io.o
+gcc -m32 -o first first.o driver.c asm_io.o
+nasm -f coff asm_io.asm
+nasm -f coff first.asm 
+gcc -m32 -o first first.o driver.c asm_io.o
+nasm -f elf first.asm 
+nasm -f elf asm_io.asm 
+gcc -m32 -o first first.o driver.c asm_io.o
+nasm -f coff first.asm 
+nasm -f elf -d ELF_TYPE asm_io.asm
+nasm -f elf first.asm 
+gcc -m32 -c driver.c
+gcc -m32 -o first driver.o first.o asm_io.o
+ls
+./first 
+nasm -f elf  asm_io.asm
+gcc -m32 -o first driver.o first.o asm_io.o
+nasm -f elf -d ELF_TYPE asm_io.asm
+gcc -m32 -o first driver.o first.o asm_io.o
+ls
+rm *.o
+ls
+rm first
+ls
+history 
+history 
+make
+ls
+cd linux-ex/
+ls
+ls *.o
+rm asm_io.o
+ls
+cd ..
+ls
+make
+ls
+git status
+ls
+git add -A
+git status
+git commit -m "upd"
+git status
+make clean
+ls
+make clean
+ls linux-ex/*.o
+rm linux-ex/asm_io.o
+ls
+make
+ls
+ls linux-ex/*.o
+make clean
+ls
+git status
+git add -A
+git status
+git commit -m "upd"
+git push
+ls
+ssh -o "StrictHostKeyChecking no" -p 19666 hypereal@registry-corp.hypereal.com
+sudo vim /opt/flaw_checker/config.yaml 
+pip3 install cv2
+pip3 install opencv-python
+python3
+ls
+sudo vim /opt/flaw_checker/config.yaml 
+git statusz
+git status
+git stash
+sudo vim /opt/flaw_checker/config.yaml 
+:q
+sudo python3 server.py 
+git status
+git add server.py 
+git status
+git commit -m "fix blow web server"
+git push
+git push --set-upstream origin webserver 
+git pull
+git pull origin webserver
+git diff
+git push
+git push --set-upstream origin webserver 
+ls
+cd ~
+ls
+apt update
+vim config.sh 
+apt install vim
+vim config.sh 
+cat config.sh 
+sudo apt install software-properties-common -y
+apt install software-properties-common -y
+vim config.sh 
+ls
+cd ~
+./config.sh apt_update
+apt update
+apt install sudo
+./config.sh apt_update
+./config.sh install_vim
+ls
+vim 
+locale-gen en_US.UTF-8
+apt update
+cd ~
+./config.sh apt_update
+apt install sudo
+./config.sh apt_update
+sudo apt install locales
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+locale-gen en_US.UTF-8
+sudo apt install -y git build-essential cmake python-dev python3-dev build-essential
+sudo apt install -y cmake python-dev python3-dev ctags gcc g++ clang libclang-dev
+./config.sh install_vim
+ls
+sudo apt remove vim*
+apt install vim-gnome
+ls
+git status
+ls
+cd yaml/
+ls
+cd ..
+ls
+git checkout origin/mk3 mk3
+git checkout origin/mk3
+git checkout mk3 origin/mk3
+git checkout -b mk3 origin/mk3
+git log
+git reflog
+git cherry-pick 47a0495
+git diff HEAD^
+git status
+git checkout -b fixweb
+git log
+git diff HEAD^
+git status
+git push
+git push --set-upstream origin fixweb
+python
+ls
+vim .vimrc
+python
+echo $DEBIAN_FRONTEND=noninteractive
+echo $DEBIAN_FRONTEND
+apt update
+cd ~
+apt update && apt install sudo && ./config.sh install_vim
+apt install tzdata
+apt update
+apt install tzdata
+apt update
+export DEBIAN_FRONTEND=noninteractive
+apt install tzdata
+cd ~
+apt update && apt install sudo && ./config.sh install_vim
+cd ~
+./config.sh install_vim
+ls
+l
+bash
+pip3 install time
+sudo apt update
+vim /etc/apt/sources.list
+cd ~
+ls
+vim config.sh 
+docker run -it ubuntu:18.04 bash
+docker run -v ~:/root -it ubuntu:18.04 bash
+ls
+vim config.sh 
+ls
+docker run -v ~:/root -it ubuntu:18.04 bash
+docker container --prune
+docker container prune
+docker container ps -a
+vim .vimrc
+ls
+vim .vimrc
+vim config.sh 
+git status
+git add config.sh .vim
+git status
+git add .vimrc 
+git status
+git commit -m "upd config.sh"
+git push
+git diff HEAD^
+git status
+git diff HEAD^ .vim/autoload/plug.vim
+ls
+git status
+ls
+git status
+vim .vimrc
+vim config.sh 
+ls
+git status
+git status
+vim config.sh 
+ls
+vim config.sh 
+ls
+cd .vim/plugged/YouCompleteMe/
+./install.py --all
+ls
+cd ~
+ls
+vim .vim
+vim .vimrc 
+ls
+cd fc/detection-machine-daemon/
+ls
+cd webserver/
+ls
+vim server.py 
+ls
+cd ~
+ls
+cd .vim/plugged/YouCompleteMe/
+ls
+python3 install.py --all
+ls
+cd ~
+ls
+cd .vim/
+ls
+cd ftplugin/
+ls
+cd ..
+ls
+vim
+ls
+cd ..
+ls
+cd gh/
+ls
+cd so/
+ls
+vim
+ls
+cd ..
+ls
+cd so/
+ls
+cd ..
+ls
+cd so/
+ls
+ld --help
+ld --help | grep '\-T'
+ld --help | grep '\-e'
+ls
+git status
+cd ~
+ls
+cd fc/
+ls
+cd detection-machine-daemon/
+ls
+git status
+git checkout master 
+git status
+git diff
+git reset HEAD --hard
+git status
+ls
+git pull
+git status
+git branch
+git checkout -b webserver
+git status
+vim
+ls
+cd webserver/
+ls
+vim server.py 
+ls
+git status
+ls
+make
+./1
+make
+./1
+make
+./1
+echo LD_PRELOAD
+echo $LD_PRELOAD
+ls /usr/lib/x86_64-linux-gnu/
+make
+ls /usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
+ll /usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
+ls
+./1
+nasm -f elf 1.asm 
+ls
+make clean
+nasm -f elf 1.asm 
+ls
+nasm -f elf 1.asm
+ls
+nasm -f elf hello.asm 
+ls
+ld -s -o hello hello.o 
+ld -m32 -s -o hello hello.o 
+ls
+ld -m elf_i386 -s -o hello hello.o 
+./hello 
+ld --help
+ld -m elf_i386 -o hello hello.o 
+ls
+./hello 
+nasm -f elf64 hello.asm 
+ld -o hello hello.o 
+./hello 
+make hello
+./hello 
+make clean
+ls
+make hello
+./hello 
+make
+make hello
+./hello
+make && ./hello 
+ls
+git status
+git diff 1.asm
+git add -A
+git status
+git commit -m "upd"
+git status
+make
+make clean
+make
+make math
+nasm --help
+nasm -h
+make math
+make
+make math
+ls
+./math
+make
+make clean
+make
+make clean
+make
+ls
+./hello
+./math
+make
+make clean
+make
+make all
+make clean
+make
+make clean
+make
+make 1
+make
+make 1
+make
+make clean
+make
+make clean
+make
+make 1
+make
+make clean
+make
+make clean
+make
+make 1.o
+make
+ls
+make clean
+make
+make clean
+make
+make 1.o
+make clean
+make 1
+make clean
+make 1.o
+make clean
+make 1.o
+make clean
+make
+make clean
+make
+make clean
+make
+make clean
+make
+make clean
+make
+ls
+make lean
+make clean
+ls
+make
+ls
+make 1.o
+make clean
+make 1.o
+make clean
+make 1.o
+git status
+git diff 1.asm
+git add -A
+git status
+git commit -m "upd":
+git status
+git push
+make clean
+make
+make clean
+make
+ls
+./1
+./hello 
+./math 
+make
+make clean
+make
+make clean && make
+ls
+make clean && make
+ls
+make cealn
+make clean
+make
+make clean
+make cealn
+make clean
+make
+make clean
+make
+make clean
+make
+make clean
+make
+make clean
+make
+make clean && make
+./hello 
+git status
+git stauts
+git status
+git diff
+git status
+git add -A
+git status
+git commit -m "upd"
+git push
+ls
+./math
+git status
+make clean 
+ls
+mkdir build
+ls
+cd build/
+ls
+make ..
+make -f ../makefile 
+ls
+cd ..
+ls
+rm -rf build/
+ls
+cd linux-ex/
+ls
+cd ..
+lks
+ls
+make
+make clean
+make
+make clean
+make
+make clean && make
+ls
+git  status
+./hello 
+git diff
+ls
+git status
+make clea 
+make clean
+ls
+nasm -h
+tldr nasm
+s
+ls
+cd ~
+ls
+vim .vim
+vim .vimrc
+ls
+cd gh/
+ls
+cd lab/
+ls
+make gdb
+ls
+cd ~
+ls
+vim .bash
+ls
+pushd --help
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~
+dirs -p
+pushd --help
+ls
+dirs
+ls
+dirs
+cd ..
+dirs 
+cd ..
+ls
+dirs
+cd /home/
+dirs
+cd gjs/
+dirs
+cd fc/saki_detection/
+dir
+dirs
+cd ..
+dirs
+cd saki_detection/
+dirs
+cd ..
+dirs
+dirs -p
+cd -
+ls
+cd saki_detection/
+cd -
+ls
+cd ..
+ls
+cd -
+cd ~-
+cd ~1
+cd ~2
+dirs
+dirs -p
+pushd --help
+man pushd
+man dirs
+dirs --help
+popd --help
+dirs -p
+ls
+cd ..
+dirs -p
+popd --help
+dirs -p
+dirs
+popd +1
+dirs --help
+dirs -l
+cd ~
+cd ..
+cd ~
+cd ..
+cd  ..
+cd ..
+dirs 
+cd .
+cd ..
+cd .
+dirs 
+dirs .
+cd .
+dirs 
+popd +10
+popd +11
+ls
+dirs
+cd ..
+cd ~
+cd ..
+dirs
+cd ..
+dirs
+cd ~
+dirs
+cd ..
+dirs
+cd ..
+dirs
+cd ~
+cd ..
+cd ~
+cd ..
+cd ~
+dirs -p
+cd ..
+cd ~
+cd ..
+cd ~
+cd ..
+cd ~
+cd ..
+lspci
+lspci | grep GPU
+lspci | grep nvi
+lspci | grep gra
+cd ..
+cd ~
+cd ..
+echo '1 2 3' | cut -f 2,
+echo '1 2 3' | cut -f 2
+tldr cut
+echo '1 2 3' | cut -f 2-
+echo '1 2 3' | cut -d' '-f 2-
+echo '1 2 3' | cut -d' ' -f 2-
+echo '1 2 3' | cut -d' ' -f 2
+cd ..
+cd ~
+cd ..
+ls
+cd ..
+cd ~
+cd ..
+dirs -p
+cd ..
+cd ~
+ls
+dirs -p
+cd ..
+dirs -p
+cd ..
+ls
+cd ~
+ls
+cd ..
+dirs -p
+cd ..
+cd ~
+cd ..
+cd ~
+cd ..
+dirs -p
+cd ..
+dirs -p
+cd ~
+dirs -p
+cd ..
+dirs -p
+cd ..
+cd ~
+ls
+dirs -p
+cd ..
+cd ~
+cd ..
+pwd
+cd ~
+pwd
+dirs --help
+dirs -p
+dirs -l
+dirs -pl
+dirs -l -p
+ls
+cd ..
+cd ~
+cd ..
+cd ~
+cd ..
+dirs
+cd ..
+dirs
+ls
+cd ..
+cd ~
+cd ..
+dirs
+cd ..
+dirs
+ls
+cd ..
+cd ~
+cd ..
+dirs
+cd ~
+ls
+cd ..
+dirs
+ls
+cd ..

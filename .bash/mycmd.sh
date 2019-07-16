@@ -18,11 +18,10 @@ mycd(){
 		mycd `cat <(ls -d */ 2> /dev/null || echo .) | shuf | head -n 1`
 		return
 	}
-	for i in `dirs -p | sed -n '2,$p'`;do
-		if [[ "`eval echo $i`" ==  "`pwd`" ]];then
-			\cd "$@"
-			return
-		fi
+	j=0
+	for i in `dirs -l -p | sed -n '2,$p'`;do
+		let j+=1
+		[[ "$i" ==  "`pwd`" ]] && eval popd +$j > /dev/null
 	done
 	pushd . &> /dev/null
 	\cd "$@";
