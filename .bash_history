@@ -36369,3 +36369,163 @@ printf %o 10
 printf %o 8
 printf %o 7
 printf %o 8
+g++ 1.cpp
+g++ 1.cpp && ./a.out
+ls
+cd ~
+git status
+./config.sh push
+ls
+cd test/cpp/
+ls
+vim 1.cpp
+ls
+git status
+ls
+vim 1.cpp
+ls
+sl
+ls
+l
+ls
+git status
+ls
+df -h
+l
+history | grep usb
+history | grep apt | grep usb
+history | grep apt | grep disk
+compgen -an
+compgen -ap
+tldr compgen 
+tldr compgen  | grep disk
+ls
+sl
+l
+ls
+g++ -S 1.cpp
+ls
+gcc -S 1.cpp
+gcc -S 1.c
+g++ -S 1.cpp
+gcc -S 1.c
+gcc 1.c
+gcc -c 1.c
+ls
+gcc -c 1.c
+gcc 1.c
+ls
+rm a.out
+gcc 1.c
+ls
+./a.out
+gcc 1.c
+./a.out
+gcc 1.c
+g++ 1.c
+gcc -m32 1.c
+ls
+gcc -m32 1.c
+as
+as --help
+man as
+ls
+gcc -m32 -S 1.c
+g++ -m32 -S 1.c
+g++  -S 1.c
+g++  -m32 -S 1.c
+g++  -S 1.c
+g++ -m32 -S 1.c
+g++ -S 1.c
+g++ -m32 -S 1.c
+g++ -S 1.c
+g++ -m32 -S 1.c
+g++ -masm=intel -m32 -S 1.c
+history 
+:a
+ls
+git status
+git log
+git stash list
+git log
+git reset 65a6bf532b7fa0f811c3d9969dbf40298 --hard
+git status
+git log
+git reflog
+git reset 61390f7 --hard
+git stastus
+g
+git log
+gl
+gitl
+glog
+AT&T intells
+jobs
+ls
+jobs
+ls
+git status
+g++ -m32 -S 1.c
+g++ -nasm=intel -m32 -S 1.c
+g++ -masm=intel -m32 -S 1.c
+g++ 1.cpp && ./a.out
+g++ -m32 -S 1.c
+g++ -masm=intel -m32 -S 1.c
+g++ -m32 -S 1.c
+ls
+git status
+ls
+git status
+history | grep gcc | grep intel
+gcc --help
+ls
+cd ~/gh/so/
+ls
+cd ..
+ls
+cd so/
+ls
+vim
+ls
+cd ~
+vim .vimrc
+ls
+git status
+ls
+vim .vim
+ls
+cd ~/Desktop/
+ls
+cd ~
+ls
+g++ -m32 -S 1.c
+./a.out
+g++ -m32 1.c 
+gcc -m32 1.c 
+./a.out
+gcc -m32 1.c  && ./a.out
+cd ~
+ld --help
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+vim 1.s
+ls
+vim 1.s
+vim 1.c
+vim 1.cp
+vim 1.c
+ls
+vim 1.c
+ls
+ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14838 hypereal@registry-corp.hypereal.com
+ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14320 hypereal@registry-corp.hypereal.com
+ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14838 hypereal@registry-corp.hypereal.com
+ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14320 hypereal@registry-corp.hypereal.com
+ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14838 hypereal@registry-corp.hypereal.com
