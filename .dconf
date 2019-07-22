@@ -60,10 +60,10 @@ show-thousands=false
 button-mode='advanced'
 target-units='radian'
 word-size=64
-window-position=(2733, 318)
+window-position=(2443, 175)
 number-format='automatic'
 angle-units='degrees'
-base=16
+base=10
 source-units='degree'
 accuracy=9
 
@@ -558,10 +558,10 @@ direct-width=1024
 
 [apps/update-manager]
 first-run=false
-launch-time=int64 1562347164
+launch-time=int64 1563575726
 window-height=540
 show-details=true
-launch-count=13
+launch-count=14
 window-width=1008
 
 [com/canonical/indicator/datetime]
@@ -604,7 +604,7 @@ favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chr
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14
-release-check-time=uint32 1562292561
+release-check-time=uint32 1563502283
 
 [com/ubuntu/user-interface]
 scale-factor={'HDMI-0': 10, 'DP-4': 10}

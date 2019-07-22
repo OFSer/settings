@@ -36529,3 +36529,392 @@ ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14320 
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14838 hypereal@registry-corp.hypereal.com
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14320 hypereal@registry-corp.hypereal.com
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14838 hypereal@registry-corp.hypereal.com
+ls
+cd ~
+ls
+g
+git add .vim
+git status
+./config.sh push
+ls
+genycm 
+ls
+python
+python3 1.py
+python3
+cd ~/.local/
+cd lib/
+ls
+cd python3.6/
+ls
+cd site-packages/
+ls
+cd cv2/
+ls
+cd data/
+ls
+cd ..
+ls
+cat __init__.py 
+cd ~
+ls
+vim .vimrc
+ls
+cd /usr/local/lib
+ls
+cd python3.6/
+ls
+cd dist-packages/
+ls
+cd cv2/
+ls
+cd data/
+ls
+cd ..
+ls
+vim __init__.py 
+ls
+ll
+ll -h
+ls
+cd ~
+ls
+cd fc/
+ls
+cd flaw_checker/
+ls
+cd third_party/
+ls
+cd opencv/
+ls
+vim build
+vim build.sh 
+ls
+vim build.sh 
+ls
+vim build.sh 
+ls
+cd /usr/local
+ls
+cd lib
+ls
+cd gcc/
+ls
+cd ..
+ls
+cd pkgconfig/
+ls
+cat opencv.pc 
+cd /usr/local/include/opencv
+ls
+pkg-config --cflags gtk+-2.0
+pkg-config --cflags 
+pkg-config --cflags gtk+-3.0
+pkg-config --cflags gtk+-2.0
+pkg-config --cflags gtk-2.0
+pkg-config --cflags gtk+-2.0
+pkg-config --cflags gtk+-2.0 | grep cv
+pip3 install opencv-contrib-python
+python3
+cd build/
+ls
+cmake ..
+make -j4
+./1
+history | grep dp
+history | grep 1 | grep dp
+history | grep 1
+history | grep 1 | grep dp
+history | grep '\-\-dp'
+./1
+./1 -d=DICT_4X4_50=0
+./1 -d=1
+./1 -d=1 --dp=1.yaml
+./1 -d=1 1.yaml
+./1 -a -d=1 --dp=1 -h=8 --ml=0.01 --sl=0.1 1.yaml
+./1 -a -d=1 --dp=1 -h=8 --ml=0.01 --sl=0.1
+./1 -a -d=1 --dp=1 -h=8 --ml=0.01 --sl=0.1 1.yaml
+./1
+./1 -d=1 -h=8 --ml=0.01 --sl=0.1 1.yaml
+./1 -a -d=1 -h=8 --ml=0.01 --sl=0.1 1.yaml
+./1 -d=1 --dp=1 -h=8 --ml=0.01 --sl=0.1 1.yaml
+./1 -d=1 -h=8 --ml=0.01 --sl=0.1 1.yaml
+./1 -a -d=1 -h=8 --ml=0.01 --sl=0.1 1.yaml
+./1 -d=1 -h=8 --ml=0.01 --sl=0.1 1.yaml
+./1 -d=1 --dp -h=8 --ml=0.01 --sl=0.1 1.yaml
+./1 -d=1 --dp=1 -h=8 --ml=0.01 --sl=0.1 1.yaml
+./1 -d=1 --dp=1.txt -h=8 --ml=0.01 --sl=0.1 1.yaml
+./1
+./1 -d=1 --dp=1.txt -h=8 -w=8 --ml=0.01 --sl=0.1 1.yaml
+./1 -d=1 --dp=1.yaml -h=8 -w=8 --ml=0.01 --sl=0.1 1.yaml
+./1 -d=1 --dp=1.yaml -h=8 -w=8 --ml=0.01 --sl=0.1
+./1 -d=1 --dp=1.yaml -h=8 -w=8 --ml=0.01 --sl=0.1 1.yaml
+./1 -a=1 -d=1 -h=8 --sc --ml=0.011 --pc --rs -w=8 --sl=0.019 1.yaml
+make -j4
+./1 -a=1 -d=1 -h=8 --sc --ml=0.011 --pc --rs -w=8 --sl=0.019 1.yaml
+./1
+./1 -a=1 -d=1 -h=8 --sc --ml=0.019996 --pc --rs -w=8 --sl=0.019 1.yaml
+./1 -a=1 -d=1 -h=8 --sc --ml=0.019 --pc --rs -w=8 --sl=0.019 1.yaml
+./1 -a=1 -d=1 -h=8 --sc --ml=0.010 --pc --rs -w=8 --sl=0.019 1.yaml
+./1 -a=1 -d=2 -h=8 --sc --ml=0.010 --pc --rs -w=8 --sl=0.019 1.yaml
+s
+ls
+git status
+ls
+./1 -a=1 -d=2 -h=8 --sc --ml=0.010 --pc --rs -w=8 --sl=0.019 1.yaml
+ls
+git status
+nautilus .
+python3 mark.py
+mkdir -p images/output
+ls
+rm *.jpg
+python3 mark.py
+ls
+python3 mark.py
+eog images/output/*
+python3 mark.py && eog images/output/*
+cd .
+ls
+vim
+ls
+vim 1.py
+ls
+cd images/output/
+ls
+rm *.jpg
+ls
+eog *
+objdump -d a.out
+objdump -masm -d a.out
+objdump  -d a.out
+objdump --help
+objdump --help | grep intel
+objdump -Mintel -d a.out
+objdump -d a.out
+.cfi_startproc
+pushq%rbp
+.cfi_def_cfa_offset 16
+.cfi_offset 6, -16
+movq%rsp, %rbp
+.cfi_def_cfa_register 6
+movq%rdi, -8(%rbp)
+movq-8(%rbp), %rax
+movl(%rax), %eax
+leal1(%rax), %edx
+movq-8(%rbp), %rax
+movl%edx, (%rax)
+nop
+popq%rbp
+.cfi_def_cfa 7, 8
+ret
+python3 mark.py 
+python3 mark.py  && eog images/output/*
+python3
+python3 mark.py  && eog images/output/*
+python3
+python3 mark.py  && eog images/output/*
+python3
+python3 mark.py  && eog images/output/*
+python3 mark.py && eog images/output/*
+g++ -S 1.cpp 
+g++ 1.cpp 
+g++ -S 1.cpp 
+g++ 1.cpp 
+g++ -S 1.cpp 
+rm 1.s
+ls
+g++ -S 1.cpp 
+g++ 1.cpp && ./a.out
+g++ -S 1.cpp
+cd bu
+ls
+cd src/
+ls
+cd ..
+ls
+cd s
+cd samples/
+ls
+cd build/
+ls
+./calibrate_camera_charuco 
+./calibrate_camera_charuco -d=1
+./calibrate_camera_charuco -d=1 --ml=0.02 -h=5 -w=4
+./calibrate_camera_charuco -d=1 --ml=0.02 -h=5 -w=4 --sl=0.1
+./calibrate_camera_charuco -d=1 --ml=0.02 -h=5 -w=4 --sl=0.1 1.png
+ls
+cmake ..
+make -j4
+./create_board_charuco 
+./create_board_charuco -d=3 -h=10 --ml=0.01 --sl=0.1 -w=10
+./create_board_charuco -d=3 -h=10 --ml=0.01 --sl=0.1 -w=10 1.png
+./create_board_charuco -d=3 -h=10 --ml=0.01 --sl=0.001 -w=10 1.png
+./create_board_charuco -d=3 -h=10 --ml=0.01 --sl=0.01 -w=10 1.png
+./create_board_charuco -d=3 -h=10 --ml=0.01 --sl=0.1 -w=10 1.png
+./create_board_charuco -d=3 -h=10 --ml=0.01 --sl=0.1 1.png
+./create_board_charuco -d=3 -h=10 --ml=0.01 --sl=0.1 -w=5 1.png
+git status
+./create_board_charuco -d=3 -h=10 --ml=0.01 --sl=0.1 -w=5 1.png
+ls
+./create_board_charuco -d=3 -h=10 --ml=0.1 --sl=1 -w=5 1.png
+./create_board_charuco -d=3 -h=10 --ml=1 --sl=1 -w=5 1.png
+./create_board_charuco -d=3 -h=10 --ml=1 --sl=2 -w=5 1.png
+./create_board_charuco -d=3 -h=10 --ml=3 --sl=2 -w=5 1.png
+./1
+./create_board_charuco 
+./create_board_charuco -d=3 -h=10 --ml=0.01 --sl=0.1 -w=5 1.png
+./create_board_charuco -d=3 -h=10 --ml=0.01 --sl=0.1 -w=5 --si 1.png
+./create_diamond 
+./create_diamond  -d=3 --ids=id1
+./create_diamond  -d=3 --ids=id1 --ml=0.1 --si --sl=0.1
+./create_diamond  -d=3 --ids=id1 --ml=0.1 --si --sl=0.1 1.npg
+./create_diamond  -d=3 --ids=id1 --ml=0.1 --si --sl=0.1 1.png
+./create_diamond  -d=3 --ids='id1' --ml=0.1 --si --sl=0.1 1.png
+./create_diamond  -d=3 --ids=1 --ml=0.1 --si --sl=0.1 1.png
+./create_diamond  -d=3  --ml=0.1 --si --sl=0.1 1.png
+./create_diamond  -d=3 --ids=id1,id2,id3,id4 --ml=0.1 --si --sl=0.1 1.png
+./create_diamond  -d=3 --ids=id1,id2,id3,id4 --ml=0.1 --si --sl=0.2 1.png
+history | grep create_diamond
+./create_diamond  -d=3 --ids=id1,id2,id3,id4 --ml=0.1 --si --sl=0.2 1.png
+./create_diamond  -d=3 --ids=id1,id2,id3,id4 --ml=0.1 --si --sl=0.2
+./create_diamond  -d=3 --ids=id1,id2,id3,id4 --ml=0.1 --si --sl=0.2 1.png
+./create_diamond  -d=3 --ids=id1,id2,id3,id4 --ml=0.1 --si  1.png
+./create_diamond  -d=3 --ids=id1,id2,id3,id4 --ml=0.1 --si  --sl=0.2 1.png
+./create_diamond 
+./create_diamond  -d=3 --ids=id1,id2,id3,id4 --ml=1000 --si  --sl=1000 1.png
+./create_diamond  -d=3 --ids=id1,id2,id3,id4 --ml=100 --si  --sl=1000 1.png
+./create_diamond  -d=3 --ids=id1,id2,id3,id4 --ml=10 --si  --sl=1000 1.png
+./create_diamond  -d=3 --ids=id1,id2,id3,id4 --ml=10 --si  --sl=100 1.png
+./create_diamond  -d=3 --ids=id1,id2,id3,id4 --ml=80 --si  --sl=100 1.png
+./create_board_charuco -d=3 -h=10 --ml=80 --sl=100 -w=5 --si 1.png
+./create_board_charuco -d=3 -h=10 --ml=80 --sl=100 -w=10 --si 1.png
+./create_board_charuco -d=3 -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco 
+./create_board_charuco -d=3 -m=5 -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco -d=3 --bb=2  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco -d=3 --bb=1  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco -d=3  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco -bb=3 -d=3  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco -bb=2 -d=3  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco -bb=1 -d=3  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco -bb=4 -d=3  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco -bb=1 -d=3  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco 
+./create_board_charuco -m=3 -bb=1 -d=3  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco -m=30 -bb=1 -d=3  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco 
+./create_board_charuco -m=30 -bb=1 -d=3  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco -m=30 -bb=1 -d=1  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco -m=30 -bb=1 -d=3  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+ls
+git status
+ls
+cmake ..
+make -j4
+./create_board 
+./create_board -d=3 -h=10 -l=80 -m=100 -s=2 --si -w=10
+./create_board -d=3 -h=10 -l=80 -m=100 -s=2 --si -w=10 1.png
+./create_board_charuco -m=30 -bb=1 -d=3  -h=10 --ml=80 --sl=100 -w=14 --si 1.png
+./create_board_charuco 
+./create_board_charuco -m=30 -bb=1 -d=3  -h=10 --ml=60 --sl=100 -w=14 --si 1.png
+./create_board_charuco -m=30 -bb=1 -d=3  -h=10 --ml=50 --sl=100 -w=14 --si 1.png
+./create_board_charuco -m=30 -bb=0 -d=3  -h=10 --ml=50 --sl=100 -w=14 --si 1.png
+./create_board_charuco -m=30 -bb=1 -d=3  -h=10 --ml=50 --sl=100 -w=14 --si 1.png
+./create_board_charuco -m=30 -bb=1 -d=3  -h=12 --ml=50 --sl=100 -w=18 --si 1.png
+nautilus .
+./create_board_charuco -m=30 -bb=1 -d=3  -h=13 --ml=50 --sl=100 -w=19 --si 1.png
+./create_board_charuco -m=30 -bb=1 -d=3  -h=13 --ml=70 --sl=100 -w=19 --si 1.png
+./create_board_charuco -m=30 -bb=1 -d=3  -h=13 --ml=60 --sl=100 -w=19 --si 1.png
+nautilus .
+ls
+git status
+ls
+git status
+python3 1.py
+ls
+python3 1.py
+ls
+eog images/*
+python3 1.py
+eog images/1.png
+eog images/1.bmg
+eog images/1.bmp
+python3 1.py
+ls
+git init
+git status
+>.gitignore
+ls
+git status
+g
+git add -A
+git status
+git commit -m "add find corners"
+git remote add origin git@gitlab.sho.hypereal.com:jingshen.gao/calibration.git
+git push -u origin master
+ls
+git status
+pyhton3 1.py
+python3 1.py
+sort --help
+docker images
+docker ps -a
+docker commit 3971955333f6 gcc:9.1
+docker images
+g++ 10.cpp 
+gdb
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+vim 10.cpp
+ls
+g++ -std=c++20 1.cpp
+g++ -std=c++2a 1.cpp
+ls
+cd fc/
+ls
+cd dl-k8s-kube/
+ls
+vim
+docker build .
+docker build . -t vim
+ls
+vim config.sh 
+ls
+docker build .
+ls
+docker build . -t vim
+ls
+docker images
+ls
+cd ~
+ls
+vim
+make qemu-gdb
+make qemu-nox-gdb 
+ls
+cd ~
+ls
+cd fc/
+ls
+cd ..
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+vim Dockerfile
+ls
+docker run -it vim bash
+ls
