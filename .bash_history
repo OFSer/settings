@@ -36918,3 +36918,758 @@ vim Dockerfile
 ls
 docker run -it vim bash
 ls
+ls
+vim
+ls
+cd ~/test/cpp/
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+ssh gjs@10.0.10.63
+ls
+git status
+cat /etc/issue
+vim .vimrc
+ls
+cd gh/
+ls
+cd lab/
+ls
+make qemu
+make qemu-nox
+make gdb
+ls
+vim .gdbinit
+make gdb
+make qemu-gdb
+ls
+vim
+docker run -it vim bash
+docker run -it -v ~:/root vim bash
+docker run -it gcc:9.1 bash
+docker images
+df -h
+ls
+docker images
+docker run -it gcc:9.1
+docker container prune 
+ls
+cd fc/
+ls
+cd l
+cd dl-k8s-kube/
+vim
+im
+vim
+cd ~!
+cd ~
+ls
+cd ~/fc/
+ls
+du -hl
+du -hd1
+ls
+git status
+git diff 
+ls
+cd ~
+ls
+git status
+./config.sh push
+vim Dockerfile
+ls
+mkdir docker
+ls
+rm -r docker
+ls
+mkdir dockerfiles
+ls
+mv Dockerfile dockerfiles/
+ls
+cd dockerfiles/
+ls
+vim Dockerfile 
+ls
+mkdir vim
+ls
+cd vim/
+ls
+cd ..
+ls
+mv Dockerfile vim/
+ls
+cd vim/
+ls
+vim
+ls
+cd ~
+ls
+cd dockerfiles/
+ls
+cd vim/
+ls
+vim Dockerfile 
+git add Dockerfile 
+git add -f Dockerfile 
+git status
+git commit -m "upd add dockerfiles"
+git push
+ls
+vim Dockerfile 
+ls
+docker run --help
+docker run --help | grep del
+docker run --help | grep remove
+ls
+vim Dockerfile 
+ls
+apt install locale
+apt install locales
+locale-gen en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+bash
+locale
+ls
+locale
+locale-gen en_US.UTF-8
+locale-gen en_US.utf-8
+locale
+localectl list-locales
+export LC_ALL=en_US.utf-8
+export LC_ALL="en_US.UTF-8"
+apt-get install r-base
+R
+/usr/bin/R
+apt-get install r-base
+locale
+export LC_ALL=
+locale
+locales
+locale-gen
+locale
+history 
+./create_board_charuco -m=30 -bb=1 -d=3  -h=13 --ml=60 --sl=100 -w=19 --si 1.png
+cd bu
+cd samples/build/
+./create_board_charuco -m=30 -bb=1 -d=3  -h=13 --ml=60 --sl=100 -w=19 --si 1.png
+./create_board_charuco -m=30 -bb=1 -d=2  -h=13 --ml=60 --sl=100 -w=19 --si 2.png
+./create_board_charuco -m=30 -bb=1 -d=1  -h=13 --ml=60 --sl=100 -w=19 --si 3.png
+./create_board_charuco -m=30 -bb=1 -d=2  -h=5 --ml=60 --sl=100 -w=5 --si 3.png
+ls
+./create_board_charuco -m=30 -bb=1 -d=1  -h=5 --ml=60 --sl=100 -w=5 --si 2.png
+./create_board_charuco -m=30 -bb=1 -d=3  -h=5 --ml=60 --sl=100 -w=5 --si 1.png
+eog *.png
+make -j4
+./create_board_charuco -m=30 -bb=1 -d=3  -h=5 --ml=60 --sl=100 -w=5 --si 1.png
+make -j4
+./create_board_charuco -m=30 -bb=1 -d=3  -h=5 --ml=60 --sl=100 -w=5 --si 1.png
+make -j4
+./create_board_charuco -m=30 -bb=1 -d=3  -h=5 --ml=60 --sl=100 -w=5 --si 1.png
+make -j4
+./create_board_charuco -m=30 -bb=1 -d=3  -h=5 --ml=60 --sl=100 -w=5 --si 1.png
+make -j4 && ./create_board_charuco -m=30 -bb=1 -d=3  -h=5 --ml=60 --sl=100 -w=5 --si 1.png
+make -j4 && ./create_board_charuco -m=30 -bb=1 -d=3  -h=5 --ml=60 --sl=100 -w=5 --si 2.png
+eog 1.png 2.png
+make -j4 && ./create_board_charuco -m=25 -bb=1 -d=3  -h=13 --ml=60 --sl=100 -w=20 --si 2.png
+ls
+eog 2.png
+nautilus .
+make -j4 && ./create_board_charuco -m=125 -bb=1 -d=3  -h=13 --ml=300 --sl=500 -w=20 --si 2.png
+ls
+git status
+ls
+git status
+nautilus .
+ls
+cd ~/fc/
+ls
+cd aruco/
+ls
+vim
+cd ..
+ls
+cd transformer-pipeline/
+cd ~
+cd test/
+ls
+cd ~/gh/
+ls
+cd opencv_contrib/
+ls
+vim
+ls
+cd samples/
+ls
+cd ..
+ls
+cd modules/
+ls
+cd aruco/
+ls
+vim
+ls
+ls
+cd ~/test/cpp/
+ls
+cd ..
+ls
+cd asm/
+ls
+cd ..
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+cd ~/gh/
+ls
+cd lab/
+ls
+cd ..
+ls
+cd ar
+cd ~/fc/aruco/
+ls
+vim
+ls
+cd /usr/lib/
+ls
+cd ..
+ls
+find . | grep routine
+cd ..
+ls
+find . | grep routine
+ls
+cd Desktop/
+ls
+python3 1.py
+python3
+python3 1.py
+python3
+python3 1.py
+git status
+git add 1.py
+git diff --cached 
+git commit -m "sort corners"
+git push
+python3 1.py
+git add -A
+git status
+git commit -m "cal pos"
+git push
+python3 1.py
+git status
+git add -A
+python3 1.py
+python3
+python3 1.py
+python3
+python3 1.py
+git status
+git add -A
+git status
+git commit -m "add reverse projection"
+git push
+python3 1.py
+eog images/*.bmp
+python3 1.py
+git status
+git diff
+git status
+git add 1.py
+git commit -m "format"
+git push
+git status
+python3 1.py
+python3 1.py
+nautilus .
+python3 1.py
+nautilus .
+python3 1.py
+ls
+cd images/
+ls
+cp a.bmp ../
+ls
+cd ..
+ls
+cd _images/
+ls
+eog a.bmp
+cp a.bmp ../b.bmp
+ls
+cd ..
+ls
+eog *
+ls
+eog b.bmp
+ls
+cd _images/
+ls
+eog b.bmp
+cd ..
+ls
+eog a.bmp
+eog b.bmp
+eog a.bmp b.bmp
+python 1.py
+eog a.bmp b.bmp
+python 1.py
+git status
+ls
+rm *.bmp
+ls
+git status
+git add 1.py
+git commit -m "upd"
+git push
+git remote show origin
+ls
+git status
+git remote 
+git remote show origin
+git remote -v
+git remote show origin
+python3 1.py
+git status
+git add .
+git status
+git commit -m "add tools.py"
+git push
+python 1.py
+eog --help
+python 1.py
+ls
+cd _images/
+ls
+rm *
+ls
+cd ..
+python 1.py
+python3
+python3 1.py
+python3 test.py 
+python3 1.py
+python3
+python3 1.py
+ls
+python3 1.py
+ls
+rm _images/*
+ls
+ls _images/
+python3 1.py
+ls
+cd _images/
+ls
+eog *
+python3 1.py
+cd ..
+python3 1.py
+eog images/*
+eog _images/*
+git status
+git add -A
+git status
+ls
+git reset HEAD tools.pyc
+git status
+git add -A
+git status
+git commit -m "add calibrate camera"
+git push
+git status
+git push
+python3 1.py
+ls
+cd images/
+ls
+git add -f {a,b,c,d}.bmp
+g
+git commit -m "add bmp"
+cd ..
+git push
+s
+ls
+g
+rm 1.cpp
+ls
+rm CMakeLists.txt 
+ls
+rm test.py 
+ls
+g
+ls
+git reset HEAD --hard
+git sattus
+git status
+ls
+cd ~
+ls
+cd .config/
+ls
+cd ..
+ls
+cd .config/
+ls
+cd ..
+ls
+git status
+cd .cache/
+ls
+cd ~
+ls
+cd fc/
+ls
+cd ..
+ls
+cd fc/
+ls
+cd dl-k8s-kube/
+ls
+du -hl
+ls
+cd ..
+ls
+cd ~
+ls
+cd .cache/
+ls
+cd netease-cloud-music/
+ls
+g
+ls
+cd Cef/
+ls
+g
+ls
+cd Cache/Local\ Storage/
+ls
+pwd
+'/home/gjs/.cache/netease-cloud-music/Cef/Cache/Local Storage'
+cd '/home/gjs/.cache/netease-cloud-music/Cef/Cache/Local Storage'
+cd ~
+cd /home/gjs/.cache/netease-cloud-music/Cef/Cache/Local Storage
+cd /home/gjs/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
+ls
+cd ~
+ls
+cd fc/
+ls
+chmod +x sync.sh 
+./sync.sh 
+cd fc/shmmsg/
+ls
+vim CMakeLists.txt 
+git status
+git reset HEAD --hard
+git log
+git status
+./sync.sh 
+ls
+cd ~
+ls
+cd fc/
+ls
+cd saki_detection/
+ls
+vim sync.sh 
+ls
+cd ~
+ls
+vim sync.sh
+ls
+vim sync.sh
+ls
+chmod +x sync.sh
+./sync.sh 
+ls
+vim sync.sh 
+cd ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
+ls
+g
+git add -A
+git status
+ls
+git add -f shmmsg
+git status
+ls
+git subtree 
+ls
+tar cvf ~/fc/shmmsg 
+ls
+tar cvf ~/fc/shmmsg/ 
+tar cvf ~/fc/shmmsg/*
+ls
+cd ~/fc/shmmsg/
+ls
+cd ..
+ls
+cd shmmsg/
+ls
+cd ..
+ls
+tar zcvf shmmsg/
+tldr tar
+tar zcvf shmmsg.tar -C shmmsg
+tar -czf shmmsg.tar -C shmmsg
+tar -czf shmmsg.tar -C shmmsg/
+tar -czf shmmsg.tar shmmsg/*
+ls
+tar -tf shmmsg
+tar -ztf shmmsg
+tar -cf shmmsg.tar shmmsg/*
+ls
+ll
+tar -tf shmmsg.tar
+ls
+tar -xf shmmsg.tar ..
+tar -xf shmmsg.tar -C ..
+ls
+cd ..
+ls
+rm -rf shmmsg/
+ls
+cd fc/
+ls
+tar -xf shmmsg.tar -C ..
+cd ..
+ls
+cd shmmsg/
+ls
+vim
+ls -a
+cd ..
+ls
+cd fc/shmmsg/
+ls
+cd ..
+sl
+tldr tar
+man tar
+tar cvf shmmsg.tar shmmsg
+ls
+tar cf shmmsg.tar shmmsg
+ls
+tar cvf shmmsg.tar shmmsg
+ls
+tar cvf shmmsg.tar shmmsg
+ls
+cd ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
+ls
+rm shmmsg
+ls
+rm -rf shmmsg
+rm shmmsg.tar 
+ls
+ll
+ll -h
+tar xf shmmsg.tar .
+ls
+tar xf shmmsg.tar
+ls
+cd home/
+ls
+cd gjs/
+ls
+cd fc/shmmsg/
+ls
+cd ..
+ls
+cd shmmsg/
+git status
+git diff
+cat CMakeLists.txt 
+vim CMakeLists.txt 
+ls
+git status
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+rm -rf home/
+ls
+man tar
+tldr tar
+man tar
+ls
+tar xf shmmsg.tar
+ls
+cd shmmsg/
+ls
+git status
+cd ..
+ls
+rm -rf shmmsg
+rm -rf shmmsg.tar 
+ls
+git status
+git add -A
+git status
+s
+ls
+cd ~
+ls
+cd fc/
+ls
+cd rttr_rep/
+ls
+cd include/
+ls
+cd rttr/
+ls
+cd ~
+ls
+cd fc/
+ls
+cd aruco/
+ls
+cd ..
+ls
+s
+ls
+cd python-aruco/
+ls
+cd ..
+ls
+git clone git@gitlab.sho.hypereal.com:monitoring/http-dhcp-server.git
+ls
+cd http-dhcp-server/
+git status
+git branc
+git branch
+git log
+git branch -a
+git checkout -b dev remotes/origin/dev
+git log
+git checkout master
+git branch
+git log
+ls
+./sync.sh 
+ls
+./sync.sh 
+cd fc/
+ls
+cd shmmsg/
+ls
+git status
+git pull
+git status
+git log
+git branch
+cd .git/
+ls
+git add .
+git status
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+vim sync.sh 
+ls
+git add dockerfiles/
+cd fc/
+ls
+cd dl-k8s-kube/
+ls
+vim
+s
+ls
+cd ~
+ls
+vim
+vim sync.sh 
+ls
+./sync.sh 
+ls
+cd .cache/netease-cloud-music/
+ls
+cd Cef/Cache/
+ls
+ls Local\ Storage/
+du
+du -hl
+ls
+cd Local\ Storage/
+ls
+du 
+du -hl
+ls
+ll -h
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~/.config/
+ls
+cd google-chrome/
+ls
+cd ~
+g
+cd .config/google-chrome/
+du -hd1
+cd ~
+ls
+vim sync.sh 
+ls
+./sync.sh 
+ls
+vim sync.sh 
+cd ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
+ls
+rm dl-k8s-kube.tar 
+ls
+python3 main.py 
+jobs
+ls
+python3 main.py 
+python3 main.py  && eog _images/
+g
+git add -A
+g
+git commit -m "rename"
+git push
+ls
+git status
+ls
+cd ..
+ls
+cd ..
+ls
+git status
+ls
+git stauts
+ls
+git status
+ls
+nautilus .
+ls
+git status
+g
+ls
+sl
+git status
+ls
+cd Downloads/
+ls
+cp calibration.tar ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
+ls
+ls ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
+rm ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage/aruco.tar 
+ls
+ls ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage

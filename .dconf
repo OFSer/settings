@@ -267,11 +267,18 @@ secondary-color='#2c001e'
 sources=[('xkb', 'us')]
 xkb-options=@as []
 
+[org/gnome/eog/plugins]
+active-plugins=['fullscreen']
+
 [org/gnome/eog/view]
 background-color='rgb(0,0,0)'
 extrapolate=false
 use-background-color=true
+autorotate=true
 interpolate=false
+
+[org/gnome/eog/fullscreen]
+upscale=true
 
 [org/gnome/eog/ui]
 sidebar=false
