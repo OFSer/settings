@@ -38068,3 +38068,21 @@ killall -9 steam
 steam
 g
 git push
+g
+git reset HEAD --hard
+git status
+./config.sh pull
+sudo reboot
+unity --version
+sudo apt-get install indicator-appmenu appmenu-gtk
+sudo apt install unity-gtk2-module
+reboot
+sudo apt install unity
+sudo apt autoremove 
+initctl restart unity-panel-service
+systemctl restart unity-panel-service
+sudo systemctl restart unity-panel-service
+sudo apt instsall unity-panel-service
+sudo apt install indicator-appmenu
+sudo apt install indicator-appmenu-tools 
+reboot

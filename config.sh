@@ -142,6 +142,7 @@ install_desktop(){
 	sudo apt remove -y --purge --no-install-recommends gnome-desktop3-data
 	sudo apt install -y --no-install-recommends ubuntu-unity-desktop
 	sudo apt remove -y --purge gnome-software*
+	sudo apt install -y indicator-appmenu-*
 }
 install_vim(){
 	export DEBIAN_FRONTEND=noninteractive

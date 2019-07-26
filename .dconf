@@ -83,8 +83,8 @@ use-experimental-views=false
 [org/gnome/nautilus/window-state]
 sidebar-width=256
 start-with-sidebar=true
-geometry='909x374+0+30'
-maximized=true
+geometry='909x368+325+272'
+maximized=false
 
 [org/gnome/nautilus/compression]
 default-compression-format='zip'
@@ -284,10 +284,12 @@ upscale=true
 sidebar=false
 
 [org/gnome/terminal/legacy]
-tab-policy='always'
 menu-accelerator-enabled=false
-schema-version=uint32 3
 theme-variant='system'
+default-show-menubar=false
+mnemonics-enabled=false
+schema-version=uint32 3
+tab-policy='always'
 
 [org/gnome/terminal/legacy/keybindings]
 switch-to-tab-1='disabled'
@@ -614,7 +616,7 @@ regular-auto-launch-interval=14
 release-check-time=uint32 1563502283
 
 [com/ubuntu/user-interface]
-scale-factor={'HDMI-0': 10, 'DP-4': 10}
+scale-factor={'DP-4': 10, 'HDMI-0': 10}
 
 [com/ubuntu/user-interface/desktop]
 scaling-factor=uint32 1
