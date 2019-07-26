@@ -33,7 +33,7 @@ alias osu='LD_LIBRARY_PATH="~/osu/osu.Desktop/bin/Debug/netcoreapp2.2" sudo dotn
 alias mysql='mysql --login-path=gjs'
 alias ssh60='sshpass -p s ssh gjs@10.0.18.131'
 alias ssh='callssh'
-alias vtmux='vim -c "set showtabline=1" -c "tab term bash" -c "bw! 1"'
+alias vimux='vim -c "set showtabline=1" -c "tab term bash" -c "bw! 1"'
 #alias git='Git'
 alias g='git status'
 alias gss='git status -s --ignore-submodules'

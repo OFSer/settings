@@ -37673,3 +37673,398 @@ ls ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
 rm ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage/aruco.tar 
 ls
 ls ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
+ls
+cd ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
+ls
+git status
+ls
+ls
+cd ~
+ls
+./config.sh push sub
+git status
+ls
+cd ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
+ls
+git status
+git push
+ls
+rm calibration.tar 
+ls
+git status
+ls
+git add -A
+git status
+git commit -m "upd"
+git push
+ls
+cd ~
+ls
+cd .config/google-chrome/
+ls
+git status
+git log
+git push
+cd ~
+ls
+cd ~/Downloads/
+ls
+cp calibration.tar.gz ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
+ls
+git status
+ls
+cd ~/.config/google-chrome/
+ls
+git push
+git log
+ls
+ls
+cd ~
+ls
+vim config.sh 
+ls
+git status
+ls
+git status
+ls
+cd ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
+git push
+ls
+ll
+ll -h
+ls
+cd .git/
+ls
+git log
+git reset d7a7e28ea9e056d062aa00397c2049861e1e224e
+git log
+ls
+cd ..
+ls
+git status
+ls
+du -hd1
+git add -A
+git commit -m "upd"
+git push
+ls
+ls
+g
+python3 main.py 
+python3 main.py  && eog _images/*
+ls
+python3 main.py  && eog _images/*
+ls
+rm -rf _images/
+ls
+python3 main.py  && eog _images/*
+git status
+git add -A
+git commit -m "upd"
+git push
+ls
+g
+python3 main.py && eog _images/*
+git status
+git diff
+git status
+git add -A
+python3 main.py && eog _images/*
+git status
+git commit -m "format"
+git push
+python3 main.py 
+python3 main.py  && eog _images/*
+git add -A
+git status
+git diff --cached 
+git commit -m "add global solvePnP"
+git push
+ls
+g
+ls
+python3 main.py 
+nautilus .
+ls
+nautilus .
+python3 main.py 
+python3 main.py && eog _images/*
+git status
+git add -A
+git commit -m "add global pnp"
+git pushy
+git push
+ls
+git status
+ls
+git commit -m "add global pnp"
+python3 main.py 
+python3 main.py  && eog _images/*
+ls
+git status
+ls
+g
+ls
+git status
+python3 main.py  && eog _images/*
+ls
+python3
+python3 main.py  && eog _images/*
+ls
+cd _images/
+ls
+cd ..
+ls
+python3 main.py
+ls
+ls _images/
+ls
+mkdir _7-24
+python3 main.py
+eog _7-24/*
+python3 main.py && eog _7-24/*
+eog _7-24/*
+python3 main.py  && eog _images/*
+python3 main.py  && eog _7-24/*
+nautilus .
+python3 main.py  && eog _7-24/*
+python3
+ls 7-24/*
+python3 main.py  && eog _7-24/*
+s
+git status
+git add *.py
+git commit -m "rename"
+git push
+git checkout -b dev
+git pull
+git pull origin dev
+g
+git stash
+git status
+git checkout master
+git status
+git reset HEAD --hard
+git status
+git checkout -b master
+git checkout master
+git branch -d dev
+git pull
+git branch -a
+git checkout -b dev remotes/origin/dev
+g
+git log
+python3 main.py
+python3 main.py && eog _images/a.bmp
+ls
+cd fc/gh
+ls
+cd fc/aruco/
+ls
+mkdir 2
+ls
+python3 main.py
+python3 main.py && eog _images/a.bmp
+python3 main.py && eog _1/a.bmp
+python3 main.py && eog _1/*
+ls
+git status
+git add main.py tools.py 
+git commit -m "fix rows cols"
+git push
+ls
+mkdir input
+mkdir output
+ls
+mv 2 input
+ls
+ls input/
+ls
+ls input/2/
+ls
+ls __pycache__/
+ls
+cd input/
+ls
+cd ..
+ls
+ls 1
+ls
+mv 1 input
+ls
+mv 7-24 input/
+ls
+ls images/
+mv images/ input/
+ls
+rm _* -rf
+ls
+cd input/
+ls
+cd images/
+ls
+nautilus .
+ls
+eog {a,b,c,d}.bmp
+ls
+rm -rf [^a-b]*
+ls
+python3 main.py 
+python3 main.py  && eog output/1/*
+ls
+cd output/1/
+ls
+python3 
+input/1/a.bmp
+a = input/1/a.bmp
+tldr cur
+tldr cut
+echo 'input/1/a.bmp' | cut -d'/' -f2-
+python3
+python3 main.puy
+python3 main.py
+cd ..
+python3 main.py
+python3 main.py && eog output/1/*
+python3 main.py && eog output/2/*
+git diff
+git status
+cd input/
+sl
+ls
+git status
+cd ..
+ls
+git status
+cd input/
+ls
+cd 2
+ls
+cd ..
+ls
+mv 2 0
+ls
+cd 0
+ls
+cd ..
+ls
+git add 0
+git add 0 -f
+g
+git add -A
+g
+git commit -m "add input output"
+git push
+ls
+git status
+ls
+g
+python3 main
+cd ..
+python3 main.py 
+ls
+cd .out
+cd output/
+ls
+cd 0
+ls
+cd ..
+ls
+cd ..
+ls
+python3 main.py 
+ls
+history 
+python3 main.py 
+python3 main.py  && eog output/0/
+git status
+git add -A
+git commit -m "update"
+git push
+python3 main.py j
+python3 main.py
+python3 main.py && eog output/0/*
+git status
+git add -A
+git status
+git commit -m "complete pixel to claw"
+git push
+python3 main.py 
+g++ -std=c++2a 1.cpp
+ls
+cd ~
+ls
+cd test/cpp/
+ls
+vim 1.cpp
+sudo apt install python3-dev
+ls
+vim 1.cpp
+ls
+python3
+ls
+python
+cd ~
+ls
+vim .vimrc
+ls
+vim .vimrc
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+vim .gdbinit.d/auto 
+vim 
+ls
+docker images
+docker ps -a
+docker exec -it 3971955333f6 bash
+docker  start 3971955333f6 bash
+docker  start 3971955333f6
+docker ps
+docker images
+docker exec -it 3971955333f6 bash
+ls
+docker run -it -v ~:/root gcc:9.1 bash
+ls
+cd ~
+ls
+vim .vimrc
+cd dockerfiles/
+ls
+cd vim/
+ls
+vim
+vim Dockerfile 
+docker run -it gcc:91
+docker run -it gcc:9.1
+docker run -it -v ~:/root gcc:9.1
+ls
+history | grep docker | grep rm
+ps -ef | grep python
+ls
+vim
+ls
+python3 main.py
+ls
+cd fc/
+ls
+cd aruco/
+ls
+vim
+cd ~/Desktop/
+ls
+python3 main.py 
+ls
+cd ~
+cd fc/
+ls
+ps -ef | grep steam
+killall -9 steam
+steam
+g
+git push
