@@ -137,7 +137,7 @@ apt_update(){
 }
 install_desktop(){
 	#sudo apt install -y --no-install-recommends nvidia-384
-	sudo apt install -y --no-install-recommends nvidia-driver-390
+	sudo apt install -y --no-install-recommends nvidia-driver-430
 	sudo apt remove -y --purge --no-install-recommends ubuntu-desktop
 	sudo apt remove -y --purge --no-install-recommends gnome-desktop3-data
 	sudo apt install -y --no-install-recommends ubuntu-unity-desktop

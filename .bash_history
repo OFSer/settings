@@ -38086,3 +38086,112 @@ sudo apt instsall unity-panel-service
 sudo apt install indicator-appmenu
 sudo apt install indicator-appmenu-tools 
 reboot
+wd -s requirements
+g
+git diff
+sudo pip3 install conan clang pick
+steam
+cd .steam/
+ls
+cd ..
+rm -rf .steam
+sudo apt install   build-essential   clang   cmake   ffmpeg   libceres-dev   libcurl4-openssl-dev   libgtk2.0-dev   libprotobuf-dev   libsqlite3-dev   pkg-config   protobuf-compiler   qt5-default   redis   redis-server
+pip3 install -r requirements.txt 
+python3 testPixel2Claw.py 
+g
+git diff
+git add -A
+git commit -m "add requirements.txt"
+git push
+ls
+g
+ls
+g
+ls
+ls
+cd ..
+ls
+cd transformer-pipeline/
+ls
+cd build
+ls
+make -j4
+rm -rf *
+ls
+history | grep cmake
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j4
+ls
+cd bin/
+ls
+vim
+vim config.sh 
+g
+git diff .config/fcitx/profile
+./config.sh push
+ls
+g
+git status
+sudo apt install vim-gnome
+sudo apt install vim
+vim --version
+vim config.sh 
+./config.sh push
+ls
+g
+git diff HEAD^
+ls
+cd fc/
+ls
+cd aruco/
+ls
+vim requirements.txt
+nvidia-smi
+steam
+nvidia-smi
+ls
+cd ~
+ls
+ls -a
+ls -a | grep steam
+rm -rf .steampath 
+rm -rf .steampid
+steam
+ls
+find . | grep dota2
+find . | grep dota
+cd .steam/
+ls
+cd ..
+ls
+rm -rf .steam
+ls
+cd .steam
+ls
+sudo apt remove --purge steam
+sudo apt autoremove 
+uname -a
+sudo apt install steam
+steam
+sudo apt install libnvidia-gl-418:i386
+steam
+nvidia-smi
+sudo apt install nvidia-driver-430
+g
+git add -A
+git commit -m "remove cpp"
+git push
+g
+ls
+cd ~
+ls
+vim .vimrc
+steam
+nvidia-smi
+sudo reboot
+cd build/bin/
+ls
+./show_camera VT3_CAM_ST1.yaml
+sudo ./show_camera VT3_CAM_ST1.yaml
+ls
+sudo ./show_camera VT3_CAM_ST1
