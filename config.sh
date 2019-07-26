@@ -146,7 +146,7 @@ install_desktop(){
 }
 install_vim(){
 	export DEBIAN_FRONTEND=noninteractive
-	sudo apt install -y --no-install-recommends vim-gnome	locales curl
+	sudo apt install -y --no-install-recommends vim-gnome	locales curl vim
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	locale-gen en_US.UTF-8
