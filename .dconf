@@ -565,6 +565,9 @@ direct-maximize=false
 direct-height=768
 direct-width=1024
 
+[apps/indicators/chinaweather]
+city-id='101020100'
+
 [apps/update-manager]
 first-run=false
 launch-time=int64 1563575726

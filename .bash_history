@@ -38964,3 +38964,49 @@ cd fc/aruco/
 ls
 vim
 reboot
+#1564541633
+sudo apt install -y indicator-*
+#1564541655
+reboot
+#1564541248
+sudo vi /etc/NetworkManager/nm-system-settings.conf
+#1564541256
+sudo vi /etc/network/interfaces
+#1564541272
+ls
+#1564541352
+sudo apt-get install ubuntu-desktop
+#1564541373
+vim config.sh 
+#1564541501
+echo 'ubuntu-advantage-tools ubuntu-app-launch ubuntu-app-launch-tools ubuntu-app-test ubuntu-artwork ubuntu-benchmark-tools ubuntu-budgie-desktop ubuntu-budgie-themes ubuntu-business-defaults ubuntu-cloudimage-keyring ubuntu-cloud-keyring ubuntu-core-config ubuntu-core-launcher ubuntu-core-libs ubuntu-core-libs-dev ubuntu-core-snapd-units ubuntu-dbgsym-keyring ubuntu-defaults-builder ubuntu-defaults-it ubuntu-defaults-nl ubuntu-defaults-nl-nl ubuntu-defaults-zh-cn ubuntu-desktop ubuntu-developer-tools-center ubuntu-dev-tools ubuntu-docs ubuntu-drivers-common ubuntu-edu-preschool ubuntu-edu-primary ubuntu-edu-secondary ubuntu-edu-tertiary ubuntu-fan ubuntu-gnome-default-settings ubuntu-gnome-desktop ubuntu-gnome-wallpapers ubuntu-gnome-wallpapers-trusty ubuntu-gnome-wallpapers-utopic ubuntu-gnome-wallpapers-xenial ubuntu-gnome-wallpapers-yakkety ubuntu-image ubuntu-keyring ubuntu-kylin-docs ubuntu-kylin-software-center ubuntu-kylin-sso-client ubuntu-kylin-sso-client-qt ubuntu-kylin-wizard ubuntu-make ubuntu-mate-artwork ubuntu-mate-core ubuntu-mate-default-settings ubuntu-mate-desktop ubuntu-mate-guide ubuntu-mate-icon-themes ubuntu-mate-lightdm-theme ubuntu-mate-live-settings ubuntu-mate-themes ubuntu-mate-wallpapers ubuntu-mate-wallpapers-artful ubuntu-mate-wallpapers-bionic ubuntu-mate-wallpapers-common ubuntu-mate-wallpapers-complete ubuntu-mate-wallpapers-legacy ubuntu-mate-wallpapers-photos ubuntu-mate-wallpapers-utopic ubuntu-mate-wallpapers-vivid ubuntu-mate-wallpapers-wily ubuntu-mate-wallpapers-xenial ubuntu-mate-wallpapers-yakkety ubuntu-mate-wallpapers-zesty ubuntu-mate-welcome ubuntu-minimal ubuntu-mobile-icons ubuntu-mono ubuntu-online-tour ubuntu-packaging-guide ubuntu-packaging-guide-common ubuntu-packaging-guide-epub ubuntu-packaging-guide-epub-de ubuntu-packaging-guide-epub-es ubuntu-packaging-guide-epub-fr ubuntu-packaging-guide-epub-pt-br ubuntu-packaging-guide-epub-ru ubuntu-packaging-guide-epub-uk ubuntu-packaging-guide-html ubuntu-packaging-guide-html-de ubuntu-packaging-guide-html-es ubuntu-packaging-guide-html-fr ubuntu-packaging-guide-html-pt-br ubuntu-packaging-guide-html-ru ubuntu-packaging-guide-html-uk ubuntu-packaging-guide-pdf ubuntu-packaging-guide-pdf-de ubuntu-packaging-guide-pdf-es ubuntu-packaging-guide-pdf-fr ubuntu-packaging-guide-pdf-pt-br ubuntu-packaging-guide-pdf-ru ubuntu-packaging-guide-pdf-uk ubuntu-policy ubuntu-release-upgrader-core ubuntu-release-upgrader-gtk ubuntu-release-upgrader-qt ubuntu-remote-debug-host-tools ubuntu-report ubuntu-restricted-addons ubuntu-restricted-extras ubuntu-sdk-qmake-extras ubuntu-server ubuntu-session ubuntu-settings ubuntu-snappy ubuntu-snappy-cli ubuntu-software ubuntu-sounds ubuntu-standard ubuntu-system-service ubuntu-touch-settings ubuntu-touch-sounds ubuntu-unity-desktop ubuntu-vm-builder ubuntu-wallpapers ubuntu-wallpapers-artful ubuntu-wallpapers-bionic ubuntu-wallpapers-karmic ubuntu-wallpapers-lucid ubuntu-wallpapers-maverick ubuntu-wallpapers-natty ubuntu-wallpapers-oneiric ubuntu-wallpapers-precise ubuntu-wallpapers-quantal ubuntu-wallpapers-raring ubuntu-wallpapers-saucy ubuntu-wallpapers-trusty ubuntu-wallpapers-utopic ubuntu-wallpapers-vivid ubuntu-wallpapers-wily ubuntu-wallpapers-xenial ubuntu-wallpapers-yakkety ubuntu-wallpapers-zesty ubuntu-web-launchers ubuntu-wsl '
+#1564541505
+echo 'ubuntu-advantage-tools ubuntu-app-launch ubuntu-app-launch-tools ubuntu-app-test ubuntu-artwork ubuntu-benchmark-tools ubuntu-budgie-desktop ubuntu-budgie-themes ubuntu-business-defaults ubuntu-cloudimage-keyring ubuntu-cloud-keyring ubuntu-core-config ubuntu-core-launcher ubuntu-core-libs ubuntu-core-libs-dev ubuntu-core-snapd-units ubuntu-dbgsym-keyring ubuntu-defaults-builder ubuntu-defaults-it ubuntu-defaults-nl ubuntu-defaults-nl-nl ubuntu-defaults-zh-cn ubuntu-desktop ubuntu-developer-tools-center ubuntu-dev-tools ubuntu-docs ubuntu-drivers-common ubuntu-edu-preschool ubuntu-edu-primary ubuntu-edu-secondary ubuntu-edu-tertiary ubuntu-fan ubuntu-gnome-default-settings ubuntu-gnome-desktop ubuntu-gnome-wallpapers ubuntu-gnome-wallpapers-trusty ubuntu-gnome-wallpapers-utopic ubuntu-gnome-wallpapers-xenial ubuntu-gnome-wallpapers-yakkety ubuntu-image ubuntu-keyring ubuntu-kylin-docs ubuntu-kylin-software-center ubuntu-kylin-sso-client ubuntu-kylin-sso-client-qt ubuntu-kylin-wizard ubuntu-make ubuntu-mate-artwork ubuntu-mate-core ubuntu-mate-default-settings ubuntu-mate-desktop ubuntu-mate-guide ubuntu-mate-icon-themes ubuntu-mate-lightdm-theme ubuntu-mate-live-settings ubuntu-mate-themes ubuntu-mate-wallpapers ubuntu-mate-wallpapers-artful ubuntu-mate-wallpapers-bionic ubuntu-mate-wallpapers-common ubuntu-mate-wallpapers-complete ubuntu-mate-wallpapers-legacy ubuntu-mate-wallpapers-photos ubuntu-mate-wallpapers-utopic ubuntu-mate-wallpapers-vivid ubuntu-mate-wallpapers-wily ubuntu-mate-wallpapers-xenial ubuntu-mate-wallpapers-yakkety ubuntu-mate-wallpapers-zesty ubuntu-mate-welcome ubuntu-minimal ubuntu-mobile-icons ubuntu-mono ubuntu-online-tour ubuntu-packaging-guide ubuntu-packaging-guide-common ubuntu-packaging-guide-epub ubuntu-packaging-guide-epub-de ubuntu-packaging-guide-epub-es ubuntu-packaging-guide-epub-fr ubuntu-packaging-guide-epub-pt-br ubuntu-packaging-guide-epub-ru ubuntu-packaging-guide-epub-uk ubuntu-packaging-guide-html ubuntu-packaging-guide-html-de ubuntu-packaging-guide-html-es ubuntu-packaging-guide-html-fr ubuntu-packaging-guide-html-pt-br ubuntu-packaging-guide-html-ru ubuntu-packaging-guide-html-uk ubuntu-packaging-guide-pdf ubuntu-packaging-guide-pdf-de ubuntu-packaging-guide-pdf-es ubuntu-packaging-guide-pdf-fr ubuntu-packaging-guide-pdf-pt-br ubuntu-packaging-guide-pdf-ru ubuntu-packaging-guide-pdf-uk ubuntu-policy ubuntu-release-upgrader-core ubuntu-release-upgrader-gtk ubuntu-release-upgrader-qt ubuntu-remote-debug-host-tools ubuntu-report ubuntu-restricted-addons ubuntu-restricted-extras ubuntu-sdk-qmake-extras ubuntu-server ubuntu-session ubuntu-settings ubuntu-snappy ubuntu-snappy-cli ubuntu-software ubuntu-sounds ubuntu-standard ubuntu-system-service ubuntu-touch-settings ubuntu-touch-sounds ubuntu-unity-desktop ubuntu-vm-builder ubuntu-wallpapers ubuntu-wallpapers-artful ubuntu-wallpapers-bionic ubuntu-wallpapers-karmic ubuntu-wallpapers-lucid ubuntu-wallpapers-maverick ubuntu-wallpapers-natty ubuntu-wallpapers-oneiric ubuntu-wallpapers-precise ubuntu-wallpapers-quantal ubuntu-wallpapers-raring ubuntu-wallpapers-saucy ubuntu-wallpapers-trusty ubuntu-wallpapers-utopic ubuntu-wallpapers-vivid ubuntu-wallpapers-wily ubuntu-wallpapers-xenial ubuntu-wallpapers-yakkety ubuntu-wallpapers-zesty ubuntu-web-launchers ubuntu-wsl ' | grep desktop
+#1564541533
+history 
+#1564541542
+ls
+#1564541542
+g
+#1564541551
+go
+#1564541553
+vim .bash
+#1564541559
+ls
+#1564541561
+./config.sh push
+#1564541571
+./config.sh pull
+#1564541575
+git diff
+#1564541578
+ls
+#1564541597
+vim config.sh 
+#1564541812
+reboot
+#1564541791
+rm ~/.cache/software-center -R
+#1564541796
+unity --reset &
