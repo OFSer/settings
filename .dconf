@@ -38,12 +38,12 @@ show-tabs-mode='auto'
 side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/Desktop'
+virtual-root='file:///home/gjs/Downloads'
 tree-view=true
 root='file:///'
 
 [org/gnome/gedit/plugins]
-active-plugins=['docinfo', 'spell', 'filebrowser', 'time', 'modelines']
+active-plugins=['spell', 'filebrowser', 'docinfo', 'modelines', 'time']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
@@ -83,7 +83,7 @@ use-experimental-views=false
 [org/gnome/nautilus/window-state]
 sidebar-width=256
 start-with-sidebar=true
-geometry='909x368+325+272'
+geometry='966x597+325+276'
 maximized=false
 
 [org/gnome/nautilus/compression]
@@ -373,7 +373,7 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=222
-window-position=(2372, 186)
+window-position=(417, 186)
 show-size-column=true
 show-hidden=false
 window-size=(1086, 581)
@@ -594,6 +594,7 @@ migrated=true
 
 [com/canonical/indicator/sound]
 interested-media-players=['netease-cloud-music.desktop', 'vlc.desktop']
+visible=true
 
 [com/canonical/unity]
 lowgfx=false

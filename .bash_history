@@ -38195,3 +38195,611 @@ ls
 sudo ./show_camera VT3_CAM_ST1.yaml
 ls
 sudo ./show_camera VT3_CAM_ST1
+ls
+cd fc/transformer-pipeline/
+ls
+history 
+history  | grep came
+sudo build/bin/show_camera VT3_CAM_ST1
+cd fc/transformer-pipeline/
+sudo build/bin/show_camera VT3_CAM_ST1
+ifconfig
+history | grep useradd
+ls
+eog input/0/a.bmp 
+sudo apt install eog
+eog input/0/a.bmp 
+ifconfig
+ls
+ls
+git status
+ls
+cd fc/aruco/
+ls
+vim
+vim config.sh 
+g
+git diff
+./config.sh push
+ssh gjs@10.0.10.63
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "10.0.10.63"
+ssh gjs@10.0.10.63
+\ssh gjs@10.0.10.63
+ssh 10.0.10.93
+ping 10.0.10.93
+ssh 10.0.10.93
+\ssh 10.0.10.93
+\ssh heyuxuan@sudo grub-install --root-directory=/mnt /dev/loop19.0.10.93
+\ssh heyuxuan@10.0.10.93
+ls
+cd ~
+ls
+vim 
+vim config.sh 
+ls
+nvidia-smi
+steam
+nvidia-smi
+ls
+cd fc/aruco/
+ls
+vim data.txt 
+ls
+vim data.txt 
+ls
+sleep 1000 &
+ps -ef | grep sleep
+kill 18825
+ps -ef | grep sleep
+coproc sleep 10000 &
+jobs
+fg
+coproc sleep 10000 
+jobs
+ps -ef | grep sleep
+kill -9 18943
+ls
+( sleep 1000 & )
+jobs
+ps -ef | grep sleep
+ps -ef | grep sleep
+kill 19110
+ls
+kill 19110
+ps -ef | grep sleep
+steam
+ls
+g
+git diff
+ls
+ssh heyuxuan@10.0.10.96
+\ssh heyuxuan@10.0.10.96
+curl http://10.0.10.186:10086/cameras/VT3_CAM_ST4/image?exposure=200000&undistort=false
+ls
+jobs
+ls
+cd input/
+ls
+mkdir 3
+mkdir 4
+ls
+cd 4
+ls
+curl http://10.0.10.186:10086/cameras/VT3_CAM_ST4/image?exposure=200000&undistort=false --output 1.png
+ls
+curl 'http://10.0.10.186:10086/cameras/VT3_CAM_ST4/image?exposure=200000&undistort=false' --output 1.png
+ls
+eog 1.png
+curl 'http://10.0.10.186:10086/cameras/VT3_CAM_ST4/image?exposure=200000&undistort=false' --output 1.bmp
+eog 1.bmp
+ls
+curl 'http://10.0.10.186:10086/cameras/VT3_CAM_ST4/image?exposure=200000&undistort=false' --output 1.png
+eog 1.png
+ls
+rm -rf *
+ls
+wget 'http://10.0.10.186:10086/cameras/VT3_CAM_ST4/image?exposure=200000&undistort=false'
+ls
+rm *
+ls
+curl 'http://10.0.10.186:10086/cameras/VT3_CAM_ST4/image?exposure=200000&undistort=false' --output 1.png
+eog 1.png
+s
+ls
+python3 calibrate.py 
+python3 testPixel2Claw.py 
+ls
+g
+git status
+git diff
+git add -A
+git commit -m "move define"
+git push
+ls
+g
+git add -A
+g
+git add -A
+git commit -m "rename"
+git push
+python3 calibrate.py 
+python3 test_pixel_2_claw.py 
+git status
+g
+git add -A
+python3 get_images.py 
+ls
+cd input/
+ls
+cd 0/
+ls
+eog a.png
+ls
+g
+cd ..
+g
+git diff
+git add -A
+git status
+git commit -m "add get_images"
+git push
+python3 calibrate.py 
+g
+git add -A
+git status
+git diff
+git diff --cached 
+git commit -m "rename"
+git push
+python3 get_data.py 
+python3 get_data.py 
+python3
+python3 get_data.py 
+ls
+mkdir input/2
+ls
+python3 get_data.py 
+g
+git diff
+git add -A
+git commit -m "add data to file"
+git push
+python3 tools.py
+g
+git diff
+g
+git diff tools.py
+g
+git diff get_data.py
+g
+git status
+git add -A
+git commit -m "upd"
+git push
+python3 calibrate.py 
+ls
+python3 calibrate.py 
+ls
+cd input/
+ls
+rm -rf 2
+cp 0 2
+ls
+cp -R 0 2
+ls
+cd 2
+ls
+cd ..
+ls
+python3 cal
+cd ..
+python3 calibrate.py 
+python3 test_pixel_2_claw.py 
+ls
+g
+git status
+git add -A
+git status
+git commit -m "add config.py"
+git push
+g
+steam
+ls
+g
+vim config.sh 
+ls
+g
+git diff
+git add -A
+git commit -m "rm data.txt"
+git push
+g
+python3 test_pixel_2_claw.py 
+python3 calibrate.py 
+g
+git status
+git diff
+git add -A
+git commit -m "upd"
+git push
+git status
+g
+git status
+ls
+cd build/
+ls
+cd ..
+rm -rf build/
+ls
+cat data.txt 
+ls
+rm data.txt 
+git status
+g
+ls
+python3 test_pixel_2_claw.py 
+g
+python3 calibrate.py 
+python3 test_pixel_2_claw.py 
+python3 calibrate.py 
+ls
+cp input/0/board2claw.json ../1/
+cp input/0/board2claw.json ../1
+ls
+python3 calibrate.py 
+ls
+cd input/
+ls
+cd 1
+ls
+cp input/0/board2claw.json ../1/board2claw.json
+ls
+cp ../0/board2claw.json ../1/board2claw.json
+ls
+cat board2claw.json 
+cd ../..
+ls
+python3 calibrate.py 
+ls
+cd input/
+ls
+cd 0
+ls
+cd ..
+ls
+cd 1
+ls
+cd ..
+ls
+cd ..
+python3 calibrate.py 
+ls
+g
+git diff
+git add -A
+git commit -m "add file check"
+git push
+ls
+python3 calibrate.py 
+ls
+g
+python3 calibrate.py 
+ls
+g
+git status
+python3 calibrate.py 
+g
+git diff
+git add -A
+git commit -m "add file check"
+git push
+g++ 1.cpp
+./a.out
+g++ 1.cpp && ./a.out
+g++ 1.cpp
+g++ 1.cpp && ./a.out
+ls
+ls
+cd ..
+ls
+cd transformer-pipeline/
+ls
+cd build
+ls
+:q
+ls
+cd input/
+ls
+mkdir 5
+ls
+python3 get_data.py 
+ls
+cd fc/
+ls
+cd aruco/
+ls
+cd build/
+ls
+cd ..
+ls
+vim
+ls
+vim
+ls
+vim
+ls
+ls
+cd fc/aruco/
+ls
+vim tools.py
+ls
+g
+ls
+g
+clang
+ls
+cd ~/test/
+ls
+ls
+cd fc/aruco/
+ls
+vim data.txt 
+ls
+cat data.txt 
+ls
+vim
+ls
+cd ~
+ls
+cd cp
+cd test/cpp/
+ls
+vim 1.cpp
+ls
+clang 1.cpp
+ls
+clang --help
+ls
+ping github.com
+l
+ls
+g
+ls
+git diff
+history 
+vim .bashrc
+vim .bash
+ls
+#1564403780
+history 
+#1564403814
+vim .bash_history 
+#1564403822
+ls
+#1564403824
+g
+#1564403826
+history 
+#1564403839
+ls
+#1564403840
+g
+#1564403842
+vim .bash_history 
+#1564403865
+ls
+#1564404744
+sudo nethack -v 3
+#1564404755
+sudo nethogs -v 3
+#1564404780
+history | grep nethogs
+#1564404783
+sudo nethogs -v 3
+ls
+cd fc/aruco/
+ls
+vim tools.py
+ls
+python3 get_data.py 
+steam
+history 
+git status
+git diff
+ls
+g
+git diff HEAD^
+git diff HEAD~5 .dconf
+ls
+steam
+ls
+g
+git staus
+git diff .bash
+g++ 1.cpp && ./a.out
+#1564459029
+g
+#1564459030
+git diff
+#1564459145
+ls
+#1564459145
+g
+#1564459876
+ulimit -s
+#1564459879
+ulimit -sh
+#1564459880
+ulimit -s
+#1564459888
+ulimit -a
+#1564459908
+history | grep ulimit
+#1564459916
+ulimit -a
+cd ~/cpp
+ls
+cd ~/test/cpp/
+ls
+vim 1.cpp
+ls
+vim 1.cpp
+ls
+man pthread_create 
+ls
+#1564467525
+cd output/5/
+#1564467525
+ls
+#1564465516
+cd fc/aruco/
+#1564465516
+ls
+#1564465523
+python3 get_data.py 
+#1564465597
+ls
+#1564465674
+python3 get_data.py 
+#1564467504
+ls
+#1564467506
+vim get_data.py 
+#1564467539
+cd fc/aruco/
+#1564467539
+ls
+#1564467543
+python3 get_data.py 
+#1564473447
+ls
+#1564473449
+make
+#1564473454
+cat Makefile 
+#1564475519
+man dummy
+#1564473551
+./main
+#1564474739
+make
+#1564474742
+./main
+#1564476893
+man swapcontext 
+#1564476898
+ls
+#1564476899
+man swapcontext 
+#1564477093
+man getcontext 
+#1564477447
+man uc_link
+#1564477839
+man getcontext
+#1564479439
+ls
+#1564477053
+ls
+#1564477054
+g++ 1.cpp
+#1564477055
+ls
+#1564477057
+./a.out 
+#1564479826
+g++ 1.cpp 
+#1564479829
+g++ 1.cpp  && ./a.out
+#1564479905
+g++ 1.cpp && ./a.out
+#1564479921
+g++ 1.cpp && time ./a.out
+#1564480404
+#include <stdio.h>
+#1564480404
+void ping();
+#1564480404
+void pong();
+#1564480404
+void ping(){
+#1564480404
+}
+#1564480404
+void pong(){
+#1564480404
+}
+#1564480404
+int main(int argc, char *argv[]){
+#1564480408
+g++ 1.cpp && ./a.out
+#1564480692
+g++ 1.cpp && ./a.out'
+#1564480695
+g++ 1.cpp && ./a.out
+#1564481192
+man ucontext_t
+#1564482148
+gcc 1.cpp
+#1564467556
+cd fc/aruco/
+#1564467557
+python3 get_data.py 
+#1564468065
+ls
+#1564468067
+vim get_data.py 
+#1564468116
+g
+#1564468117
+git add -A
+#1564468118
+g
+#1564468122
+git diff --cached 
+#1564468128
+python3 get_data.py 
+#1564469839
+ls
+#1564469971
+g
+#1564469974
+git diff
+#1564469977
+git add -A
+#1564469979
+g
+#1564469983
+git diff --cached 
+#1564469986
+ls
+#1564469996
+python3 test_pixel_2_claw.py 
+#1564470453
+eog input/5/test.png 
+#1564470487
+eog input/5/*
+#1564470500
+cd ..
+#1564470501
+cd aruco/
+#1564470505
+python3 test_pixel_2_claw.py 
+#1564487753
+steam
+#1564484154
+g++ 2.cpp && ./a.out
+#1564484178
+ls
+#1564484186
+g++ 2.cpp && ./a.out
+#1564484197
+mv 2.cpp 2.cpp.bak
+#1564484199
+./a.out
+#1564484219
+mv 2.cpp.bak 2.cpp.bak
+#1564484221
+mv 2.cpp.bak 2.cpp
+#1564484222
+ls
