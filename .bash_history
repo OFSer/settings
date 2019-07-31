@@ -38803,3 +38803,164 @@ mv 2.cpp.bak 2.cpp.bak
 mv 2.cpp.bak 2.cpp
 #1564484222
 ls
+#1564540918
+go
+#1564540928
+sudo snap install go
+#1564540935
+sudo snap install go --classic 
+#1564541042
+go
+#1564541044
+go mod
+#1564541063
+vim .bash
+#1564541091
+go
+#1564541094
+go mod
+#1564477014
+ls
+#1564477017
+cd ~/test/
+#1564477018
+ls
+#1564477019
+cd cpp/
+#1564477020
+ls
+#1564477021
+vim 1.cpp
+#1564479821
+ls
+#1564479821
+vim 1.cpp
+#1564484137
+ls
+#1564484139
+vim 2.cpp
+#1564539216
+ls
+#1564539216
+g
+#1564539404
+sudo apt install gnome-software*
+#1564538496
+make
+#1564538498
+ls
+#1564538498
+./main
+#1564538938
+make
+#1564538997
+./main
+#1564539029
+make && ./main
+#1564466509
+g
+#1564466510
+git diff
+#1564466519
+python3 get_data.py 
+#1564466565
+g
+#1564466566
+git add -A
+#1564466577
+git commit -m "upd efinger to zero"
+#1564466579
+git push
+#1564466896
+git diff
+#1564466901
+git add -A
+#1564466912
+git commit -m "add test input"
+#1564466913
+git push
+#1564471641
+g
+#1564471643
+git diff
+#1564471667
+eog output/5/
+#1564471741
+eog input/5/{a,b,c}.png
+#1564471750
+eog input/5/*.png
+#1564471793
+g
+#1564471795
+git add -A
+#1564471799
+git diff --cached 
+#1564471806
+g
+#1564471814
+git diff --cached 
+#1564471827
+g
+#1564471833
+git commit -m "fix some bug"
+#1564471835
+git push
+#1564472650
+g
+#1564481208
+man getcontext 
+#1564481964
+man trampoline
+#1564539220
+cd ~
+#1564539220
+g
+#1564539224
+git diff .bash
+#1564539233
+./config.sh push
+#1564539249
+git remote show origin
+#1564539274
+./config.sh push
+#1564539286
+git diff HEAD^ .dconf
+#1564539309
+ls
+#1564539309
+g
+#1564539336
+vim config.sh 
+#1564473423
+cd ~/gh/
+#1564473424
+ls
+#1564473426
+git clone https://github.com/cloudwu/coroutine.git
+#1564473430
+cd coroutine/
+#1564473431
+ls
+#1564473432
+make 
+#1564473433
+ls
+#1564473436
+./main 
+#1564473441
+vim main.c 
+#1564475618
+ls
+#1564475620
+vim .ycm_extra_conf.py 
+#1564475624
+vim
+g
+git diff
+ls
+g
+ls
+cd fc/aruco/
+ls
+vim
+reboot
