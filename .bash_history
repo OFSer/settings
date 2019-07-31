@@ -39010,3 +39010,80 @@ reboot
 rm ~/.cache/software-center -R
 #1564541796
 unity --reset &
+#1564541902
+sudo apt instlal unity-lens-applications
+#1564541904
+sudo apt install unity-lens-applications
+#1564541920
+sudo apt install unity-lens-applications unity-lens-files
+#1564541940
+vim config.sh 
+#1564543254
+g
+#1564543272
+vim config.sh 
+#1564543300
+history | grep disk
+#1564543499
+history 
+#1564543516
+ls
+#1564543529
+vim .bash_history 
+#1564543563
+ls
+#1564543564
+vim .bash
+#1564543583
+history 
+#1564542027
+ls
+#1564542028
+g
+#1564542037
+git diff config.sh
+#1564542655
+g
+#1564542657
+git diff
+#1564542660
+g
+#1564542671
+vim .gitignore 
+#1564542675
+g
+#1564542680
+./config.sh push
+#1564542691
+git diff HEAD^ .dconf
+#1564542939
+g
+#1564542940
+git diff
+#1564542942
+g
+#1564542943
+ls
+#1564542943
+g
+#1564542947
+git diff
+#1564542948
+g
+#1564543689
+git status
+cd ..
+cd ~/fc/aruco/
+ls
+vim tools.py
+make gcc
+make
+make all
+cd tool/
+ls
+make all
+ls
+make qemu
+ls
+rm -rf qemu
+make qemu
