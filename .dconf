@@ -1,6 +1,10 @@
 [system/proxy]
 use-same-proxy=false
 
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
 [org/gnome/settings-daemon/plugins/media-keys]
 terminal='<Control><Alt>t'
 
@@ -97,6 +101,12 @@ default-visible-columns=['name', 'size', 'date_modified']
 use-tree-view=false
 default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'mime_type', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'recency']
 
+[org/gnome/power-manager]
+info-history-type='charge'
+info-stats-type='discharge-accuracy'
+info-last-device='wakeups'
+info-page-number=3
+
 [org/gnome/evince/default]
 window-ratio=(1.9260416666666667, 1.8555555555555556)
 
@@ -184,8 +194,8 @@ repeat=true
 [org/gnome/desktop/calendar]
 show-weekdate=false
 
-[org/gnome/desktop/session]
-idle-delay=uint32 3600
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
 
 [org/gnome/desktop/wm/preferences]
 theme='Ambiance'
@@ -234,6 +244,9 @@ switch-to-workspace-up=['<Control><Alt>b']
 close=['<Alt>F4']
 switch-windows=['disabled']
 
+[org/gnome/desktop/session]
+idle-delay=uint32 3600
+
 [org/gnome/desktop/a11y/keyboard]
 slowkeys-beep-press=true
 mousekeys-accel-time=1200
@@ -266,6 +279,9 @@ secondary-color='#2c001e'
 [org/gnome/desktop/input-sources]
 sources=[('xkb', 'us')]
 xkb-options=@as []
+
+[org/gnome/control-center]
+last-panel='display'
 
 [org/gnome/eog/plugins]
 active-plugins=['fullscreen']
@@ -567,6 +583,7 @@ direct-width=1024
 
 [apps/indicators/chinaweather]
 city-id='101020100'
+places="{u'101220601': '\\xe5\\xae\\x89\\xe5\\xba\\x86', '101010100': '\\xe5\\x8c\\x97\\xe4\\xba\\xac', '101250101': '\\xe9\\x95\\xbf\\xe6\\xb2\\x99', '101020100': '\\xe4\\xb8\\x8a\\xe6\\xb5\\xb7'}"
 
 [apps/update-manager]
 first-run=false
@@ -613,7 +630,7 @@ text-scale-factor=1.0
 app-fallback-to-maximum-scale-factor=true
 
 [com/canonical/unity/launcher]
-favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://unity-control-center.desktop', 'application://gedit.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']
+favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'unity://running-apps', 'application://gnome-control-center.desktop', 'unity://expo-icon', 'unity://devices']
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14

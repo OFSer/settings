@@ -35,6 +35,7 @@ nnoremap 1 "1
 vnoremap <c-c> "+y
 vnoremap <c-x> "+d
 
+
 "--------------------------Tab-----------------------------------"
 inoremap <silent> L <esc>:tabm +<cr>
 nnoremap <silent> L <esc>:tabm +<cr>

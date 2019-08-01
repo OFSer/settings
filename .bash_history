@@ -39087,3 +39087,408 @@ make qemu
 ls
 rm -rf qemu
 make qemu
+ls
+cd ~
+ls
+vim .gdbinit
+ls
+g
+./config.sh push
+ls
+cd ..
+ls
+cd lab/
+ls
+vim
+ls
+make qemu-nox
+ls
+make qemu-nox-gdb
+make gdb
+ls
+cd ..
+ls
+cd ..
+ls
+cd lab/
+ls
+make qemu-nox
+ls
+g
+cat .gdb_history 
+cd ~
+g
+./config.sh pull
+g
+sudo apt remove indicator-power 
+sudo apt install indicator-power 
+git status
+sudo apt install indicator-*
+sudo apt search boost
+sudo apt search boost | grep boost
+sudo apt install libboost
+sudo apt install libboost-dev
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~/gh/
+ls
+cd opencv_contrib/
+ls
+vim
+ls
+pkg-config
+pkg-config --help
+pkg-config opencv --cflags
+pkg-config opencv
+pkg-config opencv --cflag
+pkg-config opencv --cflags
+pkg-config boost --cflags
+pkg-config libboost --cflags
+echo $PKG_CONFIG_PATH
+pkg-config 
+pkg-config  --help
+pkg-config  --libs
+pkg-config  --libs boost
+cd /usr/lib/pkgconfig/ 
+ls
+cat ibus-table.pc 
+cd ..
+ls
+cd pkgconfig/
+ls
+cat ibus-table.pc 
+cd ~
+ls
+export PKG_CONFIG_PATH=/usr/lib/pkgconfig/ 
+pkg-config  --libs boost
+cd ~
+ls
+cd /
+cd usr/lib
+ls
+find . | grep boost.pc
+cd ..
+find . | grep boost.pc
+find . | grep *.pc
+find . | grep pc
+find . | grep \.pc
+find . | grep '\.pc'
+cd share/pkgconfig/
+ls
+ls | grep boost
+cd ..
+ls
+cd ..
+find . | grep '\.pc'
+find . | grep '\.pc' | grep boost
+find . | grep '\.pc'
+cd /usr/bli
+cd /usr/lib
+cd pkgconfig/
+ls
+cd ..
+ls
+cd ..
+ls
+find . | grep '\.pc'
+ls
+cd ~
+ls
+g
+git diff
+g++ -lboost
+g++ --help
+man g++
+cd /usr/local
+ls
+cd lib
+ls
+cd ..
+ls
+find . | grep boost
+cd ..
+find . | grep boost
+ls
+g++ -L /usr/lib -lboost
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+g++ -L /usr/lib -lboost 1.cpp
+g++ -L /usr/lib -lboost_filesystem 1.cpp
+ls
+g++ -L /usr/lib -lboost_filesystem 1.cpp
+man g++
+g++ 1.cpp
+g++ -L /usr/lib -lboost_filesystem 1.cpp
+ls
+vim 1.cpp
+g++ -g 1.cpp -o 1 -L/usr/local/lib/ -lboost_filesystem
+g++ -g 1.cpp -o 1 -L/usr/lib/ -lboost_filesystem
+g++ -g 1.cpp -o 1 -L/usr/lib/ -lboost_system
+g++ -g 1.cpp -o 1 -L/usr/local/lib/ -lboost_system
+g++ -g 1.cpp -o 1 -L/usr/lib/ -lboost_system
+g++ -g 1.cpp -o 1 -L/usr/lib/ -lboost_system-mt
+LIBS += -L/usr/lib/x86_64-linux-gnu -lboost_system
+g++ -std=c++11 -g 1.cpp -o 1 -L/usr/lib/ -lboost_filesystem
+g++ -std=c++14 -g 1.cpp -o 1 -L/usr/lib/ -lboost_filesystem
+g++ -std=c++17 -g 1.cpp -o 1 -L/usr/lib/ -lboost_filesystem
+ls
+vim CMakeLists.txt
+ls
+cd build/
+ls
+rm -rf *
+cmake ..
+make -j4
+ls
+make -j4
+g++ -std=c++14 1.cpp  -I/usr/local/include -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system
+cd ..
+g++ -std=c++14 1.cpp  -I/usr/local/include -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system
+ls
+g++ 1.cpp  -I/usr/local/include -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system
+g++ -std=c++14 1.cpp  -I/usr/local/include -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system
+ls
+./a.out
+g++ -std=c++14 1.cpp  -I/usr/local/include -L/usr/local/lib  -lboost_context -lboost_system
+g++ -std=c++14 1.cpp  -I/usr/local/include -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_all
+g++ -std=c++14 1.cpp  -I/usr/local/include -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system
+g++ -std=c++14 1.cpp  -I/usr/lib -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system
+./a.out
+g++ -std=c++14 1.cpp  -I/usr/lib -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system
+g++ -std=c++14 1.cpp  -I/usr/lib -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system && ./a.out
+sudo apt install libboost
+sudo apt install libboost-dev
+sudo apt remove libboost-*
+sudo apt autoremove 
+sudo apt install libboost1.65*
+g++ -libboost
+g++ -lboost
+ld
+ld --help
+ls
+cd cmake
+ls
+vim CMakeLists.txt 
+ls
+cd ..
+ls
+cd cmake/
+ls
+vim
+cd ..
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+vim .ycm
+vim .ycm_extra_conf.py 
+cd /usr/lib
+ls
+ls | grep boost
+find . | grep boost
+cd ..
+find . | grep boost
+cd lib
+ls
+pkg-config --list-all
+pkg-config --list-all | grep boost
+pkg-config --list-all | grep cv
+sudo apt install libboost-all-dev 
+pkg-config --list-all | grep cv
+pkg-config --list-all | grep boost
+sudo apt-get install libboost-all-dev
+ls
+cd ~/
+ls
+cd fc/
+ls
+cd flaw_checker/
+ls
+vim CMakeLists.txt 
+ls
+cd ~
+ls
+vim .ycm_extra_conf.py 
+ls
+cd fc/flaw_checker/
+ls
+cd build/
+ls
+cd ..
+ls
+cd third_party/
+ls
+cd boost/
+ls
+cd ..
+ls
+cd boost/
+ls
+cd ..
+ls
+./build_all.sh 
+ls
+cd boost/
+ls
+./build.sh 
+ls
+vim
+ls
+cd ..
+ls
+vim build_all.sh 
+cd boost/
+ls
+vim build.sh 
+ls
+cd symmetric/
+ls
+history 
+his
+history 
+g++ 1.cpp && ./a.out
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+free -a
+free
+free -yh
+free -h
+ls
+cd ~
+ls
+cd fc/
+ls
+rm 1
+ls
+cd ~
+ld
+ls
+cd Documents/
+ls
+wget http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4286.pdf
+ls
+wd -s infant
+ls
+wd -s infinitive 
+wd -s inform
+wd -s inflammatory 
+ls
+ls
+g
+ls
+g
+cd symmetric/
+ls
+g++ -std=c++14 simple.cpp.cpp  -I/usr/lib -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system && ./a.out
+g++ -std=c++14 simple.cpp  -I/usr/lib -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system && ./a.out
+g++ -std=c++14 unwind.cpp  -I/usr/lib -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system && ./a.out
+cd ../asymmetric/
+g++ -std=c++14 unwind.cpp  -I/usr/lib -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system && ./a.out
+cd ../symmetric/
+ls
+cd ..
+cd asymmetric/
+g++ -std=c++14 segmented_stack.cpp  -I/usr/lib -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system && ./a.out
+cd ..
+cd symmetric/
+ls
+g++ -std=c++14 dice_game.cpp  -I/usr/lib -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system && ./a.out
+ls
+cd ~
+ls
+du -hl
+du -hd1
+df -h
+docker 
+df -h
+g
+ls
+g
+ls
+g
+make
+make && ./main
+make
+./main
+make && ./main
+g
+git sttaus
+git status
+g
+ls
+history 
+ls
+g
+vim .vim
+ls
+g
+git diff .vim
+cd ~
+g -s
+g s -s
+g s
+g 
+g -s
+git status s
+git status t
+git status 
+history 
+ll .bash_history 
+ll -h .bash_history 
+history 
+vimux 
+ls
+vimux 
+ls
+g
+vimtutor 
+ls
+vimtutor 
+ls
+cd gh/
+ls
+cd coroutine/
+ls
+vim
+ls
+g
+steam
+g
+git diff
+g
+ls
+g
+ls
+vim /etc/passw
+vim /etc/passwd
+g
+vim.gtk3 
+vim.tiny 
+vim.basic 
+ls
+vim.basic 
+ls
+g
+atc
+vim /usr/share/games/bsdgames/atc
+cd  /usr/share/games/bsdgames/atc
+ls
+vim airports 
+vim box
+vim crossover 
+atc
