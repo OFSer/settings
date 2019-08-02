@@ -15,7 +15,7 @@ install_wd(){
 	cd ~
 }
 install_tools(){
-	sudo apt install -y most
+	sudo apt install -y most tldr
 	sudo apt install -y git sshpass jq curl
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
 	sudo apt install -y steam

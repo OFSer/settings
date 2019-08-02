@@ -39492,3 +39492,170 @@ vim airports
 vim box
 vim crossover 
 atc
+vim config.sh 
+g
+./config.sh push
+git diff HEAD^ .dconf
+cd ~
+vim config.sh 
+ls
+curseofwar
+sudo apt install curseofwar 
+ls
+vim config.py 
+networkd-dispatcher 
+man networkd-dispatcher 
+ls
+atc
+ls
+g
+ls
+history 
+g++ -std=c++14 unwind.cpp  -I/usr/lib -L/usr/local/lib -lboost_coroutine -lboost_context -lboost_system && ./a.out
+ls
+g
+ls
+g
+git status
+git diff
+g
+git diff
+ls
+g
+git status -s
+ls
+g
+git diff
+l
+g
+atc
+g
+ls
+ls
+cd ~
+ls
+cd fc/aruco/
+ls
+vim
+ls
+g
+man atc
+ls
+cd ~
+ls
+cd gh/
+ls
+cd ho/
+ls
+cd ..
+ls
+cd so/
+ls
+cd ..
+ls
+cd ..
+ls
+cd test/
+ls
+cd asm/
+ls
+vim makefile 
+ls
+g
+ls
+cd ~
+ls
+vim .gdbinit
+ls
+g
+gcc --version
+ls
+cd boot/
+ls
+cd ..
+ls
+cd obj/
+ls
+cd boot/
+ls
+cd ..
+ls
+make qemu-nox
+ls
+cd kern/
+ls
+cd ..
+cd obj/kern/
+ls
+cd ..
+ls
+cd boot/
+ls
+g++ 10.cpp && ./a.out
+g++ -S 10.cpp 
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+vim 7.cpp
+vim 10.cpp
+man dd
+ls
+cd test/cpp/
+ls
+cd test/cpp/
+readelf -l a.out
+ls
+vim 10.cpp 
+g++ 10.cpp
+readelf -l a.out
+lllls
+ls
+g++ 1.cpp
+readelf -l a.out
+vim 1.cpp
+./a.out
+readelf -l a.out
+readelf -h a.out
+readelf -l a.out
+cd obj/boot/
+ls
+objdump boot
+history | grep objdump
+objdump -d boot
+objdump -masm -d boot
+hexdump -C -n 1000 boot
+objdump -masm -d boot.out
+objdump -d boot.out
+ls
+ll -h
+objdump -d boot
+hexdump -C -n 1000 boot
+cd ..
+ls
+cd kern/
+ls
+readelf -h kernel
+ls
+ll kernel
+ll -h kernel
+readelf -l kernel
+readelf --help
+readelf -l kernel
+readelf -S kernel
+readelf --help
+readelf -S kernel
+make qemu
+ls
+make qemu-nox
+make grub
+make all
+make
+make qemu
+make print-qemu 
+make
+g
+git diff
+g
+vim .vim

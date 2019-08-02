@@ -1,4 +1,4 @@
-let g:searchtype = ["c","h","hpp","cpp","cxx","py","sh","hs","txt","go","vim"]
+let g:searchtype = ["c","h","hpp","cpp","cxx","py","sh","hs","txt","go","vim",'*']
 let g:searchfile = ["Dockerfile"]
 let g:searchlist = ''
 for i in g:searchtype
