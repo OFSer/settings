@@ -10,6 +10,10 @@ export HISTFILESIZE=50000000
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US
 export LC_ALL=en_US.utf8
+# export GOPATH="$HOME/go"
+export GOROOT="/snap/go/4098" #go1.12.1
+export PATH=/home/gjs/go/bin:$GOROOT/bin:$PATH
+#export GOROOT="/usr/lib/go"  #go1.10
 export PATH="$HOME/anaconda3/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
@@ -20,4 +24,3 @@ export TERM=xterm-256color
 	export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
 }
 export PAGER='vim -M +MANPAGER -c "set showtabline=1" -'
-# export HISTTIMEFORMAT='%F %T '

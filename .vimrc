@@ -50,11 +50,12 @@ let g:find_files_findprg = 'find . -type f -name "*$**"'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all' }
+Plug 'Valloric/YouCompleteMe', { 'do': 'python3 install.py --all' }
 Plug 'chinnkarahoi/vim-cmake-completion'
 nnoremap <silent> D :tab split \| YcmCompleter GoTo<cr>
 nnoremap <silent> d :YcmCompleter GoTo<cr>
-au FileType go nmap <buffer> d <Plug>(go-def-tab)
+au FileType go nmap <buffer> D <Plug>(go-def-tab)
+au FileType go nmap <buffer> d :GoDef<CR>
 let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_autoclose_preview_window_after_completion=1

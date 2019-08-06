@@ -39659,3 +39659,748 @@ g
 git diff
 g
 vim .vim
+g
+./config.sh pull
+g
+git reset HEAD --hard
+g
+./config.sh pull
+g
+ls
+vim config.sh 
+dconf load / < .dconf
+vim config.sh 
+git sttaus
+g
+git add config.sh 
+git commit -m "upd"
+git push
+reboot
+g
+./config.sh pull
+sudo reboot
+ls
+vim config.sh 
+vim --version
+vim config.sh 
+sudo apt install netease-cloud-music 
+ls
+vim /etc/fstab 
+cat /etc/fstab 
+lsblk
+sudo fdisk -l
+lsblk
+ls
+blkid
+sudo blkid
+ls
+cat config.sh 
+./config.sh run
+sudo apt update
+sudo apt install git
+./config.sh run
+sudo reboot
+./config.sh pull
+ls
+g
+git diff .vim
+l
+ls
+g
+./config.sh pull
+g
+nvidia-detector 
+sudo apt install nvidia-driver-430
+sudo reboot
+history 
+sudo blkid
+atc
+cd qemu/
+ls
+make
+make clean
+make
+./configure --disable-kvm --target-list="i386-softmmu x86_64-softmmu" --disable-werror --python=/usr/bin/python2.7
+make
+sudo make install
+ls
+cd ..
+ls
+cd ..
+cd lab/
+ls
+make qemu-nox
+ls
+make all
+make grub
+ls
+nvidia-smi
+ls
+g
+git diff
+ls
+cd gh/
+ls
+cd so/
+ls
+cd tool/
+ls
+vim makefile 
+make clean
+ls
+rm -rf qemu
+make all
+ls
+g
+sudo apt install build-essential ffmpeg libgtk2.0-dev pkg-config libsqlite3-dev libcurl4-openssl-dev libceres-dev clang redis redis-server libprotobuf-dev protobuf-compiler cmake
+ls
+vim makefile 
+./config.sh pull
+g
+ls
+steam
+ls
+g
+git diff
+ls
+g
+git diff
+ls
+g
+g++ 10.cpp && ./a.out
+gc 10.cpp && ./a.out
+gcc 10.cpp && ./a.out
+g++ 10.cpp && ./a.out
+clang 10.cpp && ./a.out
+cp 10.cpp 10.c
+gcc 10.c
+cp 10.cpp 10.c
+gcc 10.c
+ls
+./a.out
+clang
+clang --help
+b -i 16 3ff
+b -i16 3ff
+b -o16 1023
+ls
+steam
+make clean
+ls
+make grub
+cd obj/
+ls
+cd kern/
+ls
+cd ..
+ls
+./jos-grub 
+ls
+hexdump -C -n 1000 jos-grub 
+hexdump -C -n 512 jos-grub 
+ls
+readelf jos-grub 
+readelf -h jos-grub 
+readelf -l jos-grub 
+readelf -S jos-grub 
+g
+git diff
+tldr
+tldr man
+man -w man
+ls
+g
+git diff
+ls
+g
+ls
+g
+git diff
+history 
+g
+git diff .vim
+l
+sls
+ls
+g
+vim .bash
+b -i 16 3FF
+g
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+vim 10.cpp 
+g
+ls
+cd ~
+ls
+cat README.md 
+ls
+g
+sss
+ls
+l
+type l
+type ls
+l
+ls -CF
+\ls -CF
+\ls -CF --color
+ls
+g
+git diff
+ls
+cd ..
+ls
+cd ~
+ls
+cd fc/
+ls
+ssh -o "StrictHostKeyChecking no" -p 16599 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17650 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 19943 hypereal@registry-corp.hypereal.com
+ls
+cd ~
+ls
+cd go/
+ls
+cd bin/
+ls
+cd ..
+ls
+cd src/
+ls
+cd ~
+ls
+go env
+go env | grep PATH
+echo $GOPATH
+ls
+go env
+ls
+cd /home/gjs/go
+ls
+cd bin
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd go/
+ls
+find . | grep guru
+ls
+cd bin/
+ls
+cd ~
+echo $GOPATH
+ls
+cd ~
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd vim-go
+ls
+cd ..
+rm -rf vim-go
+ls
+cd ..
+ls
+cd ..
+ls
+vim .vimrc
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim
+ls
+vim ~/.vimrc
+go
+sudo snap install go
+sudo apt search golang
+sudo apt install golang-go
+sudo snap install go --classic 
+ls
+go mod
+ls
+vim
+ls
+jobs
+go mod
+ls
+cd ~
+ls
+cd .vim/plugged/
+ls
+rm -rf vim-go
+ls
+cd ~
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim
+ls
+vim
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd .vim/plugged/
+ls
+rm -rf vim-go/
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd .vim/
+ls
+cd ~
+ls
+cd fc/http-dhcp-server/
+ls
+vim 
+ls
+vim
+go mod .
+go get -v -u github.com/swaggo/swag/cmd/swag
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go get -v -u github.com/swaggo/swag/cmd/swag
+swag init
+go get -v -insecure
+go get -v -u github.com/swaggo/swag/cmd/swag
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+swag init
+go get -v -insecure
+go build -v
+ls
+go mod
+go mod .
+go build .
+ls
+gopls
+gopls --help
+gopls --version
+gopls -v
+ls
+cd ~
+ls
+cd go/
+ls
+cd src/
+ls
+cd ..
+find . | grep gopls
+go get golang.org/x/tools/gopls@latest
+echo $GOPATH
+cd ~
+ls
+cd fc/
+cd http-dhcp-server/
+ls
+vim
+echo $GOPATH
+export GOPATH=/home/gjs/go
+echo $GOPATH
+vim
+gopel
+echo $GOPATH
+export PATH=$PATH:/home/gjs/go
+vim
+ls
+echo $PATH
+export PATH=$PATH:/home/gjs/go/bin
+vim
+ls
+go get golang.org/x/tools/gopls@latest
+go get -u -v golang.org/x/tools/gopls@latest
+ls
+cd ~
+ls
+vim .bash
+git diff HEAD~10 .bash/env.sh
+vim .vimrc
+git diff HEAD~10 .bash/env.sh
+git checkout  HEAD~10 .bash/env.sh
+git diff
+g
+git diff --cached.bash/env.sh
+git diff --cached .bash/env.sh
+go env
+vim .bash
+vim .vimrc
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+rm -rf vim-go/
+ls
+cd ~
+ls
+rm -rf go
+ls
+sudo rm -rf go
+ls
+vim
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim
+ls
+vim
+go get -v -u github.com/swaggo/swag/cmd/swag
+go get -v -insecure
+go build -v
+ls
+rm http-dhcp-server 
+go build -v
+ls
+ls
+vim config.sh 
+cd ~/.vim/plugged/YouCompleteMe && python3 install.py --all
+cd ~/.vim/plugged/YouCompleteMe && python3 install.py --go
+cd ~/.vim/plugged/YouCompleteMe && python3 install.py --go-completer
+cd ~/.vim/plugged/YouCompleteMe && python3 install.py --all
+cd ~
+go get golang.org/x/tools/gopls@latest
+go get -u -v golang.org/x/tools/gopls@latest
+ls
+vim .vimrc
+vim .bash
+go get -u -v golang.org/x/tools/gopls@latest
+gopls version
+go env
+cd ~
+ls
+rm -rf vim-go
+rm -rf go
+sudo rm -rf go
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+rm -rf vim-go
+go env
+go --version
+go version
+go env
+echo $GOPATH
+echo $PATH
+gopls 
+gopls version
+guru verison
+guru  --help
+guru  --version
+guru  -version
+ls
+go build .
+ls
+./go
+cd ~
+vim .vimrc
+gopls verison
+gopls version
+cd fc/http-dhcp-server/
+ls
+vim
+cd ~
+go get -v -u github.com/swaggo/swag/cmd/swag
+echo $GOPATH
+echo $GOPATH
+go get -v -u github.com/swaggo/swag/cmd/swag
+ls
+echo $GOPATH
+go mod tiny
+go mod
+echo $GOPATH
+echo $GOPATh
+echo $GOPATH
+go build .
+ls
+echo $GOPATH
+go build .
+echo $GOPACKAGESDRIVER
+go $GOPATH
+echo $GOPATH
+go env
+echo $GOPATH
+go get -u -v golang.org/x/tools/gopls@latest
+cd ~
+go get -u -v golang.org/x/tools/gopls@latest
+cd -
+go get golang.org/x/tools/gopls@latest
+go get -u -v golang.org/x/tools/gopls@latest
+vim
+go get golang.org/x/tools/gopls@latest
+go get -v golang.org/x/tools/gopls@latest
+go get -u golang.org/x/tools/gopls@latest
+go mod init
+vim
+go mod .
+go: error loading module requirements
+go get -u golang.org/x/tools/gopls
+go get -u -v golang.org/x/tools/gopls
+cd ~
+go get -u -v golang.org/x/tools/gopls
+gopls version
+go get -u -v golang.org/x/tools/gopls@latest
+ls
+cd test/
+ls
+cd go
+ls
+mkdir go
+ls
+cd go/
+ls
+vim 1.go
+ls
+cd ~
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+git status
+git pull
+git status
+git reset HEAD --hard
+g
+git pull
+go get -v -u github.com/swaggo/swag/cmd/swag
+go get -v -insecure
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go get -v -insecure
+ls
+rm http-dhcp-server 
+ls
+go build .
+ls
+rm http-dhcp-server 
+go build .
+ls
+./http-dhcp-server 
+vim
+l
+ls
+echo $GOPATH
+vim
+vim go.mod 
+vim
+export GOPACKAGESDRIVER=off
+vim
+export GO111MODULE=on
+vim
+go env
+export GOPATH=""
+go env
+export GOPATH=
+go env
+vim
+go env
+vim 
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim
+ls
+cd ~
+ls
+cd go/
+ls
+cd ..
+go env
+echo $GOPATH
+echo $GOROOT
+cd $GOROOT
+ls
+cd ~
+ls
+go env
+gopls 
+vim .vimrc
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim
+cd ~
+ls
+go get -u -v golang.org/x/tools/gopls@latest
+go get -v -u golang.org/x/tools/gopls@latest
+echo $GOPATH
+go get -v -u golang.org/x/tools/gopls
+ls
+cd fc/http-dhcp-server/
+ls
+vim
+ls
+cd ~/go
+ls
+go env
+echo $GOPATH
+cd ~/fc/http-dhcp-server/
+ls
+go env
+vim
+vim 1.sh
+bash 1.sh
+ls
+vim
+go env
+cd ..
+go env
+cd http-dhcp-server/
+ls
+go env
+./http-dhcp-server 
+ls
+go build .
+ls
+vim
+echo $GOPATH
+jobs
+fg
+vim
+b -i16 100000
+s
+g
+ls
+g
+git diff
+g
+git diff
+b -i16 fa0
+b -i 16 FA0
+80*25
+echo $((80*25))
+ls
+g
+git diff
+ls
+g
+nvidia-smi
+nvidia-detector 
+nvidia-settings 
+nvidia-xconfig 
+g
+ls
+cd so
+ls
+cd gh/lab/
+ls
+vim
+ls
+go env
+echo $GOPATH
+go env
+rm go.mod 
+ls
+go build .
+g
+git status
+git reset HEAD --hard
+git status
+g
+go mod init
+echo $GOPATH
+g
+go build .
+ls
+go build -v 
+go build -v  .
+go env
+go
+ls
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+ls
+g
+git diff
+ls
+go mod
+go mod init
+ls
+rm go.mod
+go mod init
+ls
+echo $GOPATH
+export GOPATH=''
+go mod init
+echo $GOPATH
+cd ~!
+l
+cd ~
+ls
+cd go/
+ls
+cd src/
+ls
+cd ..
+ls
+cd ~
+ls
+go env
+cd go/src/
+ls
+find . | grep gitlab
+cd ..
+find . | grep gitlab
+cd /pkg/mod/gitlab.sho.hypereal.com/
+ls
+cd pkg/mod/gitlab.sho.hypereal.com/
+ls
+cd go/
+ls
+cd ~
+ls
+vim .vimrc
+ssh -o "StrictHostKeyChecking no" -p 19303 hypereal@registry-corp.hypereal.com
+ssh  -p 19303 hypereal@registry-corp.hypereal.com
+ls
+cat id_rsa.pub 
+nslookup baidu.com
+ssh gjs@dl-5
+history | grep ssh 
+history | grep ssh  | grep L
+curl 127.0.0.1:80
+curl 127.0.0.1:12345
+ssh -v -N -L 0.0.0.0:12345:220.181.38.148:443 gjs@dl-5
+ssh -N -L 0.0.0.0:12345:220.181.38.148:443 gjs@dl-5
+service sshd restart
+sudo service sshd restart
+wd -s comma
+go env
+go build .
+go get -v insecure
+go env
+go build .
+ls
+go build .
+echo $GOPATH
+echo $GOMOD
+go env
+go build .
+echo $GOPATH
+go env
+echo $GOPATH
+go env
+go path
+echo $GOPATH
+go env
+go build .
