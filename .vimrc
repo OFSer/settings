@@ -54,6 +54,7 @@ Plug 'Valloric/YouCompleteMe', { 'do': 'python3 install.py --all' }
 Plug 'chinnkarahoi/vim-cmake-completion'
 nnoremap <silent> D :tab split \| YcmCompleter GoTo<cr>
 nnoremap <silent> d :YcmCompleter GoTo<cr>
+let g:go_def_mode='gopls'
 au FileType go nmap <buffer> D <Plug>(go-def-tab)
 au FileType go nmap <buffer> d :GoDef<CR>
 let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
@@ -74,7 +75,7 @@ let NERDTreeShowLineNumbers=0
 let NERDTreeAutoCenter=1
 let NERDTreeShowHidden=1
 let NERDTreeWinSize=22
-let NERDTreeIgnore=['\.pyc','\~$','\.swp','\.git$','__pycache__', '\.ycm_extra_conf\.py']
+let NERDTreeIgnore=['\.gdb_history', '\.pyc','\~$','\.swp','\.git$','__pycache__', '\.ycm_extra_conf\.py']
 let NERDTreeShowBookmarks=2
 let NERDTreeDirArrowExpandable="+"
 let NERDTreeDirArrowCollapsible="-"
