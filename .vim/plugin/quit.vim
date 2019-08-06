@@ -40,7 +40,7 @@ func Quit()
 		endif
 		return
 	endif
-	if nr != t
+	if nr != t && tp == 1
 		exe "b! ".Next(nr)
 	else  
 		if bufname('%') == "" 
