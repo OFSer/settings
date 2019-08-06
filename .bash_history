@@ -40404,3 +40404,923 @@ go path
 echo $GOPATH
 go env
 go build .
+ls
+cd src/
+ls
+go env
+go mod tidy
+cd ..
+ls
+go mod tidy
+ls
+cd po
+cd src/
+go mod tidy
+ls
+cd ..
+ls
+go build
+./hello 
+cat go.mod
+ls
+rm go.{mod, sum}
+rm go.{mod,sum}
+ls
+go mod init gitlab.sho.hypereal.com/monitoring/http-dhcp-server
+ls
+rm http-dhcp-server 
+ls
+go build 
+ls
+rm go.mod 
+rm go.sum 
+ls
+go mod init gitlab.sho.hypereal.com/go/http-dhcp-server
+go build 
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go build 
+vim main.go 
+ls
+cat go.mod 
+man ssh
+man sshd
+go build 
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go build 
+go get -v -insecure
+go mod init gitlab.sho.hypereal.com/go/http-dhcp-server
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go get -v -insecure
+ls
+cd ~/
+ls
+cd go/
+ls
+cd src/
+ls
+cd ..
+ls
+cd pkg/
+ls
+cd mod/
+ls
+cd golang.org/
+ls
+cd ..
+ls
+cd ..
+ls
+find . | grep gitlab
+ls
+cd ..
+ls
+rm -rf go
+sudo rm -rf go
+ls
+cp _go go
+cp -r_go go
+cp -r _go go
+ls
+cd go/
+ls
+find . | grep gitla
+cd ~/fc/http-dhcp-server/
+ls
+vim main.go 
+ls
+g
+ls
+cd ..
+ls
+cd ~/go/
+ls
+cd src/
+ls
+cd ~
+ls
+cd fc/
+ls
+cp http-dhcp-server/ ../go/src/
+cp -r http-dhcp-server/ ../go/src/
+cd ~/go/src/
+ls
+cd h
+cd http-dhcp-server/
+vim
+vim main.go 
+ls
+cd ..
+ls
+rm -rf http-dhcp-server/
+ls
+cd ~
+ls
+s
+ls
+docker 
+sudo apt install docker
+ls
+g
+git diff .vimrc
+g
+git add .vim
+git status
+git add .vimrc
+git diff --cached .bash/env.sh
+g
+git diff
+git status
+g
+git diff --cached .bash/env.sh
+g
+git add .bash
+g
+git diff --cached .bash/env.sh
+g
+git add .bash_history 
+g
+git commit -m "upd"
+git push
+cd .config/dlv/
+ls
+cat config.yml 
+vim config.yml 
+ls
+cd ..
+ls
+g
+cd ..
+ls
+git reset HEAD --hard
+g
+git clean -dff
+g
+git status
+vim .vimrc
+ls
+vim .vimrc
+ls
+g
+cd .vim/
+ls
+cd plugin/
+ls
+rm *
+ls
+g
+git reset HEAD --hard
+g
+cd ~/fc/
+ls
+cd http-
+cd http-dhcp-server/
+ls
+vim
+ls
+go env
+vim go.mod 
+go get -v -u github.com/swaggo/swag/cmd/swag
+ls
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+swag init
+go get -v -insecure
+ls
+go build -v
+ls
+vim main.go 
+vim go.mod 
+ls
+vim main.go 
+ls
+rm go.mod
+rm go.sum
+vim main.go 
+ls
+go mod init gitlab.sho.hypereal.com/go/http-dhcp-server
+ls
+cat go.mod
+go build 
+cat go.mod
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+swag init
+go get -v -insecure
+go get -v
+go build -v
+ls
+vim main.go 
+ls
+rm -rf *
+ls
+cd ..
+ls
+rm -rf http-dhcp-server/
+sudo rm -rf http-dhcp-server/
+git clone git@gitlab.sho.hypereal.com:monitoring/http-dhcp-server.git
+cd http-
+cd http-dhcp-server/
+ls
+go build 
+ls
+rm go.mod
+rm go.sum
+g
+git diff
+ls
+go mod init dhcp
+go build 
+vim main.go 
+ls
+vim main.go 
+ls
+vim main.go 
+g
+git reset HEAD --hard
+g
+git status
+vim main.go 
+ls
+cd ..
+ls
+cd http-hello/
+ls
+vim main.go 
+ls
+git status
+git reset HEAD --hard
+g
+git clean
+g
+git clean -dff
+g
+ls
+rm go.mod
+rm go.sum
+g
+git diff
+git mod init gitlab.sho.hypereal.com/go/http-hello
+go mod init gitlab.sho.hypereal.com/go/http-hello
+g
+git build 
+go build 
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go build 
+go get -v -insecure
+go get -v -insecure | grep gitlab
+swag init
+go get -v -insecure
+go get -v -insecure | grep gitlab
+ls
+g
+vm main.go 
+vim main.go 
+cd ~
+ls
+cd go/pkg/mod/
+ls
+cd gitlab.sho.hypereal.com/
+ls
+cd go/
+ls
+cd ..
+ls
+cd ~
+ls
+cd fc/http-hello/
+go get -v
+ls
+rm go.mod
+go get -v
+go get -v | grep gitlab
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go get -v | grep gitlab
+go get -v -insecure
+swag init
+go get -v -insecure
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+swag init
+ls
+go mod init  gitlab.sho.hypereal.com/go/http-dhcp-server
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+swag init
+go get -v
+go get -v -insecure
+go build
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+ls
+g
+cat go.mod
+cd ..
+ls
+cd http-dhcp-server/h
+cd http-dhcp-server/
+ls
+cat go.mod
+cat go.mod | grep dhcp
+cat go.sum | grep dhcp
+ls
+vim go.mod 
+vim main.go 
+go build 
+ls
+vim main.go 
+rm go.mod
+rm go.sum
+vim main.go 
+ls
+g
+git clean -dff
+sudo git clean -dff
+ls
+vim
+vim main.go 
+ls
+go env
+ls
+g
+rm -rf pkg
+ls
+cat go.mod
+curl 127.0.0.1:80
+curl 10.0.10.63:80
+ls
+cd ~
+ls
+ssh gjs@dl-5
+\ssh gjs@dl-5
+cat .ssh/id_rsa.pub 
+\ssh gjs@dl-5
+ssh -N -L 12345:220.181.38.148:80 gjs@dl-5
+ssh -N -L 0.0.0.0:12345:220.181.38.148:80 gjs@dl-5
+ssh -v -N -L 0.0.0.0:12345:220.181.38.148:80 gjs@dl-5
+ssh -v -N -L 0.0.0.0:12345:220.181.38.148:443 gjs@dl-5
+vimux 
+vim .ssh/authorized_keys 
+ls
+vim /etc/ssh/sshd_config 
+sudo vim /etc/ssh/sshd_config 
+service sshd restart
+jobs
+service sshd stop
+service sshd start
+sudo service sshd start
+jobs
+fg
+vim .ssh/config
+vim .ssh/authorized_keys 
+ls
+cd go/pkg/
+ls
+cd mod/
+ls
+cd gitlab.sho.hypereal.com/
+ls
+cd go/
+ls
+cd ..
+ls
+cd ..
+ls
+cd rsc.io/
+ls
+cd quote@v1.5.2/
+ls
+history | grep ssh | grep D
+ls
+cd ~
+ls
+vim .vimrc
+vim .bash/env.sh 
+vim config.sh 
+nc -l 10.0.10.63:80
+history | grep nc
+nc -l 80
+sudo nc -l 80
+go build .
+ls
+./http-dhcp-server 
+ls
+cd ..
+ls
+cd http
+ls
+cp ../http-dhcp-server/main.go  .
+ls
+cd ..
+ls
+cd http-dhcp-server/
+ls
+g
+git reset HEAD --hard
+ls
+nautilus .
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+swag init
+go get -v -insecure
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go get -v -insecure
+go build .
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+swag init
+go get -v -insecure
+go build -v
+go get -v -insecure
+go build -v
+go env
+go build .
+ls
+./mod_pkg 
+go build .
+history 
+man ssh
+man sshd
+ssh -p 1234  gjs@10.0.10.63
+\ssh -p 12345  gjs@10.0.10.63
+man sshd
+\ssh -p 12345  gjs@10.0.10.63
+jobs
+man sshd
+ls
+cd fc/http-dhcp-server/
+ls
+vim main.go 
+ls
+cd ..
+ls
+cd http-dhcp-server/
+ls
+go env
+vim go.mod 
+vim main.go 
+vim
+ls
+export GOPATH=""
+vim main.go 
+ls
+go env
+export GOPATH="/home/gjs/go"
+export GOMOD="/home/gjs/fc/http-dhcp-server/go.mod"
+vim main.go 
+gopls 
+gopls version
+echo $GOMOD
+echo $GOPATH
+vim main.go 
+ls
+cd ~
+ls
+vim .vimrc
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim main.go 
+vim
+vim main.go 
+ls
+cd ~
+ls
+vim .bash/env.sh 
+cd fc/
+ls
+git clone git@gitlab.sho.hypereal.com:go/http-hello.git
+ls
+cd http-
+cd http-hello/
+ls
+vim
+vim main.go 
+ls
+go build -v
+ls
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go get -v -insecure
+go build .
+go build -v
+swag init
+go build -v
+ls
+./http-hello 
+vim main.go 
+ls
+vim main.go 
+ls
+cd ~
+ls
+cd test/
+ls
+cd go/
+ls
+cd ..
+ls
+cd go/
+ls
+rm *
+ls
+mkdir hello
+cd hello/
+ls
+go mod init github.com/chinnkarahoi/hello
+ls
+cat go.mod 
+vim hello.go
+ls
+jobs
+fg
+vim hello.go 
+ls
+g
+vim hello
+vim hello.go 
+ls
+vim hello.go 
+ls
+cd ~
+ls
+cd fc/
+ls
+cd ..
+ls
+cd fc/
+ls
+cp http-dhcp-server/ http
+cp -r http-dhcp-server/ http
+ls
+cd http
+ls
+vim main.go 
+ls
+rm go.mod 
+vim main.go 
+rm -rf *
+ls
+go mod init module gitlab.sho.hypereal.com/go/http-dhcp-server
+go mod init gitlab.sho.hypereal.com/go/http-dhcp-server
+ls
+cat go.mod 
+vim main.go
+ls
+cd ..
+ls
+cd http
+ls
+vim
+vim main.go 
+ls
+vim main.go 
+ls
+vim main.go 
+ls
+rm src/
+rm -rf src/
+ls
+vim main.go 
+ls
+cd ..
+ls
+cd http-dhcp-server/
+ls
+vim main.go 
+ls
+g
+ls
+rm -rf src
+vim main.go 
+ls
+vim main.go 
+ls
+g
+git checkout -- src
+g
+ls
+vim main.go 
+ls
+mv src/ _src
+ls
+vim main.go 
+ls
+vim go.mod
+g
+git checkout -- main.go
+vim main.go 
+ls
+vim main.go 
+mv _src src
+vim main.go 
+ls
+g
+git diff
+git checkout -- main.go
+vim main.go 
+ls
+mv src/ _src
+ls
+vim main.go 
+ls
+cp -r _src src
+ls
+vim main.go 
+ls
+rm -rf src
+ls
+vim main.go 
+ls
+vim main.go 
+ls
+mkdir src
+vim main.go 
+ls
+rm src
+rm -r src
+ls
+vim main.go 
+cd ~
+vim .vimrc
+ls
+cd go/
+ls
+cd pkg/mod/
+ls
+cd gitlab.sho.hypereal.com/
+ls
+cd go/
+ls
+cd http-hello@v0.0.0-20190801082433-12491ad11f69/
+ls
+cd src/
+ls
+cd controller/
+ls
+cd ~
+ls
+cd test/go/
+ls
+git clone https://gitlab.com/juanpablo/golang_module_packages
+cd golang_module_packages/
+vim 
+ls
+g
+git diff
+ls
+mkdir ss
+ls
+mv bar ss
+mv foo ss
+ls
+vim main.go 
+ls
+mv ss src
+ls
+vim main.go 
+mv src sr
+ls
+vim main
+vim main.go 
+ls
+cd ..
+ls
+cd ..
+ls
+cd go/hello/
+ls
+vim hello.go 
+ls
+vim hello.go 
+ls
+mv sr src
+ls
+go build .
+ls
+./hello 
+vim hello.go 
+ls
+ls
+cd test/go/hello/
+ls
+vim hello.go 
+ls
+mkdir src
+ls
+vim hello.go 
+ls
+rm -rf src
+ls
+cd ~
+ls
+cd ~
+ls
+cd fc/
+ls
+cd ..
+ls
+cd go/
+ls
+cd ~/test/go/
+ls
+cd hello/
+ls
+sh
+ls
+cd ~
+cd go/
+ls
+cd src/
+ls
+go env
+ls
+cd ..
+ls
+cd src/
+ls
+cd github.com/
+ls
+cd ..
+ls
+cd ..
+ls
+mv src/ _src
+ls
+cd ~
+ls
+cd test/go/hello/
+ls
+vim hello
+vim hello.go
+ls
+cd ~
+ls
+cd go/
+ls
+mv _src/ src
+ls
+cd ~
+ls
+go env
+ls
+cd go/
+ls
+cd ~
+ls
+cd fc/
+ls
+cd ~/test/go/
+ls
+cd hello/
+ls
+source
+ls
+rm src
+rm -r src
+mkdir source
+ls
+vim hello
+vim hello.go
+ls
+rm -r source
+mkdir src
+ls
+vim hello.go 
+export GOPACKAGESDRIVER=off
+vim hello.go 
+ls
+go list
+ls
+rm -r src
+mkdir SRC
+ls
+vim hello.go 
+ls
+go build .
+ls
+rm -r SRC
+go build .
+mkdir src
+go build .
+ls
+vim hello.go 
+ls
+rm -r src
+ls
+mkdir pkg
+ls
+vim hello.go 
+ls
+ls ~/go
+mkdir bin
+ls
+vim hello.go 
+ls
+mkdir src
+vim hello.go 
+ls
+rm -r src
+rm -r src pkg bin
+ls
+mkdir sr
+ls
+cd sr/
+ls
+mkdir ping
+ls
+cd ping/
+ls
+vim ping.go
+go mod tidy
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+swag init
+go get -v -insecure
+go build .
+swag init
+ls
+rm -rf docs
+swag init
+go build .
+ls
+go build .
+echo $GOPATH
+ls
+cd ~
+ls
+cd fc/
+ls
+cd http
+ls
+cd ..
+ls
+cd http-dhcp-server/
+ls
+vim main.go 
+ls
+cd ~
+ls
+cd test/go/
+ls
+cd hello/
+ls
+vim hello.go 
+ls
+cd ~/fc/http-dhcp-server/
+ls
+mv _src src
+ls
+cd src/
+ls
+cd ..
+sl
+vim main.go 
+ls
+vim main.go 
+export GOPATH='/home/gjs/go'
+vim main.go 
+cd ~
+cd go/
+ls
+cd src/
+ls
+cd github.com/
+ls
+cd ..
+ls
+cd ~
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim main.go 
+echo $GOPATH
+go build .
+ls
+cd ~
+ls
+cd go/
+ls
+find . | grep src
+ls
+cd pkg/
+ls
+find . | grep src
+javac
+sudo apt-get install openjdk-8-jdk
+javac
+javac 1.java
+ls
+mv 1.java HelloWorld.java
+ls
+javac HelloWorld.java 
+ls
+java HelloWorld.class
+ls
+javac HelloWorld.class
+java
+tldr java
+tldr javac
+javac HelloWorld.java 
+ls
+gcc HelloWorld.java 
+javac HelloWorld.java 
+ls
+java HelloWorld
+ls
+hexdump -C -n 1000 HelloWorld.class 
+go mod tidy

@@ -42,12 +42,12 @@ show-tabs-mode='auto'
 side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/Downloads'
+virtual-root='file:///home/gjs/Downloads/jyqxc3jqb.CHS.Green/%E9%87%91%E5%BA%B8%E7%BE%A4%E4%BE%A0%E4%BC%A03%E5%8A%A0%E5%BC%BA%E7%89%88'
 tree-view=true
 root='file:///'
 
 [org/gnome/gedit/plugins]
-active-plugins=['spell', 'filebrowser', 'docinfo', 'modelines', 'time']
+active-plugins=['spell', 'filebrowser', 'time', 'modelines', 'docinfo']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
@@ -80,14 +80,14 @@ last-save-directory='file:///home/gjs/Pictures'
 
 [org/gnome/nautilus/preferences]
 search-view='icon-view'
-default-folder-viewer='icon-view'
+default-folder-viewer='list-view'
 search-filter-time-type='last_modified'
 use-experimental-views=false
 
 [org/gnome/nautilus/window-state]
 sidebar-width=256
 start-with-sidebar=true
-geometry='966x591+325+276'
+geometry='966x531+504+276'
 maximized=false
 
 [org/gnome/nautilus/compression]
@@ -587,10 +587,10 @@ places="{u'101220601': '\\xe5\\xae\\x89\\xe5\\xba\\x86', '101010100': '\\xe5\\x8
 
 [apps/update-manager]
 first-run=false
-launch-time=int64 1563575726
+launch-time=int64 1565066540
 window-height=540
 show-details=true
-launch-count=14
+launch-count=15
 window-width=1008
 
 [com/canonical/indicator/datetime]

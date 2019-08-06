@@ -55,6 +55,7 @@ Plug 'chinnkarahoi/vim-cmake-completion'
 nnoremap <silent> D :tab split \| YcmCompleter GoTo<cr>
 nnoremap <silent> d :YcmCompleter GoTo<cr>
 let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
 au FileType go nmap <buffer> D <Plug>(go-def-tab)
 au FileType go nmap <buffer> d :GoDef<CR>
 let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
@@ -105,8 +106,8 @@ nnoremap <silent> <RightMouse> <LeftMouse>:Ydc<CR>
 inoremap <silent> <RightMouse> <esc><LeftMouse>:Ydc<CR>
 tnoremap <silent> <RightMouse> <c-\><c-n><LeftMouse>:Ydc<cr>i
 
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+" Plug 'SirVer/ultisnips'
+" Plug 'honza/vim-snippets'
 
 " colorscheme
 Plug 'KeitaNakamura/neodark.vim'
