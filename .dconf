@@ -51,7 +51,7 @@ active-plugins=['spell', 'filebrowser', 'time', 'modelines', 'docinfo']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=132
+state=4
 bottom-panel-size=140
 side-panel-size=250
 side-panel-active-page='GeditFileBrowserPanel'
@@ -331,20 +331,24 @@ list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 foreground-color='rgb(184,193,194)'
 visible-name='custom1'
+scrollbar-policy='always'
+login-shell=false
 palette=['rgb(46,52,54)', 'rgb(228,123,0)', 'rgb(7,175,77)', 'rgb(196,160,0)', 'rgb(56,117,192)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(225,234,216)', 'rgb(85,87,83)', 'rgb(239,136,41)', 'rgb(47,217,107)', 'rgb(252,233,79)', 'rgb(112,167,237)', 'rgb(173,127,168)', 'rgb(66,227,227)', 'rgb(233,233,226)']
 bold-is-bright=true
 custom-command='tmux'
 cursor-shape='block'
 cursor-colors-set=false
 highlight-colors-set=false
-use-system-font=false
+scroll-on-output=false
 use-custom-command=false
 use-theme-colors=false
 font='Ubuntu Mono 16'
 use-theme-transparency=false
 allow-bold=true
+use-system-font=false
 use-transparent-background=true
 bold-color-same-as-fg=true
+scroll-on-keystroke=true
 background-color='rgb(31,36,37)'
 background-transparency-percent=5
 scrollback-lines=100000

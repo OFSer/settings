@@ -41658,3 +41658,767 @@ cd
 cd ~
 vim .bash
 cd
+go env
+cd fc/http-dhcp-server/
+ls
+vim
+ls
+vim
+go mod init
+vim
+vim main.go 
+g
+git diff
+ls
+vim
+go build -v .
+go build -v
+ls
+rm http-dhcp-server 
+go build -v
+ls
+g
+ls
+jobs
+fg
+ls
+vim main.go 
+ls
+go mod init
+ls
+g
+git reset HEAD --hard
+g
+ls
+vim
+vim main.go 
+ls
+cd ~
+ls
+cd gh/
+ls
+cd ~
+ls
+cd test/
+ls
+cd go/
+ls
+vim 1.go
+ls
+vim 1.go
+g
+git diff
+ls
+git status
+vim .vimrc
+ls
+cd ~
+ls
+cd gh/
+ls
+cd ~
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim
+ls
+vim main.go 
+cd ~
+ls
+cd test/go/
+ls
+vim 1.go 
+ls
+vim 1.go 
+ls
+vim 1.go 
+ls
+vim go
+ls
+vim 1.go
+ls
+cd ~
+ls
+cd fc/http-dhcp-server/
+ls
+vim main.go 
+ls
+go env
+cd ..
+go env
+cd http-dhcp-server/
+ls
+go env
+echo $GOMOD
+ls
+go env
+ls
+vim
+ls
+export GOMOD="/home/gjs/fc/http-dhcp-server/go.mod"
+vim main.go 
+export GOPATH="/home/gjs/fc/http-dhcp-server/"
+vim main.go 
+ls
+vim go.mod 
+ls
+go mod init
+ls
+export GO111MODULE=off
+vim ain
+vim main.go 
+export GO111MODULE=on
+vim main.go 
+export GO111MODULE=on
+export GOPATH=''
+vim main.go 
+ls
+cd ~
+ls
+cd ~
+ls
+cd fc/http-dhcp-server/
+ls
+vim
+ls
+cd ~
+ls
+echo $GOPATH
+ls
+mv go _go
+ls
+cd fc/http-dhcp-server/
+ls
+vim
+ls
+vim main.go 
+cd ~
+ls
+rm -rf go
+cd -
+ls
+vim main.go 
+ls
+g
+ls
+vim
+ls
+cd ~
+ls
+mv _go go
+ls
+cd fc/http-dhcp-server/
+ls
+vim main.go 
+echo $GOPATH
+cd ~
+ls
+echo $GOPATh
+echo $GOPATH
+history | grep latest
+go get -v -u golang.org/x/tools/gopls@latest
+ls
+mv go _go
+ls
+cd fc/http-dhcp-server/
+history | grep GO
+export GO111MODULE=on
+vim main.go 
+ls
+g
+cd ~
+ls
+vim .vimrc
+ls
+echo $GO111MODULE 
+ls
+echo $GOPATH
+echo $GOMOD
+echo $GOROOT
+ls
+vim .vimrc
+echo $GO111MODULE 
+cd fc/http-dhcp-server/
+ls
+vim main.go 
+export GO111MODULE=auto
+vim main.go 
+export GO111MODULE=off
+vim main.
+vim main.go
+ls
+go --version
+go version
+man sshd
+man sshd_config 
+ssh --help
+man ssh
+ls
+man sshd_config 
+man sshd
+ls
+cd ~
+ls
+cd .ssh/
+ls
+s
+ls
+vim authorized_keys
+ls
+cd ~
+vim .vimrc
+vim .ssh/authorized_keys 
+ls
+vim .vimrc
+g
+git diff .vimrc
+ls
+cd test/java/
+ls
+vim HelloWorld.
+vim HelloWorld.java 
+ls
+vim HelloWorld.java 
+ls
+cd ~
+ls
+cd .vim/plugged/
+ls
+cd YouCompleteMe/
+ls
+python3 install.py --go
+python3 install.py --core-test
+ls
+git pull
+git log
+ls
+python3 install.py --adf
+python3 install.py --go
+git submodule update --recursive 
+ls
+g
+git submodule update
+cd third_party/ycmd/
+ls
+git diff
+g
+cd ~
+ls
+vim .vimr
+vim .vimrc
+ls
+cd ~
+ls
+cd fc/go
+cd test/go/
+ls
+cd hello/
+ls
+vim hello.go 
+ls
+vim hello.go 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~/fc/http-dhcp-server/
+ls
+vim main.go 
+ls
+cd ~
+ls
+cd ~
+ls
+cd .vim/plugged/
+ls
+cd YouCompleteMe/
+ls
+sudo python3 install.py --all
+ls
+g
+git status
+ls
+cd third_party/
+ls
+g
+cd ycmd/
+ls
+g
+cd third_party/
+ls
+g
+cd ..
+ls
+cd ~
+ls
+cd g
+cd gh/
+ls
+cd lab/
+ls
+g
+git diff
+cd ~
+ls
+cat sync.sh 
+g
+git diff
+g
+git diff HEAD^ .dconf
+ls
+cd fc/
+ls
+cd ~
+cd test/
+ls
+cd make/
+ls
+vim makefile 
+ls
+cd ~
+ls
+vim config.sh 
+g
+./config.sh push
+git diff HEAD^ .dconf
+ls
+g
+git diff
+ls
+git checkout -b config
+g
+ls
+vim config.sh 
+ls
+vim config.sh 
+cp config.sh makefile
+vim makefile 
+ls
+cd .config/
+ls
+cd ..
+ls
+cd .local/
+ls
+cd ..
+ls
+vim
+mkdir .file
+ls
+rm -r .file
+ls
+cd Documents/
+ls
+cd ..
+ls
+vim makefile 
+ls
+ll
+ls
+vim .viminfo.tmp 
+ls
+cat .xinputrc 
+cat .ycm
+ls
+g
+vim makefile 
+ls
+vim makefile 
+ls
+vim makefile 
+ls
+mkdir .tmp
+ls
+rm -r .tmp
+ls
+mkdir .conf
+ls
+cd .con
+cd .conf
+ls
+cat /etc/apt/sources.list
+vim /etc/apt/sources.list
+cd ..
+ls
+vim makefile 
+cd .con
+cd .conf
+ls
+cp /etc/apt/sources.list .
+ls
+vim sources.list 
+cp /etc/apt/sources.list .
+vim /etc/apt/sources.list .
+vim /etc/apt/sources.list
+ls
+cd ~
+ls
+vim makefile 
+jobs
+fg
+jobs
+fg 2
+jobs
+fg 1
+jobs
+fg
+make config_mouse 
+jobs
+fg
+make config_mouse 
+jobs
+fg
+g
+vim config.sh 
+git checkout vim
+g
+git reset HEAD --hard
+git checkout unity 
+g
+ls
+vim config.sh 
+vim makefile 
+vim config.sh 
+./config.sh update_source
+ls
+vim config.sh 
+cd /etc/apt/
+ls
+ll sources.list
+ll sources.list.bak
+cd ~
+ls
+cd ~
+ls
+cd ~
+ls
+cd ~
+ls
+make all
+make test
+cd ~
+ls
+vim config.sh 
+ls
+vim config.sh 
+sudo rm /etc/apt/sources.list.bak
+./config.sh update_source
+ll /etc/apt
+sudo rm /etc/apt/sources.list
+./config.sh update_source
+sudo vim /etc/apt/sources.list
+history 
+vim .bash_history 
+ls
+vim makefile 
+ls
+vim makefile 
+ls
+vim config.sh 
+ls
+git add -f .conf
+g
+git diff config 
+git diff config.sh
+ls
+g
+git add config.sh 
+git commit -m "upd config.sh"
+git push
+g
+git diff
+ls
+cd gh/so/
+as -o boot.o boot.s
+ls
+as -o boot.o 2.asm
+ls
+ld -Ttext=0x7C00 --oformat=binary -o boot.bin boot.o
+qemu-system-i386 boot.bin
+qemu-system-i386 -nographic boot.bin
+qemu-system-i386 boot.bin
+qemu-system-i386 -nographic boot.bin
+ls
+g
+make obj/boot/boot
+perl
+perl -h
+perl -h | less
+objcopy --helpp
+objcopy --help
+man objcopy
+ls
+cd obj/
+ls
+cd boo
+cd bool
+ls
+cd boot/
+ls
+ll boot boot.out
+man objcopy
+cd ..
+ls
+cd ..
+ls
+make obj/kern/kernel
+ls
+make kernel.img
+make obj/kern/kernel.img
+make qemu-nox
+make clean
+make
+make qemu-nox
+make clean && make qemu-nox
+make clean
+make qemu-nox
+make qemux-nox
+make qemu-nox 
+mkdir -p obj/kean
+mkdir -p obj/kern
+mkdir -p obj/boot
+make qemu-nox 
+make clean
+make
+make qemu
+make clean
+make qemu
+make qemu-nox 
+make
+make qemu-nox 
+make clean
+make qemu-nox 
+ls
+cd obj/boot/
+ls
+ll
+qemu-system-i386 boot
+readelf boot
+readelf -h boot
+readelf -l boot
+readelf -S boot
+cd ..
+ls
+cd boot/
+ls
+as -o boot.o boot.S
+cd ..
+make qemu
+ls
+make qemu
+make qemu-nox
+make qemu
+make qemu-nox
+make clean
+make qemu-nox 
+make qemu
+make qemu-nox 
+make qemu
+make qemu-nox 
+make qemu
+make qemu-nox 
+g
+git diff
+g
+git clean
+g
+make clean
+g
+make
+make all
+make qemu
+ls
+cd boot/
+ls
+mv Makefile boot.mk
+cd ../kern/
+ls
+mv Makefile kernel.mk
+ls
+cd ~
+cd test/make/
+ls
+mkdir 1
+ls
+vim makefile 
+cd ~
+ls
+cd gh/so/
+ls
+cd tool/
+ls
+vim makefile 
+ls
+g
+cd ~/test/
+ls
+cd make/
+ls
+make ff
+mkdir ff
+cd ff/
+ls
+vim makefile
+ls
+g
+s
+cd ~/test/
+ls
+cd make/
+ls
+cd ..
+ls
+cd asm
+ls
+vim 1.asm
+ls
+vim 1.sm
+vim 1.asm
+ls
+vim 2.asm
+man syscall
+d ~
+cd ~
+ls
+echo "1234 234   2341234"
+cat `echo "1234 234   2341234"`
+echo `echo "1234 234   2341234"`
+echo $(echo "1234 234   2341234")
+a="1234 234   2341234"
+echo $a
+for i in $a; echo $i
+for i in $a; echo $i; done
+for i in $a;do echo $i; done
+for i in $a; do  echo $I
+for i in $a; do  echo $i;done
+echo $IFS
+echo "$IFS" | od 
+echo "$IFS" | od -b
+IFS=' '
+for i in $a; do  echo $i;done
+IFS=$'\n '
+for i in $a; do  echo $i;done
+a='123 234   234234\
+1234
+15235
+1562341
+'
+for i in $a; do  echo $i;done
+g
+git diff
+ls
+g
+git diff
+ls
+g
+git diff
+history 
+git log -p .bash_history
+git log -pr .bash_history
+git log -p --reverse  .bash_history
+git log -p  .bash_history
+vim .bash_history 
+history 
+perl "\0" x (510-$n)
+perl
+git remote -v
+git log
+ls
+cd ~/test/
+ls
+cd asm/
+ls
+vim 2.asm 
+cd ~
+ls
+cd -
+cd ~
+cd ~/test/
+ls
+cd -
+ls
+g
+ls
+make all
+make clean
+make all
+make test
+make clean
+make 
+make qemu-nox 
+make all
+make
+make clean
+make
+make all
+make clean
+make all
+make clean
+make
+make all
+make 
+make clean
+make
+g
+git dif
+g
+git diff
+git commit -m "upd"
+git push
+git status
+git push
+ls
+git push
+g
+mkdir qemu
+ls
+make qemu
+ls
+mv tool/ tools
+ls
+g
+make --help
+make --help | less
+ls
+mv tools/makefile ./install.mk
+rm tools/
+ls
+rm -r tools/
+ls
+g
+git add -A
+g
+git commit -m "first commit"
+g
+git remote
+git remote add origin git@github.com:chinnkarahoi/cos.git
+git push -u origin master
+make all
+make
+make all
+ls -a
+make qemu
+ls
+ls -a
+make qemu-nox 
+make qemu
+make qemu-gdb
+g
+history | grep madison
+apt madison vim
+apt-cache madison vim
+apt-cache search vim
+apt-cache search vim-nox
+apt-cache madison vim-nox
+apt-cache madison vim*
+apt-cache madison vim-gnome
+g
+git diff
+ls
+cd ~
+ls
+vim config.sh 
+ls
