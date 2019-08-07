@@ -42422,3 +42422,91 @@ cd ~
 ls
 vim config.sh 
 ls
+sudo snap find vim
+sudo apt search vim
+docker run -it ubuntu:18.04 bash
+docker container -l
+docker container ls
+snap --help
+snap list
+history | grep disk
+history | grep for
+history | grep format
+ls
+history | grep docker | build 
+history | grep docker | gre build 
+history | grep docker | grep build 
+docker build . -t vim
+docker images
+docker run -it vim 
+ls
+cd ~
+ls
+ls -a
+cd .docker/
+ls
+vim config.json 
+ls
+cd ..
+ls
+docker run -it vim 
+docker run -v ~:/root -it vim 
+ls
+cd .docker/
+ls
+vim config.json 
+git diff HEAD~10
+git diff HEAD~10 config 
+git diff HEAD~10 config.json
+git diff HEAD~100 config.json
+git diff HEAD~200 config.json
+git diff HEAD~300 config.json
+git diff HEAD~400 config.json
+git diff HEAD~500 config.json
+git diff HEAD~400 config.json
+cd ..
+ls
+cd snap/
+ls
+cd docker/
+ls
+cd common/
+ls
+ls -a
+cd ..
+ls -a
+ls
+cd 384/
+ls
+ls -a
+cd ..
+ls
+cd ..
+ls
+cd ~
+ls
+df -h
+sudo apt install docker.io
+sudo snap remove docker
+sudo apt install docker.io
+docker
+docker images
+ls
+vim config.sh 
+git diff config 
+git diff config.sh
+vim config.sh 
+ls
+g
+git diff config 
+git branch -d config
+git diff config 
+git diff config.sh
+g
+./config.sh push
+docker --version
+docker version
+sudo snap find qq
+sudo snap find wechat
+sudo snap find qq
+history | grep creator

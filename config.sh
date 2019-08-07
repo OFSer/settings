@@ -18,7 +18,7 @@ install_tools(){
 	sudo apt install -y most tldr docker.io
 	sudo apt install -y git sshpass jq curl
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
-	sudo apt install -y steam
+	sudo apt install -y steam usb-creator-gtk
 	sudo apt install -y compizconfig-settings-manager
 	sudo apt install -y tree net-tools nethogs openssh-server 
 	sudo apt install -y sl cmatrix fortune cowsay lolcat asciiquarium toilet gnuchess screenfetch empire angband bsdgames curseofwar
