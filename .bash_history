@@ -41520,3 +41520,141 @@ ls
 cd ~
 man
 man man
+ls
+cd boot/
+ls
+cd ..
+make
+make inc
+ls
+mkdir inc
+ls
+make
+make boot
+make
+make boot
+make
+ls
+mkdir obj
+ls
+make
+ls
+ls obj
+make
+make clean
+ls
+cd boot/
+ls
+cd ..
+ls
+mkdir -p boot/boot
+make
+ls
+make obj/boot
+mkdir -p obj/boot
+ls
+make
+mkdir kern
+ls
+cd kern/
+ls
+cd ..
+ls
+cp ../lab/.gdbinit .
+ls
+ls -a
+cp ../lab/.gdbinit.tmpl .
+ls
+ls -a
+mkdir -p obj/kern
+ls
+g
+git diff
+g
+git diff
+g
+git diff
+ls
+cd boot/
+ls
+cd fds
+cd ..
+cd ~
+ls
+cd Desktop/
+ls
+cd ..
+ls
+cd ~
+ls
+cp --help
+dirs -p
+ls
+cd ..
+dirs -p
+cd ..
+dirs -p
+ls
+cd ~
+ls
+dirs -p
+cd -
+dirs
+dirs -p
+cd ~-1
+cd ~1
+cd ~-
+ls
+dirs -p
+type cp
+type cd
+mycd
+ls
+vim .bash
+c
+ls
+type c
+c
+c ..
+ls
+c ~
+g
+ls
+g
+git diff
+ls
+g
+git diff
+ls
+dirs -p
+cd ~
+dirs -;
+dirs -p
+ls
+cd ..
+dirs -p
+ls
+cd ..
+ls
+dirs -p
+ls
+cd ~/fc/
+dirs -p
+ls
+cd ~
+ls
+vim .bash
+g
+git diff .bash
+git add .bash
+g
+./config.sh push
+ls
+vim .bash
+ls
+cd 
+cd
+cd 
+cd ~
+vim .bash
+cd

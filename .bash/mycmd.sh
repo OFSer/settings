@@ -15,7 +15,7 @@ callssh(){
 cd(){
 	IFS=$'\n'
 	[ $# -eq 0 ] && {
-		mycd `cat <(ls -d */ 2> /dev/null || echo .) | shuf | head -n 1`
+		command cd `cat <(ls -d */ 2> /dev/null || echo .) | shuf | head -n 1`
 		return
 	}
 	j=0
@@ -24,8 +24,7 @@ cd(){
 		[[ "$i" ==  "`pwd`" ]] && eval popd +$j > /dev/null
 	done
 	pushd . &> /dev/null
-	command cd "$@";
-	dirs
+	command cd "$@" && dirs
 }
 
 solve(){

@@ -42,7 +42,7 @@ show-tabs-mode='auto'
 side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/gh/so/inc'
+virtual-root='file:///home/gjs/dockerfiles/vim'
 tree-view=true
 root='file:///'
 
