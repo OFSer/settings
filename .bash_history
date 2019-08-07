@@ -41324,3 +41324,199 @@ java HelloWorld
 ls
 hexdump -C -n 1000 HelloWorld.class 
 go mod tidy
+ls
+ls
+g
+git diff
+ls
+vim .vimrc
+ls
+musicbox 
+ls
+vim .vimrc
+ls
+vimux 
+ls
+g
+ls
+cd ~/fc/http-dhcp-server/
+vim main.go 
+echo $GOPATH
+vim main.go 
+ls
+cd ~
+ls
+cd go/
+ls
+cd ~/test/go/hello/
+ls
+vim hello.go 
+ls
+vim hello.go 
+ls
+cd ~
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd vim-g
+cd vim-go
+ls
+g
+git diff
+ls
+cd ~
+ls
+cd test/go/hello/
+vim
+cd ~
+ls
+vim .vimrc
+ls
+g
+git diff
+git diff .vimrc
+git add .vimrc
+./config.sh push
+git diff HEAD^ -s
+git diff HEAD^ 
+lg
+ls
+g
+ls
+vim .vimrc
+vim .vim
+vim .vimrc
+ls
+g
+git diff HEAD^ .dconf
+ls
+g
+git diff
+ls
+cd ~/test/
+ls
+cd ~
+ls
+vim .inputrc 
+complete -A directory ls
+compgen -c
+compgen -c ls
+compgen -c docker
+compgen -c g
+compgen -c 'git i'
+compgen -c 'git a'
+tldr compgen
+compgen -ac 'git a'
+compgen -W 'git a'
+compgen -W git
+man compgen
+compgen -h
+compgen --help
+compgen -P 'git a'
+compgen -a 'git a'
+compgen -b 'git a'
+compgen -c 'git a'
+compgen -d 'git a'
+compgen -e 'git a'
+compgen -f 'git a'
+compgen -g 'git a'
+compgen -h 'git a'
+compgen -i 'git a'
+compgen -j 'git a'
+compgen -k 'git a'
+compgen -s 'git a'
+compgen -u 'git a'
+compgen -v 'git a'
+compgen -A 'git a'
+compgen -G 'git a'
+compgen -F 'git a'
+compgen - 'git a'ls
+g
+git diff
+q
+snap info q
+sudo snap info q
+sudo snap info qq
+sudo snap find qq
+snap find qq
+snap find wechat
+tldr cut
+g
+git diff
+ls
+g
+ls
+g
+ls
+make qemu-nox
+cd ..
+mycd ..
+ls
+cd ~
+ls
+c ..
+c ~/fc/
+ls
+c ..
+ls
+cd ..
+dirs -p
+cd ~
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+dirs -p
+cd ~
+ls
+dirs 
+cd fc/
+ls
+dirs
+cd gh
+cd ~/test/
+dirs
+cd ..
+cd ~
+cd ..
+ls
+cd ..
+cd ~
+cd ~/test/
+cd ~/fc/
+cd 
+cd aruco/
+cd fl
+cd ../flaw_checker/
+cd .
+cd ~-1
+cd ~-0
+cd ~-
+cd ~1
+cd ~3
+ls
+dirs
+dirs | cut -d' ' 1-
+dirs | cut -d' ' -f 1-
+dirs | cut -d' ' -f'1-'
+tldr cut
+dirs | cut -d' ' -f1-
+dirs | cut -d' ' -f2-
+cd ~-1
+cd ~-0
+dirs
+cd ~-1
+cd ~-2
+cd ~-0
+sqlite3
+args ~
+cd '~'
+ls
+cd ~
+man
+man man

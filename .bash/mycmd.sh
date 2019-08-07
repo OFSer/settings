@@ -4,15 +4,15 @@ args(){
 	echo
 }
 
-myman(){
-	\man "$@" | vim -M +MANPAGER -c "set showtabline=1" -
+man(){
+	command man "$@" | vim -M +MANPAGER -c "set showtabline=1" -
 }
 
 callssh(){
 	sshpass -p 87Co7r \ssh -o StrictHostKeyChecking=no "$@" || sshpass -p s \ssh -o StrictHostKeyChecking=no "$@" || \ssh "$@"
 }
 
-c(){
+cd(){
 	IFS=$'\n'
 	[ $# -eq 0 ] && {
 		mycd `cat <(ls -d */ 2> /dev/null || echo .) | shuf | head -n 1`
@@ -24,7 +24,8 @@ c(){
 		[[ "$i" ==  "`pwd`" ]] && eval popd +$j > /dev/null
 	done
 	pushd . &> /dev/null
-	\cd "$@";
+	command cd "$@";
+	dirs
 }
 
 solve(){

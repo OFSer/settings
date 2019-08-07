@@ -42,7 +42,7 @@ show-tabs-mode='auto'
 side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/Downloads/jyqxc3jqb.CHS.Green/%E9%87%91%E5%BA%B8%E7%BE%A4%E4%BE%A0%E4%BC%A03%E5%8A%A0%E5%BC%BA%E7%89%88'
+virtual-root='file:///home/gjs/gh/so/inc'
 tree-view=true
 root='file:///'
 
@@ -88,7 +88,7 @@ use-experimental-views=false
 sidebar-width=256
 start-with-sidebar=true
 geometry='966x531+504+276'
-maximized=false
+maximized=true
 
 [org/gnome/nautilus/compression]
 default-compression-format='zip'
