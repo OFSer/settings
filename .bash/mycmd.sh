@@ -24,7 +24,7 @@ cd(){
 		[[ "$i" ==  "`pwd`" ]] && eval popd +$j > /dev/null
 	done
 	pushd . &> /dev/null
-	command cd "$@" && dirs
+	command cd "$@" # && dirs
 }
 
 solve(){

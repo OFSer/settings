@@ -42510,3 +42510,901 @@ sudo snap find qq
 sudo snap find wechat
 sudo snap find qq
 history | grep creator
+ls
+cd obj/kern/
+ls
+fdisk -l
+history | grep dd
+history | grep ^dd
+history | grep \^dd
+history | grep '^dd'
+history | grep '\^dd'
+history | grep '^dd'
+history | grep dd
+history | grep 'dd if'
+sudo dd if=kernal of=/dev/sdc
+ls
+sudo dd if=kernel of=/dev/sdc
+ls
+hexdump -C -n 1000 /dev/sdc
+sudo hexdump -C -n 1000 /dev/sdc
+sudo hexdump -C -n 1000 kernel
+sudo hexdump -C -n 1000 kernel.img 
+df
+sudo fdisk -l
+ll
+ll kernel
+hexdump -C -n /dev/sdc
+sudo hexdump -C -n /dev/sdc
+sudo hexdump -C -n 1000 /dev/sdc
+sudo fdisk -l
+df -h
+sudo hexdump -C -n 1000 /dev/sdc
+sudo hexdump -C -n 1000 /dev/sdc
+qemu-system-i386 /dev/sdc
+sudo qemu-system-i386 /dev/sdc
+qemu-system-i386 kernel
+qemu-system-i386 kernel.img 
+sudo dd if=kernel.img of=/dev/sdc
+sudo hexdump -C -n 1000 /dev/sdc
+docker
+sudo apt install docker
+\docker
+sudo apt install docker.io
+sudo apt  install docker.io
+docker
+\docker
+sudo apt remove docker
+sudo apt install docker
+sudo apt install docker.io
+sudo apt autoremove 
+sudo apt install docker.io
+sudo apt remove --purge docker*
+sudo apt install docker.io
+sudo apt install docker
+sudo snap install docker
+docker
+docker images
+type docker
+echo -e '1234\tfas'
+tabs 2
+echo -e '1234\tfas'
+setterm -regtabs 4
+setterm --regtabs 4
+git log
+git reflog
+history | grep git | grep log
+history | grep git | grep graph
+git log --oneline --graph --decorate
+git log --oneline --graph
+git log --graph
+ls
+g
+git diff
+git add -A
+ls
+cd ~/fc/
+ls
+cd aruco/
+ls
+git diff
+g
+ls
+cd ..
+ls
+cd aruco/
+ls
+g
+git dif
+git diff
+git diff HEAD^ 
+ls
+g
+git diff
+g
+ls
+cd ~
+ls
+vim .vimrc
+ld
+ls
+vim .gdbinit
+vim .vimrc
+ls
+cd .vim/
+ls
+cd nerdtree_plugin/
+ls
+cd ..
+ls
+cd plugged/
+ls
+g
+ls
+cd nerdtree
+ls
+g
+git diff HEAD^
+git log
+cd ..
+ls
+git diff
+ls
+ls | grep ners
+ls | grep nerd
+cd nerdtree-git-plugin/
+ls
+git log
+git diff HEAD^
+git diff HEAD^^
+git log
+git diff HEAD^^^
+git diff HEAD^^
+git remote
+git remote -v
+git remote show origin
+g
+ls
+cd ~
+ls
+cd dockerfiles/
+ls
+cd vim/
+ls
+vim Dockerfile 
+差点～
+cd ~
+ls
+vim config.sh 
+g
+git diff
+./config.sh push
+ls
+cd fc/g
+cd gh/
+ls
+cd so/
+ls
+cd ..
+ls
+cd lab/
+ls
+vim
+git diff .gdbinit.tmpl
+g
+git add -A
+git commit -m "add gdb config"
+git push
+g
+ls
+g
+git diff
+ls
+g
+ls
+g
+git diff
+git diff HEAD^
+ls
+g
+git diff HEAD^
+ls
+g
+ls
+g
+ls
+sudo qemu-system-i386 /dev/sdc
+ls
+cd ~
+ls
+qemu-ga
+qemu-io
+qemu-nb
+qemu-nbd
+qemu-nbd --help
+ls
+cd fc/
+ls
+cd so
+ls
+cd ~/gh/so/
+ls
+mkdir boot
+ls
+cd tool/
+ls
+cd ..
+ls
+g
+git diff
+ls
+cd tool/
+ls
+cd qemu/
+ls
+cd ..
+ls
+cd ..
+vim .gitignore 
+ls
+cd tool/
+ls
+cd ..
+ls
+cd tool/
+ls
+cd ..
+ls
+vim
+vim 
+ls
+cd ..
+ls
+cp os cos
+cp -r so cos
+ls
+cd so/
+ls
+cd ..
+ls
+cd cos
+ls
+cd tool/
+ls
+rm *z2
+ls
+rm gz
+rm *gz
+ls
+cat makefile 
+ls
+rm -rf qemu
+ls
+vim makefile 
+ls
+cd ..
+ls
+rm -rf .git
+ls
+ls -a
+rm .bochsrc 
+g
+git init
+g
+ls
+vim
+ls
+cd tool/
+ls
+rm -r qemu
+ls
+cd ..
+ls
+vim
+ls
+cd ~/.vim/
+ls
+cd plugged/
+ls
+vim
+ls
+vim vim-go/
+ls
+cd ~
+ls
+vim .vimrc
+vim .vim
+ls
+cd ~
+ls
+l
+g
+git diff
+l
+g
+git diff .vim/plugin/quit.vim
+git diff .vimrc
+ls
+git add .vim
+g
+git commit -m "upd"
+vim .vimrc
+vim .vim
+vim .vimrc
+vim .vim
+g
+cd .config/dlv/
+ls
+cat config.yml 
+cd ~
+sudo apt remove sl
+ls
+vim .vim
+ls
+g
+git diff
+ls
+g
+git diff .vimrc
+git add .vimrc
+git add .vim
+g
+vim .gitignore 
+g
+git add .gitignore 
+git commit -m "upd"
+git push
+g
+git diff
+ls
+go --version
+go version
+go mod
+wd -s vendored
+wd -s vendor
+cd test/go/hello/
+go mod why
+cd ..
+ls
+cd ..
+cd go/golang_module_packages/
+go mod why
+go mod why gitlab.com/juanpabloaj/mod_pkg
+go mod why gitlab.com/juanpabloaj/mod_p
+go mod graph
+cd ~/fc/http-dhcp-server/
+go mod graph
+vim main.go 
+cd ~
+ls
+cd .vim/plugged/
+cd vim-go/
+git pull
+g
+git log
+git diff HEAD^
+git diff HEAD^ HEAD
+git diff HEAD
+git diff HEAD^
+git diff HEAD
+git diff HEAD^ HEAD^^
+git diff HEAD~1 HEAD~32
+git diff HEAD^
+git diff HEAD~5
+git diff HEAD~10
+ls
+g
+git diff
+ls
+cd ~
+ls
+vim .vimrc
+ls
+rm -rf _go
+sudo rm -rf _go
+ls
+rm go.mod
+rm go.sum
+ls
+g
+git diff .vimrc
+cd test/go/
+ls
+cd hello/
+vim 1.go
+vim 2.go
+ls
+vim 2.go
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+cd 11.cpp
+vim 11.cpp
+ls
+cd ..
+ls
+mkdir java
+ls
+cd java/
+ls
+vim 1.java
+ls
+vim HelloWorld.java 
+ls
+cd ~
+ls
+cd .vim/plugged/
+ls
+cd YouCompleteMe/
+ls
+python3 install.py --all
+python3 install.py --java
+python3 install.py --go
+ls
+cd ..
+ls
+cd vim-
+cd vim-go/
+ls
+g
+git diff
+ls
+cd ~/fc/http-dhcp-server/
+ls
+vim main.go 
+ls
+cd ~
+ls
+cd fc/
+ls
+cd ~
+ls
+cd go/
+ls
+cd ~/test/cpp/
+ls
+vim 1.cpp
+cd ..
+cd go/
+ls
+cd hello/
+sl
+vim hello.go 
+s
+ls
+cd ~/gh/
+ls
+cd lab/
+ls
+cd ..
+ls
+cd so/
+ls
+fortune 
+fortune  | lolcat 
+fortune  | lolcat | cowthink
+fortune  | lolcat | cowsay
+fortune  | cawsay | lolcat
+fortune  | cowsay | lolcat
+wd -s circumstantial
+wd -s circumstance
+wd -s  scrube
+wd -s  scrub
+fortune  | lolcat
+wd -s speculation
+fortune  | lolcat
+fortune | lolcat
+jobs
+history 
+ls
+history | grep man
+man completion
+man bash
+ls
+man bash
+ulimit -a
+ls
+cd ../lab/
+ls
+vim 
+ls
+vim GNUmakefile 
+steam
+steam 
+startup-disk-creator
+sudo apt install startup-disk-creator
+sb-creator-gtk
+usb-creator-gtk
+sudo apt install sb-creator-gtk
+sudo apt install usb-creator-gtk
+usb-creator-gtk 
+sudo reboot
+kernel
+sudo su
+ls
+sudo mkdir /mnt/sdc
+ls
+sudo mount /dev/sdc /mnt/sdc
+history | mkfs
+history | grep mkfs
+sudo mkfs -t ext4 /dev/sdc
+ls
+sudo mount /dev/sdc /mnt/sdc
+ls
+mkdir /mnt/sdc/boot
+sudo mkdir /mnt/sdc/boot
+cd /mnt/sdc/
+ls
+cd boot/
+ls
+mkdir grub
+sudo mkdir grub
+cd /usr/share/grub
+ls
+cd ..
+cd ~2
+ls
+cp -r /usr/share/grub .
+sudo cp -r /usr/share/grub .
+ls
+ls grub
+grub-install --root-directory=/mnt/sdc --no-floppy /dev/sdc
+grub2-install --root-directory=/mnt/sdc --no-floppy /dev/sdc
+grub-install --root-directory=/mnt/sdc --no-floppy /dev/sdc
+grub-install --root-directory=/mnt/sdc 
+ls
+cd ~
+ls
+cd gh/lab/
+ls
+make install-grub
+vim /etc/default/grub 
+grub-install --force --removable --boot-directory=/mnt/sdc/boot /dev/sdc
+ls
+fdisk -l
+sudo fdisk -l
+history | grep mkfs
+umount /dev/sdc
+sudo umount /dev/sdc
+ls
+cd /mnt/
+ls
+rm -r sdc
+sudo rm -r sdc
+ls
+mkdir /mnt/USB
+sudo mkdir /mnt/USB
+sudo grub-install /dev/sdc
+ls
+mount /dev/sdc /mnt/USB
+sudo mount /dev/sdc /mnt/USB
+ls
+cd USB/
+ls
+cd boot/
+ls
+sudo umount /dev/sdc
+sudo sudo umount /dev/sdc
+cd ..
+cd ~
+sudo sudo umount /dev/sdc
+sudo mount /dev/sdc /mnt
+ls
+cd /mnt/
+ls
+sudo rm -rf *
+ls
+sudo grub-install –boot-directory=/mnt/boot /dev/sdc
+mkdir boot
+sudo mkdir boot
+sudo grub-install –boot-directory=/mnt/boot /dev/sdc
+sudo grub-install -boot-directory=/mnt/boot /dev/sdc
+sudo grub-install --boot-directory=/mnt/boot /dev/sdc
+ls
+mkdir boot/efi
+sudo mkdir boot/efi
+sudo grub-install --boot-directory=/mnt/boot /dev/sdc
+mkdir efi
+sudo mkdir efi
+sudo grub-install --boot-directory=/mnt/boot /dev/sdc
+ls
+mkdir EFI
+sudo mkdir EFI
+sudo rm -r efi
+ls
+cd boot/
+ls
+sudo mkdir EFI
+ls
+rm -r efi
+sudo rm -r efi
+cd ..
+vim ~/.bash
+cd /to
+cd /boot/
+ls
+cd efi/
+ls
+cd ..
+cd boot/
+ls
+cd grub/
+ls
+cd x86_64-efi/
+ls
+cd ..
+ls
+cd ..
+ls
+cd efi/
+ls
+sudo su
+ls
+sudo blkid
+ls /boot/
+sudo fdisk -l
+cd ~
+ls
+vim .vimrc
+vim .vim
+cd /mnt/
+ls
+sudo rm -rf EFI
+ls
+sudo grub-install --boot-directory=/mnt/boot /dev/sdc
+ls
+sudo mkdir EFI
+sudo grub-install --boot-directory=/mnt/boot /dev/sdc
+ls
+cd boot/
+ls
+cd ..
+ls
+sudo grub-install --boot-directory=/mnt/boot /dev/sdc
+grub-install --efi-directory=/mnt/EFI
+sudo grub-install /dev/sdc
+ls
+cd boot/
+ls
+cd grub/
+ls
+cd ..
+ls
+cd ..
+ls
+find .
+cd ..
+ls
+df -h
+cd /mnt/
+ls
+rm -rf *
+sudo rm -rf *
+sudo grub-install /dev/sdc
+ls
+df
+sudo fdisk -l
+cd ~
+ls
+cd /boot/
+ls
+find . | grep grub.cfg
+sudo find . | grep grub.cfg
+vim grub/grub.cfg 
+vim ./efi/EFI/ubuntu/grub.cfg
+sudo vim ./efi/EFI/ubuntu/grub.cfg
+df -h
+sudo fdisk -l
+ls
+cd /mnt/
+ls
+sudo mount /dev/sdc /mnt
+df -h
+mkdir boot
+sudo mkdir boot
+sudo grub-install --boot-directory=/mnt/boot /dev/sdc
+tldr grub-install 
+ls
+cd boot/
+ls
+cd grub/
+ls
+cd ..
+ls
+cd ..
+ls
+sudo grub-install --boot-directory=/mnt/boot /dev/sdc
+sudo grub-install --target=i386-pc --boot-directory=/mnt/boot /dev/sdc
+ls
+cd boot/
+ls
+find .
+cd ..
+ls
+cd boot/grub/
+ls
+cd i386-pc/
+ls
+cd ..
+ls
+cd locale/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~
+ls
+cd /boot/grub/
+ls
+vim grub.cfg 
+cd ..
+ls
+sudo ~/gh/lab/obj/jos-grub .
+sudo cp ~/gh/lab/obj/jos-grub .
+ls
+sudo update-grub
+vim /etc/grub.d/40_custom 
+vim /etc/grub.d/30_os-prober 
+vim /etc/grub.d/10_linux 
+ls
+vim /etc/grub.d/10_linux 
+grub-install -V
+cd ~/g
+cd ~/gh/
+ls
+git clone https://github.com/JulesWang/JOS-vmx.git
+cd JOS-vmx/
+ls
+make install-grub 
+ls
+vim GNUmakefile 
+ls
+cd ~/boo
+cd /boot/
+ls
+sudo vim /boot/grub/menu.lst
+find . | grep menu
+sudo find . | grep menu
+sudo find . | grep menu | head -n 1
+cat `sudo find . | grep menu | head -n 1`
+s
+ls
+vim /etc/grub.d/README 
+vim /etc/grub.d/10_linux 
+cd /etc/default/
+ls
+vim grub 
+cd /boot/
+ls
+cd grub/
+ls
+cd x86_64-efi/
+ls
+cd ..
+ls
+vim grub
+vim grub.cfg 
+cd /etc/
+find . | grep menu
+sudo find . | grep menu
+sudo find . | grep menu.list
+sudo find . | grep menu\.list
+cd /boot/
+sudo find . | grep menu\.list
+find . | grep grub.conf
+sudo find . | grep grub.conf
+sudo find . | grep grub\.conf
+cd /etc/
+ls
+find . | grep grub.conf
+sudo find . | grep grub.conf
+cd /boot/
+ls
+cd grub/
+ls
+vim grub
+vim grub.cfg 
+ls
+vim /etc/grub.d/README 
+vim /etc/grub.d/40_custom 
+vim /boot/grub/grub.cfg 
+ls
+cd ..
+ls
+sudo update-grub
+sudo update-grub2
+ll
+sudo chmod -x jos
+ll
+sudo update-grub2
+sudo vim /etc/grub.d/40_custom 
+ls
+cd /etc/grub.d/
+ls
+vim 40_custom 
+sudo vim 40_custom 
+sudo reboot
+ls
+cd gh/lab/
+ls
+make grub 
+make clean
+make grub 
+ls
+cd kern/
+cd ..
+cd obj/kern/
+ls
+cd ..
+ls
+ll
+hexdump -C -n 1000 jos-grub 
+make grub
+ls
+cd ..
+ls
+vim GNUmakefile 
+g
+vim /etc/default/grub 
+sudo vim /etc/default/grub 
+sudo update-grub
+sudo reboot
+cd /etc/grub.d/
+vim
+sudo vim
+ls
+sudo fdisk -l
+cd ~
+ls
+cd ~
+ls
+cd /etc/grub.d/
+vim 40_custom 
+sudo vim 40_custom 
+ls
+sudo vim 40_custom 
+sudo reboot
+cd /boot/
+ls
+vim /etc/grub.d/40_custom 
+sudo vim /etc/grub.d/40_custom 
+sudo boot
+sudo reboot
+sudo vim /etc/grub.d/40_custom 
+sudo update-grub
+sudo reboot
+sudo vim /etc/grub.d/40_custom 
+sudo update-grub
+sudo reboot
+sudo vim /etc/grub.d/40_custom 
+df -h
+sudo vim /etc/grub.d/40_custom 
+sudo update-grub
+sudo reboot
+sudo vim /etc/grub.d/40_custom 
+sudo update-grub
+sudo reboot
+ls
+sudo vim /etc/grub.d/40_custom 
+cd /boot/
+ls
+hexdump -C -n jos
+hexdump -C -n 100 jos
+hexdump -C -n 100 jos-grub 
+hexdump -C -n 512 jos-grub 
+hexdump -C -n 512 initrd.img-4.18.0-15-generic 
+sudo update-grub
+sudo reboot
+hexdump -C -n 512 initrd.img-4.18.0-15-generic 
+sudo vim /etc/grub.d/40_custom 
+sudo update-grub
+sudo reboot
+sudo vim /etc/grub.d/40_custom 
+ls
+cd /boot/
+ls
+ll
+ll -h
+vim /etc/default/grub
+vim /boot/grub/grub.cfg 
+sudo update-grub
+sudo reboot
+vim /boot/grub/grub.cfg 
+sudo vim /etc/grub.d/40_custom 
+sudo update-grub
+sudo reboot
+sudo vim /etc/grub.d/40_custom 
+sudo update-grub
+sudo reboot
+ls
+sudo vim /etc/grub.d/40_custom 
+sudo update-grub
+cat /boot/grub/grub.cfg 
+sudo reboot
