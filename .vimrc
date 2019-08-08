@@ -52,6 +52,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'Valloric/YouCompleteMe', { 'do': 'python3 install.py --all' }
 Plug 'chinnkarahoi/vim-cmake-completion'
+Plug 'mhinz/vim-grepper'
 nnoremap <silent> D :tab split \| YcmCompleter GoTo<cr>
 nnoremap <silent> d :YcmCompleter GoTo<cr>
 let g:go_def_mode='gopls'

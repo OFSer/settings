@@ -43466,3 +43466,91 @@ cd ~
 ls
 cd gh
 cd lab/
+g
+find -type f -exec grep -Iq '' '{}' ';' -print
+cd ~/gh/lab/
+vimgrep /pattern/ `find -type f -exec grep -Iq '' '{}' ';' -print`
+find -type f -exec grep -Iq '' '{}' ';' -print
+ls
+g
+find -type f -exec grep -Iq '' '{}' ';' 
+find -type f -exec grep -Iq '' '{}' ';' -print
+cd ~
+ls
+vim .vim
+grep -Ir /pattern/ *
+grep -Ir /OBJDIR/ *
+ls
+grep -Ir /OBJDIR/ *
+grep --help
+ls
+grep -Ir /pattern/ make
+grep -Ir /make/ *
+ls
+find . | grep -I
+find . | grep -I *
+find . | grep -I {}
+find . | grep -I .
+find . | grep -I . | grep grade
+find -type f
+find -type f | grep grade
+find . -exec grep -I {} \;
+find . -exec grep -I '{}' ';'
+find . -exec grep -Iq '{}' ';' -print
+ls
+find .
+find . -exec grep -Iq '' '{}' ';' -print
+find -type f -exec grep -Iq '' '{}' ';' -print
+find -type f -exec grep -I '' '{}' ';'
+find -type f -exec grep -I '' '{}' '+'
+find -type f -exec grep -I '' '{}' ';'
+find -type f -exec grep '' '{}' ';'
+ls
+grep make GNUmakefile 
+ls
+find --help | grep exclude
+find --help | 
+find --help 
+man find
+find -type f -exec grep '' '{}' ';'
+find -type f -exec grep -Iq '' '{}' ';'
+find -type f -exec grep -Iq '' '{}' ';' -print
+find -type f -not -path "./.git/*" -exec grep -Iq '' '{}' ';' -print
+find -type f -path ./.git -prune
+find . -type f -path ./.git -prune
+find  -type f -path ./.git -prune -print
+find  -type f -path ./.git -prune -o -print
+find  . -type f -path ./.git -prune -print
+find . -path ./.git -prune -print
+find  -path ./.git -prune -o -print
+find . -path ./.git -prune -o -print
+find . -path ./.git -prune  -print
+find . -path ./.git -prune -o -print
+find -type f -path ./.git -prune -o -exec grep -Iq '' '{}' ';' -print
+find -path ./.git -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+find -path .git -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+find -path ./.git -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+grep --help
+ls
+cd fc/transformer-pipeline/
+vim
+cd ~
+ls
+cd gh/lab/
+vim
+ls
+cd ~/fc/transformer-pipeline/
+ls
+vim
+ls
+find . -type f \( -name "*.conf" -or -name "*.txt" \) -print
+find . -not -type f \( -name "*.conf" -or -name "*.txt" \) -print
+find . -not \( -type f \( -name "*.conf" -or -name "*.txt" \) \) -print
+find . -not \( -type f \( -name "*.conf" -or -name "*.txt" \) \) -print | grep txt
+find . -not \( -type f \( -name "*.conf" -or -name "*.txt" \) \) -print 
+find . -not \( -type f \( -iname "*.conf" -or -iname "*.txt" \) \) -print 
+find . -not \( -type f \( -iname "*.conf" -or -iname "*.txt" \) \) -print  | grep txt
+find . -not \( -type f \( -iname "*.conf" -or -iname "*.txt" \) \) -print  | grep -i txt
+find . -not \( -type f \( -iname "*.conf" -or -iname "*.txt" \) \) -print  | grep cpp
+cd ~/fc/transformer-pipeline/
+vim

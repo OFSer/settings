@@ -7,7 +7,8 @@ endfor
 for i in g:searchfile
 	let g:searchlist .= i . ' '
 endfor
-command -nargs=1 ProjSearch silent! exec "vimgrep /<args>/gj ".g:searchlist | copen
+" command -nargs=1 ProjSearch silent! exec "vimgrep /<args>/j ".g:searchlist | copen
+command -nargs=1 ProjSearch silent! vimgrep /<args>/j `find -path ./.git -prune -o -type f -exec grep -Iq '' '{}' ';' -print` | copen
 command -nargs=1 Search silent! exec "Find <args>" | copen
 set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,*.pdf,*.bak,*.beam,build/**,frontend/**
 nnoremap f :ProjSearch<space>
