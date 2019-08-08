@@ -43408,3 +43408,61 @@ sudo vim /etc/grub.d/40_custom
 sudo update-grub
 cat /boot/grub/grub.cfg 
 sudo reboot
+ls
+cd ..
+ls
+cd ~
+ls
+g
+g
+git diff .bash
+ls
+g
+./config.sh push
+lg
+g
+cd gh/
+git diff
+ls
+cd gh
+ls
+cd ~
+ls
+vim .basjh
+vim .bash
+ls
+l
+ls
+cd doxygen/
+cd ~
+ls
+cd games/
+cd diablorl/
+cd ~
+cd fc/
+cd saki_detection/
+cd data/
+cd topa/
+ls
+cd ..
+ls
+cd ..
+ls
+cd pack/
+ls
+cd 
+ls
+cd 
+cd
+ls
+cd
+cd ..
+cd 
+cd ..
+cd fc/
+cd 
+cd ..
+cd ~
+ls
+cd gh
+cd lab/
