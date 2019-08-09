@@ -43554,3 +43554,530 @@ find . -not \( -type f \( -iname "*.conf" -or -iname "*.txt" \) \) -print  | gre
 find . -not \( -type f \( -iname "*.conf" -or -iname "*.txt" \) \) -print  | grep cpp
 cd ~/fc/transformer-pipeline/
 vim
+g
+find -type f -exec grep -Iq '' '{}' ';' -print
+find -type f -exec grep -Iq -print
+find -type f -exec grep -Iq '' -print
+find -type f -exec grep -Iq '' '{}' -print
+find -type f -exec grep -Iq '' '{}' ';' -print
+find -type f -exec
+find -type f 
+ls
+ls | grep -I
+ls | grep -I '' '{}' ';'
+ls
+find --help
+man find 
+ls
+vim
+ls
+vim
+cd ~
+ls
+vim .vimrc
+ls
+g
+git diff
+git diff .vimrc
+g
+git diff .vim
+./config.sh push
+history 
+cd
+cd 
+cd ~
+cd gh
+cd ..
+cd go
+cd src/
+cd ~/fc/
+g
+cd ~
+vim .vimrc
+vim .vim
+g
+git diff
+g
+git diff
+sl
+ls
+g
+ls
+vim .bash
+ls
+ls
+g
+ls
+vim 
+vim config.sh 
+history 
+g
+cd ~
+git diff
+vim config.sh 
+sudo apt install Tilda
+tilda
+sudo apt install tilda
+guake
+sudo apt install guake
+i
+Terminology
+terminology
+sudo apt install terminology
+sakura
+i sakura
+ls
+git diff
+ls
+ls
+g
+vim conf/
+cd ~
+ls
+vim config.sh 
+ls
+g
+ls
+g
+vim config.sh 
+sl
+ls
+sakura 
+ls
+ls
+vim config.sh 
+ls
+g
+git diff
+ls
+ls
+g
+ls
+g
+vim config.sh 
+ls
+g
+git diff
+g
+gitdiff
+git diff
+ls
+git diff
+vim conf/
+ls
+vim conf/
+cd ~
+vim config.sh 
+ls
+g
+ls
+history 
+ls
+g
+cd ~
+vim config.sh 
+ls
+ls
+ls
+g
+git diff
+ls
+cd ~
+ls
+vim config.sh 
+Yakuake
+yakuake
+i yakuake
+yakuake
+ps -ef | grep guak
+kill -9 11560
+ps -ef | grep guak
+kill -9 19164
+terminology 
+terminator 
+tilda 
+sakura 
+i terminator
+ps -ef | grep termi
+kill -9 19852
+ls
+ls
+for i in {1..10000};do echo $i; sleep 1; done
+ls
+screen
+terminator 
+screen
+sudo apt install screen
+screen
+ls
+g
+ls
+mv install.mk makenv.mk
+ls
+g
+git add -A
+g
+git commit -m "rename"
+git push
+g
+git log
+ls
+cd ~
+cd shmmsg/
+ls
+gcc -c 1.s
+gcc -m32 -c 1.s
+ls
+ll 1.o
+as --help
+ld -o 1 1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/32/libgcc.a 
+ld -m32 -o 1 1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/32/libgcc.a 
+ld  -o 1 1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/32/libgcc.a 
+ld -m elf_i386 -o 1 1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/32/libgcc.a 
+ld -m elf_i386 -o 1  /usr/lib/gcc/x86_64-linux-gnu/4.8/32/libgcc.a  1.o
+ld -m elf_i386 -o 1 1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/32/libgcc.a
+ls /usr/lib/gcc/x86_64-linux-gnu/4.8/32/libgcc.a
+ll /usr/lib/gcc/x86_64-linux-gnu/4.8/32/libgcc.a
+ld -o 1 -m elf_i386 1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/32/libgcc.a
+tldr ld
+man ld
+ls
+cd ~
+ls
+g
+git diff
+ls
+steam 
+ls
+mkdir ffffffffffffffffffffffffff
+rm -r ffffffffffffffffffffffffff/
+ls
+rm -r ffffffffffffffffffffffffff/
+watch -n 5 ls
+cd ~
+ls
+cd fc/
+cd rttr_rep/
+cd 
+cd ~
+cd 
+times --help
+times
+watch -n 5 ls -l
+watch -n 5 cd 
+watch -n 1 cd 
+for i in {1..3};do cd ; done
+cd ~
+for i in {1..3};do cd ; done
+ls
+cd ~
+for i in {1..3};do cd ; done
+cd ~
+for i in {1..3};do echo $i;cd ; done
+cd ~
+for i in {1..3};do echo $i;cd ; done
+cd ~
+cd .
+l
+c
+c .
+cd .
+ls
+terminator 
+quickterminal-git
+QTerminal
+qterminal
+i qterminal
+qterminal 
+g
+git diff
+ls
+gcc 1.c
+ls
+./a.out
+gcc 1.c && ./a.out
+gcc -m32 1.c && ./a.out
+history | grep gcc
+gcc -m32 1.c && ./a.out
+g
+git diff
+ls
+gcc -m32 1.c
+gcc -m32 1.c && ./a.out
+gcc -m32 -S 1.c
+ls
+gcc -m32 -S 1.c
+gcc -m32 -S 1.c && gcc -m32 1.c && ./a.out
+g
+git add -A
+g
+git commit -m "upd"
+git push
+ls
+cd ..
+ls
+cd asm/
+ls
+gcc -m32 -S 1.c && gcc -m32 1.c && ./a.out
+ls
+gcc -m32 -S 1.c && gcc -m32 1.c && ./a.out
+g
+git diff
+ls
+g
+git diff
+g
+git diff
+ls
+cd ~/test/asm/
+ls
+vim 1.cpp
+vim 1.c
+steam
+history | grep mkfs
+sudo mkfs -t ext4 /dev/sdc
+sudo umount /dev/sdc
+sudo mkfs -t ext4 /dev/sdc
+./pc
+./pc.sh
+sudo umount /dev/sdc
+sudo mount /dev/sdc /mnt
+cd /mnt/
+ls
+sudo nautilus .
+du -hd 1
+ls /mnt/
+ls
+sudo nautilus .
+cd /mnt/
+nautilus .
+./pc.sh 
+git branch
+git checkout master 
+cd inc/
+ls
+gcc SPSCQueue.h 
+g++ SPSCQueue.h 
+g++ -S SPSCQueue.h 
+g++ -I .-S SPSCQueue.h 
+g
+cd build/
+ls
+make -j4
+ls
+./SPSCQueueTest 
+./shmq_recv 
+ls
+./build.sh 
+ls
+./multhread_q
+./build.sh 
+./multhread_q
+./build.sh 
+./multhread_q
+./build.sh && ./multhread_q
+./build.sh && ./multhread_q && ./multhread_varq 
+ls
+./shmq_send
+gcc -ggdb3 -std=c99 -O3 -Wall -Wextra -pedantic -o main.out main.c
+gcc -ggdb3 -std=c99 -O3 -Wall -Wextra -pedantic -o 1 1.c
+./1
+gcc -ggdb3 -std=c99 -O3 -Wall -Wextra -pedantic -o 1 1.c
+./1
+gcc -ggdb3 -std=c99 -O3 -Wall -Wextra -pedantic -o 1 1.c
+./1
+gcc -S 1.c
+rm 1.s
+gcc -S 1.c
+ls
+mkdir build
+cd  build/
+ls
+cmake ..
+ls
+cd ../test/
+ls
+./test.sh 
+gcc -S 1.c
+ls
+cd ~/test/
+ls
+cd asm/
+ls
+vim 2.cpp
+vim 2.asm 
+vim 2.cpp
+vim 1.cpp
+vim 1.c
+ls
+cd ~/test/
+ls
+cd ~/fc/shmmsg/
+ls
+vim
+s
+ls
+g
+./build.sh && ./multhread_q && ./multhread_varq 
+gcc -S 1.c
+cd ~/gh/
+ls
+git clone https://github.com/rigtorp/SPSCQueue.git
+ls
+cd SPSCQueue/
+ls
+cd include/
+ls
+cd ..
+vim
+ls
+g
+git diff
+g
+git diff
+ls
+vim
+ls
+cd ..
+ls
+git clone https://github.com/MengRao/SPSC_Queue.git
+ls
+cd SPSC_Queue/
+ls
+./build.sh 
+ls
+./multhread_q
+./multhread_varq 
+./multhread_q
+ls
+vim
+ls
+g
+git diff
+ls
+cd ~
+ls
+cd test/asm/
+vim 1.cp
+vim 1.c
+gcc -S 1.c
+g
+git diff
+ls
+ls
+cd ~/test/asm/
+ls
+vim 1.c
+g
+git branch
+git chekcout -b iot
+git checkout -b iot
+g
+git diff
+g
+git add -A
+git commit -m "add ssh-proxy permitopen"
+git push
+git push --set-upstream origin iot
+ls
+git branch
+git checkout master 
+git pull
+git status
+git log
+ls
+git branch -A
+git branch -a
+git branch -d iot
+git branch
+git checkout -b iot remotes/origin/master
+git log
+ls
+git branch
+g
+git diff
+git add -A
+git commit -m "add ssh-proxy permitopen"
+git push
+git push origin iot
+git push --force origin iot
+l
+g
+git diff
+g
+git diff
+history  | grep curl | grep dl-4
+history  | grep curl | grep 31239
+cd ~
+ls
+vim .ssh/authorized_keys 
+cd /home/gjs/go/pkg/mod/gitlab.sho.hypereal.com/go/common-util
+cd /home/gjs/go/pkg/mod/gitlab.sho.hypereal.com/go/
+cd common-util@v0.0.0-20190516073121-a1e098472d3a/
+ls
+vim
+ssh gjs@dl-5
+\ssh gjs@dl-5
+ls
+cd ..
+ls
+cd dl-k8s-kube/
+ls
+vim
+history | grep 31239
+mysql -h dl-4 -P 31239 -u root -p KojuJuqe1[Yaqx
+sudo apt install mysql-server-5.7 
+mysql -h dl-4 -P 31239 -u root -p KojuJuqe1[Yaqx
+history | grep 31239
+mysql -h dl-4 -P 31239 -u root --password="KojuJuqe1[Yaqx"
+go build .
+ls
+export DHCP_ENV=local
+./http-dhcp-server 
+go build .
+./http-dhcp-server 
+go build .
+./http-dhcp-server 
+go build .
+./http-dhcp-server 
+go build . && ./http-dhcp-server 
+g
+git diff
+g
+git dff
+git add -A
+g
+git commit -m "add query param proj"
+git push
+git push --set-upstream origin iot
+go build . && ./http-dhcp-server 
+history | grep mysql
+mysql -h dl-4 -P 31239 -u root --password="KojuJuqe1[Yaqx"
+go env
+go version
+export DHCP_ENV=local
+go build .
+ls
+./http-dhcp-server 
+swag init
+history | grep swag
+./http-dhcp-server 
+export DHCP_ENV=local
+./http-dhcp-server 
+swag init
+./http-dhcp-server 
+ls
+swag init
+rm -rf docs
+ls
+swag init
+jobs
+go run main.go 
+rm -rf docs
+ls
+g
+ls
+cd /fasdf
+cd /asfd
+asdf
+cd /asfd
