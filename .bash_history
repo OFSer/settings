@@ -44081,3 +44081,140 @@ cd /fasdf
 cd /asfd
 asdf
 cd /asfd
+ls
+cd ~
+ls
+vim .bash
+g
+git add .bash
+g
+git diff .bash
+git diff --cached .bash
+g
+ls
+./config.sh push
+g
+history | grep pipefailed
+history | grep pipe
+history | grep pipefail
+go run main.go 
+ls
+cd src/
+ls
+mkdir ssh-proxy
+ls
+cd ssh-proxy/
+ls
+steam
+ls
+cd ~/fc/detection-machine-daemon/
+ls
+vim jumpserver_forward.sh 
+ls
+cd ~/fc/http-dhcp-server/
+ls
+./http-dhcp-server 
+vim main.go 
+terminator 
+ls
+g
+git diff
+ls
+cd ../co
+cd ../cos
+ls
+vim
+cd ~
+vim .bash
+ls
+g
+./config.sh push
+vim .vim
+ls
+g
+cd gh/
+ls
+l
+cd Gdbinit/
+cd ~/gh
+cd lab/
+vim
+vimux 
+vim
+ls
+cd ~
+ls
+cd ~/fc/
+cd dl-k8s-kube/
+ls
+vim
+ls
+cd ..
+ls
+cd http-dhcp-server/
+ls
+git pull
+git branch
+git checkout -b iot
+ls
+vim
+ls
+cd ..
+git clone git@gitlab.sho.hypereal.com:AIFactory/iot-daemon.git
+ls
+cd iot-daemon/
+ls
+git branch -a
+git checkout -b remotes/origin/yisong
+git checkout master
+git branch -d heads/remotes/origin/yisong
+git branch
+git branch -d remotes/origin/yisong
+git branch
+git checkout -b yisong remotes/origin/yisong
+git log
+git pull
+git checkout -b gjs
+ls
+vim
+ls
+vim main.go 
+ls
+git log
+ls
+vim
+make clean
+g
+ls
+make qemu
+ls
+g
+cc -print-libgcc-file-name
+cc -m32 -print-libgcc-file-name
+gcc -m32 -print-libgcc-file-name
+make clean
+make all
+steam
+cd .vim/plugged/vim-go/
+ls
+git pull
+git log
+g
+git diff
+cd ..
+ls
+cd nerdtree-git-plugin/
+g
+git log
+git push
+git diff HEAD^
+git push
+git log
+ls
+cd ~
+ls
+cd ..
+cd ~
+vim .bash
+ls
+cd ~

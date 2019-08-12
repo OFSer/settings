@@ -15,7 +15,7 @@ callssh(){
 cd(){
 	IFS=$'\n'
 	[ $# -eq 0 ] && {
-		command cd `cat <(ls -d */ 2> /dev/null || echo .) | shuf | head -n 1`
+		command cd `cat <(ls -d */ 2> /dev/null || echo .) | shuf | head -n 1` && ls
 	} || {
 		j=0
 		for i in `dirs -l -p | sed -n '2,$p'`;do
@@ -24,7 +24,7 @@ cd(){
 		done
 		pushd . &> /dev/null
 		command cd "$@" && ls # && dirs
-	} && ls
+	}
 }
 
 solve(){
