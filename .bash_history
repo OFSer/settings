@@ -44218,3 +44218,931 @@ cd ~
 vim .bash
 ls
 cd ~
+git pull
+ls
+cd src/ssh-proxy/
+ls
+go env
+go build .
+ls
+cd ..
+ls
+cd detection-machine-daemon/
+ls
+vim jumpserver_forward.sh 
+go build -v
+go build 
+go build .
+ls
+cd ~/.vim/
+ls
+cd plugged/
+cd vim-go/
+ls
+git lgo
+git log
+git checkout e667f38c9a51bbb897881165ad36bb60d7b8829c
+git log
+git reset e667f38c9a51bbb897881165ad36bb60d7b8829c
+g
+git log
+g
+git diff
+ls
+gg
+git stash
+git stash pop
+git status
+git stash
+g
+git diff
+git log
+g
+git reset go build -v
+git reset e667f38c9a51bbb897881165ad36bb60d7b8829c
+g
+git stash list
+git branch
+git checkout master
+g
+git log
+git stash pop
+g
+ls
+ssh hypereal@10.0.10.59
+history | grep 59
+history | grep 59 | grep ssh
+ssh gjs@10.0.10.59
+\ssh gjs@10.0.10.59
+\ssh gjs@10.0.10.609
+\ssh gjs@10.0.10.60
+\ssh hypereal@10.0.10.60
+ls
+cd ..
+cd http-dhcp-server/
+vim main.go 
+cd ~
+ls
+\ssh gjs@10.0.10.60
+\ssh hypereal@10.0.10.60
+cd ~
+ls
+cd fc/dl-k8s-kube/
+vim
+ls
+cd ~
+ls
+vim .vimrc
+cat /etc/environment 
+git diff
+git add .
+g
+git reset HEAD iot-daemon
+g
+git diff
+git add -A
+git diff
+g
+go test
+cd src/ssh_proxy/
+go test
+go run test.go
+go test
+cd ..
+go test
+go test src/ssh_proxy/ssh_test.go 
+go run main.go 
+go test tests/collecter_test.go 
+go test -v tests/collecter_test.go 
+go test -v 
+go test -v src/ssh_proxy/ssh_test.go 
+cd src/ssh_proxy/
+go test -v
+go test 
+go test -v
+go test
+go build .
+go test
+sshpass
+history | grep sshpass
+cd src/ssh_proxy/
+go test
+sshpass -p s ssh gjs@10.0.10.63
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "10.0.10.63"
+sshpass -p s ssh gjs@10.0.10.63
+ssh gjs@10.0.10.63
+sshpass -p s ssh gjs@10.0.10.63
+go test
+sudo go test
+sudo go test .
+go test .
+sudo go test .
+sshpass -p s ssh gjs@10.0.10.63
+go test 
+cd src/ssh_proxy/
+go test
+\ssh -p 12345 gjs@10.0.10.63
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[10.0.10.63]:12345"
+\ssh -p 12345 gjs@10.0.10.63
+cd src/ssh_proxy/
+ls
+go test
+sudo go test
+history | grep ssh-keygen
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "10.0.10.63"
+echo $?
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "10.0.10.63"
+echo $$
+echo $?
+echo $_
+ls fasdf
+echo $?
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[10.0.10.63]:8002"
+echo $?
+sudo go test
+ssh-keygen -f "/root/.ssh/known_hosts" -R "[10.0.10.63]:22"
+sudo ssh-keygen -f "/root/.ssh/known_hosts" -R "[10.0.10.63]:22"
+echo $?
+ls asfd
+echo $?
+sudo go test
+ssh hypereal@10.0.10.63
+ssh hypereal@10.0.10.60
+sudo scp hypereal@10.0.10.60:/root/.ssh/proxy_id_rsa /root/.ssh/proxy_id_rsa
+ls
+sudo scp root@10.0.10.60:/root/.ssh/proxy_id_rsa /root/.ssh/proxy_id_rsa
+ssh hypereal@10.0.10.63
+ssh hypereal@10.0.10.60
+ssh hypereal@10.0.10.63
+ssh hypereal@10.0.10.60
+sudo scp root@10.0.10.60:/root/.ssh/proxy_id_rsa /root/.ssh/proxy_id_rsa
+sudo scp hypereal@10.0.10.60:/root/.ssh/proxy_id_rsa /root/.ssh/proxy_id_rsa
+sudo su
+\ssh hypereal@10.0.10.60
+cd ~
+ls
+vim .vim
+ssh -p 12345 hypereal@dl-6.sho.hypereal.com 
+\ssh -p 12345 hypereal@dl-6.sho.hypereal.com 
+nc -z -v dl-6.sho.hypereal.com 10000-20000 2>&1 | grep -v failed
+ssh hypereal@dl-6.sho.hypereal.com -p 10250
+\ssh hypereal@dl-6.sho.hypereal.com -p 10250
+\ssh -p 10250 hypereal@dl-6.sho.hypereal.com
+\ssh -p 10256 hypereal@dl-6.sho.hypereal.com
+ssh hypereal@10.0.10.60
+ssh -o "ExitOnForwardFailure yes" checkConfig.py -o "StrictHostKeyChecking no" checkConfig.py -o "ServerAliveInterval 30" checkConfig.py -i /root/.ssh/proxy_id_rsa checkConfig.py -p 8022 \
+ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@172.17.0.1 -N -R 0.0.0.0:12345:localhost:22
+\ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@172.17.0.1 -N -R 0.0.0.0:12345:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@172.17.0.1 -N -R 0.0.0.0:12345:localhost:22
+sudo chmod 500 /root/.ssh/proxy_id_rsa
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@172.17.0.1 -N -R 0.0.0.0:12345:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -p 8022 proxy@172.17.0.1 -N -R 0.0.0.0:12345:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@172.17.0.1 -N -R 0.0.0.0:12345:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@172.17.0.1 -N -R 0.0.0.0:12345:10.0.10.63:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 22 proxy@172.17.0.1 -N -R 0.0.0.0:12345:10.0.10.63:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa proxy@dl-6.sho.hypereal.com -p 32322 -N -R 0.0.0.0:12345:10.0.10.63:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa proxy@dl-6.sho.hypereal.com -p 32322 -N -R 12345:10.0.10.63:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa proxy@dl-6.sho.hypereal.com  -N -R 12345:10.0.10.63:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-6.sho.hypereal.com  -N -R 12345:10.0.10.63:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-6.sho.hypereal.com  -N -R 12345:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@ssh-proxy.sihe6.com  -N -R 12345:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -p 8022 proxy@ssh-proxy.sihe6.com  -N -R 12345:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@ssh-proxy.sihe6.com  -N -R 12345:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@ssh-proxy.sihe6.com  -N -R 0.0.0.0:12345:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@dl-4  -N -R 0.0.0.0:12345:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-4  -N -R 0.0.0.0:12345:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-4  -N -R 0.0.0.0:20100:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-4  -N -R 0.0.0.0:23456:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-6.sho.hypereal.com  -N -R 0.0.0.0:23456:localhost:22
+ssh hypereal@10.0.10.60
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-6.sho.hypereal.com  -N -R 0.0.0.0:23456:localhost:22
+sudo vim /root/.ssh/proxy_id_rsa
+ls
+sudo echo 1234 > /root/.ssh/proxy_id_rsa
+sudo su
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-6.sho.hypereal.com  -N -R 0.0.0.0:23456:localhost:22
+history | grep scp
+\ssh -p 12345 gjs@172.17.0.1
+nc -z -v 172.17.0.1 20000-30000
+nc -z -v 172.17.0.1 20000-30000 | grep -v failed
+nc -z -v 172.17.0.1 20000-30000 2>&1 | grep -v failed
+nc -z -v 172.17.0.1 2-30000 2>&1 | grep -v failed
+\ssh -p 12345 proxy@172.17.0.1
+\ssh -p 22 proxy@172.17.0.1
+\ssh -p 8022 proxy@172.17.0.1
+\ssh -p 9022 proxy@172.17.0.1
+ps -ef | grep docker 
+docker ps -l
+\ssh -p 12345 gjs@172.17.0.1
+ssh -p 12345 gjs@dl-6.sho.hypereal.com
+\ssh -p 12345 gjs@dl-6.sho.hypereal.com
+ssh -p 12345 gjs@dl-6.sho.hypereal.com
+\ssh -p 12345 gjs@dl-6.sho.hypereal.com
+\ssh -p 12345 proxy@dl-6.sho.hypereal.com
+\ssh -p 12345 gjs@dl-6.sho.hypereal.com
+nc -z -v dl-6.sho.hypereal.com 22
+nc -z -v dl-6.sho.hypereal.com 12345
+nc -z -v dl-6.sho.hypereal.com 10000-20000
+nc -z -v dl-6.sho.hypereal.com 10000-20000 | grep -v failed
+nc -z -v dl-6.sho.hypereal.com 10000-20000 2>&1| grep -v failed
+ssh -p 12345 gjs@ssh-proxy.sihe6.com
+\ssh -p 12345 gjs@ssh-proxy.sihe6.com
+nslookup ssh-proxy.sihe6.com
+\ssh -p 12345 gjs@ssh-proxy.sihe6.com
+\ssh -p 12345 gjs@52.81.4.122
+\ssh -p 12345 hypereal@52.81.4.122
+nc -z -v 52.81.4.122 10000-20000 2>&1 | grep -v failed
+nc -z -v dl-4 10000-20000 2>&1| grep -v failed
+\ssh -p 12345 gjs@dl-4
+\ssh -p 20100 gjs@dl-4
+\ssh -p 20100 gjs@dl-6
+\ssh -p 20100 gjs@dl-4
+nc -z -v dl-4 10000-20000 2>&1| grep -v failed
+nc -z -v dl-4 20000-30000 2>&1| grep -v failed
+nc -z -v dl-4 20000-30001 2>&1| grep -v failed
+\ssh -p 23456 gjs@dl-4
+\ssh -p 23456 gjs@dl-6.sho.hypereal.com
+\ssh -p 23456 dl-6.sho.hypereal.com
+\ssh -p 23456 hypereal@ssh-proxy.sihe6.com
+\ssh -p 23456 dl-6.sho.hypereal.com
+history | grep scp
+sudo scp root@10.0.10.60:/root/.ssh/proxy_id_rsa /root/.ssh/proxy_id_rsa
+sudo scp hypereal@10.0.10.60:/root/.ssh/proxy_id_rsa /root/.ssh/proxy_id_rsa
+ssh hypereal@10.0.10.60
+sudo scp hypereal@10.0.10.60:/root/.ssh/proxy_id_rsa /root/.ssh/proxy_id_rsa
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-6.sho.hypereal.com  -N -R 0.0.0.0:23456:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-4  -N -R 0.0.0.0:23456:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-2  -N -R 0.0.0.0:23456:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-1  -N -R 0.0.0.0:23456:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 32322 proxy@dl-6  -N -R 0.0.0.0:23456:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@dl-5  -N -R 0.0.0.0:23456:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@dl-5  -N -R 0.0.0.0:34567:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@dl-5  -N -R 0.0.0.0:22322:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa proxy@dl-5  -N -R 0.0.0.0:22322:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 12345 proxy@dl-5  -N -R 0.0.0.0:22322:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 22 proxy@dl-5  -N -R 0.0.0.0:22322:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@dl-5  -N -R 0.0.0.0:22322:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" gjs@dl-5  -N -R 0.0.0.0:22322:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@dl-5  -N -R 0.0.0.0:22322:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022  -N -R 0.0.0.0:22322:localhost:22 proxy@dl-5
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022  -N -R 0.0.0.0:22322:localhost:22 proxy@dl-5
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa  -N -R 0.0.0.0:22322:localhost:22 proxy@dl-5
+history | grep docker 
+docker run --help
+docker run --help | grep id
+history | grep "docker run"
+history | grep "docker stop"
+ls
+cd src/ssh_proxy/
+go test
+ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+\ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 8022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+sudo \ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+sudo go test
+ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+sudo ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+sudo go test
+ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+sudo ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+sudo go test
+sudo ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+sudo su
+sudo go test
+ssh-keygen -f "/root/.ssh/known_hosts" -R "[dl-5]:9022"
+sudo ssh-keygen -f "/root/.ssh/known_hosts" -R "[dl-5]:9022"
+sudo go test
+sudo go test .
+sudo go test -v .
+ls
+cd ..
+./iot-daemon 
+export SSH_PROXY_ENV=local
+./iot-daemon 
+ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+sudo ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+sudo ./iot-daemon 
+./iot-daemon 
+sudo su
+./iot-daemon 
+sudo ./iot-daemon 
+./iot-daemon 
+ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+sudo ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+go build .
+./iot-daemon 
+sudo ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+cd ~/.ssh/
+ls
+vim known_hosts
+vim authorized_keys 
+ssh -p 22322 gjs@10.0.10.63
+\ssh -p 22322 gjs@10.0.10.63
+\ssh -p 22321 gjs@10.0.10.63
+echo 'permitopen="127.0.0.1:80" ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCx9qklDAIRVKnD3tguZAqFfPgn2V724vWKEuQ6etByNNx2JTkSe6/eCPjbS2+2Hhwsb60WXNQRYuBFu9gKxc9WeoiUw1Eelbf2Mj5R/tHNBZ2Vvsv/pIDhxNNR63U6mn2MtlkiIMzwzPQuOLw8Y8zdxVtSlzg5I6Fyv2gBNziW/DcGyMDpe+BZCUuvNhf5sYXeTqjUTl89xkFvtyR38ASn+XjlKfG0zDELKERFFFWrF3CCV+J1xmPEIwuymvvPIW8vooGHbXRqSqw7nIjIS4W3QuWeeBvXiscERLfBy1ub4tTcKlQLvLfpTMzomK+L5MdBuJR9ycFkKAmJcvYiOZuz hypereal@QC-000000' >> /home/proxy/.ssh/authorized_keys
+echo 'permitopen="127.0.0.1:80" ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCx9qklDAIRVKnD3tguZAqFfPgn2V724vWKEuQ6etByNNx2JTkSe6/eCPjbS2+2Hhwsb60WXNQRYuBFu9gKxc9WeoiUw1Eelbf2Mj5R/tHNBZ2Vvsv/pIDhxNNR63U6mn2MtlkiIMzwzPQuOLw8Y8zdxVtSlzg5I6Fyv2gBNziW/DcGyMDpe+BZCUuvNhf5sYXeTqjUTl89xkFvtyR38ASn+XjlKfG0zDELKERFFFWrF3CCV+J1xmPEIwuymvvPIW8vooGHbXRqSqw7nIjIS4W3QuWeeBvXiscERLfBy1ub4tTcKlQLvLfpTMzomK+L5MdBuJR9ycFkKAmJcvYiOZuz hypereal@QC-000000' >> /home/gjs/.ssh/authorized_keys
+ls
+cd ~
+ls
+cd ~/fc/
+cd dl-k8s-kube/
+vim
+go run main.go 
+sudo go run main.go 
+ls
+go build .
+ls
+sudo ./iot-daemon 
+sudo su
+sudo ./iot-daemon 
+export SSH_PROXY_ENV=local
+sudo ./iot-daemon 
+cd src/ssh_proxy/
+go test
+sudo go test
+sudo ssh-keygen -f "/root/.ssh/known_hosts" -R "[10.0.10.63]:22"
+sudo ssh gjs@10.0.10.63
+sudo ssh-keygen -f "/root/.ssh/known_hosts" -R "[10.0.10.63]:22"
+history | grep ssh-keygen
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[10.0.10.63]:8002"
+cat /home/gjs/.ssh/known_hosts
+ssh-keygen --help
+man ssh-keygen
+ifconfig
+history | grep nc
+history | grep nc | grep z
+history | grep nc | grep zv
+history | grep nc | grep v
+nc -zv 172.17.0.1 22
+\ssh 172.17.0.1
+docker images
+go test
+ssh gjs@dl-5
+go test
+ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 3
+sudo go test
+export SSH_PROXY_ENV=local
+go run 
+cd ..
+./iot-daemon 
+go run main.go
+ps -ef |  grep "docker run"
+go run main.go 
+ls
+./iot-daemon 
+export SSH_PROXY_ENV=local
+./iot-daemon 
+sudo ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+go build .
+sudo ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 9022 proxy@dl-5 -N -R 0.0.0.0:22322:localhost:22
+./iot-daemon 
+sudo ssh -o "ExitOnForwardFailure yes" -o "StrictHostKeyChecking no" -o "ServerAliveInterval 30" -i /root/.ssh/proxy_id_rsa -p 22 gjs@10.0.10.63 -N -R 0.0.0.0:22322:localhost:22
+go run main.go 
+sudo ssh -o ExitOnForwardFailure=yes -o "StrictHostKeyChecking no" -i /root/.ssh/proxy_id_rsa -p 22 gjs@10.0.10.63 -N -R 0.0.0.0:22322:localhost:22
+go run main.go 
+ifconfig
+go run main.go 
+sudo ssh -o ExitOnForwardFailure=yes -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -i /root/.ssh/proxy_id_rsa -p 8022 proxy@172.17.0.1 -N -R 0.0.0.0:22322:localhost:22
+sudo ssh -o ExitOnForwardFailure=yes -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -i /root/.ssh/proxy_id_rsa -p 8022 proxy@10.0.10.63 -N -R 0.0.0.0:22322:localhost:22
+sudo ssh -o ExitOnForwardFailure=yes -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -i /root/.ssh/proxy_id_rsa -p 8022 proxy@127.0.0.1 -N -R 0.0.0.0:22322:localhost:22
+sudo ssh -o ExitOnForwardFailure=yes -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -i /root/.ssh/proxy_id_rsa -p 8022 proxy@10.0.10.63 -N -R 0.0.0.0:22322:localhost:22
+ps -ef | grep "docker run"
+history | grep docker 
+history | grep "docker run"
+docker ps -l
+docker stop 2b007e962bd2
+docker kill 2b007e962bd2
+docker kill -s  2b007e962bd2
+docker kill --signal 9 2b007e962bd2
+docker ps -l
+ps -ef | grep "docker run"
+sudo kill -9 27352
+sudo kill -9 27353
+sudo lsof -i 8022
+sudo lsof -i:8022
+ps -ef | grep 8022
+sudo kill -9 7287
+sudo docker run -d --name proxy -p 8022:22 -p 20000-30000:20000-30000/tcp registry.sihe6.com/web/ssh-proxy:v20190809
+docker stop b2de65d2d01ed23d51e4d20e8656f6162cbaea738e4b0409038729d69e47d0b9
+cd ../http-dhcp-server/
+vim main.go 
+s
+cd ..
+cd dl-k8s-kube/
+ls
+cd dockerfiles/ssh-proxy/
+vim Dockerfile 
+ls
+cd ..
+ls
+cd ..
+ls
+vim
+cd ..
+ls
+cd http-dhcp-server/
+vim
+ls
+cd ../detection-machine-daemon/
+ls
+vim
+history | grep "docker run"
+ps -ef | grep docker
+sudo kill -9 4839
+docker stop 4839
+docker stop proxy
+docker ps -l
+docker rmi --force proxy
+docker stop proxy
+docker ps -l
+docker kill --signal -9 b2de65d2d01e
+docker kill --signal 9 b2de65d2d01e
+docker kill b2de65d2d01e
+docker ps -l
+docker stop b2de65d2d01e
+docker ps -l
+history | grep "docker run"
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100/tcp registry.sihe6.com/web/ssh-proxy:v20190809
+docker stop b2de65d2d01ed23d51e4d20e8656f6162cbaea738e4b0409038729d69e47d0b9
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100/tcp registry.sihe6.com/web/ssh-proxy:v20190809
+docker container prune 
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100/tcp registry.sihe6.com/web/ssh-proxy:v20190809
+docker rm 070a6d34f9a8bc13aa28f3f82cceb24d0d8dab20678745fb07d6cd41804421f9
+docker rm --force 070a6d34f9a8bc13aa28f3f82cceb24d0d8dab20678745fb07d6cd41804421f9
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100/tcp registry.sihe6.com/web/ssh-proxy:v20190809
+docker rm --force 070a6d34f9a8bc13aa28f3f82cceb24d0d8dab20678745fb07d6cd41804421f9
+docker rm --force proxy
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100/tcp registry.sihe6.com/web/ssh-proxy:v20190809
+docker rm --force proxy
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190809
+docker rm --force proxy
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190809
+docker rm --force proxy
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190809
+docker rm --force proxy
+sudo docker run -d --name proxy -p 8022:22 -p 20000-30000:20000-30000 registry.sihe6.com/web/ssh-proxy:v20190809
+ls
+nc -z -v 10.0.10.63 20000-30000 2>&1 | grep -v failed
+nc -z -v 10.0.10.63 20000-30000
+ps -ef | grep docker
+ps -ef | grep docker | grep wc -l
+ps -ef | grep docker | wc -l
+nc -z -v 10.0.10.63 20000-30000 2>&1 | grep -v failed
+ps -ef | grep docker
+nc -z -v 10.0.10.63 20000-30000 2>&1 | grep -v failed
+ps -ef | grep docker | wc -l
+docker stop 2d6ac1cc56c4e7cbe22033befd332bc1aa3af6dc31a39699339146b3e8629bbe
+docker rm --force 2d6ac1cc56c4e7cbe22033befd332bc1aa3af6dc31a39699339146b3e8629bbe
+ssh gjs@10.0.10.63
+ssh -p 22322 gjs@10.0.10.63
+\ssh -p 22322 gjs@10.0.10.63
+\ssh -p 20000 gjs@10.0.10.63
+go run main.go 
+export SSH_PROXY_ENV=local
+go run main.go 
+g
+git add -A
+g
+go run main.go 
+\ssh -p 28872 gjs@10.0.10.63
+g
+git diff
+g
+git diff
+git add -A
+git status
+g
+git diff --cached 
+cd src/ssh_proxy/
+go test .
+go test -v 
+g
+git diff
+git add -A
+git commit -m "add ssh proxy"
+git push
+git push --set-upstream origin gjs
+g
+git diff
+ls
+g
+cd ~
+ls
+cd -
+ls
+cd fc/iot-daemon/
+ls
+g
+git diff
+g
+git diff
+git add -A
+git commit -m "small update"
+git push
+git pull
+git merge yisong 
+git pull origin yisong 
+g
+git add -A
+git commit -m "fix conflict"
+git push
+go build .
+ls
+go build .
+git status
+git add -A
+git commit -m "fix conflict"
+git push
+g
+git diff
+ls
+g
+git diff
+go build .
+ls
+./iot-daemon 
+g
+go test
+go test -v
+ls
+g
+git diff
+go test src/ssh_proxy/
+go test src/ssh_proxy/ssh_proxy_test.go 
+cd src/ssh_proxy/
+ls
+go test 
+go test  .
+go test 
+g
+git diff
+git add -A
+go test
+g
+git add -A
+git diff
+git commit -m "change info"
+git push
+g
+stea,
+steam
+git add -A
+git commit -m "upd ip port"
+git push
+git push origin iot
+g
+ssh hypereal@10.0.10.63
+ssh hypereal@10.0.10.60
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190809
+docker container prune 
+ps -ef | grep docker 
+sudo kill -9 11521
+docker container prune 
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190809
+docker rm proxy
+docker rm --force proxy
+docker rm proxy
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190809
+history | grep heyux
+\ ssh heyuxuan@10.0.10.96
+\ssh heyuxuan@10.0.10.96
+ls
+cd ..
+ls
+cd dl-k8s-kube/
+ls
+cd dockerfiles/
+ls
+cd ssh-proxy/
+ls
+vim Dockerfile 
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190809
+cd ~
+history | grep 'ssh \-N' 
+ssh hypereal@10.0.10.60
+history | grep 'ssh \-N'
+ssh hypereal@10.0.10.60
+ssh -p 20000 gjs@10.0.10.60
+\ssh -p 20000 gjs@10.0.10.60
+\ssh -p 20000 gjs@10.0.10.63
+\ssh -p 20001 hypereal@10.0.10.63
+\ssh -p 20000 gjs@10.0.10.63
+\ssh -v -p 20000 gjs@10.0.10.63
+\ssh -p 20000 gjs@10.0.10.63
+ssh -p 20000 gjs@10.0.10.60
+ssh -p 20000 gjs@10.0.10.63
+\ssh -p 20000 gjs@10.0.10.63
+docker stop proxy
+docker ps -l
+docker images
+ssh -p 20000 gjs@10.0.10.63
+\ssh -p 20000 gjs@10.0.10.63
+\ssh -p 20001 gjs@10.0.10.63
+\ssh -p 20001 hypereal@10.0.10.63
+ssh -p 20001 hypereal@10.0.10.63
+ssh -p 20000 hypereal@10.0.10.63
+\ssh -p 20000 hypereal@10.0.10.63
+ssh -p 20000 hypereal@10.0.10.63
+go build .
+cd src/ssh_proxy/
+go test
+ls
+> README.md
+ls
+go test
+ssh hypereal@10.0.10.60 -t '
+sudo ssh -N -L 0.0.0.0:20000:10.0.10.63:20000 \
+-i /root/.ssh/proxy_id_rsa \
+-p 8022 proxy@10.0.10.63
+'
+ssh hypereal@10.0.10.60 -t '
+sudo ssh -N -L 0.0.0.0:20000:10.0.10.63:20000 \
+-i /root/.ssh/proxy_id_rsa \
+-p 8022 proxy@10.0.10.63
+'
+ls
+cd ~/fc/http-dhcp-server/
+ls
+vim 
+vim main.go 
+cd ..
+ls
+cd detection-machine-daemon/
+vim jumpserver_forward.sh 
+ls
+cd ../http-dhcp-server/
+ls
+vim 
+ls
+cd ..
+ls
+cd detection-machine-daemon/
+vim jumpserver_forward.sh 
+ls
+cd ..
+ls
+cd saki_detection/
+ls
+vim run.sh 
+ls
+ls
+cd ..
+ls
+cd detection-machine-daemon/
+ls
+vim jumpserver_forward.sh 
+cd ..
+ls
+cd dl-k8s-kube/
+vim
+jobs -p
+vim
+jobs -p
+fg
+docker images
+ssh hypereal@10.0.10.60 -t '
+sudo ssh -o "ExitOnForwardFailure yes" 
+-o "StrictHostKeyChecking no" 
+-o "ServerAliveInterval 30" 
+-i /root/.ssh/proxy_id_rsa 
+-p 8022 proxy@10.0.10.63  
+-N -R 20001:localhost:22
+'
+ssh hypereal@10.0.10.60 -t '
+sudo ssh -o "ExitOnForwardFailure yes" \
+-o "StrictHostKeyChecking no" \
+-o "ServerAliveInterval 30" \
+-i /root/.ssh/proxy_id_rsa \
+-p 8022 proxy@10.0.10.63 \
+-N -R 20001:localhost:22 \
+'
+docker images
+vimux 
+find -path ./.git -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+ls
+find -path ./.git -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+ls
+cd .too
+cd .tool
+ls
+cd tool/
+ls
+cd ..
+ls
+cd tool/
+ls
+rm -rf qemu
+ls
+cd ..
+g
+git diff
+ls
+g
+git diff
+ls
+g
+git diff
+ls
+vim quit.vim 
+vim sidebar.vim 
+ls
+g
+git diff
+git add -A
+ls
+go build .
+swag init
+go build .
+ls
+./http-dhcp-server 
+g
+git commit -m "change proj to project"
+git push
+ls
+vim
+ls
+cd fc/detection-machine-daemon/
+ls
+vim jumpserver_forward.sh 
+ls
+vim checkConfig.py 
+ls
+cd ..
+ls
+cd transformer-pipeline/
+ls
+vim generate_device_def.cmake 
+ls
+vim
+ls
+cd ..
+cd http-dhcp-server/
+ls
+vim
+ssh hypreal@10.0.10.63
+ssh hypreal@10.0.10.60
+ssh hypereal@10.0.10.60
+jobs
+ssh hypereal@10.0.10.60
+jobs
+ssh hypereal@10.0.10.60
+ls
+g
+git diff
+ls
+ls
+cd ~
+ls
+vim .vim
+ls
+vim .vimrc
+go get -v -insecure gitlab.sho.hypereal.com/go/common-util
+g
+go build .
+g
+git diff src/
+g
+git add -A
+git commit -m "use mysql.MustCount"
+git push
+go build .
+ls
+go mod tidy
+ls
+g
+git diff
+git add -A
+git commit -m "fix go mod"
+git push
+g
+git diff
+export DHCP_ENV=local
+go run main.go 
+ssh hypereal@10.0.10.60
+ls
+cd src/
+ls
+cd ssh_proxy/
+ls
+go test 
+g
+git diff
+ls
+g
+ls
+docker stop proxy
+history | grep trap
+udo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190516
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190516
+docker rm --force e5cbbbee165ab5
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190516
+docker rm --force proxy
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190516
+cd src/ssh_proxy/
+ls
+chmod +x test.sh
+./test.sh 
+g
+git diff
+g
+git diff
+git add -A
+git commit -m "add ssh-proxy README.md"
+git push
+g
+git add -A
+git commit -m "run go fmt"
+git push
+g
+git diff
+g
+git diff
+g
+git diff
+git add -A
+g
+export DAEMON_ENV=dev
+g
+ls
+go test 
+export DAEMON_ENV=dev
+echo $DAEMON_ENV 
+go test 
+ls
+cd ~
+cd -
+cd fc/iot-daemon/
+ls
+go run main.go 
+go build .
+ls
+scp iot-daemon hypereal@10.0.10.60
+ls
+scp iot-daemon hypereal@10.0.10.60:~
+sshpass -p 87Co7r scp iot-daemon hypereal@10.0.10.60:~
+ls
+g
+git diff
+git diff --cached 
+g
+git idff
+git diff
+git add -A
+git commit -m "add ssh-proxy dev" 
+git push
+g
+git diff
+ifconfig
+cd src/ssh_proxy/
+go test
+ls
+cd ..
+ls
+go build .
+ls
+scp iot-daemon hypereal@10.0.10.60:~
+sshpass -p 87Co7r scp iot-daemon hypereal@10.0.10.60:~
+cd src/ssh_proxy/
+go test
+ls
+g
+git diff
+g
+git add -A
+g
+git diff --cached 
+git commit -m "get mac and name from env"
+git push
+g
+git diff
+g
+git diff
+git add -A
+git commit -m "fmt"
+git push
+ls
+g
+export DHCP_ENV=local
+go run main.go 
+g
+git diff
+go run main.go 
+g
+git diff
+git add -A
+git commit -m "limit project"
+git push
+g
+git diff
+git add -A
+git commit -m "fix"
+git push
+go run main.go 
+g
+git diff
+git add -A
+git commit -m "fix rec bug"
+git push
+g
+git diff
+type ssh60
