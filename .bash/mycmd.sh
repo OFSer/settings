@@ -98,9 +98,12 @@ f() {
 				mv -v $i .
 			}
 		done
+		[[ $del -eq 1 ]] && {
+			> $fcp
+		}
 		return 
 	}
-	[[ $add -eq 0 ]] && {
+	[[ $add -lt 1 ]] && {
 		> $fcp
 	}
 	for i in "$@";do
@@ -112,6 +115,7 @@ f() {
 	done
 	tmp=`sort $fcp | uniq`
 	echo "$tmp" > $fcp
+	cat $fcp
 }
 
 b() {

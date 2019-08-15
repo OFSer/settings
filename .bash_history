@@ -46119,3 +46119,101 @@ echo `seq 5` `seq 2 6`
 cat <(seq 5) <(seq 2 6) | sort 
 cat <(seq 5) <(seq 2 6) | sort  | uniq
 vim mycmd.sh 
+ls
+f -a fc go
+f -a fc go fc fc go
+f -l
+f -a go fc go
+f -a go fc go java
+ls
+f -a go fc go pt-program/
+f -a go fc go pt-program/ shmmsg/
+ls
+cd ..
+ls
+cd ~/test/
+ls
+f -a 1.dot 
+cd ~
+ls
+f fc
+cd test/
+ls
+f fc
+f go
+ls
+cd fc/
+ls
+cd ~/test/
+ls
+f go
+f java
+f make java PthreadPool/
+f make
+f sh
+ls
+f -A java/
+f -A git
+ls
+cd sh/
+ls
+git add -A
+git commit -m "upd"
+git push
+ls
+f core 1.sh
+ls
+cd ..
+f -P
+ls
+rm 1.sh core
+ls
+f -l
+f -P
+ls
+cd sh/
+ls
+cd ..
+ls
+f -l
+ls
+g
+git reset HEAD --hard
+ls
+cd test/
+ls
+cd git/
+ls
+f 1 2 3
+ls
+f -p
+ls
+cd ..
+f -p
+cd git/
+ls
+cd ..
+g
+git clean -dff
+ls
+g
+cd f
+cd git/
+ls
+f -l
+cd ..
+f -P
+f -l
+ls
+f 1 2 3
+cd git/
+ls
+f -p
+ls
+f -P
+f
+g
+f -l
+f
+ls
+f -l
