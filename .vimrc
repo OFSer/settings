@@ -36,7 +36,8 @@ filetype plugin indent on
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
 Plug 'Yggdroot/indentLine'
-let g:indentLine_fileTypeExclude = ['nerdtree']
+let g:indentLine_fileTypeExclude = ['nerdtree', 'json']
+" let g:indentLine_fileType = ['python']
 Plug 'skywind3000/asyncrun.vim'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'chinnkarahoi/haskell-vim'

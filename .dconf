@@ -51,7 +51,7 @@ active-plugins=['spell', 'filebrowser', 'time', 'modelines', 'docinfo']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=4
+state=132
 bottom-panel-size=140
 side-panel-size=250
 side-panel-active-page='GeditFileBrowserPanel'
@@ -436,7 +436,7 @@ menus-discovery-fadein=0
 menus-fadeout=0
 menus-fadein=0
 dash-blur-experimental=0
-edge-responsiveness=6.5129496402877693
+edge-responsiveness=6.5129494667053223
 active-shadow-radius=3
 inactive-shadow-color='#000000a5'
 autohide-animation=1
@@ -559,8 +559,9 @@ x-offset=70
 background-color='#333333d9'
 
 [org/compiz/profiles/unity/plugins/core]
+hsize=2
 outputs=['1920x1080+1920+0', '1920x1080+0+0']
-vsize=5
+vsize=2
 active-plugins=['core', 'composite', 'opengl', 'place', 'regex', 'resize', 'session', 'snap', 'vpswitch', 'wall', 'animation', 'commands', 'compiztoolbox', 'fade', 'grid', 'imgpng', 'mousepoll', 'move', 'scale', 'workarounds', 'expo', 'ezoom', 'switcher', 'unityshell']
 
 [org/compiz/integrated]
@@ -634,10 +635,10 @@ blacklist=['AA12A72612A6F70B-', '18aa974c-2266-4d72-8a1e-aa8bf26d25a6-', 'cf416b
 
 [com/canonical/unity/interface]
 text-scale-factor=1.0
-app-fallback-to-maximum-scale-factor=true
+app-fallback-to-maximum-scale-factor=false
 
 [com/canonical/unity/launcher]
-favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'unity://running-apps', 'application://gnome-control-center.desktop', 'unity://expo-icon', 'unity://devices']
+favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'unity://running-apps', 'application://unity-control-center.desktop', 'unity://expo-icon', 'unity://devices']
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14

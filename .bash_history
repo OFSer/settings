@@ -45146,3 +45146,257 @@ git push
 g
 git diff
 type ssh60
+ls
+cd ..
+ls
+cd ..
+cd fc/
+ls
+cd http-dhcp-server/
+ls
+vim
+ls
+vim 
+ls
+cd ~
+ls
+vim .bash
+ls
+mysql
+history | grep mysql
+mysql -h dl-4 -P 31239 -u root --password="KojuJuqe1[Yaqx"
+ls
+g
+git diff .vimrc
+g
+git diff
+ls
+git diff
+ls
+g
+./config.sh push
+git diff HEAD^ .dconf
+g
+git diff
+g
+git diff
+du -hd1 .git
+ls
+g
+git diff
+ls
+cd ..
+ls
+cd ~/gh/
+ls
+cd lab/
+ls
+vim GNUmakefile 
+cd ~
+ls
+ssh60
+ls
+ssh60
+ls
+g
+git diff
+ls
+id -u
+cd ../so
+vim Makefile 
+qls
+ls
+g
+ls
+steam
+nvidia-smi
+g
+git diff
+g
+steam
+ps -ef | grep steam
+killall -9 steam
+steam
+cd src/ssh_proxy/
+go test
+g
+git diff
+git add -A
+git commit -m "print as json"
+git push
+g
+git diff
+go test 
+go test
+g
+git diff
+g
+git diff
+g
+git diff
+g
+git checkout -- config.go
+g
+go test
+cd ..
+go build .
+sshpass -p 87Co7r scp iot-daemon hypereal@10.0.10.60:~
+cd src/ssh_proxy/
+ls
+go test
+ls
+go test
+g
+git diff
+g
+git diff
+g
+git diff
+ls
+g
+git diff
+ls
+g
+git diff
+g
+git diff
+git diff HEAD^
+ls
+g
+git diff
+g
+git diff
+g
+git checkout -- config.go
+g
+ssh -p 20001 gjs@10.0.10.63
+ssh -p 20001 hypereal@10.0.10.63
+ssh hypereal@10.0.10.60 -t '
+sudo ssh -N -L 20000:10.0.10.63:20000 \
+-i /root/.ssh/proxy_id_rsa \
+-p 8022 proxy@10.0.10.63
+'
+ssh hypereal@10.0.10.60 -t '
+sudo ssh -N -L 20000:10.0.10.63:20000 \
+-i /root/.ssh/proxy_id_rsa \
+-p 8022 proxy@10.0.10.63
+'
+ssh hypereal@10.0.10.60 -t '
+sudo ssh -N -L 20000:10.0.10.63:20000 \
+-i /root/.ssh/proxy_id_rsa \
+-p 8022 proxy@10.0.10.63
+'
+ssh hypereal@10.0.10.60 -t '
+sudo ssh -N -L 0.0.0.0:20000:10.0.10.63:20000 \
+-i /root/.ssh/proxy_id_rsa \
+-p 8022 proxy@10.0.10.63
+'
+g++ 1.cpp
+./a.out
+g++ 1.cpp && ./a.out
+g
+git diff
+git checkout -b uploader
+ls
+go test 
+ls
+go test 
+g
+git add -A
+g
+git diff
+git diff --cached 
+mkdir -p /home/gjs/test/uploader
+cd /home/gjs/test/uploader
+ls
+echo 1.go
+ls
+> 1.go
+> 2.go
+> fff.go
+ls
+cd /home/gjs/test/uploader
+ls
+> 1.json
+>1234.json
+ls
+go test
+ls /home/gjs/test/uploader/*.go
+go test
+ls
+ls go
+ls *.go
+go test
+bash --help
+go test 
+g
+git diff
+git add -A
+g
+git diff --cached 
+g
+git add -A
+g
+go test
+g
+git add -A
+g
+go build 
+go test
+g
+git add -A
+g
+git diff
+git diff --cached 
+git commit -m "add uploader"
+git push
+git push --set-upstream origin uploader 
+g
+git diff
+cd /home/gjs/test/uploader
+ls
+>1.json
+>{1..3}.json
+ls
+touch {1..3}.json
+ls
+touch {1..3}.go
+ls
+ssh hypereal@10.0.10.60 -t 'ssh -p 20000 gjs@10.0.10.60'
+ssh hypereal@10.0.10.60
+ssh hypereal@10.0.10.60 -t 'ssh -p 20000 gjs@10.0.10.60'
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190504
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190516
+docker stop 7c301eabb2e3ad
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190516
+docker rm --force  7c301eabb2e3ad
+sudo docker run -d --name proxy -p 8022:22 -p 20000-20100:20000-20100 registry.sihe6.com/web/ssh-proxy:v20190516
+ssh hypereal@10.0.10.60 -t 'ssh -p 20000 gjs@10.0.10.60'
+ssh hypereal@10.0.10.60
+ssh hypereal@10.0.10.60 -t 'ssh -p 20000 gjs@10.0.10.60'
+ssh hypereal@10.0.10.60
+g
+git diff
+git add -A
+g
+git diff
+ls
+cd src/uploader/
+ls
+go test
+go run main.go 
+ls
+go test
+g
+git diff --cached 
+ls
+g
+git diff --cached 
+g
+git diff --cached 
+g
+git diff
+g
+git diff --cached 
+ls
+go env
