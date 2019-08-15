@@ -45400,3 +45400,722 @@ g
 git diff --cached 
 ls
 go env
+s
+ls
+g
+git diff
+g
+ls
+ls
+ssh60
+sudo ssh -o ExitOnForwardFailure=yes -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -i /root/.ssh/proxy_id_rsa -p 32322 proxy@web.sho.sihe6.com -N -R 0.0.0.0:22071:localhost:22
+ls
+cd ~
+ls
+history | grep useradd
+useradd --help
+useradd hypereal
+sudo useradd hypereal
+sudo passwd hypereal
+ls
+vim .vimrc
+ls
+g
+git diff
+ls
+g
+ls
+cd gh/
+ls
+cd lab/
+cd ..
+ls
+cd lab/
+ls
+vim
+ls
+cd ..
+ls
+cd so/
+ls
+cd ..
+ls
+cd co
+cd cos
+ls
+vim make
+vim makefile 
+ls
+vim
+ls
+vim
+ls
+cd obj/
+ls
+cd kern/
+ls
+readelf -l kernel
+readelf -h kernel
+readelf -S kernel
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~
+ls
+cd test/
+cd cpp/
+readelf -l a.out 
+ls
+readelf -h a.out 
+ls
+readelf -h ~/gh/cos/obj/kern/kernel
+g
+git diff
+ls
+g
+cd ..
+ls
+cd ~
+ls
+cd test/
+ls
+rm *.png
+ls
+cat 1.dot
+ls
+g
+cd ~
+ls
+g
+cd 
+cd ~
+cd 
+cd ~
+g
+git diff
+ls
+ssh gjs@dl-5
+\ssh gjs@dl-5
+wd -s landscape
+wd landscape
+g
+git diff
+ls
+g
+ls
+cd .
+cd 
+cd ~
+cd 
+c d
+cd ~
+cd 
+c d
+cd 
+cd ~
+cd 
+c d
+cd 
+c d
+cd 
+cd ~
+cd 
+cd ~
+g
+git diff
+vim .vimrc
+ls
+cd test/cpp/
+ls
+vim 1.cpp
+ls
+g
+git diff
+ls
+cd ~
+ls
+cd 
+cd ~
+ls
+cd fc/
+cd http-dhcp-server/
+vim 
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+g
+git diff
+cd ~
+ls
+vim .vimrc
+ls
+cd fc//
+ls
+cd ~
+ls
+cd fc//http//
+cd ~
+ls
+cd fc/
+ls
+rm -rf http
+rm -rf http-hello/
+ls
+cd http-dhcp-server/
+ls
+cd ~
+ls
+cd fc/
+cd dl-k8s-kube/
+cd ~
+ls
+cd test/
+ls
+cd asm/
+ls
+vim hello.asm 
+ls
+cd ~
+ls
+cd fc/
+ls
+cd aruco/
+ls
+vim get_data.py 
+ls
+cd ..
+ls
+g
+cd ~
+g
+git diff .vimrc
+ls
+cd gh/cos/
+ls
+l
+g
+ls
+cd ..
+ls
+cd cos/
+ls
+vim makenv.mk 
+ls
+g
+cd ~
+ls
+cd fc/iot-daemon/
+ls
+vim main.go 
+ls
+vim main.go 
+ls
+cd ..
+cd detection-machine-daemon/
+ls
+vim jumpserver_forward.sh 
+ls
+vim checkConfig.py 
+ls
+cd ~/test/
+ls
+cd cpp/
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+cd fc/detection-machine-daemon/
+ls
+vim main.py 
+ls
+cd ..
+ls
+cd iot-daemon/
+ls
+vim main.go 
+g
+ls
+g
+man empire 
+\ssh 10.0.10.164
+\ssh sihe@10.0.10.164
+ls
+g
+git diff
+f
+ls
+cp -r config.sh fc
+ls
+cd fc/
+ls
+rm config.sh 
+ls
+cd ..
+ls
+cp --help
+ls
+cp config.sh makefile -t fc
+ls
+cd fc/
+ls
+rm config.sh 
+rm makefile 
+ls
+cd ..
+ls
+vim 1
+cat 1
+cp $(cat 1) fc
+cd fc/
+ls
+rm config.sh makefile 
+ls
+cd ..
+ls
+ls config.sh 
+ll config.sh 
+pwd config.sh 
+ls config.sh 
+ls --help
+ls config.sh 
+ls -l config.sh 
+dir config.sh 
+readlink -f config.sh 
+ls
+g
+cat .vim
+cat .vimrc
+readlink --help
+readlink -f fc
+ls
+f -a makefile
+f -a makefile sync.sh 
+ls
+f -p
+ls
+f -p
+f -a
+f -a config.sh 
+f -p config.sh 
+ls
+readlink -f f
+readlink -f fc
+readlink -f config.sh 
+readlink -f fc/flaw_checker/
+readlink -f ./fc/flaw_checker/
+readlink -f fffffff
+readlink --help
+\ssh sihe@10.0.10.164 
+history | grep sihe
+\ssh sihe@10.0.10.164
+ls
+f -a config.sh 
+cat /tmp/fcplist 
+f -a config.sh 
+cat /tmp/fcplist 
+f -a config.sh README.md 
+cat /tmp/fcplist 
+ls
+cat /tmp/fcplist 
+cd fc/
+ls
+f -p 
+ls
+cat /tmp/fcplist 
+ls
+cd fc/
+ls
+f -p
+ls
+cd fc/
+f -p
+ls
+cd ..
+g
+ls
+cd fc/
+ls
+f -p
+ls
+cat config.sh 
+ls
+rm README.md config.sh 
+ls
+cat /tmp/fcplist 
+cd ..
+ls
+f -p
+ls
+cp makefile .
+echo $?
+ls
+mv pt-program/ pt-program_/
+mv pt-program_/ pt-program/
+ls
+cp --help
+ls
+cp -i config.sh .
+cp config.sh fc/
+cp -i config.sh fc/
+echo 1 > fc/config.sh 
+cp -i config.sh fc/
+cat fc/config.sh 
+cp -i config.sh fc/
+cat fc/config.sh 
+ls
+rm fc/config.sh 
+cp --help
+cp --help | grep overwrite
+cp --help | grep over
+cp --help
+man cp
+ls
+cp config.sh fc/
+cp config.sh fc
+ls
+cd fc/
+ls
+cd ..
+ls
+cd fc/
+ls
+rm config.sh 
+cd ..
+cat /tmp/fcplist 
+cd fc/
+ls
+f -p
+ls
+cd fc/
+f -p
+ls
+f -p
+ls
+rm README.md 
+rm config.sh 
+ls
+f -l
+ls
+cd fc/
+f -p
+cd ..
+mv --help
+cd fc/
+ls
+f -p
+cd fc/
+ls
+f -p
+cp --help
+mv --help
+ls
+f -p
+ls
+cd fc/
+ls
+f -p
+mv --help
+ls
+cd ..
+ls
+mv -i config.sh fc/
+ls
+cd fc/
+ls
+g
+ls
+cd ~
+ls
+ssh sihe@10.0.10.161
+\ssh sihe@10.0.10.161
+type ssh
+\ssh sihe@10.0.10.161
+ls
+g
+git diff
+ls
+g
+ls
+ssh60
+ls
+g
+git diff
+vim config.sh 
+ls
+vim .bash
+ls
+g
+rm 1
+g
+git diff .vimrc
+git add .vimrc
+git add bash
+g
+git add .bash
+g
+git commit -m "add file copy"
+git push
+ls
+g
+git add -A
+go build .
+ls
+cd src/ssh_proxy/
+ls
+go test
+ls
+cd ..
+go build .
+scp iot-daemon sihe@10.0.10.164:~
+sudo ls /root/.ssh
+sudo scp /root/.ssh/proxy_id_rsa sihe@10.0.10.164:/root/.ssh/proxy_id_rsa
+sudo scp /root/.ssh/proxy_id_rsa sihe@10.0.10.164:~
+g
+git diff
+ls
+g
+git diff --cached 
+ls
+g
+git diff --cached 
+g
+git diff --cached 
+git commit -m "add pack limit"
+git push
+g
+git diff
+git diff --cached 
+g
+git diff --cached 
+ls
+sudo cp /root/.ssh/proxy_id_rsa
+sudo cp /root/.ssh/proxy_id_rsa .
+ls
+g
+scp iot-daemon proxy_id_rsa sihe@10.0.10.161:~
+sudo scp iot-daemon proxy_id_rsa sihe@10.0.10.161:~
+g
+git diff
+git add -A
+g
+git commit -m "add ignore"
+git push
+ls
+git checkout gjs
+git push
+git checkout master
+g
+git diff
+git clean -dff
+g
+git checkout uploader 
+g
+ls
+git checkout master
+g
+git checkout uploader src
+ls
+git checkout uploader *
+ls
+git checkout uploader .gitignore
+git checkout uploader .git*
+git checkout uploader .gitlab-ci.yml
+ls
+sl
+ls
+git checkout uploader .gitlab-ci.yml
+ls
+ls -a
+git checkout uploader go.mod
+git checkout ssh-proxy
+git checkout -b ssh-proxy
+ls
+g
+git add -a
+git add -A
+g
+git checkout uploader go.sum
+git checkout uploader Dockerfile
+ls
+git checkout uploader main.go
+go build .
+ls
+cd src/ssh_proxy/
+ls
+go test
+ls
+cd ..
+ls
+cd ..
+ls
+g
+git diff
+git add -A
+g
+git log
+git commit -m "add ssh-proxy"
+git push
+git push --set-upstream origin ssh-proxy 
+git log
+r
+g
+git diff
+git log
+ls
+g
+git diff
+g
+ls
+cd src/
+ls
+git rm --cached uploader/
+git rm -r --cached uploader/
+g
+git commit -m "upd"
+git push
+g
+ls
+g
+git diff
+git checkout uploader 
+g
+git checkout -b uploader 
+git checkout -b upload
+g
+git add -A
+g
+git diff
+git add -A
+git commit -m "add uploader"
+git push
+git push --set-upstream origin upload
+g
+git diff
+g
+git checkout ssh-proxy 
+git mod tidy
+go mod tidy
+ls
+g
+git diff
+ls
+./iot-daemon 
+ls
+go build .
+g
+git add -A
+git commit -m "fix go mod"
+git push
+g
+git diff
+g
+git diff
+go fmt ./...
+g
+go fmt ./...
+go mod tidy && git --no-pager diff --exit-code || echo "You may have unnecessary deps"
+echo "Check go fmt, please run go fmt ./..." && git --no-pager diff --exit-code
+go build .
+g
+ls
+git push
+go mod
+go mod vendor
+g
+go get -v -insecure
+g
+swag init --parseVendor
+g
+go get -v -insecure gitlab.sho.hypereal.com/go/common-util
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go get -v -insecure
+go get -v -insecure gitlab.sho.hypereal.com/go/common-util
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go get -v -insecure gitlab.sho.hypereal.com/go/common-util
+[[ $del -eq 0 ]] 
+swag init
+go get -v -u github.com/swaggo/swag/cmd/swag
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+swag init
+go get -v -insecure
+g
+git diff go.mod
+go get -v -insecure
+g
+git reset HEAD --hard
+go get -v -insecure gitlab.sho.hypereal.com/go/common-util
+gb
+g
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go get -v -insecure gitlab.sho.hypereal.com/go/common-util
+go get -v -insecure
+g
+go mod vendor
+swag init --parseVendor
+go get -v -insecure
+g
+git diff
+git add -A
+git commit -m "fix go mod"
+git push
+g
+go build .
+g
+ls
+rm iot-daemon 
+go build .
+ls
+rm iot-daemon 
+ls
+g
+git diff
+g
+git diff
+cd Desktop/
+ls
+cd ..
+ls
+cd test/
+ls
+f -l
+f -a go
+f -a java
+f -l
+f -A java
+l
+f -l
+f -a go
+f -A java go make
+f -l
+f -a java go make
+l
+f -l
+ls
+f -a fc
+f -A fc
+f -l
+f -A go
+f -l
+f -a fc
+f -A go
+f -l
+ls
+sort `seq 5`
+seq 5 | sort 
+seq 5 | sort  | uniq
+cat `seq 5` `seq 2 6` | sort  | uniq
+echo `seq 5` `seq 2 6` | sort  | uniq
+echo `seq 5` `seq 2 6` | sort
+echo `seq 5` `seq 2 6`
+cat <(seq 5) <(seq 2 6) | sort 
+cat <(seq 5) <(seq 2 6) | sort  | uniq
+vim mycmd.sh 

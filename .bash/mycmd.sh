@@ -110,6 +110,8 @@ f() {
 		}
 		echo $path >> $fcp
 	done
+	tmp=`sort $fcp | uniq`
+	echo "$tmp" > $fcp
 }
 
 b() {
