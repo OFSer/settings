@@ -73,6 +73,45 @@ Git(){
 	cd $prepwd
 }
 
+f() {
+	add=-1
+	del=-1
+	fcp=/tmp/fcplist
+	args=`getopt -o aApPl -- "$@"`
+	eval set -- "$args"
+	while :;do
+		case $1 in
+			-a) add=0; shift 1;;
+			-A) add=1; shift 1;;
+			-p) del=0; shift 1;;
+			-P) del=1; shift 1;;
+			-l) cat $fcp; return ;;
+			--) shift 1; break;;
+		esac
+	done
+	[[ $del -gt -1 ]] && {
+		for i in $(cat $fcp);do
+			[[ $del -eq 0 ]] && {
+				cp -vr $i -t .
+			} 
+			[[ $del -eq 1 ]] && {
+				mv -v $i .
+			}
+		done
+		return 
+	}
+	[[ $add -eq 0 ]] && {
+		> $fcp
+	}
+	for i in "$@";do
+		path=$(readlink -f $i)
+		[ -e $path ] || {
+			continue
+		}
+		echo $path >> $fcp
+	done
+}
+
 b() {
 	args=`getopt -o o:i: --long ibase:,obase: -- "$@"`
 	eval set -- "$args"
@@ -88,4 +127,5 @@ b() {
 	done
 	bc<<<"obase=$o;`bc<<<"ibase=$i;$n"`"
 }
+
 
