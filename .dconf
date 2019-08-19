@@ -64,7 +64,7 @@ show-thousands=false
 button-mode='advanced'
 target-units='radian'
 word-size=64
-window-position=(2443, 175)
+window-position=(253, 383)
 number-format='automatic'
 angle-units='degrees'
 base=10
@@ -199,6 +199,7 @@ sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gn
 
 [org/gnome/desktop/wm/preferences]
 theme='Ambiance'
+num-workspaces=4
 titlebar-font='Ubuntu Medium 11'
 
 [org/gnome/desktop/wm/keybindings]
@@ -270,11 +271,11 @@ mousekeys-init-delay=160
 slowkeys-enable=false
 
 [org/gnome/desktop/background]
-picture-uri='file:///usr/share/backgrounds/warty-final-ubuntu.png'
-color-shading-type='solid'
-primary-color='#2c001e'
-picture-options='zoom'
-secondary-color='#2c001e'
+picture-uri=''
+color-shading-type='vertical'
+primary-color='#adad7f7fa8a8'
+picture-options='none'
+secondary-color='#5c5c35356666'
 
 [org/gnome/desktop/input-sources]
 sources=[('xkb', 'us')]
@@ -396,7 +397,7 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=362
-window-position=(2459, 245)
+window-position=(475, 303)
 show-size-column=true
 show-hidden=false
 window-size=(1086, 581)
@@ -406,8 +407,8 @@ sort-order='ascending'
 location-mode='path-bar'
 
 [org/gtk/settings/color-chooser]
-selected-color=(true, 0.9137254901960784, 0.9137254901960784, 0.88627450980392153, 1.0)
-custom-colors=[(0.9137254901960784, 0.9137254901960784, 0.88627450980392153, 1.0), (0.2209777777777778, 0.4588387706855796, 0.75333333333333341, 1.0), (0.30196078431372547, 0.3843137254901961, 0.48627450980392156, 1.0), (0.3033555555555556, 0.3835541666666667, 0.48666666666666669, 1.0), (0.18431372549019609, 0.43137254901960786, 0.74901960784313726, 1.0), (0.18250000000000005, 0.42942748091603061, 0.75, 1.0), (0.24420000000000008, 0.45992977099236659, 0.7400000000000001, 1.0), (0.20088888888888887, 0.44126547921967779, 0.75333333333333341, 1.0)]
+selected-color=(true, 0.36078431372549019, 0.20784313725490197, 0.40000000000000002, 1.0)
+custom-colors=[(0.17254901960784313, 0.0, 0.11764705882352941, 1.0), (0.9137254901960784, 0.9137254901960784, 0.88627450980392153, 1.0), (0.2209777777777778, 0.4588387706855796, 0.75333333333333341, 1.0), (0.30196078431372547, 0.3843137254901961, 0.48627450980392156, 1.0), (0.3033555555555556, 0.3835541666666667, 0.48666666666666669, 1.0), (0.18431372549019609, 0.43137254901960786, 0.74901960784313726, 1.0), (0.18250000000000005, 0.42942748091603061, 0.75, 1.0), (0.24420000000000008, 0.45992977099236659, 0.7400000000000001, 1.0)]
 
 [org/compiz]
 existing-profiles=['Default', 'unity', 'unity-lowgfx']
@@ -559,7 +560,7 @@ x-offset=70
 background-color='#333333d9'
 
 [org/compiz/profiles/unity/plugins/core]
-hsize=2
+hsize=1
 outputs=['1920x1080+1920+0', '1920x1080+0+0']
 vsize=2
 active-plugins=['core', 'composite', 'opengl', 'place', 'regex', 'resize', 'session', 'snap', 'vpswitch', 'wall', 'animation', 'commands', 'compiztoolbox', 'fade', 'grid', 'imgpng', 'mousepoll', 'move', 'scale', 'workarounds', 'expo', 'ezoom', 'switcher', 'unityshell']
@@ -642,10 +643,10 @@ favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chr
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14
-release-check-time=uint32 1564712306
+release-check-time=uint32 1565922340
 
 [com/ubuntu/user-interface]
-scale-factor={'DP-4': 10, 'HDMI-0': 10}
+scale-factor={'HDMI-0': 10, 'DP-4': 10}
 
 [com/ubuntu/user-interface/desktop]
 scaling-factor=uint32 1

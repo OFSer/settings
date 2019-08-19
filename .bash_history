@@ -46217,3 +46217,685 @@ f -l
 f
 ls
 f -l
+g
+git diff
+g
+git diff
+g
+git diff
+ls
+g
+cd ~
+ls
+g
+./config.sh push
+./config.sh pushg
+g
+git diff
+g
+git diff
+g
+git diff
+go build .
+go test 
+steam 
+steam
+type f
+type b
+type f
+g
+git diff
+g
+git diff
+ls
+cat makefile 
+ls
+g
+./config.sh push
+arecord demo.wav
+ls
+musicbox demo.wav 
+musicbox --help
+netease-cloud-music demo.wav 
+ls
+arecord demo.wav
+netease-cloud-music demo.wav 
+arecord demo.wav
+netease-cloud-music demo.wav 
+arecord demo.wav
+netease-cloud-music demo.wav 
+eog
+ls
+sudo apt install eog
+ls
+eog
+ls
+vim config.sh 
+ls
+moc
+man moc
+man mocp
+mocp
+sudo apt install moc
+ls
+mocp demo.wav 
+ls
+mocp
+jobs
+fg
+ls
+g
+go test
+g
+git diff
+git add -A
+git commit -m "resolve comment"
+git commit --amend 
+g
+git push
+g
+go test
+g
+git diff
+g
+git add -A
+g
+git add -A
+g
+git commit -m "resolve comments"
+git push
+go test
+g
+git diff
+ls
+go build .
+ls
+git push
+g
+git diff
+g
+git checkout upload
+g
+git checkout ssh-proxy 
+g
+git diff
+g
+rm config.json 
+ls
+go run main.go 
+ls
+go run main.go 
+export DAEMON_ENV=local
+go run main.go 
+g
+git diff
+g
+git diff
+go run main.go 
+g
+git diff
+g
+git diff
+go build .
+g
+git diff
+got build .
+go build .
+ls
+export DAEMON_ENV=local
+./iot-daemon 
+go run recover.go 
+go build .
+go run 
+go run .
+ls
+g
+ls
+cd ~
+ls
+g
+git diff
+ls
+g
+git diff
+ls
+g
+ls
+rm demo.wav 
+g
+git diff
+ls
+g
+ls
+g
+git diff
+ls
+g
+git diff
+ls
+cd ..
+ls
+cd .
+cd 
+c d
+c
+cd ~
+cd pt-program/
+ls
+cd pan-light/
+cd ..
+cd ~
+ls
+cd gh/
+ls
+cd /tmp/
+ls
+cat gameoverlayui.log
+ls
+cat vim-node-rpc.log
+ls
+cd ~
+ls
+vim .vimrc
+vim .bash
+ls
+g
+git diff
+history 
+g
+git diff
+ls
+p
+ls
+vim .bash
+ls
+history 
+ls
+cd test/
+ls
+cd go/
+ls
+mkdir recover
+cd recover/
+ls
+vim recover.go
+ls
+cd ~
+g
+git diff
+ls
+cat makefile 
+g
+git diff
+ls
+cd pt-program/
+ls
+cd ..
+ls
+vim config.sh 
+ls
+g
+ls
+g
+git diff
+cd ~
+ls
+df -h
+docker images
+g
+ls
+cd ~
+ls
+ln
+ln --help
+ln -s | less
+ln -s | more
+ln --help | less
+ls
+uptime
+w
+w --help
+man w
+w
+cat /etc/issue
+locate
+locate --help
+locate makefile 
+ls
+cd test/
+ls
+locate *.cpp
+locate --help
+locate makefile
+locate -0 makefile
+locate -0 makefile | xargs -0 ls -al
+locate -0 makefile | xargs -0 echo -
+locate -0 makefile | xargs 
+locate -0 makefile 
+locate -0 makefile | xargs 
+locate -0 pattern | xargs -0 ls -al
+locate -0 makefile | xargs -0 ls -al
+fzf
+sudo apt install fzf
+python -m http.server 7777
+ls
+python3 -m http.server 7777
+python3 --help
+cd ~
+ls
+vim config.sh 
+ls
+g
+cd test/
+python3 -m http.server 7777
+cd ..
+python3 -m http.server 7777
+\ssh gjs@dl-5
+nslookup dl-5
+nslookup dl-4
+ping dl-4
+ping dl-5
+g
+export DAEMON_ENV=local
+go run main.go 
+g
+git diff
+g
+git diff
+git add -A
+git commit -m "add config"
+git push
+ls
+go run main.go 
+go build .
+go run main.go 
+ls
+g
+git diff
+g
+git diff
+g
+git diff
+go env
+g
+git diff
+g
+git diff
+go build .
+g
+go build .
+go run main.go 
+export DAEMON_ENV=testing
+go run main.go 
+g
+git diff
+git add -A
+g
+git diff --cached 
+g
+git commit -m "upd config"
+git push
+g
+git diff
+git add -A
+git commit -m "fix fmt"
+git push
+g
+git diff
+export DAEMON_ENV=testing
+go run main.go 
+g
+git diff
+git add -A
+g
+go fmt ./...
+g
+git diff
+g
+git add -A
+g
+git diff
+git commit -m "upd config"
+git push
+g
+git diff
+git add -A
+go build .
+ls
+g
+git add -A
+got fmt ./...
+go fmt ./...
+ls
+g
+go run main.go 
+g
+go build .
+go run main.go 
+g
+git add -A
+g
+git commit -m "upd config"
+g
+git commit -am "upd config"
+go fmt ./...
+g
+git push
+g
+git diff
+git push
+g
+git diff
+ls
+go run main.go 
+g
+git diff
+ls
+g
+git diff
+g
+git add -A
+git commit -m "upd config"
+go fmt ./...
+g
+git push
+g
+git diff
+g
+git diff
+ls
+g
+git diff
+ls
+g
+git diff
+cd ~
+vim config.sh 
+ls
+cd fc/iot-daemon/
+ls
+go build .
+ls
+go env
+mkdir bin
+export GOBIN=bin
+ls
+rm iot-daemon 
+ls
+go build .
+ls
+rm iot-daemon 
+rm -r bin
+vim .gitignore 
+g
+git diff
+git diff --cached 
+g
+git diff
+g
+ls
+vim .gitignore 
+ls
+\ssh sihe@10.0.10.161
+ls
+cd ..
+ls
+cd ~
+ls
+cd test/
+ls
+cd ..
+cd test/
+ls
+cd cpp/
+cat 1.c
+vim -c 'dd' 1.c
+ls
+vim -c '1d' 1.c
+cat 1.c
+g
+git diff
+ls
+cd ..
+l;s
+cd ~
+cd f
+cd fc/
+cd dl-k8s-kube/
+vim
+cd ~
+vim .vimrc
+vim .vim
+sudo apt install emacs
+emacs
+emacs25-x
+emacs25
+compgen -ac
+compgen -ac | grep emacs
+emacsclient
+emacs --help
+emacs --help | grep term
+emacs -t
+emacs --terminal
+emacs-tui
+emacs --help | grep tui
+man emacs
+emacs
+emacs25-x
+emacsclient
+emacsclient --help
+emacs -nw
+fg
+emacs -nw
+g
+git pusyh
+git push
+g
+git diff
+ls
+tree
+ls
+tree
+tree | less
+tree
+tree | more
+tree
+tree --help
+tree --help | grep exclu
+tree --help | grep ignore
+tree
+ls
+find -type f -path .git -prune -o -print
+find -type f -path ./.git -prune -o -print
+find . -type f -path ./.git -prune -o -print
+find . -type f -path ./.git/ -prune -o -print
+find . \( -type f -path ./.git/ -prune \) -o -print
+find  \( -type f -path ./.git/ -prune \) -o -print
+find -path ./.git/ -prune -o -type f -print
+find -path ./.git -prune -o -type f -print
+find -path ./.git -prune -o -type f -print | less
+find -path ./.git -prune -o -type f -print 
+find -path ./.git -prune -o -type f -print | less
+find -type f -path ./.git -prune -o -print | less
+find -type f -o -path ./.git -prune -o -print | less
+find -path ./.git -prune -o -type f -print | less
+find -path ./.git -prune -o -type d -print | less
+tree
+tree | less
+less --help
+less -h
+man less
+tree | less -R
+tree | less --color=auto
+man less
+tree | less --Dxcolor
+tree | less -Dxcolor
+man tree
+man less
+tree | less 
+tree | less --color=xcolor
+man less
+ls
+tree
+tree | less -R
+tree | less
+tree | less -R
+tree | less -r
+ls --color | less -R
+ls --color | less 
+ls --color | less -R
+tree --color
+ls | less
+ls | less -R
+ls --color | less -R
+ls --color
+tree
+type tree
+tree | less
+ls | less
+ls --color | less
+ls --color | less -R
+type ls
+ls --color=auto | less -R
+ls --color=auto | less -r
+ls --color | less -r
+tree | less -r
+git 
+git diff
+git diff HEAD^
+git diff HEAD^ | less
+git diff HEAD^ | less -r
+git diff HEAD^ | less -R
+git diff --color=always | less -r
+git diff --color=always | less -TR
+git diff --color=always | less -R
+git diff --color=always
+git diff --color=always HEAD^
+git diff --color=always HEAD^ | less -r
+git diff --color=always HEAD^ | less -R
+git diff --color=always HEAD^ | less 
+tree --color=always
+tree
+tree -C | less -r
+tree -C
+tree --help
+tree -C
+tree -C | less
+tree | less
+tree -C | less -r
+less --help
+man less
+type osu
+g
+git diff
+g
+git diff
+g
+git diff
+g
+git diff
+g
+git diff
+g
+git checkout upload
+g
+git log
+ls
+git rebase ssh-proxy 
+git log
+ls
+g
+s
+g
+git diff
+g
+git diff
+ls
+go te
+go test .
+ls
+g
+cd ~
+ls
+cd 
+cd
+cd ~
+cd go
+cd ~
+g
+git diff
+g
+ls
+vim .dconf 
+sudo apt install unity-tweak-tool 
+unity-tweak-tool 
+com.canonical.indicator.appmenu.hud
+sudo apt install com.canonical.indicator.appmenu.hud
+sudo apt install indicator-appmenu*
+sudo apt install indicator*
+unity-tweak-tool 
+python
+vim .dconf 
+vim config.sh 
+gsettings --schemadir . list-recursively
+history | grep gsettings | grep list
+gsettings list-recursively
+gsettings list-recursively | grep work
+gsettings list-recursively | grep workspace
+org.gnome.desktop.wm.preferences num-workspaces 2
+gsettings org.gnome.desktop.wm.preferences num-workspaces 2
+vim config.sh 
+gsettings list-recursively | grep workspace
+history | grep gsettings
+gsettings set org.gnome.desktop.wm.preferences num-workspaces 4
+gsettings set org.gnome.desktop.wm.preferences num-workspaces 2
+gsettings set org.gnome.desktop.wm.preferences num-workspaces 1
+gsettings set org.gnome.desktop.wm.preferences num-workspaces 4
+vim config.sh 
+dconf --help
+tldr dconf
+man dconf
+dconf list
+dconf list /
+dconf list --help
+dconf list -R /
+man dconf
+gsettings list-recursively | grep workspace
+ls
+rm config.json 
+ls
+g
+git diff
+ln -s config.sh config/testing.json 
+ln -s config/testing.json config.json
+ls
+ll
+g
+git diff
+git add -A
+git commit -m "change config.json to symbol link"
+git push
+go run main.go 
+g
+git diff
+g
+git diff
+ls
+g
+man american-english 
+man empire 
+l
+ll
+g
+git diff
+stat config
+stat config.json 
+cat config
+hexdump config.json
+hexdump -C -n 10 config.json
+hexdump -C -n 100 config.json
+hexdump -C -n 100 config
+hexdump -C -n 100 config.json
+hexdump -C -n 1000 config.json
+hexdump -C -n 512 config.json
+hexdump -C config.json

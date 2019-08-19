@@ -56,7 +56,7 @@ install_desktop(){
 	sudo apt remove -y --purge --no-install-recommends gnome-desktop3-data
 	sudo apt install -y --no-install-recommends ubuntu-unity-desktop
 	sudo apt remove -y --purge gnome-software*
-	sudo apt install -y indicator-* unity-lens-applications unity-lens-files
+	sudo apt install -y indicator-* unity-lens-applications unity-lens-files hud
 }
 install_vim(){
 	export DEBIAN_FRONTEND=noninteractive

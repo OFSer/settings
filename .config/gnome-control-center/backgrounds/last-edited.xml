@@ -2,11 +2,11 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
   <wallpaper>
-    <name>Ubuntu</name>
-    <filename>/usr/share/backgrounds/warty-final-ubuntu.png</filename>
-    <options>zoom</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#2c001e</pcolor>
-    <scolor>#2c001e</scolor>
+    <name>Vertical Gradient</name>
+    <filename>(none)</filename>
+    <options>none</options>
+    <shade_type>vertical</shade_type>
+    <pcolor>#88888a8a8585</pcolor>
+    <scolor>#2e2e34343636</scolor>
   </wallpaper>
 </wallpapers>
