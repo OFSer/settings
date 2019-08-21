@@ -46899,3 +46899,693 @@ hexdump -C -n 100 config.json
 hexdump -C -n 1000 config.json
 hexdump -C -n 512 config.json
 hexdump -C config.json
+ls
+unity-tweak-tool 
+com.canonical.indicator.appmenu.hud
+ls
+sudo apt install indicator-appmenu
+sudo apt install --reinstall indicator-appmenu
+unity-tweak-tool 
+sudo apt install --reinstall ubuntu-unity-desktop 
+sudo autoreconf 
+sudo apt autoremove 
+sudo apt-get install hud
+unity-tweak-tool 
+vim config.sh 
+g
+./config.sh push
+hud
+man hud
+ls
+\man hud
+command man hud
+echo $?
+set -euo pipefailed
+ls
+man hud
+ls
+cd ~
+man empire 
+command man hud
+echo $?
+man --help
+man -K man
+\man -K man
+command man -K man
+type man
+man -K man
+jobs
+fg
+jobs
+jobs -p
+jobs -p | xargs kill -9
+jobs
+fg
+jobs
+fg
+g
+git diff
+g
+go fmt ./...
+g
+git diff
+git add -A
+g
+go run main.go 
+g
+go fmt ./...
+g
+git add -A
+git diff --cached 
+g
+git diff
+git diff --cached 
+ls
+g
+pwd --help
+go run main.go 
+go build .
+g
+stat .gitignore 
+cd ..
+stat iot-daemon/.gitignore 
+go run main
+cd iot-daemon/
+go run main.go 
+g
+git diff
+g
+git diff
+ls
+set -o pipefailed 
+set -o pipefail 
+man hud
+\man hud
+command man hud
+command man manm
+command man man
+type man
+vim config.sh 
+vim .bash
+ls
+ll
+vim .vimrc
+ls
+cd fc/http-dhcp-server/
+ls
+vim
+ls
+cd ..
+ls
+cd detection-machine-daemon/
+vim
+g
+git diff
+g
+git diff
+g
+git diff
+g
+git diff
+g
+git diff
+go run main.go 
+git add -A
+git commit -m "add filelist upload"
+git push
+git checkout ssh-proxy 
+g
+go run main.go 
+g
+git add -A
+git commit -m "move config to service"
+git push
+git checkout upload
+git merge ssh-proxy 
+go run main.go 
+g
+git diff
+go run main.go 
+g
+git diff
+g
+git stash
+git checkout ssh-proxy 
+git pull
+git merge master 
+git pull master
+git checkout master 
+git pull
+git checkout ssh-proxy 
+git merge master
+g
+git add -A
+g
+git commit -m "merge master"
+git push
+go fmt ./...
+g
+git diff
+git checkout upload
+g
+git merge master 
+g
+git add -A
+g
+git commit -m "merge master"
+git push
+g
+git checkout ssh-proxy 
+g
+ls
+mv service/ config
+ls
+cd src/
+ls
+cd ..
+ls
+mv config/service/ src/
+ls
+go run main.go 
+go build .
+ls
+g
+go diff main.go 
+git diff main.go 
+go build .
+go get -v -insecure
+go mod
+go get -v -insecure
+go mod
+go build .
+go run main.go 
+go build .
+cd 
+cd ~
+ls
+g
+./config.sh push
+cd fc/iot-daemon/
+ls
+vim
+ls
+vim main.go 
+ls
+vim main.go 
+ls
+vim main.go 
+vim
+vim main.go 
+ls
+cd ~/test/cpp/
+ls
+vim 1.cpp
+ls
+cd ~
+ls
+vim .vimrc
+g
+git diff .vimrc
+vim .vimrc
+g
+git diff .vimrc
+git add .vimrc
+./config.sh push
+ls
+vim .vimrc
+ls
+g
+git diff .vimrc
+g
+git diff
+git diff .vimrc
+g
+cd fc/
+ls
+cd iot-daemon/
+vim main.go 
+vim 
+g
+ls
+vim
+go build .
+jobs
+fg
+ls
+cd ../http-dhcp-server/
+go build .
+go --version
+go -version
+go --help
+go build .
+ls
+go build .
+go  build .
+cd ../iot-daemon/
+go build .
+g
+git checkout -- main.go
+g
+go build .
+ls
+./iot-daemon 
+ls
+g
+git diff
+go run main.go 
+ls
+git checkout -b dev origin/dev
+git fetch origin/dev
+git fetch
+g
+git add -A
+git commit -m "move service to src"
+g
+git push
+git checkout -b dev origin/dev
+g
+git checkout ssh-proxy 
+git merge dev
+g
+git add -A
+git commit -m "merge dev"
+git push
+git checkout dev
+git merge ssh-proxy 
+git push
+g
+git checkout upload
+git merge dev
+g
+git add -A
+git commit -m "merge dev"
+git push
+g
+git diff
+go run main.go 
+go build .
+ls
+g
+go build .
+ls
+go build .
+ls
+./iot-daemon 
+git add -A
+git commit -m "fix"
+git push
+g
+git diff
+g
+cd ~
+go --version
+g
+go
+go env
+cd ~
+go env
+go
+go env
+df
+echo $GOROOT
+vim .bash
+go env
+go env
+cd fc/iot-daemon/
+go build .
+\go build .
+ls
+vim main.go 
+g
+vim main.go 
+go env
+vim main.go 
+g
+git checkout -- main.go
+go env
+ls
+ssh -o "StrictHostKeyChecking no" -p 14316 hypereal@registry-corp.hypereal.com
+cd ..
+cd detection-machine-daemon/
+vim
+jobs
+fg
+ls
+man g++
+go build .
+go env
+df
+go build .
+ls
+go build .
+./iot-daemon 
+g
+git stash list
+git stash apply stash@{0} 
+g
+git diff
+g
+go run main.go 
+go build .
+g
+go run main.go 
+g
+git diff
+git add -A
+git diff --cached 
+git commit -m "add http json"
+git push
+g
+git diff
+g
+git add -A
+g
+git commit -m "rename"
+git push
+g
+git diff
+g
+go run main.go 
+g
+git diff
+go fmt ./...
+go run main.go 
+go run main.go 
+g
+git diff
+g
+git diff
+g
+git diff
+go run main.go 
+go get -v
+go build .
+go get -v -insecure -recursive
+go get -v -insecure 
+go build .
+ls
+go build .
+rm hello
+go build .
+ls
+./hello 
+ls
+cat hello.go 
+go build .
+ls
+go build .
+ls
+./hello 
+go run hello.go 
+go build .
+go env
+go build main.go 
+go get -v -insecure
+go get -u -v -insecure
+go get -u -v "github.com/cheggaaa/pb"
+go get -u -v "github.com/minio/minio-go"
+go build .
+go build main.go 
+go get -u -v "github.com/minio/minio-go/v6"
+echo $GOROOT
+echo $GOPATH
+go get -u github.com/minio/minio-go
+go get -u -v github.com/minio/minio-go
+go build .
+go run main.go 
+go build .
+go run main.go 
+g
+git diff
+g
+git diff
+go run main.go 
+g
+git diff
+g
+git diff
+go run main.go 
+g
+git diff
+g
+git add -A
+git diff --cached 
+git commit -m "add uploader get file"
+git push
+git log
+g
+git diff
+go run main.go 
+go get -v -u "github.com/aws/aws-sdk-go/service/s3"
+go build .
+g
+git diff
+g
+git diff src/uploader/uploader
+git diff src/uploader/uploader.go
+g
+git add src/uploader/uploader.go 
+git commit -m "add uploader file check"
+git push
+go run main.go 
+go get -u -v github.com/GoogleCloudPlatform/go-endpoints/endpoints
+go run main.go 
+o get -u github.com/minio/minio-go
+go get -u github.com/minio/minio-go
+go run main.go 
+go get -v -u "github.com/cheggaaa/pb"
+go run main.go 
+go get -v -u github.com/cheggaaa/pb
+go get -u -v github.com/cheggaaa/pb
+go run main.go 
+go get -v -insecure
+go run main.go 
+go get -u -v gopkg.in/mattn/go-colorable.v0
+go get github.com/cheggaaa/pb/v3
+go run main.go 
+g
+git diff
+go build .
+go run main.go 
+go get "gopkg.in/mattn/go-colorable.v0"
+go get -v "gopkg.in/mattn/go-colorable.v0"
+go get -v -insecure "gopkg.in/mattn/go-colorable.v0"
+go get gopkg.in/mattn/go-colorable.v0
+go run main.go 
+go build .
+go run main.go 
+ls
+g
+go get -v -insecure
+ls
+go mod tidy
+g
+git diff
+go fmt ./...
+g
+git diff
+go run main.go 
+git add -A
+g
+git commit -m "upload file to aws"
+git push
+go run main.go 
+go build .
+go get -u -v github.com/cheggaaa/pb
+go get --help
+go get -d -v github.com/cheggaaa/pb
+go build .
+go get -u -v github.com/cheggaaa/pb
+go mod edit -require github.com/cheggaaa/pb@1.0.28
+go get -v -insecure
+go mod edit -require github.com/cheggaaa/pb@v1.0.28
+go get -v -insecure
+go build .
+go run main.go 
+stat /home/gjs/test/uploader/4.go
+go run main.go 
+go fmt ./...
+g
+git add -A
+git commit -m "add progress"
+git push
+go run main.go 
+g
+git diff
+go build .
+go run main.go 
+g
+git diff
+go run main.go 
+g
+git diff
+go run main.go 
+g
+git diff
+git add -A
+git log
+git diff --cached 
+g
+go fmt ./...
+g
+git diff
+git add -A
+g
+go mod -v -insecure
+go get -v -insecure
+g
+go mod tidy
+g
+go run main.go 
+g
+git diff
+g
+git add -A
+g
+git commit -m "add upload progress status to server"
+git push
+go build 
+ls
+go run main.go 
+g
+git diff
+git add -A
+git commit -m "upd log"
+g
+go fmt ./...
+g
+git diff
+g
+git add -A
+git commit -m "fmt"
+git push
+g
+gi tdiff
+git diff
+g
+go run main.go 
+ls
+go test src/uploader/uploader_test.go 
+go env
+cd src/
+go env
+ls
+mv config src/service/config/
+ls
+go run main.go 
+ls
+cd ~
+ls
+cd test/go/
+ls
+cd hello/
+vim hello.go 
+ls
+cd ..
+ls
+mkdir test
+ls
+cd test/
+ls
+vim main.go
+ls
+cd ..
+cd ~
+ls
+cd gh/
+ls
+cd ..
+ls
+cd fc/
+ls
+cd ..
+ls
+cd test/uploader/
+ls
+echo 1243412351234 > 1.go
+pip install aws-shell
+sudo pip install aws-shell
+sudo -H pip install aws-shell
+aws configure
+aws s3
+aws
+ls
+cd ..
+ls
+cd uploader/
+ls
+echo 12434123423423424234  > 4.go
+ls
+cat 4.go 
+ls
+cd ~/fc/detection-machine-daemon/
+ls
+vim
+ls
+cd ~/test/
+ls
+cd go/
+ls
+cd test/
+ls
+vim main.go 
+ls
+cd ..
+cd hello/
+ls
+vim hello.go 
+ls
+vim hello.go 
+ls
+cd ..
+ls
+mkdir main
+cd main/
+vim main.go
+ls
+cd ..
+cd uploader/
+ls
+history | grep dd
+history | grep "dd if"
+dd if=/dev/zero of=1.go bs=1M count=300
+ls
+ll
+df
+cd /dev/
+ls
+cd ~
+ls
+gnome-calculator 
+gnome-characters 
+type f
+f -l
+ls
+cd test/uploader/
+ls
+history | grep dd
+dd if=/dev/zero of=1.go bs=1M count=300
+ls
+cd ~
+ls
+cd fc/
+ls
+cd http-dhcp-server/
+vim
+ls
+cd ~
+ls
+cd go/
+cd pkg/
+ls
+cd mod/gitlab.sho.hypereal.com/
+ls
+cd go/
+ls
+cd common-util@v0.0.0-20190419084608-5875b8dff711/
+vim
+cd ..
+ls
+cd common-util@v0.0.0-20190801022609-ab340de0e8fb/
+find pinyin
+vim
