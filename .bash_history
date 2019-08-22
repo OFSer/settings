@@ -48065,3 +48065,47 @@ git diff
 g
 git diff
 ls
+g
+ls
+vim .vimrc
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd vim-colorschemes/
+ls
+vim
+g
+cd ~
+vim .vimrc
+g
+vim .vimrc
+g
+git diff
+vim .vimrc
+ls
+g
+git diff .vimrc
+./config.sh push
+ls
+cd ~
+ls
+g
+git diff
+ls
+g
+ls
+g
+git diff
+ls
+git diff
+g
+git diff
+ls
+g
+ls
+git diff
+ls
+ll
+ls
