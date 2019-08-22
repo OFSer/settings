@@ -48109,3 +48109,251 @@ git diff
 ls
 ll
 ls
+ls
+cd ~
+vim .vimrc
+ls
+vim .vimrc
+ls
+vim .vimrc
+fg
+vim .vimrc
+angband 
+ls
+type angband 
+vimux angband
+type vimux
+vim --help
+vimux 
+vim .vimrc
+ls
+vim .vimrc
+vim .vim
+vim .vimrc
+g
+vim .vimrc
+./config.sh push "upd vim plug"
+git log
+ls
+vim .vimrc
+cd .vim/plugged/
+cd vim-colorschemes/
+g
+git reset HEAD --hard
+cd ~
+vim .vimrc
+ls
+cd .vim/
+ls
+cd colors/
+ls
+cd ..
+ls
+rm -rf colors/
+g
+cd ..
+ls
+g
+./config.sh push
+g
+git diff .vimrc
+g
+git diff
+git log
+g
+ls
+cd .vim/
+sl
+ls
+cd plugged/
+ls
+cd vim-colorschemes/
+find . | grep neodark
+ls
+cd colors/
+ls
+vim neodark.vim 
+ls
+cd ~
+ls
+cd .vim/plugged/
+cd vim-colorschemes/
+vim
+g
+git diff
+git remote remove origin
+git remote add origin git@github.com:chinnkarahoi/vim-colorschemes.git
+g
+git add -A
+g
+git diff
+git diff --cached 
+git commit -m "upd"
+git push
+git push --set-upstream origin master
+ls
+g
+cd ~
+ls
+g
+cd .vim/plugged/vim-colorschemes/
+vim
+cd colors/
+vim neodark.vim 
+ls
+g
+vim neodark.vim 
+ls
+g
+ls
+echo -e "\033[31mred\033[m"
+ls
+hi Terminal ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
+ls
+g
+ls
+echo -e "\033[31mred\033[m"
+echo $TERM
+export TERM=screen-256color
+vim
+vim config.sh 
+ls
+vim .vimrc
+terminator 
+terminology 
+ls
+g
+ls
+g
+ls
+g
+git diff
+ls
+echo $TERM
+ls
+vim .vimrc
+vim --version
+ls
+ls
+vim .vimrc
+vim --version
+ls
+vim .vimrc
+sudo apt install vim
+sudo apt install vim-gnome 
+vim --version
+sudo apt update
+sudo apt install vim
+sudo apt upgrade vim
+vim .vimrc
+vim config.sh 
+export TERM=st-256color
+vim config.sh 
+echo $TERM
+vim config.sh 
+bash
+vim config.sh 
+vim .bash
+vim .bashrc
+vim config.sh 
+vim .bashrc
+ls
+g
+ls
+vim config.sh 
+vim .vimrc
+vim config.sh 
+vim .bashrc 
+set-option -g default-terminal "xterm-256color"
+echo $TERM
+ls
+vim config.sh 
+ls
+vim config.sh 
+ls
+ls
+vim config.sh 
+ls
+g
+git diff
+set -ga terminal-overrides ',xterm-256color:Tc'
+vim .bashrc
+cd fc/iot-daemon/
+vim
+g
+git diff
+ls
+g
+git diff
+ls
+g
+git diff
+ls
+vim .vimrc
+vim .vim
+vim .vimrc
+ls
+cd ~
+ls
+g
+ls
+g
+./config.sh pull
+git diff
+ls
+./config.sh pull
+git diff
+ls
+git diff
+ls
+git diff
+ls
+git diff
+ls
+rm __.#\$VimSokoban\$#.__ 
+ls
+rm rogue_vim.log 
+ls
+g
+git diff
+ls
+g
+ls
+./config.sh push
+git diff HEAD^ .dconf
+b 173
+b -o 16 173
+b -o 16 127
+b -o 16 168
+g
+git diff
+ls
+g
+ls
+ll
+git diff
+ls
+g
+./config.sh push
+ls
+vim .vimrc
+ls
+vim --version
+ls
+vim .vimrc
+cd .vim/plugged/vim-colorschemes/
+ls
+cd colors/
+vim neodark.vim 
+cd fc/iot-daemon/
+go env
+vim main.go 
+go env
+vim main.go 
+ls
+g
+git diff
+ls
+g
+git diff
+ls

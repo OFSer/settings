@@ -1,6 +1,6 @@
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
-Plug 'katono/rogue.vim'
+Plug 'katono/rogue.vim' 
 Plug 'johngrib/vim-game-snake'
 Plug 'johngrib/vim-game-code-break'
 let g:vim_game_code_break_item_limit = 4
@@ -87,6 +87,7 @@ tnoremap <silent> <RightMouse> <c-\><c-n><LeftMouse>:Ydc<cr>i
 " Plug 'honza/vim-snippets'
 
 " colorscheme
+" Plug 'lifepillar/vim-solarized8'
 Plug 'chinnkarahoi/vim-colorschemes'
 
 Plug 'iamcco/mathjax-support-for-mkdp'
@@ -106,7 +107,7 @@ set nocompatible
 set incsearch
 set ignorecase
 set cursorline 
-set cursorcolumn
+" set cursorcolumn
 set wildmenu
 "set statusline=%1*
 set statusline=%1*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%=>
@@ -127,6 +128,7 @@ hi TabLineFill ctermfg=Black
 hi TabLineSel ctermfg=White ctermbg=Darkgrey
 hi TabLine ctermfg=Blue ctermbg=0
 hi Normal guibg=NONE ctermbg=NONE
+hi NonText ctermbg=NONE guibg=NONE
 let g:sidebar='NERD'
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
 runtime! ftplugin/man.vim
@@ -134,6 +136,4 @@ let g:ft_man_open_mode = 'tab'
 syntax on
 filetype plugin indent on  
 " hi CursorLine term=bold cterm=bold guibg=Grey40
-" set termguicolors
-
 
