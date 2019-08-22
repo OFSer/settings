@@ -1,40 +1,3 @@
-set ai
-set nu 
-set ts=2
-set sw=2
-set ma
-set mouse=a
-set twsl=100000
-set nocompatible
-set incsearch
-set ignorecase
-set cursorline 
-set cursorcolumn
-set wildmenu
-"set statusline=%1*
-set statusline=%1*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%=>
-let g:NERDTreeStatusline="%1*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%=>"
-set laststatus=0
-set noshowmode
-set noruler
-set ttimeoutlen=0
-set timeoutlen=0
-set updatetime=0
-set splitbelow
-set diffopt+=vertical
-set diffopt+=foldcolumn:0
-set noswapfile
-hi Error ctermbg=256
-hi goSpaceError ctermbg=256
-hi TabLineFill ctermfg=Black
-hi TabLineSel ctermfg=White ctermbg=Darkgrey
-hi TabLine ctermfg=Blue ctermbg=0
-let g:sidebar='NERD'
-command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
-runtime! ftplugin/man.vim
-let g:ft_man_open_mode = 'tab'
-syntax on
-filetype plugin indent on  
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
 Plug 'katono/rogue.vim'
@@ -137,7 +100,45 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 let g:mkdp_auto_close = 0
 call plug#end()
 silent! color neodark
+silent! color gruvbox
+set ai
+set nu 
+set ts=2
+set sw=2
+set ma
+set mouse=a
+set twsl=100000
+set nocompatible
+set incsearch
+set ignorecase
+set cursorline 
+set cursorcolumn
+set wildmenu
+"set statusline=%1*
+set statusline=%1*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%=>
+let g:NERDTreeStatusline="%1*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%=>"
+set laststatus=0
+set noshowmode
+set noruler
+set ttimeoutlen=0
+set timeoutlen=0
+set updatetime=0
+set splitbelow
+set diffopt+=vertical
+set diffopt+=foldcolumn:0
+set noswapfile
+hi Error ctermbg=256
+hi goSpaceError ctermbg=256
+hi TabLineFill ctermfg=Black
+hi TabLineSel ctermfg=White ctermbg=Darkgrey
+hi TabLine ctermfg=Blue ctermbg=0
 hi Normal guibg=NONE ctermbg=NONE
+let g:sidebar='NERD'
+command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
+runtime! ftplugin/man.vim
+let g:ft_man_open_mode = 'tab'
+syntax on
+filetype plugin indent on  
 " hi CursorLine term=bold cterm=bold guibg=Grey40
 " set termguicolors
 
