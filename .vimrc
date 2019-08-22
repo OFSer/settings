@@ -9,6 +9,8 @@ set nocompatible
 set incsearch
 set ignorecase
 set cursorline 
+set cursorcolumn
+set wildmenu
 "set statusline=%1*
 set statusline=%1*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%=>
 let g:NERDTreeStatusline="%1*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%=>"
@@ -35,6 +37,14 @@ syntax on
 filetype plugin indent on  
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
+Plug 'katono/rogue.vim'
+Plug 'johngrib/vim-game-snake'
+Plug 'johngrib/vim-game-code-break'
+let g:vim_game_code_break_item_limit = 4
+Plug 'itchyny/calendar.vim'
+Plug 'vim-scripts/TeTrIs.vim'
+Plug 'deris/vim-duzzle'
+Plug 'vim-scripts/sokoban.vim'
 Plug 'Yggdroot/indentLine'
 let g:indentLine_fileTypeExclude = ['nerdtree', 'json']
 let g:indentLine_fileType = ['python']
@@ -114,11 +124,13 @@ tnoremap <silent> <RightMouse> <c-\><c-n><LeftMouse>:Ydc<cr>i
 " Plug 'honza/vim-snippets'
 
 " colorscheme
-Plug 'KeitaNakamura/neodark.vim'
-
+Plug 'chinnkarahoi/neodark.vim'
 Plug 'crusoexia/vim-monokai'
 Plug 'acarapetis/vim-colors-github'
 Plug 'rakr/vim-one'
+Plug 'altercation/vim-colors-solarized'
+Plug 'tomasr/molokai'
+Plug 'flazz/vim-colorschemes'
 
 Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
@@ -126,6 +138,7 @@ let g:mkdp_auto_close = 0
 call plug#end()
 silent! color neodark
 hi Normal guibg=NONE ctermbg=NONE
-"set termguicolors
+" hi CursorLine term=bold cterm=bold guibg=Grey40
+" set termguicolors
 
 

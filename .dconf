@@ -51,7 +51,7 @@ active-plugins=['spell', 'filebrowser', 'time', 'modelines', 'docinfo']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=132
+state=4
 bottom-panel-size=140
 side-panel-size=250
 side-panel-active-page='GeditFileBrowserPanel'
@@ -364,9 +364,9 @@ subtitle-encoding='UTF-8'
 active-plugins=['skipto', 'screenshot', 'apple-trailers', 'media_player_keys', 'vimeo', 'movie-properties', 'autoload-subtitles', 'variable-rate', 'recent', 'save-file', 'screensaver']
 
 [org/gnome/gnome-system-monitor]
-current-tab='resources'
+current-tab='processes'
 show-whose-processes='user'
-window-state=(1206, 786, 455, 49)
+window-state=(1206, 786, 314, 143)
 maximized=false
 show-dependencies=false
 cpu-colors=[(uint32 0, '#FF6E00'), (1, '#CB0C29'), (2, '#49A835'), (3, '#2D7DB3'), (4, '#f25915e815e8'), (5, '#f25915e815e8'), (6, '#f25915e815e8'), (7, '#f25915e815e8')]
@@ -374,7 +374,7 @@ cpu-colors=[(uint32 0, '#FF6E00'), (1, '#CB0C29'), (2, '#49A835'), (3, '#2D7DB3'
 [org/gnome/gnome-system-monitor/proctree]
 columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
 sort-order=0
-sort-col=0
+sort-col=8
 
 [org/gnome/gnome-system-monitor/disktreenew]
 columns-order=[0, 1, 2, 3, 4, 5, 6]
@@ -397,7 +397,7 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=362
-window-position=(475, 303)
+window-position=(268, 318)
 show-size-column=true
 show-hidden=false
 window-size=(1086, 581)

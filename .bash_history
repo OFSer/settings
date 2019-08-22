@@ -47589,3 +47589,474 @@ ls
 cd common-util@v0.0.0-20190801022609-ab340de0e8fb/
 find pinyin
 vim
+g
+git diff
+g
+git add -A
+g
+git diff 
+git diff  --cached
+go fmt ./...
+g
+git diff
+git commit add -A
+g
+git add -A
+git commit -m "upd config"
+git push
+g
+git diff
+g
+git diff
+go run main.go 
+g
+git add -A
+go fmt ./...
+g
+git diff
+git commit -m "add upload progress sync"
+git push
+g
+git diff
+g
+git dxiff
+git diff
+g
+go run main.go 
+g
+git diff
+g
+git reset HEAD --hard
+g
+git diff
+go test
+g
+cd ~/test/uploader/
+history | grep dd
+dd if=/dev/zero of=1.go bs=1M count=300
+history 
+cd ~
+g
+git diff
+./config.sh push
+g
+cd /tmp/
+ls
+ln -s /home/gjs/fc/iot-daemon/config_file/testing.json config.json
+ls
+ll
+cd ~/shmmsg/
+ls
+vim
+ls
+ls
+cd ~
+ls
+cd fc/saki_detection/
+ls
+cd ..
+ls
+cd iot-daemon/
+l;s
+ls
+cd src/
+ls
+cd ..
+ls
+cd config_file/
+pwd
+tty
+git add -A
+g
+git commit -m "merge uploader"
+git push
+go mod tidy
+g
+go fmt ./...
+g
+go mod tidy
+g
+git add -A
+git commit -m "fix mod"
+git push
+g
+go get -v -insecure
+go build .
+g
+git diff
+git log
+g
+go build .
+go get -v -insecure
+g
+git diff go.mod
+git add -A
+ls
+g
+go fmt ./...
+g
+git commit -m "fix"
+git push
+git checkout upload
+g
+git diff
+g
+git diff
+g
+git checkout upload
+ls
+cd src/
+ls
+cd service/config/
+ls
+mv config_file/ ../../..
+cd ..
+ls
+rm config.json 
+ln -s config_file/testing.json config.json
+ls
+go run main.go 
+g
+git diff
+git commit -am "move config"
+git push
+g
+git add -A
+g
+go fmt ./...
+g
+git commit -am "move config"
+g
+git log
+git push
+g
+git diff
+go run main.go 
+g
+git difrf
+git diff
+go run main.go 
+free -m
+free -a
+free -m
+htop
+top
+ls
+g
+ll
+go run main.go 
+g
+git diff
+go run main.go 
+ls
+g
+git pull
+git checkout dxev
+git checkout dev
+git pull
+git merge upload
+g
+git diff
+vim
+ls
+g
+git diff
+vim config.json 
+g
+git diff config.json
+vim config.json 
+vim config
+vim config.json 
+ls
+rm config.json 
+ls
+g
+vim
+vim 
+ls
+g
+ls
+cd ..
+cd ~
+cd test/uploader/
+ls
+g
+ls
+history | grep dd 
+dd if=/dev/zero of=1.go bs=1M count=300
+ls
+cd ~/test/go/
+cd main/
+ls
+vim main.go 
+cd ~
+vim config.sh 
+#gsettings set org.gnome.desktop.interface cursor-blink false
+gsettings set org.gnome.desktop.interface cursor-blink false
+ls
+emacs -nx
+emacs -nw
+ls
+rm init.el 
+cd ..
+emacs -nw
+cat .emacs
+vim .emacs
+cd ~
+vim .emacs
+ls
+cat .emacs
+emacs -nw
+emacs
+vim .emacs
+ls
+cd .emacs.d/
+ls
+cd auto-save-list/
+ls
+cd ..
+ls
+cd .emacs.d/
+vim init.el
+ls
+cd ~
+ls
+vim .vimrc
+g
+git diff .vimrc
+ls
+ls -a 
+ls -a  | grep music
+cd .netease-musicbox/
+ls
+cd ..
+git log -p .netease-musicbox/
+git log -p .config
+ls
+git log .netease-musicbox/
+git log config.sh
+ls
+git log sync.sh
+git log config.sh
+ls
+g
+git diff .vimrc
+ls
+vim .vimrc
+ls
+vim 
+vim
+ls
+vim config.sh 
+cd .vim/autoload/
+ls
+vim
+cd ~
+vim config.sh 
+vim .vimrc
+terminator 
+terminology 
+terminator 
+angband 
+g
+g
+git diff
+git add -A
+g
+go fmt ./...
+g
+git diff
+git add -A
+git commit -m "resolve comment"
+git push
+go run main.go 
+g
+git diff
+go fmt ./...
+g
+ps -ef | grep emacs
+killall -9 emacs
+ps -ef | grep emacs
+ps -ef | grep emacs25
+ps -ef | grep emacs
+ps -ef | grep
+killall -9 emacs25 
+ps -ef | grep emacs
+git push
+g
+git diff
+g
+git diff
+musicbox 
+g
+go build .
+git diff
+g
+git diff
+go run main.go 
+g
+git diff src/uploader/definition.go
+go fmt ./...
+g
+git add -A
+git commit -m "upd http_utils"
+git push
+go run main.go 
+g
+git diff
+go fmt ./...
+g
+git diff
+go run main.go 
+git add -A
+git commit -m "upd http_utils"
+git push
+g
+git diff
+git add -A
+git commit -m "upd"
+git push
+ls
+g
+git checkout master
+g
+git pull
+git checkout -b utils
+ls
+cd src/
+ls
+cd ..
+ls
+cd config/
+ls
+cd ..
+ls
+git checkout upload
+git push
+vim .vimrc
+ls
+vim go.mod 
+ls
+cd ~/.vim/plugged/
+cd sokoban.vim/
+ls
+cd plugin/
+ls
+cd ..
+ls
+mv *.sok plugin/
+ls
+cd plugin/
+ls
+g
+cd ..
+ls
+cd sokoban.vim/
+ls
+cd plugin/
+ls
+cat level10.sok 
+cat level11.sok 
+go run main.go 
+g
+go commit -am "upd http_utils"
+git push
+git commit -am "upd http_utils"
+git push
+g
+git diff
+g
+git diff
+ls
+g
+git diff
+ls
+g
+git diff
+ls
+g
+git diff
+ls
+vim .vimrc
+vim .vim
+g
+cd .vim/plugged/neodark.vim/
+ls
+g
+git diff
+cd doc/
+ls
+g
+ls
+cat tags 
+cd ..
+ls
+cd ..
+cd neodark.vim/
+ls
+g
+git remote show origin
+git remote remove origin
+git remote add origin https://github.com/chinnkarahoi/neodark.vim
+git remote remove origin 
+git remote add origin git@github.com:chinnkarahoi/neodark.vim.git
+g
+git diff colors/neodark.vim
+git add -A
+git commit -m "change ctermbg to NONE"
+git push
+git push --set-upstream origin master
+git pull
+git pull remote origin
+git remote show origin
+git push
+git push --set-upstream origin master
+git pull origin master
+git push --set-upstream origin master
+ls
+cd colors/
+ls
+vim neodark.vim 
+g
+git reset HEAD --hard
+git diff
+git diff HEAD^
+ls
+vim neodark.vim 
+g
+s
+ls
+cd ..
+ls
+vim
+ls
+cd ..
+ls
+cd TeTrIs.vim/
+ls
+cd plugin/
+ls
+pwd
+ls
+cat tetris.vim 
+cd ..
+ls
+cd ..
+cd neodark.vim/
+ls
+cd plugin/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~
+ls
+vim .vimrc
+set -ga terminal-overrides ',xterm-256color:Tc'
+set -ga terminal-overrides 
+set -g default-terminal "screen-256color"
+g
+ls
+g
+ls
