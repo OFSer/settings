@@ -48060,3 +48060,8 @@ g
 ls
 g
 ls
+g
+git diff
+g
+git diff
+ls

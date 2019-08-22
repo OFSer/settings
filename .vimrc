@@ -87,20 +87,14 @@ tnoremap <silent> <RightMouse> <c-\><c-n><LeftMouse>:Ydc<cr>i
 " Plug 'honza/vim-snippets'
 
 " colorscheme
-Plug 'chinnkarahoi/neodark.vim'
-Plug 'crusoexia/vim-monokai'
-Plug 'acarapetis/vim-colors-github'
-Plug 'rakr/vim-one'
-Plug 'altercation/vim-colors-solarized'
-Plug 'tomasr/molokai'
-Plug 'flazz/vim-colorschemes'
+Plug 'chinnkarahoi/vim-colorschemes'
 
 Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 let g:mkdp_auto_close = 0
 call plug#end()
 silent! color neodark
-silent! color gruvbox
+" silent! color gruvbox
 set ai
 set nu 
 set ts=2
