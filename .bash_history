@@ -48448,3 +48448,7 @@ ls
 g
 ls
 vim .vimrc
+ls
+ll
+ls
+ll
