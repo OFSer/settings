@@ -48452,3 +48452,351 @@ ls
 ll
 ls
 ll
+g
+git diff
+ls
+g
+git diff
+ls
+g
+git diff
+ls
+g
+ls
+ll
+dh
+dh --help
+dh -h
+man dh
+ls
+cd /etc/systemd/
+cd system/
+ls
+cd ~
+ls
+cd /etc/sysctl.d/
+cd ..
+ls
+cd /var/lib/systemd/
+cd deb-systemd-helper-enabled/
+ls
+cd ..
+ls
+cd ..
+ls
+cd systemd/
+ls
+cd ..
+ls
+find . | grep service
+cd ./systemd/deb-systemd-helper-enabled/multi-user.target.wants/
+vim anacron.service 
+sudo vim anacron.service 
+sudo vim ssh.service 
+cd ..
+ls
+cd ~
+cd /var/
+find . | grep service
+find . | grep \.service
+sudo find . | grep \.service
+sudo find . | grep '\.service'
+cd ~
+ls
+g
+git diff
+ls
+g
+git diff
+g
+git diff
+ls
+g
+get_completions 'ls -'
+get_completions 'ls'
+get_completions 'l'
+get_completions 'docker'
+get_completions 'docker '
+get_completions 'ls '
+get_completions 'ls --'
+get_completions 'ls \-\-'
+get_completions 'ls --'
+get_completions 'docker p'
+get_completions 'gen --'
+get_completions 'b --'
+get_completions 'b'
+get_completions 'b '
+get_completions ls -
+get_completions ls --
+get_completions ls
+get_completions ls 
+get_completions 'ls '
+ls
+get_completions 'ls '
+compgen -o default /
+get_completions 'docker run '
+ls
+get_completions 'doc'
+get_completions 'doc '
+get_completions 'sort -'
+get_completions 'uniq -'
+get_completions 'l -'
+get_completions 'git -'
+get_completions 'git checkout -'
+ls
+get_completions 'docker -'
+get_completions 'docker --'
+get_completions 'l --'
+get_completions 'l -'
+et_completionss -'
+get_completions 'ls -'
+get_completions 'cp -'
+get_completions 'cp --'
+get_completions 'cp --l'
+get_completions 'cp --l'
+get_completions 'cp --lin'
+get_completions 'docker --lin'
+get_completions 'docker --'
+get_completions 'docker --c'
+cplt 'docker --c'
+cplt 'ls --c'
+cplt 'ls --'
+cplt 'ls -'
+echo $COMP_LINE 
+ls
+COMP_LINE="ls -"
+_longopt 
+COMP_WORDS=(ls -)
+_longopt 
+echo $COMP_LINE 
+echo $COMP_WORDS
+ls
+cplt 'ls -'
+cplt 'ls --'
+man COMP_TYPE
+cplt 'ls --'
+_longopt ls
+type _longopt 
+alias -p
+type _longopt 
+type _init_completion 
+type _filedir
+cplt 'ls -'
+cplt 'ls --'
+cplt 'ls \-'
+cplt "ls \-"
+cplt ls -
+cplt ls \-
+cplt 'ls -'
+complete -p ls
+complete -p ls -
+complete -p 'ls -'
+complete -p man
+cplt man
+cplt 'man '
+complete -p man
+cplt 'man '
+cplt 'ls -'
+cd ~
+ls
+ls -a
+cat .xinputrc 
+cat .inputrc 
+man menu-complete
+compgen -ac 'man '
+compgen -ac 'man'
+fc --help
+complete --help
+complete -u su
+vim /etc/bash_completion
+cd /etc/bash_completion.d/
+ls
+cd ..
+ls
+cat bash_completion
+cat /usr/share/bash-completion/bash_completion
+vim /usr/share/bash-completion/bash_completion
+readline
+man readline
+complete -p | grep apt-get
+complete -p | grep apt
+complete -p
+complete -p | grep man
+complete -p | grep apt
+complete -p | grep install
+complete -p | grep get
+complete -p | grep apt
+complete -p | grep sudo
+complete --help
+complete -p
+cd ~
+vim .vimrc
+complete -o man
+complete -A man
+complete -A
+complete --help
+man complete
+ls
+vim .vimrc
+vim .bash
+complete -p ls
+cd /etc/bash_completion.d/
+ls
+cd ..
+vim bash_completion
+vim /usr/share/bash-completion/bash_completion
+complete -p ls
+fg
+type _longopt
+jobs
+fg
+_longopt
+ls
+cd ~
+ls
+vim .bash
+complete -p ls
+complete -pa ls
+complete --help
+complete -D ls
+complete -E ls
+cplt 'command l'
+cplt 'man '
+cplt 'ls -'
+cplt 'ls \-'
+[[ a =~ a ]] && echo 1
+[[ aa =~ a ]] && echo 1
+[[ a =~ aa ]] && echo 1
+[[ aa =~ a ]] && echo 1
+[[ aa =~ * ]] && echo 1
+[[ * =~ a ]] && echo 1
+[[ aa =~ . ]] && echo 1
+[[ aa =~ .a ]] && echo 1
+[[ aa =~ .aa ]] && echo 1
+[[ aa =~ .*aa ]] && echo 1
+[[ .*aa =~ .*aa ]] && echo 1
+[[ .*aa =~ aa ]] && echo 1
+[[ .*aa =~ baa ]] && echo 1
+[[ .*aa =~ aa ]] && echo 1
+a=(1 2 3 4 5)
+echo $(a[@]:-1)
+echo $(a[@] : -1)
+echo ${a[@] : -1}
+echo ${a[@]: -1}
+echo ${a[@]: -2}
+ls
+cplt l
+cplt ls -
+cplt ls - | wc -l
+cplt ls -
+ls
+cplt git
+cplt 'git'
+cplt 'l'
+cplt 'git'
+cplt 'git '
+cplt 'command git '
+g
+git diff
+ls
+ll
+g
+git diff
+ls
+vim .vimrc
+g
+angband 
+ls
+g
+./config.sh push
+g
+git diff
+ls
+g
+./config.sh pull
+cd fc/saki_detection/
+ls
+cd ..
+ls
+cd iot-daemon/
+ls
+ll
+vim 
+cd ~
+vim .vimrc
+ls
+g
+git diff
+./config.sh push
+vim .vimrc
+ls
+g
+vim .vimrc
+g
+cd fc/iot-daemon/
+ls
+vim
+cplt 'ls -'
+cplt 'ls --'
+cplt 'command ls -'
+cplt 'command git'
+man deb
+cplt 'command git'
+echo $?
+ls fasdfafd
+echo $?
+cplt 'command git'
+cplt 'git'
+dh
+man dh
+man deb
+systemctl ssh status
+ssh60
+ls
+cd /lib/systemd/
+ls
+cd system
+ls
+cat irqbalance.service
+man lib
+man systemd
+ls
+ls | grep ssh
+cat ssh.s
+cat ssh.service 
+echo $SSHD_OPTS
+man sshd_config 
+man bash
+ls
+ll
+ls
+ll
+g
+git diff
+ll
+jobs
+cd ~
+cd ~0
+cd ~1
+cd ~2
+ls
+dirs -p
+cd .
+dirs -p
+ls
+cd ~
+ls
+vim .bash
+g
+cplt 'l'
+cplt 'ls'
+cplt 'git'
+cplt 'ls'
+cplt ls
+cplt ls -
+cplt ls 
+cplt ls  -
+cplt ls 
+cplt l
+cplt ls
+cplt git
