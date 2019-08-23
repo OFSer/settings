@@ -48800,3 +48800,22 @@ cplt ls
 cplt l
 cplt ls
 cplt git
+g
+history 
+time history 
+ls
+cplt 'man '
+cplt "man "
+cplt "ls "
+ls
+cd fc/
+cplt "ls "
+cplt "ls"
+cplt "ls "
+cplt ls 
+cplt ls
+cplt 'ls '
+cplt ls ''
+cplt ls .
+cplt ls ''
+ls

@@ -5,12 +5,12 @@ cplt(){
 	declare -F _completion_loader &>/dev/null || {
 			source /usr/share/bash-completion/bash_completion
 	}
-	eval set -- "command "$@""
 
-	COMP_LINE=$*
+	COMP_LINE="command $*"
 	COMP_POINT=${#COMP_LINE}
 
-	eval set -- "$@"
+	eval set -- "command "$@""
+
 
 	COMP_WORDS=("$@")
 
