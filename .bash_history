@@ -48357,3 +48357,94 @@ ls
 g
 git diff
 ls
+g
+git diff
+ls
+g
+git diff
+g
+git diff
+ls
+ll
+ls
+g
+git diff
+ll
+kls
+ls
+ls
+g
+ls
+g
+git diff
+ls
+ll
+type ldconfig
+type lessecho
+ll /sbin/ldconfig
+ll /usr/bin/lessecho
+cd .vim/plugged/vim-colorschemes/
+cd colors/
+vim neodark.vim 
+ls
+cd ..
+cd nerdtree
+ls
+git remote show origin
+cd ..
+cd nerdtree
+ls
+cd plugin/
+ls
+cd ..
+ls
+cd syntax/
+ls
+vim nerdtree.vim 
+ls
+cd ~
+ls
+cd -
+dirs -p
+cd ~-1
+ls
+cd colors/
+vim neodark.vim 
+g
+git diff
+git add -A
+git commit -m "upd"
+git push
+vim .vimr 
+cd ~
+ls
+cd ~0
+cd ~-0
+ls
+dirs -p
+cd ~2
+vim neodark.vim 
+g
+git push
+g
+git remote show origin
+git push
+vim .vimrc
+ls
+vim .vimrc
+g
+git diff .vimrc
+./config.sh push
+vim .vimrc
+ls
+vim .vimrc
+ls
+g
+ls
+g
+ls
+g
+ls
+g
+ls
+vim .vimrc

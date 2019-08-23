@@ -94,6 +94,7 @@ Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 let g:mkdp_auto_close = 0
 call plug#end()
+let g:neodark#use_custom_terminal_theme=1
 silent! color neodark
 " silent! color gruvbox
 set ai
