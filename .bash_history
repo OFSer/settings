@@ -48819,3 +48819,787 @@ cplt ls ''
 cplt ls .
 cplt ls ''
 ls
+g
+./config.sh push
+ls
+g
+git diff
+g
+cd ~
+g
+git add .bash/mycmd.sh 
+git commit -m "add get completions"
+git push
+g
+cplt l
+cat .inputrc 
+man deb
+ls
+man deb
+ls
+vim .bash
+./config.sh push
+g
+git diff HEAD^
+history 
+vim .vimrc
+vimux 
+cplt 'comm'
+cplt 'command'
+cplt command
+cplt man ls
+cplt man ssh
+cplt man | grep ssh
+cplt man 
+cplt man
+cplt 'man'
+cplt 'man '
+cplt 'man'
+cplt 'man '
+cplt "man "
+cplt "ls "
+cplt "ls -"
+cplt "man "
+cplt "ls " 
+vim .bash
+compgen 'man '
+cplt "man " 
+ls
+cd ~
+vim .bash
+man .hplip/
+cplt  'man '
+cplt  'man ' | grep ssh
+cplt  'man ' | grep deb
+cplt  'man ' | grep ipc
+cplt  'man ' | grep sem
+cplt  'ls -' | grep 
+cplt  'ls -'
+ls
+g
+git diff
+c
+chmem --help
+man chmem
+c ls
+c man
+c git
+c 'git '
+git bisect --help
+type g 
+c man
+c man ''
+c man ' '
+c man ''
+c 'cat /etc/'
+cplt 'command l'
+cplt 'command ls -'
+complete -p command
+command git
+ls
+type _command
+ls
+g
+sudo --help
+cplt 'sudo -'
+cplt 'sudo --'
+sudo --help
+man sudo
+cplt 'git'
+cplt 'git '
+cplt 'command git'
+cplt 'git'
+cplt 'ls'
+cplt 'ls '
+cplt 'git'
+cplt 'ls'
+cplt 'git'
+ls
+vim
+ls
+g
+vim
+ls
+cd .vim/plugged/vim-colorschemes/colors/
+vim neodark.vim 
+ls
+vim neodark.vim 
+g
+git diff
+git add -A
+git commit -m "upd"
+git push
+cd ~/fc/transformer-pipeline/
+git pull
+git checkout master 
+g
+git reset HEAD --hard
+g
+git clean
+g
+git clean -d
+git clean -df
+g
+git pull
+g
+>&2 echo "Wrong MK system version!"
+echo $?
+( echo "Wrong MK system version!" )
+( >&2 echo "Wrong MK system version!";exit 4)
+echo $?
+( >&2 echo "Wrong MK system version!";exit 4)
+cd Downloads/
+ls
+vim tianrang_20190825182421.h5route 
+ls
+wc -c tianrang_20190825182421.h5route 
+git pull
+g
+git pull
+ls
+g
+ll
+g
+ll
+g
+git diff
+l
+ll
+ls
+f -a deb
+lsb_release -r
+cat /etc/issue
+lsb_release
+lsb_release -r
+lsb_release -a
+lsb_release -r |  cut -f 2
+cut --help
+tldr cut
+lsb_release -r |  cut -f2
+git pull
+g
+git pull
+ls
+rm -rf build_local/
+ls
+cd deb/
+ls
+f -p
+ls
+g
+git checkout -b deb
+g
+ldconfig
+sudo ldconfig
+cd /etc/apt/apt.conf.d/
+cat 10periodic 
+sudo apt-get install unattended-upgrades
+man daemon 
+man ldconfig
+wd -s git describe --tags --long
+cd ~
+git tag settings
+git describe --all
+git describe --all --long
+git log
+git describe --all --long
+man daemon-reload
+man -k daemon-reload
+man --help
+man -h
+ls --help
+man --help
+\man --help
+man fstrim 
+man systemd
+man system
+man systemd
+systemd --test
+ls
+vim .vim
+ls
+vim .vim
+cd ~
+vim .vim
+ls
+find . | grep empty_file
+find -type f empty_file
+find -type f -path empty_file
+find empty_file -type f 
+find --help
+tldr find
+find . -type f -name empty_file
+g
+git add -A
+g
+git commit "add deb"
+git commit -m "add deb"
+g
+git push
+git push --set-upstream origin deb
+g
+find . -type f -name empty_file -exec rm '{}' ';' -print
+g
+git reset HEAD --hard
+g
+ls
+chmod +x build_dpkg.sh 
+g
+ls
+./build_dpkg.sh 
+g
+`git describe --tags --long`
+git describe --tags --long
+g
+git reset HEAD --hard
+g
+git clean -dff
+g
+chmod -x fstrim 
+ls
+chmod +x fstrim 
+ls
+g
+ls
+cd ~
+ls
+cd test/
+ls
+cd sh/
+ls
+f -p
+ls
+ll
+cd script/
+ls
+ll
+cd deb/
+ls
+ll 
+cd ..
+ls
+cd script/
+ls
+./build_dpkg.sh 
+g
+ls
+cd .
+ls
+c man
+c man ''
+c man ' '
+c 'man '
+type man
+b --help
+c 'ls -'
+c ls -
+git tags
+git tag
+git describe --tags --long
+git describe --tags
+git tag -a
+git tag --all
+git tag 
+git describe --tags
+git describe --tags --long
+ll
+ls
+f -a script/
+ll
+g
+git log version.txt
+git log -p version.txt
+ls
+git pull
+g
+git clean -dff
+g
+git reset HEAD --hard
+g
+git clean -dff
+sudo git clean -dff
+ls
+find -path ./.git -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+ssh gjs@10.01.0.141
+ssh sihe@10.01.0.141
+\ssh sihe@10.01.0.141
+history | grep sihe
+\ssh sihe@10.0.10.161
+ping baidu.com
+nc -zv 220.181.38.148 80-20000
+nc -zv 220.181.38.148 20-20000
+nc -zv 220.181.38.148 22
+nc -zv 220.181.38.148 80
+nc -zv 220.181.38.148 443
+nc -zv 220.181.38.148 1000
+nc -zv 220.181.38.148 10000
+nc -zv 220.181.38.148 20000
+g
+ls
+cd script/
+ls
+./build_dpkg.sh 
+sudo ./build_dpkg.sh 
+git describe --tags --long
+ls
+bash generate_version.sh 
+sudo bash generate_version.sh 
+ls
+cd ..
+rm -rf third_party/
+sudo rm -rf third_party/
+ls
+find -path ./.git -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+ls
+rm -rf tests/
+find -path ./.git -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+g
+git reset HEAD --hard
+git clean -dff
+g
+git add -A
+ls
+g
+git commit -m "rename"
+git push
+g
+./build_dpkg.sh 
+git describe --tags --long
+git tag 
+git tag deb
+git describe --tags --long
+git tag pipeline
+git describe --tags --long
+git tag --help
+git tag -a
+./build_dpkg.sh 
+g
+./build_dpkg.sh 
+git tag 1.0.0
+git tag 
+git describe --tags --long
+./build_dpkg.sh 
+ll
+cd deb/
+ls
+chmod 755 DEBIAN/
+cd ..
+./build_dpkg.sh 
+ls
+cd deb/DEBIAN/
+ls
+ll control 
+cd ..
+chmod 755 deb
+./build_dpkg.sh 
+git describe --tags --long
+ls
+cd ..
+ls
+chmod 755 deb
+ls
+cd deb/
+ls
+./build_dpkg.sh 
+ls
+cd ..
+chmod --help 
+chmod -R 755 deb
+ls
+cd deb/
+ls
+ll build_dpkg.sh 
+ls
+./build_dpkg.sh 
+cd ..
+ls
+chmod -R 0755 deb
+ls
+cd deb/
+./build_dpkg.sh 
+cd ..
+sudo chmod -R 0755 deb
+cd deb/
+./build_dpkg.sh 
+ls
+dpkg --build deb
+dpkg --help
+dpkg --help | grep build
+dpkg -b deb
+sudo dpkg -b deb
+ls
+ll deb
+ll
+chmod 755 deb
+ll
+chmod 0755 deb
+ll deb
+ll
+cd con
+cd deb/DEBIAN/
+ls
+ll
+cd ..
+ls
+cd ..
+chmod -r 755 deb
+chmod -r 0755 deb
+chmod -R 0755 deb
+chmod -R 0775 deb
+ls
+cd deb/
+ls
+dpkg -b deb
+man chmod
+ll
+cd deb/
+ll
+nautilus .
+g
+git diff
+ll
+stat lib
+cd etc/cron.hourly/
+ll
+cd ..
+ls
+cd .
+cd ..
+ls
+ll
+chmod 500 *
+ls
+ll
+chmod 0000 *
+ll
+ls
+cd ..
+ls
+cd ..
+ls
+f -a deb
+ls
+ll
+ll deb
+chmod -R 4755 deb
+ll deb
+sudo chmod -R 4755 deb
+ll deb
+ll
+cd ..
+ll
+cd ..
+ll
+chmod 4755 fc 
+ll fc
+ll
+ls fc
+ls -l fc
+cd ..
+ls
+cd ~
+ls
+cd fc/
+l
+ll
+cd ..
+ll
+ls
+cd fc/
+chmod 0755 .
+ll
+sudo chmod 0755 .
+ll
+chmod -s .
+ll
+chmod -R -s .
+sudo chmod -R -s .
+ls
+cd transformer-pipeline/
+ls
+chmod -s deb
+ll
+chmod -R -s deb
+ls
+ll deb
+cd deb/
+ls
+ll
+g
+./build_dpkg.sh 
+ls
+rm pipeline-1.0.0-0-ga9ffac37.deb 
+ls
+g
+git add -A
+g
+rm deb/opt/pipeline/bin/camera_service 
+git add -A
+g
+git reset HEAD 
+g
+git diff deb/DEBIAN/control
+git diff deb/lib/systemd/system/camera.service
+git reset HEAD --hard
+g
+./build_dpkg.sh 
+git tag
+git describe --tags --long
+g
+ll
+ls
+tar -tf pipeline-1.0.0-0-ga9ffac37.deb 
+nautilus .
+find -path ./.git -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+git describe --tags --long
+git tags
+git tag
+\ssh sihe@10.0.10.161
+ls
+cd ~
+vim .vim
+history | grep git | grep stash
+git describe --help
+git describe --all
+git describe --tag
+git describe --all
+git tag
+git describe --all --long
+ls
+g
+git tag list
+git tag
+git show 1.0.0
+g
+git log
+git ta
+git tag
+git describe --tags --log
+git describe --tags --long
+git log
+ls
+git log --pretty=oneline
+ls
+g
+ls
+cd ~/
+ls
+cd fc/
+ls
+cd flaw_checker/
+ls
+vim
+cd /lib/systemd/system
+c ls
+c ls ''
+c ls ' '
+c ls ''
+c ls ' '
+c ls
+c com
+comm --help
+ls
+g
+ls
+ll
+ls
+cd ~/test/sh/
+ls
+cd script/
+ll
+cd deb/
+ll
+ls
+cd ..
+rm -rf script/
+f -p
+sudo f -p
+f -p
+sudo -H f -p
+sudo --help
+ls
+ll
+chmod 2755 deb
+ll 
+chmod 0755 deb
+ll
+chmod 0755 deb
+ll
+sudo chmod 0755 deb
+ll
+sudo chmod '0755' deb
+ll
+ls
+ls
+g
+git diff
+git add -A
+g
+ls
+deb/build_dpkg.sh 
+g
+git checkout -- *
+g
+git checkout --help
+git checkout -f
+g
+ls
+cd deb/
+./build_dpkg.sh 
+g
+git checkout -f
+g
+git clean -dff
+g
+./build_dpkg.sh 
+g
+git reset HEAD --hard
+g
+git clean -dff
+g
+git add -A
+g
+./build_dpkg.sh 
+g
+git checkout -- .
+g
+./build_dpkg.sh 
+git checkout -A
+git stash --help
+ls
+g
+git stash --help
+g
+git commit -m "upd ci"
+git push
+g
+git stash --patch 
+g
+git stash --all
+g
+git stash --index
+git stash --all
+git stash 
+g
+git stash pop
+g
+git stash push --index
+git stash --all
+git stash --keep-index 
+g
+git stash pop
+g
+git add -A
+g
+git stash 
+g
+git stash pop
+g
+git stash 
+g
+git stash pop
+g
+git stash pop
+g
+git reset HEAD --hard
+g
+./build_dpkg.sh 
+git checkout -f
+ls
+g
+git reset HEAD --hard
+g
+git clean -f
+ls
+cd ..
+ls
+g
+deb/build_dpkg.sh 
+g
+git reset HEAD --hard
+g
+git add -A
+git commit -m "fix ci"
+git push
+git tag
+git describe --tags 
+git describe --tags --long
+git tag 1.0.0
+g
+git tag 
+git tag --help
+git tag
+git tag -d 1.0.0
+git tag -d deb
+git tag -d list
+git tag -d pipeline 
+git tag 1.0.0
+g
+git log
+ls
+git add -A
+g
+git commit -m "fix ci"
+git push
+git push origin 1.0.0
+git log
+ls
+g
+git tag -d 1.0.0
+g
+git log
+git tag 1.0.0
+g
+git log
+git push orgin 1.0.0
+git push -f origin 1.0.0
+git push origin -f 1.0.0
+git push --force origin 1.0.0
+git tag -d 1.0.0
+git tag 1.0.1
+git push origin 1.0.1
+g
+ls
+cd ../../
+cd -
+dirs -p
+cd ~2
+g
+git add -A
+git diff
+g
+git reset deb
+g
+git reset HEAD deb
+g
+git diff
+git add -A
+git commit -m "upd ci"
+git push
+g
+git commit -am "upd ci"
+git push
+git commit -am "upd ci"
+git push
+ls
+cd deb/
+ls
+git add -f build_dpkg.sh 
+g
+git commit -am "add build_dpkg"
+git push
+git commit -am "fix ci"
+git push
+apt-cache depends "build-essential"
+apt-cache depends g++
+apt-cache depends g++-4.8
+g
+git diff
+g
+git diff
+git add -A
+git commit -m "upd ci"
+git push
+git describe --tags --long 
+g
+git diff

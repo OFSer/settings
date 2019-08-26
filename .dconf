@@ -42,7 +42,7 @@ show-tabs-mode='auto'
 side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/dockerfiles/vim'
+virtual-root='file:///home/gjs/.cache/.fr-fKCkTg'
 tree-view=true
 root='file:///'
 
@@ -51,7 +51,7 @@ active-plugins=['spell', 'filebrowser', 'time', 'modelines', 'docinfo']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=0
+state=128
 bottom-panel-size=140
 side-panel-size=250
 side-panel-active-page='GeditFileBrowserPanel'
@@ -397,7 +397,7 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=362
-window-position=(2372, 186)
+window-position=(417, 186)
 show-size-column=true
 show-hidden=false
 window-size=(1086, 581)

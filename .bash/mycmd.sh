@@ -1,4 +1,4 @@
-cplt(){
+c(){
 	local completion COMP_CWORD COMP_LINE COMP_POINT COMP_WORDS COMPREPLY=()
 
 	# load bash-completion if necessary
