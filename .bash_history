@@ -49603,3 +49603,542 @@ git push
 git describe --tags --long 
 g
 git diff
+man deb
+ls
+cd ~ && ls
+cd ~1
+( cd ~ && ls )
+ls
+cd ~
+ls
+c 'apt install '
+c 'apt install ' | wc -l
+ls
+f -a fc
+sudo -E f -a fc
+sudo --help
+man sudo
+sudo -s f -a fc
+man sudo
+sudo type f
+type f
+man sudo
+ls
+g
+git diff .bash
+g
+./config.sh push
+g
+git diff HEAD^ .dconf
+ls
+cd deb/
+ls
+g
+./build_dpkg.sh 
+git clean
+g
+git reset HEAD --hard
+g
+git clean -d
+g
+git clean -dff
+g
+ls
+g
+git add -A
+g
+./build_dpkg.sh 
+g
+./build_dpkg.sh 
+g
+git add deb/DEBIAN/control 
+g
+git checkout -- .
+g
+git reset HEAD
+g
+git add -A
+g
+git reset HEAD deb/opt/pipeline/bin/camera_service
+g
+git clean -dff
+g
+./build_dpkg.sh 
+g
+ls
+git checkout -- .
+git clean -dff
+g
+git commit -m "fix ci"
+git push
+g
+git diff
+git log
+git log --graph --oneline 
+git log --graph --oneline --abbrev-commit 
+git log --graph 
+ls
+g
+git diff
+g
+git commit -am "fix ci"
+git push
+g
+ls
+./build_dpkg.sh 
+ls
+sudo dpkg -i pipeline-1.0.1-8-gbc33d9e4-20190826164750.deb 
+sudo apt install -f
+ls
+dpkg -i pipeline-1.0.1-8-gbc33d9e4-20190826164435.deb 
+sudo dpkg -i pipeline-1.0.1-8-gbc33d9e4-20190826164435.deb 
+cd /opt/pipeline/bin/
+ls
+clang
+cmake
+sl
+g
+git add deb/deb/DEBIAN/control 
+g
+git checkout -- .
+git clean -dff
+g
+git commit -m "upd deb control"
+cd deb/
+ls
+./build_dpkg.sh 
+ls
+g
+git push
+cat /etc/sysctl.d/50-pipeline.conf
+g
+ls /etc/security/limits.d/
+cd /etc/security/
+cd limits.d/
+ls
+ulimit 
+ulimit -c
+ls
+sudo vi /etc/security/limits.d/pipeline-limits.conf
+sudo sysctl -p /etc/security/limits.d/pipeline-limits.conf
+ulimit -c
+cat /etc/security/limits.d/pipeline-limits.conf
+vim /etc/security/limits.d/pipeline-limits.conf
+sudo vim /etc/security/limits.d/pipeline-limits.conf
+g
+git diff preinst
+git diff deb
+g
+git diff deb/deb/
+ls
+c ls
+c ls ' '
+c ls' '
+c ls -
+man set
+set --help
+ls
+cd ..
+ls
+cd flaw_checker/
+vim 
+g
+dpkg --help
+dpkg --help | grep depend
+man deb
+man deb-control 
+sudo vim /etc/sudoers
+ls
+cd ~/test/make/
+ls
+vim makefile 
+git checkout -- .
+g
+git clean -dff
+g
+ls
+g
+git diff
+git add -A
+sysctl -p /etc/sysctl.d/50-pipeline.conf
+g
+git commit -m "add deb etc"
+git push
+g
+git push
+g
+ls
+cd build/
+cd bin/
+ls
+a=*_service
+a
+echo $a
+g
+git diff
+ls
+g
+git diff
+ls
+cd deb/
+ls
+build.sh
+g
+> build.sh
+ls
+g
+ls
+cd bin/
+ls
+du -hd1
+du -hd1 *.so
+ls *.so | du -hd1
+du -chd1 *.so
+du -ch *.so
+ls
+g
+ls
+du -ch *boost*
+du -ch *.so
+du -cb *.so
+du -cb *.so | sort -k1
+du -cb *.so | sort -t' '-k1
+du -cb *.so | sort -t' ' -k1
+du -cb *.so | sort -n -k1
+ls
+ls -l `which passwd`
+c 
+c | grep attr
+lsattr fc
+ls
+lsattr flawck.service 
+c
+compgen ac
+compgen -ac
+compgen -ac | sort
+c
+c command
+c command ' '
+c
+pprint_list
+compgen -ac
+ls
+cd ..
+ls
+echo $(ls)
+ls
+type ls
+ls --color=auto
+\ls --color=auto
+ls
+\ls
+type \ls
+unalias ls
+type ls
+/bin/ls
+echo $(ls)
+echo $(ls) | column 
+echo $(ls) | column 2
+echo $(ls) | column
+echo $(ls) | column -t
+echo $(ls) | column -t 2
+column --help
+man column
+echo $(ls) | fmt
+echo $(ls) | fmt | column -t
+ls
+echo $(ls) | column -t | fmt
+echo $(ls) | fmt | column -t
+c | fmt | column -t
+c | column -t | fmt
+c | column -t | fmt | column -t
+c | pr
+c ls - 
+c ls -  | fmt
+c ls -  | fmt | column
+c ls -  | fmt | column -t
+c ls -  | column -t
+c ls -  | fmt
+c ls -  | fmt -t
+fmt --help
+c ls -  | column -t
+column --help
+tldr column 
+c | column -c
+c | column 
+c ls - | column 
+c | column 
+c | column | less
+c | column
+c | column | less
+c -ls - | column
+c ls - | column
+c ls - | column | fmt
+c ls - | column
+cd /etc/
+cat sudoers
+sudo cat sudoers
+sudo sed '/%sudo ALL=ALL:ALL/%sudo   ALL=NOPASSWD:ALL/' sudoers
+sudo sed -E '/%sudo ALL=ALL:ALL/%sudo   ALL=NOPASSWD:ALL/' sudoers
+sudo sed -E '/\%sudo ALL=ALL:ALL/\%sudo   ALL=NOPASSWD:ALL/' sudoers
+sudo sed -nE 's/%sudo ALL=ALL:ALL/%sudo   ALL=NOPASSWD:ALL/' sudoers
+sudo sed -E 's/%sudo ALL=ALL:ALL/%sudo   ALL=NOPASSWD:ALL/' sudoers
+sudo sed  's/%sudo ALL=ALL:ALL/%sudo   ALL=NOPASSWD:ALL/' sudoers
+sudo sed  's/%sudo   ALL=(ALL:ALL) ALL/%sudo   ALL=NOPASSWD:ALL/' sudoers
+cat sudoers
+sudo cat sudoers
+ssh gjs@dl-5
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "dl-5"
+ssh gjs@dl-5
+\ssh gjs@dl-5
+\ssh gjs@dl-6
+\ssh gjs@dl-5
+ssh gjs@dl-5
+ls
+cat sudoers
+sudo cat sudoers
+man sudo
+man sudoers
+ls
+ls --help
+ls --help | grep dir
+ls
+cd ~/fc/saki_detection/
+ls
+vim run.sh 
+ls
+ll
+./2.sh
+vim 2.sh
+steam
+steam 
+killall -9 steam
+steam 
+steam
+steam
+ls
+./2.sh
+g
+git diff
+ls
+cd ..
+ls
+cd flaw_checker/
+ls
+cd ..
+ls
+cd flaw_checker/
+ls
+cd ..
+ls
+cd transformer-pipeline/
+ls
+ll 
+f -a deb
+ssh -o "StrictHostKeyChecking no" -p 18178 hypereal@registry-corp.hypereal.com
+rm -r deb
+ls
+f -p 
+ls
+ll
+cd deb/
+ll
+git tag
+g
+git checkout -b deb
+g
+git tag
+git branch
+ls
+cd ..
+cd flaw_checker/
+ls
+git tag
+ls
+git tag
+cp --help
+ls
+g
+sudo apt install -f
+ls
+cd de
+cd deb/
+ls
+sudo dpkg -i TeachPendant-0.0.0-0-g80e9ffd-20190827105915.deb 
+sudo apt install nginx
+systemctl daemon-reload
+g
+git add deb/DEBIAN/postinst 
+git add deb/DEBIAN/preinst 
+g
+git diff --cached 
+g
+git checkout -- .
+g
+git commit -m "fix"
+g
+ls
+./build_dpkg.sh 
+ls
+g
+git checkout -- .
+git clean -dff
+g
+ls
+g
+./build_dpkg.sh 
+ls
+sudo dpkg -i TeachPendant-0.0.0-1-g010b75a-20190827110553.deb 
+g
+git push origin 0.0.0
+git push 
+git push --set-upstream origin deb
+g
+git add ../.gitlab-ci.yml 
+g
+git commit -m "upd ci"
+git push
+g
+git add ../.gitlab-ci.yml 
+git commit -m "upd ci"
+git push
+g
+git reset HEAD --hard && git clean -dff
+g
+ls
+mv deb ../script/
+mv build_dpkg.sh ../script/
+ls
+rm gen_service.sh 
+ls
+cd ..
+rm -rf deb
+ls
+g
+sudo apt install vim
+git add -A
+g
+git reset HEAD deploy/
+g
+git commit -m "mv deb"
+git push
+ls
+g
+git add .gitlab-ci.yml 
+git commit -m "fix ci"
+git push
+g
+git diff
+cd script/
+ls
+cd deb/etc/
+ls
+cd nginx/
+ls
+cd conf.d/
+ls
+cd ../../..
+cd ../../
+ls
+g
+git add -A
+g
+git reset HEAD deploy/
+g
+git commit -m "upd deb
+git commit -m "upd deb"
+git push
+g
+git diff
+g
+git diff
+g
+git add .gitlab-ci.yml 
+git add script/
+g
+git commit -m "upd ci"
+git push
+sudo dpkg -i TeachPendant-0.0.0-7-g77c2f1d-20190827140435.deb 
+cd /var/www/html/
+ls
+sudo dpkg -i TeachPendant-0.0.0-7-g77c2f1d-20190827140435.deb 
+cd /etc/nginx/
+ls
+ll
+cd /var/www/html/
+ls
+cat 1.html 
+man deb
+ls
+man dpkg
+vim /etc/nginx/nginx.conf
+systemctl status nginx.service
+sudo apt install nginx
+sudo apt remove  nginx
+sudo apt remove --purge  nginx
+sudo apt autoremove 
+sudo apt remove teachpendant
+sudo apt install nginx
+cd /etc/nginx/
+ls
+vim nginx.conf
+sudo service nginx start
+journalctl -xe
+systemctl status nginx.service
+PAGER=most;systemctl status nginx.service
+echo $PAGER
+PAGER=
+export PAGER=
+echo $PAGER
+ls
+systemctl status nginx.service
+sudo apt install nginx
+sudo vim /etc/nginx/nginx.conf
+ls
+sudo service nginx start
+systemctl status nginx.service
+sudo vim /etc/nginx/nginx.conf
+systemctl status nginx.service
+cd /etc/nginx/
+ls
+cd conf.d/
+ls
+cd ..
+ls
+vim nginx.conf 
+sudo vim nginx.conf 
+sudo service nginx restart
+sudo apt remove nginx
+ifconfig
+nc -l 19980
+sudo nc -l 19980 > nginx.dconf
+sudo su
+sudo service nginx start
+systemctl status nginx.service
+find / name "nginx"
+find / -name "nginx"
+sudo find / -name "nginx"
+sudo find / -path /home -prune -o -name "nginx"
+nginx -V
+cd conf.d/
+ls
+rm teach_pendant.conf 
+sudo rm teach_pendant.conf 
+sudo service nginx start
+cd /usr/share/nginx/
+ll 
+nginx
+sudo nginx
+sudo cat /etc/nginx/nginx.conf
+ls
+cd /etc/nginx/
+ls
+vim nginx.dconf
+sudo cp nginx.dconf nginx.conf
+sudo nginx
+service nginx start
+sudo service nginx start
+sudo service nginx restart
+ps -ef | grep nginx
+sudo killall -9 nginx 
+sudo service nginx restart

@@ -42,7 +42,7 @@ show-tabs-mode='auto'
 side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/.cache/.fr-fKCkTg'
+virtual-root='file:///home/gjs/Downloads/artifacts%20(2)/deb/pipeline-1.0.1-8-gbc33d9e4-20190826164435/control'
 tree-view=true
 root='file:///'
 
@@ -51,7 +51,7 @@ active-plugins=['spell', 'filebrowser', 'time', 'modelines', 'docinfo']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=128
+state=132
 bottom-panel-size=140
 side-panel-size=250
 side-panel-active-page='GeditFileBrowserPanel'
