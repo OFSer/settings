@@ -50142,3 +50142,244 @@ sudo service nginx restart
 ps -ef | grep nginx
 sudo killall -9 nginx 
 sudo service nginx restart
+g
+sudo service nginx restart
+sudo service nginx stop
+sudo service nginx start
+g
+git add script/deb/DEBIAN/control 
+git diff --cached 
+g
+git commit -m "upd deb"
+git push
+history 
+git reset HEAD --hard && git clean -dff
+g
+ls
+cd script/
+ls
+./build_dpkg.sh 
+cd ..
+ls
+mkdir -p deploy/docker
+touch deploy/docker/1.html
+cd script/
+ls
+./build_dpkg.sh 
+git reset HEAD --hard && git clean -dff
+./build_dpkg.sh 
+sudo dpkg -i TeachPendant-0.0.0-8-gf9a3a2a-20190827142738.deb 
+systemctl status nginx.service
+sudo service nginx stop
+ls
+g
+git reset HEAD --hard && git clean -dff
+g
+./build_dpkg.sh 
+ls
+sudo dpkg -i TeachPendant-0.0.0-8-gf9a3a2a-20190827143712.deb 
+ls
+cd /var/www/html/
+cd teach_pendant/
+ls
+cd ..
+g
+ls
+g
+sudo dpkg -i TeachPendant-0.0.0-11-gcfc7329-20190827150415.deb 
+git add script/deb/DEBIAN/control 
+g
+git diff --cached 
+g
+git commit -m "upd deb"
+git push
+g
+git add script/deb/DEBIAN/postinst 
+g
+git commit -m "upd postinst"
+git push
+git
+g
+cd script/
+g
+git reset HEAD --hard && git clean -dff
+g
+./build_dpkg.sh 
+sudo dpkg -i TeachPendant-0.0.0-10-g0bba4be-20190827145450.deb 
+g
+git add deb/DEBIAN/postinst 
+g
+git reset HEAD --hard && git clean -dff
+./build_dpkg.sh 
+sudo dpkg -i TeachPendant-0.0.0-10-g0bba4be-20190827145450.deb 
+sudo dpkg -i TeachPendant-0.0.0-10-g0bba4be-20190827145652.deb 
+echo <<EOF 
+worker_processes 1;
+error_log /var/log/nginx/error.log warn;
+pid /var/run/nginx.pid;
+events {
+    worker_connections 1024;
+}
+http {
+    include /etc/nginx/mime.types;
+    include /etc/nginx/conf.d/*.conf;
+    gzip on;
+    log_format main  '\$remote_addr - \$remote_user [\$time_local] ls ./build/bin/*_service
+ig
+g
+git diff
+g
+git diff
+git add -A
+g
+git diff
+g
+cd deb/
+a=../build/bin/*_service
+for i in $a;do echo $i; done
+g
+git diff
+git diff --cached 
+git add -A
+git commit -m "pack so bin"
+g
+git push
+ls
+bash build.sh 
+bash build.sh
+g
+ls
+mv build.sh gen_service.sh
+ls
+g
+git add -A
+g
+git commit -m "gen service"
+git push
+bash gen_service.sh 
+g
+ls
+g
+git diff
+g
+git diff
+g
+git diff
+git add -A
+g
+bash gen_service.sh 
+g
+git add -A
+git commit -m "upd service"
+git push
+g
+git diff
+git add -A
+git commit -m "upd sed"
+git push
+sudo dpkg -i TeachPendant-0.0.0-10-g0bba4be-20190827145315.deb 
+sudo service nginx restart
+g
+git add -A
+git commit -m "add deb"
+git push
+git push --set-upstream origin deb
+git tag 0.0.0
+git push origin 0.0.0
+ls
+git push
+ls
+g
+git diff
+sudo dpkg -i WukongMCS-0.0.0-0-g3d718b4-20190827152747.deb 
+cd /var/www/html/
+ls
+cd teach_pendant/
+ls
+cd ..
+cd wukong_mcs/
+ls
+sudo dpkg -i WukongMCS-0.0.0-1-g72691a3-20190827153201.deb 
+cd /var/www/html/
+ls
+cd wukong_mcs/
+ls
+cd ..
+ls
+cd teach_pendant/
+ls
+cd ..
+ls
+rm -rf *
+g
+git add -A
+git commit -m "preinst rm"
+git push
+g
+ls
+g
+git diff
+g
+git diff
+g
+git diff
+sudo dpkg -i TeachPendant-0.0.0-3-g252f5ac-20190827112815.deb 
+ls
+cd ~
+ls
+cd /etc/
+cd nginx/
+find . | grep default
+vim nginx.conf
+cd /etc/nginx/conf.d/
+ls
+cat /etc/nginx/mime.types
+ls
+cd ..
+ls
+cd /var/www/html/teach_pendant/
+ls
+cd /etc/nginx/
+ls
+cd conf.d/
+ls
+cat teach_pendant.conf 
+cd ..
+ls
+cat nginx.dconf 
+cat nginx.conf 
+vim nginx.conf 
+sudo vim nginx.conf 
+sudo service nginx restart
+sudo vim nginx.conf 
+ls
+cd ~
+ls
+vim .vimrc
+vim .vim
+g
+git diff
+ls
+g
+./config.sh push
+cd /var/www/html/
+ls
+cd teach_pendant/
+ls
+c 
+c | column
+ls
+c nginx
+c nginx ' '
+c nginx -
+ls
+cd ..
+ls
+cd wukong_mcs/
+ls
+g
+git diff
+g
+git diff
+ll
+ls

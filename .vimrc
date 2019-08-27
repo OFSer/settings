@@ -123,6 +123,8 @@ set splitbelow
 set diffopt+=vertical
 set diffopt+=foldcolumn:0
 set noswapfile
+set nocompatible
+set history=10000
 hi Error ctermbg=256
 hi goSpaceError ctermbg=256
 hi TabLineFill ctermfg=Black
