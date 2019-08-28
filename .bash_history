@@ -50653,3 +50653,21 @@ type vimpager
 git checkout --help
 git config --global color.ui on 
 git checkout --help
+git checkout --help | vimpager 
+git config --global core.pager "vimpager"
+git checkout --help
+type vimpager 
+git config --global core.pager 'vim -M +MANPAGER -c "set showtabline=1" -'
+git checkout --help
+git config --global color.ui on 
+git checkout --help
+tig
+i tig
+man tig
+tig status 
+tig diff
+tig --help
+tig show
+man tig
+ls
+vim .gitconfig 
