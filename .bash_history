@@ -50968,3 +50968,109 @@ ls
 history | grep sort
 history | cut -d ' ' -f2- | sort | uniq -c | sort -n -k 1
 history | cut -d ' ' -f2- | sort | uniq -c | sort -n -k 1 | grep history
+man quake
+echo $?
+command man quake
+echo $?
+man tefdas
+man fads
+man man
+man apropos
+man yakuake
+g
+./config.sh push
+pstree
+pstree | less
+pstree | p
+pstree | less
+pstree | more
+pstree |  most
+man pager
+ls
+man -Kw pager
+man tig
+man -Kw game
+man man
+man man.7
+man man
+snake
+sail
+history | grep man
+quiz
+man quiz
+ls
+echo $#
+set -- 1 2 3
+echo $#
+cd ~
+vim .bash
+ls
+g
+ls
+vim .bash
+g
+man -Kw game
+man pod2man
+man boogle
+man bogle
+man boggle
+ls
+man -Kw game
+man trek
+trek
+man trek
+wd -s treaty
+ls
+w
+s
+t
+vim .bash
+t ls
+monop
+man monop
+man bsd
+man hack
+hack
+xman
+man xman
+boggle
+? h
+boggle
+ls
+cd pt-program/
+cd ..
+cd fc/iot-daemon/
+type t
+man 7 man
+man man.7
+man 7 man
+man signal
+man signal.7
+man signal.2
+man signal.3
+man signal.4
+man signal.7
+type s
+vim .bash
+cd ~
+vim .bash
+s venerable
+c s ' '
+type t
+type s
+a
+type a
+t
+type t
+type p
+ls
+toe
+ls
+ll
+ls
+g
+git diff
+ls
+g
+git diff
+ls
