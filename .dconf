@@ -43,7 +43,7 @@ side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
 virtual-root='file:///home/gjs/Downloads/artifacts%20(2)/deb/pipeline-1.0.1-8-gbc33d9e4-20190826164435/control'
-tree-view=true
+tree-view=false
 root='file:///'
 
 [org/gnome/gedit/plugins]

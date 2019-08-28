@@ -51074,3 +51074,17 @@ ls
 g
 git diff
 ls
+s italic
+ls
+cd ~
+cd fc/
+cd transformer-pipeline/
+vim build.sh 
+ls
+ls
+g
+git diff
+man man
+PAGER=vimpager man fopen
+git status --help | p
+git status --help 
