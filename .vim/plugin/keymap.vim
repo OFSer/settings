@@ -1,7 +1,7 @@
 inoremap <c-o> <nop>
 " nnoremap q <nop>
-" nnoremap t <nop>
-nnoremap . <nop>
+nnoremap t <nop>
+" nnoremap . <nop>
 nnoremap , <nop>
 tnoremap <c-v> <c-w>"0
 

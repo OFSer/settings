@@ -50383,3 +50383,187 @@ g
 git diff
 ll
 ls
+ll
+ls
+g
+ll
+ls
+ll
+ls
+ll
+ls
+ll
+ls
+ls
+cd ~
+ls
+vim .vimrc
+vim
+ls
+ll
+echo $LS_COLORS
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+printf "I ${RED}love${NC} Stack Overflow\n"
+NC=$'\033[0m' # No Color
+RED='1234'
+RED='\033[0;31m'
+g
+git log
+ls
+g
+cd .vim/plugged/
+ls
+cd vim-colorschemes/
+git diff HEAD~5
+git diff HEAD^
+ls
+g
+cat README.md 
+g
+git remote show origin
+cd ..
+cd ~
+vim .vimrc
+cd ~
+vim .vimrc
+ls
+vim .viminfo
+ls
+vim .viminfo
+ls
+cd .vim/
+ls
+cd plugged/vim-colorschemes/
+ls
+cd ..
+cd nerdtree
+ls
+vim
+ll
+vim
+dircolors -b
+echo $LS_COLORS 
+g
+cd ~
+g
+git diff
+type ls
+type load
+type local
+type llfd
+ls
+type fc/dl-k8s-kube/
+ls
+c 
+c  | column
+vim .basg
+vim .bash
+ls
+g
+c
+ls
+sudo vim sudoers
+\ssh sihe@10.0.10.161
+cd ~/fc/saki_detection/
+ls
+cd db/
+ls
+vim database.sh 
+ls
+cd ~
+ls
+cd test/
+ls
+cd sh/
+ls
+vim 1.sh
+vim 2.sh
+ls
+cd ~
+cd fc/
+ls
+git clone git@gitlab.sho.hypereal.com:robotic/TeachPendant.git
+cd TeachPendant/
+vim
+ls
+vim .gitlab-ci.yml 
+ls
+cd ..
+git clone git@gitlab.sho.hypereal.com:robotic/WukongMCS.git
+cd WukongMCS/
+ls
+g
+git checkout -b deb
+g
+ls
+cd script/
+ls
+f -p 
+ls
+vim
+ls
+cd ~
+ls
+cd /root/
+ls
+sudo su
+ipython
+python
+ipython
+ls
+PAGER
+echo $PAGER 
+vim --help
+echo $PAGER 
+vim
+ls
+vim --help
+vim
+ls
+vim .vimrc
+git diff
+vim .vimrc
+ls
+ls -a | grep his
+vim .vimrc
+cat .viminfo
+vim .viminfo
+vim .vimrc
+ls
+g
+./config.sh push
+vim
+ls
+cd .vim/
+ls
+cd plugged/
+cd vim-colorschemes/
+vim
+ls
+cd colors/
+vim neodark.vim 
+ls
+g
+git diff
+git add -A
+git commit -m "upd"
+git push
+cd ~
+cd /tmp/
+du -hd1
+du -hcd1
+cd ..
+ls
+ll
+cd /etc/angband/
+cd pref/
+cat user.prf 
+ll
+cat font.prf 
+man pod2man
+ll
+g
+git diff

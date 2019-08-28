@@ -41,7 +41,7 @@ c(){
 	"$completion" 2>/dev/null
 
 	# print completions to stdout
-	printf '%s\n' "${COMPREPLY[@]}" | LC_ALL=C sort | LC_ALL=C uniq
+	printf '%s\n' "${COMPREPLY[@]}" | LC_ALL=C sort | LC_ALL=C uniq | column
 }
 
 args(){
