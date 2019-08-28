@@ -50567,3 +50567,89 @@ man pod2man
 ll
 g
 git diff
+g
+cd ~
+g
+git diff .bash
+git diff .vim
+./config.sh push
+c | grep desktop
+nautilus-desktop
+nautilus-desktop --help
+man nautilus-desktop 
+xdg-desktop-menu --help
+xdg-desktop-menu 
+xdg-desktop-menu --manual
+man bash
+ls
+g
+ls
+cd ~
+vim .vimrc
+vim .vim
+ls
+vim build.sh 
+ls
+vim
+find -path ./.git -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+ls
+find -path ./.git docs -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+find -path ./.git -path docs -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+find \( -path ./.git -path docs \) -prune -o -type f -exec grep -Iq '' '{}' ';' -print
+find \( -path ./.git -path docs -prune \) -o -type f -exec grep -Iq '' '{}' ';' -print
+find \( -path ./.git -prune -path docs -prune \) -o -type f -exec grep -Iq '' '{}' ';' -print
+find -path ./.git -prune -o -path docs -prune  -o -type f -exec grep -Iq '' '{}' ';' -print
+find -path ./.git -prune -o -path ./docs -prune  -o -type f -exec grep -Iq '' '{}' ';' -print
+man bash
+find -path ./.git -prune -o -path ./docs -prune  -o -type f -exec grep -Iq '' '{}' ';' -print
+man bash
+ls
+cd ~
+cd fc/transformer-pipeline/
+ls
+vim
+ls
+vim config.sh 
+gsettings --schemadir . list-recursively
+gsettings list-recursively 
+gsettings list-recursively  |  grep scroll
+gsettings list-recursively  |  grep tab
+gsettings list-recursively  |  grep scroll
+gsettings list-recursively  |  grep page
+gsettings list-recursively  |  grep scroll
+gsettings list-recursively  |  grep keybind
+gsettings list-recursively  |  grep keybind | grep page
+gsettings list-recursively  |  gerp term
+gsettings list-recursively  |  grep term
+gsettings list-recursively org.gnome.Terminal
+gsettings list-recursively org.gnome.Terminal.Legacy.Keybindings:/
+gsettings list-recursively org.gnome.Terminal.Legacy.Keybindings:/ | grep page
+gsettings list-recursively org.gnome.Terminal.Legacy.Keybindings:/ | grep Page
+gsettings list-recursively org.gnome.Terminal.SettingsList:/ 
+gsettings list-recursively org.gnome.Terminal
+gsettings list-recursively org.gnome.Terminal.ProfilesList
+gsettings list-recursively org.gnome.Terminal.Profile:/
+gsettings list-recursively org.gnome.Terminal.SettingsList:/
+gsettings list-recursively | grep Page
+gsettings list-recursively
+gsettings list-recursively | grep Page
+gsettings list-recursively | grep page
+gsettings list-recursively | grep -i page
+gsettings list-recursively | grep -i Page
+gsettings list-recursively org.gnome.Terminal.Legacy.Keybindings:/ | grep Page
+gsettings list-recursively org.gnome.Terminal.Legacy.Keybindings:/ | grep -i Page
+dconf list 
+dconf list org/gnome/terminal/legacy/keybindings
+dconf list /
+dconf list /org/gnome/terminal/legacy/keybindings/
+PAGER='vim -M +MANPAGER -c "set showtabline=1" -' git checkout --help
+git checkout --help
+git checkout --help | less
+git checkout --help
+ls
+git config --global core.pager tig
+git diff
+type vimpager 
+git checkout --help
+git config --global color.ui on 
+git checkout --help

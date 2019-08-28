@@ -51,7 +51,7 @@ active-plugins=['spell', 'filebrowser', 'time', 'modelines', 'docinfo']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=132
+state=4
 bottom-panel-size=140
 side-panel-size=250
 side-panel-active-page='GeditFileBrowserPanel'
@@ -86,7 +86,7 @@ use-experimental-views=false
 
 [org/gnome/nautilus/window-state]
 sidebar-width=256
-start-with-sidebar=false
+start-with-sidebar=true
 geometry='966x531+504+276'
 maximized=true
 
@@ -309,21 +309,24 @@ schema-version=uint32 3
 tab-policy='always'
 
 [org/gnome/terminal/legacy/keybindings]
-switch-to-tab-1='disabled'
 new-tab='<Primary>t'
-switch-to-tab-2='disabled'
+switch-to-tab-1='disabled'
+find-previous='disabled'
 switch-to-tab-3='disabled'
-switch-to-tab-4='disabled'
+switch-to-tab-2='disabled'
 switch-to-tab-5='disabled'
-switch-to-tab-6='disabled'
-switch-to-tab-10='disabled'
+switch-to-tab-4='disabled'
 prev-tab='<Primary><Shift>Tab'
+switch-to-tab-10='disabled'
 close-tab='<Primary><Shift>w'
+find='disabled'
 move-tab-left='<Primary><Shift><Alt>h'
-switch-to-tab-9='disabled'
-switch-to-tab-7='disabled'
+find-next='disabled'
 switch-to-tab-8='disabled'
+switch-to-tab-9='disabled'
+switch-to-tab-6='disabled'
 move-tab-right='<Primary><Shift><Alt>l'
+switch-to-tab-7='disabled'
 next-tab='<Primary>Tab'
 
 [org/gnome/terminal/legacy/profiles:]
