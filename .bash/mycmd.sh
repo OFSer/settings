@@ -51,7 +51,11 @@ args(){
 }
 
 man(){
-	command man "$@" | vim -M +MANPAGER -c "set showtabline=1" -
+	if [[ ($# -ne 1) || ($1 =~ ^-) ]];then
+		command man "$@"
+	else 
+		command man "$@" | vim -M +MANPAGER -c "set showtabline=1" -
+	fi
 }
 
 callssh(){

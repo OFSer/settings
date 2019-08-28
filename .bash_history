@@ -50671,3 +50671,300 @@ tig show
 man tig
 ls
 vim .gitconfig 
+g
+git diff .bash
+tig show
+g
+git diff
+g
+git checkout -- .gitconfig
+g
+./config.sh push
+p
+history 
+git log .bash_history
+git log -p .bash_history
+git --help
+git checkout --help
+git checkout --help | vim -M +MANPAGER -c "set showtabline=1" -
+echo $PAGER
+vim .bash
+g
+./config.sh push
+man dpkg
+ls
+git describe --tags --long
+cd ~
+git describe --tags --long
+cd -
+cd ~0
+cd ~1
+cd ~2
+git describe 
+git describe --help
+git describe --all
+g
+git describe --help
+man 'git describe'
+git describe --help
+git describe --tags
+git describe --tags --long
+git tag --help
+git describe 
+git describe --tags 
+git describe --all
+git describe --help
+g
+git diff
+ls
+g
+ls
+cd ~
+cd fc/transformer-pipeline/
+ls
+vim
+vim 
+ls
+cd ..
+cd TeachPendant/
+ls
+cd script/
+ls
+f -a deb
+ls
+f -a deb build_dpkg.sh 
+cd ..
+ls
+vim .gitlab-ci.yml 
+g
+git diff
+ls
+g
+cd ~
+ls
+vim .vimrc
+vim .vim
+ls
+
+ls
+vim .vim
+vim .dconf
+man man.7
+man  intro 
+man -a intro 
+history | grep man
+history | grep man | grep '\-'
+man -K man
+history | grep command | grep man
+command man -K man
+command man -W man
+history | grep games
+history | grep game | grep man
+man -k printf
+c man ' ' | grep printf
+man -W test 
+w
+uptime
+w --help
+a
+b
+c
+d
+e
+f
+g
+f --help
+type f
+man f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+man w
+cd ~
+vim .bash
+type man
+man man
+cd ~
+c
+c | grep test
+c | wc -l
+c | grep test | wc -l
+c ls -
+c ls ' '
+c ' '
+c
+c ' '
+c
+c man ' '
+c man
+c man ' '
+g
+git diff .bash
+c
+c | fmt
+c | fmt | column
+c | column
+c | column | column
+c
+apg
+apg --help
+mpstat
+last
+last | less
+ls | less
+ldd
+ldd --help
+man ldd
+cd /usr/lib
+ldd librcc.so.0
+nl
+ls
+cd ~
+nl makefile
+cat -n makefile k
+cat -n makefile 
+nl makefile 
+curl --help
+curl --help | grep '\-I'
+man unicode
+g
+git diff
+history 
+history | cut -f 2
+history | cut -f2
+history | cut -f
+tldr cut
+history | cut -f2-
+history | cut -d ' ' -f 2
+history | cut -d ' '
+history | cut -d ' ' -f 1
+history | cut -d ' ' -f 2
+history | cut -d ' ' -f2-
+history | cut -d '  ' -f2-
+history | cut -d "  " -f2-
+history | cut -d ' ' -f2-
+history | cut -d ' ' -f2
+history | cut -d ' ' -f2-
+history | cut -d ' ' -f2- | sort
+history | cut -d ' ' -f2- | sort | uniq
+history | cut -d ' ' -f2- | sort | uniq -c
+history | cut -d ' ' -f2- | sort | uniq -c | sort -n -k 1
+ls
+history | cut -d ' ' -f2- | sort | uniq -c | sort -n -k 1 | grep '^[ 0-9]*c'
+history | cut -d ' ' -f2- | sort | uniq -c | sort -n -k 1 | grep '^[ 0-9]*c$'
+history | cut -d ' ' -f2- | sort | uniq -c | sort -n -k 1 | grep '^[ 0-9]*c'
+history | cut -d ' ' -f2- | sort | uniq -c | sort -n -k 1 | grep 'man'
+history | cut -d ' ' -f2- | sort | uniq -c | sort -n -k 1 | grep '^[ 0-9]*man'
+man empire 
+man man
+c man ' ' | grep pager
+apropos viminfo
+man -wK viminfo
+man -K viminfo
+\man -K viminfo
+echo $MANPAGER
+command man -K viminfo
+command man -wK viminfo
+command man -K viminfo
+command man -wK games
+man hunt
+hunt
+man hunt
+man wargames
+wargames 
+man wargames
+man quiz
+quiz
+PAGER=most quiz
+quiz
+quiz --help
+man quiz
+ls
+google-chrome < config.sh 
+google-chrome config.sh 
+ls
+history | grep google-chrome
+echo $HTTP_PROXY
+ls
+cd fc/iot-daemon/
+vim
+ls
+vim config
+vim config.json 
+ls
+g
+vim config
+vim config.json 
+jobs
+fg
+history | grep man | grep game
+/usr/share/games/bsdgames/acronyms
+sudo cat /usr/share/games/bsdgames/acronyms
+wtf ic
+wtf omg
+wtf oml
+man --help
+command man -kW game
+command man -KW game
+command man -Kw game
+man wtf
+wtf
+wtf --help
+man wtf
+wtf wtf
+wtf man
+wtf k
+wtf kk
+wtf sb
+wtf bsd
+wtf gnu
+wtf GNU
+wtf --help
+man wtf
+ls
+command man -w game
+man --help
+man -Kw man
+man -Kw game
+man --help
+man
+man 
+man
+command man
+man
+type man
+command man 
+man
+man -Kw test
+man -Kw game
+man worm
+worm
+wump
+man wump
+man ffmpeg-all
+man --help
+expr "hello 123 world" : ".*[^0-9]\([0-9][0-9]*\)"
+expr "hello 123 world" : ".*([^0-9]\[0-9][0-9]*\)"
+expr "hello 123 world" : ".*\([^0-9]\[0-9][0-9]*\)"
+ls ls
+ls
+history | grep sort
+history | cut -d ' ' -f2- | sort | uniq -c | sort -n -k 1
+history | cut -d ' ' -f2- | sort | uniq -c | sort -n -k 1 | grep history
