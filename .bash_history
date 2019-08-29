@@ -51210,3 +51210,92 @@ git push
 git diff HEAD^
 ls
 vim neodark.vim 
+ls
+ll
+history | grep "go mod"
+cd ~/fc/iot-daemon/
+go mod why
+go mod why gitlab.com/juanpabloaj/mod_pkg
+ls
+cat go.mod 
+go mod why github.com/mattn/go-isatty
+cd ~
+ls
+cd gh/
+git clone https://github.com/golang/mock.git
+cd mock/
+cd sample/
+vim
+vim user.go 
+cd ~
+vim 
+ls
+cd ~
+ls
+cd test/go/
+cd hello/
+ls
+history | grep "go mod"
+ls
+cd ..
+cd mock/
+ls
+go mod init github.com/chinnkarahoi/mock
+ls
+cd ..
+cd hello/
+ls
+vim
+ls
+cd ~
+g
+./config.sh push
+git diff HEAD^
+git diff HEAD^ .dconf
+ls
+g
+git diff
+ls
+git diff
+ls
+g
+ls
+g
+git diff
+ls
+ll
+lll
+./config.sh pull
+g
+lls
+g
+ls
+g
+git diff
+ls
+ll
+g
+git diff
+g
+ll
+ls
+g
+gg
+ls
+ll
+./config.sh pull
+cd ~
+vim .vimrc
+./config.sh pull
+vim .vimrc
+ls
+ll
+ls
+g
+l
+ll
+g
+s
+ll
+ls
+ll
