@@ -51088,3 +51088,108 @@ man man
 PAGER=vimpager man fopen
 git status --help | p
 git status --help 
+man man
+mandb
+man() {   /usr/bin/man $* |     col -b |     vim -R -c 'set ft=man nomod nolist' -; }
+man man
+type man
+PAGER=less man fopen
+PAGER=less command man fopen
+man fopen
+export PAGER="/bin/sh -c \"unset PAGER;col -b -x | \
+    vim -R -c 'set ft=man nomod nolist' -c 'map q :q<CR>' \
+    -c 'map <SPACE> <C-D>' -c 'map b <C-U>' \
+    -c 'nmap K :Man <C-R>=expand(\\\"<cword>\\\")<CR><CR>' -\""
+git status --help
+cd ~
+ls
+vim .vimrc
+g
+git diff .vimrc
+vim .vimrc
+g
+./config.sh push
+man man
+cd ~
+vim .vimrc
+cd fc/transformer-pipeline/src/
+vim
+man alias
+man -t alias
+man -t ls
+man -t alias | lpr -Pps
+man -f smail
+command man -f smail
+man -f man
+man -f printf
+man -f test
+man -f toe
+man -f ls
+man ls.6
+man -f deb
+man deb
+man deb.1
+command man man
+groff
+ls
+tldr groff
+tbl
+tldr groff
+tldr groff | groff
+tldr groff
+tldr groff | tbl
+tldr groff | pic
+tldr groff | me
+tldr groff 
+groff -man -T utf8 man
+man -Kw man
+groff -man -T utf8 /usr/share/man/man1/mispipe.1.gz
+tldr groff
+s stub
+s stubbing
+steam
+ls
+cd mock/
+ls
+go test .
+ls
+go get -v -insecure
+go run main.go 
+go test .
+man sz
+sz
+g
+cd ~
+g
+git diff
+g
+ls
+g
+cd ~
+g
+\git status
+ls
+cd sh
+cd shmmsg/
+ls
+cd ..
+ls
+g
+cd test/
+ls
+cd sh/deb/
+ls
+cd deb/
+cd ..
+rm -rf deb
+ls
+g
+cd ..
+g
+git diff
+ls
+cd test/sh/
+ls
+cat 1.xh
+cat 1.shy
+cat 1.sh
