@@ -51193,3 +51193,20 @@ ls
 cat 1.xh
 cat 1.shy
 cat 1.sh
+g
+git diff
+ls
+cd ~
+g
+./config.sh push
+git diff HEAD^
+ls
+cd ~
+./config.sh pull
+g
+git add -A
+git commit -m "upd"
+git push
+git diff HEAD^
+ls
+vim neodark.vim 
