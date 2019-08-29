@@ -3,7 +3,7 @@ nnoremap q <nop>
 " nnoremap t <nop>
 nnoremap . <nop>
 " nnoremap , <nop>
-tnoremap <c-v> <c-w>"0
+" tnoremap <c-v> <c-w>"0
 
 tnoremap <c-\> <c-\><c-n>
 inoremap w <c-w>

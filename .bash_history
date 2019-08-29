@@ -51299,3 +51299,48 @@ s
 ll
 ls
 ll
+ls
+g
+htop
+ls
+g
+git diff
+ls
+htop
+g
+ll
+htop
+man top
+atop
+i atop
+atop
+man htop
+slabtop
+sudo slabtop
+htop
+top
+ps
+pstree
+ll
+g
+git diff
+cd ~/.vim/plugged/vim-colorschemes/colors/
+vim eldar.vim 
+vim neodark.vim 
+ll
+ls
+g
+ls
+cd ~
+vim 
+./config.sh push
+vim .vimrc
+ls
+./config.sh pull
+./config.sh push
+g
+
+ls
+g
+vim .vim
+ls
