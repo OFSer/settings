@@ -52022,3 +52022,42 @@ git diff .vimrc
 ag
 ack
 d
+i silversearcher-ag
+fzf
+ls
+cd fc/transformer-pipeline/
+vim
+ls
+vim
+cd ~
+ls
+cd fc/iot-daemon/
+cd ~/test/go/mock/
+vim
+ls
+cd ~
+ls
+vim .bash
+g
+git diff .vimrc
+git diff .bashrc
+./config.sh push
+ls
+history 
+history  | grep ag
+cd ~
+vim .vimrc
+vim .vim
+ls
+cd test/go/mock/
+ag
+ag bar
+ls
+ag bar
+:q
+ls
+g
+ls
+cd ~
+cd .vim/plugged/vim-colorschemes/colors/
+vim neodark.vim 

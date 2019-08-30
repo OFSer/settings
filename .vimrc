@@ -2,6 +2,10 @@
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+let g:fzf_action = {
+  \ 'alt-t': 'tab split',
+  \ 'alt-x': 'split',
+  \ 'alt-v': 'vsplit' }
 Plug 'katono/rogue.vim' 
 Plug 'johngrib/vim-game-snake'
 Plug 'johngrib/vim-game-code-break'
@@ -143,4 +147,8 @@ let g:ft_man_open_mode = 'tab'
 syntax on
 filetype plugin indent on  
 " hi CursorLine term=bold cterm=bold guibg=Grey40
-
+command! -bang -nargs=* Ag
+  \ call fzf#vim#ag(<q-args>,
+  \                 <bang>0 ? fzf#vim#with_preview('up:60%')
+  \                         : fzf#vim#with_preview('right:50%:hidden', '?'),
+  \                 <bang>0)
