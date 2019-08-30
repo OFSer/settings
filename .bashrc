@@ -18,3 +18,6 @@ load $HOME/.bash/feature.sh
 load $HOME/.bash/alias.sh
 load $HOME/.bash/mycmd.sh
 load $HOME/.bash/ycm.sh
+
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

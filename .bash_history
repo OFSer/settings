@@ -51464,3 +51464,561 @@ git diff HEAD^ .vimrc
 git diff HEAD^ .dconf
 ls
 g
+cd ~
+vim .vim
+vim .vimrc
+g
+cd ~
+ls
+cd fc/
+ls
+cd detection-machine-daemon/
+vim oss_s4.py 
+cd ..
+vim README.md 
+cd ~/test/cpp/
+vim 1.cpp
+cd ..
+cd asm/
+vim 1.asm 
+cd ~
+l
+vim .vimrc
+man tty
+man -f tty
+man tty.4
+ls
+cd ~
+ls
+vim .vimrc
+ls
+man tty.4
+ls
+vim .vimrc
+ls
+vim .vimrc
+ls
+g
+git diff
+git diff .vimrc
+vim .vimrc
+vim .vim
+ls
+vim .vim
+ls
+cd fc/
+cd ~/.vim/plugged/vim-colorschemes/colors/
+vim neodark.vim 
+ls
+g
+git add -A
+git commit -m "upd"
+git push
+git diff HEAD^
+vim .vimrc
+vim neodark.vim 
+g
+git diff
+git add -A
+git commit -m "upd"
+git push
+cd ~
+ls
+vim .vimrc
+vim .vim
+vim .vimrc
+vim .vim
+dirs -p
+cd ~1
+vim neodark.vim 
+i fzf
+snap find fzf
+snap info fzf
+snap info fzf-slowday
+snap info fzf-carroarmato0
+sudo apt search fzf
+sudo snap install fzf-carroarmato0
+ls
+sudo apt-get install fzf
+fzf
+cd ~
+ls
+sudo snap remove fzf-carroarmato0 
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+g
+git diff .bashrc
+fzf
+git diff .vimrc
+./config.sh push
+fzf
+git diff
+git diff .bashrc
+fzf
+find * -type f | fzf > selected
+fzf
+vim ~/.fzf.bash
+cd .fzf/
+cd src/
+ls
+cd ..
+~/.fzf/install 
+git diff .bashrc
+fzf
+ls
+cd ~
+fzf
+ls
+vim .vimrc
+ls
+~/.fzf/uninstall 
+man man.5
+man 1 man
+man 5 man
+man 7 man
+man man.5
+man man.1
+wd -s inquisitive
+w3m
+apropos man
+s apropos
+apropos man
+apropos printf
+man -Kw man
+help -d man
+help man
+help ls
+help help
+help ls
+help type
+help -d type
+history | grep xargs
+getfacl go.mod 
+getfacl .
+getfacl -R .
+c chg
+c chgrp
+c chgrp ' '
+sudo -i ls
+ls
+sudo -i pwd
+s latter
+su - root
+su
+ls
+cd /home/
+ls
+cd test/
+cd ..
+cd ~
+su test
+sudo passwd test
+sudo useradd test
+sudo passwd test
+su test
+su - test
+man su
+export a=123
+su test
+su - test
+cd /
+find . 
+find . -path ./home -prune -print
+sod find . -path ./home -prune -print
+sudo find . -path ./home -prune -print
+sudo find . -path ./home -prune -o -print
+sudo find . -path ./home -prune -o -name lib
+sudo find / -path ./home -prune -o -name lib
+sudo find . -path ./home -prune -o -name lib
+locate
+locate lib
+cd ~/fc/
+ls
+local flaw_checker/
+local flaw_checker
+locate flaw_checker
+updatedb
+upda
+c up
+s3cmd
+man s3cmd
+sudo apt install s3cmd
+s3cmd
+man s3cmd
+ls
+join
+tldr join
+seq 3
+join <(seq 3) <(seq 5)
+ls
+rm config.sh 
+ls
+cd ~/test/sh/
+ls
+join 1.sh 2.sh
+join 1.sh
+tldr join
+cat 1.sh
+join --help
+man join
+tldr join
+comm
+comm --help
+ls
+cd ~/
+ls
+cd fc/iot-daemon/
+bvi iot-daemon 
+biew
+hexedit
+i bvi
+bvi iot-daemon 
+./iot-daemon 
+ls
+bvi iot-daemon 
+bvi --help
+man bvi
+i biew
+biew
+hexedit
+i hexedit
+hexedit iot-daemon 
+bvi iot-daemon 
+man bvi'
+man bvi
+strings
+strings --help
+strings iot-daemon 
+ls
+cd ..
+ls
+cd ~
+ls
+cd test/
+ls
+cd cpp/
+ls
+string a.out 
+strings a.out 
+hexdump -C a.out 
+strings a.out 
+strings --help
+ls
+strings 1.cpp
+strings --help
+strings -a a.out 
+strings -d a.out 
+ls
+strings --help
+strings a.out 
+strings a.out  | grep elf
+strings a.out  | grep -i elf
+xdelta3
+i xdelta3
+c i ' '
+ls
+cd ~
+vim .bash
+type i
+c sudo apt install ' '
+c i
+c i ' 
+c i '  '
+c i ' '
+type i
+c s
+c s ' '
+ls
+type docker
+xdelta3 
+ls
+cd fc/
+ls
+cd ~/test/
+cd cpp/
+xdelta3 1.cpp 2.cpp
+xdelta3 1.c 2.cpp
+xdelta3 a.out a.out 
+xdelta3 -f a.out a.out 
+xdelta3 --help
+tldr split
+siege
+i siege
+siege
+siege | less
+man siege
+man dmesg 
+dmesg 
+toe
+toe 
+toe  --help
+man toe
+tldr toe
+toe 1.
+toe 1.cp
+toe 1.cpp
+man toe
+bash
+toe
+man toe
+toe -a
+man toe
+netcat 
+man netcat 
+slurm
+i slurm
+slurm
+slurm -s
+slurm baidu.com
+ls
+sponge
+i moreutils
+ls
+cat 1.cpp
+cd ..
+ls
+cd sh/
+ls
+seq 5 > t
+ls
+cat t
+cat t | grep 3 | sponge t
+cat t
+seq 5 > t
+cat t | grep 3 > t
+cat t
+bvi
+cd ~
+ls
+vim config.sh 
+ls
+g
+s sponge
+man moreutils
+apt-cache search moreutils
+dpkg --print-avail moreutils
+dpkg --info moreutils
+apt-cache show moreutils 
+apt show moreutils 
+s soak
+ts
+ts 123
+apt show moreutils 
+apt show teachpendant 
+sudo apt remove teachpendant 
+ls
+cd /var/www/html/
+cd ~
+dpkg --help
+dpkg --help | grep info
+dpkg --help
+dpkg -s moreutils 
+dpkg --help
+apt show neovim
+dpkg -s neovim
+apt show neovim
+apt show vim
+sudo apt install vim
+ls
+vim .vimrc
+apt show neovim
+ifconfig
+apt install net-tools 
+sudo apt install net-tools 
+sudo apt show net-tools 
+man arp
+arp
+\
+s twips
+s twip
+s twips
+s  fortnight 
+s  furlongs 
+s  furlongs
+man units
+tldr units
+units
+i units
+units
+man units
+man units.2
+man units.3
+man units.7
+man units.5
+man units.7
+man units
+man 7 units | p
+ldd
+nm
+cd test/cpp/
+nm
+nm a.out
+man nm
+ls
+cd ~/fc/iot-daemon/
+nm
+nm iot-daemon 
+man nm
+go build .
+rm iot-daemon 
+go build .
+ls
+nm iot-daemon 
+man nm
+cd ~/test/f
+cd ~/test/cpp/
+vim 1.cpp
+g++ 1.cpp
+nm
+man nm
+last
+last | less
+sysctl 
+lsblk
+blkid /dev/sda
+sudo blkid /dev/sda
+sudo blkid /dev/sdb
+sudo blkid /dev/sdb1
+sudo cat /etc/fstab 
+s locomotives
+s locomotive
+s quotation
+s zippy
+man fortune 
+l
+cd ~
+cd .vim/
+ls
+cd plugged/vim-colorschemes/colors/
+vim neodark.vim 
+cd ~
+ls
+dirs -p
+cd ~1
+cd ..
+g
+git add -A
+git commit -m "upd"
+git push
+cd ~
+g
+vim .vimrc
+bash
+man man
+man -f
+man -f man
+echo $?
+man -f fasd
+echo $?
+man man
+man -t man
+man -g man
+man man
+s stud
+s stub
+ls
+cd test/
+ls
+cd go/
+ls
+mkdir mock
+cd mock/
+ls
+go get -v github.com/golang/mock/gomock
+go install github.com/golang/mock/mockgen
+go doc github.com/golang/mock/gomock
+vim main.go
+ls
+vim main.go 
+wd -s venerable
+s venerable
+ssh60
+\ssh sihe@10.0.10.141
+history | grep sihe
+\ssh sihe@10.0.10.161
+ssh60
+\ssh sihe@10.0.10.161
+ls
+\ssh sihe@10.0.10.161
+ls
+cd ~/fc/
+ls
+cd python-aruco/
+ls
+cd ..
+cd dl-k8s-kube/
+cd ..
+man man
+apt show bsdgames
+gomoku
+man gomoku
+s morse
+pig
+man pig
+pig
+apt show bsdgames
+s gomoku
+apt show bsdgames
+ppt
+random
+bcd
+cd iot-daemon/
+vim main.go 
+cd ~
+vim .vimrc
+ls
+g
+./config.sh push
+ls
+cd fc/iot-daemon/
+vim main.go 
+ls
+cd ../transformer-pipeline/
+ls
+vim
+ls
+cd ~
+ls
+g
+git diff
+g
+./config.sh push
+history | grep mock
+cd fc/transformer-pipeline/
+ls
+vim
+g
+ll
+l
+g
+git diff
+git diff .bashrc
+cd .fzf/
+cat install 
+cd ..
+cd .vim/plugged/
+cd fzf.vim/
+ls
+cd ~
+rm .fzf/
+rm -rf .fzf/
+fzf
+git diff .bash
+ls
+cd ~
+git diff .bashrc
+vim .vimrc
+cd .vim/
+ls
+cd plugged/
+ls | grep fzf
+cd ~
+vim .vimrc
+ls
+g
+git diff .bashrc
+g
+git diff .vimrc
+ag
+ack
+d

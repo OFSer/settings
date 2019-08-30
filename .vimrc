@@ -1,5 +1,7 @@
 "----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 Plug 'katono/rogue.vim' 
 Plug 'johngrib/vim-game-snake'
 Plug 'johngrib/vim-game-code-break'
