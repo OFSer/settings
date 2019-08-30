@@ -51344,3 +51344,104 @@ ls
 g
 vim .vim
 ls
+cd ~
+ls
+./config.sh push sub
+ls
+g
+cd .config/google-chrome
+g
+git add -A
+g
+git commit -m "upd"
+git push
+evim
+vim -y
+gvim
+g
+cd ~
+g
+cd .config/google-chrome/
+g
+git log
+ls
+ll
+g
+git push
+cd ..
+ls
+cd google-chrome/
+du -hd1
+git log
+ls
+cd .git/
+git -hd
+dh -hd1
+du -hd1
+cd ..
+du -hd1
+ls | grep -v git
+ls | grep -v git | du 
+ls | grep -v git | du -hd1
+ls | grep -v git
+ls | grep -v git | du -hd1
+ls | grep -v git | du 
+ls | grep -v git | du -d1
+ls | grep -v git | du -hd1
+hd1
+du hd1
+du -hd1 git
+du -hd1 .git
+ls | grep -v git | xargs du -hd1
+ls | grep -v git | 
+ls | grep -v git 
+ls
+du -hd1
+du -hd1 | wc -l
+ls | wc -l
+ls | xargs du -hd1
+du -hd1 .git
+du -hd1 *
+du -hd0 *
+du -h *
+du -hd0 *
+ls | xargs du -hd0
+lls
+ls
+ls | xargs -i du -hd0 {}
+ls | xargs -i du -hcd0 {}
+ls | xargs -i du -hd0 {}
+ls | xargs du -hd0 
+ls
+\ls 
+command ls
+command ls | xargs | echo 
+command ls | xargs | cat 
+command ls | xargs cat
+command ls | xargs echo
+command ls | xargs -0 echo
+ls | xargs -0 du -hd0 
+ls | xargs -0 | echo 
+
+ls
+g
+ls
+vim config.sh 
+g
+ls
+vim .vimrc
+ls
+l
+man man
+vim
+man man
+ls
+vim README.md 
+ls
+g++ 2.cpp && ./a.out
+cd ~/test/cpp/
+ls
+vim 1.cpp
+ls
+vim 2.cpp
+ls

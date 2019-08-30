@@ -51,7 +51,7 @@ active-plugins=['spell', 'filebrowser', 'time', 'modelines', 'docinfo']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=4
+state=132
 bottom-panel-size=140
 side-panel-size=250
 side-panel-active-page='GeditFileBrowserPanel'
@@ -646,7 +646,7 @@ favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chr
 
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14
-release-check-time=uint32 1565922340
+release-check-time=uint32 1567131940
 
 [com/ubuntu/user-interface]
 scale-factor={'HDMI-0': 10, 'DP-4': 10}

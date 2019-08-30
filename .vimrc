@@ -77,11 +77,12 @@ let g:NERDTreeIndicatorMapCustom = {
 
 Plug 'airblade/vim-gitgutter'
 
-Plug 'ianva/vim-youdao-translater'
-nnoremap a :Ydc<cr>
-nnoremap <silent> <RightMouse> <LeftMouse>:Ydc<CR>
-inoremap <silent> <RightMouse> <esc><LeftMouse>:Ydc<CR>
-tnoremap <silent> <RightMouse> <c-\><c-n><LeftMouse>:Ydc<cr>i
+" Plug 'ianva/vim-youdao-translater'
+Plug 'voldikss/vim-translate-me'
+nnoremap <silent> a :Translate<cr>
+nnoremap <silent> <RightMouse> <LeftMouse>:Translate<cr>
+inoremap <silent> <RightMouse> <esc><LeftMouse>:Translate<cr>
+tnoremap <silent> <RightMouse> <c-\><c-n><LeftMouse>:Translate<cr>i
 
 " Plug 'SirVer/ultisnips'
 " Plug 'honza/vim-snippets'
