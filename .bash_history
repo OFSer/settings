@@ -52061,3 +52061,8 @@ ls
 cd ~
 cd .vim/plugged/vim-colorschemes/colors/
 vim neodark.vim 
+apt remove bat
+sudo apt remove bat
+bats
+apt show bats
+bat
