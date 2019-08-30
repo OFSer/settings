@@ -52265,3 +52265,383 @@ vim build.sh
 fzf
 fzf --preview 'bat {}'
 ls
+cd fc/transformer-pipeline/
+vim build.sh 
+fzf --preview="bat --color=always {}"
+ls
+g
+vim 
+ls
+vim build.sh 
+fzf --preview="bat --color=always {}"
+fg
+fzf --preview="bat --color=always {} | head -n 200" 
+fzf --preview="bat --color=always {} | head -n 10" 
+fzf --preview="bat --color=always {} | head -n 1" 
+fzf --preview="bat --color=always {} | head -n 200" 
+fzf --preview="bat --color=always {} | head -n 150" 
+fg
+fzf --preview="vim {} " 
+s
+ls
+jobs
+f
+fg
+ls
+jobs
+fg
+jobs
+vim --help
+fzf --preview="vim" 
+vim --help
+type man
+fzf --preview=' vim -M +MANPAGER -c "set showtabline=1" {}'
+man vim
+cd gh
+fzf --preview='p {}'
+fzf --preview='vimcat {}'
+ls
+vimcat build.sh 
+ls
+fzf --preview='vimcat'
+fzf --preview='vimcat {}'
+ls
+ctags _R
+ctags -R
+vimcat build.sh 
+git status --help
+echo $PAGER
+git status --help
+man man
+git status --help | p
+jobs
+fg
+vimcat
+ls
+vimcat build.sh 
+vimcat
+vimcat build.sh | bat
+ls
+fzf --preview="bat --color=always {}"
+vimcat
+vimcat --help
+vimcat -u ~/.vimrc--help
+ls
+bat
+bat build.sh 
+fzf --preview="bat" 
+bat --list-themes | fzf --preview="bat --theme={} --color=always /path/to/file"
+ls
+fzf --preview="bat"
+fzf --preview="bat {}"
+fzf --preview="bat --theme='TowDark' {}"
+fzf --preview="bat --theme={} --color=always"
+fzf --preview="bat --color=always"
+fzf --preview 'cat {}'
+ls
+bat build.sh 
+fzf --preview 'bat {}'
+fzf --preview='bat {}'
+fzf --preview='bat'
+fzf --preview='bat {}'
+fzf --preview="bat --color=always *"
+fzf --preview="bat --color=always {}"
+fzf --preview="bat {}"
+fzf --preview="bat --color=always {}"
+ls
+cd ~
+ls
+vim .bash
+vim .vim
+vim .vimrc
+fg
+ls
+g
+cd .vim/
+du -hd1
+cd plugged/
+du -hd1
+history | grep fzf
+vimcat -u ~/.vimrc 
+cd plugged/
+cd .vim/
+cd plugged/
+cd fzf.vim/
+vim
+cd ~/gh/
+git clone git://github.com/rkitover/vimpager
+ls
+cd vimpager
+sudo make install-deb
+command man man | vimpager 
+ls
+cd ~
+ls
+fzf --preview 'vimcat {}'
+ls
+cd fc/
+ls
+cd transformer-pipeline/
+fzf --preview 'vimcat {}'
+s
+ls
+cat build.sh 
+cat build.sh  | vimcat
+vimcat --help
+vimcat --help | vimcat
+vimcat --help
+fzf --preview 'vimcat -'
+fzf --preview 'vimcat build.sh'
+man bat
+ls
+bat build.sh 
+bat build.sh  | vimcat
+bat build.sh 
+vimcat build.sh
+fzf --preview 'bat {}'
+fzf --preview="bat --color=always {}"
+fzf --preview="vimcat  {}"
+man fzf
+man -f fzf
+man fzf
+man -Kw fzf
+ls
+vimcat download_test_resources.sh 
+cd ~
+ls
+vim config.sh 
+ls
+g
+./config.sh push
+man man
+ls
+cd .vim/
+ls
+cd plugged/
+ls
+cd ~
+ls
+vim .vimrc
+ls
+g
+vimcat --help
+ls
+vimcat makefile 
+vimcat makefile -o -
+ls
+vimcat --help
+vimdiff 
+type vimux 
+type vimtutor 
+ls
+g
+fzf
+man vimcat
+ls
+g
+ls
+cat makefile 
+cat makefile  | bat
+ls
+vimcat make
+vimcat makefile 
+vim makefile 
+ls
+history 
+history  | grep fzf
+fzf --preview="bat --color=always {}"
+cd fc/transformer-pipeline/
+fzf --preview="bat --color=always {}"
+fzf --preview="vimcat {}"
+ls
+vimcat build.sh 
+vimcat -u ~/.vimrc build.sh 
+fzf --preview="vimcat -u ~/.vimrc {}"
+fzf --preview="vimcat -u /home/gjs/.vimrc {}"
+type vimcat
+fzf --preview="vcat -u /home/gjs/.vimrc {}"
+fzf --preview="vimcat  {}"
+fzf --preview="vimcat {}"
+vimpager build.sh 
+fzf --preview="vimpager {}"
+fzf --preview="vimpage {}"
+fzf --preview="vimpager {}"
+vimpager --help
+fzf --preview="vimpager {}"
+fzf --preview="vimpager -N {}"
+vimpager -N build.sh
+vimpager --LINE-NUMBERS build.sh
+vimpager --help
+vimcat --help
+vimcat build.sh
+vimcat -c build.sh
+ls
+vimcat --help
+vimcat -x sync.sh 
+ls
+vimcat sync.sh 
+ls
+g
+ls
+cd ~
+vim .vimrc
+g
+vim .vimrc
+g
+vim .vimrc
+g
+git checkout -- .vimrc
+g
+vimcat --help
+vimcat -n sync.sh 
+cd fc/transformer-pipeline/
+"----------------------------Plug------------------------------"
+call plug#begin('~/.vim/plugged')
+Plug 'mhinz/vim-grepper'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+let g:fzf_action = {
+Plug 'katono/rogue.vim' 
+Plug 'johngrib/vim-game-snake'
+ls
+history | grep fzf
+fzf --preview="vimcat -n {}"
+fzf --preview="bat {}"
+fzf --preview="bat --color=always {}"
+fzf --preview="vimcat -n {}"
+fzf --preview="head -100 {} | vimcat -n"
+ls
+vimcat build.sh 
+type vimcat
+fzf --preview="head -100 {} | bat -n"
+fzf --preview="head -100 {} | bat --color='always'"
+fzf --preview="vimcat -n {} | head -100"
+fzf --preview="bat -n {} | head -100"
+fzf --preview="bat --color='always' {}"
+fd
+export FZF_DEFAULT_COMMAND='
+  (git ls-tree -r --name-only HEAD ||
+   find . -path "*/\.*" -prune -o -type f -print -o -type l -print |
+      sed s/^..//) 2> /dev/null'
+fzf
+echo $FZF_DEFAULT_COMMAND 
+echo $_fzf_orig_completion_awk
+export FZF_DEFAULT_COMMAND='
+  (git ls-tree -r --name-only HEAD ||
+   find . -path "*/\.*" -prune -o -type f -print -o -type l -print |
+echo $FZF_DEFAULT_COMMAND=
+echo $FZF_DEFAULT_COMMAND
+export FZF_DEFAULT_OPTS='--preview="bat --color=always {}"'
+fzf
+g
+ag
+ls
+export FZF_DEFAULT_OPTS='--preview="bat --color=always {}"'
+vim .bazsh
+vim .bazh
+vim .bash
+ls
+g
+history | grep fzf
+ls
+cd ~
+vim .bashrc
+ls
+fzf
+cd ..
+cd ~/gh/
+top
+man fzf
+cd fc/transformer-pipeline/
+cd resources/algorithm
+ls
+cd ~
+cd fc/transformer-pipeline/src/module/vt2
+cd ~
+ls
+cd ~
+ls
+cd fc/transformer-pipeline/
+eog src/device/global_init 
+cd proto
+ls
+cd ..
+ls
+cd resources/algorithm/marking_detector/A451
+cd -
+dirs
+dirs -p
+cd ..
+cd resources/algorithm/marking_detector/A451
+cd -
+dirs -p
+cd ~
+type cd
+ls
+cd fc/
+cd -
+cd ~
+command cd fc/
+cd -
+dirs -p
+cd ..
+cd -1
+dirs -p
+cd ~1
+cd f
+cd fc/
+cd ~1
+cd fc/transformer-pipeline/
+cd ~1
+cd ~1
+cd resources/algorithm/marking_detector/A451
+cd ~1
+cd ~2
+cd ~3
+d
+cd ~3
+cd ~4
+d
+cd ~5
+d
+cd ~4
+d
+cd ~1
+d
+cd algorithm/marking_detector/A451
+d
+cd ~1
+cd ~
+cd go
+cd ~
+vim .ssh/config 
+ssh gjs@10.0.10.63
+git ls-tree ** git ls-tree
+git ls-tree
+export FZF_DEFAULT_OPTS="--layout=reverse --inline-info"
+ls
+cd fc/transformer-pipeline/
+ls
+cd ..
+cd gh/
+echo $FZF_DEFAULT_OPTS 
+xport FZF_DEFAULT_OPTS="--layout=reverse --inline-info"
+export FZF_DEFAULT_OPTS="--layout=reverse --inline-info"
+xport FZF_DEFAULT_OPTS="--layout=reverse --inline-info"
+`__fzf_history__`
+`__fzfcmd_complete`
+`__fzfcmd`
+export FZF_DEFAULT_COMMAND='-m'
+echo $FZF_DEFAULT_OPTS 
+export FZF_DEFAULT_OPTS='-m'
+fzf -m
+echo $FZF_DEFAULT_OPTS 
+export FZF_DEFAULT_OPTS='--preview="bat --color=always {}" -m'
+export FZF_DEFAULT_OPTS='--preview="bat --color=always {}" -m '
+fzf -m
+cd ~
+ls
+cd ~
+ls
+c
+ls
