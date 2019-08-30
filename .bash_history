@@ -51445,3 +51445,22 @@ vim 1.cpp
 ls
 vim 2.cpp
 ls
+ls
+cd ~
+cd test/cpp/
+vim 2.cpp
+ls
+g
+git diff
+ls
+g
+git add -A
+g
+cd ~
+ls
+g
+./config.sh push
+git diff HEAD^ .vimrc
+git diff HEAD^ .dconf
+ls
+g

@@ -39,11 +39,11 @@ wrap-last-split-mode='word'
 [org/gnome/gedit/preferences/ui]
 statusbar-visible=true
 show-tabs-mode='auto'
-side-panel-visible=false
+side-panel-visible=true
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs/Downloads/artifacts%20(2)/deb/pipeline-1.0.1-8-gbc33d9e4-20190826164435/control'
-tree-view=false
+virtual-root='file:///home/gjs'
+tree-view=true
 root='file:///'
 
 [org/gnome/gedit/plugins]

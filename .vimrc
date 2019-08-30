@@ -129,11 +129,11 @@ set nocompatible
 set history=10000
 hi Error ctermbg=256
 hi goSpaceError ctermbg=256
-hi TabLineFill ctermfg=Black
-hi TabLineSel ctermfg=White ctermbg=Darkgrey
-hi TabLine ctermfg=Blue ctermbg=0
-hi Normal guibg=NONE ctermbg=NONE
-hi NonText ctermbg=NONE guibg=NONE
+" hi TabLineFill ctermfg=Black
+" hi TabLineSel ctermfg=White ctermbg=Darkgrey
+" hi TabLine ctermfg=Blue ctermbg=0
+" hi Normal guibg=NONE ctermbg=NONE
+" hi NonText ctermbg=NONE guibg=NONE
 let g:sidebar='NERD'
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
 runtime! ftplugin/man.vim
