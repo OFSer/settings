@@ -52066,3 +52066,162 @@ sudo apt remove bat
 bats
 apt show bats
 bat
+ctags
+ctags --help
+man ctags
+ls
+cd ~
+cd test/cpp/
+ls
+ctags 1.c
+cat 1.c
+tldr ctags
+man ctags
+s
+ls
+g
+cd ~
+cd test/
+ls
+cd cpp/
+vim tags 
+ls
+cd ~
+ls
+g
+git diff config.sh
+fzf
+ls
+g
+./config.sh push
+ls
+vim .vim/plugin/search.vim
+./config.sh push
+rg
+sudo snapt install rg
+sudo snap install rg
+sudo snap install ripgrep 
+sudo snap install ripgrep  --classic
+rg
+ag --help
+man ag
+vim .vimrc
+vim .vim
+vim .vimrc
+vim .vim
+ls
+bat --list-themes
+fzf --preview='head -$LINES {}'
+bat
+export FZF_CTRL_T_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null || cat {} || tree -C {}) 2> /dev/null | head -200'"
+fzf
+snap find bat
+snap find bat | grep bat
+bat
+cd ~/Downloads/
+rm -rf *
+wget https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/18566800-776c-11e9-9ca1-2e3add881182?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190830T065241Z&X-Amz-Expires=300&X-Amz-Signature=a12b72a5a4aa410f4c6ef30109212448cee107cc64dc88ab943a0d0dc60c1757&X-Amz-SignedHeaders=host&actor_id=41767615&response-content-disposition=attachment%3B%20filename%3Dbat_0.11.0_amd64.deb&response-content-type=application%2Foctet-stream
+ls
+rm -rf *
+wget 'https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/18566800-776c-11e9-9ca1-2e3add881182?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190830T065241Z&X-Amz-Expires=300&X-Amz-Signature=a12b72a5a4aa410f4c6ef30109212448cee107cc64dc88ab943a0d0dc60c1757&X-Amz-SignedHeaders=host&actor_id=41767615&response-content-disposition=attachment%3B%20filename%3Dbat_0.11.0_amd64.deb&response-content-type=application%2Foctet-stream'
+ls
+rm -rf *
+curl "https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/18566800-776c-11e9-9ca1-2e3add881182?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190830T065247Z&X-Amz-Expires=300&X-Amz-Signature=a3c7feec2590e10dbc43cc5b7eb4dc2002a7230a1cc5850424fe6ba24d776027&X-Amz-SignedHeaders=host&actor_id=41767615&response-content-disposition=attachment%3B%20filename%3Dbat_0.11.0_amd64.deb&response-content-type=application%2Foctet-stream" --output 1.deb
+ll
+sudo dpkg -i 1.deb
+bat
+cd ~
+vim config.sh 
+./config.sh install_bat
+bat
+ls
+g
+git diff .vimrc
+git diff
+./config.sh push
+ls
+cd test/bash/
+bat abcd
+cd ..
+ls
+bat README.md 
+cd ..
+ls
+cd test/cpp/
+bat 1.cpp
+ls
+bat --list-themes | fzf --preview="bat --theme={} --color=always /path/to/file"
+ls
+bat --list-themes | fzf --preview="bat --theme={} --color=always ."
+bat --list-themes | fzf --preview="bat --theme={} --color=always 1.cpp"
+ls
+cd ~
+ls
+ls
+ctags 1.c
+vim 1.c
+ctags --help | less
+ctags -R
+ls
+ag test
+rg
+ag
+rg
+ripgrep
+op
+top
+htop
+top
+cat /usr/share/dict/words
+cd ~/fc/transformer-pipeline/
+vim
+ls
+vim 
+fzf --preview
+fzf 
+fzf --preview
+fzf --preview-window 
+fzf --preview .gitlab-ci.yml 
+ls
+man fzf
+ls
+cd ~
+g
+cd ~
+g
+cd .config/
+cd ~
+bat --config-dir
+bat --help
+man bat
+command man man | bat
+man bat
+mkdir -p "$(bat --config-dir)/themes"
+cd "$(bat --config-dir)/themes"
+git clone https://github.com/greggb/sublime-snazzy
+ls
+bat cache --build
+bat --list-themes
+bat --list-themes | grep sublime
+cd ..
+ls
+mv themes/ syntaxes
+ls
+bat cache --build
+ls
+mv syntaxes/ themes
+ls
+bat cache --build
+bat --list-themes
+bat --list-themes | grep sna
+bat --list-themes | grep Sna
+ls
+cd themes/
+ls
+cd sublime-snazzy/
+ls
+vim Sublime\ Snazzy.tmTheme 
+type man
+export PAGER='vim -M +MANPAGER -c "set showtabline=1" -'
+ls
+bat README.md 
