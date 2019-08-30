@@ -52225,3 +52225,43 @@ type man
 export PAGER='vim -M +MANPAGER -c "set showtabline=1" -'
 ls
 bat README.md 
+ls
+bat main.go 
+ls
+cd ~/.config/bat/
+cd themes/
+cd sublime-snazzy/
+ls
+cd ~
+ls
+vim config.sh 
+g
+cd .config/bat/
+ls
+cd themes/
+ls
+cd sublime-snazzy/
+ls
+rm -rf .git
+ls
+cd ~
+ls
+d
+cd ~1
+rm screenshot.png 
+rm README.md 
+ls
+cd ~
+ls
+./config.sh push
+ls
+g
+git diff HEAD^
+ls
+g
+cd fc/transformer-pipeline/
+vim build
+vim build.sh
+fzf
+fzf --preview 'bat {}'
+ls

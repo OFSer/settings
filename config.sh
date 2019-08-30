@@ -75,6 +75,10 @@ install_vim(){
 	sudo apt install -y cmake python-dev python3-dev ctags gcc g++ clang libclang-dev
 	vim -c "PlugInstall" -c "q!" -c "q!"
 	(cd ~/.vim/plugged/YouCompleteMe && python3 install.py --all)
+	mkdir -p ~/gh && cd ~/gh
+	git clone git://github.com/rkitover/vimpager
+	cd vimpager
+	sudo make install-deb
 }
 install_chrome(){
 	sudo apt install -y google-chrome-stable
