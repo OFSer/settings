@@ -106,6 +106,7 @@ Plug 'chinnkarahoi/vim-colorschemes'
 Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 let g:mkdp_auto_close = 0
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 silent! color neodark

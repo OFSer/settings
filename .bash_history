@@ -52645,3 +52645,177 @@ cd ~
 ls
 c
 ls
+ls
+fzf
+cd ~
+cd fc/transformer-pipeline/src/device/global_init/
+cd ~
+cd fc/transformer-pipeline/build/CMakeFiles/test_camera_service.dir/
+ls
+cd ~
+ls
+cd /home/gjs/gh/opencv_contrib/modules/ovis/
+ls
+export FZF_COMPLETION_TRIGGER=''
+export FZF_COMPLETION_TRIGGER='<TAB>'
+ls
+export FZF_COMPLETION_TRIGGER=''
+complete -F _fzf_path_completion -o default -o bashdefault ag
+cd ~
+export FZF_COMPLETION_TRIGGER='**'
+fd
+i fdclone
+fd
+complete | grep _fzf
+j
+cd fc/transformer-pipeline/deb/deb/etc/
+cd ~
+cd fc/transformer-pipeline/
+vim
+ls
+cd ~/test/cpp/
+ls
+vim 1.cpp
+ls
+vim tag
+ctags -R
+vim tags 
+ls
+cd ~
+ls
+ccls
+clangd
+gopls
+clangd
+clang
+man clangd
+snap info clangd
+bash-language-server
+snap info bash-language-server
+fzf
+ls
+g
+vim .bashrc
+vim .bash
+cd .config/coc/
+ls
+ll
+du -hd1
+ls
+cd extensions/
+ls
+ag
+ag *
+ls
+vimcat db.json 
+bat db.json 
+bat *
+cat *
+bat *
+vimcat *
+ls
+cd ~
+ls
+fzf
+s
+lks
+ls
+g
+fzf --layout=reverse --inline-info
+fzf --layout=reverse 
+fzf --layout=reverse --inline-info
+ls
+cd fc/transformer-pipeline/
+ag test
+ls
+ag test | fzf
+vim $(fzf --height 40% --reverse)
+ls
+g
+cd ~
+g
+git diff .bash
+fzf --help
+g
+git diff
+g
+ls
+vim .vimrc
+g
+git diff .config/fcitx/profile
+ls
+vim config.sh 
+vim .bash
+g
+./config.sh push
+cd fc/transformer-pipeline/
+vim
+ls
+vim build
+vim build.sh 
+cd ~
+ls
+vim .vimrc
+history | grep ag
+vim config.sh 
+ls
+cd fc/
+cd ~/test/go/mock/
+vim main.go 
+ls
+cd ~
+p
+d
+cd ~1
+d
+d | bat
+ls
+c
+d
+echo $BAT_THEME
+export BAT_THEME="TwoDark"
+vim main.go 
+bat --config-dir
+vim main.go 
+bat --list-theme
+bat --list-themes
+cd ~
+vim .bash
+vim .vimrc
+curl -sL install-node.now.sh/lts | bash
+curl -sL install-node.now.sh/lts | sudo bash
+vim .vimrc
+ls
+g
+ls
+killall -9 dota 
+killall -9 dota2
+nvidia-smi
+emacs
+steam
+ls
+cd fc/
+type __fzf_history__ 
+type __fzf_history__  | bat
+bat --help
+bat --help | less
+bat --help 
+bat --help | type
+bat --help | grep type
+man bat
+type __fzf_history__  | bat
+type __fzf_history__  | bat --color=always
+man bat
+ls
+cd ~
+ls
+cd snap/
+ls
+ll
+sudo reboot
+nvidia-smi
+reboot
+g
+git diff .vimrc
+sudo apt remove --purge nvidia-*
+sudo reboot

@@ -449,23 +449,20 @@ inactive-shadow-radius=2
 launcher-hide-mode=0
 shadow-y-offset=1
 
-[org/compiz/profiles/unity-lowgfx/plugins/wall]
-thumb-highlight-gradient-shadow-color='#dfdfdfff'
-arrow-base-color='#e6e6e6d9'
-arrow-shadow-color='#dcdcdcd9'
-slide-duration=0.0
+[org/compiz/profiles/unity-lowgfx/plugins/composite]
+refresh-rate=76
 
 [org/compiz/profiles/unity-lowgfx/plugins/opengl]
 texture-filter=0
-
-[org/compiz/profiles/unity-lowgfx/plugins/grid]
-animation-duration=0
-draw-stretched-window=false
 
 [org/compiz/profiles/unity-lowgfx/plugins/animation]
 unminimize-effects=['animation:Glide 2']
 close-matches=['((type=Normal | Unknown) | name=sun-awt-X11-XFramePeer | name=sun-awt-X11-XDialogPeer) & !(role=toolTipTip | role=qtooltip_label) & !(type=Normal & override_redirect=1) & !(name=gnome-screensaver) & !(name=gnome-screenshot)', '((type=Menu | PopupMenu | DropdownMenu | Combo | Dialog | ModalDialog | Normal) & !(class=\\.exe$))', '(type=Tooltip | Notification | Utility) & !(name=compiz) & !(title=notify-osd)']
 open-matches=['((type=Normal | Unknown) | name=sun-awt-X11-XFramePeer | name=sun-awt-X11-XDialogPeer) & !(role=toolTipTip | role=qtooltip_label) & !(type=Normal & override_redirect=1) & !(name=gnome-screensaver)', '((type=Menu | PopupMenu | DropdownMenu | Combo | Dialog | ModalDialog | Normal) & !(class=\\.exe$))', '(type=Tooltip | Notification | Utility) & !(name=compiz) & !(title=notify-osd)']
+
+[org/compiz/profiles/unity-lowgfx/plugins/grid]
+animation-duration=0
+draw-stretched-window=false
 
 [org/compiz/profiles/unity-lowgfx/plugins/move]
 mode=2
@@ -486,7 +483,7 @@ run-key='Disabled'
 ground-color1='#b3b3b3cc'
 expo-animation=3
 ground-color2='#b3b3b300'
-x-offset=70
+x-offset=56
 
 [org/compiz/profiles/unity-lowgfx/plugins/staticswitcher]
 background-color='#333333d9'
@@ -496,6 +493,12 @@ hsize=2
 outputs=['640x480+0+0']
 vsize=2
 active-plugins=['core', 'composite', 'opengl', 'place', 'regex', 'resize', 'session', 'snap', 'vpswitch', 'wall', 'workarounds', 'compiztoolbox', 'copytex', 'fade', 'grid', 'imgpng', 'mousepoll', 'move', 'scale', 'unitymtgrabhandles', 'expo', 'ezoom', 'unityshell']
+
+[org/compiz/profiles/unity-lowgfx/plugins/wall]
+thumb-highlight-gradient-shadow-color='#dfdfdfff'
+arrow-base-color='#e6e6e6d9'
+arrow-shadow-color='#dcdcdcd9'
+slide-duration=0.0
 
 [org/compiz/profiles/unity-lowgfx/plugins/fade]
 fade-mode=1
@@ -532,9 +535,6 @@ edge-responsiveness=6.5129494667053223
 inactive-shadow-color='#000000a5'
 launcher-hide-mode=0
 
-[org/compiz/profiles/unity/plugins/composite]
-refresh-rate=50
-
 [org/compiz/profiles/unity/plugins/opengl]
 texture-filter=2
 
@@ -563,7 +563,6 @@ x-offset=70
 background-color='#333333d9'
 
 [org/compiz/profiles/unity/plugins/core]
-hsize=1
 outputs=['1920x1080+1920+0', '1920x1080+0+0']
 vsize=2
 active-plugins=['core', 'composite', 'opengl', 'place', 'regex', 'resize', 'session', 'snap', 'vpswitch', 'wall', 'animation', 'commands', 'compiztoolbox', 'fade', 'grid', 'imgpng', 'mousepoll', 'move', 'scale', 'workarounds', 'expo', 'ezoom', 'switcher', 'unityshell']
@@ -599,10 +598,10 @@ places="{u'101220601': '\\xe5\\xae\\x89\\xe5\\xba\\x86', '101010100': '\\xe5\\x8
 
 [apps/update-manager]
 first-run=false
-launch-time=int64 1566327856
+launch-time=int64 1567233744
 window-height=540
 show-details=true
-launch-count=16
+launch-count=17
 window-width=1008
 
 [com/canonical/indicator/datetime]
@@ -649,12 +648,12 @@ regular-auto-launch-interval=14
 release-check-time=uint32 1567131940
 
 [com/ubuntu/user-interface]
-scale-factor={'HDMI-0': 10, 'DP-4': 10}
+scale-factor={'HDMI-1': 8, 'DP-3': 10}
 
 [com/ubuntu/user-interface/desktop]
 scaling-factor=uint32 1
-cursor-size=30
-text-scaling-factor=1.25
+cursor-size=24
+text-scaling-factor=1.0
 
 [com/ubuntu/sound]
 allow-amplified-volume=false
