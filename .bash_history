@@ -52953,3 +52953,59 @@ ls
 :q
 ls
 g
+g
+git diff
+ls
+g
+git diff .vimrc
+g
+ls
+g
+git add -A
+g
+git commit -am "upd"
+git push
+ls
+docker run -it vim bash
+ls
+cd dockerfiles/vim/
+vim Dockerfile 
+ls
+cd ~
+ls
+man dkms
+ls
+cd .vim/plugged/vim-colorschemes/colors/
+vim neodark.vim 
+cd ~
+ls
+cd .vim/
+vim plugged/vim-colorschemes/colors/neodark.vim 
+ls
+vim plugged/vim-colorschemes/colors/neodark.vim 
+ls
+cd plugin/
+vim tabline.vim 
+ls
+cd ..
+cd plugged/vim-colorschemes/colors
+ls
+g
+git commit -am "upd"
+git push
+cd ~/.vim/plugin/
+vim tabline.vim 
+ls
+vim tabline.vim 
+ls
+cd ~
+g
+./config.sh push
+vim .vim/plugged/vim-colorschemes/colors/neodark.vim 
+ls
+cd fc/transformer-pipeline/
+vim
+ls
+g
+cd ~
+g
