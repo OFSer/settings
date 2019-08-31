@@ -53009,3 +53009,21 @@ ls
 g
 cd ~
 g
+:q
+ls
+cd fc/transformer-pipeline/
+vim CMakeLists.txt 
+ls
+cd build/
+cmake ..
+ls
+cd build/
+ls
+cat compile_commands.json 
+cp compile_commands.json  ..
+ls
+cd build/
+ls
+mv compile_commands.json ../.
+ls
+cd ..

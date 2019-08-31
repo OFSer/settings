@@ -7,6 +7,11 @@ install_bat() {
 	bat cache --build
 	rm 1.deb
 }
+install_vim_coc() {
+	curl -sL install-node.now.sh/lts | bash
+	sudo snap install ccls --classic
+	pip install compiledb
+}
 snap_install(){
 	sudo snap install code --classic
 	sudo snap install electronic-wechat

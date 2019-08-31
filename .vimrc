@@ -37,24 +37,25 @@ Plug 'tpope/vim-fugitive'
 Plug 'chinnkarahoi/vim-find-files'
 let g:find_files_findprg = 'find . -type f -name "*$**"'
 
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
-Plug 'Valloric/YouCompleteMe', { 'do': 'python3 install.py --all' }
-Plug 'chinnkarahoi/vim-cmake-completion'
-nnoremap <silent> D :tab split \| YcmCompleter GoTo<cr>
-nnoremap <silent> d :YcmCompleter GoTo<cr>
-let g:go_def_mode='gopls'
-let g:go_info_mode='gopls'
-au FileType go nmap <buffer> D <Plug>(go-def-tab)
-au FileType go nmap <buffer> d :GoDef<CR>
-let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
-let g:ycm_confirm_extra_conf = 0
-let g:ycm_autoclose_preview_window_after_completion=1
-"let g:ycm_show_diagnostics_ui = 0
-set completeopt-=preview
-"let g:ycm_server_python_interpreter='/home/gjs/anaconda3/bin/python'
-let g:ycm_server_python_interpreter='/usr/bin/python3'
-"let g:ycm_semantic_triggers = {'haskell' : ['re!.']}
+"Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+"Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
+"Plug 'Valloric/YouCompleteMe', { 'do': 'python3 install.py --all' }
+"Plug 'chinnkarahoi/vim-cmake-completion'
+"nnoremap <silent> D :tab split \| YcmCompleter GoTo<cr>
+"nnoremap <silent> d :YcmCompleter GoTo<cr>
+"let g:go_def_mode='gopls'
+"let g:go_info_mode='gopls'
+"au FileType go nmap <buffer> D <Plug>(go-def-tab)
+"au FileType go nmap <buffer> d :GoDef<CR>
+"let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
+"let g:ycm_confirm_extra_conf = 0
+"let g:ycm_autoclose_preview_window_after_completion=1
+""let g:ycm_show_diagnostics_ui = 0
+"set completeopt-=preview
+""let g:ycm_server_python_interpreter='/home/gjs/anaconda3/bin/python'
+"let g:ycm_server_python_interpreter='/usr/bin/python3'
+""let g:ycm_semantic_triggers = {'haskell' : ['re!.']}
+
 Plug 'octol/vim-cpp-enhanced-highlight'
 
 Plug 'scrooloose/nerdtree'
@@ -107,6 +108,8 @@ Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 let g:mkdp_auto_close = 0
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+nnoremap <silent> D :tabedit % \| call CocAction('jumpDefinition')<cr>
+nnoremap <silent> d :call CocAction('jumpDefinition')<cr>
 call plug#end()
 
 silent! color neodark
