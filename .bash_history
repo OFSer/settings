@@ -52904,3 +52904,52 @@ git checkout HEAD~3 .dconf
 ls
 g
 vim config.sh 
+dkms
+dkms --help
+c dkms 
+c dkms  ' '
+c dkms  build ' '
+c dkms build 
+c dkms build ' '
+c 'dkms build '
+ls
+c ls --all  ' '
+ls
+c l
+ls
+g
+ls
+fzf
+ls
+cd ~
+ls
+vim config.sh 
+ls
+cat .bashrc 
+docker restart vim;docker exec -it vim bash
+docker container prune -f
+docker run -it -d --name vim vim bash
+docker images
+docker ps -l
+docker exec vim 
+docker exec vim  bash
+cd ~
+ls
+vim .bashrc
+ls
+vim config.sh 
+ls
+cd ~
+ls
+l
+ls
+g
+ls
+g
+git diff
+ls
+cd ~
+ls
+:q
+ls
+g
