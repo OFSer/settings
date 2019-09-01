@@ -900,3 +900,299 @@ vim -c "CocInstall -terminal"
 vim -c "CocInstall -sync coc-html | q"
 vim -c "CocInstall coc-html | q"
 vim -c "CocInstall -sync coc-html | q"
+ls
+cd 
+cd ~
+vim .vimrc
+ls
+jobs
+curl -sL install-node.now.sh/lts
+curl  install-node.now.sh/lts
+ls
+curl  install-node.now.sh/lts
+curl -sL install-node.now.sh/lts
+curl -sL install-node.now.sh/lts | bash
+ls
+cd test
+curl -sL install-node.now.sh/lts | bash
+ls
+cd ~
+vim config.sh 
+curl -sL install-node.now.sh/lts | bash
+sudo curl -sL install-node.now.sh/lts | bash
+curl --help
+sudo curl -sL install-node.now.sh/lts
+curl -sL install-node.now.sh/lts | bash -y
+curl -sL install-node.now.sh/lts | bash -c
+curl -sL install-node.now.sh/lts | bash -c -
+bash -c `curl -sL install-node.now.sh/lts`
+ls
+cat `curl -sL install-node.now.sh/lts`
+echo `curl -sL install-node.now.sh/lts`
+bash -c $(echo `curl -sL install-node.now.sh/lts`)
+ls
+curl -sL install-node.now.sh/lts | bash 
+curl -sL install-node.now.sh/lts | bash -s y
+curl -sL install-node.now.sh/lts | bash 
+curl -sL install-node.now.sh/lts | bash -s -- y
+curl -sL install-node.now.sh/lts | bash -s -- -y
+ls
+vim .vimrc
+g
+vim config.sh 
+./config.sh push
+ls
+cd .vim/plugged/
+rm -rf coc.nvim/
+cd ~
+vim config.sh 
+cd .vim/plugin/
+vim autocmd.vim 
+ls
+cd ~
+ls
+vim config.sh 
+fg
+ls
+vim config.sh 
+ls
+cd fc/transformer-pipeline/
+ls
+cd ..
+cd shmmsg/
+vim 
+ls
+vim conanfile.py 
+ls
+cd ~
+ls
+vim config.sh 
+ls
+fg
+vim
+ls
+cd .config/coc/
+cd extensions/
+cd node_modules/
+vim
+ls
+jobs
+cd ~
+cd ~1
+cd ~
+history 
+man bash
+cd /home/gjs/.config/coc/extensions/node_modules
+ls
+cd /home/gjs
+cd /home/gjs/.config/coc/extensions/node_modules
+history 
+cd ~
+cd ~_apt
+ls
+g
+vim .vimrc
+vim .vim
+vim .vimrc
+g
+git diff .vimrc
+ls
+vim 
+ls
+vim -c "CocInstall -sync -terminal coc-html | q"
+ls
+cd fc/
+rm aruco
+rm aruco.tar 
+jobs
+g
+cd ~
+g
+cd .config/coc/li
+cd .config/coc/
+cat lists 
+cd ~
+ssh gjs@dl-5
+\ssh gjs@dl-5
+ssh6t0
+ssh60
+ls
+vim 
+vim .vimrc
+cd .vim/
+vim
+vim .bash
+cd ~
+vim .bash
+ls
+cd .config/coc/
+cd extensions/
+cd node_modules/
+jobs
+cd ~~
+cd ~
+vim .vimrc
+cd .vim/plugged/coc.nvim/
+vim
+cd ~
+ls
+vim .vimrc
+ls
+fzf
+ls
+cd ~
+vim .vimrc
+cd .vim
+vim
+ls
+cd ~
+ls
+g
+./config.sh push
+ls
+cd fc/
+cd ..
+vim .vimrc
+cd .vim/
+ls
+cd plugged/
+cd vim-colorschemes/
+cd colors/
+mkdir -p .vim/colors
+ls
+rm -r .vim/colors/
+mkdir -p ~/.vim/colors
+cp neodark.vim ~/.vim/colors/
+cd ~/.vim/colors/
+vim neodark.vim 
+mv konomi.vim 
+mv neodark.vim konomi.vim 
+cd ~
+vim .vimrc
+cd .vim/
+vim
+cd ~
+g
+./config.sh push
+vim .vimrc
+ls
+cd fc/
+cd iot-daemon/
+cd ~
+go --version
+go version
+vim config.sh 
+sudo snap find go
+sudo snap find golang
+apt search golang
+apt search golang | less
+apt search golang | bat
+apt search golang | vimpager 
+apt search golang 
+gople
+gopls
+pip install python-language-server
+vim .vimrc
+cd ~
+cd .vim/
+vim
+cd ~
+cd .git/
+du -hd
+du -hd1
+cd ..
+ls
+cd .config/coc/extensions/
+ls
+cd node_modules/
+ls
+cd ~
+ls
+vim .gitignore 
+cd ~1
+ls
+cd ..
+ls
+cat db.json 
+cat package.json 
+cd node_modules/
+cd ..
+cd node_modules/
+ls
+cd coc-highlight/
+vim
+ls
+cd ..
+cd ~
+cd fc/shmmsg/
+vim compile_commands.json 
+ls
+vim
+cd ..
+cd flaw_checker/
+vim
+cd ..
+cd transformer-pipeline/
+vim
+ls
+cd ~
+ls
+vim config.sh 
+ls
+vim .vimrc
+vim config.sh 
+jobs
+fg 2
+g
+jobs
+fg
+jobs
+g
+vim .vimrc
+g
+cd .config/coc/extensions/coc-yank-data/
+ls
+cd ..
+ls
+cd coc-yank-data/
+ls
+cd ..
+cat db.json 
+cd ..
+ls
+cd extensions/
+ls
+cd ..
+git rm --cached extensions/
+git rm --cached -r extensions/
+g
+cd ~
+g
+git reset HEAD .
+g
+vim .gitignore 
+g
+git diff .vim/plugin/autocmd.vim
+git diff config.sh
+vim config.sh 
+ls
+g
+git diff .config/coc/extensions/package.json
+./config.sh push
+g
+vim config.sh 
+g
+git diff config.sh
+./config.sh push
+cd fc/
+cd shmmsg/
+vim
+ls
+vim 
+ls
+cd ..
+cd aruco/
+ls
+vim tools.py
+ls
+vim tools.py

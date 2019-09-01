@@ -26,3 +26,4 @@ export TERM=xterm-256color
 # export PAGER='vim -M +MANPAGER -c "set showtabline=1" -'
 export BAT_THEME="TwoDark"
 # export FZF_DEFAULT_OPTS='--preview="bat --color=always {}"'
+export FZF_DEFAULT_OPTS="--history=$HOME/.fzf_history"

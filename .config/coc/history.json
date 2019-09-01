@@ -12,5 +12,15 @@
     "%2Fhome%2Fgjs%2Ffc%2Ftransformer-pipeline": [
       "json"
     ]
+  },
+  "lists": {
+    "%2Fhome%2Fgjs%2Ffc%2Fshmmsg": [
+      "bar"
+    ]
+  },
+  "diagnostics": {
+    "%2Fhome%2Fgjs%2Ffc%2Faruco": [
+      ":q"
+    ]
   }
 }

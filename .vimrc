@@ -27,9 +27,18 @@ call plug#begin('~/.vim/plugged')
 				\ <SID>check_back_space() ? "\<TAB>" :
 				\ coc#refresh()
 	inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+	inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 	function! s:check_back_space() abort
 		let col = col('.') - 1
 		return !col || getline('.')[col - 1]  =~# '\s'
+	endfunction
+	nnoremap <silent> K :call <SID>show_documentation()<CR>
+	function! s:show_documentation()
+		if (index(['vim','help'], &filetype) >= 0)
+			execute 'h '.expand('<cword>')
+		else
+			call CocAction('doHover')
+		endif
 	endfunction
 
 
@@ -55,7 +64,7 @@ call plug#begin('~/.vim/plugged')
 " indent 
 	Plug 'Yggdroot/indentLine'
 	let g:indentLine_fileTypeExclude = ['nerdtree']
-	" let g:indentLine_fileType = ['python', 'go', 'cpp', 'yaml', 'json']
+	let g:indentLine_fileType = ['python', 'go', 'cpp', 'yaml', 'json']
 
 " side panel
 	Plug 'scrooloose/nerdtree'
@@ -106,6 +115,7 @@ set ai
 set nu 
 set ts=2
 set sw=2
+set hidden
 set softtabstop=2
 set ma
 set mouse=a
@@ -114,7 +124,7 @@ set nocompatible
 set incsearch
 set ignorecase
 set cursorline 
-set completeopt-=preview
+" set completeopt-=preview
 " set cursorcolumn
 set wildmenu
 "set statusline=%1*
@@ -124,13 +134,15 @@ set noshowmode
 set noruler
 set ttimeoutlen=0
 set timeoutlen=0
-set updatetime=50
+set updatetime=100
 set splitbelow
 set diffopt+=vertical
 set diffopt+=foldcolumn:0
 set noswapfile
 set nocompatible
 set history=10000
+set nobackup
+set nowritebackup
 syntax on
 filetype plugin indent on  
 silent! color konomi
