@@ -1,4 +1,3 @@
-"----------------------------Plug------------------------------"
 call plug#begin('~/.vim/plugged')
 " summary
 	Plug 'tpope/vim-commentary'
@@ -80,7 +79,6 @@ call plug#begin('~/.vim/plugged')
 			\ "Unknown"   : "?"
 			\ }
 
-
 " translat
 	" Plug 'ianva/vim-youdao-translater'
 	Plug 'voldikss/vim-translate-me'
@@ -92,7 +90,6 @@ call plug#begin('~/.vim/plugged')
 " maybe
 	" Plug 'SirVer/ultisnips'
 	" Plug 'honza/vim-snippets'
-
 
 call plug#end()
 

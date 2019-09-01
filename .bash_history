@@ -500,3 +500,4 @@ ls
 vim .bash
 ls
 g
+pylint --generate-rcfile > .pylintrc

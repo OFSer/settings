@@ -74,3 +74,4 @@
 .local/share/man
 .config/ubuntukylin/
 .config/dlv/
+.config/coc/extensions/node_modules/
