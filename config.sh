@@ -6,6 +6,7 @@ install_bat() {
 	sudo dpkg -i 1.deb
 	bat cache --build
 	rm 1.deb
+	cd ~
 }
 install_vim_coc() {
 	sudo snap install ccls --classic
@@ -85,6 +86,7 @@ install_vim(){
 	git clone git://github.com/rkitover/vimpager
 	cd vimpager
 	sudo make install-deb
+	cd ~
 }
 install_chrome(){
 	sudo apt install -y google-chrome-stable
