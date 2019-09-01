@@ -676,5 +676,34 @@
     },
     "INTERPRETERS_CACHE_v3_PipEnvService": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/gjs/.config/coc/extensions/node_modules/coc-python": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:e4daad5c677403ade87dbe5e8e3cf60c": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:e4daad5c677403ade87dbe5e8e3cf60c": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/gjs/.config/coc/extensions/node_modules/coc-python": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.6.8-final",
+        "major": 3,
+        "minor": 6,
+        "patch": 8,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.6.8-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "25402917bdc0eaf27a98fcce8159a642c1c227c615f9d042c2a0b4afa3685047575f783ab959134148708626d0a4baabd51ec7811682dff2760feadeeb9c22bd",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
   }
 }

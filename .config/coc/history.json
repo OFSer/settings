@@ -1,1 +1,13 @@
-{}
+{
+  "commands": {
+    "%2Fhome%2Fgjs%2Ffc%2Faruco": [
+      "python",
+      "python.view",
+      "python.ter",
+      "linter",
+      "enable",
+      "lint",
+      "lin"
+    ]
+  }
+}

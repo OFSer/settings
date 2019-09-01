@@ -1,1 +1,5 @@
+python.setLinter
+python.runLinting
+python.enableLinting
+python.execInTerminal
 workspace.clearWatchman

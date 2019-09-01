@@ -501,3 +501,8 @@ vim .bash
 ls
 g
 pylint --generate-rcfile > .pylintrc
+/usr/bin/python3 /home/gjs/fc/aruco/calibrate.py
+ls
+g
+git diff
+ls
