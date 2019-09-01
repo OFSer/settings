@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "coc-highlight": ">=1.2.4",
-    "coc-python": ">=1.2.6"
+    "coc-python": ">=1.2.6",
+    "coc-vimlsp": ">=0.3.7"
   }
 }

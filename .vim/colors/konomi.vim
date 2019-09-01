@@ -376,3 +376,11 @@ hi link SignifySignDelete GitGutterDelete
 set background=dark
 hi Normal guibg=NONE ctermbg=NONE
 hi Search guibg=NONE ctermbg=NONE
+highlight CocWarningSign ctermfg=9  guifg=#ff0000
+highlight CocWarningHighlight ctermfg=9  guifg=#ff0000
+highlight CocWarningFloat ctermfg=9  guifg=#ff0000
+highlight CocErrorHighlight ctermfg=1  guifg=#ff0000
+highlight CocErrorFloat ctermfg=1  guifg=#ff0000
+highlight CocErrorSign ctermfg=1  guifg=#ff0000
+highlight CocInfoLine ctermfg=1
+call s:hi('CocFloating',  '' , s:base3,         '')

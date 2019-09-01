@@ -506,3 +506,7 @@ ls
 g
 git diff
 ls
+s bandit
+ls
+gencdb 
+ls

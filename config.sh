@@ -17,6 +17,7 @@ snap_install(){
 	sudo snap install electronic-wechat
 	sudo snap install nethack
 	sudo snap install cataclysm
+	sudo snap install bash-language-server
 }
 install_wd(){
 	pip3 install bs4
