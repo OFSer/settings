@@ -10,14 +10,10 @@ esac
 
 # config load
 function load {
-	[ -f $1 ] && . $1
+	cd $1
+	for i in *.sh;do
+		. $i
+	done
 }
-load $HOME/.bash/env.sh
-load $HOME/.bash/PS1.sh
-load $HOME/.bash/feature.sh
-load $HOME/.bash/alias.sh
-load $HOME/.bash/mycmd.sh
-load $HOME/.bash/ycm.sh
-
-
+load $HOME/.bash
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash

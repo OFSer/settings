@@ -1,4 +1,4 @@
-genycm(){
+genycm() {
 	[ -f build/compile_commands.json ] || {
 		return
 	}
@@ -12,3 +12,15 @@ genycm(){
 		<(sed -n '4,$p' ~/.ycm_extra_conf.py) > .ycm_extra_conf.py
 }
 
+gencdb() {
+	target=`pwd`
+	if [ -f CMakeLists.txt ]; then
+		build=/tmp/$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13)
+		mkdir -p $build && command cd $build
+		cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=on -DCMAKE_BUILD_TYPE=Release $target
+		cp compile_commands.json $target
+	elif [ -f makefile -o -f Makefile ]; then
+		compiledb -n make
+	fi
+	command cd $target
+}
