@@ -19,7 +19,7 @@ call plug#begin('~/.vim/plugged')
 	" Plug 'jackguo380/vim-lsp-cxx-highlight'
 
 " complete	
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': 'curl -sL install-node.now.sh/lts \| sudo bash -s -- -y'}
 	nnoremap <silent> D :tabedit % \| call CocAction('jumpDefinition')<cr>
 	nnoremap <silent> d :call CocAction('jumpDefinition')<cr>
 	inoremap <silent><expr> <TAB>

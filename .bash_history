@@ -849,3 +849,41 @@ ls
 cd ..
 cd ~
 g
+ls
+cd ~
+cd fc/shmmsg/
+vim
+ls
+cd ~
+cd ~
+vim .vimrc
+vim .vimr
+vim .vim
+ls
+cd ~
+vim .vimrc
+vim .vim
+lc
+ls
+cd ~
+cd fc/shmmsg/
+vim
+ls
+vim compile_commands.json 
+vim .vimrc
+ls
+cd .vim/plugged/
+cd vim-lsp-cxx-highlight
+ls
+vim
+ls
+cd ~
+vim .bashrc
+ls
+cd fc/shmmsg/
+vim
+cd ~
+g
+./config.sh push
+bash --help
+man bash

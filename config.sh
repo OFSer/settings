@@ -8,7 +8,6 @@ install_bat() {
 	rm 1.deb
 }
 install_vim_coc() {
-	curl -sL install-node.now.sh/lts | bash
 	sudo snap install ccls --classic
 	pip install compiledb
 }

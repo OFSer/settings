@@ -8,6 +8,9 @@
       "enable",
       "lin",
       "lint"
+    ],
+    "%2Fhome%2Fgjs%2Ffc%2Ftransformer-pipeline": [
+      "json"
     ]
   }
 }
