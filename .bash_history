@@ -887,3 +887,16 @@ g
 ./config.sh push
 bash --help
 man bash
+ls
+vim -c "CocInstall|q"
+vim -c "CocInstall" -c "q"
+vim -c "CocInstall coc-html | q"
+vim -c "PlugInstall"
+vim -c "CocInstall"
+im
+vim
+vim -c "CocInstall -sync"
+vim -c "CocInstall -terminal"
+vim -c "CocInstall -sync coc-html | q"
+vim -c "CocInstall coc-html | q"
+vim -c "CocInstall -sync coc-html | q"

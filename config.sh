@@ -10,6 +10,7 @@ install_bat() {
 install_vim_coc() {
 	sudo snap install ccls --classic
 	pip install compiledb
+	vim -c "CocInstall -sync | q"
 }
 snap_install(){
 	sudo snap install code --classic
