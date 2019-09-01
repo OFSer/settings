@@ -22,3 +22,21 @@ set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.
 command -nargs=0 Fileopen silent! exec 'call feedkeys(":tabnew '.expand('%').'")'
 nnoremap o :Fileopen<cr>
 
+command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
+runtime! ftplugin/man.vim
+let g:ft_man_open_mode = 'tab'
+command! -bang -nargs=* Ag
+  \ call fzf#vim#ag(<q-args>,
+  \                 <bang>0 ? fzf#vim#with_preview('up:60%')
+  \                         : fzf#vim#with_preview('right:50%:hidden', '?'),
+  \                 <bang>0)
+
+command! -bang -nargs=? -complete=dir Files
+  \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
+
+nnoremap g :Ag<cr>
+nnoremap G :Ag!<cr>
+nnoremap f :Files<cr>
+nnoremap F :Files!<cr>
+
+

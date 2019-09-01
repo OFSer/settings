@@ -498,3 +498,5 @@ vim .bash
 gencdb
 ls
 vim .bash
+ls
+g

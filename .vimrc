@@ -96,12 +96,6 @@ call plug#begin('~/.vim/plugged')
 
 call plug#end()
 
-silent! color neodark
-let g:neodark#use_custom_terminal_theme=1
-let g:neodark#italics = 1
-" silent! color gruvbox
-
-syntax on
 set ai
 set nu 
 set ts=2
@@ -118,8 +112,7 @@ set completeopt-=preview
 " set cursorcolumn
 set wildmenu
 "set statusline=%1*
-set statusline=%1*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%=>
-let g:NERDTreeStatusline="%1*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%=>"
+set vop+=folds
 set laststatus=0
 set noshowmode
 set noruler
@@ -132,25 +125,8 @@ set diffopt+=foldcolumn:0
 set noswapfile
 set nocompatible
 set history=10000
+syntax on
+filetype plugin indent on  
+silent! color konomi
 hi Error ctermbg=256
 hi goSpaceError ctermbg=256
-filetype plugin indent on  
-
-let g:sidebar='NERD'
-command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
-runtime! ftplugin/man.vim
-let g:ft_man_open_mode = 'tab'
-command! -bang -nargs=* Ag
-  \ call fzf#vim#ag(<q-args>,
-  \                 <bang>0 ? fzf#vim#with_preview('up:60%')
-  \                         : fzf#vim#with_preview('right:50%:hidden', '?'),
-  \                 <bang>0)
-
-command! -bang -nargs=? -complete=dir Files
-  \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
-
-nnoremap g :Ag<cr>
-nnoremap G :Ag!<cr>
-nnoremap f :Files<cr>
-nnoremap F :Files!<cr>
-

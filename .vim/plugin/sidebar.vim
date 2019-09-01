@@ -1,3 +1,4 @@
+let g:sidebar='NERD'
 func Toggle()
 	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
 	if bufname('%') =~ g:sidebar && len(tabpagebuflist()) == 1
