@@ -1,117 +1,3 @@
-reboot
-nvidia-smi
-prime-select query
-prime-select nvidia
-sudo prime-select nvidia
-sudo prime-select intel
-sudo prime-select nvidia
-sudo reboot
-nvidia-smi
-sudo update-initramfs -u
-sudo apt remove --purge nvidia-*
-sudo update-initramfs -u
-sudo reboot
-sudo apt install nvidia-driver-430
-sudo update-initramfs -u
-lspci -k
-cat /var/crash/nvidia-dkms-430.0.crash
-sudo reboot
-sudo apt remove --purge nvidia-*
-sudo vim /etc/modprobe.d/blacklist-nouveau.conf
-echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/nouveau-kms.conf
-sudo update-initramfs -u
-sudo reboot
-sudo apt install nvidia-driver-430
-sudo reboot
-sudo vim /etc/modprobe.d/nouveau-kms.conf
-ls
-sudo update-initramfs -u
-sudo apt remove --purge nvidia-*
-sudo reboot
-sudo vim /etc/modprobe.d/blacklist-nouveau.conf
-sudo update-initramfs -u
-history | grep intel
-sudo prime-select intel
-sudo reboot
-gcc -v 
-ls
-cd /usr/bin/
-ls
-ll | grep gcc
-gcc-7
-gcc-7 -v
-ls
-sudo mv gcc gcc.bak
-cp gcc-7 gcc
-sudo cp gcc-7 gcc
-gcc --version
-cd ~
-sudo apt install nvidia-driver-430 
-sudo reboot
-vim config.sh 
-history  | grep gsettings
-gsettings set com.ubuntu.user-interface.desktop text-scaling-factor 1.25
-nvidia-detector 
-g
-nvidia-detector smi
-lspci
-wtf VGA
-wtf WTF
-history | grep crash
-cat /var/crash/nvidia-dkms-430.0.crash
-bat /var/crash/nvidia-dkms-430.0.crash
-vim /var/crash/nvidia-dkms-430.0.crash
-bat /var/crash/nvidia-dkms-430.0.crash
-pkill dconf-service
-dconf load / < .dconf
-nvidia-smi
-ls
-g
-ls
-g
-git diff
-ls
-g
-git log
-git checkout HEAD~3 .dconf
-ls
-g
-vim config.sh 
-dkms
-dkms --help
-c dkms 
-c dkms  ' '
-c dkms  build ' '
-c dkms build 
-c dkms build ' '
-c 'dkms build '
-ls
-c ls --all  ' '
-ls
-c l
-ls
-g
-ls
-fzf
-ls
-cd ~
-ls
-vim config.sh 
-ls
-cat .bashrc 
-docker restart vim;docker exec -it vim bash
-docker container prune -f
-docker run -it -d --name vim vim bash
-docker images
-docker ps -l
-docker exec vim 
-docker exec vim  bash
-cd ~
-ls
-vim .bashrc
-ls
-vim config.sh 
-ls
 cd ~
 ls
 l
@@ -557,3 +443,58 @@ gencdb
 ls
 cat compile_commands.json 
 vim compile_commands.json 
+cd ~
+vim .bash
+cd fc/iot-daemon/
+vim main.go 
+cd ~
+vim .bash
+ls
+g
+vim
+vim .bash
+g
+./config.sh push
+git push --set-upstream origin coc
+cd ~/fc/shmmsg/
+rm compile_commands.json 
+ls
+cd ~/test/make/
+rm compile_commands.json 
+mv makefile Makefile
+gencdb 
+ls
+type gencdb
+type gencdb | bat
+gencdb 
+ls
+cd ~
+cd fc/shmmsg/
+vim
+ls
+cd ..
+cd iot-daemon/
+vim
+vim main.go 
+cd ..
+cd shmmsg/
+vim
+ls
+cd ..
+cd ~
+ls
+cd shmmsg/
+cd ..
+cd fc/transformer-pipeline/
+vim
+cd ..
+cd flaw_checker/
+vim
+ls
+cd ..
+vim
+cd ~
+vim .bash
+gencdb
+ls
+vim .bash

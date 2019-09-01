@@ -10,8 +10,7 @@ esac
 
 # config load
 function load {
-	cd $1
-	for i in *.sh;do
+	for i in $1/*.sh;do
 		. $i
 	done
 }

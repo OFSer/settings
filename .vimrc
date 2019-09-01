@@ -37,7 +37,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'chinnkarahoi/vim-find-files'
 let g:find_files_findprg = 'find . -type f -name "*$**"'
 
-"Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+" Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 "Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 "Plug 'Valloric/YouCompleteMe', { 'do': 'python3 install.py --all' }
 "Plug 'chinnkarahoi/vim-cmake-completion'
@@ -55,8 +55,8 @@ let g:find_files_findprg = 'find . -type f -name "*$**"'
 ""let g:ycm_server_python_interpreter='/home/gjs/anaconda3/bin/python'
 "let g:ycm_server_python_interpreter='/usr/bin/python3'
 ""let g:ycm_semantic_triggers = {'haskell' : ['re!.']}
+" Plug 'octol/vim-cpp-enhanced-highlight'
 
-Plug 'octol/vim-cpp-enhanced-highlight'
 
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
@@ -110,6 +110,8 @@ let g:mkdp_auto_close = 0
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 nnoremap <silent> D :tabedit % \| call CocAction('jumpDefinition')<cr>
 nnoremap <silent> d :call CocAction('jumpDefinition')<cr>
+Plug 'jackguo380/vim-lsp-cxx-highlight'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 silent! color neodark
@@ -169,3 +171,4 @@ hi Error ctermbg=256
 hi goSpaceError ctermbg=256
 " hi Normal guibg=NONE ctermbg=NONE
 " hi NonText ctermbg=NONE guibg=NONE
+

@@ -1,3 +1,5 @@
 {
-  "dependencies": {}
+  "dependencies": {
+    "coc-highlight": ">=1.2.4"
+  }
 }
