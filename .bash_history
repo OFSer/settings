@@ -510,3 +510,342 @@ s bandit
 ls
 gencdb 
 ls
+history | grep cmake
+cd fc/shmmsg/
+cd build/
+rm -rf *
+cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=on -DCMAKE_BUILD_TYPE=Release ..
+ls
+cd ~
+vim .vimrc
+vim .vim
+cd fc/transformer-pipeline/
+cd ..
+cd fc/
+cd detection-machine-daemon/
+vim main.py 
+cd ~
+ls
+cd fc/shmmsg/
+vim
+ls
+cd ..
+cd detection-machine-daemon/
+vim main.py 
+cd ~/fc/shmmsg/
+ls
+cd ..
+cd iot-daemon/
+vim main.go 
+cd ..
+cd detection-machine-daemon/
+vim main.py 
+ls
+cd ~
+ls
+cd ~1
+cd ..
+cd iot-daemon/
+vim main.go 
+ls
+vim main.go 
+cd ~
+ls
+cd fc/detection-machine-daemon/
+cd ..
+cd aruco/
+vim
+vim tools.py
+ls
+cd ~
+ls
+cd fc/
+cd ~
+vim .vimrc
+vim .vim
+ls
+cd ~
+vim .vimrc
+ls
+g
+git diff
+./config.sh push
+ls
+vim .vimrc
+ls
+vim .vimrc
+vim .vi
+vim .vim
+ls
+g
+git diff HEAD^
+git diff HEAD^ .dconf
+htop
+ls
+g
+ls
+g
+git diff
+cd ~
+ls
+g
+vim .bashrc
+ls
+cd test/sh/
+vim 1.sh
+ls
+g
+cd ~
+vim .vimrc
+cd fc/iot-daemon/
+vim main.go 
+ls
+vim main.go 
+cd ..
+cd transformer-pipeline/
+vim build.sh 
+ls
+vim
+ls
+cd ..
+cd shmmsg/
+vim
+ls
+vim README.md 
+cd ~
+vim config.sh 
+ls
+cd fc/iot-daemon/
+vim main.go 
+ls
+cd ..
+cd flaw_checker/
+vim
+ls
+vim .gitlab-ci.yml 
+ls
+vim
+ls
+cd ~
+ls
+cd .vim/
+vim coc-settings.json 
+cd ~
+ls
+cd fc/
+ls
+cd python-aruco/
+vim aruco.
+vim aruco.py 
+cd ~
+ls
+pylint
+cd .config/coc/
+du -hd1
+ls
+cd extensions/
+ls
+vim package.json 
+ls
+vim db.json 
+cd node_modules/
+du -hl
+cd ..
+cd extensions/
+vim package.json 
+ls
+cd ..
+g
+ls
+cd extensions/
+git rm --cached node_modules/
+git rm --cached -r node_modules/
+cd ~
+ls
+g
+vim .gitignore 
+g
+git add -A
+g
+git commit -m "upd"
+git push
+ls
+g
+cat .config/coc/extensions/package.json
+cd .config/coc/
+cd extensions/
+cat db.json
+ls
+git checkout -- package.json
+g
+cd ~
+g
+git checkout -- .config/dconf/user
+g
+git add -A
+git commit -m "upd"
+git push
+g
+./config.sh pull
+cd test/
+cd cpp/
+vim 1.cpp
+ls
+cd ..
+cd ~/fc/shmmsg/
+vim 
+ls
+cd ~
+vim .vimrc
+ls
+cd fc/shmmsg/m
+cd fc/shmmsg/
+cd ..
+cd flaw_checker/
+vim
+ls
+cd ..
+cd dl-k8s-kube/
+cd ..
+cd aruco/
+vim config.py 
+ls
+cd ~
+ls
+cd fc/aruco/
+vim
+ls
+cd ~
+cd fc/shmmsg/
+cd ..
+cd iot-daemon/
+vim
+vim main.go 
+cd ~
+vim .vimrc
+vim .vim
+cd .vim/
+vim
+cd ~
+vim .vimrc
+cd .vim/
+vim
+ls
+cd ~
+g
+./config.sh push "add vim-polyglot"
+cd .config/coc
+du -hd1
+cd ~
+ls
+g
+vim .vimrc
+cd .vim/
+vim coc-settings.json 
+ls
+vim coc-settings.json 
+ls
+cd ..
+vim makefile 
+ls
+vim README.md 
+ls
+vim sync.sh 
+cd ~1
+vim coc-settings.json 
+ls
+cd ~/fc/
+cd shmmsg/
+vim
+ls
+g
+cd ~
+ls
+cd ~
+ls
+cd fc/iot-daemon/
+vim main.go 
+cd ~
+ls
+pylint --generate-rcfile > .pylintrc
+vim .pylintrc 
+rm .pylintrc 
+pylint --generate-rcfile > .pylintrc
+rm .pylintrc 
+ls
+cd .config/coc/
+cd extensions/
+cd ..
+cd ~
+g
+git checkout .config/dconf/user
+g
+git add -A
+git commit -m "upd"
+git push
+ls
+g
+ls
+g
+git log
+git reset 567c5f4d83cf8a990fd961087b81d88b13f379cd
+g
+cd .config/coc/extensions/
+ls
+cd node_modules/
+ls
+g
+cd coc-python/
+find . -name pylint
+find . -iname pylint
+ls
+vim Readme.md 
+ls
+cd ~/fc/iot-daemon/
+vim main.go 
+ls
+s
+vim main.go 
+ls
+cd ..
+cd aruco/
+vim tools.py
+ls
+cd ~
+ls
+cd fc/
+cd flaw_checker/
+vim CMakeLists.txt 
+ls
+bash-language-server
+sudo snap install bash-language-server
+cd ~
+vim config.sh 
+ls
+cd fc/
+cd ..
+cd fc/iot-daemon/
+vim main.go 
+ls
+cd ..
+cd shmmsg/
+vim 
+g
+cd ~
+g
+cd .config/coc/
+cd extensions/
+bat package.json 
+cd node_modules/
+l
+cd coc-
+cd coc-vimlsp/
+ls
+bat package-lock.json 
+ls
+du -hd1
+cd ..
+ls
+cd ..
+cd ~
+g

@@ -241,7 +241,7 @@ endfun
 " Vim Editor
 call s:hi('ColorColumn',               '',           s:base2,    '')
 call s:hi('Cursor',                    s:base2,      s:base5,    '')
-call s:hi('CursorColumn',              '',           s:base2,    '')
+call s:hi('CursorColumn',              '',           s:base3,    '')
 call s:hi('CursorLine',                '',           s:base2,    'none')
 call s:hi('CursorLineNr',              s:light_blue, s:base2,    'none')
 call s:hi('Directory',                 s:dark_blue,       '',         'bold')

@@ -16,7 +16,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'iamcco/mathjax-support-for-mkdp'
 	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 	let g:mkdp_auto_close = 0
-	Plug 'jackguo380/vim-lsp-cxx-highlight'
+	" Plug 'jackguo380/vim-lsp-cxx-highlight'
 
 " complete	
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -124,7 +124,7 @@ set noshowmode
 set noruler
 set ttimeoutlen=0
 set timeoutlen=0
-set updatetime=0
+set updatetime=50
 set splitbelow
 set diffopt+=vertical
 set diffopt+=foldcolumn:0
