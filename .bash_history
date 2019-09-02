@@ -53420,3 +53420,12 @@ type g
 vim .vimrc
 vim .bash
 g
+top
+g
+git diff --cached 
+./config.sh push
+g
+cd ~
+g
+cd ~
+g

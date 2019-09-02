@@ -4,3 +4,4 @@
 	insteadOf = http://gitlab.sho.hypereal.com/
 [core]
 	pager = less -x1,3
+	excludesfile = ~/.gitglobalignore
