@@ -1394,3 +1394,17 @@ vim
 vim main.go 
 g
 ls
+c 
+c
+c ls
+c ls ' '
+c ls -
+c
+c ls
+c ls ' '
+c ls -
+c 'ls '
+c 'ls -'
+c 'ls "12 23"'
+c ls "12 23"
+c 'ls "12 23"'

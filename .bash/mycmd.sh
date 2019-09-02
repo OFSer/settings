@@ -9,7 +9,7 @@ c(){
 	COMP_LINE="command $*"
 	COMP_POINT=${#COMP_LINE}
 
-	eval set -- "command "$@""
+	eval set -- "command" "$@"
 
 
 	COMP_WORDS=("$@")
