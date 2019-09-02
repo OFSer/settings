@@ -53041,3 +53041,4 @@ echo $HISTSIZE
 git checkout -- .bash_history
 g
 history 
+ls
