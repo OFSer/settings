@@ -8,11 +8,16 @@ case $- in
 	  *) return;;
 esac
 
-# config load
-function load {
+OnExit(){
+	git add ~/.bash_history
+}
+trap OnExit Exit
+
+load(){
 	for i in $1/*.sh;do
 		. $i
 	done
 }
 load $HOME/.bash
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+

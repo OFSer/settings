@@ -282,7 +282,7 @@ call s:hi('TabLineSel',                s:base5,     '',    'bold')
 call s:hi('Title',                     s:teal,     '',         'bold')
 call s:hi('Visual',                    '',      s:base3,    '')
 call s:hi('WarningMsg',                s:red,        '',         '')
-call s:hi('WildMenu',                  s:base2,      s:green,	   '')
+call s:hi('WildMenu',                  s:teal,      s:base3,	   'bold')
 
 " Solid bar for vertical split
 if g:neodark#solid_vertsplit == 1

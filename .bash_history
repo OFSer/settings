@@ -53027,3 +53027,17 @@ ls
 mv compile_commands.json ../.
 ls
 cd ..
+g
+history 
+g
+git checkout -- .bash_history
+g
+git reset HEAD .bash_history
+g
+git diff .vim/colors/konomi.vim
+vim .bash_history 
+echo $HISTFILESIZE 
+echo $HISTSIZE
+git checkout -- .bash_history
+g
+history 
