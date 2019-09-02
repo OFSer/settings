@@ -53201,3 +53201,5 @@ g
 ./config.sh push
 vim .vim/plugged/vim-colorschemes/colors/neodark.vim 
 ls
+g
+ls
