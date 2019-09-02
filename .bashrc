@@ -8,12 +8,14 @@ case $- in
 	  *) return;;
 esac
 OnExit(){
+	cd ~
 	HF=~/.bash_history
 	if [ `git diff HEAD --numstat $HF | cut -f2` -ne 0 ];then
 		git checkout -- $HF
 	fi
 	history -a
 	git add $HF
+	git add -- .vimrc .bashrc .bash/ .vim/ config.sh
 }
 trap OnExit Exit
 load(){

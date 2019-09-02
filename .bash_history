@@ -53203,3 +53203,220 @@ vim .vim/plugged/vim-colorschemes/colors/neodark.vim
 ls
 g
 ls
+fzf
+cd ~
+vim .vimrc
+vim .vim/plugin/tabline.vim 
+g
+./config.sh push
+vim .bashrc
+ls
+cd ~
+vim .vim/plugin/keymap.vim 
+g
+vim .vim/plugin/keymap.vim 
+vim .vimrc
+ls
+vim .vimrc
+g
+./config.sh push
+vim .vimrc
+man man
+cd ~
+g
+cd ~
+g
+vim .bashrc
+cd ~
+g
+vim .bashrc
+g
+git diff .bashrc
+vim .vim/plugin/tabline.vim 
+vim .bashrc
+g
+vim .bashrc
+git add .vimrc .bashrc
+g
+git reset HEAD .bashrc
+g
+cd ~
+g
+vim .bashrc
+cd ~
+ls
+g
+ls
+cd ~
+g
+vim .bashrc
+g
+cd ~
+g
+cd ~
+g
+vim .bashrc
+cd ~
+g
+git reset HEAD .bashrc
+g
+cd ~
+g
+cd ~
+vim .bashrc
+g
+git add --help
+vim .bashrc
+g
+cd ~
+g
+vim .vimrc
+g
+cd ~
+g
+vim .vimrc
+g
+cd ~test/
+cd ~
+g
+vim .bashrc
+ls
+g
+ls
+cd ~
+g
+git diff .bash_history
+vim .bashrc
+g
+ghci
+stack
+hie-wrapper
+g
+ls
+./config.sh push
+git diff HEAD^ .dconf
+ls
+g
+cd test/
+ls
+cd ~/fc/saki_detection/
+cd pack/
+cd ..
+ls
+cd data/
+cd ..
+cd data/
+cd topa/
+ls
+cd ..
+ll output
+cd ..
+cd fc/
+cd ..
+cd News/
+cd drafts/
+cd  drafts/
+l
+cd ..
+find .
+cd ..
+cd Documents/
+cd ..
+ls
+mkdir temp
+ls
+rm -r tem
+mv temp/ backup
+mv home.tar.gz backup/
+cd backup/
+cd ~
+df
+nvidia-smi
+apt show nvidia-driver-430
+apt show nvidia-driver-430 | grep gcc
+apt show nvidia-driver-430 
+apt show nvidia-driver-430 | grep gcc
+sudo apt show nvidia-driver-430  | grep gcc
+cat `apt show nvidia-driver-430`
+echo `apt show nvidia-driver-430`
+echo `apt show nvidia-driver-430` | grep gcc
+apt show nvidia-driver-430
+snap info prat
+dpkg --help
+dpkg --help | grep info
+history | grep dpkg
+cd ~
+ls
+cd fc/
+cd ~/test/
+bar test
+ag test
+ls
+cd ..
+vim
+g
+ls
+cd fc/
+ls
+cd saki_detection/
+cd ..
+ls
+cd saki_detection/
+cd ..
+ls
+tar zcpfv saki_detection.tar.gz -P saki_detection/
+df
+ll
+ll -f saki_detection.tar.gz 
+ll -h saki_detection.tar.gz 
+ls
+rm -rf saki_detection/
+ls
+mv saki_detection.tar.gz ../backup/
+cd ~
+cd backup/
+cd ..
+cd ~
+g
+vim config.sh 
+cd ~
+ls
+cd go/src
+cd github.com/stamblerre/gocode/internal/suggest
+cd /home/gjs/.npm/color/
+cd ~
+ls
+cd backup
+cd ~
+cd go/pkg/mod/cloud.google.com/go@v0.44.3/longrunning/autogen
+history 
+cd ~
+g
+cd fc/transformer-pipeline
+cd ~
+history | grep "docker run"
+docker images
+docker ps -l
+docker container prune -f
+docker run -it -d --name vim vim bash
+docker container prune -f
+docker ps- l
+docker ps -l
+docker stop vim
+docker container prune -f
+docker run -it -d --name vim vim bash
+ls
+docker exec -it vim
+docker ps -l
+docker exec -it vim bash
+docker stop vim
+docker container prune -f
+docker run -v ~:/root -it -d --name vim vim bash
+docker exec -it vim bash
+ls
+docker exec -it vim bash
+fzf
+type g
+vim .vimrc
+vim .bash
+g
