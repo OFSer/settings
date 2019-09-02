@@ -53042,3 +53042,129 @@ git checkout -- .bash_history
 g
 history 
 ls
+ls
+g
+git diff .bashrc
+g
+vim config.sh 
+g
+vim .bash_history 
+./config.sh push
+vim config.sh 
+fg
+g
+git log
+ls
+g
+git checkout -b his
+g
+git checkout coc
+g
+git log
+git reset 57ee95af8d378c8f8d3cfa9c53c19f1e533d4278
+g
+vim config.sh 
+g
+cat .bashrc
+g
+git diff .bash_history
+vim .bash_history 
+g
+vim config.sh 
+./config.sh push
+vim config.sh 
+./config.sh push
+g
+git branch
+g
+git diff
+ls
+g
+s
+ls
+s
+echo $-
+ls
+g
+g -s
+git gc --help
+cd test/
+cd git/
+g
+git gc
+g
+l
+cd ..
+git gc
+g
+cd ~
+g
+cd test/
+g
+cd git/
+echo 4 > 4
+git gc
+g
+ls
+cd ~
+ls
+ll
+cat .inputrc 
+man bash
+ls
+git describe 
+git describe --tags 
+cat .inputrc 
+vim .inputrc 
+g
+git diff .inputrc
+./config.sh push
+cd Desktop/
+cd ~
+cd Downloads/
+cd ~
+ls
+cd Downloads/
+cat .bash_history 
+vim .bashrc
+ls
+vim config.sh 
+g
+vim .bashrc
+g
+git diff --cached 
+ls
+g
+cd fc/iot-daemon/
+vim main.go 
+cd ~
+ls
+g
+ls
+cd ~
+vim config.sh 
+cd ~
+cd test/
+cd sh
+vim 4
+cd ~
+docker ps -l
+docker exec vim
+docker exec vim bash
+ls
+docker exec -it vim bash
+ls
+ls
+cd ~
+vim
+ls
+vim .bashrc
+ll
+cd fc/
+ls
+ll -h sa
+ll -h saki_detection
+ll -h saki_detection.tar.gz 
+g
+cd ~
+g
