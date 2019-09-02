@@ -134,7 +134,7 @@ set noshowmode
 set noruler
 set ttimeoutlen=0
 set timeoutlen=0
-set updatetime=100
+set updatetime=20
 set splitbelow
 set diffopt+=vertical
 set diffopt+=foldcolumn:0
@@ -143,6 +143,7 @@ set nocompatible
 set history=10000
 set nobackup
 set nowritebackup
+set fillchars=stl:─,stlnc:-,vert:\|,diff:-,fold:-
 syntax on
 filetype plugin indent on  
 silent! color konomi

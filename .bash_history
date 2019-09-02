@@ -1196,3 +1196,40 @@ ls
 vim tools.py
 ls
 vim tools.py
+vim
+ls
+cd fc/shmmsg/
+vim
+cd ..
+cd transformer-pipeline/
+cd build/
+ls
+cd ..
+g
+git checkout master 
+cd build/
+ls
+cd ..
+g
+cd build/
+cmake ..
+ls
+cd ~
+ll -h home.tar.gz 
+ls
+g
+git diff
+g
+ls
+g
+ls
+g
+ls
+g
+git diff
+nethack
+ls
+g
+git diff
+:q
+ls
