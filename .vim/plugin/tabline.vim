@@ -52,13 +52,13 @@ function! MyTabLine()
     endif
   endfor
 
-  let s .= '%#TabLineFill#'
+  let s .= '%#TabLineFill#'.'%=%-14.(%l,%c%V%)\ %P'
   if (exists("g:tablineclosebutton"))
     let s .= '%=%999XX'
   endif
   return s
 endfunction
-set tabline=%!MyTabLine()
+autocmd CursorMoved * set tabline=%!MyTabLine()
 function! Flash()
     sleep 10m
 endfunction

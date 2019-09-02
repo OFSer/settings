@@ -37,19 +37,23 @@ vnoremap <c-x> "+d
 
 
 "--------------------------Tab-----------------------------------"
-inoremap <silent> ( <esc>:tabm -<cr>
-nnoremap <silent> ( <esc>:tabm -<cr>
-tnoremap <silent> ( <c-w>:tabm -<cr>
-inoremap <silent> ) <esc>:tabm +<cr>
-nnoremap <silent> ) <esc>:tabm +<cr>
-tnoremap <silent> ) <c-w>:tabm +<cr>
+inoremap <silent> V <esc>:tabm -<cr>
+nnoremap <silent> V <esc>:tabm -<cr>
+vnoremap <silent> V <esc>:tabm -<cr>
+tnoremap <silent> V <c-w>:tabm -<cr>
+inoremap <silent> M <esc>:tabm +<cr>
+vnoremap <silent> M <esc>:tabm +<cr>
+nnoremap <silent> M <esc>:tabm +<cr>
+tnoremap <silent> M <c-w>:tabm +<cr>
 
-inoremap <silent> 9 <esc>gT
-nnoremap <silent> 9 gT
-tnoremap <silent> 9 <c-w>gT
-inoremap <silent> 0 <esc>gt
-nnoremap <silent> 0 gt
-tnoremap <silent> 0 <c-w>gt
+inoremap <silent> v <esc>gT
+nnoremap <silent> v <esc>gT
+vnoremap <silent> v <esc>gT
+tnoremap <silent> v <c-w>gT
+inoremap <silent> m <esc>gt
+nnoremap <silent> m gt
+tnoremap <silent> m <c-w>gt
+vnoremap <silent> m <esc>gt
 "--------------------------WindowMap-------------------------------"
 nnoremap <silent>  h <c-w>h
 nnoremap <silent>  j <c-w>j

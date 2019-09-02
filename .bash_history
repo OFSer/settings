@@ -53168,3 +53168,36 @@ ll -h saki_detection.tar.gz
 g
 cd ~
 g
+cd ~/fc/shmmsg/
+vim compile_commands.json 
+cd ~
+cd fc/shmmsg/
+vim CMakeLists.txt 
+man cmake
+man -f cmake
+man cmake
+cd ~
+vim .vimrc
+vim .vim
+man man
+g
+vim .vimrc
+cd .vim/
+cd plugged/
+cd ~
+cd ~/.vim/pluggin
+cd ~/.vim/plugin/
+vim
+ls
+vim keymap.vim 
+ls
+vim
+cd ~
+cd test/
+cd bash
+vim abcd 
+cd ~
+g
+./config.sh push
+vim .vim/plugged/vim-colorschemes/colors/neodark.vim 
+ls
