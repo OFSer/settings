@@ -7,12 +7,15 @@ case $- in
 	*i*) ;;
 	  *) return;;
 esac
-
 OnExit(){
-	git add ~/.bash_history
+	HF=~/.bash_history
+	if [ `git diff HEAD --numstat $HF | cut -f2` -ne 0 ];then
+		git checkout -- $HF
+	fi
+	history -a
+	git add $HF
 }
 trap OnExit Exit
-
 load(){
 	for i in $1/*.sh;do
 		. $i

@@ -174,6 +174,9 @@ run(){
 	#config_privoxy
 }
 push(){
+	if [ `git diff HEAD --numstat ~/.bash_history | cut -f2` -ne 0 ];then
+		git checkout -- ~/.bash_history
+	fi
 	[ "$1" == "sub" ]  && {
 		git submodule foreach --recursive git add -A
 		git submodule foreach --recursive git commit -m "upd"
