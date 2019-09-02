@@ -1233,3 +1233,164 @@ g
 git diff
 :q
 ls
+g
+./config.sh push
+git diff HEAD^ .dconf
+ls
+cd fc/
+ls
+cd ..
+cd test/make/
+vim
+cd ~
+vim .vimrc
+vim .vim
+vim .vimrc
+vim .vim
+vim .vimrc
+vim .vim
+./config.sh pull
+ls
+cd ~
+g
+ls
+cd .vim
+vim
+ls
+cd ~
+g
+vim
+g
+cat .config/coc/lists
+git diff .vimrc
+g
+git diff .config/coc/history.json
+g
+cat .config/coc/extensions/package.json
+./config.sh push
+tar --help
+g
+git diff
+ls
+ll
+l
+ll home.tar.gz 
+ll -h home.tar.gz 
+ls
+cat makefile 
+ls
+cd CloudMusic/
+ls
+cd ..
+cd games/
+cd ..
+cd News
+cd ..
+htop
+top
+ls
+vim .vimrc
+ls
+g
+vim .vimrc
+git diff .config/coc/extensions/db.json
+vim config.sh 
+vim .vim
+ls
+ls
+cd ..
+ls
+fzf
+g
+git diff
+ls
+cd fc/
+cd saki_detection/
+cd data/
+ls
+cd ..
+cd pack/
+ls
+cd ..
+ls
+cd saki_detection/
+cd pack/
+du -hd=2
+du -hd=1
+du -hd2
+du -hd2 | wc -l
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~
+du -hd=1
+du -hd1
+ls
+g
+history | grep tar
+df
+df -hd
+df -h
+vim config.sh 
+ls
+cd ~
+ls
+tar --help
+ls
+g
+ls
+df
+cd ..
+ls
+cd gjs/
+ls
+cd test/
+tar zxvpf test.tar .
+tar zxvpf test.tar -C .
+tar zxvpf test.tar -P .
+tar zcvpf test.tar -P .
+ls
+cd ..
+cd test/
+tar -tf test.tar 
+tar -tf test.tar  | wc -l
+find . 
+find .  | wc -l
+tar -tf test.tar  | wc -l
+ls
+g
+ls
+ll
+ll -h
+rm test.tar 
+cd ..
+history | tar
+history | grep tar
+tar zcvpf home.tar.gz -P .
+ll home.tar.gz 
+ll -h home.tar.gz 
+tar -tf home.tar.gz 
+tar -tf home.tar.gz  | wc -l
+ls
+tar --help
+ls
+tar -tvv home.tar.gz 
+ls
+g
+ll
+g
+git diff .vimrc
+cd fc/
+cd iot-daemon/
+vim main.go 
+ls
+vim
+vim main.go 
+g
+ls
