@@ -53594,3 +53594,56 @@ g
 history 
 sudo vim /etc/default/keyboard
 sudo reboot
+g
+git commit -m "upd"
+git push
+./config.sh pull
+sudo vim /etc/default/keyboard
+ls
+g
+vim config.sh 
+vim 
+vim .xbindkeysrc
+logout
+sudo reboot
+g
+vim config.sh 
+sudo apt remove  xbindkeys xdotool
+sudo reboot
+g
+vim config.sh 
+dconf dump / > .dconf
+g
+git diff .dconf
+vim config.sh 
+./config.sh 
+./config.sh config_mouse
+setxkbmap -layout us -option \:nocaps
+setxkbmap -layout us -option \\:nocaps
+setxkbmap -layout us -option '\:nocaps'
+setxkbmap -layout us -option 'a:nocaps'
+setxkbmap -layout us -option 'b:nocaps'
+vim .vimrc
+vim .vim
+vim .vimrc
+vim ~/.vim/.vimrc
+vim ~/.vim/plugin/.vimrc 
+vim ~/.vim/plugin/keymap.vim 
+g
+cd ~
+g
+cd ~
+ls
+cd ~
+vim .vimrc
+cd .vim/
+vim
+cd ~
+G
+g
+git diff .vimrc
+git diff --cached .vimrc
+man bash
+cd .vim/colors/cd ~
+vim ~/.vim/plugin/keymap.vim 
+g

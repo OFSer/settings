@@ -1,3 +1,12 @@
+"------------------------------esc--------------------------------"
+inoremap <c-g> <c-c>
+cnoremap <c-g> <c-c>
+nnoremap <c-g> <nop>
+vnoremap <c-g> <c-c>
+snoremap <c-g> <c-c>
+lnoremap <c-g> <c-c>
+
+nnoremap <c-c> <nop>
 inoremap <c-o> <nop>
 nnoremap q <nop>
 " nnoremap t <nop>
