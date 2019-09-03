@@ -53922,3 +53922,157 @@ cd ~
 vim test/go/mock/main.go 
 vim .vim/plugin/.vimrc
 ./config.sh push
+history 
+history --help
+g
+history -c
+history 
+history -
+\ssh sihe@10.0.10.161
+cd fc/iot-daemon/
+git branch
+git fetch origin deb
+git branch -a
+git remote show origin
+gg
+g
+rm .pylintrc 
+git checkout master 
+git pull
+g
+git checkout -b deb
+g
+ls
+vim
+\ssh sihe@10.0.10.161
+sudo su
+ls
+cp /root/.ssh/proxy_id_rsa .
+suod cp /root/.ssh/proxy_id_rsa .
+sudo cp /root/.ssh/proxy_id_rsa .
+ls
+ll
+cat proxy_id_rsa 
+ls
+f -a proxy_id_rsa 
+cd config/
+cd ..
+type f
+ls
+cd scripts/
+cd deb/
+mkdir -p root/.ssh
+cd root/.ssh
+ls
+f -x
+f -p
+ls
+d
+cd ~4
+cd ..
+f proxy_id_rsa 
+d
+cd ~2
+f -p
+sudo f -p
+l
+sudo mv ../../../../proxy_id_rsa .
+ls
+d
+cd ~1
+g
+rm iot-daemon 
+g
+vim
+g
+sudo g
+sudo git status
+cd scripts/deb/root/
+ls
+sudo ls
+sudo ls -a
+cd .ssh
+ls
+sudo git add proxy_id_rsa 
+sudo git add -f proxy_id_rsa 
+g
+git commit -m "add proxy_id_rsa"
+git push
+git push --set-upstream origin deb
+ls
+cd ..
+cd http-dhcp-server/
+vim
+ssh sihe@10.0.10.102
+\ssh sihe@10.0.10.102
+history --help
+history 
+history --help
+cd ~
+vim .bash/feature.sh 
+ls
+vim fc/transformer-pipeline/build_frontend.sh 
+vim .bash/feature.sh 
+history 
+ls
+history 
+cat .bash_history 
+history 
+vim .bash/feature.sh 
+ls
+g
+history 
+fffffffffffffff
+cat .bash_history 
+history --help
+history -c
+history 
+history -n
+history -a
+history -r
+history 
+vim .bash/feature.sh 
+history 
+vim ~/.bash/feature.sh 
+history 
+l
+f
+history 
+history -n
+history 
+history -n
+history 
+history -a
+history n
+history -n
+history 
+history -a
+vim .bash/feature.sh 
+history 
+history -n
+history 
+history -a
+history -n
+history 
+history -a
+history -n
+ffffffffffffff
+history -a
+history -n
+history 
+history --help
+fffffffffffffffffffff
+gggggggggggggggggggggggggg
+history -n
+history 
+history -a
+cat ~/.bash_history 
+history -n
+history 
+history -n
+history 
+history --hlep
+history --help
+g
+vim .bash/feature.sh 
+./config.sh push
