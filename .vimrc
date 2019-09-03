@@ -20,7 +20,7 @@ call plug#begin('~/.vim/plugged')
 
 " complete	
 	Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': 'curl -sL install-node.now.sh/lts \| sudo bash -s -- -y'}
-	nnoremap <silent> D :tabedit % \| call CocAction('jumpDefinition')<cr>
+	nnoremap <silent> d :tabedit % \| call CocAction('jumpDefinition')<cr>
 	nnoremap <silent> d :call CocAction('jumpDefinition')<cr>
 	inoremap <silent><expr> <TAB>
 				\ pumvisible() ? "\<C-n>" :
@@ -133,7 +133,7 @@ set laststatus=0
 set noshowmode
 set noruler
 set ttimeoutlen=0
-set timeoutlen=0
+set timeoutlen=50
 set updatetime=20
 set splitbelow
 set diffopt+=vertical

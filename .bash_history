@@ -53429,3 +53429,168 @@ cd ~
 g
 cd ~
 g
+ls
+cd build/
+rm -rf *
+cmake ..
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j4
+ls
+g
+ls
+g
+git diff
+man bash
+cd 
+cd ~1
+cd ~
+cd ~1
+cd ~
+d
+g
+cd ~
+g
+cd ~
+g
+cat .config/coc/extensions/db.json
+git rm --cached .config/coc/extensions/db.json
+g
+cd .config/coc
+g
+ls
+cd extensions/
+g
+ls
+cat db.json 
+cd ~
+cd ~1
+du -h1
+du -hd1
+cd node_modules/
+du -hd1
+cd ~
+g
+set -s escape-time 0
+ls
+cd ~
+man bash
+cd test/go/mock/
+vim
+cd ~
+ls
+ll
+cat .xinputrc 
+bar caps
+ag caps
+ag
+ls
+vim
+ls
+cd fc/
+vim
+cd ~
+vim config.sh 
+g
+./config.sh config_scroll
+vim config.sh 
+vim .xbindkeysrc
+vim config.sh 
+git log .xbindkeysrc
+ls
+vim config.sh 
+setxkbmap -layout us -option ctrl:nocaps
+man setxkbmap 
+setxkbmap -layout us -option 'ctrl-c:nocaps'
+setxkbmap -layout us -option ':nocaps'
+setxkbmap -layout us -option 'shift:nocaps'
+setxkbmap -layout us -option ctrl-c:nocaps
+setxkbmap -layout us -option <ctrl-c>:nocaps
+setxkbmap -layout us -option ctrl-c:nocaps
+ls
+cd ~
+vim config.sh 
+vim /etc/default/keyboard
+sudo vim /etc/default/keyboard
+setxkbmap -layout us -option ctrl-c:nocaps
+ls
+cd ~/test/go/mock/
+vim main.go 
+cd ~
+vim .vimrc
+vim .vim
+cd .vim/plugged/
+cd ../plugin/
+vim
+g
+git diff .vimrc
+cd ..
+cd ~
+git diff .vimrc
+git diff --cached .vimrc
+g
+git checkout -- .vim/
+g
+git reset HEAD .vim --hard
+g
+git reset HEAD .vim/
+g
+git stash
+g
+vim .vimrc
+cd .vim/
+cd plugged/
+cd ../plugin/
+vim
+cd ~
+g
+vim .vimrc
+g
+git diff .vimrc
+vim .vimrc
+cd fc/transformer-pipeline/
+cd src/
+vim
+cd ..
+vim
+cd ../iot-daemon/
+vim main.go 
+g
+history 
+fzf
+vim `fzf`
+cd fc/transformer-pipeline/
+gendcb
+gencdb
+ls
+vim
+g
+cd ~
+g
+vim .vimrc
+reboot
+vim config.sh 
+sudo vim /etc/default/keyboard
+ls
+sudo reboot
+setxkbmap -layout us -option pause:nocaps
+setxkbmap -layout us -option ctrl:nocaps
+setxkbmap -layout us -option pause:nocaps
+setxkbmap -layout us -option shift:nocaps
+setxkbmap -layout us -option alt:nocaps
+g
+vim .vimrc
+vim
+ehco '\t'
+echo -e '\t'
+fuck
+f
+type f
+f -l
+f
+
+autohotkey
+man autohotkey
+g
+history 
+sudo vim /etc/default/keyboard
+sudo reboot
