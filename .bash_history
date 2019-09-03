@@ -53758,3 +53758,154 @@ tree $$
 pstree $$
 pstree -p $$
 jobs
+ls
+ps -ef | grep sleep
+echo $/
+echo $?
+echo $??
+echo $_
+echo $pid
+echo $?
+echo $#
+echo $$
+sleep 1000 &
+jobs
+ps -ef | grep sleep
+ps -o ppid=$$
+ps -o ppid= $$
+[ `ps -o ppid= $$` -eq 2996 ] && echo 1
+[ `ps -o ppid= $$` -eq 2995 ] && echo 1
+[ `ps -o ppid= $$` -eq 2996 ] && echo 1
+vim .bashrc
+g
+vim .bashrc
+g
+cat .config/coc/commands
+cat .config/coc/memos.json
+./config.sh push
+jobs
+history 
+ps -ef | grep sleep
+pstree 1899
+pstree 8633
+pstree -p 8633
+pstree -pp 8633
+pstree --help
+history 
+vim main.go 
+cd ~
+vim .bashrc
+history 
+cd ~
+cat .bash_history 
+cd ~
+history 
+fffffffffffffffffffffffffffffffffffffffffffff
+history 
+history 
+ls
+vim main.go 
+cd ~
+cd ~1
+vim ~/.bashrc
+jobs
+vim .bashrc
+cd ~
+vim .vimrc
+history 
+history 
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+history 
+vim ~/.bashrc
+history 
+history -n
+history 
+history --help
+vim main.go 
+ffffffffffffffffffffffffffffff
+g
+ffffffffffffffffffffffffffffffffffffffffffffff
+history 
+cd ~
+cat .bash_history 
+ffffffffffffffffffffffffffffffffff
+cat .bash_history 
+ls
+cat .bash_history 
+vim .bashrc
+history 
+g
+\ssh sihe@10.0.10.161
+ls
+g
+cd ~
+ffffffffffffffffffffffffffffffffffffff
+history 
+fffffffffffffffffffffffffffffffffffffffffffffffffffffff
+vim .bashrc
+history 
+history 
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+history 
+f
+history 
+history -a
+cat .bash_history 
+vim .bashrc
+ffffffffffffffffffffffffffffffffffffffffffffffff
+history 
+vim .bash_history 
+vim .bashrc
+ffffffffffffffffffffffffffffffffffffffffff
+cat .bash_history 
+vim .bash
+vim .bashrc
+history 
+fffffffffffffffffffffffffffffffffffffffffffffffffff
+history 
+cat .bash_history 
+history -n
+cat .bash_history 
+ggggggggggggggggggggggggggg
+history 
+cat .bash_history 
+history 
+kkkkkkkkkkkkkkkk
+kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+hipercdecode 
+history 
+ffff
+ffff
+history 
+kkkk
+gggg
+history 
+history 
+g
+history 
+vim .bash_history 
+history 
+vim .bash_history 
+history 
+history | less
+history 
+ffff
+gggg
+history 
+history 
+fffffffffffffffffffffffff
+kkkk
+history 
+cat .bash_history 
+history --help
+history -r
+fffffffffffffffffffffffffffffff
+history 
+history -r
+history 
+cat .bash_history 
+history 
+g
+git diff .bashrc
+git diff --cached .bashrc
+./config.sh push

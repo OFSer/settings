@@ -66,6 +66,8 @@ xterm*|rxvt*)
 		fi
 	}
 	CommandTrap(){
+		history -a
+		# history -n
 		case "$BASH_COMMAND" in
 			"$PROMPT_COMMAND") #after
 				[[ "$PREPWD" != "$PWD" || "$PRECMD" =~ 'git' ]] && TrapUpdate

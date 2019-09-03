@@ -8,14 +8,6 @@ case $- in
 	  *) return;;
 esac
 
-OnBg(){
-	while :;do
-		sleep 10
-		history -a
-	done
-}
-
-OnBg &
 
 OnExit(){
 	cd ~
@@ -35,4 +27,3 @@ load(){
 }
 load $HOME/.bash
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
