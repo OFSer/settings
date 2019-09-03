@@ -53647,3 +53647,114 @@ man bash
 cd .vim/colors/cd ~
 vim ~/.vim/plugin/keymap.vim 
 g
+cd ~
+g
+jobs
+vim ~/.vim/plugin/keymap.vim 
+l
+g
+./config.sh push
+ls
+cd fc/shmmsg/
+vim
+cd ../detection-machine-daemon/
+vim main.py 
+cd ../aruco/
+vim calibrate.py 
+cd ~
+cat .inputrc
+vim .inputrc
+man bash
+vim .inputrc
+cd test/go/mock/
+vim main.go 
+cd ~
+vim ~/.vim/plugin/keymap.vim 
+vim .vim/plugin/quit.vim
+his
+history 
+cd ~
+vim .bashrc
+vim mock_main_test.go 
+history -a
+history 
+history -a
+history 
+history --help
+cd ~
+vim .bashrc
+man bash
+history 
+ls
+g
+fffffffffffffffffffffffffffffffff
+history 
+man cron
+sleep 1000 &
+ps -ef | grep sleep
+kill 3503
+ps -ef | grep sleep
+cron
+coproc
+coproc --help
+jobs
+man coproc
+coproc --help
+jobs
+coproc sleep 1000
+jobs
+ps -ef | grep sleep
+kill -9 3980
+ps -ef | grep sleep
+coproc sleep 1000
+jobs
+cd ~
+vim .bashrc
+echo $PPID
+echo $PID
+echo $PPID
+echo $$
+ps -ef | grep sleep
+killall -9 sleep 
+ps -ef | grep sleep
+ps -ef | grep OnBg
+jobs
+ps -ef | grep sleep
+ps -ef | grep OnBg
+echo $$
+echo $PPID
+ps -ejH
+OnBg &
+jobs
+fg
+jobs
+fg
+jobs
+fg 1
+OnBg &
+ps -ef | grep OnBg
+ps -ef | grep Sleep
+ps -ef | grep sleep
+killall -9 sleep 
+jobs
+ps -ef | grep OnBg
+ps -ef | grep sleep
+ps -ef | grep 6473
+ps -ef | grep 6472
+pstree 6472
+pstree -p 6472
+pstree -p $$
+pstree -p $PPID
+pstree -p $$
+history 
+ls
+fffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffff
+his
+history 
+ps -ef | grep sleep
+sleep 1000 &
+tree $$
+pstree $$
+pstree -p $$
+jobs

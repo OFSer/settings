@@ -266,8 +266,7 @@
       },
       "sysPrefix": "/usr",
       "fileHash": "25402917bdc0eaf27a98fcce8159a642c1c227c615f9d042c2a0b4afa3685047575f783ab959134148708626d0a4baabd51ec7811682dff2760feadeeb9c22bd",
-      "type": "Unknown",
-      "cachedEntry": true
+      "type": "Unknown"
     },
     "preferredGlobalPyInterpreter": {
       "architecture": 3,
@@ -550,12 +549,10 @@
           "sysPrefix": "/usr",
           "fileHash": "25402917bdc0eaf27a98fcce8159a642c1c227c615f9d042c2a0b4afa3685047575f783ab959134148708626d0a4baabd51ec7811682dff2760feadeeb9c22bd",
           "type": "Unknown",
-          "cachedEntry": true,
-          "displayName": "Python 3.6.8 64-bit",
-          "__store": true
+          "displayName": "Python 3.6.8 64-bit"
         }
       },
-      "expiry": 1567505017055
+      "expiry": 1567579948626
     },
     "/usr/bin/python3.interpreter.displayName.v7": {
       "data": {
@@ -569,7 +566,7 @@
         "displayName": "Python 2.7.15 64-bit",
         "hash": "b62c568242f2d62d6226fd0b1fc7b460da4b27d70939750e6c353728d0de8db902a7bd163abd1d65d4885faa82ea4f0dcce6ab5cbf84cc1cf7d9854c4a09bf01-ec951e621255d00c34575085c30d0cbf"
       },
-      "expiry": 1567405976995
+      "expiry": 1567579948579
     },
     "InterpreterAutoSeletionRule-system": {
       "architecture": 3,
@@ -593,7 +590,6 @@
       "sysPrefix": "/usr",
       "fileHash": "25402917bdc0eaf27a98fcce8159a642c1c227c615f9d042c2a0b4afa3685047575f783ab959134148708626d0a4baabd51ec7811682dff2760feadeeb9c22bd",
       "type": "Unknown",
-      "cachedEntry": true,
       "displayName": "Python 3.6.8 64-bit"
     },
     "/usr/bin/python.interpreter.Details.v7": {
@@ -624,7 +620,7 @@
           "displayName": "Python 2.7.15 64-bit"
         }
       },
-      "expiry": 1567405977003
+      "expiry": 1567579948586
     },
     "InterpreterAutoSeletionRule-cachedInterpreters": {
       "architecture": 3,
@@ -713,5 +709,34 @@
   "coc-python|/home/gjs": {
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
     "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|/home/gjs/fc/detection-machine-daemon": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:2b6ecc7ecd28e4a0236fc37c87aefff0": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:2b6ecc7ecd28e4a0236fc37c87aefff0": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/gjs/fc/detection-machine-daemon": {
+      "architecture": 3,
+      "path": "/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.6.8-final",
+        "major": 3,
+        "minor": 6,
+        "patch": 8,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.6.8-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "25402917bdc0eaf27a98fcce8159a642c1c227c615f9d042c2a0b4afa3685047575f783ab959134148708626d0a4baabd51ec7811682dff2760feadeeb9c22bd",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
   }
 }

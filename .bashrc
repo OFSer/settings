@@ -7,6 +7,16 @@ case $- in
 	*i*) ;;
 	  *) return;;
 esac
+
+OnBg(){
+	while :;do
+		sleep 10
+		history -a
+	done
+}
+
+OnBg &
+
 OnExit(){
 	cd ~
 	HF=~/.bash_history
