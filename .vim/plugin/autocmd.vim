@@ -33,5 +33,5 @@ func Del()
 	endfor
 endfunc
 au Tabclosed * cal Del()
-"autocmd BufEnter * silent! lcd %:p:h
+autocmd VimEnter * silent! lcd %:p:h
 autocmd CursorHold * silent! call CocActionAsync('highlight')

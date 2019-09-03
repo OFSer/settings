@@ -53909,3 +53909,16 @@ g
 git diff .bashrc
 git diff --cached .bashrc
 ./config.sh push
+history 
+vim .bash/feature.sh 
+cd ~/test/go/mock/
+vim main.go 
+cd test/go/mock
+vim main.go 
+cd ~
+vim .vimrc
+vim .vim/plugin/autocmd.vim 
+cd ~
+vim test/go/mock/main.go 
+vim .vim/plugin/.vimrc
+./config.sh push
