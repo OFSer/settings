@@ -13872,14 +13872,15 @@ cat .bash_history  | wc -l
 history -w
 cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge .bash_history 
 fasdfasdfasfdfsadf
+git diff --ignore-submodules 
 cd ~
-history 
-ls
-g
-ls
-git diff
+cat .bash_history 
 vim .bashrc
 g
-git diff 
-git diff --ignore-submodules 
+git diff
+cat -n ~/.bash_history | sort -k2 -k1n
+cat -n ~/.bash_history | sort -r -k2 -k1n
+cat -n ~/.bash_history | sort -r -k2 -k1n | less
+vim .bashrc
+g
 ./config.sh push

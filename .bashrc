@@ -24,7 +24,7 @@ OnExit(){
 }
 trap OnExit Exit
 AfterLoad(){
-	cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge ~/.bash_history
+	cat -n ~/.bash_history | sort -r -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge ~/.bash_history
 	history -c
 }
 load(){
