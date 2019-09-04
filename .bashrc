@@ -17,7 +17,7 @@ OnExit(){
 	fi
 	history -a
 	git add $HF
-	git add -- .vimrc .bashrc .bash/ .vim/ config.sh
+	# git add -- .vimrc .bashrc .bash/ .vim/ config.sh
 }
 trap OnExit Exit
 load(){

@@ -67,13 +67,17 @@ cd(){
 	[ $# -eq 0 ] && {
 		command cd `cat <(ls -d */ 2> /dev/null || echo .) | shuf | head -n 1` && ls
 	} || {
+		pushd . &> /dev/null
+		command cd "$@" || {
+			popd +0 &> /dev/null
+			return
+		}
 		j=0
 		for i in `dirs -l -p | sed -n '2,$p'`;do
 			let j+=1
 			[[ "$i" ==  "`pwd`" ]] && eval popd +$j > /dev/null
 		done
-		pushd . &> /dev/null
-		command cd "$@" && ls # && dirs
+		ls # && dirs
 	}
 }
 

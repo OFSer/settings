@@ -54152,3 +54152,121 @@ git checkout -- config.sh
 g
 vim config.sh 
 ./config.sh push
+vim ~/.vim/plugin/keymap.vim 
+g
+vim ~/.vim/plugin/keymap.vim 
+ls
+cat config.sh 
+cat core
+ll core
+ll -h core
+ls
+cd test/sh/
+vim t
+ls
+vim t
+ls
+vim 4
+vim 1.sh 
+seq 10 > f
+vim f
+ls
+g
+cd ~
+cd ~1
+rm f
+g
+d
+cd ~
+d
+cd ..
+d
+cd ~
+g
+d
+vim .bash
+d
+cd ..
+d
+cd ~
+d
+g
+ls
+cd ..
+d
+cd ..
+d
+dirs -l -p
+dirs --help
+d
+cd ..
+cd ~
+d
+g
+git diff
+ls
+pushd . &> /dev/null
+dirs -l -p
+d
+cd ..
+d
+cd ..
+d
+cd ..
+d
+cd ..
+d
+ls
+cd ..
+d
+cd ~/fc/transformer-pipeline/
+d
+cd ~
+d
+cd ~1
+d
+cd ~1
+d
+g
+git add -A
+g
+git diff --cached .bash
+g
+d
+pushd .
+d
+pushd .
+ls
+g
+cd ..
+d
+g
+d
+pushd .
+popd 0
+popd +1
+popd +0
+d
+cd ..
+d
+cd afsdf
+cd fasd fas
+d
+cd asfdfasdf
+ls
+cd ..
+cd ~
+cd fasdfasd
+d
+cd ..
+d
+cd ..
+d
+cd ~/fc/transformer-pipeline/
+d
+g
+cd ~
+g
+git diff
+g
+./config.sh push
