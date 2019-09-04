@@ -25,7 +25,6 @@ sudo rm -rf *
 rm -rf grub
 sudo rm -rf grub
 sudo rm -rf lost+found/
-sudo
 sudo su
 sudo umount /mnt
 sudo umount /dev/mapper/loop19p2
@@ -43,7 +42,6 @@ fd -l
 df -l
 umount /dev/mapper/loop18p1
 sudo umount /dev/mapper/loop18p1
-df 
 sudo umount -f /mnt
 sudo umount --force /mnt
 mkdir /boot/efi
@@ -84,7 +82,6 @@ sudo logout
 cd tes
 cd test
 reboot
-cd test/
 cd os
 umount /mnt/boot/efi
 sudo umount /mnt/loop18
@@ -260,7 +257,6 @@ ossutil ls oss://ai-cloth-public/debug-data |  grep S5
 git commit -m "fix bug"
 cd IPC/
 vim fifo2.cpp
-vim ~/.vimrc
 vim fd
 tar -tf artifacts.zip
 tar -tf 190124-102315-blow00-S4.tar 
@@ -449,7 +445,6 @@ vim 2
 sed -Eni ':a;N;$!ba;s/imCountToSave: [0-9]*/imCountToSave: 10000/;$p' 1;sed -Eni ':a;N;$!ba;s/lossSpeed: ([1-9e.]|-|\.)*/lossSpeed: 0.2/;$p'  1;sed -Eni ':a;N;$!ba;s/threshold: ([0-9e.]|-|\.)*/threshold: 0.003/;$p' 1;sed -Eni ':a;N;$!ba;s/countWidth: ([0-9e.]|-|\.)*/countWidth: 50/;$p' 1;sed -Eni ':a;N;$!ba;s/recentBrokenTimes: ([0-9e.]|-|\.)*/recentBrokenTimes: 15/;$p' 1;
 cat 1 > 2
 diff 1 2
-git diff .vimrc
 cd test/IPC/
 cat file
 vim in
@@ -482,7 +477,6 @@ git commit -m "upd param"
 echo
 echo abc
 history |
-vim /etc/profile
 sudo vim /etc/profile
 history | wc -l
 ssh -p 10690 hypereal@registry-corp.hypereal.com
@@ -705,7 +699,6 @@ expr substr $abc 2 2
 expr substr $abc 3 2
 expr substr $abc 5 2
 gedit ~/.vimrc
-vim
 use mysql
 ./database.sh 
 chmod +x database.sh
@@ -721,11 +714,9 @@ git commit -m "version 0.1"
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 cd .vimr
 cd .vim
-cd plugged/
 cd toggle-terminal/
 rm -rf .vim
 sudo apt upgrade vim
-sudo apt install vim
 sudo apt install gnome-vim
 sudo apt install gvim
 sudo apt search vim
@@ -983,7 +974,6 @@ diff save save.txt
 git commit -m "add save file"
 sudo rm -rf output/
 rm -rf output/
-cd /
 find . | grep osu
 sudo find . | grep osu
 sudo find . | grep osu | grep mp3
@@ -1124,7 +1114,6 @@ bash --login /
 bash --help
 man bash
 man bash | grep dir
-docker --help
 docker rm 978c59a2d9a4
 docker rm <none>
 docker rm none
@@ -1218,7 +1207,6 @@ ls ??
 ll -a ??
 ls -a ??
 su
-su root
 sudo vim /etc/sudoers
 mkdir -- -f
 rm -- -f
@@ -1422,7 +1410,6 @@ cd fc
 pushd
 pushd 
 pushd  .
-cd ~1
 pushd .
 cd ~/fc
 cd ~3
@@ -1529,7 +1516,6 @@ ssh -p 11131 hypereal@registry-corp.hypereal.com
 docker run ubuntu:15.10 /bin/echo "Hello world"
 docker run ubuntu:16.04 /bin/echo "Hello world"
 docker run -i -t ubuntu:16.04 /bin/bash
-docker images 
 docker run -i -t ubuntu /bin/bash
 docker run -i -t -v .:/root ubuntu:16.04 /bin/bash
 docker run -i -t -v `pwd`:/root ubuntu:16.04 /bin/bash
@@ -1899,7 +1885,6 @@ vim detection.
 vim detection.cpp 
 chmod +x mac.sh
 sudo apt install jq
-vim /etc/bash.bashrc 
 add-apt-repository ppa:jonathonf/vim
 git commit -m "add batch comment to vimrc"
 vim .vimr 
@@ -2055,7 +2040,6 @@ ssh gjs@gjs
 PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@123\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$'
 PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@23334\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$'
 find . | grep 'my.cnf'
-cd /etc/
 cd mysql/
 vim my.cnf
 service mysql restart
@@ -2149,7 +2133,6 @@ tar -cvf pack.tar pack
 bg --help
 man bg
 locale -a
-ll -h
 ll | grep pack
 ll -h | grep pack
 apt install ifconfig
@@ -2362,10 +2345,8 @@ cd --help
 ll | grep mydb
 ossutil
 vim .ossutilconfig 
-mkdir tmp
 mount  -t tmpfs -o size=20m  tmpfs tmp
 sudo mount -t tmpfs -o size=20m  tmpfs tmp
-cd tmp/
 umount /home/gjs/test/tmp
 sudo umount /home/gjs/test/tmp
 rm -r tmp
@@ -2528,7 +2509,6 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 pwcx
 dirs -p | head -n 1
 cd ~!
-echo $HOSTNAME
 data
 date
 git commit --amend 
@@ -2732,7 +2712,6 @@ ps -ef | grep 357
 vim ~
 sudo vim /etc/ssh/sshd_config
 gcc --version
-clang
 ssh
 history | grep
 kill -9 10468
@@ -3754,7 +3733,6 @@ ssh -o "StrictHostKeyChecking no" -p 11731 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 15764 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 14960 hypereal@registry-corp.hypereal.com
 chkconfig --list
-service --status-all
 service usb_blow_detector status
 ps -ef | grep 'blow_detector.py --name blow00' | wc -l
 ps -ef | grep 'blow_detector.py --name blow00' 
@@ -5017,7 +4995,6 @@ fstab
 vim fstab 
 nano config.sh 
 ./config.sh update_source
-apt install sudo
 ./config.sh 
 add-apt-repository -y ppa:jonathonf/vim
 apt install vim-gnome
@@ -5099,7 +5076,6 @@ tar xvf tf-cc-cpu.tar.gz -C /
 cd usr/local/include/tensorflow/bazel-genfiles/external/llvm/
 cd Target/
 apt install -y yasm pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
-sudo apt install sudo
 vim build_all.sh 
 ./configure 
 ./cconfigure 
@@ -6277,7 +6253,6 @@ docker rm -f 524a0c9d9b3f
 cd fc/sshproxy/
 cd /usr/local
 cd g
-cd go/
 gocode
 go get -u github.com/nsf/gocode
 gocode close
@@ -6314,7 +6289,6 @@ python3 install.py --clang-completer --gocode-completer --go-completer
 python3 install.py --all
 vim 1.c
 cp ~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py  ~/.vim
-cd .vim/
 cd YouCompleteMe/
 cd ycmd/
 cd examples/
@@ -6382,7 +6356,6 @@ go build -v
 cd pkg/
 cd mod/
 cd src
-cd go
 cd golang
 cd ~-4
 cd ~-5
@@ -6622,7 +6595,6 @@ vim .dconf
 git diff HEAD^3.config/gtk-3.0/gtk.css
 git diff HEAD^3 .config/gtk-3.0/gtk.css
 git diff HEAD~3 .config/gtk-3.0/gtk.css
-cd /tmp/
 cd mdempsky/
 cd gocode/
 rm -rf gocode
@@ -6692,7 +6664,6 @@ cd kube/
 touch server.js
 vim server.js 
 docker build .
-vim Dockerfile 
 df -hl
 docker image rm e34b64de9667
 apt-get update && apt-get install -y apt-transport-https curl
@@ -7111,7 +7082,6 @@ cat mydb
 ssh -o "StrictHostKeyChecking no" -p 18745 hypereal@registry-corp.hypereal.com
 'EVA 新世纪福音战士：第7话 人造之物[00].flv.download'
 rm 'EVA 新世纪福音战士：第7话 人造之物[00].flv.download' 
-cd snap/
 git diff .config
 cat .config/mednaffe.conf
 cat .config/totem/state.ini
@@ -7223,7 +7193,6 @@ ll | grep root
 cd root
 history | grep root
 sudo su 
-vim .bash
 ./config.sh push "remove terminal bold"
 git diff .gitconfig
 vim .gitconfig 
@@ -7543,7 +7512,6 @@ git clone https://github.com/MengRao/SPSC_Queue.git
 cd SPSC_Queue/
 sudo ./shmq_recv 
 ps -ef | grep multh
-./build.sh 
 sudo ./shmq_send 
 g++ --help
 man g++
@@ -7660,7 +7628,6 @@ mv ftplugin/ indent
 cd indent/
 vim cpp.vim 
 history | grep tcpdump
-cd fc/shmmsg/
 cd inc/
 vim semaphore.h 
 git fsck
@@ -7923,7 +7890,6 @@ git --version
 git worktree
 porcelain
 cd ../../build/
-cd bin/
 ./test_drivers_udp_socket 
 musicbox 
 zhcon --uti8
@@ -8084,7 +8050,6 @@ bin/1
 bin/1
 make -j4 && bin/1
 cd gh/cis194/
-cd ~/fc/shmmsg/
 mkdir rttr
 cd rttr/
 touch CMakeLists.txt
@@ -9541,7 +9506,6 @@ cd gmp-5.0.2/
 usod make uninstall
 sudo make uninstall
 cd gcc-4.6.4/
-echo $PATH
 cd /usr/local/bin/
 ls i386-jos-elf*
 ls i386-jos-elf* | xargs -i mv {} {}.bak
@@ -10522,7 +10486,6 @@ sudo apt search golang
 sudo apt install golang-go
 rm -rf vim-go/
 go mod .
-gopls
 gopls --help
 gopls --version
 gopls -v
@@ -10915,7 +10878,6 @@ apt-cache madison vim-nox
 apt-cache madison vim*
 apt-cache madison vim-gnome
 docker container -l
-snap --help
 snap list
 history | grep for
 history | grep format
@@ -11756,7 +11718,6 @@ f core 1.sh
 f -P
 rm 1.sh core
 f 1 2 3
-cd f
 ./config.sh pushg
 type f
 type b
@@ -11800,7 +11761,6 @@ locate -0 makefile | xargs -0 echo -
 locate -0 makefile | xargs 
 locate -0 makefile 
 locate -0 pattern | xargs -0 ls -al
-fzf
 sudo apt install fzf
 python -m http.server 7777
 python3 -m http.server 7777
@@ -12119,7 +12079,6 @@ man dh
 cd /etc/systemd/
 cd system/
 cd /etc/sysctl.d/
-cd /var/lib/systemd/
 cd deb-systemd-helper-enabled/
 find . | grep service
 cd ./systemd/deb-systemd-helper-enabled/multi-user.target.wants/
@@ -12665,7 +12624,6 @@ cd teach_pendant/
 sudo dpkg -i TeachPendant-0.0.0-11-gcfc7329-20190827150415.deb 
 git add script/deb/DEBIAN/postinst 
 git commit -m "upd postinst"
-git
 sudo dpkg -i TeachPendant-0.0.0-10-g0bba4be-20190827145450.deb 
 sudo dpkg -i TeachPendant-0.0.0-10-g0bba4be-20190827145652.deb 
 echo <<EOF 
@@ -13177,7 +13135,6 @@ slurm
 i slurm
 slurm -s
 slurm baidu.com
-sponge
 i moreutils
 cat 1.cpp
 seq 5 > t
@@ -13472,8 +13429,6 @@ i fdclone
 complete | grep _fzf
 cd fc/transformer-pipeline/deb/deb/etc/
 vim tag
-ccls
-clangd
 man clangd
 snap info clangd
 bash-language-server
@@ -13818,7 +13773,6 @@ sl
 
 rm 1
 cat -n 1 | sort  -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
-vim 1
 cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
 cat -n 1 | sort -k2 -k1n  | uniq -r -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort -k2 -r -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
@@ -13836,7 +13790,6 @@ cat -n 1 | sort -k2 -nrk1
 cat -n 1 | sort  -k2 -rnk1  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -nrk1  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -k1nr  | uniq -f1 | sort -nk1,1 | cut -f2-
-vim .bashrc
 vim .bash_history 
 rm ~/.bash_history.bak 
 vim ~/.bash_history 
@@ -13893,12 +13846,10 @@ vim .bash/feature.sh
 cd fc/iot-daemon/
 rm .bash_history 
 cd test/go/mock/
-vim main.go 
 e
 git checkout -- src/uploader/uploader.go
 git diff .bash_history
 git diff HEAD^ .dconf
-ll
 echo $PS1
 echo $LS_COLORS 
 vim .inputrc 
@@ -13907,26 +13858,17 @@ c echo $ | grep CO
 c echo $ | grep COL
 echo $COLORTERM 
 vim .vim/colors/konomi.vim
-cd fc/transformer-pipeline/
-vim 
 git reset HEAD --hard
 rm tags
 git pull
 make ..
 cmake ..
 cmake -DBUILD_ALGO_DNN ..
-rm -rf *
-cd ~
-vim .vimrc
 vim .vim/plugin/tabline.vim 
 gencdb
-cd build/
 cmake -DBUILD_ALGO_DNN=on ..
 cmake -DBUILD_ALGO_DNN=on -DCMAKE_BUILD_TYPE=Release ..
-cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 docker run -it registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1 bash
-fg
-history 
 history  | grep curl
 curl -sL install-node.now.sh/lts | sudo bash -- -y
 curl -sL install-node.now.sh/lts | sudo bash -s -- -y
@@ -13937,47 +13879,302 @@ ls ../vim/
 vim Dockerfile
 sudo snap install docker-langserver
 dockerfile-language-server-nodejs
-npm
 npm install -g dockerfile-language-server-nodejs
 sudo npm install -g dockerfile-language-server-nodejs
 docker-langserver
 git diff HEAD^ 
-vim config.sh 
 git log env
 git log dockerfiles/
-cd dockerfiles/
 cd vim/
 git log Dockerfile
 cd .
-cd ..
 vim .gitignore 
 cat .vim/coc-settings.json
-./config.sh push
-docker image
-df
-df -h
-docker images
 cd env/n
-cd env/
 docker build . -t transformer
 docker run -it transformer bash
-jobs
 docker run -it -d --name transfomer transformer bash
-docker stop transfomer 
-docker ps -l
-docker container prune -f
-docker run -it -v ~:/root -d --name transfomer transformer bash
-docker exec -it transfomer bash
 images
 vim ~/.bashrc
-ls
 git log -p .fzf.bash
 git add -f .fzf.bash 
-vim .fzf.bash 
-g
 fzf
-ls
 vim .fzf.bash 
 vim .bashrc
+./config.sh push
+sponge --help
+sponge
+apt search sponge
+apt install moreutils
+vim config.sh 
+rm -rf *
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
+cp compile_commands.json ..
+type snap
+which agsdfas
+/usr/bin/snap
+find . -name snap
+find . -path /root -prune -o -name snap
+which snap
+find . -path ./root -prune -o -name snap
+/usr/lib/snap
+cd /usr/lib/snap
+./snap 
+cd ~1
+./snap install ccls --classic
+./snap install ccls 
+cd /usr/share/snap
+cd /usr/lib/debian-med/bin/snap
+/usr/lib/debian-med/bin/snap
+/usr/lib/debian-med/bin/snap install ccls --classic
+/usr/lib/debian-med/bin/snap install ccls 
+apt install snap
+apt search snap
+/usr/lib/debian-med/bin/snap --version
+snap install ccls --classic
+snap help --al
+snap help --all
+snapctl --help
+service 
+snapctl 
+snap --help
+snap install ccls 
+systemctl 
+docker container 
+docker commit 00f42cd1334c transformer:latest 
+docker images --help 
+docker run -it -v ~:/root -d --name transfomer transformer bash
+cd /var/lib/systemd/
+systemctl status snapd.service
+snap --version
+snap version
+man snapd
+apt-get purge snapd snapd-login-service
+add-apt-repository main
+apt-get install snapd snapd-login-service
+apt-get install snapd-login-service
+sudo apt-get install snapd-login-service
+systemd
+apt install snapd*
+apt install cclsz
+apt install ccls
+snap search ccls
+apt install snap-confine
+snap install vim
+cd /snap/bin/ccls
+docker run -it -v ~:/root /snap:/snap -d --name transfomer transformer bash
+docker run -it -v ~:/root -v /snap:/snap -d --name transfomer transformer bash
+docker exec -it transfomer 
+cd /snap/
+cd 48/
+cd bin/
+./ccls 
+echo $PATH
+echo $PATH | grep snap
+vim .bash
+vim /etc/profile
+vim /etc/bash.bashrc 
+type ccls
+vim 
+cd test/
+cd f
+cd go/
+npm
+cd go
+cd go/mock/
+vim main.go 
+gopls
+type gopls
+cd ~/fc/shmmsg/
+cd plugged/coc.nvim/
+./install.sh
+docker run -it -v ~:/home/gjs -v /snap:/snap -d --name transfomer transformer bash
+ls /snpa
+ls /snap
+export PATH=$PATH:/snap/bin/
+vim ~/.vimrc
+cd fc/shmmsg/
+vim  
+git diff .vimrc
+sudo
+apt install sudo
+sud oapt install sudo
+sudo apt install sudo
+su root
+sudo 
+sudo apt install vim
+cd .vim/
+git diff dockerfiles/
+cd plugged/
+rm -rf coc.nvim/
+vim .vimrc
+export PATH=$PATH:/snap/bin
+man ccls
+ccls --help
+cd /etc/
+df 
+net
+apt install snapd
+sudo apt install snapd
+apt install squashfuse
+sudo apt install squashfuse
+systemctl enable snapd
+service --help
+service --status-all
+echo $SNAPCRAFT_SETUP_CORE
+cd dockerfiles/
+cd env/
+vim Dockerfile 
+docker --help
+man docker 
+cd /lib/modules/
+find . | grep snap
+cd ~
+docker run -it -v ~:/root -v /snap:/snap --name transfomer transformer bash 
+ docker run --name=snapd -ti -d \                                                                                     
+  --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged \ # [1]
+docker run -it -v ~:/root -v /snap:/snap -d --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged \ # [1]
+docker run -it -v ~:/root -v /snap:/snap -d --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged -v /lib/modules:/lib/modules:ro 
+docker run -it -v ~:/root -v /snap:/snap -d --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged -v /lib/modules:/lib/modules:ro transfomer bash
+jobs
+fg
+docker run -it -v ~:/root -v /snap:/snap -d --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged -v /lib/modules:/lib/modules:ro transfomer
+docker run -it -v ~:/root -v /snap:/snap -d --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged -v /lib/modules:/lib/modules:ro transfomer 
+docker run -it -v ~:/home/gjs -v /snap:/snap --name transfomer transformer bash 
+docker run -it -v ~:/root -v /snap:/snap -d --name transfomer transfomer bash
+docker run -it -v ~:/root -v /snap:/snap -d --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged -v /lib/modules:/lib/modules:ro transformer bash 
+service snapd 
+docker run -it -v ~:/root -v /snap:/snap --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged -v /lib/modules:/lib/modules:ro transformer bash 
+docker run -d -it -v ~:/root -v /snap:/snap --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged -v /lib/modules:/lib/modules:ro transformer bash 
+docker exec -it transfomer snap install emoj
+fuse
+cd snap/
+chmod +x snap 
+docker build -t snapd . 
+vim 1
+docker run --name=snapd -ti -d   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged   -v /lib/modules:/lib/modules:ro \
+docker run --name=snapd -ti -d   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged   -v /lib/modules:/lib/modules:ro   snapd
+docker exec -it snapd snap install emoj
+docker exec -it snapd snap install hello-world
+sudo snap install hello-world
+hello-world
+hello-world.env 
+df -h
+df
+docker run -v /snap:/snap --name=snapd -ti -d   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged   -v /lib/modules:/lib/modules:ro   snapd
+cd /var/lib/snapd/
+docker run -v /var/lib/snapd/:/var/lib/snapd -v /snap:/snap --name=snapd -ti -d   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged   -v /lib/modules:/lib/modules:ro   snapd
+docker exec -it snapd bash
+./build.sh
+sudo ./build.sh
+chmod +x build.sh 
+docker images 
+docker stop snapd && docker container prune -f
+docker image
+docker rm snapd
+docker image rm -f snapd
+apt search ccls
+docker run     --name=transformer     -ti     --tmpfs /run     --tmpfs /run/lock     --tmpfs /tmp     --cap-add SYS_ADMIN     --device=/dev/fuse     --security-opt apparmor:unconfined     --security-opt seccomp:unconfined     -v /sys/fs/cgroup:/sys/fs/cgroup:ro     -v /lib/modules:/lib/modules:ro     -d registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1
+docker stop * && docker container prune -f
+docker stop --all && docker container prune -f
+docker stop --help
+docker run     --name=transformer     -ti     --tmpfs /run     --tmpfs /run/lock     --tmpfs /tmp     --cap-add SYS_ADMIN     --device=/dev/fuse     --security-opt apparmor:unconfined     --security-opt seccomp:unconfined     -v /sys/fs/cgroup:/sys/fs/cgroup:ro     -v /lib/modules:/lib/modules:ro     -d transformer
+docker run     -v /snap:/snap --name=transformer     -ti     --tmpfs /run     --tmpfs /run/lock     --tmpfs /tmp     --cap-add SYS_ADMIN     --device=/dev/fuse     --security-opt apparmor:unconfined     --security-opt seccomp:unconfined     -v /sys/fs/cgroup:/sys/fs/cgroup:ro     -v /lib/modules:/lib/modules:ro     -d transformer
+snap install snapd
+snap install hello-mvn
+sudo snap install hello-mvn
+cd /
+find . -path ./home -prune -name snap 
+usod find . -path ./home -prune -name snap 
+sudo  find . -path ./home -prune -name snap 
+find . -name snap 
+usod find . -name snap 
+sudo find . -name snap 
+sudo  find . -path ./home -prune -o -name snap 
+cd /var/snap/
+docker commit 13898a49ab55
+docker tag 713f9f6e08ee transformer
+docker run      --name=transformer     -ti     --tmpfs /run     --tmpfs /run/lock     --tmpfs /tmp     --cap-add SYS_ADMIN     --device=/dev/fuse     --security-opt apparmor:unconfined     --security-opt seccomp:unconfined     -v /sys/fs/cgroup:/sys/fs/cgroup:ro     -v /lib/modules:/lib/modules:ro     -d transformer
+docker run -v /snap:/snap -v /var/snap/:/var/snap --name=transformer     -ti     --tmpfs /run     --tmpfs /run/lock     --tmpfs /tmp     --cap-add SYS_ADMIN     --device=/dev/fuse     --security-opt apparmor:unconfined     --security-opt seccomp:unconfined     -v /sys/fs/cgroup:/sys/fs/cgroup:ro     -v /lib/modules:/lib/modules:ro     -d transformer
+docker run -v /var/lib/snapd:/var/lib/snapd -v /snap:/snap -v /var/snap/:/var/snap --name=transformer     -ti     --tmpfs /run     --tmpfs /run/lock     --tmpfs /tmp     --cap-add SYS_ADMIN     --device=/dev/fuse     --security-opt apparmor:unconfined     --security-opt seccomp:unconfined     -v /sys/fs/cgroup:/sys/fs/cgroup:ro     -v /lib/modules:/lib/modules:ro     -d transformer
+docker run --name=transformer     -ti     --tmpfs /run     --tmpfs /run/lock     --tmpfs /tmp     --cap-add SYS_ADMIN     --device=/dev/fuse     --security-opt apparmor:unconfined     --security-opt seccomp:unconfined     -v /sys/fs/cgroup:/sys/fs/cgroup:ro     -v /lib/modules:/lib/modules:ro     -d transformer
+cd ../snap/
+./build.sh 
+docker run -it -v ~:/root -v /snap:/snap -d --name transfomer transfomer 
+docker run -it -v ~:/root -v /snap:/snap -d --name transfomer transformer 
+docker exec -it transfomer bash
+vgit
+git
+mkdir tmp
+cd tmp/
+git clone https://github.com/MaskRay/ccls
+rm ccls/
+rm -rf ccls/
+cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/path/to/clang+llvm-xxx
+clang
+cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release ..
+sudo apt install ccls
+snap install ccls
+ccls
+snap isntall ccls
+docker run -it -v ~:/root  -d --name transfomer transfomer 
+docker run -it -v ~:/root  -d --name transfomer transformer 
+docker stop transformer && docker container prune -f
+docker stop transfomer && docker container prune -f
+docker stop transfomer 
+docker ps -l
+docker stop transformer 
+docker container prune -f
+docker run -it -v ~:/root  -d --name transformer transformer 
+cd /tmp/
+git clone --depth=1 --recursive https://github.com/MaskRay/ccls
+cd ccls
+wget -c http://releases.llvm.org/8.0.0/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz
+echo $HOSTNAME
+service snapd stop
+sudo service snapd stop
+snap install hello-ptro 
+nethack 
+sudo service snapd start
+sudo service snapd restart
+nethack
+tar xf clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz
+tar xvf clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz
+cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release     -DCMAKE_PREFIX_PATH=/usr/lib/llvm-7     -DLLVM_INCLUDE_DIR=/usr/lib/llvm-7/include     -DLLVM_BUILD_INCLUDE_DIR=/usr/include/llvm-7/
+type llvm-7
+type llvm
+apt install clang libclang-dev
+/usr/lib/llvm-6.0/
+cd ccls/
+mkdir build 
+cd build/
+cd ..
+ll
+ll -h
+g
+rm -rf Release/
+cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$PWD/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04 ..
+cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$PWD/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04
+cmake --build Release
+history 
+docker exec -it transformer bash
+ls
+snapd
+snap
+systemctl snapd
+service snapd
+docker run     --name=snapd     -ti     --tmpfs /run     --tmpfs /run/lock     --tmpfs /tmp     --cap-add SYS_ADMIN     --device=/dev/fuse     --security-opt apparmor:unconfined     --security-opt seccomp:unconfined     -v /sys/fs/cgroup:/sys/fs/cgroup:ro     -v /lib/modules:/lib/modules:ro     -d snapd
+docker images
+cquery
+clangd
+apt install clangd
+sudo apt install clangd
+sudo apt install cquery
+cd ../env/
+docker build -t transformer . 
+sudo apt-get install clang-tools-8
+sudo snap remove clangd
+cd fc/transformer-pipeline/
+vim
 g
 ./config.sh push
