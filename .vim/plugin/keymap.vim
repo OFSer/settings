@@ -1,10 +1,10 @@
 "------------------------------esc--------------------------------"
-inoremap <c-g> <c-c>
+inoremap <c-g> <esc>
 cnoremap <c-g> <c-c>
 nnoremap <c-g> <nop>
-vnoremap <c-g> <c-c>
-snoremap <c-g> <c-c>
-lnoremap <c-g> <c-c>
+vnoremap <c-g> <esc>
+snoremap <c-g> <esc>
+lnoremap <c-g> <esc>
 
 nnoremap <c-c> <nop>
 inoremap <c-o> <nop>

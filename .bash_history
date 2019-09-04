@@ -54270,3 +54270,78 @@ g
 git diff
 g
 ./config.sh push
+g
+g
+git diff
+ls
+g
+history 
+ls
+history 
+ls
+g
+history | grep ls
+history 
+ls
+g
+git diff
+history | wc -l
+history 
+vim config.sh 
+ls
+cd ~/fc/transformer-pipeline/
+vim compile_commands.json 
+ls
+vim build/
+vim build.sh 
+g
+cd ~
+vim .vimrc
+cd ~/fc/iot-daemon/
+vim main.go 
+fzf
+cd ~
+d
+g
+vim main.go 
+ls
+cd ~/test/go/mock/
+vim main.go 
+vim main.go 
+ls
+cd ~/fc/http-dhcp-server/
+vim main.go 
+g
+git checkout maste
+git checkout master
+g
+vim main.go 
+g
+git diff
+go build .
+go get -v -insecure
+git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
+go get -v -u github.com/swaggo/swag/cmd/swag
+go get -v -insecure
+g
+git checkout upload
+g
+r
+g
+go build .
+ls
+go test .
+cd ..
+cd ~/test/go/mock/
+vim main.go 
+cd ~
+g
+cd ~
+vim .vimrc
+vim ~/.vim/plugin/keymap.vim 
+cd fc/transformer-pipeline/
+vim 
+s dummy
+cd ~
+g
+./config.sh push

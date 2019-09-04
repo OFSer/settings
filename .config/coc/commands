@@ -1,3 +1,5 @@
+workspace.showOutput
+workspace.diagnosticRelated
 tabnine.openConfig
 json.retryResolveSchema
 python.setLinter
