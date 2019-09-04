@@ -21,7 +21,6 @@ sudo grub-install --root-directory=/mnt/$1 /dev/$1
 cd /mnt
 cd -
 cd /mnt/boot
-rm -rf *
 sudo rm -rf *
 rm -rf grub
 sudo rm -rf grub
@@ -62,7 +61,6 @@ sort <(ls) <(echo EFI) | uniq -u | sudo rm -rf
 sort <(ls) <(echo EFI) | uniq -u | xargs sudo rm -rf 
 sort <(ls) <(echo EFI) | uniq -u | sudo xargs rm -rf 
 sudo nautilus .
-ll
 sudo chmod 777 *
 chmod +w boot
 sudo chmod +w boot
@@ -164,7 +162,6 @@ printf %04d $i
 touch a
 sudo rm -r camera06-190121-231522-S5/
 cd build
-cmake ..
 make -j4
 ./run.sh 0
 vim .gitignore 
@@ -173,7 +170,6 @@ git add .
 git commit -m "add config.yaml"
 git push
 ./run.sh
-jobs
 vim test.sh
 cp run.sh test.sh
 ./test.sh 
@@ -190,7 +186,6 @@ cmake .
 ossutil ls oss://ai-cloth-public/debug-data
 nautilus /data
 nautilus /data &
-fg
 sudo nautilus /data &
 sudo apt install yasm pkg-config libusb-1.0-0-dev libusb-dev libgtk-3-dev libgl1-mesa-dev libtar-dev libjpeg-dev libv4l-dev
 sudo apt install -f
@@ -203,7 +198,6 @@ ossutil ls oss://ai-cloth-public/debug-data | wc -l
 ossutil ls oss://ai-cloth-public/debug-data | grep S5
 . test.sh 通元18-GPU号
 git commit -m "upd cal method"
-git pull
 git submodule update --remote submodules/saki_detection/
 git add submodules/saki_detection/
 git commit -m "upd saki"
@@ -263,7 +257,6 @@ git rebase -i fa2e7bf6a47996ba1e6a01e68e478549ba580785
 git push origin saki -f
 ssh -p 17418 hypereal@registry-corp.hypereal.com
 sudo umount /media/gjs/5a743cf5-a561-4491-bd97-7d8439e69d2b
-vim .vimrc
 git sttaus
 git status 
 git stage
@@ -398,7 +391,6 @@ git commit -m "upd count"
 git chekcout sa
 git chekcout saki
 git checkout saki
-git reset HEAD --hard
 \git reset HEAD --hard
 git submodule update --remote submodules/saki_detection/ a03b17558683735d4149835d2c3a0de75ecd42e0
 git submodule update --remote a03b17558683735d4149835d2c3a0de75ecd42e0
@@ -719,7 +711,6 @@ expr substr $abc 3 2
 expr substr $abc 5 2
 gedit ~/.vimrc
 vim
-vim 
 use mysql
 ./database.sh 
 chmod +x database.sh
@@ -763,7 +754,6 @@ vim.gtk3
 sudo apt upgrade
 vim .viminfo 
 set -s escape-time 0
-vim config.sh 
 fd
 gedit .vimrc
 vim .vim
@@ -963,7 +953,6 @@ ssh -p 13462 hypereal@registry-corp.hypereal.com
 cd submodules/
 git commit -m "save in time"
 git commit -m "fix .h"
-cd build/
 git commit -a -m "fix buf"
 rm .Togglebash.swp > /dev/null 2>&1
 git diff .bashrc
@@ -2072,7 +2061,6 @@ git commit -a -m "upd gjs tf.yaml"
 echo $TERM
 ssh -p 10976 hypereal@registry-corp.hypereal.com
 ssh gjs@gjs
-echo $PS1
 PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@123\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$'
 PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@23334\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$'
 find . | grep 'my.cnf'
@@ -2733,7 +2721,6 @@ eog --help-all
 ./label.sh
 mv label.sh labeler.sh
 git commit -m "add labeler"
-git diff HEAD^ .dconf
 shell
 . config.sh 
 . config.sh push
@@ -7665,7 +7652,6 @@ g++ 1.cpp && ./a.out
 sudo tcpdump -i lo port 9000 -X –S
 sudo tcpdump -i lo port 9000 -X -S
 man tcpdump
-echo $LS_COLORS 
 echo "[34madj. 混杂的；杂乱的[0m"
 echo "[34madj. 混杂的；杂乱的[0m"
 curseofwar 
@@ -7813,7 +7799,6 @@ tcpdump
 nc -l -p 1234 -q 1 > something.zip < /dev/null
 cat netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb | nc dl-5 9000
 nc 10.0.10.63 5000
-vim .inputrc 
 ffffffffffffffffffff
 nc 10.0.200.104 9000
 nc -v 10.0.200.104 9000
@@ -8188,7 +8173,6 @@ git rev-parse --abbrev-ref HEAD
 echo $GIT
 echo $GITOP
 echo $GITOP 
-cd fc/transformer-pipeline/
 declare --help | grep ref
 cd `git rev-parse --show-toplevel`
 git checkout wukong_1.0_dev 
@@ -9315,7 +9299,6 @@ cat b
 echo 123 > c
 make clean
 mdkir build
-make ..
 make -f ..
 make all
 make 
@@ -13617,7 +13600,6 @@ cd ~/.vim/pluggin
 vim keymap.vim 
 cd bash
 vim abcd 
-vim .vim/plugin/tabline.vim 
 vim .vim/plugin/keymap.vim 
 git add .vimrc .bashrc
 git reset HEAD .bashrc
@@ -13681,7 +13663,6 @@ git reset HEAD .vim --hard
 git reset HEAD .vim/
 vim `fzf`
 gendcb
-gencdb
 setxkbmap -layout us -option pause:nocaps
 setxkbmap -layout us -option shift:nocaps
 setxkbmap -layout us -option alt:nocaps
@@ -13836,7 +13817,6 @@ vim build/
 git checkout maste
 s dummy
 cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- 
-git diff .bash_history
 history -a
 cat .bash_history 
 cat .bash_history  | wc -l
@@ -13871,7 +13851,6 @@ cat -n 1 | sort -k2 -nrk1
 cat -n 1 | sort  -k2 -rnk1  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -nrk1  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -k1nr  | uniq -f1 | sort -nk1,1 | cut -f2-
-./config.sh push
 vim .bashrc
 vim .bash_history 
 rm ~/.bash_history.bak 
@@ -13925,20 +13904,53 @@ gsettings get org.gnome.Terminal.Legacy.Settings new-tab-position
 dconf list /org/gnome/terminal/legacy/
 man dconf
 man gsettings
-cd ~
-git diff
 vim .bash/feature.sh 
-history 
-ls
 cd fc/iot-daemon/
 rm .bash_history 
 cd test/go/mock/
 vim main.go 
 e
-g
 git checkout -- src/uploader/uploader.go
-vim .vim/colors/konomi.vim
-g
 git diff .bash_history
+./config.sh push
+git diff HEAD^ .dconf
+ll
+echo $PS1
+git diff
+echo $LS_COLORS 
+vim .inputrc 
+c echo $
+c echo $ | grep CO
+c echo $ | grep COL
+echo $COLORTERM 
+vim .vim/colors/konomi.vim
+history 
+cd fc/transformer-pipeline/
+vim 
+git reset HEAD --hard
+rm tags
+git pull
 g
+make ..
+cmake ..
+cmake -DBUILD_ALGO_DNN ..
+rm -rf *
+cd ~
+vim .vimrc
+vim .vim/plugin/tabline.vim 
+gencdb
+cd build/
+cmake -DBUILD_ALGO_DNN=on ..
+cmake -DBUILD_ALGO_DNN=on -DCMAKE_BUILD_TYPE=Release ..
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
+docker run -it registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1 bash
+ls
+vim config.sh 
+jobs
+fg
+history 
+history  | grep curl
+curl -sL install-node.now.sh/lts | sudo bash -- -y
+curl -sL install-node.now.sh/lts | sudo bash -s -- -y
+vim config.sh 
 ./config.sh push

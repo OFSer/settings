@@ -52,7 +52,7 @@ function! MyTabLine()
     endif
   endfor
 
-  let s .= '%#TabLineFill#'.'%=%P %f'
+  let s .= '%#TabLineFill#'.'%='
   if (exists("g:tablineclosebutton"))
     let s .= '%=%999XX'
   endif
