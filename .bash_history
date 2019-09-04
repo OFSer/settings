@@ -13873,14 +13873,43 @@ history -w
 cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge .bash_history 
 fasdfasdfasfdfsadf
 git diff --ignore-submodules 
-cd ~
-cat .bash_history 
-vim .bashrc
-g
-git diff
 cat -n ~/.bash_history | sort -k2 -k1n
 cat -n ~/.bash_history | sort -r -k2 -k1n
 cat -n ~/.bash_history | sort -r -k2 -k1n | less
-vim .bashrc
-g
+cd test/sh/
+vim 1
+sl
+'
+
+
+ls
+rm 1
+vim 1
+cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
+cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
+vim 1
+cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
+cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort -k2 -k1n  | uniq -r -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort -k2 -r -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort -k2 -rk1n  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort -rk2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort -r -k2 -k1n
+cat -n 1
+uniq --help
+cat -n 1 | sort -r -k2 -k1n
+cat -n 1
+sort --help
+cat -n 1 | sort -kr2 -k1n
+cat -n 1 | sort -rk2 -k1n
+cat -n 1 | sort -k2 -rk1n
+cat -n 1 | sort -k2 -nrk1
+cat -n 1 | sort  -k2 -nrk1  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2 -rnk1  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2 -nrk1  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2 -k1nr  | uniq -f1 | sort -nk1,1 | cut -f2-
 ./config.sh push
