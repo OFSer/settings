@@ -54076,3 +54076,79 @@ history --help
 g
 vim .bash/feature.sh 
 ./config.sh push
+ls
+cd ..
+ls
+cd gomock/
+cd ..
+ls
+vim .vimrc
+git diff
+g
+history 
+g
+ls
+git diff
+g
+git diff
+g
+git diff
+vim ~/.vim/plugin/.vimrc 
+g
+history 
+g
+ffffffffffffffffffffffff
+cd ~
+g
+git diff
+g
+git diff
+cd .vim/plugged/vim-colorschemes/colors/
+vim sienna.vim 
+vim core
+jbos
+rm core 
+ls
+vim selected 
+rm selected 
+steam
+ls
+g
+git diff
+g
+vim config.sh 
+g
+git diff
+c $
+c $' '
+c '$'
+ls
+vim config.sh 
+ls
+vim config.sh 
+c 'echo $'
+c 'echo $' | grep COLORS
+echo $LS_COLORS 
+ls
+g
+cd ~
+vim config.sh 
+vim .bashrc
+ls
+g
+jobs
+g
+./config.sh push
+ls
+git diff --cached config.sh
+g
+git checkout -- config.sh
+g
+git checkout reset HEAD config.sh
+g
+git  reset HEAD config.sh
+g
+git checkout -- config.sh
+g
+vim config.sh 
+./config.sh push

@@ -10,7 +10,7 @@ esac
 
 
 OnExit(){
-	cd ~
+	command cd ~
 	HF=~/.bash_history
 	if [ `git diff HEAD --numstat $HF | cut -f2` -ne 0 ];then
 		git checkout -- $HF
