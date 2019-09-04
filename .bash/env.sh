@@ -4,7 +4,7 @@ export HISTCONTROL=ignoreboth
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 export HISTSIZE=50000000
 export HISTFILESIZE=50000000
-export HISTCONTROL=erasedups:ignoreboth
+export HISTCONTROL=erasedups:ignoredups
 [ ${#HOSTNAME} -gt 5 ] && {
 	export HOSTNAME="docker"
 }
