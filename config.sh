@@ -11,9 +11,11 @@ install_bat() {
 install_vim_coc() {
 	curl -sL install-node.now.sh/lts | sudo bash -s -- -y
 	vim -c "CocInstall -sync | q"
+	sudo npm install -g dockerfile-language-server-nodejs
+	pip install compiledb
+	sudo snap install ccls --classic
 }
 snap_install(){
-	sudo snap install ccls --classic
 	sudo snap install code --classic
 	sudo snap install electronic-wechat
 	sudo snap install nethack
@@ -37,7 +39,6 @@ install_tools(){
 	sudo apt install -y tree net-tools nethogs openssh-server 
 	sudo apt install -y sl cmatrix fortune cowsay lolcat asciiquarium toilet gnuchess screenfetch empire angband bsdgames curseofwar
 	sudo apt install -y python-pip python3 python3-pip
-	pip install compiledb
 }
 config_scroll(){
 	sudo apt install xbindkeys xdotool -y

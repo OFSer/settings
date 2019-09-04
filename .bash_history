@@ -94,7 +94,6 @@ sudo mount /dev/mapper/loop19p1 /mnt/boot/efi
 cd boot
 mkdir efi
 sudo mkdir efi
-cd ..
 l
 cd boot/
 cd efi/
@@ -248,7 +247,6 @@ git log
 git log --oneline 
 git rebase -i fa2e7bf
 \git log
-git diff HEAD^
 git pull --rebase 
 \git diff
 git pull --recurse-submodules 
@@ -6701,7 +6699,6 @@ mkdir kube
 cd kube/
 touch server.js
 vim server.js 
-vim Dockerfile
 docker build .
 vim Dockerfile 
 df -hl
@@ -7048,7 +7045,6 @@ history | grep git | grep branch
 history | grep git | grep checkout
 history | grep git | grep remote
 git checkout -b ssh-proxy remotes/origin/ssh-proxy
-cd dockerfiles/
 cd ssh-proxy/
 cat Dockerfile 
 cat Dockerfile | od -b
@@ -7665,7 +7661,6 @@ rm -rf after colors
 cd nerdtree_plugin/
 mv plugged/ .plugged
 rm nerdtree_plugin/
-cd vim/
 vim vimrc
 mv .plugged/ plugged
 vim cpp.vim
@@ -13912,11 +13907,9 @@ vim main.go
 e
 git checkout -- src/uploader/uploader.go
 git diff .bash_history
-./config.sh push
 git diff HEAD^ .dconf
 ll
 echo $PS1
-git diff
 echo $LS_COLORS 
 vim .inputrc 
 c echo $
@@ -13924,13 +13917,11 @@ c echo $ | grep CO
 c echo $ | grep COL
 echo $COLORTERM 
 vim .vim/colors/konomi.vim
-history 
 cd fc/transformer-pipeline/
 vim 
 git reset HEAD --hard
 rm tags
 git pull
-g
 make ..
 cmake ..
 cmake -DBUILD_ALGO_DNN ..
@@ -13944,13 +13935,30 @@ cmake -DBUILD_ALGO_DNN=on ..
 cmake -DBUILD_ALGO_DNN=on -DCMAKE_BUILD_TYPE=Release ..
 cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 docker run -it registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1 bash
-ls
-vim config.sh 
 jobs
 fg
 history 
 history  | grep curl
 curl -sL install-node.now.sh/lts | sudo bash -- -y
 curl -sL install-node.now.sh/lts | sudo bash -s -- -y
+./config.sh push
+git diff HEAD^
+g
+git diff
+vim config.sh 
+cd dockerfiles/
+cd vim/
+cd ..
+mkdir env
+cd env/
+ls
+ls ../vim/
+vim Dockerfile
+sudo snap install docker-langserver
+dockerfile-language-server-nodejs
+npm
+npm install -g dockerfile-language-server-nodejs
+sudo npm install -g dockerfile-language-server-nodejs
+docker-langserver
 vim config.sh 
 ./config.sh push
