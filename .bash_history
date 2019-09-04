@@ -13874,6 +13874,12 @@ cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sp
 fasdfasdfasfdfsadf
 cd ~
 history 
+ls
 g
 ls
+git diff
+vim .bashrc
+g
+git diff 
+git diff --ignore-submodules 
 ./config.sh push
