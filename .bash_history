@@ -957,7 +957,6 @@ git diff .bashrc
 \git diff .bashrc
 \git diff .vimrc
 cd .local/share/app-info/xmls/
-cd .
 git rm --cached .local/share/app-info/xmls/extensions-web.xml
 vim .config/Trolltech.conf 
 git reset .config/dconf/user
@@ -10743,7 +10742,6 @@ hexdump -C -n 1000 HelloWorld.class
 cd ~/test/go/hello/
 cd vim-g
 git diff HEAD^ -s
-git diff HEAD^ 
 lg
 complete -A directory ls
 compgen -c ls
@@ -13941,17 +13939,9 @@ history
 history  | grep curl
 curl -sL install-node.now.sh/lts | sudo bash -- -y
 curl -sL install-node.now.sh/lts | sudo bash -s -- -y
-./config.sh push
 git diff HEAD^
-g
 git diff
-vim config.sh 
-cd dockerfiles/
-cd vim/
-cd ..
 mkdir env
-cd env/
-ls
 ls ../vim/
 vim Dockerfile
 sudo snap install docker-langserver
@@ -13960,5 +13950,20 @@ npm
 npm install -g dockerfile-language-server-nodejs
 sudo npm install -g dockerfile-language-server-nodejs
 docker-langserver
+./config.sh push
+git diff HEAD^ 
 vim config.sh 
+ls
+git log env
+git log dockerfiles/
+cd dockerfiles/
+cd env/
+cd vim/
+git log Dockerfile
+g
+cd .
+cd ..
+vim .gitignore 
+g
+cat .vim/coc-settings.json
 ./config.sh push

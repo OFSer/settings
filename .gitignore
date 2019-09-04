@@ -13,6 +13,7 @@
 !config.sh
 !.bash/
 !.vim/
+!dockerfiles/
 .vim/plugged
 .vim/.netrwhist
 .config/Code/
