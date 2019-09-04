@@ -44,7 +44,6 @@ df -l
 umount /dev/mapper/loop18p1
 sudo umount /dev/mapper/loop18p1
 df 
-df
 sudo umount -f /mnt
 sudo umount --force /mnt
 mkdir /boot/efi
@@ -163,7 +162,6 @@ sudo rm -r camera06-190121-231522-S5/
 cd build
 make -j4
 ./run.sh 0
-vim .gitignore 
 git status
 git add .
 git commit -m "add config.yaml"
@@ -263,7 +261,6 @@ git commit -m "fix bug"
 cd IPC/
 vim fifo2.cpp
 vim ~/.vimrc
-vim ~/.bashrc
 vim fd
 tar -tf artifacts.zip
 tar -tf 190124-102315-blow00-S4.tar 
@@ -1074,11 +1071,9 @@ git diff .config/mimeapps.list
 cd .config/evolution/
 cd sources/
 vim system-proxy.source 
-docker ps -l
 docker commit 
 docker commit 876ed3861737 ubuntu:16.04
 docker ls
-docker images
 docker commit 28e070f7b70b ubuntu:16.04
 cd UDP/
 ./a.out 
@@ -1155,7 +1150,6 @@ sudo cd /var/lib/docker/volumes/
 vim --version
 cd /var/lib/docker/
 docker commit a26de13842a6 ubuntu:16.04
-docker image
 docker commit 3b797201459e ubuntu:16.04
 docker commit cf775521fdd2 ubuntu:16.04
 docker commit 25f46a422737 ubuntu:16.04
@@ -2462,7 +2456,6 @@ rsync -av fc/ ~/dd/fc/
 git branch --help | grep current
 git branch --help
 git commit -m "change quit for vim"
-df -h
 got statis
 vim dconf
 vim /etc/fstab 
@@ -13554,7 +13547,6 @@ c ls --all  ' '
 c l
 cat .bashrc 
 docker restart vim;docker exec -it vim bash
-docker container prune -f
 docker run -it -d --name vim vim bash
 docker exec vim 
 docker exec vim  bash
@@ -13933,7 +13925,6 @@ cmake -DBUILD_ALGO_DNN=on ..
 cmake -DBUILD_ALGO_DNN=on -DCMAKE_BUILD_TYPE=Release ..
 cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 docker run -it registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1 bash
-jobs
 fg
 history 
 history  | grep curl
@@ -13950,20 +13941,43 @@ npm
 npm install -g dockerfile-language-server-nodejs
 sudo npm install -g dockerfile-language-server-nodejs
 docker-langserver
-./config.sh push
 git diff HEAD^ 
 vim config.sh 
-ls
 git log env
 git log dockerfiles/
 cd dockerfiles/
-cd env/
 cd vim/
 git log Dockerfile
-g
 cd .
 cd ..
 vim .gitignore 
-g
 cat .vim/coc-settings.json
+./config.sh push
+docker image
+df
+df -h
+docker images
+cd env/n
+cd env/
+docker build . -t transformer
+docker run -it transformer bash
+jobs
+docker run -it -d --name transfomer transformer bash
+docker stop transfomer 
+docker ps -l
+docker container prune -f
+docker run -it -v ~:/root -d --name transfomer transformer bash
+docker exec -it transfomer bash
+images
+vim ~/.bashrc
+ls
+git log -p .fzf.bash
+git add -f .fzf.bash 
+vim .fzf.bash 
+g
+fzf
+ls
+vim .fzf.bash 
+vim .bashrc
+g
 ./config.sh push
