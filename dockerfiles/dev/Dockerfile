@@ -1,4 +1,4 @@
-FROM registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1
+FROM ubuntu:18.04
 RUN apt update
 RUN apt install -y locales openssh-server software-properties-common
 RUN add-apt-repository -y ppa:jonathonf/vim && apt update

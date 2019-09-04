@@ -157,7 +157,6 @@ printf %04d $i
 touch a
 sudo rm -r camera06-190121-231522-S5/
 cd build
-make -j4
 ./run.sh 0
 git status
 git add .
@@ -766,7 +765,6 @@ rm nohup.out
 vim 1.sh
 rm 1.sh
 vim dconf 
-cd fc/
 cd crawler/
 ./config.sh pull
 :call Terins()
@@ -960,7 +958,6 @@ sudo apt install docker.io
 git diff 1.cpp
 ssh -p 17039 hypereal@registry-corp.hypereal.com
 vim flaw_checker/
-cd flaw_checker/
 vim .swo
 rm .1.swp 
 fasdgasdfasdfasdfasdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -7838,7 +7835,6 @@ iptables
 iptables -h
 man iptables 
 man iptables  -h
-cd transformer-pipeline/
 chsh
 chsh --help
 man chsh 
@@ -7967,8 +7963,6 @@ ls | grep auto
 sudo apt remove autojump 
 gs
 man gs
-cd shmmsg/
-du -hd1
 ping fe80::e646:daff:fe6f:5e3a
 ping fe80::1f4c:3f7f:fdd7:dfd9
 ping 'fe80::1f4c:3f7f:fdd7:dfd9'
@@ -11135,7 +11129,6 @@ find . -path ./.git -prune  -print
 find -type f -path ./.git -prune -o -exec grep -Iq '' '{}' ';' -print
 find -path ./.git -prune -o -type f -exec grep -Iq '' '{}' ';' -print
 find -path .git -prune -o -type f -exec grep -Iq '' '{}' ';' -print
-cd ~/fc/transformer-pipeline/
 find . -type f \( -name "*.conf" -or -name "*.txt" \) -print
 find . -not -type f \( -name "*.conf" -or -name "*.txt" \) -print
 find . -not \( -type f \( -name "*.conf" -or -name "*.txt" \) \) -print
@@ -12480,7 +12473,6 @@ c ls' '
 set --help
 dpkg --help | grep depend
 man deb-control 
-cd ~/test/make/
 sysctl -p /etc/sysctl.d/50-pipeline.conf
 git commit -m "add deb etc"
 a=*_service
@@ -13873,7 +13865,6 @@ history  | grep curl
 curl -sL install-node.now.sh/lts | sudo bash -- -y
 curl -sL install-node.now.sh/lts | sudo bash -s -- -y
 git diff HEAD^
-git diff
 mkdir env
 ls ../vim/
 vim Dockerfile
@@ -13901,15 +13892,12 @@ git add -f .fzf.bash
 fzf
 vim .fzf.bash 
 vim .bashrc
-./config.sh push
 sponge --help
 sponge
 apt search sponge
 apt install moreutils
 vim config.sh 
 rm -rf *
-cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
-cp compile_commands.json ..
 type snap
 which agsdfas
 /usr/bin/snap
@@ -13985,7 +13973,6 @@ cd go/mock/
 vim main.go 
 gopls
 type gopls
-cd ~/fc/shmmsg/
 cd plugged/coc.nvim/
 ./install.sh
 docker run -it -v ~:/home/gjs -v /snap:/snap -d --name transfomer transformer bash
@@ -14022,14 +14009,11 @@ systemctl enable snapd
 service --help
 service --status-all
 echo $SNAPCRAFT_SETUP_CORE
-cd dockerfiles/
-cd env/
 vim Dockerfile 
 docker --help
 man docker 
 cd /lib/modules/
 find . | grep snap
-cd ~
 docker run -it -v ~:/root -v /snap:/snap --name transfomer transformer bash 
  docker run --name=snapd -ti -d \                                                                                     
   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged \ # [1]
@@ -14083,7 +14067,6 @@ docker run     -v /snap:/snap --name=transformer     -ti     --tmpfs /run     --
 snap install snapd
 snap install hello-mvn
 sudo snap install hello-mvn
-cd /
 find . -path ./home -prune -name snap 
 usod find . -path ./home -prune -name snap 
 sudo  find . -path ./home -prune -name snap 
@@ -14115,17 +14098,11 @@ clang
 cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release ..
 sudo apt install ccls
 snap install ccls
-ccls
 snap isntall ccls
 docker run -it -v ~:/root  -d --name transfomer transfomer 
 docker run -it -v ~:/root  -d --name transfomer transformer 
-docker stop transformer && docker container prune -f
-docker stop transfomer && docker container prune -f
 docker stop transfomer 
-docker ps -l
-docker stop transformer 
 docker container prune -f
-docker run -it -v ~:/root  -d --name transformer transformer 
 cd /tmp/
 git clone --depth=1 --recursive https://github.com/MaskRay/ccls
 cd ccls
@@ -14145,36 +14122,82 @@ type llvm-7
 type llvm
 apt install clang libclang-dev
 /usr/lib/llvm-6.0/
-cd ccls/
 mkdir build 
-cd build/
-cd ..
 ll
 ll -h
-g
 rm -rf Release/
 cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$PWD/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04 ..
 cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$PWD/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04
 cmake --build Release
 history 
-docker exec -it transformer bash
-ls
 snapd
 snap
 systemctl snapd
 service snapd
 docker run     --name=snapd     -ti     --tmpfs /run     --tmpfs /run/lock     --tmpfs /tmp     --cap-add SYS_ADMIN     --device=/dev/fuse     --security-opt apparmor:unconfined     --security-opt seccomp:unconfined     -v /sys/fs/cgroup:/sys/fs/cgroup:ro     -v /lib/modules:/lib/modules:ro     -d snapd
-docker images
 cquery
-clangd
 apt install clangd
 sudo apt install clangd
 sudo apt install cquery
 cd ../env/
 docker build -t transformer . 
-sudo apt-get install clang-tools-8
 sudo snap remove clangd
-cd fc/transformer-pipeline/
-vim
+./config.sh push
+sudo apt-get install clang-tools-8
+sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-8 100
+clangd
+cd ~/fc/shmmsg/
+cd flaw_checker/
+gencdb 
+cd shmmsg/
+cd ~/test/make/
+cd ~/fc/transformer-pipeline/
+docker ps -l
+docker stop transfomer && docker container prune -f
+docker stop transformer && docker container prune -f
+docker stop transformer 
+ docker container prune -f
+docker images
+docker run -it -v ~:/root  -d --name transformer transformer 
+docker exec -it transformer bash
+cd fc/
+cd transformer-pipeline/
+ccls
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
+cp compile_commands.json ..
+cd ..
+cd build/
+make -j4
+cp compile_commands.json ../compile_commands.json 
+git diff
 g
+type gencdb
+cd fc/transformer-pipeline/
+cd ~
+cd dockerfiles/
+cd env/
+vim
+cd /
+cd ccls/
+ls
+du -hd1
+ls
+ rm snap 
+g
+cd ~
+ls
+cd ~
+g
+cd dockerfiles/
+ls
+g
+vim
+ls
+mv env/ ccls
+ls
+cd ccls/
+cd ..
+mv ccls dev
+g
+cd ~
 ./config.sh push
