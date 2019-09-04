@@ -21,6 +21,7 @@ OnExit(){
 	history -a
 	git add $HF
 	# git add -- .vimrc .bashrc .bash/ .vim/ config.sh
+	cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge .bash_history
 }
 # trap OnExit Exit
 load(){

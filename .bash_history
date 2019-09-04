@@ -13870,3 +13870,46 @@ g
 cat .bash_history 
 cat .bash_history  | wc -l
 history -w
+cd fc/transformer-pipeline/
+vim 
+s dummy
+./config.sh push
+git checkout -- .bash_history
+cd ~
+history 
+history -a
+cat .bash_history 
+history -w
+cat .bash_history  | wc -l
+cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- 
+cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge .bash_history 
+git diff .bash_history
+git status
+git add -A
+git commit -m "upd"
+vim .bash_history 
+vim .bash/feature.sh 
+ls
+g
+git diff
+cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- 
+cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge .bash_history 
+git diff .bash_history
+git status
+git add -A
+git commit -m "upd"
+vim .bash_history 
+vim .bash/feature.sh 
+cd ~
+git diff
+ls
+history 
+g
+vim .bash/feature.sh 
+ls
+history 
+cd ~
+vim .bashrc
+g
+git diff
+cd ~
