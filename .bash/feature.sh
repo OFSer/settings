@@ -66,7 +66,7 @@ xterm*|rxvt*)
 		fi
 	}
 	CommandTrap(){
-		history -a
+		# history -a
 		# history -n
 		# history -c
 		# history -r
