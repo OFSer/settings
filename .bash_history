@@ -13913,3 +13913,18 @@ vim .bashrc
 g
 git diff
 cd ~
+history 
+vim .bashrc
+cd ~
+git diff
+ls
+./config.sh push
+g
+ls
+./config.sh push
+cd ~
+git diff
+vim .bashrc 
+vim .bash_history 
+vim .bashrc
+g

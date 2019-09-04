@@ -10,20 +10,20 @@ esac
 
 
 OnExit(){
-	command cd ~
-	HF=~/.bash_history
-	# if [ `git diff HEAD --numstat $HF | cut -f2` -ne 0 ];then
+	# command cd ~
+	# HF=~/.bash_history
+	# # if [ `git diff HEAD --numstat $HF | cut -f2` -ne 0 ];then
+	# # 	git checkout -- $HF
+	# # fi
+	# if [ `cat $HF | wc -l` -lt 10000 ];then
 	# 	git checkout -- $HF
 	# fi
-	if [ `cat $HF | wc -l` -lt 10000 ];then
-		git checkout -- $HF
-	fi
-	history -a
-	git add $HF
-	# git add -- .vimrc .bashrc .bash/ .vim/ config.sh
+	# history -a
+	# git add $HF
+	# # git add -- .vimrc .bashrc .bash/ .vim/ config.sh
 	cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge .bash_history
 }
-# trap OnExit Exit
+trap OnExit Exit
 load(){
 	for i in $1/*.sh;do
 		. $i
