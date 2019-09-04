@@ -101,7 +101,6 @@ l
 cd boot/
 cd efi/
 cd grub/
-cd ~/test/
 cd efi
 nautilus .
 cd ~/test/os
@@ -203,7 +202,6 @@ ossutil ls oss://ai-cloth-public/debug-data | wc -l
 . test.sh 通元02-GPU号
 ossutil ls oss://ai-cloth-public/debug-data | grep S5
 . test.sh 通元18-GPU号
-git diff
 git commit -m "upd cal method"
 git pull
 git submodule update --remote submodules/saki_detection/
@@ -266,7 +264,6 @@ git push origin saki -f
 ssh -p 17418 hypereal@registry-corp.hypereal.com
 sudo umount /media/gjs/5a743cf5-a561-4491-bd97-7d8439e69d2b
 vim .vimrc
-./config.sh push
 git sttaus
 git status 
 git stage
@@ -461,7 +458,6 @@ git push -u origin master
 vim mmap.cpp 
 cd sh
 cat 2
-vim 1
 vim 2
 sed -Eni ':a;N;$!ba;s/imCountToSave: [0-9]*/imCountToSave: 10000/;$p' 1;sed -Eni ':a;N;$!ba;s/lossSpeed: ([1-9e.]|-|\.)*/lossSpeed: 0.2/;$p'  1;sed -Eni ':a;N;$!ba;s/threshold: ([0-9e.]|-|\.)*/threshold: 0.003/;$p' 1;sed -Eni ':a;N;$!ba;s/countWidth: ([0-9e.]|-|\.)*/countWidth: 50/;$p' 1;sed -Eni ':a;N;$!ba;s/recentBrokenTimes: ([0-9e.]|-|\.)*/recentBrokenTimes: 15/;$p' 1;
 cat 1 > 2
@@ -472,8 +468,6 @@ cat file
 vim in
 jobvs
 history
-vim .bash_history 
-vim .bashrc
 ll | grep history
 vim/etc/profile 
 vim /etc/profile 
@@ -795,7 +789,6 @@ vim nohup.out
 rm nohup.out 
 vim 1.sh
 rm 1.sh
-rm 1
 vim dconf 
 cd fc/
 cd crawler/
@@ -873,7 +866,6 @@ set -o vi
 set -o emacs
 rm Netrw*
 cd fc/flaw_checker/
-vim ~/.bash_history 
 ./config push
 git reset HEAD^ --hard
 [[ a == a ]]; echo $?
@@ -1020,7 +1012,6 @@ du -l --max-depth=1| sort -n -k 1
 [[ abc =~ ab* ]] && echo 1 || echo 0
 [[ abc =~ ab.* ]] && echo 1 || echo 0
 [[ abc =~ aa.* ]] && echo 1 || echo 0
-sl
 ssh -p 10980 hypereal@registry-corp.hypereal.com
 ossutil ls oss://ai-cloth-public/debug-data | awk '{print $7}'
 ossutil ls oss://ai-cloth-public/debug-data | awk '{print $8}'
@@ -1093,7 +1084,6 @@ ssh -p 17077 hypereal@registry-corp.hypereal.com
 g++ 1.cpp -o 1
 zsh
 git add .vimrc 
-git checkout -- .config/dconf/user
 git diff .config/mimeapps.list
 cd .config/evolution/
 cd sources/
@@ -1329,7 +1319,6 @@ bash --version
 sudo git commit -m "fix"
 ossutil ls oss://ai-cloth-public/debug-data | grep S5 | wc -l
 history | grep 'ossutil rm'
-cd sh/
 man sudo
 baidu.com
 https://baidu.com
@@ -1766,7 +1755,6 @@ ps -ef | grep 'sh'
 ps -ef | grep '1'
 ps -ef | grep bash
 ps -ef | grep './1
-'
 ps -ef | grep './1.sh'
 ps -ef | grep '\./1\.sh'
 ps -ef | egrep '\./1\.sh'
@@ -1810,7 +1798,6 @@ kill 19917
 kill 19974
 nohup ./1.sh &> /dev/null 2>&1 &
 nohup ./1.sh &>/dev/null 2>&1 &
-cd test/sh/
 kill -hup 21101
 kill -cont 21101
 type kill
@@ -2587,15 +2574,12 @@ su usr
 ps -ef  | grep usr
 ps -ef  | grep docker
 read p
-gnome-terminal --tab
 gnome-terminal
 gnome-terminal --tab --tab
 gnome-terminal -
 rm .config/gtk-3.0/gtk.css 
 gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 0
 gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 1
-gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 'always'
-gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 'automatic'
 export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
 gnome-terminal --version
 find . | grep gnome
@@ -2616,7 +2600,6 @@ gsettings set org.gnome.Terminal.Legacy.Settings tab-policy always
 gsettings list org.gnome.Terminal
 gsettings set org.gnome.Terminal.SettingsList:/
 gsettings set org.gnome.Terminal.Legacy.Settings 
-gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 
 gsettings list-schemas .
 gsettings . list-schemas 
 gsettings --schemadir . list-schemas 
@@ -4403,7 +4386,6 @@ cd .config/gnome-games/
 vim aisleriot
 cat .bash_history | sort
 unique --help
-uniq --help
 cat .bash_history | sort | uniq -c
 cat .bash_history | sort | uniq -c | sort -n
 args $(*
@@ -6383,7 +6365,6 @@ git sttatus
 mv sshproxy/ http-dhcp-server
 cd http-dhcp-server/
 ./http-hello 
-vim main.go 
 sudo apt-cache madison
 sudo apt-cache madison vim
 sudo apt install vim=2:8.0.1453-1ubuntu1
@@ -10055,7 +10036,6 @@ eog images/1.bmp
 git commit -m "add find corners"
 git remote add origin git@gitlab.sho.hypereal.com:jingshen.gao/calibration.git
 pyhton3 1.py
-sort --help
 docker commit 3971955333f6 gcc:9.1
 g++ 10.cpp 
 vim 10.cpp
@@ -11553,7 +11533,6 @@ docker rm --force 2d6ac1cc56c4e7cbe22033befd332bc1aa3af6dc31a39699339146b3e8629b
 \ssh -p 20000 gjs@10.0.10.63
 \ssh -p 28872 gjs@10.0.10.63
 git commit -m "add ssh proxy"
-cd fc/iot-daemon/
 git commit -m "small update"
 git merge yisong 
 git pull origin yisong 
@@ -11952,7 +11931,6 @@ gsettings set org.gnome.desktop.wm.preferences num-workspaces 2
 gsettings set org.gnome.desktop.wm.preferences num-workspaces 1
 dconf --help
 tldr dconf
-man dconf
 dconf list -R /
 ln -s config.sh config/testing.json 
 ln -s config/testing.json config.json
@@ -12857,7 +12835,6 @@ man -k printf
 c man ' ' | grep printf
 man -W test 
 d
-e
 f --help
 man f
 h
@@ -13323,7 +13300,6 @@ ack
 i silversearcher-ag
 cd ~/test/go/mock/
 history  | grep ag
-cd test/go/mock/
 ag bar
 apt remove bat
 sudo apt remove bat
@@ -13792,7 +13768,6 @@ fffffffffffffffffffffffff
 history -r
 fffffffffffffffffffffffffffffff
 git diff --cached .bashrc
-vim .bash/feature.sh 
 cd test/go/mock
 vim .vim/plugin/autocmd.vim 
 vim test/go/mock/main.go 
@@ -13861,12 +13836,8 @@ vim build/
 git checkout maste
 s dummy
 cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- 
-cd ~
 git diff .bash_history
-ls
-history 
 history -a
-g
 cat .bash_history 
 cat .bash_history  | wc -l
 history -w
@@ -13877,39 +13848,97 @@ cat -n ~/.bash_history | sort -k2 -k1n
 cat -n ~/.bash_history | sort -r -k2 -k1n
 cat -n ~/.bash_history | sort -r -k2 -k1n | less
 cd test/sh/
-vim 1
 sl
 '
 
-
-ls
 rm 1
-vim 1
-cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
-cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
 vim 1
 cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
-cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort -k2 -k1n  | uniq -r -f1 | sort -nk1,1 | cut -f2-
-cat -n 1 | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort -k2 -r -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort -k2 -rk1n  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort -rk2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
-cat -n 1 | sort -r -k2 -k1n
-cat -n 1
 uniq --help
 cat -n 1 | sort -r -k2 -k1n
 cat -n 1
-sort --help
 cat -n 1 | sort -kr2 -k1n
 cat -n 1 | sort -rk2 -k1n
 cat -n 1 | sort -k2 -rk1n
 cat -n 1 | sort -k2 -nrk1
-cat -n 1 | sort  -k2 -nrk1  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -rnk1  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -nrk1  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -k1nr  | uniq -f1 | sort -nk1,1 | cut -f2-
+./config.sh push
+vim .bashrc
+vim .bash_history 
+rm ~/.bash_history.bak 
+vim ~/.bash_history 
+sort --help
+cd ~/test/
+cd sh/
+ cat -n 1 | sort  -k2 -k1nr  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2 -kn1r  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2 -nk1r  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2 -k1rn  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2 -k1r  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2 -k1n -r  | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2 -r -k1n   | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2  -k1nr   | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2  -k1n -r   | uniq -f1 | sort -nk1,1 | cut -f2-
+cat -n 1 | sort  -k2  -k1nr    | uniq -f1 | sort -nk1,1 | cut -f2-
+sudo apt install gnome-terminal 
+gnome-terminal --tab -e ls
+gnome-terminal --tab
+gnome-terminal --help
+man gnome-terminal 
+gsettings set org.gnome.Terminal.Legacy.Settings new-terminal-mode 
+gsettings get org.gnome.Terminal.Legacy.Settings 
+gsettings get org.gnome.Terminal.Legacy.Settings new-terminal-mode 
+gsettings get org.gnome.Terminal.Legacy.Settings tab-position
+gsettings set org.gnome.Terminal.Legacy.Settings tab-position next
+gsettings --help
+gsettings range org.gnome.Terminal.Legacy.Settings tab-position 
+gsettings range org.gnome.Terminal.Legacy.Settings new-terminal-mode
+gsettings set org.gnome.Terminal.Legacy.Settings tab-position bottom
+gsettings set org.gnome.Terminal.Legacy.Settings tab-position top
+gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 
+gsettings range org.gnome.Terminal.Legacy.Settings tab-policy 
+gsettings range org.gnome.Terminal.Legacy.Settings mnemonics-enabled
+gsettings range org.gnome.Terminal.Legacy.Settings confirm-close
+gsettings range org.gnome.Terminal.Legacy.Settings tab-policy
+gsettings get org.gnome.Terminal.Legacy.Settings tab-policy
+gsettings get org.gnome.Terminal.Legacy.Settings automatic
+gsettings set org.gnome.Terminal.Legacy.Settings automatic
+gsettings set org.gnome.Terminal.Legacy.Settings 'automatic'
+gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 'automatic'
+gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 'always'
+git checkout -- .config/dconf/user
+gsettings get org.gnome.Terminal.Legacy.Settings shell-integration-enabled 
+gsettings get org.gnome.Terminal.Legacy.Settings schema-version
+gsettings get org.gnome.Terminal.Legacy.Settings theme-variant
+gsettings get org.gnome.Terminal.Legacy.Settings new-tab-position 'right'
+gsettings get org.gnome.Terminal.Legacy.Settings new-tab-position 
+dconf list /org/gnome/terminal/legacy/
+man dconf
+man gsettings
+cd ~
+git diff
+vim .bash/feature.sh 
+history 
+ls
+cd fc/iot-daemon/
+rm .bash_history 
+cd test/go/mock/
+vim main.go 
+e
+g
+git checkout -- src/uploader/uploader.go
+vim .vim/colors/konomi.vim
+g
+git diff .bash_history
+g
 ./config.sh push

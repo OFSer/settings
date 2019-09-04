@@ -302,6 +302,7 @@ sidebar=false
 
 [org/gnome/terminal/legacy]
 menu-accelerator-enabled=false
+tab-position='top'
 theme-variant='system'
 default-show-menubar=false
 mnemonics-enabled=false
@@ -340,12 +341,12 @@ scrollbar-policy='always'
 login-shell=false
 palette=['rgb(46,52,54)', 'rgb(220,101,125)', 'rgb(75,177,167)', 'rgb(199,166,18)', 'rgb(81,135,201)', 'rgb(173,127,168)', 'rgb(184,121,90)', 'rgb(192,197,198)', 'rgb(84,88,84)', 'rgb(225,134,139)', 'rgb(132,185,124)', 'rgb(214,192,96)', 'rgb(81,135,201)', 'rgb(178,113,171)', 'rgb(215,135,95)', 'rgb(75,177,167)']
 bold-is-bright=true
-custom-command='tmux'
+custom-command='bash'
 cursor-shape='block'
 cursor-colors-set=false
 highlight-colors-set=false
 scroll-on-output=false
-use-custom-command=false
+use-custom-command=true
 use-theme-colors=false
 font='Ubuntu Mono 16'
 use-theme-transparency=false

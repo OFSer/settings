@@ -1,6 +1,6 @@
-workspace.showOutput
-workspace.diagnosticRelated
 tabnine.openConfig
+workspace.diagnosticRelated
+workspace.showOutput
 json.retryResolveSchema
 python.setLinter
 python.runLinting
