@@ -8,7 +8,6 @@ case $- in
 	  *) return;;
 esac
 
-
 OnExit(){
 	# command cd ~
 	# HF=~/.bash_history
@@ -21,9 +20,13 @@ OnExit(){
 	# history -a
 	# git add $HF
 	# # git add -- .vimrc .bashrc .bash/ .vim/ config.sh
-	cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge .bash_history
+	:
 }
 trap OnExit Exit
+AfterLoad(){
+	cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge .bash_history
+	history -c
+}
 load(){
 	for i in $1/*.sh;do
 		. $i
@@ -31,3 +34,4 @@ load(){
 }
 load $HOME/.bash
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+AfterLoad

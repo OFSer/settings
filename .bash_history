@@ -13871,12 +13871,4 @@ cat .bash_history
 cat .bash_history  | wc -l
 history -w
 cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge .bash_history 
-vim .bashrc 
-vim .bash_history 
-vim .bashrc
-cd ~
-./config.sh push
-g
-git diff
-ls
 fasdfasdfasfdfsadf
