@@ -14,10 +14,12 @@ genycm() {
 
 gencdb() {
 	target=`pwd`
-	if [ -f CMakeLists.txt ]; then
+	if [ -f build/compile_commands.json ]; then
+		cp build/compile_commands.json $target
+	elif [ -f CMakeLists.txt ]; then
 		build=/tmp/$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13)
 		mkdir -p $build && command cd $build
-		cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=on -DCMAKE_BUILD_TYPE=Release $target
+		cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=on -DCMAKE_BUILD_TYPE=Release $@ $target
 		cp compile_commands.json $target
 	elif [ -f makefile -o -f Makefile ]; then
 		compiledb -n make

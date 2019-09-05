@@ -236,7 +236,6 @@ sudo hexdump -C -n 512 /dev/sdc
 \git add src/camera_process.cpp 
 \git commit -m "repair"
 \git push
-git log
 git log --oneline 
 git rebase -i fa2e7bf
 \git log
@@ -264,7 +263,6 @@ pwd
 git stash
 git checkout -b test
 git stash pop
-git branch
 git commit -m "move test"
 git push -u origin test
 ./crawler.sh 
@@ -3060,7 +3058,6 @@ sshpass 87Co7r scp online_tools/ -o -p 12118 hypereal@registry-corp.hypereal.com
 scp online_tools/ -o -p 12118 hypereal@registry-corp.hypereal.com:online_tools/
 scp online_tools/ hypereal@registry-corp.hypereal.com:online_tools/
 steam 
-cp --help
 ls;sleep 3
 cp -R os .
 cp -R os ss
@@ -3840,8 +3837,6 @@ for x in $TMPIP ;do      Xip="${x}.$Xip"; done
 echo ${Xip%.}
 args "$*"
 args $*
-args $@
-args "$@"
 printf "%d args:" "$#"
 printf " <%s>" "$@"
 printf " <%s>" "$*"
@@ -4284,7 +4279,6 @@ echo $12
 echo ${12}
 set ~
 $*
-$@
 ( echo $$ )
 echo $!
 sleep 5
@@ -11255,7 +11249,6 @@ history | grep 59
 history | grep 59 | grep ssh
 \ssh gjs@10.0.10.609
 \ssh gjs@10.0.10.60
-cd fc/dl-k8s-kube/
 cat /etc/environment 
 git reset HEAD iot-daemon
 go test
@@ -11689,7 +11682,6 @@ f -P
 rm 1.sh core
 f 1 2 3
 ./config.sh pushg
-type f
 type b
 arecord demo.wav
 musicbox demo.wav 
@@ -13759,7 +13751,6 @@ rm ~/.bash_history.bak
 vim ~/.bash_history 
 sort --help
 cd ~/test/
-cd sh/
  cat -n 1 | sort  -k2 -k1nr  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -kn1r  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -nk1r  | uniq -f1 | sort -nk1,1 | cut -f2-
@@ -13828,7 +13819,6 @@ make ..
 cmake ..
 cmake -DBUILD_ALGO_DNN ..
 vim .vim/plugin/tabline.vim 
-gencdb
 cmake -DBUILD_ALGO_DNN=on ..
 cmake -DBUILD_ALGO_DNN=on -DCMAKE_BUILD_TYPE=Release ..
 docker run -it registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1 bash
@@ -13864,7 +13854,6 @@ sponge --help
 sponge
 apt search sponge
 apt install moreutils
-rm -rf *
 type snap
 which agsdfas
 /usr/bin/snap
@@ -14110,12 +14099,9 @@ cd ~/test/make/
 docker stop transfomer && docker container prune -f
 docker stop transformer 
  docker container prune -f
-cd transformer-pipeline/
 ccls
-cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 cp compile_commands.json ..
 cp compile_commands.json ../compile_commands.json 
-type gencdb
 cd fc/transformer-pipeline/
 cd env/
 cd /
@@ -14126,12 +14112,10 @@ mv ccls dev
 git diff HEAD^ .dconf
 his
 vim .bash_history 
-git diff
 cd dockerfiles/
 sudo apt install moreutils
 cd .bash/
 vim alias.sh 
-cd test/
 cd bash/
 vim 1
 chmod +x 1
@@ -14159,7 +14143,6 @@ sudo pmap 6374
 sudo pmap 6427
 sudo pmap -h 6427
 sudo pmap  6427
-cd /root/
 htop
 free -hm
 git remote show origin
@@ -14180,12 +14163,7 @@ vim config.sh
 sudo mv fc /root
 cd f
 vim .bashrc
-vim .bash
-g
-./config.sh push
 docker images
-cd build/
-make -j4
 sudo mv fc /root/
 sudo mv fc /root/fc/
 sudo cp fc /root/fc
@@ -14193,31 +14171,70 @@ sudo cp -r fc /root/fc
 sudo cp -r fc /root
 du -hd1
 cd backup/
-cd ..
-cd fc/
 cat README.md 
 rm README.md 
 tldr sync
 tldr rsync
-top
 history 
 cd fc/shmmsg/
-vim .docker/config.json 
-docker stop transformer && docker container prune -f
 docker run -it -v ~:/root  -d --name transformer transformer 
 ps -ef | grep docker
-docker exec -it transformer bash
 docker exec --help
 man docker 
 man docker-exec
-sudo su
 cd ~/fc/transformer-pipeline/
-vim
 free -m
 free -mh
-ls
-cd ~
 vim .vimrc
 vim .docker/config.json 
+./config.sh push
+cd /root/
+sudo su
+docker stop transformer && docker container prune -f
+docker run -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
+docker exec -it transformer bash
+cd transformer-pipeline/
+cd fc/dl-k8s-kube/
+git branch
+git checkout flawck 
+git log
+rm -rf *
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
+diff compile_commands.json build/compile_commands.json 
+git diff
+g
+set -- 1 "2 3"
+args $@
+args "$@"
+set -- echo "2 3"
+$@
+gencdb -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
+cd fc/
+cd /fc/transformer-pipeline/
+vim
+top
+cd build/
+git diff compile_commands.json 
+diff compile_commands.json ../compile_commands.json 
+vimdiff compile_commands.json ../compile_commands.json 
+cd ~
+cd /tmp/RJrWTJc5ZJ6Ty
+make -j4
+vim .bash
+type f
+cp --help
+cd test/
+cd sh/
+mkdir f
+cp 1 f
+cd 1 f
+cd f/
+cd ..
+cp 1 f/
+ls
+cp 1 f/1
+gencdb
+type gencdb
+gencdb
 g
 ./config.sh push
