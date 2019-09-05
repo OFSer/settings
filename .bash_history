@@ -25,7 +25,6 @@ sudo rm -rf *
 rm -rf grub
 sudo rm -rf grub
 sudo rm -rf lost+found/
-sudo su
 sudo umount /mnt
 sudo umount /dev/mapper/loop19p2
 umount /mnt
@@ -516,7 +515,6 @@ vim 1.cpp
 vim IPC
 mv IPC cpp
 git add IPC
-ls -a
 rm -rf .git
 git commit -m "add IPC"
 git remote add origin git@github.com:chinnkarahoi/cpp.git
@@ -818,7 +816,6 @@ ssh -p 16511 hypereal@registry-corp.hypereal.com
 tldr
 sudo apt install tldr
 tldr tar
-top
 tldr ps
 ps -o
 ps aux
@@ -1175,7 +1172,6 @@ vim .bashr
 vim .bashr c
 checkout saki
 git checkout test 
-git remote show origin
 sudo git commit -m "add blind camera"
 git merge addBlindInfo
 git merge origin/addBlindInfo
@@ -1679,10 +1675,8 @@ kill -L | grep TERM
 ps -ef | grep 2102
 ps -efj
 ps -efjp
-ps -ejH
 ps -ejfH
 ps -efH
-ps -efjH
 ps -e
 ps -ef
 ps -ef | head -n 1
@@ -1893,7 +1887,6 @@ bash -t "cd /"
 docker login https://registry-sho.hypereal.com
 cd dockerfiles/dl-tensorflow/
 docker build . -t registry-sho.hypereal.com/dl/dl-tf:test
-git checkout -- .vimrc
 git staths
 git checkout -- .bashrc
 "rm .Togglebash.swp > /dev/null 2>&1
@@ -2504,7 +2497,6 @@ echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 pwcx
 dirs -p | head -n 1
-cd ~!
 data
 date
 git commit --amend 
@@ -4958,7 +4950,6 @@ hash fc/saki_detection/
 ssh -o "StrictHostKeyChecking no" -p 11973 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 14927 hypereal@registry-corp.hypereal.com
 useradd --help
-htop
 ssh -o "StrictHostKeyChecking no" -p 19110 hypereal@registry-corp.hypereal.com
 cd systemd/
 history | grep var
@@ -5075,7 +5066,6 @@ vim build_all.sh
 ./configure 
 ./cconfigure 
 make -j2
-cd src/
 cd fc/flaw_checker/s
 cd fc/flaw_checker/src/
 apt install sshpass
@@ -5753,7 +5743,6 @@ vim 1.hs
 ghci --help
 echo 1223
 1223
-cd /root/
 git checkout -b opt
 git checkout optimize
 git checkout opt
@@ -6246,7 +6235,6 @@ docker exec v ~:/root -it jms_all /bin/bash
 docker exec  -it jms_all /bin/bash
 docker rm -f 524a0c9d9b3f
 cd fc/sshproxy/
-cd /usr/local
 cd g
 gocode
 go get -u github.com/nsf/gocode
@@ -6291,7 +6279,6 @@ vim /home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_co
 cd ~/.vim/plugged/
 cd. .
 vim .ycm_extra_conf.py 
-cd .vim/plugged/
 ls -a | grep .ycm_extra_conf.py 
 cd ycm/
 ls .ycm
@@ -8548,7 +8535,6 @@ rm core
 cd bu
 sudo apt install dpkg-dev
 cd /opt/src
-cd /opt/
 sudo mkdir src
 apt source libc6
 sudo apt source libc6
@@ -11982,7 +11968,6 @@ mv config_file/ ../../..
 ln -s config_file/testing.json config.json
 git commit -am "move config"
 git difrf
-free -m
 git checkout dxev
 git merge upload
 git diff config.json
@@ -13009,13 +12994,11 @@ snap info fzf-slowday
 snap info fzf-carroarmato0
 sudo apt search fzf
 sudo snap install fzf-carroarmato0
-sudo apt-get install fzf
 sudo snap remove fzf-carroarmato0 
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 find * -type f | fzf > selected
 vim ~/.fzf.bash
-cd .fzf/
 ~/.fzf/install 
 ~/.fzf/uninstall 
 man man.5
@@ -13857,7 +13840,6 @@ docker run -it registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1 bas
 history  | grep curl
 curl -sL install-node.now.sh/lts | sudo bash -- -y
 curl -sL install-node.now.sh/lts | sudo bash -s -- -y
-git diff HEAD^
 mkdir env
 ls ../vim/
 vim Dockerfile
@@ -13882,9 +13864,7 @@ images
 vim ~/.bashrc
 git log -p .fzf.bash
 git add -f .fzf.bash 
-fzf
 vim .fzf.bash 
-vim .bashrc
 sponge --help
 sponge
 apt search sponge
@@ -13956,7 +13936,6 @@ vim .bash
 vim /etc/profile
 vim /etc/bash.bashrc 
 type ccls
-vim 
 cd f
 cd go/
 npm
@@ -13986,7 +13965,6 @@ cd .vim/
 git diff dockerfiles/
 cd plugged/
 rm -rf coc.nvim/
-vim .vimrc
 export PATH=$PATH:/snap/bin
 man ccls
 ccls --help
@@ -14130,7 +14108,6 @@ apt install clangd
 sudo apt install clangd
 sudo apt install cquery
 cd ../env/
-docker build -t transformer . 
 sudo snap remove clangd
 sudo apt-get install clang-tools-8
 sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-8 100
@@ -14140,16 +14117,9 @@ cd flaw_checker/
 gencdb 
 cd shmmsg/
 cd ~/test/make/
-cd ~/fc/transformer-pipeline/
-docker ps -l
 docker stop transfomer && docker container prune -f
-docker stop transformer && docker container prune -f
 docker stop transformer 
  docker container prune -f
-docker images
-docker run -it -v ~:/root  -d --name transformer transformer 
-docker exec -it transformer bash
-cd fc/
 cd transformer-pipeline/
 ccls
 cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
@@ -14161,26 +14131,19 @@ type gencdb
 cd fc/transformer-pipeline/
 cd env/
 cd /
-du -hd1
  rm snap 
 mv env/ ccls
 cd ccls/
-cd ..
 mv ccls dev
-./config.sh push
 git diff HEAD^ .dconf
-ls
 his
-history 
 vim .bash_history 
 git diff
-g
 cd dockerfiles/
 vim
 sudo apt install moreutils
 cd .bash/
 vim alias.sh 
-cd ~
 cd test/
 cd bash/
 vim 1
@@ -14188,15 +14151,76 @@ chmod +x 1
 env
 ./1
 cd dev/
-docker build -t transformer . 
-docker images
 docker images
 docker build -t transformer . 
-g
 apt clean --help
 man apt 
 man apt-get
+./config.sh push
+cd ~!
+git diff HEAD^
+docker run -it -v ~:/root  -d --name transformer transformer 
+docker exec -it transformer bash
+cd ~/fc/transformer-pipeline/
+vim 
+pstree 6427
+ps -ef | grep 6427
+ps -ejH | grep 6427
+ps -ejH
+ps -efjH
+ps -efjH | grep 6427
+ps -efjH | grep root
+agetty --help
+man agetty
+pmap 6374
+sudo pmap 6374
+sudo pmap 6427
+sudo pmap -h 6427
+sudo pmap  6427
+free -m
+cd /root/
+docker stop transformer && docker container prune -f
+htop
+top
+free -hm
+sudo su
+history 
+git remote show origin
+cd fc/
+cd .fzf/
+du -hd1
+cd /usr/local
+cd src/
+ls -a
+cd /opt/
+rm -rf fzf.vim/
+cd ~
+fzf
+mkdir ls
+sudo apt-get install fzf
+cd .vim/plugged/
+cd ..
+vim .bashrc
+cat .fzf.bash
+git checkout -- .vimrc
+g
+vim .vimrc
+ls
+docker ps -l
+vim config.sh 
+ls
+cd fc/
+cd ..
+cd fc/
+du -hd1
+cd ..
+sudo mv fc /root
 g
 cd ~
+g
+cd f
+ls
+vim .bashrc
+vim .bash
 g
 ./config.sh push
