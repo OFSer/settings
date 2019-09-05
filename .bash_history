@@ -13202,7 +13202,6 @@ snap find bat
 snap find bat | grep bat
 wget https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/18566800-776c-11e9-9ca1-2e3add881182?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190830T065241Z&X-Amz-Expires=300&X-Amz-Signature=a12b72a5a4aa410f4c6ef30109212448cee107cc64dc88ab943a0d0dc60c1757&X-Amz-SignedHeaders=host&actor_id=41767615&response-content-disposition=attachment%3B%20filename%3Dbat_0.11.0_amd64.deb&response-content-type=application%2Foctet-stream
 wget 'https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/18566800-776c-11e9-9ca1-2e3add881182?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190830T065241Z&X-Amz-Expires=300&X-Amz-Signature=a12b72a5a4aa410f4c6ef30109212448cee107cc64dc88ab943a0d0dc60c1757&X-Amz-SignedHeaders=host&actor_id=41767615&response-content-disposition=attachment%3B%20filename%3Dbat_0.11.0_amd64.deb&response-content-type=application%2Foctet-stream'
-./config.sh install_bat
 cd test/bash/
 bat abcd
 bat README.md 
@@ -13566,7 +13565,6 @@ setxkbmap -layout us -option 'a:nocaps'
 setxkbmap -layout us -option 'b:nocaps'
 vim ~/.vim/.vimrc
 vim ~/.vim/plugin/.vimrc 
-vim ~/.vim/plugin/keymap.vim 
 G
 cd .vim/colors/cd ~
 cd ../aruco/
@@ -14107,7 +14105,6 @@ man apt
 man apt-get
 cd ~!
 git diff HEAD^
-vim 
 pstree 6427
 ps -ef | grep 6427
 ps -ejH | grep 6427
@@ -14201,7 +14198,6 @@ cp 1 f/
 cp 1 f/1
 type gencdb
 gencdb
-./config.sh push
 vim .gitconfig 
 cd dev/
 df
@@ -14215,7 +14211,6 @@ apt install less
 dpkg
 sudo vim
 vimux 
-top
 pstree -p $$
 pstree --help
 pstree -s -p $$
@@ -14241,27 +14236,83 @@ wget https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.d
 rm *
 curl "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb"
 wget
-vim config.sh 
-ls
 docker stop transformer && docker container prune -f
 docker run -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 docker exec -it transformer bash
-bat
 cd fc/transformer-pipeline/
-git diff
-g
 jobs
 fg
-vim
 cd ~
-vim .vimrc
 man protobuf
 man -f protobuf
 man -Kw protobuf
 man protoc
 man cmake-modules
-vim ~/.vim/plugin/keymap.vim 
-g
 rm dockerfiles/1.deb
+./config.sh push
+ls
+sudo apt remove bat 
+vim config.sh 
+./config.sh install_bat
+bat
+vim
+bat --version
+top
+ps -e -o pid,vsz,comm= 
+ps -e -o pid,vsz,comm= | sort -n -k 2
+man ps 
+vim 
+vim .vimrc
+vim ~/.vim/plugin/keymap.vim 
+    RemoteCameraClient::SubscribeImageData(
+            CameraImageResponseTopic,
+            [&](const camera::CameraImageResponse &image) {
+                    logger_->warn("The CameraImageResponse doesn't have additional_info!");
+                auto img_info = ImgInfo(
+                        ImgPose::_from_integral(image.additional_info().pose()),
+                        ImgExposure::_from_integral(image.additional_info().exposure()),
+                        ImgAngle::_from_integral(image.additional_info().angle()),
+                        image.camera_id()                 );
+                // 只接收外观检测需要的图片
+                    return;
+                }
+                logger_->debug(
+                        "Got camera image response, request id: {}, camera id: {}, image pose: {}, material _id: {}, "
+                        "position on plate: {}, exposure: {}, angle: {}",
+                        image.request_id(), image.camera_id(),
+                        ImgPose::_from_integral(image.additional_info().pose())._to_string(),
+                        image.additional_info().material_id(),
+                        image.additional_info().position_on_plate(),
+                        ImgExposure::_from_integral(image.additional_info().exposure())._to_string(),
+                        ImgAngle::_from_integral(image.additional_info().angle())._to_string()
+                );
+                auto material_id = image.additional_info().material_id();
+                auto cv_mat_opt = small_shm_images_->GetImage(image.image_id());
+                CheckOrThrow(cv_mat_opt.has_value(), logger_, "外观检测不能获得所需图片, image id: {}", image.image_id());
+                auto img = cv_mat_opt.value();
+                auto_clean_mat_collector_->AddImage(img, material_id, img_info, "AppearanceChecker");
+            }
+    );
+cat .gitignore 
+echo 'config/Machine_VT3_test_pin_inspector/A451/' >> .gitignore 
+echo config/Machine_VT3_test_pin_inspector/A451/
+echo "config/Machine_VT3_test_pin_inspector/A451/"
+echo "config/Machine_VT3_test_pin_inspector/A451/" >> .gitignore 
+g
+git diff
+cd fc/transformer-pipeline/
+vim
+ls
+cd ../aruco/
+vim
+cd ..
+cd transformer-pipeline/
+vim
+cd ~
+vim .vim
+g
+cat .config/coc/memos.json
+g
+git checkout -- .config/coc/
 g
 ./config.sh push

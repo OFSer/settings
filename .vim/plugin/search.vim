@@ -19,7 +19,7 @@ set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.
 " nnoremap f :ProjSearch<space>
 " nnoremap F :Search<space>
 
-command -nargs=0 Fileopen silent! exec 'call feedkeys(":tabnew '.expand('%').'")'
+command -nargs=0 Fileopen silent! exec 'call feedkeys(":tab drop '.expand('%').'")'
 nnoremap o :Fileopen<cr>
 
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')

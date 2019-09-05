@@ -2,8 +2,10 @@
 cd ~
 install_bat() {
 	cd ~/Downloads
-	wget "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb" && \
-    dpkg -i bat_0.12.1_amd64.deb && bat cache --build && rm bat_0.12.1_amd64.deb
+	wget "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb"
+  sudo dpkg -i bat_0.12.1_amd64.deb
+	sudo bat cache --build 
+	rm bat_0.12.1_amd64.deb
 	cd ~
 }
 install_vim_coc() {
