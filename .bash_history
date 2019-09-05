@@ -390,7 +390,6 @@ git checkout test
 git dff
 git commit -m "upd pack"
 ipcrm -q 1146909
-cd cpp/
 vim msg.cpp 
 git diff detection.cpp
 git commit -m "remove trash"
@@ -509,7 +508,6 @@ ls /etc/ld.so.conf.d
 git add README.md 
 git add dll
 git add .gitignore 
-vim 1.cpp
 vim IPC
 mv IPC cpp
 git add IPC
@@ -736,7 +734,6 @@ vim .viminfo
 set -s escape-time 0
 fd
 gedit .vimrc
-vim .vim
 git commit -m "add toggle terminal"
 git commit -m "fix toggle"
 rm .ToggleTerminal.swp > /dev/null 2&>1
@@ -1804,7 +1801,6 @@ cp README.md record.txt
 vim record.txt 
 git commit -m "add record for count"
 ssh -p 19342 hypereal@registry-corp.hypereal.com
-cd test/cpp/
 ssh -p 11188 hypereal@registry-corp.hypereal.com
 ssh -p 18910 hypereal@registry-corp.hypereal.com
 ssh -p 19449 hypereal@registry-corp.hypereal.com
@@ -1977,7 +1973,6 @@ top -n 1 | sed -n '2,5p;8,$p' > 1
 top -n 1 | sed -n '2,5p;8,$p' | cat > 1
 top -n 1 | sed -n '2,5p;8,$p' | cat
 (1
-cat 1
 Tasks:B;49m 329 B;49mtotal,B;49m   2 B;49mrunning,B;49m 262 B;49msleeping,B;49m   0 B;49mstopped,B;49m   0 B;49mzombieB;49mB;49m
 find . | grep mysql
 local
@@ -3902,7 +3897,6 @@ git push --set-upstream origin point_blow
 touch webserver.service
 git ststaus
 git add - A
-git add -A
 git commit -m "add webserver service"
 cd detection-machine-daemon/
 find . | grep requ
@@ -9936,7 +9930,6 @@ git remote add origin git@gitlab.sho.hypereal.com:jingshen.gao/calibration.git
 pyhton3 1.py
 docker commit 3971955333f6 gcc:9.1
 g++ 10.cpp 
-vim 10.cpp
 g++ -std=c++20 1.cpp
 g++ -std=c++2a 1.cpp
 docker build . -t vim
@@ -10387,7 +10380,6 @@ networkd-dispatcher
 man networkd-dispatcher 
 cd ho/
 cd obj/kern/
-g++ 10.cpp && ./a.out
 g++ -S 10.cpp 
 man dd
 readelf -l a.out
@@ -10924,7 +10916,6 @@ rm -rf _go
 sudo rm -rf _go
 vim 2.go
 cd 11.cpp
-vim 11.cpp
 mkdir java
 cd java/
 vim 1.java
@@ -11563,7 +11554,6 @@ readlink --help
 readlink -f fc
 f -a makefile
 f -a makefile sync.sh 
-f -p
 f -a
 f -a config.sh 
 f -p config.sh 
@@ -13567,7 +13557,6 @@ vim ~/.vim/.vimrc
 vim ~/.vim/plugin/.vimrc 
 G
 cd .vim/colors/cd ~
-cd ../aruco/
 vim calibrate.py 
 cat .inputrc
 vim .inputrc
@@ -13603,7 +13592,6 @@ ps -o ppid= $$
 [ `ps -o ppid= $$` -eq 2996 ] && echo 1
 [ `ps -o ppid= $$` -eq 2995 ] && echo 1
 cat .config/coc/commands
-cat .config/coc/memos.json
 pstree 1899
 pstree 8633
 pstree -p 8633
@@ -13735,7 +13723,6 @@ cat -n 1 | sort  -k2 -k1nr  | uniq -f1 | sort -nk1,1 | cut -f2-
 rm ~/.bash_history.bak 
 vim ~/.bash_history 
 sort --help
-cd ~/test/
  cat -n 1 | sort  -k2 -k1nr  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -kn1r  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -nk1r  | uniq -f1 | sort -nk1,1 | cut -f2-
@@ -13797,7 +13784,6 @@ c echo $ | grep CO
 c echo $ | grep COL
 echo $COLORTERM 
 vim .vim/colors/konomi.vim
-git reset HEAD --hard
 rm tags
 make ..
 cmake ..
@@ -14162,11 +14148,9 @@ free -m
 free -mh
 vim .docker/config.json 
 cd /root/
-cd transformer-pipeline/
 cd fc/dl-k8s-kube/
 git branch
 git checkout flawck 
-git log
 rm -rf *
 cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 diff compile_commands.json build/compile_commands.json 
@@ -14187,13 +14171,11 @@ make -j4
 vim .bash
 type f
 cp --help
-cd test/
 cd sh/
 mkdir f
 cp 1 f
 cd 1 f
 cd f/
-cd ..
 cp 1 f/
 cp 1 f/1
 type gencdb
@@ -14239,30 +14221,23 @@ wget
 docker stop transformer && docker container prune -f
 docker run -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 docker exec -it transformer bash
-cd fc/transformer-pipeline/
 jobs
 fg
-cd ~
 man protobuf
 man -f protobuf
 man -Kw protobuf
 man protoc
 man cmake-modules
 rm dockerfiles/1.deb
-./config.sh push
-ls
 sudo apt remove bat 
 vim config.sh 
 ./config.sh install_bat
 bat
-vim
 bat --version
-top
 ps -e -o pid,vsz,comm= 
 ps -e -o pid,vsz,comm= | sort -n -k 2
 man ps 
 vim 
-vim .vimrc
 vim ~/.vim/plugin/keymap.vim 
     RemoteCameraClient::SubscribeImageData(
             CameraImageResponseTopic,
@@ -14293,26 +14268,58 @@ vim ~/.vim/plugin/keymap.vim
                 auto_clean_mat_collector_->AddImage(img, material_id, img_info, "AppearanceChecker");
             }
     );
-cat .gitignore 
 echo 'config/Machine_VT3_test_pin_inspector/A451/' >> .gitignore 
 echo config/Machine_VT3_test_pin_inspector/A451/
 echo "config/Machine_VT3_test_pin_inspector/A451/"
 echo "config/Machine_VT3_test_pin_inspector/A451/" >> .gitignore 
-g
 git diff
 cd fc/transformer-pipeline/
-vim
-ls
 cd ../aruco/
-vim
-cd ..
 cd transformer-pipeline/
-vim
-cd ~
 vim .vim
-g
 cat .config/coc/memos.json
-g
 git checkout -- .config/coc/
+./config.sh push
+cd test/
+cd cpp/
+vim 1.cpp
+vim 10.cpp
+g++ 10.cpp && ./a.out
+f -a .
+cd image_saving_service/
+f -p
+mv appearance_checker/* .
+rm -r appearance_checker
+apt install rename
+rename --help
+tldr rename
+rename 's/appearance_checker/image_saving/' *
+git checkout -- src/
+cat .gitignore 
+git checkout -b image_saving_service
+git add -A
+cd ~/test/
+git reset HEAD --hard
+cd ~
+cat 1
+vim .vimrc
+top
+git log
+cd test/cpp/
+vim 11.cpp
+vim 12.cpp
+cd src/services/
+cd algorithms_service/
+cd ..
+mv image_saving_service/ algorithms_service/
+ls
+vim
+g
+git add -A
+g
+ls
+g
+git diff
+ls
 g
 ./config.sh push
