@@ -160,7 +160,6 @@ cd build
 git status
 git add .
 git commit -m "add config.yaml"
-git push
 ./run.sh
 vim test.sh
 cp run.sh test.sh
@@ -5939,7 +5938,6 @@ ssh proxy@registry-corp.hypereal.com
 \ssh -i ~/.ssh/proxy registry-corp.hypereal.com
 sudo \ssh -i ~/.ssh/proxy proxy@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 18421 hypereal@registry-corp.hypereal.com
-cd .ssh/
 vim proxy
 ssh -p 12341 gjs@registry-corp.hypereal.com
 \ssh -p 12341 gjs@registry-corp.hypereal.com
@@ -6697,9 +6695,7 @@ print(123)
 python3 <<-EOF
 \ssh gjs@10.0.10.63
 \ssh gjs@10.0.10.63 <<-EOF
-cat id_rsa.pub 
 cat proxy 
-cat id_rsa
 ssh --help
 vim authorized_keys
 nslookup dl-6
@@ -12705,7 +12701,6 @@ history | grep game | grep man
 man -k printf
 c man ' ' | grep printf
 man -W test 
-d
 f --help
 man f
 h
@@ -13339,7 +13334,6 @@ cd resources/algorithm/marking_detector/A451
 command cd fc/
 cd ~5
 cd algorithm/marking_detector/A451
-vim .ssh/config 
 git ls-tree ** git ls-tree
 git ls-tree
 export FZF_DEFAULT_OPTS="--layout=reverse --inline-info"
@@ -13834,7 +13828,6 @@ find . -path ./root -prune -o -name snap
 /usr/lib/snap
 cd /usr/lib/snap
 ./snap 
-cd ~1
 ./snap install ccls --classic
 ./snap install ccls 
 cd /usr/share/snap
@@ -13911,7 +13904,6 @@ sudo apt install sudo
 su root
 sudo 
 sudo apt install vim
-cd .vim/
 git diff dockerfiles/
 cd plugged/
 rm -rf coc.nvim/
@@ -14130,7 +14122,6 @@ sudo mv fc /root/fc/
 sudo cp fc /root/fc
 sudo cp -r fc /root/fc
 sudo cp -r fc /root
-du -hd1
 cd backup/
 cat README.md 
 rm README.md 
@@ -14272,14 +14263,11 @@ echo 'config/Machine_VT3_test_pin_inspector/A451/' >> .gitignore
 echo config/Machine_VT3_test_pin_inspector/A451/
 echo "config/Machine_VT3_test_pin_inspector/A451/"
 echo "config/Machine_VT3_test_pin_inspector/A451/" >> .gitignore 
-git diff
-cd fc/transformer-pipeline/
 cd ../aruco/
 cd transformer-pipeline/
 vim .vim
 cat .config/coc/memos.json
 git checkout -- .config/coc/
-./config.sh push
 cd test/
 cd cpp/
 vim 1.cpp
@@ -14297,12 +14285,9 @@ rename 's/appearance_checker/image_saving/' *
 git checkout -- src/
 cat .gitignore 
 git checkout -b image_saving_service
-git add -A
 cd ~/test/
 git reset HEAD --hard
-cd ~
 cat 1
-vim .vimrc
 top
 git log
 cd test/cpp/
@@ -14312,14 +14297,76 @@ cd src/services/
 cd algorithms_service/
 cd ..
 mv image_saving_service/ algorithms_service/
-ls
 vim
+git diff
+./config.sh push
+cd fc/transformer-pipeline/
 g
 git add -A
-g
+git commit -m "add copy"
+git push
+sudo cat /root/.ssh/config 
+ cat /root/.ssh/config 
+cat /root/.ssh/config 
+cd /root/.ssh/
+ll config 
+ll id_rsa.pub 
+cat id_rsa.pub 
+ll id_rsa
+cat id_rsa
+cat config 
+vim .ssh/config 
+cd .ssh/
+rm config 
+d
+cd ~1
+git push --set-upstream origin image_saving_service
+cd .vim/
+du -hd1
+find . | wc -l
+nc -w 10 10000
+nc -w 10 10.0.10.138 10000 <<< echo 'xolox/vim-colorscheme-switcher'
+nc -w 10 10.0.10.138 10000 < (echo 'xolox/vim-colorscheme-switcher')
+nc -w 10 10.0.10.138 10000 <(echo 'xolox/vim-colorscheme-switcher')
+nc -w 10 10.0.10.138 10000 < <(echo 'xolox/vim-colorscheme-switcher')
+echo < <(echo 'xolox/vim-colorscheme-switcher')
+cat <(echo 'xolox/vim-colorscheme-switcher')
+echo 'xolox/vim-colorscheme-switcher' | nc -w 10 10.0.10.138 10000
+nc -nv 10.0.10.138 10000 <(echo 'xolox/vim-colorscheme-switcher')
+nc -nv 10.0.10.138 333 <(echo 'xolox/vim-colorscheme-switcher')
+nc -nv 10.0.10.138 333
 ls
+cd ~
+vim .vimrc
+fg
+vim
+vim 
+ls
+jobs
+vim
+ls
+cd .vim/
+ls
+cd plugged/
+rm -rf vim-colorscheme-switcher/
+cd ~
+vim .vimrc
+ls
+vim .vimrc
+g
+cd fc/shmmsg/
+vim
+cd ~
+cd .vim/
+cd autoload/
+ls
+cd ~
+vim .vimrc
+ping 2408:84e2:1181:b85e:35bc:5a9d:5ba4:c326
+ping 2408:84e2:181:b85e:35bc:5a9d:5ba4:c326
+vim --version
+g
+git checkout master
 g
 git diff
-ls
-g
-./config.sh push
+./config.sh push && git checkout master
