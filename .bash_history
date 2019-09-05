@@ -2215,7 +2215,6 @@ kill -9 6134
 bas
 cd .dbus/
 cd .gconf/
-tldr rsync
 history | grep mysql
 vim .mylogin.cnf 
 history | grep mysqldump 
@@ -2574,7 +2573,6 @@ gsettings list-recursively
 gsettings list-recursively | grep tab
 users
 vim /etc/group
-ps -ef | grep docker
 vim /etc/security/limits.conf
 sudo vim /etc/security/limits.conf
 sudo vim /etc/pam.d/login
@@ -6206,7 +6204,6 @@ ssh -p 8002 gjs@10.0.10.63
 \ssh -p 8002 gjs@10.0.10.63 '1'
 ssh -o "StrictHostKeyChecking no" -p 16211 hypereal@registry-corp.hypereal.com
 sudo apt install ivm
-cat README.md 
 git clone git@gitlab.sho.hypereal.com:monitoring/prometheus-exporter.git
 go get -v -u github.com/swaggo/swag/cmd/swag
 git config --global url."git@gitlab.sho.hypereal.com:".insteadOf "http://gitlab.sho.hypereal.com/"
@@ -11605,7 +11602,6 @@ cp --help | grep overwrite
 cp --help | grep over
 man cp
 cp config.sh fc
-rm README.md 
 f -l
 mv --help
 mv -i config.sh fc/
@@ -13523,7 +13519,6 @@ mkdir temp
 rm -r tem
 mv temp/ backup
 mv home.tar.gz backup/
-cd backup/
 apt show nvidia-driver-430
 apt show nvidia-driver-430 | grep gcc
 apt show nvidia-driver-430 
@@ -13869,7 +13864,6 @@ sponge --help
 sponge
 apt search sponge
 apt install moreutils
-vim config.sh 
 rm -rf *
 type snap
 which agsdfas
@@ -13932,11 +13926,9 @@ cd bin/
 ./ccls 
 echo $PATH
 echo $PATH | grep snap
-vim .bash
 vim /etc/profile
 vim /etc/bash.bashrc 
 type ccls
-cd f
 cd go/
 npm
 cd go
@@ -13951,7 +13943,6 @@ ls /snpa
 ls /snap
 export PATH=$PATH:/snap/bin/
 vim ~/.vimrc
-cd fc/shmmsg/
 vim  
 git diff .vimrc
 sudo
@@ -13981,7 +13972,6 @@ service --status-all
 echo $SNAPCRAFT_SETUP_CORE
 vim Dockerfile 
 docker --help
-man docker 
 cd /lib/modules/
 find . | grep snap
 docker run -it -v ~:/root -v /snap:/snap --name transfomer transformer bash 
@@ -14124,8 +14114,6 @@ cd transformer-pipeline/
 ccls
 cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 cp compile_commands.json ..
-cd build/
-make -j4
 cp compile_commands.json ../compile_commands.json 
 type gencdb
 cd fc/transformer-pipeline/
@@ -14140,7 +14128,6 @@ his
 vim .bash_history 
 git diff
 cd dockerfiles/
-vim
 sudo apt install moreutils
 cd .bash/
 vim alias.sh 
@@ -14151,17 +14138,12 @@ chmod +x 1
 env
 ./1
 cd dev/
-docker images
 docker build -t transformer . 
 apt clean --help
 man apt 
 man apt-get
-./config.sh push
 cd ~!
 git diff HEAD^
-docker run -it -v ~:/root  -d --name transformer transformer 
-docker exec -it transformer bash
-cd ~/fc/transformer-pipeline/
 vim 
 pstree 6427
 ps -ef | grep 6427
@@ -14177,50 +14159,65 @@ sudo pmap 6374
 sudo pmap 6427
 sudo pmap -h 6427
 sudo pmap  6427
-free -m
 cd /root/
-docker stop transformer && docker container prune -f
 htop
-top
 free -hm
-sudo su
-history 
 git remote show origin
-cd fc/
 cd .fzf/
-du -hd1
 cd /usr/local
 cd src/
 ls -a
 cd /opt/
 rm -rf fzf.vim/
-cd ~
 fzf
 mkdir ls
 sudo apt-get install fzf
 cd .vim/plugged/
-cd ..
-vim .bashrc
 cat .fzf.bash
 git checkout -- .vimrc
-g
-vim .vimrc
-ls
 docker ps -l
 vim config.sh 
-ls
-cd fc/
-cd ..
-cd fc/
-du -hd1
-cd ..
 sudo mv fc /root
-g
-cd ~
-g
 cd f
-ls
 vim .bashrc
 vim .bash
+g
+./config.sh push
+docker images
+cd build/
+make -j4
+sudo mv fc /root/
+sudo mv fc /root/fc/
+sudo cp fc /root/fc
+sudo cp -r fc /root/fc
+sudo cp -r fc /root
+du -hd1
+cd backup/
+cd ..
+cd fc/
+cat README.md 
+rm README.md 
+tldr sync
+tldr rsync
+top
+history 
+cd fc/shmmsg/
+vim .docker/config.json 
+docker stop transformer && docker container prune -f
+docker run -it -v ~:/root  -d --name transformer transformer 
+ps -ef | grep docker
+docker exec -it transformer bash
+docker exec --help
+man docker 
+man docker-exec
+sudo su
+cd ~/fc/transformer-pipeline/
+vim
+free -m
+free -mh
+ls
+cd ~
+vim .vimrc
+vim .docker/config.json 
 g
 ./config.sh push
