@@ -355,7 +355,6 @@ cd /dev/fd
 cd /dev/pts
 cd ~/test/IPC/
 vim msg.cpp
-./1
 ./1 e
 ./1 -e
 ./1 -m 10
@@ -4807,7 +4806,6 @@ echo `ls *` && echo 123
 vim .1sh
 export LC_ALL=en_jp.utf8
 export LC_ALL=jp_US.utf8
-env
 kill -SIGHUP $$
 sleep 10
 kill -SIGINT 15564
@@ -6969,7 +6967,6 @@ sudo apt install ssh
 sudo apt install openssh-server
 history | grep ssh | grep ubuntu
 mkdir .bash
-cd .bash/
 git add .bashrc
 git commit -m "add PS1 git" 
 sudo apt install nettools
@@ -7694,7 +7691,6 @@ git shortlog
 mkdir worktree
 cd worktree/
 echo 5 > 5
-cd bash/
 git worktree add ../worktree/
 git worktree add ../worktree/ test
 cd git
@@ -10379,7 +10375,6 @@ pkg-config --list-all | grep cv
 sudo apt install libboost-all-dev 
 sudo apt-get install libboost-all-dev
 cd symmetric/
-his
 free -a
 free
 free -yh
@@ -13782,7 +13777,6 @@ cat -n 1 | sort -k2 -nrk1
 cat -n 1 | sort  -k2 -rnk1  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -nrk1  | uniq -f1 | sort -nk1,1 | cut -f2-
 cat -n 1 | sort  -k2 -k1nr  | uniq -f1 | sort -nk1,1 | cut -f2-
-vim .bash_history 
 rm ~/.bash_history.bak 
 vim ~/.bash_history 
 sort --help
@@ -13841,7 +13835,6 @@ cd test/go/mock/
 e
 git checkout -- src/uploader/uploader.go
 git diff .bash_history
-git diff HEAD^ .dconf
 echo $PS1
 echo $LS_COLORS 
 vim .inputrc 
@@ -13964,7 +13957,6 @@ vim /etc/profile
 vim /etc/bash.bashrc 
 type ccls
 vim 
-cd test/
 cd f
 cd go/
 npm
@@ -14035,7 +14027,6 @@ fuse
 cd snap/
 chmod +x snap 
 docker build -t snapd . 
-vim 1
 docker run --name=snapd -ti -d   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged   -v /lib/modules:/lib/modules:ro \
 docker run --name=snapd -ti -d   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged   -v /lib/modules:/lib/modules:ro   snapd
 docker exec -it snapd snap install emoj
@@ -14129,7 +14120,6 @@ rm -rf Release/
 cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$PWD/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04 ..
 cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$PWD/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04
 cmake --build Release
-history 
 snapd
 snap
 systemctl snapd
@@ -14142,7 +14132,6 @@ sudo apt install cquery
 cd ../env/
 docker build -t transformer . 
 sudo snap remove clangd
-./config.sh push
 sudo apt-get install clang-tools-8
 sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-8 100
 clangd
@@ -14165,39 +14154,49 @@ cd transformer-pipeline/
 ccls
 cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 cp compile_commands.json ..
-cd ..
 cd build/
 make -j4
 cp compile_commands.json ../compile_commands.json 
-git diff
-g
 type gencdb
 cd fc/transformer-pipeline/
-cd ~
-cd dockerfiles/
 cd env/
-vim
 cd /
-cd ccls/
-ls
 du -hd1
-ls
  rm snap 
-g
-cd ~
-ls
-cd ~
-g
-cd dockerfiles/
-ls
-g
-vim
-ls
 mv env/ ccls
-ls
 cd ccls/
 cd ..
 mv ccls dev
+./config.sh push
+git diff HEAD^ .dconf
+ls
+his
+history 
+vim .bash_history 
+git diff
+g
+cd dockerfiles/
+vim
+sudo apt install moreutils
+cd .bash/
+vim alias.sh 
+cd ~
+cd test/
+cd bash/
+vim 1
+chmod +x 1
+env
+./1
+cd dev/
+docker build -t transformer . 
+docker images
+docker images
+docker build -t transformer . 
+g
+apt clean --help
+man apt 
+man apt-get
 g
 cd ~
+g
 ./config.sh push

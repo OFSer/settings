@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1
 RUN apt update
 RUN apt install -y locales openssh-server software-properties-common
 RUN add-apt-repository -y ppa:jonathonf/vim && apt update
@@ -25,3 +25,5 @@ RUN git clone --depth=1 --recursive https://github.com/MaskRay/ccls \
     && cmake --build Release
 
 ENV PATH $PATH:/ccls/Release
+
+RUN apt install -y moreutils
