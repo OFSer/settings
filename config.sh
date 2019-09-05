@@ -2,10 +2,8 @@
 cd ~
 install_bat() {
 	cd ~/Downloads
-	curl "https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/18566800-776c-11e9-9ca1-2e3add881182?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190830T065247Z&X-Amz-Expires=300&X-Amz-Signature=a3c7feec2590e10dbc43cc5b7eb4dc2002a7230a1cc5850424fe6ba24d776027&X-Amz-SignedHeaders=host&actor_id=41767615&response-content-disposition=attachment%3B%20filename%3Dbat_0.11.0_amd64.deb&response-content-type=application%2Foctet-stream" --output 1.deb
-	sudo dpkg -i 1.deb
-	bat cache --build
-	rm 1.deb
+	wget "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb" && \
+    dpkg -i bat_0.12.1_amd64.deb && bat cache --build && rm bat_0.12.1_amd64.deb
 	cd ~
 }
 install_vim_coc() {

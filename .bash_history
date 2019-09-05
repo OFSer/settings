@@ -883,7 +883,6 @@ git submodule update
 cd osu.Desktop
 dotnet-sdk.dotnet run
 sudo snap remove dotnet-sdk 
-cd Downloads/
 wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
 sudo add-apt-repository universe
@@ -2805,7 +2804,6 @@ sudo apt-get install build-essential
 sudo apt-get install logkeys
 wget http://logkeys.googlecode.com/files/logkeys-0.1.1a.tar.gz
 tar xvzf logkeys-0.1.1a.tar.gz   
-rm *
 wget https://logkeys.googlecode.com/files/logkeys-0.1.1a.tar.gz
 curl http://logkeys.googlecode.com/files/logkeys-0.1.1a.tar.gz
 sudo rm /var/lib/apt/lists/* &>/dev/null 2>&1
@@ -7167,7 +7165,6 @@ history | grep root
 sudo su 
 ./config.sh push "remove terminal bold"
 git diff .gitconfig
-vim .gitconfig 
 date +%s -d 1557890522
 date -d 1557890522
 ll .config/dconf/user
@@ -10375,7 +10372,6 @@ g
 git status s
 git status t
 ll -h .bash_history 
-vimux 
 vim /etc/passw
 vim.gtk3 
 vim.tiny 
@@ -11048,7 +11044,6 @@ vim 40_custom
 sudo vim 40_custom 
 make grub 
 sudo vim /etc/default/grub 
-sudo vim
 sudo boot
 hexdump -C -n jos
 hexdump -C -n 100 jos
@@ -12317,7 +12312,6 @@ ll build_dpkg.sh
 chmod -R 0755 deb
 sudo chmod -R 0755 deb
 dpkg --build deb
-dpkg --help
 dpkg --help | grep build
 dpkg -b deb
 sudo dpkg -b deb
@@ -13115,7 +13109,6 @@ sudo apt remove teachpendant
 dpkg --help | grep info
 dpkg -s moreutils 
 apt show neovim
-dpkg -s neovim
 apt show vim
 apt install net-tools 
 sudo apt install net-tools 
@@ -13179,7 +13172,6 @@ cd fzf.vim/
 rm .fzf/
 rm -rf .fzf/
 ls | grep fzf
-ag
 ack
 i silversearcher-ag
 cd ~/test/go/mock/
@@ -13189,7 +13181,6 @@ apt remove bat
 sudo apt remove bat
 bats
 apt show bats
-bat
 ctags
 ctags --help
 man ctags
@@ -13211,8 +13202,6 @@ snap find bat
 snap find bat | grep bat
 wget https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/18566800-776c-11e9-9ca1-2e3add881182?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190830T065241Z&X-Amz-Expires=300&X-Amz-Signature=a12b72a5a4aa410f4c6ef30109212448cee107cc64dc88ab943a0d0dc60c1757&X-Amz-SignedHeaders=host&actor_id=41767615&response-content-disposition=attachment%3B%20filename%3Dbat_0.11.0_amd64.deb&response-content-type=application%2Foctet-stream
 wget 'https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/18566800-776c-11e9-9ca1-2e3add881182?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190830T065241Z&X-Amz-Expires=300&X-Amz-Signature=a12b72a5a4aa410f4c6ef30109212448cee107cc64dc88ab943a0d0dc60c1757&X-Amz-SignedHeaders=host&actor_id=41767615&response-content-disposition=attachment%3B%20filename%3Dbat_0.11.0_amd64.deb&response-content-type=application%2Foctet-stream'
-curl "https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/18566800-776c-11e9-9ca1-2e3add881182?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190830T065247Z&X-Amz-Expires=300&X-Amz-Signature=a3c7feec2590e10dbc43cc5b7eb4dc2002a7230a1cc5850424fe6ba24d776027&X-Amz-SignedHeaders=host&actor_id=41767615&response-content-disposition=attachment%3B%20filename%3Dbat_0.11.0_amd64.deb&response-content-type=application%2Foctet-stream" --output 1.deb
-sudo dpkg -i 1.deb
 ./config.sh install_bat
 cd test/bash/
 bat abcd
@@ -13604,7 +13593,6 @@ ps -ef | grep 6473
 ps -ef | grep 6472
 pstree 6472
 pstree -p 6472
-pstree -p $$
 pstree -p $PPID
 fffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffff
@@ -13622,7 +13610,6 @@ pstree 1899
 pstree 8633
 pstree -p 8633
 pstree -pp 8633
-pstree --help
 fffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 history -n
@@ -13814,7 +13801,6 @@ echo $COLORTERM
 vim .vim/colors/konomi.vim
 git reset HEAD --hard
 rm tags
-git pull
 make ..
 cmake ..
 cmake -DBUILD_ALGO_DNN ..
@@ -13969,8 +13955,6 @@ docker run -it -v ~:/root -v /snap:/snap --name transfomer transformer bash
 docker run -it -v ~:/root -v /snap:/snap -d --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged \ # [1]
 docker run -it -v ~:/root -v /snap:/snap -d --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged -v /lib/modules:/lib/modules:ro 
 docker run -it -v ~:/root -v /snap:/snap -d --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged -v /lib/modules:/lib/modules:ro transfomer bash
-jobs
-fg
 docker run -it -v ~:/root -v /snap:/snap -d --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged -v /lib/modules:/lib/modules:ro transfomer
 docker run -it -v ~:/root -v /snap:/snap -d --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged -v /lib/modules:/lib/modules:ro transfomer 
 docker run -it -v ~:/home/gjs -v /snap:/snap --name transfomer transformer bash 
@@ -13992,7 +13976,6 @@ sudo snap install hello-world
 hello-world
 hello-world.env 
 df -h
-df
 docker run -v /snap:/snap --name=snapd -ti -d   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged   -v /lib/modules:/lib/modules:ro   snapd
 cd /var/lib/snapd/
 docker run -v /var/lib/snapd/:/var/lib/snapd -v /snap:/snap --name=snapd -ti -d   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged   -v /lib/modules:/lib/modules:ro   snapd
@@ -14102,7 +14085,6 @@ docker stop transformer
 ccls
 cp compile_commands.json ..
 cp compile_commands.json ../compile_commands.json 
-cd fc/transformer-pipeline/
 cd env/
 cd /
  rm snap 
@@ -14112,7 +14094,6 @@ mv ccls dev
 git diff HEAD^ .dconf
 his
 vim .bash_history 
-cd dockerfiles/
 sudo apt install moreutils
 cd .bash/
 vim alias.sh 
@@ -14121,8 +14102,6 @@ vim 1
 chmod +x 1
 env
 ./1
-cd dev/
-docker build -t transformer . 
 apt clean --help
 man apt 
 man apt-get
@@ -14159,7 +14138,6 @@ cd .vim/plugged/
 cat .fzf.bash
 git checkout -- .vimrc
 docker ps -l
-vim config.sh 
 sudo mv fc /root
 cd f
 vim .bashrc
@@ -14185,14 +14163,8 @@ man docker-exec
 cd ~/fc/transformer-pipeline/
 free -m
 free -mh
-vim .vimrc
 vim .docker/config.json 
-./config.sh push
 cd /root/
-sudo su
-docker stop transformer && docker container prune -f
-docker run -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
-docker exec -it transformer bash
 cd transformer-pipeline/
 cd fc/dl-k8s-kube/
 git branch
@@ -14201,8 +14173,6 @@ git log
 rm -rf *
 cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 diff compile_commands.json build/compile_commands.json 
-git diff
-g
 set -- 1 "2 3"
 args $@
 args "$@"
@@ -14211,13 +14181,10 @@ $@
 gencdb -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 cd fc/
 cd /fc/transformer-pipeline/
-vim
-top
 cd build/
 git diff compile_commands.json 
 diff compile_commands.json ../compile_commands.json 
 vimdiff compile_commands.json ../compile_commands.json 
-cd ~
 cd /tmp/RJrWTJc5ZJ6Ty
 make -j4
 vim .bash
@@ -14231,10 +14198,70 @@ cd 1 f
 cd f/
 cd ..
 cp 1 f/
-ls
 cp 1 f/1
-gencdb
 type gencdb
 gencdb
+./config.sh push
+vim .gitconfig 
+cd dev/
+df
+df | grep docker
+apt show docker.io
+dpkg -s neovim
+dpkg -s docker.io
+dpkg --help
+dpkg --help | less
+apt install less
+dpkg
+sudo vim
+vimux 
+top
+pstree -p $$
+pstree --help
+pstree -s -p $$
+less
+git log -p generate_device_def.cmake 
+ag
+cd dockerfiles/
+rm 1.deb
+curl "https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/18566800-776c-11e9-9ca1-2e3add881182?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190830T065247Z&X-Amz-Expires=300&X-Amz-Signature=a3c7feec2590e10dbc43cc5b7eb4dc2002a7230a1cc5850424fe6ba24d776027&X-Amz-SignedHeaders=host&actor_id=41767615&response-content-disposition=attachment%3B%20filename%3Dbat_0.11.0_amd64.deb&response-content-type=application%2Foctet-stream" --output 1.deb
+docker build -t transformer . 
+./download_test_resources.sh 
+git pull
+cd /fc/tr
+sudo su
+sudo mount nas-production1.sho.hypereal.com:/share/sho-nas-production1 /mnt/sho-nas-production1/
+ mount nas-production1.sho.hypereal.com:/share/sho-nas-production1 /mnt/sho-nas-production1/
+cd Downloads/
+curl "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb" --output 1.deb
+dpkg -i 1.deb
+sudo dpkg -i 1.deb
+rm ls
+wget https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb
+rm *
+curl "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb"
+wget
+vim config.sh 
+ls
+docker stop transformer && docker container prune -f
+docker run -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
+docker exec -it transformer bash
+bat
+cd fc/transformer-pipeline/
+git diff
+g
+jobs
+fg
+vim
+cd ~
+vim .vimrc
+man protobuf
+man -f protobuf
+man -Kw protobuf
+man protoc
+man cmake-modules
+vim ~/.vim/plugin/keymap.vim 
+g
+rm dockerfiles/1.deb
 g
 ./config.sh push

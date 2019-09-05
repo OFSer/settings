@@ -12,6 +12,7 @@ nnoremap q <nop>
 " nnoremap t <nop>
 nnoremap . <nop>
 nnoremap , <nop>
+vnoremap <c-a> <nop>
 " tnoremap <c-v> <c-w>"0
 
 tnoremap <c-\> <c-\><c-n>

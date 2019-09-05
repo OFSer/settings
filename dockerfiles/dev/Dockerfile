@@ -27,3 +27,9 @@ RUN git clone --depth=1 --recursive https://github.com/MaskRay/ccls \
 ENV PATH $PATH:/ccls/Release
 
 RUN apt install -y moreutils
+RUN apt install -y most tldr less moreutils bvi silversearcher-ag
+RUN apt install -y sshpass jq curl
+RUN apt install -y tree net-tools openssh-server 
+RUN wget "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb" && \
+    dpkg -i bat_0.12.1_amd64.deb && bat cache --build && rm bat_0.12.1_amd64.deb
+RUN apt install -y rsync
