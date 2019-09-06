@@ -5433,7 +5433,6 @@ sudo snap remove vscode
 sudo snap instal code
 sudo snap install code
 sudo snap install code --classic
-code
 git diff HEAD^5 .config
 git diff HEAD^5 config.sh
 git diff HEAD~5 config.sh
@@ -13159,7 +13158,6 @@ ctags 1.c
 tldr ctags
 vim tags 
 vim .vim/plugin/search.vim
-rg
 sudo snapt install rg
 sudo snap install rg
 sudo snap install ripgrep 
@@ -13183,7 +13181,6 @@ bat --list-themes | fzf --preview="bat --theme={} --color=always 1.cpp"
 ctags --help | less
 ctags -R
 ag test
-ripgrep
 op
 cat /usr/share/dict/words
 fzf --preview
@@ -14051,7 +14048,6 @@ cd /
 mv env/ ccls
 cd ccls/
 mv ccls dev
-git diff HEAD^ .dconf
 his
 vim .bash_history 
 sudo apt install moreutils
@@ -14097,7 +14093,6 @@ git checkout -- .vimrc
 docker ps -l
 sudo mv fc /root
 cd f
-vim .bashrc
 docker images
 sudo mv fc /root/
 sudo mv fc /root/fc/
@@ -14115,7 +14110,6 @@ ps -ef | grep docker
 docker exec --help
 man docker 
 man docker-exec
-cd ~/fc/transformer-pipeline/
 vim .docker/config.json 
 cd /root/
 cd fc/dl-k8s-kube/
@@ -14150,7 +14144,6 @@ type gencdb
 gencdb
 vim .gitconfig 
 cd dev/
-df
 df | grep docker
 apt show docker.io
 dpkg -s neovim
@@ -14195,7 +14188,6 @@ man protoc
 man cmake-modules
 rm dockerfiles/1.deb
 sudo apt remove bat 
-vim config.sh 
 ./config.sh install_bat
 bat
 bat --version
@@ -14260,7 +14252,6 @@ cd src/services/
 cd algorithms_service/
 cd ..
 mv image_saving_service/ algorithms_service/
-./config.sh push
 cd fc/transformer-pipeline/
 git add -A
 git commit -m "add copy"
@@ -14280,7 +14271,6 @@ rm config
 d
 cd ~1
 git push --set-upstream origin image_saving_service
-du -hd1
 find . | wc -l
 nc -w 10 10000
 nc -w 10 10.0.10.138 10000 <<< echo 'xolox/vim-colorscheme-switcher'
@@ -14297,10 +14287,8 @@ fg
 jobs
 cd plugged/
 rm -rf vim-colorscheme-switcher/
-cd fc/shmmsg/
 cd .vim/
 cd autoload/
-vim .vimrc
 ping 2408:84e2:1181:b85e:35bc:5a9d:5ba4:c326
 ping 2408:84e2:181:b85e:35bc:5a9d:5ba4:c326
 vim --version
@@ -14335,11 +14323,8 @@ nc -zv -w 1 39.156.69.79 1-10000
 nc -zv -w 1 39.156.69.79 1-10000 | grep -v timed
 nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null | grep -v timed
 nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null 
-git diff
-vim ~/.vim/plugin/keymap.vim 
 cd test/
 cd PthreadPool/
-ls
 git pull
 git log
 git reset HEAD^ --hard
@@ -14347,12 +14332,7 @@ cd fc/aruco/
 vim config.py 
 vim calibrate.py 
 cd ~/.vim/plugged/vim-fugitive/
-g
-git diff .vim
 cd .vim/plugged/vim-fugitive/
-vim
-vim 
-cd ~
 cd test/cpp/
 vim 11.cpp 
 vim 10.cpp 
@@ -14376,36 +14356,28 @@ ps -e -o pid,vsz,comm= | sort -n -k 2
 top
 code
 vim 
-vim .vimrc
-ls
 cd ~
-vim config.sh 
-g
 ripgrep
-rg
 rg --help
-rg
 apt install rg
 apt install ripgrep
 df
 df | grep rg
 df | grep rip
 rg
-ls
 cd fc/shmmsg/
-vim
 cd ~/fc/transformer-pipeline/
-vim
-ls
 du -hd1
-vim
-ls
 vim .vimrc
 vim ~/.vim/plugin/keymap.vim 
-ls
 vim
-ls
-g
 git diff .vim
 g
+git diff
+git diff HEAD^ .dconf
+git diff HEAD^ .bash_history
+type OnStart
+vim .bashrc
+ls
+vim config.sh 
 ./config.sh push

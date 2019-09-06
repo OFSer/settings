@@ -176,6 +176,7 @@ run(){
 	#config_privoxy
 }
 push(){
+	cat -n ~/.bash_history | sort -k2 -k1nr  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge ~/.bash_history
 	if [ `cat ~/.bash_history | wc -l` -lt 10000 ];then
 		git checkout -- ~/.bash_history
 	fi
