@@ -831,7 +831,6 @@ set -o emacs
 rm Netrw*
 cd fc/flaw_checker/
 ./config push
-git reset HEAD^ --hard
 [[ a == a ]]; echo $?
 [[ abc =~ aa.* ]];echo $?
 [[ abc =~ a.* ]];echo $?
@@ -1005,7 +1004,6 @@ git commit -m "add laberler"
 rm test2.sh 
 git commit -m "rm test2.sh"
 git idff
-git checkout master
 git merge test --no-ff 
 git log --oneline --graph --decorate
 git commit -m "add pos"
@@ -1122,7 +1120,6 @@ docker run -it -v fc:/root ubuntu:16.04 cd /bin && ./bash
 docker run -it -v fc:/root ubuntu:16.04 ./bash
 cd /var/lib/docker/volumes/
 sudo cd /var/lib/docker/volumes/
-vim --version
 cd /var/lib/docker/
 docker commit a26de13842a6 ubuntu:16.04
 docker commit 3b797201459e ubuntu:16.04
@@ -3279,7 +3276,6 @@ ssh -p 11301 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 18695 hypereal@registry-corp.hypereal.com
 ;5~ssh -o "StrictHostKeyChecking no" -p 10263 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 10263 hypereal@registry-corp.hypereal.com
-vim config.py 
 sudo add-apt-repository -y ppa:jonathonf/vim
 date +%s
 date +%m
@@ -5451,7 +5447,6 @@ find . | grep dota
 cd share/app
 cd applications/
 cd file/
-vim 2.cpp
 echo | ls * 
 echo | ls *  | ls
 ls * | echo
@@ -5906,7 +5901,6 @@ nslookup DL-2
 nslookup DL-1
 nslookup DL-7
 nslookup DL-8
-nslookup baidu.com
 dig -t A baidu.com
 dig -t A baidu.com +trace
 dig -t baidu.com
@@ -6561,7 +6555,6 @@ git diff HEAD~3 .config/gtk-3.0/gtk.css
 cd mdempsky/
 cd gocode/
 rm -rf gocode
-cd autoload/
 cat gocomplete.vim 
 vim gocomplete.vim 
 vim plug.vim 
@@ -7329,7 +7322,6 @@ ssh -o "StrictHostKeyChecking no" -p 11714 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 12778 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 15446 hypereal@registry-corp.hypereal.com
 git diff .bash/env.sh
-git diff .vim
 git diff .vim/
 cat .vim/.netrwhist
 cat .vim/ftplugin/haskell.vim
@@ -7547,7 +7539,6 @@ ssh -o "StrictHostKeyChecking no" -p 11327 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 15470 hypereal@registry-corp.hypereal.com
 vtmux 
 export MANPAGER="vim -M +MANPAGER -"
-man nc
 vtmx
 vtmux
 vim man.vim
@@ -7752,7 +7743,6 @@ wd -s reslove
 wd -s resolve
 vim /etc/hostname 
 route --help
-nc --help
 qls
 telnet 10.0.10.63
 sudo telnet 10.0.10.63
@@ -8826,7 +8816,6 @@ vim meminfo
 cat vmstat 
 readelf -S 1|grep debug
 gdb 1
-cd fc/aruco/
 readelf -S 1
 mkdir txt
 cd t
@@ -8933,7 +8922,6 @@ g++ -fno-elide-constructors 4.cpp && ./a.out
 history | grep g++
 vim 4.
 vim 4.cpp 
-vim 4.cpp
 history | grep c++
 sudo snap remove vscode
 /usr/bin/python3
@@ -9152,7 +9140,6 @@ bximage
 man bximage
 git checkout --help
 echo $BXSHARE
-vim 9.cpp
 ll | grep fd
 find . | gre bochs
 find . | grep bochs
@@ -10379,7 +10366,6 @@ cd obj/kern/
 g++ -S 10.cpp 
 man dd
 readelf -l a.out
-vim 10.cpp 
 g++ 10.cpp
 lllls
 readelf -h a.out
@@ -13551,7 +13537,6 @@ vim ~/.vim/.vimrc
 vim ~/.vim/plugin/.vimrc 
 G
 cd .vim/colors/cd ~
-vim calibrate.py 
 cat .inputrc
 vim .inputrc
 vim .vim/plugin/quit.vim
@@ -13905,7 +13890,6 @@ su root
 sudo 
 sudo apt install vim
 git diff dockerfiles/
-cd plugged/
 rm -rf coc.nvim/
 export PATH=$PATH:/snap/bin
 man ccls
@@ -14097,8 +14081,6 @@ sudo pmap 6374
 sudo pmap 6427
 sudo pmap -h 6427
 sudo pmap  6427
-htop
-free -hm
 git remote show origin
 cd .fzf/
 cd /usr/local
@@ -14128,15 +14110,12 @@ rm README.md
 tldr sync
 tldr rsync
 history 
-cd fc/shmmsg/
 docker run -it -v ~:/root  -d --name transformer transformer 
 ps -ef | grep docker
 docker exec --help
 man docker 
 man docker-exec
 cd ~/fc/transformer-pipeline/
-free -m
-free -mh
 vim .docker/config.json 
 cd /root/
 cd fc/dl-k8s-kube/
@@ -14153,12 +14132,10 @@ $@
 gencdb -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 cd fc/
 cd /fc/transformer-pipeline/
-cd build/
 git diff compile_commands.json 
 diff compile_commands.json ../compile_commands.json 
 vimdiff compile_commands.json ../compile_commands.json 
 cd /tmp/RJrWTJc5ZJ6Ty
-make -j4
 vim .bash
 type f
 cp --help
@@ -14195,7 +14172,6 @@ rm 1.deb
 curl "https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/18566800-776c-11e9-9ca1-2e3add881182?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190830T065247Z&X-Amz-Expires=300&X-Amz-Signature=a3c7feec2590e10dbc43cc5b7eb4dc2002a7230a1cc5850424fe6ba24d776027&X-Amz-SignedHeaders=host&actor_id=41767615&response-content-disposition=attachment%3B%20filename%3Dbat_0.11.0_amd64.deb&response-content-type=application%2Foctet-stream" --output 1.deb
 docker build -t transformer . 
 ./download_test_resources.sh 
-git pull
 cd /fc/tr
 sudo su
 sudo mount nas-production1.sho.hypereal.com:/share/sho-nas-production1 /mnt/sho-nas-production1/
@@ -14212,8 +14188,6 @@ wget
 docker stop transformer && docker container prune -f
 docker run -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 docker exec -it transformer bash
-jobs
-fg
 man protobuf
 man -f protobuf
 man -Kw protobuf
@@ -14226,10 +14200,7 @@ vim config.sh
 bat
 bat --version
 ps -e -o pid,vsz,comm= 
-ps -e -o pid,vsz,comm= | sort -n -k 2
 man ps 
-vim 
-vim ~/.vim/plugin/keymap.vim 
     RemoteCameraClient::SubscribeImageData(
             CameraImageResponseTopic,
             [&](const camera::CameraImageResponse &image) {
@@ -14268,10 +14239,7 @@ cd transformer-pipeline/
 vim .vim
 cat .config/coc/memos.json
 git checkout -- .config/coc/
-cd test/
 cd cpp/
-vim 1.cpp
-vim 10.cpp
 g++ 10.cpp && ./a.out
 f -a .
 cd image_saving_service/
@@ -14288,23 +14256,14 @@ git checkout -b image_saving_service
 cd ~/test/
 git reset HEAD --hard
 cat 1
-top
-git log
-cd test/cpp/
-vim 11.cpp
-vim 12.cpp
 cd src/services/
 cd algorithms_service/
 cd ..
 mv image_saving_service/ algorithms_service/
-vim
-git diff
 ./config.sh push
 cd fc/transformer-pipeline/
-g
 git add -A
 git commit -m "add copy"
-git push
 sudo cat /root/.ssh/config 
  cat /root/.ssh/config 
 cat /root/.ssh/config 
@@ -14321,7 +14280,6 @@ rm config
 d
 cd ~1
 git push --set-upstream origin image_saving_service
-cd .vim/
 du -hd1
 find . | wc -l
 nc -w 10 10000
@@ -14335,38 +14293,119 @@ echo 'xolox/vim-colorscheme-switcher' | nc -w 10 10.0.10.138 10000
 nc -nv 10.0.10.138 10000 <(echo 'xolox/vim-colorscheme-switcher')
 nc -nv 10.0.10.138 333 <(echo 'xolox/vim-colorscheme-switcher')
 nc -nv 10.0.10.138 333
-ls
-cd ~
-vim .vimrc
 fg
-vim
-vim 
-ls
 jobs
-vim
-ls
-cd .vim/
-ls
 cd plugged/
 rm -rf vim-colorscheme-switcher/
-cd ~
-vim .vimrc
-ls
-vim .vimrc
-g
 cd fc/shmmsg/
-vim
-cd ~
 cd .vim/
 cd autoload/
-ls
-cd ~
 vim .vimrc
 ping 2408:84e2:1181:b85e:35bc:5a9d:5ba4:c326
 ping 2408:84e2:181:b85e:35bc:5a9d:5ba4:c326
 vim --version
-g
 git checkout master
-g
-git diff
 ./config.sh push && git checkout master
+git push
+git remote add origin http://github.com/chinnkarahoi/settings.git
+nc -l 3000
+nc 10.0.10.60 
+nc 10.0.10.60 3000
+nc 10.0.10.63 3000
+nc 10.0.10.63 3000 <(echo 'asdfasdfasdf')
+nc -l -p 1234 -q 1 
+echo 1234152 | nc 10.0.10.63 1234
+nc -l -p 1234
+nc -l  1234
+nc --help
+nc -zv 10.0.10.63 2-10000
+nc -zv 10.0.10.63 0-10000
+nc -zv 10.0.10.63 1-10000
+nslookup baidu.com
+nc -zv 39.156.69.79 1-10000
+nc -zv -w 1ms 39.156.69.79 1-10000
+nc -zv -w 100ms 39.156.69.79 1-10000
+nc -zv -w 0.1 39.156.69.79 1-10000
+nc -zv -w 0.1s 39.156.69.79 1-10000
+nc -zv -q 1s 39.156.69.79 1-10000
+man nc
+nc -zv -q 1 39.156.69.79 1-10000
+nc -zv -w 1s 39.156.69.79 1-10000
+nc -zv -w 1 39.156.69.79 1-10000
+nc -zv -w 1 39.156.69.79 1-10000 | grep -v timed
+nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null | grep -v timed
+nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null 
+git diff
+vim ~/.vim/plugin/keymap.vim 
+cd test/
+cd PthreadPool/
+ls
+git pull
+git log
+git reset HEAD^ --hard
+cd fc/aruco/
+vim config.py 
+vim calibrate.py 
+cd ~/.vim/plugged/vim-fugitive/
+g
+git diff .vim
+cd .vim/plugged/vim-fugitive/
+vim
+vim 
+cd ~
+cd test/cpp/
+vim 11.cpp 
+vim 10.cpp 
+vim 1.cpp
+vim 10.cpp
+vim 12.cpp
+vim 11.cpp
+vim 9.cpp
+vim 2.cpp
+vim 3.cpp
+vim 4.cpp
+free -m
+htop
+killall -9 netease-cloud-music 
+killall -9 sogou-qimpanel
+free -mh
+cd build/
+make -j4
+free -hm
+ps -e -o pid,vsz,comm= | sort -n -k 2
+top
+code
+vim 
+vim .vimrc
+ls
+cd ~
+vim config.sh 
+g
+ripgrep
+rg
+rg --help
+rg
+apt install rg
+apt install ripgrep
+df
+df | grep rg
+df | grep rip
+rg
+ls
+cd fc/shmmsg/
+vim
+cd ~/fc/transformer-pipeline/
+vim
+ls
+du -hd1
+vim
+ls
+vim .vimrc
+vim ~/.vim/plugin/keymap.vim 
+ls
+vim
+ls
+g
+git diff .vim
+g
+./config.sh push

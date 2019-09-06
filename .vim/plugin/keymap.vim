@@ -1,7 +1,7 @@
 "------------------------------esc--------------------------------"
 inoremap <c-g> <esc>
 cnoremap <c-g> <c-c>
-nnoremap <c-g> <nop>
+nnoremap <c-g> <esc>
 vnoremap <c-g> <esc>
 snoremap <c-g> <esc>
 lnoremap <c-g> <esc>
@@ -28,7 +28,7 @@ inoremap <c-a> <esc>^i
 
 cnoremap <c-a> <home>
 cnoremap <c-b> <left>
-cnoremap <c-r> <c-f>
+" cnoremap <c-r> <c-f>
 cnoremap <c-f> <right>
 cnoremap w <c-w>
 
