@@ -12,6 +12,7 @@ install_vim_coc() {
 	curl -sL install-node.now.sh/lts | sudo bash -s -- -y
 	vim -c "CocInstall -sync | q"
 	sudo npm install -g dockerfile-language-server-nodejs
+	sudo npm install -g t-get
 	pip install compiledb
 	sudo snap install ccls --classic
 }
@@ -177,6 +178,7 @@ run(){
 	install_netease
 	install_sogou
 	snap_install
+	brew_install
 	install_wd
 	sudo apt upgrade -y
 	#install_lang

@@ -13716,7 +13716,6 @@ vim Dockerfile
 sudo snap install docker-langserver
 dockerfile-language-server-nodejs
 npm install -g dockerfile-language-server-nodejs
-sudo npm install -g dockerfile-language-server-nodejs
 docker-langserver
 git diff HEAD^ 
 git log env
@@ -14043,7 +14042,6 @@ man docker-exec
 vim .docker/config.json 
 cd /root/
 cd fc/dl-k8s-kube/
-git branch
 git checkout flawck 
 diff compile_commands.json build/compile_commands.json 
 set -- 1 "2 3"
@@ -14531,7 +14529,6 @@ fg
 mv .bash_completion.d/ bash_completion.d/
 rm -r bash_completion.d/
 cat /etc/bash_completion.d/bd
-vim .vimrc
 bd.sh
 > bd.sh
 cat bd.sh
@@ -14561,8 +14558,6 @@ cd f
 rm .bash/bd.sh 
 git checkout -- .bash_completion
 git diff .bash
-./config.sh push
-vim config.sh 
 vim .bash/alias.sh 
 cd .bash
 vim bd.sh
@@ -14588,7 +14583,19 @@ cd fc/transformer-pipeline/
 cd 
 bd fc gjs
 vim .bashrc
-ls
 vim .bash
-g
 ./config.sh push "add bd"
+git branch
+git merge coc
+npm install -g t-get
+yarn
+sudo npm install -g t-get
+tget
+tget 'magnet:?xt=urn:btih:0403fb4728bd788fbcb67e87d6feb241ef38c75a'
+vim config.sh 
+sudo npm install -g dockerfile-language-server-nodejs
+vim .vimrc
+ls
+g
+cat .config/configstore/update-notifier-npm.json
+./config.sh push
