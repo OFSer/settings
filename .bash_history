@@ -448,7 +448,6 @@ sudo vim /etc/profile
 . crawler.sh  | tee log
 vim log
 . crawler.sh  | tee -a log
-s
 git merge new_blow 
 git checkout new_blow blow_check/BlowChecker_LineLaser.cpp
 git commit -m "merge new_blow"
@@ -754,12 +753,9 @@ vim 1.sh
 rm 1.sh
 vim dconf 
 cd crawler/
-./config.sh pull
 :call Terins()
-cd .config/
 cd google-chrome/
 find . -iname "extension"
-find .
 find . | grep exten
 cd /google-chrome/Default/Extensions/
 cd ./google-chrome/Default/Extensions/
@@ -1050,7 +1046,6 @@ git checkout master
 cd ~/o
 history | grep dotnet
 cd .local/
-cd share/
 cd files/
 setup
 'ls
@@ -1442,7 +1437,6 @@ mycd(){ \cd "$@"; for i in `dirs -p | sed -n '2,$p'`;do done
 pushd . &> /dev/null
 set -u
 cd
-cd 
 echo "~"
 i="~"
 mkdir abc\ bcd
@@ -2112,7 +2106,6 @@ mysql -u gjs -p
 du -h
 cp pack.tar ../../disk/pack.tar
 cd /media/
-cd gjs/
 cd 18aa974c-2266-4d72-8a1e-aa8bf26d25a6/
 vim .bashrc 
 scp --help
@@ -2181,7 +2174,6 @@ ssh -p 16368 hypereal@registry-corp.hypereal.com
 ssh -p 10014 hypereal@registry-corp.hypereal.com
 cd .config
 ccd ..
-cd lib/
 find . | grep sogou
 find . | grep fcitxs
 find . | grep fcitx
@@ -3495,7 +3487,6 @@ function shorten_pwd {  PWD=$(pwd)  RESIDUAL=${PWD#$HOME}  if [ X"$RESIDUAL"!= X
 shorten_pwd 
 function shorten_pwd {  PWD=$(pwd)  REPLACE="/.."  RESIDUAL=${PWD#$HOME}  if [ X"$RESIDUAL"!= X"$PWD" ];  then  PREFIX="~";  fi  TRUNC_LENGTH=$(($MAX_PWD_LENGTH - ${#PREFIX} - ${#REPLACE} - 1));  NORMAL=${PREFIX}${RESIDUAL};  if [ ${#NORMAL} -ge $(($MAX_PWD_LENGTH)) ];  then  newPWD=${PREFIX}${REPLACE}${RESIDUAL:((${#RESIDUAL} - $TRUNC_LENGTH)):$TRUNC_LENGTH};  else  newPWD=${PREFIX}${RESIDUAL};  fi  echo $newPWD; }
 echo $RESIDUAL
-cd gjs
 expr substr 1 1 123
 expr substr 1 1 234
 expr substr 1 234
@@ -4431,7 +4422,6 @@ a+=$b
 echo a
 a+=${b}
 echo ${b}
-cd ../
 rm .vimrc 
 echo ${!a*}
 echo ${!b*}
@@ -6354,8 +6344,6 @@ git add .vimrc
 git commit -m "big changej"
 apt-get install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
 sudo apt install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
-cd include/
-cd sbin/
 find . | grep *.h
 sudo find . | grep *.h
 cd lib
@@ -6967,7 +6955,6 @@ echo 8 | sshpass -p admin ssh admin@ai-ssh.sihe6.com
 \ssh admin@ai-ssh.sihe6.com
 dir --color=auto
 dir --help
-git diff .bash
 ssh -o "StrictHostKeyChecking no" -p 15256 hypereal@registry-corp.hypereal.com
 \ssh -o "StrictHostKeyChecking no" -p 15256 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 11512 hypereal@registry-corp.hypereal.com
@@ -7271,7 +7258,6 @@ find . | grep ghci
 ./programs/x86_64-linux/ghc-8.2.2/bin/ghci
 cd ./programs/x86_64-linux/ghc-8.2.2/bin
 ./ghci
-vim .bash/env.sh 
 stack install hdevF
 stack install hdevtools
 stack hdevtools
@@ -9063,7 +9049,6 @@ pip install --upgrade
 sudo pip3 install nnpy
 sudo apt install python3-pip
 cd .local/share/jupyter/
-cd man/
 cat .bash
 free -h
 g++ 7.cpp && ./a.out
@@ -11170,7 +11155,6 @@ cd ../co
 cd ../cos
 cd Gdbinit/
 git clone git@gitlab.sho.hypereal.com:AIFactory/iot-daemon.git
-cd iot-daemon/
 git checkout -b remotes/origin/yisong
 git branch -d heads/remotes/origin/yisong
 git branch -d remotes/origin/yisong
@@ -11480,7 +11464,6 @@ readelf -h ~/gh/cos/obj/kern/kernel
 cat 1.dot
 wd -s landscape
 wd landscape
-c d
 cd fc//
 cd fc//http//
 rm -rf http
@@ -13418,7 +13401,6 @@ man cmake
 man -f cmake
 cd ~/.vim/pluggin
 vim keymap.vim 
-cd bash
 vim abcd 
 git add .vimrc .bashrc
 git reset HEAD .bashrc
@@ -13744,7 +13726,6 @@ git log env
 git log dockerfiles/
 cd vim/
 git log Dockerfile
-cd .
 vim .gitignore 
 cat .vim/coc-settings.json
 cd env/n
@@ -13816,14 +13797,12 @@ docker run -it -v ~:/root -v /snap:/snap -d --name transfomer transformer bash
 docker exec -it transfomer 
 cd /snap/
 cd 48/
-cd bin/
 ./ccls 
 echo $PATH
 echo $PATH | grep snap
 vim /etc/profile
 vim /etc/bash.bashrc 
 type ccls
-cd go/
 npm
 cd go
 cd go/mock/
@@ -14048,7 +14027,6 @@ cat .fzf.bash
 git checkout -- .vimrc
 docker ps -l
 sudo mv fc /root
-cd f
 docker images
 sudo mv fc /root/
 sudo mv fc /root/fc/
@@ -14075,7 +14053,6 @@ set -- 1 "2 3"
 set -- echo "2 3"
 $@
 gencdb -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
-cd fc/
 cd /fc/transformer-pipeline/
 git diff compile_commands.json 
 diff compile_commands.json ../compile_commands.json 
@@ -14225,8 +14202,6 @@ echo 'xolox/vim-colorscheme-switcher' | nc -w 10 10.0.10.138 10000
 nc -nv 10.0.10.138 10000 <(echo 'xolox/vim-colorscheme-switcher')
 nc -nv 10.0.10.138 333 <(echo 'xolox/vim-colorscheme-switcher')
 nc -nv 10.0.10.138 333
-fg
-jobs
 cd plugged/
 rm -rf vim-colorscheme-switcher/
 cd .vim/
@@ -14294,13 +14269,11 @@ ripgrep
 rg --help
 apt install rg
 apt install ripgrep
-df
 df | grep rg
 df | grep rip
 rg
 cd fc/shmmsg/
 cd ~/fc/transformer-pipeline/
-du -hd1
 git diff .vim
 git diff HEAD^ .dconf
 type OnStart
@@ -14339,7 +14312,6 @@ pstree
 pstree -s -T -t -p 1381
 docker exec -it transformer bash
 top
-docker run -it vim bash
 pstree -s -p 1381
 pstree -s -T -p 1381
 pstree -s -t -p 1381
@@ -14353,7 +14325,6 @@ node.js
 node
 node --help
 vim .vim/plugin/keymap.vim 
-vim .vimrc
 ffffffffffffffffffffffffffffffffffffffffffffff
 vimdiff 
 vim .vim
@@ -14373,13 +14344,11 @@ echo $BASH_COMMAND
 echo $PROMPT_COMMAND 
 vim .bash/feature.sh 
 vim ~/.bash/mycmd.sh 
-ls -a
 ls -a .gvfs
 ls -a .pki
 ls *
 ls .
 ls games
-cd test/cpp/
 ls *.cpp
 readlink -f *.cpp
 readlink -f .*
@@ -14387,7 +14356,6 @@ readlink -f *.*
 readlink -f .
 readlink -f **
 readlink -f *
-cd test/
 cd cpp
 f *.cpp
 t
@@ -14404,9 +14372,7 @@ glances
 mkdir ~/.bash_completion.d
 curl https://raw.githubusercontent.com/cykerway/complete-alias/master/bash_completion.sh      > ~/.bash_completion.d/complete_alias
 cd ~/.bash_completion.d/
-ll
 ll -h
-cd ..
 alias container=docker\ container
 complete -F _complete_alias container
 source ~/.bash_completion.d/complete_alias
@@ -14419,7 +14385,6 @@ cat .bash_completion
 bash --version
 vim .bash_completion
 type sctl 
-vim .bash/alias.sh 
 type sctl
 type dirs 
 complete -F _complete_alias alert
@@ -14429,8 +14394,6 @@ alias
 git diff HEAD~20 .bashrc
 git diff HEAD~50 .bashrc
 git diff HEAD~80 .bashrc
-vim .bashrc
-cd .bash
 vim
 alias
 alias | cut -f1
@@ -14453,7 +14416,6 @@ alias | cut -d' ' -f2 | cut -d= -f1 | xargs -n 1 -P 1 command complete -F _compl
 alias | cut -d' ' -f2 | cut -d= -f1 | xargs echo
 git add -f .bash_completion
 rm .bash_completion.d/
-rm -r .bash_completion.d/
 git diff .bashrc
 ./config.sh push "add completion for alias"
 git log
@@ -14473,7 +14435,6 @@ man ls
 cppman noexcept
 cd .config/cppman/
 cat cppman.cfg 
-cd ~
 httpie
 apt-get install httpie
 sudo apt-get install httpie
@@ -14486,7 +14447,6 @@ curl  https://git.io/vQgMr
 wget -qO- https://git.io/vQgMr
 wget -qO- https://git.io/vQgMr | p
 wget -qO- https://git.io/vQgMr | bat
-bash -c  "$(wget -qO- https://git.io/vQgMr)"
 git diff .config/dconf/user
 ll .config/dconf/user
 ll -h .config/dconf/user
@@ -14494,12 +14454,135 @@ ll .dconf
 ll -h .dconf
 dconf dump --help
 vim .dconf 
-vim config.sh 
 dconf dump /  > .dconf
 pkill dconf-service
 dconf load / < .dconf
-ls
 git checkout -- .dconf
 git checkout -- .config/dconf/user
+bash -c  "$(wget -qO- https://git.io/vQgMr)"
+./config.sh pull
+t borg
+wget https://github.com/ok-borg/borg/releases/download/v0.0.3/borg_linux_amd64 -O /usr/local/bin/borg
+chmod 755 /usr/local/bin/borg
+sudo wget https://github.com/ok-borg/borg/releases/download/v0.0.3/borg_linux_amd64 -O /usr/local/bin/borg
+sudo chmod 755 /usr/local/bin/borg
+borg worked 12
+borg --help
+borg "list only files"
+http://ok-b.org:9992
+nslookup ok-b.org
+dig 
+dig ok-b.org
+vim .bash/env.sh 
+cd ../
+cd bin/
+man brew
+cd ../linuxbrew/
+cd include/
+ls -a
+find .
+git diff .config/config.yml
+cat .config/config.yml
+cd .config/edit
+docker run -it vim bash
+cat .config/edit
+cd .config/
+cat edit
+cat query 
+vim config.sh 
+sudo apt install linuxbrew-wrapper
+rm -rf linuxbrew/
+sudo rm -rf linuxbrew/
+cd gjs/
+sudo apt remove --purge  linuxbrew-wrapper
+sudo apt install  linuxbrew-wrapper
+type brew
+brew
+./config.sh brew_install
+df
+df | grep brew
+brew install s-search
+brew --help
+brew list
+brew list s-search
+brew info s-search
+s-search
+s
+brew search nethack
+brew info nethack
+s ls
+brew info vim
+cd .lin
+cd linuxbrew/
+ll
+du -hd1
+cd .linuxbrew/
+cd lib/
+cd sbin/
+cd var/
+cd homebrew/
+cd share/
+cd man/
+cd man1/
+wget --no-check-certificate -O /usr/local/bin/bd https://raw.github.com/vigneshwaranr/bd/master/bd
+sudo wget --no-check-certificate -O /usr/local/bin/bd https://raw.github.com/vigneshwaranr/bd/master/bd
+sudo chmod +rx /usr/local/bin/bd
+vim .bash/alias.sh 
+wget -O /etc/bash_completion.d/bd https://raw.github.com/vigneshwaranr/bd/master/bash_completion.d/bd
+sudo wget -O /etc/bash_completion.d/bd https://raw.github.com/vigneshwaranr/bd/master/bash_completion.d/bd
+source /etc/bash_completion.d/bd
+mkdir bash_completion.d/
+rm -r .bash_completion.d/
+mkdir  .bash_completion.d/
+cd .bash_completion.d/
+mv .bash_completion .bash_completion.d/
+jobs
+fg
+mv .bash_completion.d/ bash_completion.d/
+rm -r bash_completion.d/
+cat /etc/bash_completion.d/bd
+vim .vimrc
+bd.sh
+> bd.sh
+vim bd.sh
+vim .bashrc
+cd .bash
+cat bd.sh
+cd ..
+vim .bash/bd.sh 
+ls `bd`
+cd `bd h`
+bd home
+cd gjs
+bd ho
+type bd
+cd bash
+bd g
+cd test/cpp/
+cd `bd t`/go
+echo `bd t`
+cd go/
+bd t
+bd
+cd fc/
+cd iot-daemon/
+bt i
+bd i
+cd .
+c d
+bd r
+bd rtt
+bd fc
+bd f
+cd ~
+cd test/
+cd f
+cd 
+bd h
+ls
+rm .bash/bd.sh 
+vim .bash_completion 
+git checkout -- .bash_completion
 g
+git diff .bash
 ./config.sh push

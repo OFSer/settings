@@ -15,6 +15,13 @@ install_vim_coc() {
 	pip install compiledb
 	sudo snap install ccls --classic
 }
+
+brew_install() {
+	sudo apt install -y linuxbrew-wrapper
+	echo -e '\n' | brew
+	brew install s-search
+}
+
 snap_install(){
 	sudo snap install code --classic
 	sudo snap install electronic-wechat
@@ -38,7 +45,7 @@ install_tools(){
 	sudo apt install -y compizconfig-settings-manager
 	sudo apt install -y tree net-tools nethogs openssh-server 
 	sudo apt install -y sl cmatrix fortune cowsay lolcat asciiquarium toilet gnuchess screenfetch empire angband bsdgames curseofwar
-	sudo apt install -y python-pip python3 python3-pip
+	sudo apt install -y python-pip python3 python3-pip linuxbrew-wrapper
 }
 config_scroll(){
 	sudo apt install xbindkeys xdotool -y

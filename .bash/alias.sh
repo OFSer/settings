@@ -42,4 +42,3 @@ alias i='sudo apt install'
 alias t='wd -s'
 alias d='dirs -p'
 alias sctl='systemctl'
-complete -F _complete_alias sctl
