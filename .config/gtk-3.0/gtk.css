@@ -13,7 +13,7 @@ notebook.terminal-notebook header.top tab:hover {
     color: #7A7F76;
 		font-size: 20px;
 		font-family: Ubuntu Mono;
-		font-style: bold;
+		/* font-style: bold; */
 		font-weight: 600;
 }
 
@@ -24,6 +24,6 @@ notebook.terminal-notebook header.top tab:checked {
     color: #EF8829;
 		font-size: 20px;
 		font-family: Ubuntu Mono;
-		font-style: bold;
+		/* font-style: bold; */
 		font-weight: 600;
 }

@@ -44,3 +44,4 @@ alias t='wd -s'
 alias d='dirs -p'
 alias sctl='systemctl'
 alias bd=". ~/.bash/bd -si"
+alias s='s -b google-chrome-stable'

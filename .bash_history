@@ -2431,7 +2431,6 @@ git staus
 git stash apply
 history | grep gtk
 cd .config/gtk-4.0/
-cd .config/gtk-2.0/
 vim gtkfilechooser.ini 
 ssh usr@10.0.10.63
 git checkout -- .config/gtk-3.0/gtk.css
@@ -3237,7 +3236,6 @@ man df
 man df | cache
 man df | grep cache
 man df | grep no
-du
 man df | grep sync
 tldr df
 git diff .config/gtk-3.0/servers
@@ -3441,7 +3439,6 @@ git merge master
 git commit -m "upd ignore"
 git merge gjs
 git statuz
-git reset HEAD^
 vim .git
 git commit -m "add online file"
 git push origin master
@@ -4674,8 +4671,6 @@ ls * 2>&1 >&3 3>&- | grep such
 ls  2>&1 >&3 | grep such
 ls  2>&1 >&3 | grep os
 cd gtk-
-cd gtk-3.0/
-vim gtk.css 
 command_not_found_handle
 command_not_found_handle 
 command_not_found_handle  abc
@@ -5469,8 +5464,6 @@ printf '%(-1)T'
 printf '%(-2)T'
 ulimit -S
 ulimit -H
-ulimit -a
-ulimit -c
 ulimit -c 1
 haskell
 sudo apt install haskell
@@ -8442,7 +8435,6 @@ gdb a.out
 gdb a.out core 
 g++ -pthread future.cpp && ./a.out 
 g++ -g -pthread future.cpp && ./a.out 
-ulimit -c unlimited
 rm core 
 cd bu
 sudo apt install dpkg-dev
@@ -10572,7 +10564,6 @@ hexdump -C -n 1000 HelloWorld.class
 cd ~/test/go/hello/
 cd vim-g
 git diff HEAD^ -s
-lg
 complete -A directory ls
 compgen -c ls
 compgen -c docker
@@ -12324,7 +12315,6 @@ cat /etc/sysctl.d/50-pipeline.conf
 ls /etc/security/limits.d/
 cd /etc/security/
 cd limits.d/
-ulimit 
 sudo vi /etc/security/limits.d/pipeline-limits.conf
 sudo sysctl -p /etc/security/limits.d/pipeline-limits.conf
 cat /etc/security/limits.d/pipeline-limits.conf
@@ -12543,7 +12533,6 @@ ipython
 PAGER
 echo $PAGER 
 ls -a | grep his
-cat .viminfo
 du -hcd1
 cd /etc/angband/
 cd pref/
@@ -12764,7 +12753,6 @@ man signal.7
 man signal.2
 man signal.3
 man signal.4
-type s
 s venerable
 c s ' '
 type a
@@ -14254,7 +14242,6 @@ ps -e -o pid,vsz,comm= | sort -n -k 2
 free -mh
 echo $USER
 echo $HOSTNAME
-sudo su
 vim ~/.vim/plugin/keymap.vim 
 pstree -s -p $$
 pstree -s -p $$PID
@@ -14381,7 +14368,6 @@ git add -f .bash_completion
 rm .bash_completion.d/
 git diff .bashrc
 ./config.sh push "add completion for alias"
-git log
 ./config.sh push "fix message"
 set -- "123 234" "234 345"
 args $@
@@ -14441,7 +14427,6 @@ cd bin/
 man brew
 cd ../linuxbrew/
 cd include/
-ls -a
 find .
 git diff .config/config.yml
 cat .config/config.yml
@@ -14474,8 +14459,6 @@ s ls
 brew info vim
 cd .lin
 cd linuxbrew/
-ll
-du -hd1
 cd .linuxbrew/
 cd lib/
 cd sbin/
@@ -14496,7 +14479,6 @@ mkdir  .bash_completion.d/
 cd .bash_completion.d/
 mv .bash_completion .bash_completion.d/
 jobs
-fg
 mv .bash_completion.d/ bash_completion.d/
 rm -r bash_completion.d/
 cat /etc/bash_completion.d/bd
@@ -14525,11 +14507,9 @@ bd r
 bd rtt
 bd fc
 cd test/
-cd f
 rm .bash/bd.sh 
 git checkout -- .bash_completion
 git diff .bash
-vim .bash/alias.sh 
 cd .bash
 vim bd.sh
 mv bd.sh bd
@@ -14541,14 +14521,12 @@ cd frontend/
 bd f
 d
 cd ~3
-vim .bash_completion 
 type bd
 complete -p
 complete -p bd
 vim .bash/
 bd fc gjs
 vim .bashrc
-vim .bash
 ./config.sh push "add bd"
 git branch
 git merge coc
@@ -14576,11 +14554,8 @@ vimux
 nethack
 cataclysm 
 python
-git diff
 vimux
 man s
-s --help
-vim config.sh 
 t embark
 t embassy 
 df --help
@@ -14613,7 +14588,6 @@ tldr tar
 rm -rf df_44_12_linux
 tar -jxvf df_44_12_linux.tar.bz2
 cd df_linux/
-./df
 ./pyramid_builder_linux
 ./pyramid_builder_linux.x86_64 
 ./pyramid_builder_linux.x86_64 --help
@@ -14642,10 +14616,8 @@ bash doomrl_konsole
 . doomrl_gnome-terminal
 doomrl_gnome-terminal
 cd .config/unity3d/
-cd ~
 cat .config/unity3d/Martian Rex, Inc./Pyramid Builder/Player.log
 cat '.config/unity3d/Martian Rex, Inc./Pyramid Builder/Player.log'
-cd games/
 cd asciisec/
 vim readme.txt 
 google-chrome-stable manual.pdf 
@@ -14655,15 +14627,77 @@ vim
 ./asciisec 
 git reset HEAD --hard
 mv df_linux/ df
-git add df
-git commit -m "add df"
-git push
 cd .config/unity3d
-ls
 cat Player.log 
-cd ..
 git rm --cached .config/unity3d/
 git rm --cached -r .config/unity3d/
 vim .gitignore 
+du
+df -hd1
+du -hd1
+ll
+git log
+git reset HEAD^
+git add df
+git commit -m "add df"
+git push
+ulimit -ch
+ll core 
+ll -h core 
+./df
+rm co
+cd games/
+cd f
+cd df
+cd ~
+ulimit -c 0
+rm core
+ulimit -c unlimited
+sudo ulimit -c unlimited
+ulimit -c
+ulimit -a
+sudo su
+ulimit 
+ulimit  -a
+vim .bash
+vim config.sh 
+ll .vim
+ls *.vim
+cat .viminfo
+cat .viminfo.tmp
+rm .viminf*.tmp
+ls .vimin*
+ls -a
+s -b "chromium --incognito" conspiracy theories
+google-chrome
+google-chrome-stable 
+s -b "google-chrome-stable --incognito" conspiracy theories
+s --help
+s -b google-chrome-stable conspiracy theories
+t conspiracy 
+t therapy
+t therapist
+t therapeutic 
+git diff
+s baf
+cat .config/gtk-2.0/
+cd .config/gtk-2.0/
+cd ..
+cd gtk-3.0/
+cat gtk.css .
+cat gtk.css 
+vim gtk.css 
+s fd
+fg
+s sdf
+s test
+s -p stackoverflow test
+type command s
+vim .bash/alias.sh 
+type s
+s -s
+vim .bash_completion 
+lg
+ls
 g
 ./config.sh push
