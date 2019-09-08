@@ -1,3 +1,4 @@
+#!/bin/bash
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
 	test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
@@ -42,3 +43,4 @@ alias i='sudo apt install'
 alias t='wd -s'
 alias d='dirs -p'
 alias sctl='systemctl'
+alias bd=". ~/.bash/bd -si"

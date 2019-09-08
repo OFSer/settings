@@ -1,3 +1,4 @@
+#!/bin/bash
 OnExit(){
 	# command cd ~
 	# HF=~/.bash_history

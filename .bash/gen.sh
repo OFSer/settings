@@ -1,3 +1,4 @@
+#!/bin/bash
 genycm() {
 	[ -f build/compile_commands.json ] || {
 		return

@@ -1384,7 +1384,6 @@ pushd
 pushd  .
 pushd .
 cd ~/fc
-cd ~3
 cd ~2
 cd ~4
 popd 3
@@ -8323,7 +8322,6 @@ a=4
 echo $GITREF
 echo $PREPWD
 [ -z "" ] && echo 1
-cd frontend/
 cd public/
 cd fc/transformer-pipeline/frontend/
 a='git'
@@ -12043,7 +12041,6 @@ readline
 man readline
 complete -p | grep apt-get
 complete -p | grep apt
-complete -p
 complete -p | grep man
 complete -p | grep install
 complete -p | grep get
@@ -14148,7 +14145,6 @@ echo config/Machine_VT3_test_pin_inspector/A451/
 echo "config/Machine_VT3_test_pin_inspector/A451/"
 echo "config/Machine_VT3_test_pin_inspector/A451/" >> .gitignore 
 cd ../aruco/
-cd transformer-pipeline/
 cat .config/coc/memos.json
 git checkout -- .config/coc/
 cd cpp/
@@ -14171,7 +14167,6 @@ cat 1
 cd src/services/
 cd algorithms_service/
 mv image_saving_service/ algorithms_service/
-cd fc/transformer-pipeline/
 git add -A
 git commit -m "add copy"
 sudo cat /root/.ssh/config 
@@ -14187,7 +14182,6 @@ cat config
 vim .ssh/config 
 cd .ssh/
 rm config 
-d
 cd ~1
 git push --set-upstream origin image_saving_service
 find . | wc -l
@@ -14339,7 +14333,6 @@ git icdiff .bash_history
 fffffffffffffff
 history 
 cat .bash_history 
-vim .bash
 echo $BASH_COMMAND
 echo $PROMPT_COMMAND 
 vim .bash/feature.sh 
@@ -14394,7 +14387,6 @@ alias
 git diff HEAD~20 .bashrc
 git diff HEAD~50 .bashrc
 git diff HEAD~80 .bashrc
-vim
 alias
 alias | cut -f1
 alias | cut -f2
@@ -14489,7 +14481,6 @@ cat .config/edit
 cd .config/
 cat edit
 cat query 
-vim config.sh 
 sudo apt install linuxbrew-wrapper
 rm -rf linuxbrew/
 sudo rm -rf linuxbrew/
@@ -14527,7 +14518,6 @@ cd man1/
 wget --no-check-certificate -O /usr/local/bin/bd https://raw.github.com/vigneshwaranr/bd/master/bd
 sudo wget --no-check-certificate -O /usr/local/bin/bd https://raw.github.com/vigneshwaranr/bd/master/bd
 sudo chmod +rx /usr/local/bin/bd
-vim .bash/alias.sh 
 wget -O /etc/bash_completion.d/bd https://raw.github.com/vigneshwaranr/bd/master/bash_completion.d/bd
 sudo wget -O /etc/bash_completion.d/bd https://raw.github.com/vigneshwaranr/bd/master/bash_completion.d/bd
 source /etc/bash_completion.d/bd
@@ -14544,18 +14534,13 @@ cat /etc/bash_completion.d/bd
 vim .vimrc
 bd.sh
 > bd.sh
-vim bd.sh
-vim .bashrc
-cd .bash
 cat bd.sh
-cd ..
 vim .bash/bd.sh 
 ls `bd`
 cd `bd h`
 bd home
 cd gjs
 bd ho
-type bd
 cd bash
 bd g
 cd test/cpp/
@@ -14563,8 +14548,6 @@ cd `bd t`/go
 echo `bd t`
 cd go/
 bd t
-bd
-cd fc/
 cd iot-daemon/
 bt i
 bd i
@@ -14573,16 +14556,39 @@ c d
 bd r
 bd rtt
 bd fc
-bd f
-cd ~
 cd test/
 cd f
-cd 
-bd h
-ls
 rm .bash/bd.sh 
-vim .bash_completion 
 git checkout -- .bash_completion
-g
 git diff .bash
 ./config.sh push
+vim config.sh 
+vim .bash/alias.sh 
+cd .bash
+vim bd.sh
+mv bd.sh bd
+vim
+bd h
+bd
+bd s
+cd fc/
+cd transformer-pipeline/
+cd ..
+cd frontend/
+bd f
+d
+cd ~3
+vim .bash_completion 
+type bd
+complete -p
+complete -p bd
+vim .bash/
+cd ~
+cd fc/transformer-pipeline/
+cd 
+bd fc gjs
+vim .bashrc
+ls
+vim .bash
+g
+./config.sh push "add bd"
