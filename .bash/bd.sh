@@ -1,8 +1,4 @@
 #! /bin/bash
-usage_error () {
-	cd ..
-}
-
 
 newpwd() {
   oldpwd=$1
@@ -21,22 +17,25 @@ newpwd() {
   esac
 }
 
-if [ $# -eq 0 ]
-then
-  usage_error
-elif [ "${@: -1}" = -v ]
-then
-  usage_error
-else
-  oldpwd=$(pwd)
+bd(){
+	set -- -si "$@"
+	if [ $# -eq 0 ]
+	then
+		return 1
+	elif [ "${@: -1}" = -v ]
+	then
+		return 1
+	else
+		oldpwd=$(pwd)
 
-  newpwd "$oldpwd" "$@"
-  
-  if [ "$NEWPWD" = "$oldpwd" ]
-  then
-    echo "No such occurrence."
-  else
-    cd "$NEWPWD"
-  fi
-  unset NEWPWD
-fi
+		newpwd "$oldpwd" "$@"
+		
+		if [ "$NEWPWD" = "$oldpwd" ]
+		then
+			return 1
+		else
+			command cd "$NEWPWD"
+		fi
+		unset NEWPWD
+	fi
+}

@@ -69,7 +69,7 @@ cd(){
 		command cd `cat <(ls -d */ 2> /dev/null || echo .) | shuf | head -n 1` && ls
 	} || {
 		pushd . &> /dev/null
-		command cd "$@" || {
+		command cd "$@" 2>/dev/null || bd "$@" || {
 			popd +0 &> /dev/null
 			return
 		}

@@ -153,7 +153,6 @@ i=13
 printf %04d $i
 touch a
 sudo rm -r camera06-190121-231522-S5/
-cd build
 ./run.sh 0
 git status
 git add .
@@ -571,7 +570,6 @@ echo ~root
 cd /root
 . crawler.sh | tee log
 jbos
-echo $?
 echo $#
 mkdir test
 [[ 1 == 1 ]] && echo 1 || echo 0
@@ -1373,13 +1371,11 @@ dirs -l
 dirs -p
 dirs -v
 \dirs -v
-cd fc
 pushd
 pushd 
 pushd  .
 pushd .
 cd ~/fc
-cd ~2
 cd ~4
 popd 3
 popd +3
@@ -1852,7 +1848,6 @@ vim .vimr
 pip
 pip install tensorflow-gpu
 cd Desktop/
-bash
 bash "cd /"
 bash -t "cd /"
 docker login https://registry-sho.hypereal.com
@@ -7137,7 +7132,6 @@ man completions
 man completion
 man complete
 complete -p ls
-complete -p cd
 complete ls
 complete -F ls
 cd pangram/
@@ -8435,7 +8429,6 @@ gdb a.out
 gdb a.out core 
 g++ -pthread future.cpp && ./a.out 
 g++ -g -pthread future.cpp && ./a.out 
-rm core 
 cd bu
 sudo apt install dpkg-dev
 cd /opt/src
@@ -12099,7 +12092,6 @@ cplt  'ls -' | grep
 cplt  'ls -'
 chmem --help
 man chmem
-c ls
 c man
 c git
 c 'git '
@@ -12246,7 +12238,6 @@ git ta
 git describe --tags --log
 git log --pretty=oneline
 c ls ''
-c ls ' '
 c com
 comm --help
 cd ~/test/sh/
@@ -14123,7 +14114,6 @@ rename 's/appearance_checker/image_saving/' *
 git checkout -- src/
 cat .gitignore 
 git checkout -b image_saving_service
-cd ~/test/
 cat 1
 cd src/services/
 cd algorithms_service/
@@ -14143,7 +14133,6 @@ cat config
 vim .ssh/config 
 cd .ssh/
 rm config 
-cd ~1
 git push --set-upstream origin image_saving_service
 find . | wc -l
 nc -w 10 10000
@@ -14226,7 +14215,6 @@ df | grep rg
 df | grep rip
 rg
 cd fc/shmmsg/
-cd ~/fc/transformer-pipeline/
 git diff .vim
 git diff HEAD^ .dconf
 type OnStart
@@ -14263,7 +14251,6 @@ pstree -h
 pstree 
 pstree -s -T -t -p 1381
 docker exec -it transformer bash
-top
 pstree -s -p 1381
 pstree -s -T -p 1381
 pstree -s -t -p 1381
@@ -14289,8 +14276,6 @@ git config --global icdiff.options '--highlight --line-numbers'
 git icdiff
 git icdiff .bash_history
 fffffffffffffff
-history 
-cat .bash_history 
 echo $BASH_COMMAND
 echo $PROMPT_COMMAND 
 vim .bash/feature.sh 
@@ -14505,7 +14490,6 @@ cd .
 c d
 bd r
 bd rtt
-bd fc
 cd test/
 rm .bash/bd.sh 
 git checkout -- .bash_completion
@@ -14514,16 +14498,10 @@ cd .bash
 vim bd.sh
 mv bd.sh bd
 bd h
-bd
 bd s
-cd fc/
-cd frontend/
 bd f
-d
 cd ~3
 type bd
-complete -p
-complete -p bd
 vim .bash/
 bd fc gjs
 vim .bashrc
@@ -14543,8 +14521,6 @@ ll  /usr/share/applications/ | grep disk
 ll  /usr/share/applications/ | grep Disk
 ll  /usr/share/applications/ | grep Cre
 ll  /usr/share/applications/ | grep Start
-cd fc/transformer-pipeline/
-cd transformer-pipeline/
 vim CMakeLists.txt 
 cd ~/test/cpp/
 vim 1.cpp
@@ -14581,7 +14557,6 @@ cd data/init
 cat interface.txt 
 vim interface.txt 
 bd df
-cd 
 ./dff
 tar -zxvf df_44_12_linux.tar.bz2
 tldr tar
@@ -14647,9 +14622,7 @@ ll -h core
 ./df
 rm co
 cd games/
-cd f
 cd df
-cd ~
 ulimit -c 0
 rm core
 ulimit -c unlimited
@@ -14659,8 +14632,6 @@ ulimit -a
 sudo su
 ulimit 
 ulimit  -a
-vim .bash
-vim config.sh 
 ll .vim
 ls *.vim
 cat .viminfo
@@ -14678,11 +14649,9 @@ t conspiracy
 t therapy
 t therapist
 t therapeutic 
-git diff
 s baf
 cat .config/gtk-2.0/
 cd .config/gtk-2.0/
-cd ..
 cd gtk-3.0/
 cat gtk.css .
 cat gtk.css 
@@ -14696,8 +14665,73 @@ type command s
 vim .bash/alias.sh 
 type s
 s -s
-vim .bash_completion 
 lg
+bash
+cat .bash_history 
+history 
+vim config.sh 
+vim .bah
+vim .bash
+rm core 
+bd afd
+bd fasd
+bd -si
+cd ~/fc/transformer-pipeline/
+bd transformer-pipeline 
+cd ~2
+cd ~
+bd asdfasdf
+bd
+bd adsf
+echo $?
+bd ./fc
+cd proto/
+bd proto
+cd ~/test/
+mkdir bd/bd/bd
+mkdir -p bd/bd/bd
+cd bd/bd/bd/
+cd bd/bd/
+bd bd
+fc bd bd
+cd fc/
+cd transformer-pipeline/r
+cd home
+cd fron
+cd asdfasdf
+bd gjs
+cd ~1
+bd fc
+d
+cd fasdf
+cd fc/transformer-pipeline/
+cd afsdfas
+cd fc
+cd transformer-pipeline/
+cd frontend/
+cd 
+cd js
+cd build
+cd f
+cd ..
+vim .bash_completion 
+complete cd
+complete -p cd
+complete bd
+complete -p bd
+complete -p
+complete -p | grep bd
+complete -p | grep cd
+vim .bash/after.sh 
+c ls
+c ls ' '
+c ls ' ' | grep home
+c cd ' ' | grep home
+c cd ' '
+top
+glances 
 ls
+git diff
 g
+gd
 ./config.sh push

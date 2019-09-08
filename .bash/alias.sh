@@ -42,7 +42,6 @@ alias i='sudo apt install'
 alias t='wd -s'
 alias d='dirs -p'
 alias sctl='systemctl'
-alias bd=". ~/.bash/bd -si"
 alias s='s 2>/dev/null -b google-chrome-stable'
 
 alias g='git status --ignore-submodules'
