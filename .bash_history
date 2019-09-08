@@ -1172,7 +1172,6 @@ ls ???
 ls ??
 ll -a ??
 ls -a ??
-su
 sudo vim /etc/sudoers
 mkdir -- -f
 rm -- -f
@@ -8961,7 +8960,6 @@ pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com cff
 pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com -r /opt/detection-machine-daemon/requirements.txt
 pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com -r requirements.txt
 pip3
-sudo --help
 cd /usr/lib
 sudo pip install nnpy
 sudo -H pip3 install nnpy
@@ -14598,7 +14596,6 @@ vim readme.txt
 google-chrome-stable manual.pdf 
 file asciisec 
 vm
-vim
 ./asciisec 
 git reset HEAD --hard
 mv df_linux/ df
@@ -14629,7 +14626,6 @@ ulimit -c unlimited
 sudo ulimit -c unlimited
 ulimit -c
 ulimit -a
-sudo su
 ulimit 
 ulimit  -a
 ll .vim
@@ -14662,7 +14658,6 @@ s sdf
 s test
 s -p stackoverflow test
 type command s
-vim .bash/alias.sh 
 type s
 s -s
 lg
@@ -14702,13 +14697,8 @@ cd asdfasdf
 bd gjs
 cd ~1
 bd fc
-d
 cd fasdf
-cd fc/transformer-pipeline/
 cd afsdfas
-cd fc
-cd transformer-pipeline/
-cd frontend/
 cd 
 cd js
 cd build
@@ -14730,8 +14720,24 @@ c cd ' ' | grep home
 c cd ' '
 top
 glances 
+cd fc/transformer-pipeline/
+d
+cd fc
+cd transformer-pipeline/
+cd frontend/
+sudo f
+sudo --help
+sudo -i f
+sudo su
+su
+type gd
+gd --help
+man gd
+man git-diff
+vim .bash/alias.sh 
+vim
 ls
-git diff
-g
 gd
+g
+git diff
 ./config.sh push
