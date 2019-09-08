@@ -93,7 +93,6 @@ cd boot/
 cd efi/
 cd grub/
 cd efi
-nautilus .
 cd ~/test/os
 hexdump vd
 hexdump -n 1000 vd
@@ -574,7 +573,6 @@ cd /root
 jbos
 echo $?
 echo $#
-cd ~/test/cpp/
 mkdir test
 [[ 1 == 1 ]] && echo 1 || echo 0
 [[ 1 == 01 ]] && echo 1 || echo 0
@@ -801,7 +799,6 @@ git commit -m "ver 0.6.0"
 ssh -p 16511 hypereal@registry-corp.hypereal.com
 tldr
 sudo apt install tldr
-tldr tar
 tldr ps
 ps -o
 ps aux
@@ -1027,7 +1024,6 @@ sudo ssh gjs@127.0.0.1
 lsof -i:22
 ifconfig
 sudo apt install net-tools
-ssh gjs@10.0.10.63
 ssh -p 17077 hypereal@registry-corp.hypereal.com
 g++ 1.cpp -o 1
 zsh
@@ -1358,7 +1354,6 @@ cd cpp/test/
 vim 1.zh
 chmod +x 1.sh
 ./1.sh
-python
 curl gitlab.sho.hypereal.com
 ping gitlab.sho.hypereal.com
 history | grep docker
@@ -7950,7 +7945,6 @@ history | grep netstat
 netstat --help
 man netstat
 cd ~/test/cpp/cmake/
-vim CMakeLists.txt 
 cmake -DCMAKE_BUILD_TYPE=Release ..
 bin/1 
 >.gitignore
@@ -7976,17 +7970,13 @@ ls -f \.*
 ls  \.*
 cd cpp/cmake/
 make -j4 && bin/1 
-./doomrl_konsole 
 sudo ./doomrl_konsole 
 chmod +x doomrl*
 ./doomrl_gnome-terminal 
 vim doomrl_konsole 
-bash doomrl_konsole 
-./doomrl
 konsole --workdir=`pwd` -e ./doomrl -console
 bash --workdir=`pwd` -e ./doomrl -console
 ./doomrl -console
-./asciisec 
 sudo ./asciisec 
 sudo apt install libSDL2_mixer-2.0
 sudo apt install libsdl2_mixer-2.0
@@ -7995,13 +7985,10 @@ sudo snap install libsdl2_mixer-2.0
 sudo apt-cache search libsdl2_mixer
 sudo apt-cache search libsdl2
 sudo apt install libsdl2-mixer-2.0
-vim readme.txt 
 sudo apt install doomrl
 sudo snap install doomrl
 sudo snap find doom
 sudo apt install asciijump
-./asciisec --help
-./asciisec --console
 vim options.txt 
 asciijump 
 cmake ...
@@ -8110,7 +8097,6 @@ cmake --help
 tldr cmake
 git diff vim
 ./gnome-terminal
-./asciisec -A
 echo {cpp,hpp}
 echo {ab,cd}.{cpp,hpp}
 echo *.{cpp,hpp}
@@ -8133,7 +8119,6 @@ git reset HEAD middleware/grabber.cpp
 git reset HEAD middleware/grabber.hpp
 git checkout -- middleware/grabber.hpp
 git commit -m "add dynamic config"
-cd games/
 cd lhs/ 
 vim 10.lhs 
 man pthread
@@ -8187,9 +8172,7 @@ git diff HEAD^ .vim
 ./rl
 cat RE
 cat readme.txt 
-./rl --help
 xterm 
-./pyramid_builder_linux.x86_64 
 man asciijump 
 sudo apt install gnuches
 sudo apt install gnuchess
@@ -9733,7 +9716,6 @@ cd ~/.local/
 cd python3.6/
 cd site-packages/
 cd cv2/
-cd data/
 cat __init__.py 
 cd /usr/local/lib
 cd dist-packages/
@@ -10874,7 +10856,6 @@ fortune | lolcat
 history | grep man
 cd ../lab/
 startup-disk-creator
-sudo apt install startup-disk-creator
 sb-creator-gtk
 usb-creator-gtk
 sudo apt install sb-creator-gtk
@@ -10981,7 +10962,6 @@ vim /etc/default/grub
 cat /boot/grub/grub.cfg 
 vim .basjh
 cd doxygen/
-cd diablorl/
 cd topa/
 find -type f -exec grep -Iq '' '{}' ';' -print
 cd ~/gh/lab/
@@ -12928,7 +12908,6 @@ sudo passwd test
 sudo useradd test
 su - test
 man su
-find . 
 find . -path ./home -prune -print
 sod find . -path ./home -prune -print
 sudo find . -path ./home -prune -print
@@ -13722,7 +13701,6 @@ git log env
 git log dockerfiles/
 cd vim/
 git log Dockerfile
-vim .gitignore 
 cat .vim/coc-settings.json
 cd env/n
 docker build . -t transformer
@@ -13936,7 +13914,6 @@ snap install hello-ptro
 nethack 
 sudo service snapd start
 sudo service snapd restart
-nethack
 tar xf clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz
 tar xvf clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz
 cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release     -DCMAKE_PREFIX_PATH=/usr/lib/llvm-7     -DLLVM_INCLUDE_DIR=/usr/lib/llvm-7/include     -DLLVM_BUILD_INCLUDE_DIR=/usr/include/llvm-7/
@@ -14073,7 +14050,6 @@ dpkg --help | less
 apt install less
 dpkg
 sudo vim
-vimux 
 pstree -p $$
 less
 git log -p generate_device_def.cmake 
@@ -14160,7 +14136,6 @@ git checkout -- src/
 cat .gitignore 
 git checkout -b image_saving_service
 cd ~/test/
-git reset HEAD --hard
 cat 1
 cd src/services/
 cd algorithms_service/
@@ -14203,7 +14178,6 @@ ping 2408:84e2:181:b85e:35bc:5a9d:5ba4:c326
 vim --version
 git checkout master
 ./config.sh push && git checkout master
-git push
 git remote add origin http://github.com/chinnkarahoi/settings.git
 nc -l 3000
 nc 10.0.10.60 
@@ -14242,7 +14216,6 @@ cd ~/.vim/plugged/vim-fugitive/
 cd .vim/plugged/vim-fugitive/
 vim 11.cpp 
 vim 10.cpp 
-vim 1.cpp
 vim 10.cpp
 vim 12.cpp
 vim 11.cpp
@@ -14415,7 +14388,6 @@ args $@
 args $*
 args "$*"
 args "$@"
-git diff
 cppman
 i cppman
 cppman libc
@@ -14488,7 +14460,6 @@ sudo apt install  linuxbrew-wrapper
 type brew
 brew
 ./config.sh brew_install
-df
 df | grep brew
 brew install s-search
 brew --help
@@ -14562,13 +14533,10 @@ vim .bash/alias.sh
 cd .bash
 vim bd.sh
 mv bd.sh bd
-vim
 bd h
 bd
 bd s
 cd fc/
-cd transformer-pipeline/
-cd ..
 cd frontend/
 bd f
 d
@@ -14578,9 +14546,6 @@ type bd
 complete -p
 complete -p bd
 vim .bash/
-cd ~
-cd fc/transformer-pipeline/
-cd 
 bd fc gjs
 vim .bashrc
 vim .bash
@@ -14592,10 +14557,113 @@ yarn
 sudo npm install -g t-get
 tget
 tget 'magnet:?xt=urn:btih:0403fb4728bd788fbcb67e87d6feb241ef38c75a'
-vim config.sh 
 sudo npm install -g dockerfile-language-server-nodejs
 vim .vimrc
-ls
-g
 cat .config/configstore/update-notifier-npm.json
+sudo apt install startup-disk-creator
+ll  /usr/share/applications/ | grep disk
+ll  /usr/share/applications/ | grep Disk
+ll  /usr/share/applications/ | grep Cre
+ll  /usr/share/applications/ | grep Start
+cd fc/transformer-pipeline/
+cd transformer-pipeline/
+vim CMakeLists.txt 
+cd ~/test/cpp/
+vim 1.cpp
+t biege
+t beige
+vimux 
+nethack
+cataclysm 
+python
+git diff
+vimux
+man s
+s --help
+vim config.sh 
+t embark
+t embassy 
+df --help
+cd .da
+cd data/
+cat init
+cd init
+bd d
+vim init.txt
+find . 
+find . -iname init
+find . -name init
+find . -type f -name init
+find . -type f -name init -print
+find . -type f -name init.txt -print
+find . -type f -daystart -depth -follow -helpname init.txt -print
+cat init.txt 
+vim init.txt 
+df
+./df PRINT_MODE:TEXT
+vim data/init/init.txt 
+cd data/init
+cat interface.txt 
+vim interface.txt 
+bd df
+cd 
+./dff
+tar -zxvf df_44_12_linux.tar.bz2
+tldr tar
+rm -rf df_44_12_linux
+tar -jxvf df_44_12_linux.tar.bz2
+cd df_linux/
+./df
+./pyramid_builder_linux
+./pyramid_builder_linux.x86_64 
+./pyramid_builder_linux.x86_64 --help
+cd diablorl/
+./rl 
+./rl --help
+./rl -console
+cd pyramid_builder/
+sudo apt install libSDL2_mixer-2.0.so.0
+apt search libSDL2_mixer-2.0.so.0
+find . | grep libSDL2
+sudo apt install libsdl2-mixer-2.0-0 libsdl2-image-2.0-0 libsdl2-2.0-0
+./asciisec --help
+vim asciisec 
+./asciisec --console
+./asciisec -A
+./asciisec -console
+nautilus .
+ssh gjs@10.0.10.63
+cd ~/games/asciisec
+cd doomrl/
+./doomrl
+bash doomrl_konsole 
+./doomrl_konsole 
+./doomrl_gnome-terminal
+. doomrl_gnome-terminal
+doomrl_gnome-terminal
+cd .config/unity3d/
+cd ~
+cat .config/unity3d/Martian Rex, Inc./Pyramid Builder/Player.log
+cat '.config/unity3d/Martian Rex, Inc./Pyramid Builder/Player.log'
+cd games/
+cd asciisec/
+vim readme.txt 
+google-chrome-stable manual.pdf 
+file asciisec 
+vm
+vim
+./asciisec 
+git reset HEAD --hard
+mv df_linux/ df
+git add df
+git commit -m "add df"
+git push
+cd .config/unity3d
+ls
+cat Player.log 
+cd ..
+git rm --cached .config/unity3d/
+git rm --cached -r .config/unity3d/
+vim .gitignore 
+g
 ./config.sh push

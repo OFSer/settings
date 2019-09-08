@@ -42,7 +42,7 @@ show-tabs-mode='auto'
 side-panel-visible=false
 
 [org/gnome/gedit/plugins/filebrowser]
-virtual-root='file:///home/gjs'
+virtual-root='file:///home/gjs/Downloads/df_44_12_linux/df_linux'
 tree-view=true
 root='file:///'
 
@@ -51,7 +51,7 @@ active-plugins=['spell', 'filebrowser', 'time', 'modelines', 'docinfo']
 
 [org/gnome/gedit/state/window]
 size=(984, 640)
-state=4
+state=132
 bottom-panel-size=140
 side-panel-size=250
 side-panel-active-page='GeditFileBrowserPanel'
@@ -346,7 +346,7 @@ cursor-shape='block'
 cursor-colors-set=false
 highlight-colors-set=false
 scroll-on-output=false
-use-custom-command=true
+use-custom-command=false
 use-theme-colors=false
 font='Ubuntu Mono 16'
 use-theme-transparency=false
