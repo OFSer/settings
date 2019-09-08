@@ -31,6 +31,8 @@ cnoremap <c-b> <left>
 " cnoremap <c-r> <c-f>
 cnoremap <c-f> <right>
 cnoremap w <c-w>
+cnoremap <Esc>b <S-Left>
+cnoremap <Esc>f <S-Right>
 
 nnoremap <silent> <c-j> <cr>
 nnoremap <silent> <c-k> k

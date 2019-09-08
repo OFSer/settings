@@ -7,31 +7,15 @@ case $- in
 	*i*) ;;
 	  *) return;;
 esac
-
-OnExit(){
-	# command cd ~
-	# HF=~/.bash_history
-	# # if [ `git diff HEAD --numstat $HF | cut -f2` -ne 0 ];then
-	# # 	git checkout -- $HF
-	# # fi
-	# if [ `cat $HF | wc -l` -lt 10000 ];then
-	# 	git checkout -- $HF
-	# fi
-	# history -a
-	# git add $HF
-	# # git add -- .vimrc .bashrc .bash/ .vim/ config.sh
-	:
-}
-trap OnExit Exit
-AfterLoad(){
-	cat -n ~/.bash_history | sort -k2 -k1nr  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge ~/.bash_history
-	history -c
-}
 load(){
-	for i in $1/*.sh;do
-		. $i
-	done
+	[ -f $1 ] && . $1
 }
-load $HOME/.bash
+load $HOME/.bash/env.sh
+load $HOME/.bash/PS1.sh
+load $HOME/.bash/feature.sh
+load $HOME/.bash/alias.sh
+load $HOME/.bash/mycmd.sh
+load $HOME/.bash/ycm.sh
+load $HOME/.bash/onexit.sh
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-AfterLoad
+load $HOME/.bash/after.sh

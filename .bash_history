@@ -89,7 +89,6 @@ sudo mount /dev/mapper/loop19p1 /mnt/boot/efi
 cd boot
 mkdir efi
 sudo mkdir efi
-l
 cd boot/
 cd efi/
 cd grub/
@@ -325,7 +324,6 @@ file:///.
 echo file:///.
 cd ~/fc/saki_detection/
 vim crawler.sh 
-cd cpp
 rm 0 1 2
 mkdir IPC
 git init
@@ -569,7 +567,6 @@ man ascii
 sudo apt install ascii
 tty
 man tty
-echo $USER
 echo $USERNAME
 echo ~
 echo ~root
@@ -799,7 +796,6 @@ git push --force
 vim .local/share/app-info/xmls/extensions-web.xml
 git rm --cache .local/share/app-info/xmls/extensions-web.xml 
 cd .local/share/app-info/
-vim .vimrc 
 ./sql.sh 
 p
 pp
@@ -927,7 +923,6 @@ git commit -m "save in time"
 git commit -m "fix .h"
 git commit -a -m "fix buf"
 rm .Togglebash.swp > /dev/null 2>&1
-git diff .bashrc
 \git diff .bashrc
 \git diff .vimrc
 cd .local/share/app-info/xmls/
@@ -1583,7 +1578,6 @@ DIALOG
 echo $DIALOG
 dialog
 kill 32170
-steam
 ld
 ps -ef | grep dota
 kill 27867
@@ -2478,7 +2472,6 @@ ls | grep user
 ls | grep group
 sudo vim group
 vim .config/gtk-3.0/gtk.css 
-echo $BASH_COMMAND
 $BASH_COMMAND
 echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
@@ -2716,7 +2709,6 @@ ls -d */
 ls -d /
 ls -d *
 ls */
-ls *
 ls -d 
 ls -lF
 cd `ls -d */ | shuf`
@@ -3801,7 +3793,6 @@ set -d' '
 set d' '
 echo $1ab
 set "d''"
-bash --version
 IFS=:;
 set x y z
 var=": a:b::c:"
@@ -5635,7 +5626,6 @@ dirs +2
 dirs -1
 dirs -0
 dirs -v | wc -l
-echo $PROMPT_COMMAND 
 echo -ne 123
 echo -ne "123"
 echo "$PS1"
@@ -6580,7 +6570,6 @@ git checkcout -b jumpserver
 git checkout jumpserver
 git branch -d jumpserver
 icdiff
-sudo apt install icdiff
 icdiff main.py misc.py
 diff main.py misc.py
 tree
@@ -7630,7 +7619,6 @@ git cherry --help
 git name-rev 
 git name-rev  --help
 git icdiff 
-git icdiff .bash_history
 PAGER=most git icdiff .bash_history
 git mv --help
 git worktree 
@@ -7864,7 +7852,6 @@ git status --ignore-submodules  -s
 git status --ignore-submodules -s
 git status -s --ignore-submodules 
 git status -s 
-vim .bash/alias.sh 
 gssis 
 gssis
 git status --ignore
@@ -8577,7 +8564,6 @@ cat  `find . | grep yaml | tail -n 1` | shyaml  -y
 shyaml  `find . | grep yaml | tail -n 1`
 shyaml -y `find . | grep yaml | tail -n 1`
 man cut
-tldr cut
 cut -c 1-5 1234567
 echo 1234567 | cut -c 1-5 
 echo {1..5}
@@ -8990,7 +8976,6 @@ cat build/compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | sed -E 's/-
 cat build/compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | sed -E 's/-I(.*)/\1/' | awk '{printf("\"%s\",\n",$1)}'
 python3 .ycm_extra_conf.py 
 cd .vim/plugged/YouCompleteMe/third_party/ycmd/
-cd .bash
 vim .bash/ycm.sh 
 icdiff .ycm_extra_conf.py .ycm
 vim -d .ycm_extra_conf.py .ycm
@@ -9917,7 +9902,6 @@ g++ -std=c++2a 1.cpp
 docker build . -t vim
 make qemu-gdb
 make qemu-nox-gdb 
-docker run -it vim bash
 docker run -it -v ~:/root vim bash
 docker run -it gcc:9.1 bash
 docker run -it gcc:9.1
@@ -10854,7 +10838,6 @@ qemu-system-i386 kernel.img
 sudo apt  install docker.io
 sudo apt remove docker
 sudo apt remove --purge docker*
-type docker
 echo -e '1234\tfas'
 tabs 2
 setterm -regtabs 4
@@ -11975,7 +11958,6 @@ set -g default-terminal "screen-256color"
 cd vim-colorschemes/
 type angband 
 vimux angband
-type vimux
 ./config.sh push "upd vim plug"
 rm -rf colors/
 find . | grep neodark
@@ -12064,7 +12046,6 @@ echo $COMP_WORDS
 man COMP_TYPE
 _longopt ls
 type _longopt 
-alias -p
 type _init_completion 
 type _filedir
 cplt 'ls \-'
@@ -12693,7 +12674,6 @@ k
 m
 n
 o
-t
 u
 v
 x
@@ -12819,7 +12799,6 @@ man boggle
 man trek
 trek
 wd -s treaty
-t ls
 monop
 man monop
 man bsd
@@ -12829,7 +12808,6 @@ xman
 man xman
 boggle
 ? h
-type t
 man 7 man
 man signal
 man signal.7
@@ -13259,7 +13237,6 @@ man -Kw fzf
 vimcat download_test_resources.sh 
 vimcat makefile 
 vimcat makefile -o -
-vimdiff 
 type vimux 
 type vimtutor 
 man vimcat
@@ -13453,7 +13430,6 @@ cd ~/.vim/pluggin
 vim keymap.vim 
 cd bash
 vim abcd 
-vim .vim/plugin/keymap.vim 
 git add .vimrc .bashrc
 git reset HEAD .bashrc
 cd ~test/
@@ -13538,7 +13514,6 @@ cat .inputrc
 vim .inputrc
 vim .vim/plugin/quit.vim
 vim mock_main_test.go 
-history --help
 fffffffffffffffffffffffffffffffff
 man cron
 kill 3503
@@ -13576,7 +13551,6 @@ fffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 history -n
 ffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffff
 fffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -13625,7 +13599,6 @@ git commit -m "add proxy_id_rsa"
 ssh sihe@10.0.10.102
 \ssh sihe@10.0.10.102
 vim fc/transformer-pipeline/build_frontend.sh 
-fffffffffffffff
 vim ~/.bash/feature.sh 
 history n
 ffffffffffffff
@@ -13664,7 +13637,6 @@ git checkout maste
 s dummy
 cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- 
 history -a
-cat .bash_history 
 cat .bash_history  | wc -l
 history -w
 cat -n ~/.bash_history | sort -k2 -k1n  | uniq -f1 | sort -nk1,1 | cut -f2- | sponge .bash_history 
@@ -13745,7 +13717,6 @@ gsettings get org.gnome.Terminal.Legacy.Settings new-tab-position
 dconf list /org/gnome/terminal/legacy/
 man dconf
 man gsettings
-vim .bash/feature.sh 
 cd fc/iot-daemon/
 rm .bash_history 
 cd test/go/mock/
@@ -13995,7 +13966,6 @@ cd /tmp/
 git clone --depth=1 --recursive https://github.com/MaskRay/ccls
 cd ccls
 wget -c http://releases.llvm.org/8.0.0/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz
-echo $HOSTNAME
 service snapd stop
 sudo service snapd stop
 snap install hello-ptro 
@@ -14011,8 +13981,6 @@ type llvm
 apt install clang libclang-dev
 /usr/lib/llvm-6.0/
 mkdir build 
-ll
-ll -h
 rm -rf Release/
 cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$PWD/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04 ..
 cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$PWD/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04
@@ -14081,7 +14049,6 @@ git remote show origin
 cd .fzf/
 cd /usr/local
 cd src/
-ls -a
 cd /opt/
 rm -rf fzf.vim/
 fzf
@@ -14104,7 +14071,6 @@ cat README.md
 rm README.md 
 tldr sync
 tldr rsync
-history 
 docker run -it -v ~:/root  -d --name transformer transformer 
 ps -ef | grep docker
 docker exec --help
@@ -14115,8 +14081,6 @@ cd /root/
 cd fc/dl-k8s-kube/
 git branch
 git checkout flawck 
-rm -rf *
-cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 diff compile_commands.json build/compile_commands.json 
 set -- 1 "2 3"
 args $@
@@ -14130,7 +14094,6 @@ git diff compile_commands.json
 diff compile_commands.json ../compile_commands.json 
 vimdiff compile_commands.json ../compile_commands.json 
 cd /tmp/RJrWTJc5ZJ6Ty
-vim .bash
 type f
 cp --help
 cd sh/
@@ -14141,8 +14104,6 @@ cd f/
 cp 1 f/
 cp 1 f/1
 type gencdb
-gencdb
-vim .gitconfig 
 cd dev/
 df | grep docker
 apt show docker.io
@@ -14155,8 +14116,6 @@ dpkg
 sudo vim
 vimux 
 pstree -p $$
-pstree --help
-pstree -s -p $$
 less
 git log -p generate_device_def.cmake 
 ag
@@ -14166,7 +14125,6 @@ curl "https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/
 docker build -t transformer . 
 ./download_test_resources.sh 
 cd /fc/tr
-sudo su
 sudo mount nas-production1.sho.hypereal.com:/share/sho-nas-production1 /mnt/sho-nas-production1/
  mount nas-production1.sho.hypereal.com:/share/sho-nas-production1 /mnt/sho-nas-production1/
 cd Downloads/
@@ -14180,7 +14138,6 @@ curl "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.
 wget
 docker stop transformer && docker container prune -f
 docker run -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
-docker exec -it transformer bash
 man protobuf
 man -f protobuf
 man -Kw protobuf
@@ -14228,7 +14185,6 @@ echo "config/Machine_VT3_test_pin_inspector/A451/"
 echo "config/Machine_VT3_test_pin_inspector/A451/" >> .gitignore 
 cd ../aruco/
 cd transformer-pipeline/
-vim .vim
 cat .config/coc/memos.json
 git checkout -- .config/coc/
 cd cpp/
@@ -14250,7 +14206,6 @@ git reset HEAD --hard
 cat 1
 cd src/services/
 cd algorithms_service/
-cd ..
 mv image_saving_service/ algorithms_service/
 cd fc/transformer-pipeline/
 git add -A
@@ -14323,7 +14278,6 @@ nc -zv -w 1 39.156.69.79 1-10000
 nc -zv -w 1 39.156.69.79 1-10000 | grep -v timed
 nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null | grep -v timed
 nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null 
-cd test/
 cd PthreadPool/
 git pull
 git log
@@ -14333,7 +14287,6 @@ vim config.py
 vim calibrate.py 
 cd ~/.vim/plugged/vim-fugitive/
 cd .vim/plugged/vim-fugitive/
-cd test/cpp/
 vim 11.cpp 
 vim 10.cpp 
 vim 1.cpp
@@ -14348,15 +14301,9 @@ free -m
 htop
 killall -9 netease-cloud-music 
 killall -9 sogou-qimpanel
-free -mh
-cd build/
-make -j4
 free -hm
-ps -e -o pid,vsz,comm= | sort -n -k 2
-top
 code
 vim 
-cd ~
 ripgrep
 rg --help
 apt install rg
@@ -14368,16 +14315,164 @@ rg
 cd fc/shmmsg/
 cd ~/fc/transformer-pipeline/
 du -hd1
-vim .vimrc
-vim ~/.vim/plugin/keymap.vim 
-vim
 git diff .vim
-g
-git diff
 git diff HEAD^ .dconf
-git diff HEAD^ .bash_history
 type OnStart
-vim .bashrc
-ls
-vim config.sh 
 ./config.sh push
+git diff HEAD^ .bash_history
+l
+cd build/
+rm -rf *
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
+make -j4
+gencdb
+cat compile_commands.json | grep appear
+ps -e -o pid,vsz,comm= | sort -n -k 2
+free -mh
+echo $USER
+echo $HOSTNAME
+sudo su
+vim ~/.vim/plugin/keymap.vim 
+pstree -s -p $$
+pstree -s -p $$PID
+ps -ef | grep 1309
+ps -ef | grep 1310
+pstree -s -p $PPID
+pstree -s -p 1312
+ps -ef | grep 1312
+ps -ef | grep 16642
+ps -ef | grep 1308
+ps -efjH | grep 1308
+ps -efjH 
+ps -efjH | grep ccls
+ps -ef | grep ccls
+pstree | grep thread
+pstree --help | grep thread
+pstree -h | grep thread
+pstree -h 
+pstree 
+pstree -s -T -t -p 1381
+docker exec -it transformer bash
+top
+docker run -it vim bash
+pstree -s -p 1381
+pstree -s -T -p 1381
+pstree -s -t -p 1381
+s preamble
+s amble
+pstree  -p 1381
+pstree  1381
+pstree --help
+pstree -s -t 1381
+node.js
+node
+node --help
+vim .vim/plugin/keymap.vim 
+vim .vimrc
+ffffffffffffffffffffffffffffffffffffffffffffff
+vimdiff 
+vim .vim
+vim .vimrc 
+man git-config 
+vim .gitconfig 
+sudo apt install icdiff
+git difftool --extcmd icdiff
+git config --global icdiff.options '--highlight --line-numbers'
+git icdiff
+git icdiff .bash_history
+fffffffffffffff
+history 
+cat .bash_history 
+vim .bash
+echo $BASH_COMMAND
+echo $PROMPT_COMMAND 
+vim .bash/feature.sh 
+vim ~/.bash/mycmd.sh 
+ls -a
+ls -a .gvfs
+ls -a .pki
+ls *
+ls .
+ls games
+cd test/cpp/
+ls *.cpp
+readlink -f *.cpp
+readlink -f .*
+readlink -f *.*
+readlink -f .
+readlink -f **
+readlink -f *
+cd test/
+cd cpp
+f *.cpp
+t
+t ls
+git diff
+steam
+i glances
+type docker
+type t
+alias t='\wd -s'
+alias t='sudo \wd -s'
+t cat
+alias t='sudo \wd -s '
+vim config.sh 
+glances
+mkdir ~/.bash_completion.d
+curl https://raw.githubusercontent.com/cykerway/complete-alias/master/bash_completion.sh      > ~/.bash_completion.d/complete_alias
+cd ~/.bash_completion.d/
+ll
+ll -h
+cd ..
+alias container=docker\ container
+complete -F _complete_alias container
+source ~/.bash_completion.d/complete_alias
+type container
+sudo apt install bash-completion
+vim ~/.bash_completion
+cat ~/.bash_completion.d/complete_alias
+cat ~/.bash_completion.d/complete_alias > ~/.bash_completion
+cat .bash_completion
+bash --version
+vim .bash_completion
+type sctl 
+vim .bash/alias.sh 
+type sctl
+type dirs 
+complete -F _complete_alias alert
+alias --help
+alias -p
+alias 
+cd ~
+git diff HEAD~20 .bashrc
+git diff HEAD~50 .bashrc
+git diff HEAD~80 .bashrc
+vim .bashrc
+cd .bash
+vim
+alias
+alias | cut -f1
+alias | cut -f2
+alias | cut -t' ' -f2
+tldr cut
+alias | cut -d' ' -f2
+alias | cut -d' ' -f2 | cut -d= -f1
+type vimux
+history --help
+alias | cut -d' ' -f2 | cut -d= -f1 | xargs command complete -F _complete_alias
+type xargs
+alias | cut -d' ' -f2 | cut -d= -f1 | xargs echo 
+alias | cut -d' ' -f2 | cut -d= -f1 | xargs -i echo {}
+alias | cut -d' ' -f2 | cut -d= -f1 | xargs complete -F _complete_alias
+alias | cut -d' ' -f2 | cut -d= -f1 | xargs -i complete -F _complete_alias {}
+type complete
+alias | cut -d' ' -f2 | cut -d= -f1 | xargs -i command complete -F _complete_alias {}
+alias | cut -d' ' -f2 | cut -d= -f1 | xargs -n 1 -P 1 command complete -F _complete_alias {}
+alias | cut -d' ' -f2 | cut -d= -f1 | xargs echo
+ls
+git add -f .bash_completion
+rm .bash_completion.d/
+rm -r .bash_completion.d/
+git diff .bashrc
+g
+./config.sh push "add completion for alias"

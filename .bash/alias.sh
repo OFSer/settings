@@ -39,5 +39,7 @@ alias p='vim -M +MANPAGER -c "set showtabline=1" -'
 alias g='git status --ignore-submodules'
 alias angband='angband -mgcu'
 alias i='sudo apt install'
-alias s='wd -s'
+alias t='wd -s'
 alias d='dirs -p'
+alias sctl='systemctl'
+complete -F _complete_alias sctl

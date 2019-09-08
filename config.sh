@@ -31,7 +31,7 @@ install_wd(){
 	cd ~
 }
 install_tools(){
-	sudo apt install -y most tldr docker.io moreutils bvi silversearcher-ag
+	sudo apt install -y most tldr docker.io moreutils bvi silversearcher-ag glances
 	sudo apt install -y git sshpass jq curl
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
 	sudo apt install -y steam usb-creator-gtk
@@ -162,6 +162,7 @@ run(){
 	update_source
 	apt_update
 	install_vim
+	install_vim_coc
 	install_desktop
 	install_tools
 	install_bat
