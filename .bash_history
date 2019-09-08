@@ -2277,7 +2277,6 @@ type l
 ls- C
 ls -C
 ls -F
-man ls
 ls -b
 ls -c
 ls- A
@@ -2395,7 +2394,6 @@ time ls | xargs -n 4 -P 4 find | wc -l
 ssh -tX gjs@dl-5
 cd `ls | head -n 1`
 ln --help
-vim .dconf 
 git commit -m "fix close back"
 sudo mount /dev/sdc1 ~/dd
 sudo mount /dev/sdc ~/dd
@@ -2546,9 +2544,7 @@ cd blur_detection/
 man shopt
 type shopt
 git reset HEAD^1 --hard
-pkill dconf-service
 dconf dump / > .dconf
-dconf load / < .dconf
 history | grep gsetting
 gsettings list-recursively
 gsettings list-recursively | grep tab
@@ -3814,8 +3810,6 @@ IFS=" " # space
 echo $TMPIP
 for x in $TMPIP ;do      Xip="${x}.$Xip"; done
 echo ${Xip%.}
-args "$*"
-args $*
 printf "%d args:" "$#"
 printf " <%s>" "$@"
 printf " <%s>" "$*"
@@ -7138,8 +7132,6 @@ sudo su
 git diff .gitconfig
 date +%s -d 1557890522
 date -d 1557890522
-ll .config/dconf/user
-ll -h .config/dconf/user
 gsettings set org.gnome.software show-upgrade-prerelease
 gsettings set org.gnome.software check-timestamp 100000000000000
 git config --global core.pager 'less -x1,4'
@@ -7364,7 +7356,6 @@ ps -ejfH | grep gnome
 gnome-session-binary --session=unity
 /usr/lib/gnome-session/gnome-session-binary --session=unity
 sudo rm -rf /var/cache/PackageKit/28/metadata/updates/packages/
-dconf dump --help
 dconf watch
 dconf lis
 dconf list
@@ -8616,7 +8607,6 @@ ncdu
 sudo apt install ncdu
 ncdu 
 man ncdu
-httpie
 httpee
 ss
 gdb attach 31849
@@ -13708,7 +13698,6 @@ gsettings set org.gnome.Terminal.Legacy.Settings automatic
 gsettings set org.gnome.Terminal.Legacy.Settings 'automatic'
 gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 'automatic'
 gsettings set org.gnome.Terminal.Legacy.Settings tab-policy 'always'
-git checkout -- .config/dconf/user
 gsettings get org.gnome.Terminal.Legacy.Settings shell-integration-enabled 
 gsettings get org.gnome.Terminal.Legacy.Settings schema-version
 gsettings get org.gnome.Terminal.Legacy.Settings theme-variant
@@ -14083,8 +14072,6 @@ git branch
 git checkout flawck 
 diff compile_commands.json build/compile_commands.json 
 set -- 1 "2 3"
-args $@
-args "$@"
 set -- echo "2 3"
 $@
 gencdb -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
@@ -14317,7 +14304,6 @@ du -hd1
 git diff .vim
 git diff HEAD^ .dconf
 type OnStart
-./config.sh push
 git diff HEAD^ .bash_history
 l
 cd build/
@@ -14406,7 +14392,6 @@ cd cpp
 f *.cpp
 t
 t ls
-git diff
 steam
 i glances
 type docker
@@ -14441,7 +14426,6 @@ complete -F _complete_alias alert
 alias --help
 alias -p
 alias 
-cd ~
 git diff HEAD~20 .bashrc
 git diff HEAD~50 .bashrc
 git diff HEAD~80 .bashrc
@@ -14473,7 +14457,49 @@ rm -r .bash_completion.d/
 git diff .bashrc
 ./config.sh push "add completion for alias"
 git log
-vim config.sh 
-ls
-g
 ./config.sh push "fix message"
+set -- "123 234" "234 345"
+args $@
+args $*
+args "$*"
+args "$@"
+git diff
+cppman
+i cppman
+cppman libc
+cppman glibc
+cppman noexcepte
+man ls
+cppman noexcept
+cd .config/cppman/
+cat cppman.cfg 
+cd ~
+httpie
+apt-get install httpie
+sudo apt-get install httpie
+i httpie
+httpie baidu.com
+http
+http baidu.com
+sudo apt-get install dconf-cli uuid-runtime
+curl  https://git.io/vQgMr
+wget -qO- https://git.io/vQgMr
+wget -qO- https://git.io/vQgMr | p
+wget -qO- https://git.io/vQgMr | bat
+bash -c  "$(wget -qO- https://git.io/vQgMr)"
+git diff .config/dconf/user
+ll .config/dconf/user
+ll -h .config/dconf/user
+ll .dconf
+ll -h .dconf
+dconf dump --help
+vim .dconf 
+vim config.sh 
+dconf dump /  > .dconf
+pkill dconf-service
+dconf load / < .dconf
+ls
+git checkout -- .dconf
+git checkout -- .config/dconf/user
+g
+./config.sh push
