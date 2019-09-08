@@ -203,7 +203,7 @@ pull(){
 	dconf load / < .dconf
 }
 
-$*
+"$@"
 
 
 

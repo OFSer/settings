@@ -14280,7 +14280,6 @@ nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null | grep -v timed
 nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null 
 cd PthreadPool/
 git pull
-git log
 git reset HEAD^ --hard
 cd fc/aruco/
 vim config.py 
@@ -14416,7 +14415,6 @@ alias t='\wd -s'
 alias t='sudo \wd -s'
 t cat
 alias t='sudo \wd -s '
-vim config.sh 
 glances
 mkdir ~/.bash_completion.d
 curl https://raw.githubusercontent.com/cykerway/complete-alias/master/bash_completion.sh      > ~/.bash_completion.d/complete_alias
@@ -14469,10 +14467,13 @@ type complete
 alias | cut -d' ' -f2 | cut -d= -f1 | xargs -i command complete -F _complete_alias {}
 alias | cut -d' ' -f2 | cut -d= -f1 | xargs -n 1 -P 1 command complete -F _complete_alias {}
 alias | cut -d' ' -f2 | cut -d= -f1 | xargs echo
-ls
 git add -f .bash_completion
 rm .bash_completion.d/
 rm -r .bash_completion.d/
 git diff .bashrc
-g
 ./config.sh push "add completion for alias"
+git log
+vim config.sh 
+ls
+g
+./config.sh push "fix message"
