@@ -10157,7 +10157,6 @@ sudo apt install unity-lens-applications unity-lens-files
 make gcc
 rm -rf qemu
 make qemu-nox-gdb
-cat .gdb_history 
 sudo apt remove indicator-power 
 sudo apt install indicator-power 
 sudo apt install indicator-*
@@ -11815,7 +11814,6 @@ gsettings set org.gnome.desktop.interface cursor-blink false
 emacs -nx
 rm init.el 
 cat .emacs
-vim .emacs
 cd .emacs.d/
 cd auto-save-list/
 vim init.el
@@ -13533,7 +13531,6 @@ cd test/sh/
 sl
 '
 
-rm 1
 cat -n 1 | sort  -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
 cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
 cat -n 1 | sort -k2 -k1n  | uniq -r -f1 | sort -nk1,1 | cut -f2-
@@ -13738,7 +13735,6 @@ rm -rf coc.nvim/
 export PATH=$PATH:/snap/bin
 man ccls
 ccls --help
-cd /etc/
 df 
 net
 apt install snapd
@@ -14190,7 +14186,6 @@ vimdiff
 vim .vim
 vim .vimrc 
 man git-config 
-vim .gitconfig 
 sudo apt install icdiff
 git difftool --extcmd icdiff
 git config --global icdiff.options '--highlight --line-numbers'
@@ -14386,7 +14381,6 @@ vim .bash/bd.sh
 ls `bd`
 cd `bd h`
 bd home
-cd gjs
 bd ho
 cd bash
 bd g
@@ -14525,7 +14519,6 @@ rm co
 cd games/
 cd df
 ulimit -c 0
-rm core
 ulimit -c unlimited
 sudo ulimit -c unlimited
 ulimit -c
@@ -14538,7 +14531,6 @@ cat .viminfo
 cat .viminfo.tmp
 rm .viminf*.tmp
 ls .vimin*
-ls -a
 s -b "chromium --incognito" conspiracy theories
 google-chrome
 google-chrome-stable 
@@ -14591,11 +14583,9 @@ cd home
 cd fron
 cd asdfasdf
 bd gjs
-cd ~1
 bd fc
 cd fasdf
 cd afsdfas
-cd 
 cd js
 cd build
 cd f
@@ -14613,7 +14603,6 @@ c cd ' ' | grep home
 c cd ' '
 glances 
 cd fc/transformer-pipeline/
-d
 cd fc
 cd frontend/
 sudo f
@@ -14623,7 +14612,6 @@ gd --help
 man gd
 man git-diff
 cat .bash_history 
-history 
 { cd fc }
 { cd fc; }
 { command cd fc; }
@@ -14766,14 +14754,12 @@ make -j4 image_saving_service && bin/image_saving_service
 man res
 free -hm
 gitdiff
-gd
 git commit -m "add config"
 brew search ccls
 git add -A
 git commit -m "add deb service"
 pstree ccls
 pstree --help
-cd /
 tree
 tree --help
 tree --help | grep exclu
@@ -14806,12 +14792,10 @@ git rm --cached .config/coc/memos.json
 vim .gitignore 
 cd .vim/plugged/coc.nvim/
 fzf
-l
 vim .gdbinit.d/auto 
 git add -f .gdbinit.d
 git commit -m "upd"
 git push
-cd fc/
 cd ~/dockerfiles/
 wget https://github.com/cyrus-and/gdb-dashboard/blob/master/.gdbinit
 ll
@@ -14853,36 +14837,81 @@ git log
 rm -rf monolog/
 vim .inputrc 
 cd colors/
-cd test/
 cd cpp/
 vim 1.cpp
 g++ -g 10.cpp && ./a.out
 vim 10.cpp 
 vim 11.cpp 
 g++ -g 11.cpp && ./a.out
-vim .gdbinit
 vim .gdbinit.d/
 cd plugin/
-cd ..
 cd .vim/colors/
 vim konomi.vim 
 cd .vim/
 cd plugged/
 rm -rf vim-colorschemes/
-cd ~
 vim .vimrc
-man man
-man readline
-cd test/cpp/
-gdb a.out
 vim
-ls
 ./11.cpp
 ./a.out
 ps -ef | grep a.out
 gdb -p 2221
 sudo gdb -p 2221
-vim .gdbinit.d/init 
+man man
+t generic 
+man readline
+c t ' ' | wc -l
+c t ' ' | wc -w
+cd /etc/
+find . | grep eng
+sudo find . | grep eng
+cd 
+cd /
+sudo  find . -path ./home -prune -o 
+sudo  find . -path ./home -prune -o -print
+sudo  find . -path ./home -prune -o -print | grep engli
+cat /usr/share/dict/british-english 
+cat /usr/share/dict/british-english  | wc -l
+t zircons
+cd .wudao-dict/
+cd wudao-dict/
+cd dict/
+cat en.ind 
+cat en.ind  | wc -l
+cd dict_pys/
+cd gjs
+cd ~1
+l
+rm core
+vim .gitglobalignore 
+vim .gitconfig 
+gd
+command fc
+command cd fc
+command cd ..
+cd fc/
+cd ..
+d
+history 
+rm 1
+ls -a
+vim .emacs
+cat .dmrc
+ls .*
+cat .units_history 
+cat .tig_history 
+cd test/cpp/
+vim .gdb_history 
+gdb a.out
+cat .gdb_history 
 git diff
+ls
+cd ~
+git add .gdb_history 
+git add -f .gdb_history 
+vim .gdbinit.d/init 
+cd test/
+vim .gdbinit
+type gdb
 g
 ./config.sh push
