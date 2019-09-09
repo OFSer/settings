@@ -5174,7 +5174,6 @@ f() { local a=123; }
 f() { local a=123;g(); }
 f() { local a=123;g; }
 g() { echo $a; }
-f
 ssh -o "StrictHostKeyChecking no" -p 16849 hypereal@registry-corp.hypereal.com
 sudo apt install linux-tools-common
 ssh hypereal@10.0.18.131 -t 'sudo perf report -i /home/gjs/perf/single_perf.data'
@@ -5250,7 +5249,6 @@ cd ste
 sudo snap install steam
 find . | grep dota2
 cd Steam/
-cd logs/
 ls -a | grep team
 ll -a | grep tem
 ll -a | grep team
@@ -7976,7 +7974,6 @@ git stash apply@{1}
 git stash apply --help
 git stash apply stash@{0} 
 cp ../../config/Machine_VT2/ST3_W2.json resources/config_registry/
-cd $GITTOP
 echo $GITTOP 
 cd $GITTOP/build
 bin/unit_test_main 
@@ -11426,7 +11423,6 @@ f -l
 mv --help
 mv -i config.sh fc/
 ssh sihe@10.0.10.161
-\ssh sihe@10.0.10.161
 git add bash
 git commit -m "add file copy"
 scp iot-daemon sihe@10.0.10.164:~
@@ -12093,7 +12089,6 @@ cd script/
 c 'man '
 b --help
 c 'ls -'
-c ls -
 git tags
 git tag
 git describe --tags
@@ -12964,7 +12959,6 @@ go get -v github.com/golang/mock/gomock
 go install github.com/golang/mock/mockgen
 go doc github.com/golang/mock/gomock
 wd -s venerable
-\ssh sihe@10.0.10.141
 apt show bsdgames
 gomoku
 man gomoku
@@ -13449,7 +13443,6 @@ sudo git add proxy_id_rsa
 sudo git add -f proxy_id_rsa 
 git commit -m "add proxy_id_rsa"
 ssh sihe@10.0.10.102
-\ssh sihe@10.0.10.102
 vim fc/transformer-pipeline/build_frontend.sh 
 vim ~/.bash/feature.sh 
 history n
@@ -14049,7 +14042,6 @@ cd autoload/
 ping 2408:84e2:1181:b85e:35bc:5a9d:5ba4:c326
 ping 2408:84e2:181:b85e:35bc:5a9d:5ba4:c326
 vim --version
-git checkout master
 ./config.sh push && git checkout master
 git remote add origin http://github.com/chinnkarahoi/settings.git
 nc -l 3000
@@ -14189,7 +14181,6 @@ alias container=docker\ container
 complete -F _complete_alias container
 source ~/.bash_completion.d/complete_alias
 type container
-sudo apt install bash-completion
 vim ~/.bash_completion
 cat ~/.bash_completion.d/complete_alias
 cat ~/.bash_completion.d/complete_alias > ~/.bash_completion
@@ -14202,7 +14193,6 @@ type dirs
 complete -F _complete_alias alert
 alias --help
 alias -p
-alias 
 git diff HEAD~20 .bashrc
 git diff HEAD~50 .bashrc
 git diff HEAD~80 .bashrc
@@ -14288,7 +14278,6 @@ find .
 git diff .config/config.yml
 cat .config/config.yml
 cd .config/edit
-docker run -it vim bash
 cat .config/edit
 cd .config/
 cat edit
@@ -14658,7 +14647,6 @@ brew
 su --help
 su test ls
 su test -c ls
-cd /fc/transformer-pipeline/
 sudo apt install -y linuxbrew-wrapper
 docker images
 complete docker
@@ -14673,13 +14661,10 @@ s
 s --help
 type s
 cd ~/fc/
-vim .bash_completion 
 cat .bash_completion 
 cat ~/.bashrc
-complete -p
 complete -p | grep docker
 . .bash_completion 
-_completion_loader
 apt install bash-completion
 cd dockerfiles/
 cd dev/
@@ -14802,7 +14787,6 @@ c t ' ' | wc -w
 cd /etc/
 find . | grep eng
 sudo find . | grep eng
-cd 
 cd /
 sudo  find . -path ./home -prune -o 
 sudo  find . -path ./home -prune -o -print
@@ -14839,7 +14823,6 @@ cat .gdb_history
 vim .gdbinit.d/init 
 vim ~?.gdbinit.d/init 
 vim .gdbinit
-cd fc/transformer-pipeline/
 cd src/
 bat device/claw_collision_sensor/claw_collision_sensor.cpp 
 gdb a.out
@@ -14887,7 +14870,6 @@ ps 4636
 complete | grep _fzf
 history --help
 history -c
-./config.sh push
 ls .fzf_history 
 vim .fzf_history 
 vim .fzf.bash 
@@ -14921,7 +14903,6 @@ bind -p
 bind -p  | grep 'C\-t'
 bind -p  | grep 'C-t'
 bind -p  | grep 'fzf'
-vim .bashrc
 bind -s | grep __fzf_select
 bind -s 
 bind
@@ -14948,7 +14929,6 @@ gem
 ruby
 man ruby
 steam
-vim .bash
 fffffffffffffffff
 history 
 cat ~/.bash_history 
@@ -14958,7 +14938,6 @@ vim .profile
 ssh gjs@10.0.10.63
 \ssh gjs@10.0.10.63
 git log .profile
-git diff
 ls .*
 ech o.*
 echo .*
@@ -14986,7 +14965,6 @@ ls | find -maxdepth 1 -type f | xargs ls
 ls | find -maxdepth 1 -type f | xargs ls --color
 cd fc/
 cd transformer-pipeline/
-cd ~
 gd .bash/alias.sh
 gd
 git diff .bash/alias.sh
@@ -15008,7 +14986,6 @@ docker run -it -d --name vim vim bash
 docker exec -it vim bash
 echo $=TERM
 bash
-docker exec -it transformer bash
 echo $TERM
 echo $_TERM
 [ -x /usr/bin/tput ] && echo 1
@@ -15017,6 +14994,40 @@ test
 man test
 tput
 echo
-ls
-g
 ./config.sh push "upd bash"
+docker exec -it transformer bash
+cd /fc/transformer-pipeline/
+cd logs/
+cd 
+cd $GITTOP
+gt
+f
+cd fc/transformer-pipeline/
+cd ~
+cd test/git/
+git checkout -b 123@234
+git checkout master
+type git
+c git 
+c git ' '
+c git ch
+docker run -it vim bash
+\ssh sihe@10.0.10.161
+\ssh sihe@10.0.10.141
+\ssh sihe@10.0.10.102
+complete -p
+complete -p | grep git
+complete -p git
+__git_wrap__git_main
+git log -p .bash_completion
+git diff
+alias 
+_completion_loader
+sudo apt install bash-completion
+vim .bashrc
+ls
+c ls -
+vim .bash
+vim .bash_completion 
+g
+./config.sh push
