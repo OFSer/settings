@@ -14939,3 +14939,23 @@ history -c
 history 
 g
 ./config.sh push
+ls
+ls .fzf_history 
+vim .fzf_history 
+vim .fzf.bash 
+g
+git log .fzf.bash
+ls .fzf*
+vim .fzf.bash
+ls
+vim .fzf.bash
+g
+ls
+git add .fzf_history 
+git add -f .fzf_history 
+g
+ls
+c ls .
+c ls . | grep history
+git add .*history
+git add -f .*history
