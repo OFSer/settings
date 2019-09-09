@@ -47,6 +47,7 @@ install_tools(){
 	sudo apt install -y tree net-tools nethogs openssh-server 
 	sudo apt install -y sl cmatrix fortune cowsay lolcat asciiquarium toilet gnuchess screenfetch empire angband bsdgames curseofwar
 	sudo apt install -y python-pip python3 python3-pip linuxbrew-wrapper
+	pip install pygments
 }
 config_scroll(){
 	sudo apt install xbindkeys xdotool -y

@@ -18,4 +18,6 @@ $if Gdb
 	"m": "dashboard -layout memory\n"
 	"r": "dashboard -layout registers\n"
 	"t": "dashboard -layout threads\n"
+	"b": "dashboard -layout breakpoints\n"
+	"v": "dashboard -layout variables\n"
 $endif

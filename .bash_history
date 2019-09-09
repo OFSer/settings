@@ -2760,7 +2760,6 @@ sudo rm /var/lib/apt/lists/partial/* &>/dev/null 2>&1
 sudo rm -rf /var/cache/apt/archives/partial &>/dev/null 2>&1
 \ssh -tX gjs@10.0.10.63
 pkttyagent --help
-git diff config.sh
 sss;sleep 5
 { sss;sleep 5; }
 killall -9 dota2
@@ -8405,7 +8404,6 @@ hi
 git checkout HEAD~5 .bash_history
 man tcpdump 
 sudo apt install libc6-dbg
-gdb a.out 
 gdb a.out core 
 g++ -pthread future.cpp && ./a.out 
 g++ -g -pthread future.cpp && ./a.out 
@@ -10554,7 +10552,6 @@ compgen -A 'git a'
 compgen -G 'git a'
 compgen -F 'git a'
 compgen - 'git a'ls
-q
 snap info q
 sudo snap info q
 sudo snap info qq
@@ -13914,7 +13911,6 @@ sudo pmap -h 6427
 sudo pmap  6427
 cd .fzf/
 cd /usr/local
-cd src/
 cd /opt/
 rm -rf fzf.vim/
 mkdir ls
@@ -14548,7 +14544,6 @@ cat gtk.css .
 cat gtk.css 
 vim gtk.css 
 s fd
-fg
 s sdf
 s test
 s -p stackoverflow test
@@ -14602,7 +14597,6 @@ c ls ' ' | grep home
 c cd ' ' | grep home
 c cd ' '
 glances 
-cd fc/transformer-pipeline/
 cd fc
 cd frontend/
 sudo f
@@ -14817,7 +14811,6 @@ cd build/
 gdb bin/image_saving_service 
 man test
 git checkout HEAD~5 .config/dconf/user
-vim config.sh 
 git checkout HEAD~10 .config/dconf/user
 git reset HEAD .config/dconf/user
 git checkout -- .config/dconf/user
@@ -14835,7 +14828,6 @@ git clone --depth 1 git@github.com:Seldaek/monolog.git --branch 1.23.0 --single-
 cd monolog/
 git log
 rm -rf monolog/
-vim .inputrc 
 cd colors/
 cd cpp/
 vim 1.cpp
@@ -14880,7 +14872,6 @@ cat en.ind
 cat en.ind  | wc -l
 cd dict_pys/
 cd gjs
-cd ~1
 l
 rm core
 vim .gitglobalignore 
@@ -14900,18 +14891,31 @@ cat .dmrc
 ls .*
 cat .units_history 
 cat .tig_history 
-cd test/cpp/
 vim .gdb_history 
-gdb a.out
-cat .gdb_history 
-git diff
-ls
-cd ~
 git add .gdb_history 
 git add -f .gdb_history 
-vim .gdbinit.d/init 
 cd test/
-vim .gdbinit
 type gdb
+q
+cat .gdb_history 
+vim .gdbinit.d/init 
+vim ~?.gdbinit.d/init 
+vim .gdbinit
+cd fc/transformer-pipeline/
+cd src/
+bat device/claw_collision_sensor/claw_collision_sensor.cpp 
+gdb a.out
+vim config.sh 
+cd ~1
+vim ~/.gdbinit.d/init 
+vim .inputrc 
+fg
+cd test/cpp/
+gdb a.out 
+ls
+cd ~/.fzf/uninstall 
+cd ~
 g
+git diff config.sh
+git diff
 ./config.sh push
