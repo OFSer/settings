@@ -15020,14 +15020,15 @@ complete -p | grep git
 complete -p git
 __git_wrap__git_main
 git log -p .bash_completion
-git diff
 alias 
 _completion_loader
 sudo apt install bash-completion
+c ls -
+vim .bash_completion 
+./config.sh push
+vim .bash
+git diff
 vim .bashrc
 ls
-c ls -
-vim .bash
-vim .bash_completion 
 g
-./config.sh push
+./config.sh push "fix"

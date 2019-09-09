@@ -1,4 +1,3 @@
-. ~/.bash_completion
 #!/bin/bash
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
@@ -13,6 +12,7 @@ load(){
 	[ -f $1 ] && . $1
 }
 load $HOME/.bash/env.sh
+load $HOME/.bash/default.sh
 load $HOME/.bash/PS1.sh
 load $HOME/.bash/feature.sh
 load $HOME/.bash/alias.sh
