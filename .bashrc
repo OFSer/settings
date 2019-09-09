@@ -19,5 +19,6 @@ load $HOME/.bash/mycmd.sh
 load $HOME/.bash/ycm.sh
 load $HOME/.bash/onexit.sh
 load $HOME/.bash/bd.sh
+load $HOME/.bash/complete.sh
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 load $HOME/.bash/after.sh

@@ -1618,7 +1618,6 @@ kill 2529
 ps -ef | grep 2759
 kill 2759
 ps -ef | grep 4586
-ps -ef | grep sleep
 ps -ef | grep 4750
 ps -ef | grep 25920
 kill -9 25920
@@ -1928,7 +1927,6 @@ ls | grep -v 'home' | sudo xargs rm -rf
 top -n 1 | sed -n '1,5p'
 top -n 1 | sed -n '1,5p' > 1
 ps
-ps -ef 
 proc
 top -n
 top -n 1
@@ -2088,7 +2086,6 @@ du -h
 cp pack.tar ../../disk/pack.tar
 cd /media/
 cd 18aa974c-2266-4d72-8a1e-aa8bf26d25a6/
-vim .bashrc 
 scp --help
 man scp
 tldr scp
@@ -4742,7 +4739,6 @@ echo $PPID
 ( echo $$,$PPID;)
 (echo $$,$PPID;)
 cd fc/bl
-sleep 1000 &
 disown -h 14779
 ps -ef | grep slepp
 ps -ejH | grep 2197
@@ -13197,7 +13193,6 @@ export FZF_COMPLETION_TRIGGER='<TAB>'
 complete -F _fzf_path_completion -o default -o bashdefault ag
 export FZF_COMPLETION_TRIGGER='**'
 i fdclone
-complete | grep _fzf
 cd fc/transformer-pipeline/deb/deb/etc/
 vim tag
 man clangd
@@ -13452,7 +13447,6 @@ cd test/go/mock
 vim .vim/plugin/autocmd.vim 
 vim test/go/mock/main.go 
 vim .vim/plugin/.vimrc
-history -c
 history -
 git fetch origin deb
 rm .pylintrc 
@@ -13882,7 +13876,6 @@ mv env/ ccls
 cd ccls/
 mv ccls dev
 his
-vim .bash_history 
 sudo apt install moreutils
 cd .bash/
 vim alias.sh 
@@ -14246,7 +14239,6 @@ tldr cut
 alias | cut -d' ' -f2
 alias | cut -d' ' -f2 | cut -d= -f1
 type vimux
-history --help
 alias | cut -d' ' -f2 | cut -d= -f1 | xargs command complete -F _complete_alias
 type xargs
 alias | cut -d' ' -f2 | cut -d= -f1 | xargs echo 
@@ -14366,7 +14358,6 @@ rm -r .bash_completion.d/
 mkdir  .bash_completion.d/
 cd .bash_completion.d/
 mv .bash_completion .bash_completion.d/
-jobs
 mv .bash_completion.d/ bash_completion.d/
 rm -r bash_completion.d/
 cat /etc/bash_completion.d/bd
@@ -14551,7 +14542,6 @@ type command s
 s -s
 lg
 vim .bah
-vim .bash
 rm core 
 bd afd
 bd fasd
@@ -14590,7 +14580,6 @@ complete bd
 complete -p bd
 complete -p | grep bd
 complete -p | grep cd
-vim .bash/after.sh 
 c ls
 c ls ' '
 c ls ' ' | grep home
@@ -14612,7 +14601,6 @@ cat .bash_history
 type gd
 steam
 ccls
-ps -ef | grep ccls
 ps -ef | grep docker
 pstree -s -t 7917
 pstree -s -t -p 7917
@@ -14723,7 +14711,6 @@ complete -p | grep docker
 _completion_loader
 apt install bash-completion
 bash
-vim .bashrc
 cd dockerfiles/
 cd dev/
 docker build -t transformer . 
@@ -14753,8 +14740,6 @@ brew search ccls
 git add -A
 git commit -m "add deb service"
 pstree ccls
-pstree --help
-tree
 tree --help
 tree --help | grep exclu
 file initrd.img
@@ -14767,7 +14752,6 @@ cd ~/.cache/
 cd tags/
 cat home-gjs-test-tags 
 vim home-gjs-test-tags 
-top
 vim test/PthreadPool/
 ls ~/.cache/tags/
 cat home-gjs-tags.temp 
@@ -14817,9 +14801,7 @@ git checkout -- .config/dconf/user
 pkill dconf-service
 dconf dump / > .dconf
 dconf load / < .dconf
-glances
 cd plugged/vim-colorschemes/
-vim 
 git diff HEAD^
 man git-clone
 tldr git-clone
@@ -14883,7 +14865,6 @@ command cd ..
 cd fc/
 cd ..
 d
-history 
 rm 1
 ls -a
 vim .emacs
@@ -14908,14 +14889,53 @@ gdb a.out
 vim config.sh 
 cd ~1
 vim ~/.gdbinit.d/init 
-vim .inputrc 
-fg
 cd test/cpp/
 gdb a.out 
-ls
 cd ~/.fzf/uninstall 
 cd ~
-g
 git diff config.sh
+ps -ef | grep ccls
+complete -F _fzf_dir_completion -o default -o bashdefault tree
+tree
+complete | grep _fzf | grep p
+complete | grep _fzf | grep process
+complete | grep _fzf | grep ps
+complete -o bashdefault -o default -o nospace -F _fzf_complete_kill pstree
+pstree -s 11691
+pstree -s -t 11691
+pstree -s -p 11691
+pstree -s  11691
+top
+vim .bash_history 
+vim .inputrc 
+glances
+complete | grep _fzf | grep kill
+complete -o default -o nospace -F _fzf_complete_kill pstree
+complete -o nospace -F _fzf_complete_kill pstree
+vim .bash
+fg
+pstree --help
+pstree -s -t 11288 
+pstree -s -p -T 11288 
+vim .bashrc 
+vim 
+vim .bashrc
+sleep 1000 &
+ps -ef | grep sleep
+ps -ef 
+jobs
 git diff
+ls
+ps 1111
+ps 
+ps  -ef
+ps 28460
+vim .bash/after.sh 
+ps 6 
+ps 4636 
+complete | grep _fzf
+history --help
+history -c
+history 
+g
 ./config.sh push
