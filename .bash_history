@@ -536,7 +536,6 @@ mysql
 sudo mysql
 mycli
 ascii
-git commit -m "upd"
 cat log
 cat asdf
 cat <<EOF
@@ -768,7 +767,6 @@ cd ~/.config/google-chrome/Default/'Sync Extension Settings'
 cd .config/google-chrome/
 find . | grep -i exten | xargs -i test -f {}
 find . | grep -i exten | xargs -i test -f {} && echo {}
-man test
 man find | grep file
 man find 
 find -type d . | grep -i exten | xargs -i test -f {} && echo {}
@@ -2518,7 +2516,6 @@ cd blur_detection/
 man shopt
 type shopt
 git reset HEAD^1 --hard
-dconf dump / > .dconf
 history | grep gsetting
 gsettings list-recursively
 gsettings list-recursively | grep tab
@@ -8219,7 +8216,6 @@ sudo apt install bsdgames
 man atc
 sudo man atc
 PAGER='vim -M +MANPAGER -c "set showtabline=1" -'
-man man
 PAGER='vim +MANPAGER -c "set showtabline=1" -'
 PAGER='vim +MANPAGER -c "set showtabline=1"'
 PAGER='vim -c "set showtabline=1" -'
@@ -8635,7 +8631,6 @@ fold -w30 config.sh
 toe
 man toe
 tldr toe
-git log -p .gdbinit
 git log -p .bash_history
 git log -p .bash_history | wc -l
 abort
@@ -11979,7 +11974,6 @@ cat bash_completion
 cat /usr/share/bash-completion/bash_completion
 vim /usr/share/bash-completion/bash_completion
 readline
-man readline
 complete -p | grep apt-get
 complete -p | grep apt
 complete -p | grep man
@@ -13936,7 +13930,6 @@ cd /usr/local
 cd src/
 cd /opt/
 rm -rf fzf.vim/
-fzf
 mkdir ls
 sudo apt-get install fzf
 cat .fzf.bash
@@ -14099,9 +14092,7 @@ echo 'xolox/vim-colorscheme-switcher' | nc -w 10 10.0.10.138 10000
 nc -nv 10.0.10.138 10000 <(echo 'xolox/vim-colorscheme-switcher')
 nc -nv 10.0.10.138 333 <(echo 'xolox/vim-colorscheme-switcher')
 nc -nv 10.0.10.138 333
-cd plugged/
 rm -rf vim-colorscheme-switcher/
-cd .vim/
 cd autoload/
 ping 2408:84e2:1181:b85e:35bc:5a9d:5ba4:c326
 ping 2408:84e2:181:b85e:35bc:5a9d:5ba4:c326
@@ -14139,7 +14130,6 @@ nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null
 cd PthreadPool/
 git pull
 git reset HEAD^ --hard
-cd fc/aruco/
 vim config.py 
 vim calibrate.py 
 cd ~/.vim/plugged/vim-fugitive/
@@ -14327,10 +14317,7 @@ ll -h .dconf
 dconf dump --help
 vim .dconf 
 dconf dump /  > .dconf
-pkill dconf-service
-dconf load / < .dconf
 git checkout -- .dconf
-git checkout -- .config/dconf/user
 bash -c  "$(wget -qO- https://git.io/vQgMr)"
 ./config.sh pull
 t borg
@@ -14541,8 +14528,6 @@ git rm --cached -r .config/unity3d/
 du
 df -hd1
 du -hd1
-ll
-git log
 git reset HEAD^
 git add df
 git commit -m "add df"
@@ -14615,7 +14600,6 @@ cd bd/bd/bd/
 cd bd/bd/
 bd bd
 fc bd bd
-cd fc/
 cd transformer-pipeline/r
 cd home
 cd fron
@@ -14652,7 +14636,6 @@ su
 gd --help
 man gd
 man git-diff
-l
 cat .bash_history 
 history 
 { cd fc }
@@ -14674,7 +14657,6 @@ c man pthread
 c man pthread | grep sinal
 c man pthread | grep signal
 c man pthread | grep nal
-cd gh/
 cd ~/test/PthreadPool/
 vim pp.cpp 
 man -Kw pthread_cond
@@ -14694,13 +14676,10 @@ make -j4 image_saving_service
 bin/image_saving_service 
 sudo mount /dev/mapper/loop18p1 /mnt
 pwd
-gdb a.out
-vim .gdbinit
 pip install ast
 pip3
 pip3 install ast
 python3
-vim .gdbinit.d/auto 
 sudo su
 brew search clangd
 brew info golang
@@ -14718,7 +14697,6 @@ vim .config/coc/memos.json
 apt install pstree
 sudo apt install pstree
 sudo apt search pstree
-vim config.sh 
 useradd asdf
 echo -e 's\ns\n' | sudo passwd test
  apt install -y linuxbrew-wrapper
@@ -14784,10 +14762,8 @@ docker build -t transformer .
 docker stop transformer && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 docker exec -it transformer bash
-cd ~/dockerfiles/
 cd /fc/
 cd transformer-pipeline/
-gdb bin/image_saving_service 
 pstree
 git diff .bash
 ./config.sh push "upd dockerfile"
@@ -14800,7 +14776,6 @@ s -p zhihu vim preview terminal
 s -p zhihu vim  terminal
 s -p zhihu vim  f12
 vim .vim/plugin/term.vim 
-cd build/
 make -j4 image_saving_service && bin/image_saving_service 
 man res
 free -hm
@@ -14810,7 +14785,6 @@ git commit -m "add config"
 brew search ccls
 git add -A
 git commit -m "add deb service"
-git push
 pstree ccls
 pstree --help
 cd /
@@ -14822,9 +14796,6 @@ file initrd.img.old
 man top
 vim Dockerfile 
 man fzf
-rm -rf vim-colorschemes/
-cd test/
-cd cpp/
 rm tags 
 cd ..
 cd ~/.cache/
@@ -14832,10 +14803,8 @@ cd tags/
 cat home-gjs-test-tags 
 vim home-gjs-test-tags 
 top
-glances
 vim test/PthreadPool/
 ls ~/.cache/tags/
-vim
 cat home-gjs-tags.temp 
 cd .cache/tags/
 vim fc-transformer-pipeline-tags 
@@ -14843,16 +14812,65 @@ cd .cache/tags
 cd .vim/plugged/
 cd nerdtree
 git remote show origin
-vim .vimrc
-git diff
 git diff .config/coc/memos.json
 cd .config/coc
 cat history.json 
 cat commands 
 cat mru 
-ls
-cd ~
 git rm --cached .config/coc/memos.json
 vim .gitignore 
+cd .vim/plugged/coc.nvim/
+fzf
+l
+cd test/
+cd cpp/
+gdb a.out
+vim .gdbinit.d/auto 
+vim .gdbinit.d/
+git add -f .gdbinit.d
+git commit -m "upd"
+git push
+cd fc/
+cd ~/dockerfiles/
+wget https://github.com/cyrus-and/gdb-dashboard/blob/master/.gdbinit
+ll
+vim .gdbinit 
+rm .gdbinit 
+wget --help
+pip install pygments
+cd fc/aruco/
+vim
+wget -P ~ git.io/.gdbinit
+git diff
+git log -p .gdbinit
+cd gh/
+rm gdb-dashboard/
+rm -r gdb-dashboard/
+rm -rf gdb-dashboard/
+git clone https://github.com/cyrus-and/gdb-dashboard
+cd gdb-dashboard/
+cp .gdbinit ~/.gdbinit
+cd build/
+gdb bin/image_saving_service 
+vim .gdbinit
+man test
+git log
+man readline
+git checkout HEAD~5 .config/dconf/user
+vim config.sh 
+git checkout HEAD~10 .config/dconf/user
+cd .vim/
+cd plugged/
+rm -rf vim-colorschemes/
+cd ~
+vim .vimrc
+git reset HEAD .config/dconf/user
+git checkout -- .config/dconf/user
+pkill dconf-service
+dconf dump / > .dconf
+dconf load / < .dconf
+man man
+glances
+ls
 g
 ./config.sh push
