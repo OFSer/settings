@@ -77,3 +77,4 @@
 .config/dlv/
 .config/coc/extensions
 .config/unity3d/
+.config/coc/memos.json

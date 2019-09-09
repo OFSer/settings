@@ -4,9 +4,25 @@ call plug#begin('~/.vim/plugged')
 " summary
 	Plug 'tpope/vim-commentary'
 	Plug 'tpope/vim-fugitive'
+	" Plug 'mhinz/vim-signify'
 	Plug 'airblade/vim-gitgutter'
-	Plug 'chinnkarahoi/vim-colorschemes'
+	Plug 'flazz/vim-colorschemes'
 	Plug 'sheerun/vim-polyglot'
+	Plug 'ludovicchabant/vim-gutentags'
+	let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project']
+	let g:gutentags_ctags_tagfile = 'tags'
+	let g:gutentags_exclude_project_root = ['/home/gjs']
+
+	let s:vim_tags = expand('~/.cache/tags')
+	let g:gutentags_cache_dir = s:vim_tags
+	if !isdirectory(s:vim_tags)
+		 silent! call mkdir(s:vim_tags, 'p')
+	endif
+
+	let g:gutentags_ctags_extra_args = ['--fields=+niazS', '--extra=+q']
+	let g:gutentags_ctags_extra_args += ['--c++-kinds=+px']
+	let g:gutentags_ctags_extra_args += ['--c-kinds=+px']
+
 
 " misc 
 	" Plug 'skywind3000/asyncrun.vim'
@@ -99,7 +115,7 @@ call plug#begin('~/.vim/plugged')
 			\ "Unknown"   : "?"
 			\ }
 
-" translat
+" translate
 	" Plug 'ianva/vim-youdao-translater'
 	Plug 'voldikss/vim-translate-me'
 	nnoremap <silent> a :Translate<cr>

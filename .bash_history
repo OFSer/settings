@@ -1929,7 +1929,6 @@ ls | grep -v 'home' | xargs rm -rf
 ls | grep -v 'home' | sudo xargs rm -rf 
 top -n 1 | sed -n '1,5p'
 top -n 1 | sed -n '1,5p' > 1
-man top
 ps
 ps -ef 
 proc
@@ -6508,7 +6507,6 @@ cd plugin/
 vim mkdp.vim 
 cd server/
 cd neodark.vim/
-cd nerdtree
 cd ~/.vim/plugged/neodark.vim
 eog 256.png 
 eog *.png
@@ -11000,7 +10998,6 @@ sakura
 i sakura
 vim conf/
 sakura 
-gitdiff
 Yakuake
 yakuake
 i yakuake
@@ -11593,7 +11590,6 @@ locate -0 pattern | xargs -0 ls -al
 sudo apt install fzf
 python -m http.server 7777
 python3 -m http.server 7777
-git commit -m "add config"
 export DAEMON_ENV=testing
 git commit -m "upd config"
 git commit -m "fix fmt"
@@ -11616,8 +11612,6 @@ emacs -nw
 git pusyh
 tree | less
 tree | more
-tree --help
-tree --help | grep exclu
 tree --help | grep ignore
 find -type f -path .git -prune -o -print
 find -type f -path ./.git -prune -o -print
@@ -13071,7 +13065,6 @@ fzf --preview
 fzf 
 fzf --preview-window 
 fzf --preview .gitlab-ci.yml 
-man fzf
 bat --config-dir
 bat --help
 man bat
@@ -13374,7 +13367,6 @@ docker run -v ~:/root -it -d --name vim vim bash
 type g
 cat .config/coc/extensions/db.json
 git rm --cached .config/coc/extensions/db.json
-cd .config/coc
 cat db.json 
 du -h1
 cd node_modules/
@@ -13906,7 +13898,6 @@ docker stop transformer
 cp compile_commands.json ..
 cp compile_commands.json ../compile_commands.json 
 cd env/
-cd /
  rm snap 
 mv env/ ccls
 cd ccls/
@@ -13940,7 +13931,6 @@ sudo pmap 6374
 sudo pmap 6427
 sudo pmap -h 6427
 sudo pmap  6427
-git remote show origin
 cd .fzf/
 cd /usr/local
 cd src/
@@ -13949,7 +13939,6 @@ rm -rf fzf.vim/
 fzf
 mkdir ls
 sudo apt-get install fzf
-cd .vim/plugged/
 cat .fzf.bash
 git checkout -- .vimrc
 sudo mv fc /root
@@ -14168,7 +14157,6 @@ free -m
 htop
 killall -9 netease-cloud-music 
 killall -9 sogou-qimpanel
-free -hm
 code
 vim 
 ripgrep
@@ -14180,7 +14168,6 @@ df | grep rip
 rg
 cd fc/shmmsg/
 git diff .vim
-git diff HEAD^ .dconf
 type OnStart
 git diff HEAD^ .bash_history
 gencdb
@@ -14461,7 +14448,6 @@ sudo npm install -g t-get
 tget
 tget 'magnet:?xt=urn:btih:0403fb4728bd788fbcb67e87d6feb241ef38c75a'
 sudo npm install -g dockerfile-language-server-nodejs
-vim .vimrc
 cat .config/configstore/update-notifier-npm.json
 sudo apt install startup-disk-creator
 ll  /usr/share/applications/ | grep disk
@@ -14552,7 +14538,6 @@ cd .config/unity3d
 cat Player.log 
 git rm --cached .config/unity3d/
 git rm --cached -r .config/unity3d/
-vim .gitignore 
 du
 df -hd1
 du -hd1
@@ -14656,7 +14641,6 @@ c ls ' '
 c ls ' ' | grep home
 c cd ' ' | grep home
 c cd ' '
-top
 glances 
 cd fc/transformer-pipeline/
 d
@@ -14668,7 +14652,6 @@ su
 gd --help
 man gd
 man git-diff
-./config.sh push
 l
 cat .bash_history 
 history 
@@ -14683,12 +14666,10 @@ ps -ef | grep docker
 pstree -s -t 7917
 pstree -s -t -p 7917
 pstree -s -t -p -T 1381
-pstree --help
 ctags -R
 pstree -s -t -p -T 7917
 pstree -s -p -t 1381
 pstree -s -p -T 1381
-glances
 c man pthread
 c man pthread | grep sinal
 c man pthread | grep signal
@@ -14701,10 +14682,7 @@ man signal
 man 7 signal
 man signal.7
 cppman pthread_cond_wait
-git diff
-git add -A
 git commit -m "add init"
-git push
 cat Makefile 
 make -j4 image_saving_server
 rm -rf *
@@ -14716,8 +14694,6 @@ make -j4 image_saving_service
 bin/image_saving_service 
 sudo mount /dev/mapper/loop18p1 /mnt
 pwd
-cd test/
-cd cpp/
 gdb a.out
 vim .gdbinit
 pip install ast
@@ -14726,8 +14702,6 @@ pip3 install ast
 python3
 vim .gdbinit.d/auto 
 sudo su
-make -j4 image_saving_service && bin/image_saving_service 
-brew search ccls
 brew search clangd
 brew info golang
 docker ps -l
@@ -14740,7 +14714,6 @@ apt show python-pip
 apt install python3-pip
 apt install tree
 sudo apt install tree
-gd
 vim .config/coc/memos.json 
 apt install pstree
 sudo apt install pstree
@@ -14795,7 +14768,6 @@ s
 s --help
 type s
 cd ~/fc/
-cd ..
 vim .bash_completion 
 cat .bash_completion 
 cat ~/.bashrc
@@ -14808,7 +14780,6 @@ bash
 vim .bashrc
 cd dockerfiles/
 cd dev/
-vim Dockerfile 
 docker build -t transformer . 
 docker stop transformer && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
@@ -14816,13 +14787,72 @@ docker exec -it transformer bash
 cd ~/dockerfiles/
 cd /fc/
 cd transformer-pipeline/
-vim
-cd build/
 gdb bin/image_saving_service 
 pstree
-tree
-ls
-g
 git diff .bash
-cd ~
 ./config.sh push "upd dockerfile"
+git diff HEAD^ .dconf
+man sleep
+cppman sleep
+git commit -m "add try connect"
+s -p zhihu preview terminal
+s -p zhihu vim preview terminal
+s -p zhihu vim  terminal
+s -p zhihu vim  f12
+vim .vim/plugin/term.vim 
+cd build/
+make -j4 image_saving_service && bin/image_saving_service 
+man res
+free -hm
+gitdiff
+gd
+git commit -m "add config"
+brew search ccls
+git add -A
+git commit -m "add deb service"
+git push
+pstree ccls
+pstree --help
+cd /
+tree
+tree --help
+tree --help | grep exclu
+file initrd.img
+file initrd.img.old 
+man top
+vim Dockerfile 
+man fzf
+rm -rf vim-colorschemes/
+cd test/
+cd cpp/
+rm tags 
+cd ..
+cd ~/.cache/
+cd tags/
+cat home-gjs-test-tags 
+vim home-gjs-test-tags 
+top
+glances
+vim test/PthreadPool/
+ls ~/.cache/tags/
+vim
+cat home-gjs-tags.temp 
+cd .cache/tags/
+vim fc-transformer-pipeline-tags 
+cd .cache/tags
+cd .vim/plugged/
+cd nerdtree
+git remote show origin
+vim .vimrc
+git diff
+git diff .config/coc/memos.json
+cd .config/coc
+cat history.json 
+cat commands 
+cat mru 
+ls
+cd ~
+git rm --cached .config/coc/memos.json
+vim .gitignore 
+g
+./config.sh push
