@@ -20,8 +20,6 @@ export PATH="$HOME/anaconda3/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
 export PATH="$HOME/.stack/programs/x86_64-linux/ghc-8.2.2/bin:$PATH"
-[ -z "$_TERM" ] && export _TERM=$TERM
-export TERM=xterm-256color
 [ -f /usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0 ] && {
 	export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
 }

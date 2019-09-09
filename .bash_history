@@ -460,7 +460,6 @@ git reset d46401482d5f5a403e5e0ce1de7b7db798346f7d
 \git reset HEAD --hard 
 git reset --hard 4ca8f123f6894cdc407d6d6fedd978f67d8a0cc2
 git commit -m "upd param"
-echo
 echo abc
 history |
 sudo vim /etc/profile
@@ -1179,7 +1178,6 @@ true
 man true
 false
 man false
-test
 test && echo 1 || echo 0
 test abc && echo 1 || echo 0
 test '' && echo 1 || echo 0
@@ -1359,7 +1357,6 @@ ping 10.0.10.63
 ping 10.0.10.63:22
 telnet 10.0.10.63:22
 top -H
-dirs
 dirs --help
 dirs +1
 dirs -l
@@ -1829,7 +1826,6 @@ ls -a | sed -En '/(^\.git$|\.)/!p'
 ls -a | sed -En '/(^\.git$|^\.$)/!p'
 ls -a | sed -En '/(^\.git$|^\.$|^\.\.$)/!p'
 ls -a | sed -En '/(^\.git$|^\.$|^\.\.$)/!p' | xargs -i cp {} ../{} 
-ls -f
 mv .gitignore blow_check/
 vim detection.
 vim detection.cpp 
@@ -1978,7 +1974,6 @@ docker push registry-sho.hypereal.com/dl/dl-tf:190301
 git push --set-upstream origin gjs
 git commit -m "upd gjs tf.yaml"
 git commit -a -m "upd gjs tf.yaml"
-echo $TERM
 ssh -p 10976 hypereal@registry-corp.hypereal.com
 ssh gjs@gjs
 PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@123\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$'
@@ -2295,7 +2290,6 @@ hexdump -C /dev/sda
 sudo hexdump -C /dev/sda
 sudo hexdump -C -n 100 /dev/sda
 sudo hexdump -C -n 200 /dev/sda
-ls --help
 hexdump -C -n 100 /dev/null
 hexdump -C -n 100 /dev/zero
 hexdump -C -n 1000 /dev/zero
@@ -2665,9 +2659,7 @@ cd /etc/sudoers.d/
 vim README 
 sudo vim README 
 ls | shuf
-ls -d
 ls -D
-ls --help | grep dir
 ls -d */
 ls -d /
 ls -d *
@@ -2726,7 +2718,6 @@ cd disk/
 history | grep set
 git add -f .bash_history 
 vim .bash_logout 
-vim .bash_profile 
 vim .bashrc.bak 
 git commit -m "add bash_history"
 alias abc='bcd'
@@ -3184,7 +3175,6 @@ ffmpeg -i %d-%d-%d.png -pix_fmt yuv420p ab.mp4
 ffmpeg -f image2 -i %06d-%06d-%02d.png -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4
 ffmpeg -f image2 -i "%06d-%06d-%02d.png" -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4
 ffmpeg -f image2 -i "%06d\-%06d\-%02d.png" -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4
-ls 
 cd fc/usb_blow_detector/
 ffmpeg
 ffmpeg 
@@ -5180,8 +5170,6 @@ sshpass --help
 sshpass -p s \ssh gjs@10.0.18.131
 \ssh gjs@10.0.18.131
 ssh -o "StrictHostKeyChecking no" -p 19906 hypereal@registry-corp.hypereal.com
-bind
-bind -p
 f() { local a=123; }
 f() { local a=123;g(); }
 f() { local a=123;g; }
@@ -6616,7 +6604,6 @@ history | grep global
 python3 -c <<-EOF
 print(123)
 python3 <<-EOF
-\ssh gjs@10.0.10.63
 \ssh gjs@10.0.10.63 <<-EOF
 cat proxy 
 ssh --help
@@ -7851,7 +7838,6 @@ ssh 2001:470:f8c7:10:f193:5f97:b63f:1df9@leaf
 \ssh gjs@2001:470:f8c7:10:f193:5f97:b63f:1df9
 \ssh test@2001:470:f8c7:10:f193:5f97:b63f:1df9
 xterm
-git diff .bash/alias.sh
 gits
 type gits
 cd ../../
@@ -8033,7 +8019,6 @@ cd nerdtree-git-plugin/
 git commit -m "disable auto upd"
 git remote show orogin
 git rev-parse {
-git rev-parse --show-toplevel > /dev/null
 cd ai-cloth/
 docker imgaes
 docker tag registry-sho.hypereal.com/ci/flawck-mk3:1.0.1 registry-sho.hypereal.com/ci/flawck-mk3:latest
@@ -10935,7 +10920,6 @@ grep make GNUmakefile
 find --help | grep exclude
 find --help | 
 find --help 
-man find
 find -type f -exec grep -Iq '' '{}' ';'
 find -type f -not -path "./.git/*" -exec grep -Iq '' '{}' ';' -print
 find -type f -path ./.git -prune
@@ -10966,7 +10950,6 @@ find -type f -exec
 find -type f 
 ls | grep -I
 ls | grep -I '' '{}' ';'
-find --help
 sudo apt install Tilda
 tilda
 sudo apt install tilda
@@ -11411,7 +11394,6 @@ dir config.sh
 readlink -f config.sh 
 cat .vim
 readlink --help
-readlink -f fc
 f -a makefile
 f -a makefile sync.sh 
 f -a
@@ -13013,7 +12995,6 @@ ctags --help
 man ctags
 ctags 1.c
 tldr ctags
-vim tags 
 vim .vim/plugin/search.vim
 sudo snapt install rg
 sudo snap install rg
@@ -13268,7 +13249,6 @@ c ls --all  ' '
 c l
 cat .bashrc 
 docker restart vim;docker exec -it vim bash
-docker run -it -d --name vim vim bash
 docker exec vim 
 docker exec vim  bash
 git commit -am "upd"
@@ -13295,7 +13275,6 @@ git diff .inputrc
 vim 4
 docker exec vim
 docker exec vim bash
-docker exec -it vim bash
 ll -h sa
 ll -h saki_detection
 ll -h saki_detection.tar.gz 
@@ -13477,7 +13456,6 @@ history n
 ffffffffffffff
 fffffffffffffffffffff
 gggggggggggggggggggggggggg
-cat ~/.bash_history 
 history --hlep
 cd gomock/
 ffffffffffffffffffffffff
@@ -13633,7 +13611,6 @@ images
 vim ~/.bashrc
 git log -p .fzf.bash
 git add -f .fzf.bash 
-vim .fzf.bash 
 sponge --help
 sponge
 apt search sponge
@@ -13937,7 +13914,6 @@ git diff compile_commands.json
 diff compile_commands.json ../compile_commands.json 
 vimdiff compile_commands.json ../compile_commands.json 
 cd /tmp/RJrWTJc5ZJ6Ty
-type f
 cp --help
 cd sh/
 mkdir f
@@ -14187,7 +14163,6 @@ vim .bash/feature.sh
 vim ~/.bash/mycmd.sh 
 ls -a .gvfs
 ls -a .pki
-ls *
 ls .
 ls games
 ls *.cpp
@@ -14468,7 +14443,6 @@ vim asciisec
 ./asciisec -A
 ./asciisec -console
 nautilus .
-ssh gjs@10.0.10.63
 cd ~/games/asciisec
 cd doomrl/
 ./doomrl
@@ -14599,7 +14573,6 @@ cat .bash_history
 { cd fc; }
 { command cd fc; }
 type gd
-steam
 ccls
 ps -ef | grep docker
 pstree -s -t 7917
@@ -14631,7 +14604,6 @@ cd bin
 make -j4 image_saving_service
 bin/image_saving_service 
 sudo mount /dev/mapper/loop18p1 /mnt
-pwd
 pip install ast
 pip3
 pip3 install ast
@@ -14658,7 +14630,6 @@ echo -e 's\ns\n' | sudo passwd test
  apt install -y linuxbrew-wrapper
 useradd test
 useradd -m -d /home/gjs -s /bin/bash -G sudo gjs
-su gjs
 cd /home/gjs/
 cd /root/
 useradd -m -d /home/test -s /bin/bash -G sudo test
@@ -14710,15 +14681,12 @@ complete -p | grep docker
 . .bash_completion 
 _completion_loader
 apt install bash-completion
-bash
 cd dockerfiles/
 cd dev/
 docker build -t transformer . 
 docker stop transformer && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
-docker exec -it transformer bash
 cd /fc/
-cd transformer-pipeline/
 pstree
 git diff .bash
 ./config.sh push "upd dockerfile"
@@ -14747,7 +14715,6 @@ file initrd.img.old
 man top
 vim Dockerfile 
 man fzf
-rm tags 
 cd ~/.cache/
 cd tags/
 cat home-gjs-test-tags 
@@ -14769,11 +14736,9 @@ cat mru
 git rm --cached .config/coc/memos.json
 vim .gitignore 
 cd .vim/plugged/coc.nvim/
-fzf
 vim .gdbinit.d/auto 
 git add -f .gdbinit.d
 git commit -m "upd"
-git push
 cd ~/dockerfiles/
 wget https://github.com/cyrus-and/gdb-dashboard/blob/master/.gdbinit
 ll
@@ -14793,7 +14758,6 @@ cd gdb-dashboard/
 cp .gdbinit ~/.gdbinit
 cd build/
 gdb bin/image_saving_service 
-man test
 git checkout HEAD~5 .config/dconf/user
 git checkout HEAD~10 .config/dconf/user
 git reset HEAD .config/dconf/user
@@ -14824,7 +14788,6 @@ vim konomi.vim
 cd .vim/
 cd plugged/
 rm -rf vim-colorschemes/
-vim .vimrc
 vim
 ./11.cpp
 ./a.out
@@ -14858,18 +14821,12 @@ l
 rm core
 vim .gitglobalignore 
 vim .gitconfig 
-gd
 command fc
 command cd fc
 command cd ..
-cd fc/
-cd ..
-d
 rm 1
-ls -a
 vim .emacs
 cat .dmrc
-ls .*
 cat .units_history 
 cat .tig_history 
 vim .gdb_history 
@@ -14892,7 +14849,6 @@ vim ~/.gdbinit.d/init
 cd test/cpp/
 gdb a.out 
 cd ~/.fzf/uninstall 
-cd ~
 git diff config.sh
 ps -ef | grep ccls
 complete -F _fzf_dir_completion -o default -o bashdefault tree
@@ -14912,50 +14868,155 @@ glances
 complete | grep _fzf | grep kill
 complete -o default -o nospace -F _fzf_complete_kill pstree
 complete -o nospace -F _fzf_complete_kill pstree
-vim .bash
 fg
 pstree --help
 pstree -s -t 11288 
 pstree -s -p -T 11288 
 vim .bashrc 
 vim 
-vim .bashrc
 sleep 1000 &
 ps -ef | grep sleep
 ps -ef 
 jobs
-git diff
-ls
 ps 1111
 ps 
 ps  -ef
 ps 28460
-vim .bash/after.sh 
 ps 6 
 ps 4636 
 complete | grep _fzf
 history --help
 history -c
-history 
-g
 ./config.sh push
-ls
 ls .fzf_history 
 vim .fzf_history 
 vim .fzf.bash 
-g
 git log .fzf.bash
 ls .fzf*
 vim .fzf.bash
-ls
-vim .fzf.bash
-g
-ls
 git add .fzf_history 
 git add -f .fzf_history 
-g
-ls
 c ls .
 c ls . | grep history
 git add .*history
 git add -f .*history
+cat .node_repl_history 
+cat .python_history 
+git commit -m "add history"
+git push
+cat .profile 
+git log profile
+git log -p profile
+git log -p .profile
+vim rogue_vim.scores 
+rm rogue_vim.scores 
+vim tags 
+cat tags | wc -=l
+cat tags | wc -l
+ll tags 
+ll -h tags 
+rm tags 
+vim .vimrc
+bind -p 
+bind -p  | grep 'C\-t'
+bind -p  | grep 'C-t'
+bind -p  | grep 'fzf'
+vim .bashrc
+bind -s | grep __fzf_select
+bind -s 
+bind
+bind -p
+bind -s
+bindkey '^X^T' fzf-file-widget
+vim .bash/after.sh 
+bind --help
+fzf-file-widget
+__fzf_history__ 
+`fzf-file-widget`
+cd fc 
+cd ..
+cd `fzf-file-widget`
+cd fzf
+fzf
+cd `fzf`
+command cd `fzf`
+command cd `fzf-file-widget`
+git diff .bash/after.sh
+man gem
+gen
+gem
+ruby
+man ruby
+steam
+vim .bash
+fffffffffffffffff
+history 
+cat ~/.bash_history 
+su gjs
+vim .bash_profile 
+vim .profile 
+ssh gjs@10.0.10.63
+\ssh gjs@10.0.10.63
+git log .profile
+git diff
+ls .*
+ech o.*
+echo .*
+ls *
+ls -l *
+ls 
+ls -a
+ls -d
+ls -f
+ls --help
+ls --help | grep dir
+ls -d .*
+find .fzf.bash
+find .fzf.bash .fzf_history 
+ls | find -type f
+ls | find -depth 1 -type f
+ls | find -depth=1 -type f
+find --help
+find --help | grep depth
+man find
+ls | find -maxdepth=1 -type f
+ls | find -maxdepth 1 -type f
+ls | find -maxdepth 1 -type f | ls
+ls | find -maxdepth 1 -type f | xargs ls
+ls | find -maxdepth 1 -type f | xargs ls --color
+cd fc/
+cd transformer-pipeline/
+cd ~
+gd .bash/alias.sh
+gd
+git diff .bash/alias.sh
+gd .bash/after.sh
+git rev-parse --show-toplevel > /dev/null
+git rev-parse --show-toplevel 
+readlink `git rev-parse --show-toplevel`
+readlink *
+readlink fc
+type f
+readlink -f fc
+d
+dirs
+dirs fc
+dirs /home
+dir /home
+pwd
+docker run -it -d --name vim vim bash
+docker exec -it vim bash
+echo $=TERM
+bash
+docker exec -it transformer bash
+echo $TERM
+echo $_TERM
+[ -x /usr/bin/tput ] && echo 1
+test --help
+test
+man test
+tput
+echo
+ls
+g
+./config.sh push "upd bash"
