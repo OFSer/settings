@@ -27,7 +27,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 alias gitamp=$'git add . && git commit -m "upd `git diff-index --name-only HEAD | sed \':a;N;$!ba;s/\\n/,/g;\'`" && git push origin'
 alias sss="sshpass -p root ssh root@dl-6 -p 30263 -t 'bash --login'"
-alias docker='sudo \docker'
+alias docker='sudo docker'
 alias logout=$'ps -ef | grep tty2 | awk \'{print $2}\' | head -n 1 | xargs kill'
 alias date='env LC_TIME=en_US.UTF-8 date'
 alias osu='LD_LIBRARY_PATH="~/osu/osu.Desktop/bin/Debug/netcoreapp2.2" sudo dotnet run --project ~/osu/osu.Desktop &> /dev/null 2>&1 &'

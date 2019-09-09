@@ -1,4 +1,3 @@
-sudo mount /dev/mapper/loop18p1 /mnt
 nautilus /mnt
 qemu-img convert -f raw vd -O vmdk vd.vmdk
 sudo mount /dev/mapper/loop19p1 /mnt
@@ -255,7 +254,6 @@ tar -tf artifacts.zip
 tar -tf 190124-102315-blow00-S4.tar 
 ssh -p 10829 hypereal@registry-corp.hypereal.com
 ssh -p 18615 hypereal@registry-corp.hypereal.com
-pwd
 git stash
 git checkout -b test
 git stash pop
@@ -1464,7 +1462,6 @@ pushd ~/fc/saki_detection/
 echo ..
 eval echo ".."
 popd
-cd ~/fc/
 cdir -p
 . .bashrc
 ssh -p 10847 hypereal@registry-corp.hypereal.com
@@ -1844,7 +1841,6 @@ sudo apt install jq
 add-apt-repository ppa:jonathonf/vim
 git commit -m "add batch comment to vimrc"
 vim .vimr 
-pip
 pip install tensorflow-gpu
 cd Desktop/
 bash "cd /"
@@ -2596,7 +2592,6 @@ chmod +x db.sh
 vim craw.sh 
 ./db.sh 
 cd fc/blur_detection/
-python3
 ps -ef | grep 'eog -w -f' | head -n 1 | awk '{print $2}'
 ps -ef | grep 'eog -w -f' | head -n 1 | awk '{print $2}' | xargs kill 
 sleep 100m
@@ -4843,7 +4838,6 @@ break --help
 for i in {1..10}; for j in {1..10}
 CDPATH=123
 CDPATH=/
-cd bin
 cd dd
 cd usr
 echo $cdpath
@@ -5808,7 +5802,6 @@ vim /etc/ssh_config
 vim /etc/ssh/ssh_config 
 cd /etc/ssh/
 useradd  -G root test
-su test
 passwd
 sudo passwd
 apt install openssh-server
@@ -6535,7 +6528,6 @@ git branch -d jumpserver
 icdiff
 icdiff main.py misc.py
 diff main.py misc.py
-tree
 cloc
 sudo apt install cloc
 cloc main.py
@@ -6918,7 +6910,6 @@ cat Dockerfile | od -b
 hexdump -C -n 100 cat Dockerfile
 hexdump -C -n 100 <(cat Dockerfile)
 hexdump -C -n 1000 <(cat Dockerfile)
-echo $HOME
 /usr/bin/dircolors
 git add -f .bashrc
 git add -f .bash
@@ -8435,7 +8426,6 @@ sudo mkdir src
 apt source libc6
 sudo apt source libc6
 find $PWD -maxdepth 1 -type d -name 'glibc*'
-gdb
 cd glibc-2.27/
 cd /build/glibc-OTsEL5/glibc-2.27/signal
 cd /build/glibc-OTsEL5/glibc-2.27
@@ -8447,7 +8437,6 @@ find . | grep font
 sudo apt install xelatex
 xelatex
 sudo apt install texlive-xetex
-cd gh/
 git clone https://github.com/google/haskell-trainings.git
 cd haskell-trainings/
 vim CONTRIBUTING 
@@ -8695,7 +8684,6 @@ systemd-resolve --status
 ssh -o "StrictHostKeyChecking no" -p 15941 hypereal@registry-corp.hypereal.com
 man man.7
 man man.6
-vim .gdbinit.d/auto 
 git checkout -- .bash/feature.sh
 git add .gdbinit
 git add .gdbinit.d/
@@ -8959,7 +8947,6 @@ ll | grep nano
 pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com cffi
 pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com -r /opt/detection-machine-daemon/requirements.txt
 pip3 install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com -r requirements.txt
-pip3
 cd /usr/lib
 sudo pip install nnpy
 sudo -H pip3 install nnpy
@@ -9267,7 +9254,6 @@ g++ --version
 apt-get install texinfo
 sudo apt-get install texinfo
 cd gdb-7.3.1/build/
-cat Makefile 
 rm -rf gdb-7.3.1
 make gdb-7.3.1
 make test
@@ -9472,7 +9458,6 @@ cat 1.c
 #include<bits/stdc++.h>
 char s[200005];
 int main() {
-vim .gdbinit
 cat 1.asm
 nasm 1.asm 
 nasm -f 1.asm 
@@ -12711,7 +12696,6 @@ man tefdas
 man fads
 man apropos
 man yakuake
-pstree
 pstree | less
 pstree | p
 pstree | more
@@ -12737,8 +12721,6 @@ man xman
 boggle
 ? h
 man 7 man
-man signal
-man signal.7
 man signal.2
 man signal.3
 man signal.4
@@ -12881,7 +12863,6 @@ sudo -i ls
 sudo -i pwd
 s latter
 su - root
-sudo passwd test
 sudo useradd test
 su - test
 man su
@@ -13083,7 +13064,6 @@ bat --list-themes | fzf --preview="bat --theme={} --color=always /path/to/file"
 bat --list-themes | fzf --preview="bat --theme={} --color=always ."
 bat --list-themes | fzf --preview="bat --theme={} --color=always 1.cpp"
 ctags --help | less
-ctags -R
 ag test
 op
 cat /usr/share/dict/words
@@ -13770,7 +13750,6 @@ vim ~/.vimrc
 vim  
 git diff .vimrc
 sudo
-apt install sudo
 sud oapt install sudo
 sudo apt install sudo
 su root
@@ -13792,7 +13771,6 @@ systemctl enable snapd
 service --help
 service --status-all
 echo $SNAPCRAFT_SETUP_CORE
-vim Dockerfile 
 docker --help
 cd /lib/modules/
 find . | grep snap
@@ -13925,7 +13903,6 @@ cd ~/test/make/
 docker stop transfomer && docker container prune -f
 docker stop transformer 
  docker container prune -f
-ccls
 cp compile_commands.json ..
 cp compile_commands.json ../compile_commands.json 
 cd env/
@@ -13975,9 +13952,7 @@ sudo apt-get install fzf
 cd .vim/plugged/
 cat .fzf.bash
 git checkout -- .vimrc
-docker ps -l
 sudo mv fc /root
-docker images
 sudo mv fc /root/
 sudo mv fc /root/fc/
 sudo cp fc /root/fc
@@ -13989,12 +13964,10 @@ rm README.md
 tldr sync
 tldr rsync
 docker run -it -v ~:/root  -d --name transformer transformer 
-ps -ef | grep docker
 docker exec --help
 man docker 
 man docker-exec
 vim .docker/config.json 
-cd /root/
 cd fc/dl-k8s-kube/
 git checkout flawck 
 diff compile_commands.json build/compile_commands.json 
@@ -14002,7 +13975,6 @@ set -- 1 "2 3"
 set -- echo "2 3"
 $@
 gencdb -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
-cd /fc/transformer-pipeline/
 git diff compile_commands.json 
 diff compile_commands.json ../compile_commands.json 
 vimdiff compile_commands.json ../compile_commands.json 
@@ -14017,7 +13989,6 @@ cd f/
 cp 1 f/
 cp 1 f/1
 type gencdb
-cd dev/
 df | grep docker
 apt show docker.io
 dpkg -s neovim
@@ -14031,10 +14002,8 @@ pstree -p $$
 less
 git log -p generate_device_def.cmake 
 ag
-cd dockerfiles/
 rm 1.deb
 curl "https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/18566800-776c-11e9-9ca1-2e3add881182?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190830%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190830T065247Z&X-Amz-Expires=300&X-Amz-Signature=a3c7feec2590e10dbc43cc5b7eb4dc2002a7230a1cc5850424fe6ba24d776027&X-Amz-SignedHeaders=host&actor_id=41767615&response-content-disposition=attachment%3B%20filename%3Dbat_0.11.0_amd64.deb&response-content-type=application%2Foctet-stream" --output 1.deb
-docker build -t transformer . 
 ./download_test_resources.sh 
 cd /fc/tr
 sudo mount nas-production1.sho.hypereal.com:/share/sho-nas-production1 /mnt/sho-nas-production1/
@@ -14048,7 +14017,6 @@ wget https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.d
 rm *
 curl "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb"
 wget
-docker stop transformer && docker container prune -f
 docker run -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 man protobuf
 man -f protobuf
@@ -14098,7 +14066,6 @@ echo "config/Machine_VT3_test_pin_inspector/A451/" >> .gitignore
 cd ../aruco/
 cat .config/coc/memos.json
 git checkout -- .config/coc/
-cd cpp/
 g++ 10.cpp && ./a.out
 f -a .
 cd image_saving_service/
@@ -14116,7 +14083,6 @@ cat 1
 cd src/services/
 cd algorithms_service/
 mv image_saving_service/ algorithms_service/
-git add -A
 git commit -m "add copy"
 sudo cat /root/.ssh/config 
  cat /root/.ssh/config 
@@ -14217,11 +14183,6 @@ git diff .vim
 git diff HEAD^ .dconf
 type OnStart
 git diff HEAD^ .bash_history
-l
-cd build/
-rm -rf *
-cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
-make -j4
 gencdb
 cat compile_commands.json | grep appear
 ps -e -o pid,vsz,comm= | sort -n -k 2
@@ -14241,14 +14202,12 @@ ps -ef | grep 1308
 ps -efjH | grep 1308
 ps -efjH 
 ps -efjH | grep ccls
-ps -ef | grep ccls
 pstree | grep thread
 pstree --help | grep thread
 pstree -h | grep thread
 pstree -h 
 pstree 
 pstree -s -T -t -p 1381
-docker exec -it transformer bash
 pstree -s -p 1381
 pstree -s -T -p 1381
 pstree -s -t -p 1381
@@ -14256,7 +14215,6 @@ s preamble
 s amble
 pstree  -p 1381
 pstree  1381
-pstree --help
 pstree -s -t 1381
 node.js
 node
@@ -14294,15 +14252,11 @@ cd cpp
 f *.cpp
 t
 t ls
-steam
 i glances
-type docker
-type t
 alias t='\wd -s'
 alias t='sudo \wd -s'
 t cat
 alias t='sudo \wd -s '
-glances
 mkdir ~/.bash_completion.d
 curl https://raw.githubusercontent.com/cykerway/complete-alias/master/bash_completion.sh      > ~/.bash_completion.d/complete_alias
 cd ~/.bash_completion.d/
@@ -14426,7 +14380,6 @@ cd gjs/
 sudo apt remove --purge  linuxbrew-wrapper
 sudo apt install  linuxbrew-wrapper
 type brew
-brew
 ./config.sh brew_install
 df | grep brew
 brew install s-search
@@ -14435,7 +14388,6 @@ brew list
 brew list s-search
 brew info s-search
 s-search
-s
 brew search nethack
 brew info nethack
 s ls
@@ -14488,10 +14440,8 @@ cd .
 c d
 bd r
 bd rtt
-cd test/
 rm .bash/bd.sh 
 git checkout -- .bash_completion
-git diff .bash
 cd .bash
 vim bd.sh
 mv bd.sh bd
@@ -14502,7 +14452,6 @@ cd ~3
 type bd
 vim .bash/
 bd fc gjs
-vim .bashrc
 ./config.sh push "add bd"
 git branch
 git merge coc
@@ -14612,7 +14561,6 @@ git log
 git reset HEAD^
 git add df
 git commit -m "add df"
-git push
 ulimit -ch
 ll core 
 ll -h core 
@@ -14639,7 +14587,6 @@ s -b "chromium --incognito" conspiracy theories
 google-chrome
 google-chrome-stable 
 s -b "google-chrome-stable --incognito" conspiracy theories
-s --help
 s -b google-chrome-stable conspiracy theories
 t conspiracy 
 t therapy
@@ -14658,13 +14605,8 @@ s sdf
 s test
 s -p stackoverflow test
 type command s
-type s
 s -s
 lg
-bash
-cat .bash_history 
-history 
-vim config.sh 
 vim .bah
 vim .bash
 rm core 
@@ -14674,7 +14616,6 @@ bd -si
 cd ~/fc/transformer-pipeline/
 bd transformer-pipeline 
 cd ~2
-cd ~
 bd asdfasdf
 bd
 bd adsf
@@ -14703,13 +14644,10 @@ cd
 cd js
 cd build
 cd f
-cd ..
-vim .bash_completion 
 complete cd
 complete -p cd
 complete bd
 complete -p bd
-complete -p
 complete -p | grep bd
 complete -p | grep cd
 vim .bash/after.sh 
@@ -14723,21 +14661,168 @@ glances
 cd fc/transformer-pipeline/
 d
 cd fc
-cd transformer-pipeline/
 cd frontend/
 sudo f
-sudo --help
 sudo -i f
-sudo su
 su
-type gd
 gd --help
 man gd
 man git-diff
-vim .bash/alias.sh 
-vim
-ls
-gd
-g
-git diff
 ./config.sh push
+l
+cat .bash_history 
+history 
+{ cd fc }
+{ cd fc; }
+{ command cd fc; }
+type gd
+steam
+ccls
+ps -ef | grep ccls
+ps -ef | grep docker
+pstree -s -t 7917
+pstree -s -t -p 7917
+pstree -s -t -p -T 1381
+pstree --help
+ctags -R
+pstree -s -t -p -T 7917
+pstree -s -p -t 1381
+pstree -s -p -T 1381
+glances
+c man pthread
+c man pthread | grep sinal
+c man pthread | grep signal
+c man pthread | grep nal
+cd gh/
+cd ~/test/PthreadPool/
+vim pp.cpp 
+man -Kw pthread_cond
+man signal
+man 7 signal
+man signal.7
+cppman pthread_cond_wait
+git diff
+git add -A
+git commit -m "add init"
+git push
+cat Makefile 
+make -j4 image_saving_server
+rm -rf *
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
+make -j4
+cd bin
+./image_saving_service 
+make -j4 image_saving_service
+bin/image_saving_service 
+sudo mount /dev/mapper/loop18p1 /mnt
+pwd
+cd test/
+cd cpp/
+gdb a.out
+vim .gdbinit
+pip install ast
+pip3
+pip3 install ast
+python3
+vim .gdbinit.d/auto 
+sudo su
+make -j4 image_saving_service && bin/image_saving_service 
+brew search ccls
+brew search clangd
+brew info golang
+docker ps -l
+apt install gdb
+pip
+apt install pip
+apt install python2-pip
+apt install python-pip
+apt show python-pip
+apt install python3-pip
+apt install tree
+sudo apt install tree
+gd
+vim .config/coc/memos.json 
+apt install pstree
+sudo apt install pstree
+sudo apt search pstree
+vim config.sh 
+useradd asdf
+echo -e 's\ns\n' | sudo passwd test
+ apt install -y linuxbrew-wrapper
+useradd test
+useradd -m -d /home/gjs -s /bin/bash -G sudo gjs
+su gjs
+cd /home/gjs/
+cd /root/
+useradd -m -d /home/test -s /bin/bash -G sudo test
+echo -e 's\ns\n' | passwd gjs
+echo -e 's\ns\n' | passwd test
+su test
+sudo --help
+sudo test ls
+sudo test ls ~
+sudo test ls /home/test
+passwd test
+sudo passwd test
+sudo -u test ls /home/test
+tldr sudo
+sudo -u test
+apt install sudo
+sudo -u test ls
+sudo -u test ls ~
+sudo -u test 'ls ~'
+sudo -u test 'ls $HOME'
+sudo -u test ls $HOME
+echo $HOME
+sudo -u test ls pwd
+sudo -u test pwd
+brew
+su --help
+su test ls
+su test -c ls
+cd /fc/transformer-pipeline/
+sudo apt install -y linuxbrew-wrapper
+docker images
+complete docker
+complete -p docker
+complete -p | grep docker 
+vim .bash/alias.sh 
+type t
+type docker 
+type docker
+gdb
+s
+s --help
+type s
+cd ~/fc/
+cd ..
+vim .bash_completion 
+cat .bash_completion 
+cat ~/.bashrc
+complete -p
+complete -p | grep docker
+. .bash_completion 
+_completion_loader
+apt install bash-completion
+bash
+vim .bashrc
+cd dockerfiles/
+cd dev/
+vim Dockerfile 
+docker build -t transformer . 
+docker stop transformer && docker container prune -f
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
+docker exec -it transformer bash
+cd ~/dockerfiles/
+cd /fc/
+cd transformer-pipeline/
+vim
+cd build/
+gdb bin/image_saving_service 
+pstree
+tree
+ls
+g
+git diff .bash
+cd ~
+./config.sh push "upd dockerfile"

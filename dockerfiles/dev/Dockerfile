@@ -33,3 +33,19 @@ RUN apt install -y tree net-tools openssh-server
 RUN wget "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb" && \
     dpkg -i bat_0.12.1_amd64.deb && bat cache --build && rm bat_0.12.1_amd64.deb
 RUN apt install -y rsync
+ENV DEBIAN_FRONTEND noninteractive
+RUN apt update && apt install -y gdb python-pip python3-pip
+RUN apt install -y most tldr moreutils bvi silversearcher-ag glances psmisc
+RUN apt install -y cppman httpie tree net-tools screenfetch linuxbrew-wrapper
+RUN apt install -y cmake python-dev python3-dev ctags gcc g++ clang libclang-dev
+RUN apt install -y sudo
+RUN curl -sL install-node.now.sh/lts | bash -s -- -y
+RUN npm install -g dockerfile-language-server-nodejs
+RUN npm install -g t-get
+RUN pip install compiledb
+RUN useradd -m -d /home/test -s /bin/bash -G sudo test
+RUN echo 's\ns\n' | passwd test
+RUN su test -c 'echo -e "\n" | brew'
+RUN su test -c 'brew install s-search'
+RUN apt install -y bash-completion
+CMD ["/bin/bash"]
