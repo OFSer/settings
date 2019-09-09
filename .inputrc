@@ -10,3 +10,12 @@ set mark-directories on
 Tab: menu-complete
 "w": unix-word-rubout
 "[Z": menu-complete-backward
+$if Gdb
+	"s": "dashboard -layout source\n"
+	"k": "dashboard -layout stack\n"
+	"a": "dashboard -layout assembly\n"
+	"h": "dashboard -layout history\n"
+	"m": "dashboard -layout memory\n"
+	"r": "dashboard -layout registers\n"
+	"t": "dashboard -layout threads\n"
+$endif

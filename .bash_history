@@ -3852,7 +3852,6 @@ touch index.js
 touch index.css
 ~/.vim/colors/
 mkdir -p ~/.vim/colors/
-cd .vim/colors/
 vim monokai.vim
 cd .v
 mkdir syntax
@@ -6376,7 +6375,6 @@ git diff HEAD~3 .dconf
 git diff HEAD~4 .dconf
 cd .git/
 cd sem
-cd colors/
 find . | grep semshi
 ls[
 vim monokai.vim 
@@ -6500,7 +6498,6 @@ cat gocomplete.vim
 vim gocomplete.vim 
 vim plug.vim 
 cd markdown-preview.vim/
-cd plugin/
 vim mkdp.vim 
 cd server/
 cd neodark.vim/
@@ -7579,7 +7576,6 @@ cd worktree/
 echo 5 > 5
 git worktree add ../worktree/
 git worktree add ../worktree/ test
-cd git
 echo 1 > 1
 cat 
 cat  1
@@ -8589,7 +8585,6 @@ vim a.out
 ./a.out &
 gdb attach 18490
 gdb a.out 18490
-ps -ef | grep a.out
 sudo gdb
 ssh -o "StrictHostKeyChecking no" -p 18373 hypereal@registry-corp.hypereal.com
 sudo systemctl enable apport.service
@@ -9440,7 +9435,6 @@ ssh  -p 14354 hypereal@registry-corp.hypereal.com
 g++ -c 1.cpp
 gcc 1.cpp
 mv  1.cpp 1.c
-./a.out
 g++ 1.c
 mv 1.c 1.cpp
 objdump -d a.out
@@ -12478,7 +12472,6 @@ NC='\033[0m' # No Color
 printf "I ${RED}love${NC} Stack Overflow\n"
 NC=$'\033[0m' # No Color
 RED='1234'
-cd plugged/vim-colorschemes/
 dircolors -b
 type load
 type local
@@ -13615,7 +13608,6 @@ git checkout -- src/uploader/uploader.go
 git diff .bash_history
 echo $PS1
 echo $LS_COLORS 
-vim .inputrc 
 c echo $
 c echo $ | grep CO
 c echo $ | grep COL
@@ -13910,7 +13902,6 @@ apt clean --help
 man apt 
 man apt-get
 cd ~!
-git diff HEAD^
 pstree 6427
 ps -ef | grep 6427
 ps -ejH | grep 6427
@@ -14134,8 +14125,6 @@ vim config.py
 vim calibrate.py 
 cd ~/.vim/plugged/vim-fugitive/
 cd .vim/plugged/vim-fugitive/
-vim 11.cpp 
-vim 10.cpp 
 vim 10.cpp
 vim 12.cpp
 vim 11.cpp
@@ -14148,7 +14137,6 @@ htop
 killall -9 netease-cloud-music 
 killall -9 sogou-qimpanel
 code
-vim 
 ripgrep
 rg --help
 apt install rg
@@ -14402,7 +14390,6 @@ cd gjs
 bd ho
 cd bash
 bd g
-cd test/cpp/
 cd `bd t`/go
 echo `bd t`
 cd go/
@@ -14443,7 +14430,6 @@ ll  /usr/share/applications/ | grep Cre
 ll  /usr/share/applications/ | grep Start
 vim CMakeLists.txt 
 cd ~/test/cpp/
-vim 1.cpp
 t biege
 t beige
 vimux 
@@ -14797,7 +14783,6 @@ man top
 vim Dockerfile 
 man fzf
 rm tags 
-cd ..
 cd ~/.cache/
 cd tags/
 cat home-gjs-test-tags 
@@ -14822,11 +14807,7 @@ vim .gitignore
 cd .vim/plugged/coc.nvim/
 fzf
 l
-cd test/
-cd cpp/
-gdb a.out
 vim .gdbinit.d/auto 
-vim .gdbinit.d/
 git add -f .gdbinit.d
 git commit -m "upd"
 git push
@@ -14839,9 +14820,7 @@ rm .gdbinit
 wget --help
 pip install pygments
 cd fc/aruco/
-vim
 wget -P ~ git.io/.gdbinit
-git diff
 git log -p .gdbinit
 cd gh/
 rm gdb-dashboard/
@@ -14852,25 +14831,58 @@ cd gdb-dashboard/
 cp .gdbinit ~/.gdbinit
 cd build/
 gdb bin/image_saving_service 
-vim .gdbinit
 man test
-git log
-man readline
 git checkout HEAD~5 .config/dconf/user
 vim config.sh 
 git checkout HEAD~10 .config/dconf/user
-cd .vim/
-cd plugged/
-rm -rf vim-colorschemes/
-cd ~
-vim .vimrc
 git reset HEAD .config/dconf/user
 git checkout -- .config/dconf/user
 pkill dconf-service
 dconf dump / > .dconf
 dconf load / < .dconf
-man man
 glances
+cd plugged/vim-colorschemes/
+vim 
+git diff HEAD^
+man git-clone
+tldr git-clone
+cd git
+git clone --depth 1 git@github.com:Seldaek/monolog.git --branch 1.23.0 --single-branch
+cd monolog/
+git log
+rm -rf monolog/
+vim .inputrc 
+cd colors/
+cd test/
+cd cpp/
+vim 1.cpp
+g++ -g 10.cpp && ./a.out
+vim 10.cpp 
+vim 11.cpp 
+g++ -g 11.cpp && ./a.out
+vim .gdbinit
+vim .gdbinit.d/
+cd plugin/
+cd ..
+cd .vim/colors/
+vim konomi.vim 
+cd .vim/
+cd plugged/
+rm -rf vim-colorschemes/
+cd ~
+vim .vimrc
+man man
+man readline
+cd test/cpp/
+gdb a.out
+vim
 ls
+./11.cpp
+./a.out
+ps -ef | grep a.out
+gdb -p 2221
+sudo gdb -p 2221
+vim .gdbinit.d/init 
+git diff
 g
 ./config.sh push

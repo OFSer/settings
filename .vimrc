@@ -6,7 +6,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'tpope/vim-fugitive'
 	" Plug 'mhinz/vim-signify'
 	Plug 'airblade/vim-gitgutter'
-	Plug 'chinnkarahoi/vim-colorschemes'
+	Plug 'flazz/vim-colorschemes'
 	Plug 'sheerun/vim-polyglot'
 	Plug 'ludovicchabant/vim-gutentags'
 	let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project']

@@ -8,7 +8,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'neodark'
+let g:colors_name = 'konomi'
 
 " Functions {{{
 function! s:generate_base_colors(base1)
