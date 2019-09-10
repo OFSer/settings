@@ -39,3 +39,32 @@ bd(){
 		unset NEWPWD
 	fi
 }
+
+cd(){
+	local IFS=$'\n'
+	[ $# -eq 0 ] && {
+		set -- "$(cat <(ls -d */ 2> /dev/null || echo .) | shuf | head -n 1)"
+	}  
+	pushd . &> /dev/null
+	command cd "$@" 2>/dev/null || bd "$@" || {
+		popd +0 &> /dev/null
+		return
+	}
+	local j=0
+	for i in `dirs -l -p | sed -n '2,$p'`;do
+		let j+=1
+		[[ "$i" ==  "`pwd`" ]] && eval popd +$j > /dev/null
+	done
+	ls # && dirs
+}
+
+d(){
+	local j=0
+	RED='\033[01;31m'
+	BLUE='\033[01;36m'
+	NC='\033[0m'
+	for i in `dirs -p`;do
+		echo -e "$RED$j\t$NC$i$NC"
+		let j+=1
+	done
+}

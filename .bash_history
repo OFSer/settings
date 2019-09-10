@@ -1355,7 +1355,6 @@ top -H
 dirs --help
 dirs +1
 dirs -l
-dirs -p
 dirs -v
 \dirs -v
 pushd
@@ -8566,7 +8565,6 @@ ls -lh
 taocl 
 sudo apt  install xmlstarlet pandoc -y
 taocl
-nc
 sudo taocl
 cat config.sh | nl
 git log -p .bash_history | nl | more
@@ -9807,7 +9805,6 @@ make -j4 && ./create_board_charuco -m=25 -bb=1 -d=3  -h=13 --ml=60 --sl=100 -w=2
 eog 2.png
 make -j4 && ./create_board_charuco -m=125 -bb=1 -d=3  -h=13 --ml=300 --sl=500 -w=20 --si 2.png
 cd ar
-cd ~/fc/aruco/
 find . | grep routine
 git add 1.py
 git commit -m "sort corners"
@@ -10538,7 +10535,6 @@ mkdir -p obj/kern
 cd fds
 type cp
 mycd
-c
 type c
 c ~
 dirs -;
@@ -13539,7 +13535,6 @@ e
 git checkout -- src/uploader/uploader.go
 git diff .bash_history
 echo $PS1
-echo $LS_COLORS 
 c echo $
 c echo $ | grep CO
 c echo $ | grep COL
@@ -14306,8 +14301,6 @@ bd t
 cd iot-daemon/
 bt i
 bd i
-cd .
-c d
 bd r
 bd rtt
 rm .bash/bd.sh 
@@ -14468,7 +14461,6 @@ rm core
 bd afd
 bd fasd
 bd -si
-cd ~/fc/transformer-pipeline/
 bd transformer-pipeline 
 cd ~2
 bd asdfasdf
@@ -14672,7 +14664,6 @@ git add -f .gdbinit.d
 git commit -m "upd"
 cd ~/dockerfiles/
 wget https://github.com/cyrus-and/gdb-dashboard/blob/master/.gdbinit
-ll
 vim .gdbinit 
 rm .gdbinit 
 wget --help
@@ -14760,7 +14751,6 @@ cat .gdb_history
 vim .gdbinit.d/init 
 vim ~?.gdbinit.d/init 
 vim .gdbinit
-cd src/
 bat device/claw_collision_sensor/claw_collision_sensor.cpp 
 gdb a.out
 cd ~1
@@ -14782,7 +14772,6 @@ pstree -s -p 11691
 pstree -s  11691
 vim .bash_history 
 glances
-complete | grep _fzf | grep kill
 complete -o default -o nospace -F _fzf_complete_kill pstree
 complete -o nospace -F _fzf_complete_kill pstree
 fg
@@ -14800,7 +14789,6 @@ ps  -ef
 ps 28460
 ps 6 
 ps 4636 
-complete | grep _fzf
 history --help
 history -c
 ls .fzf_history 
@@ -14919,7 +14907,6 @@ echo
 ./config.sh push "upd bash"
 cd /fc/transformer-pipeline/
 cd logs/
-cd 
 cd $GITTOP
 gt
 f
@@ -14941,7 +14928,6 @@ alias
 _completion_loader
 sudo apt install bash-completion
 c ls -
-vim .bash_completion 
 ./config.sh push "fix"
 complete -p git
 vim .bash/PS1.
@@ -15054,7 +15040,6 @@ gencdb
 docker push --help
 man docker-push 
 help docker push 
-vim .bash
 cd .bash
 ls *.sh
 ls *.sh | xargs echo
@@ -15097,20 +15082,9 @@ eval echo '"$a"'
 eval echo "'$a'"
 eval alias 1="'cd ~1'"
 cd fc
-cd fc/
 cd transformer-pipeline/r
-cd transformer-pipeline/
-cd ~
-cd fc/transformer-pipeline/
-cd /home/
-1
-2
-cd frontend/
-cd proto/
 cd t
 cd temp/
-6
-3
 alias 1
 alias -s
 alias --help
@@ -15119,7 +15093,6 @@ set -o globstar
 man bash
 shopt -o globstar
 shopt -s globstar
-cd ..
 ls **
 ls **/*.cpp
 find .
@@ -15137,9 +15110,51 @@ find . | cat ** | wc -l
 ls **/*.cpp | xargs cat | wc -l
 ls **/*.{cpp,hpp,c,h} | xargs cat | wc -l
 vim
-ls
-g
-git diff
 gd
+cd ~/fc/aruco/
+fc
+frontend/
+src/
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Documents/
+type d
+vim .bash
+echo $LS_COLORS 
+echo $BLUE 
+echo $add
+dirs -p
+nc
+cd fc/
+cd transformer-pipeline/
+ll
+cd src/
+cd ~/fc/transformer-pipeline/
+cd proto/
+c
+cd .
+c d
+cd tools
+cd fc/transformer-pipeline/
+cd frontend/
+cd 
+complete | grep _fzf
+complete | grep _fzf | grep kill
+cd ~/.bash
+cd /home/
+vim .bash_completion 
+ls
+cd ~
+cd ..
 d
+git diff
+g
 ./config.sh push

@@ -63,32 +63,6 @@ callssh(){
 	sshpass -p 87Co7r \ssh -o StrictHostKeyChecking=no "$@" || sshpass -p s \ssh -o StrictHostKeyChecking=no "$@" || \ssh "$@"
 }
 
-cd(){
-	IFS=$'\n'
-	[ $# -eq 0 ] && {
-		command cd `cat <(ls -d */ 2> /dev/null || echo .) | shuf | head -n 1` && ls
-	} || {
-		pushd . &> /dev/null
-		command cd "$@" 2>/dev/null || bd "$@" || {
-			popd +0 &> /dev/null
-			return
-		}
-		j=0
-		for i in `dirs -l -p | sed -n '2,$p'`;do
-			let j+=1
-			[[ "$i" ==  "`pwd`" ]] && eval popd +$j > /dev/null
-		done
-		ls # && dirs
-	}
-}
-
-d(){
-	j=0
-	for i in `dirs -p`;do
-		echo -e "$j\t$i"
-		let j+=1
-	done
-}
 
 solve(){
 	[[ -f $2 ]] || return
@@ -110,7 +84,7 @@ solve(){
 }
 
 Git(){
-	IFS=$'\n'
+	local IFS=$'\n'
 	\git rev-parse --is-inside-work-tree &> /dev/null 2>&1 || { \git "$@";return; }
 	prepwd=`pwd`
 	toplevel="$(\git rev-parse --show-toplevel)/"
