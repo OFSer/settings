@@ -782,7 +782,6 @@ vim .local/share/app-info/xmls/extensions-web.xml
 git rm --cache .local/share/app-info/xmls/extensions-web.xml 
 cd .local/share/app-info/
 ./sql.sh 
-p
 pp
 git commit -m "ver 0.6.0"
 \vim
@@ -902,7 +901,6 @@ ls | egrep (os\|DM)
 ls | egrep \(os\|DM\)
 ls | egrep "(os|DM)"
 ssh -p 13462 hypereal@registry-corp.hypereal.com
-cd submodules/
 git commit -m "save in time"
 git commit -m "fix .h"
 git commit -a -m "fix buf"
@@ -7884,7 +7882,6 @@ bin/1
 make -j4 && bin/1
 cd gh/cis194/
 mkdir rttr
-cd rttr/
 touch CMakeLists.txt
 vim .giti
 mkdir cmake
@@ -8400,7 +8397,6 @@ cd ~/g
 cd ~/gh/
 qcd ..
 git clone https://github.com/bitemyapp/fp-course.git
-cd fp-course/
 gcc 1.c
 gcc -g 1.c
 sudo iptables-save
@@ -8835,7 +8831,6 @@ genycm
 git commit -m "add file load"
 ycmgen
 rm .ycm_extra_conf.py.bak 
-cd ~/test/cpp/rttr/
 git clone https://github.com/rttrorg/rttr
 vim CMake
 sudo vim 
@@ -12054,7 +12049,6 @@ chmod +x build_dpkg.sh
 git describe --tags --long
 chmod -x fstrim 
 chmod +x fstrim 
-cd script/
 c 'man '
 b --help
 c 'ls -'
@@ -13795,7 +13789,6 @@ sudo apt-get install clang-tools-8
 sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-8 100
 clangd
 cd ~/fc/shmmsg/
-cd flaw_checker/
 gencdb 
 cd shmmsg/
 cd ~/test/make/
@@ -14727,7 +14720,6 @@ cat en.ind
 cat en.ind  | wc -l
 cd dict_pys/
 cd gjs
-l
 rm core
 vim .gitglobalignore 
 vim .gitconfig 
@@ -14907,7 +14899,6 @@ cd /fc/transformer-pipeline/
 cd logs/
 cd $GITTOP
 gt
-f
 cd test/git/
 git checkout -b 123@234
 git checkout master
@@ -14950,7 +14941,6 @@ vim .vim/colors/konomi.vim
 vim --version
 vim --version | grep xterm
 asm
-cd gh/
 cd so/
 vim Makefile 
 cd gh/cos/
@@ -15018,7 +15008,6 @@ ping 10.0.10.102
 apt install ping
 ssh gjs@10.0.10.63
 \ssh gjs@10.0.10.63
-cd build/
 make -j4 image_saving_service && bin/image_saving_service 
 docker images -f “dangling=true” -q
 docker images -f dangling=true -q
@@ -15055,7 +15044,6 @@ cd .vim/plugged/
 cd nerdtree/
 vim 
 git clean -dff
-vim .vimrc
 cat .bashrc
 rm tm && vim --startuptime tm 
 t vinegar
@@ -15065,7 +15053,6 @@ alias 1='cd ~1'
 vim .bash/alias.sh
 vim .bash/
 seq 10
-xargs --help
 tldr xargs
 seq 10 | xargs -i alias {}='cd ~{}'
 seq 10 | xargs -i "alias {}='cd ~{}'"
@@ -15111,7 +15098,6 @@ cd ~/fc/aruco/
 fc
 frontend/
 src/
-1
 2
 3
 4
@@ -15129,7 +15115,6 @@ echo $BLUE
 echo $add
 dirs -p
 nc
-cd fc/
 cd transformer-pipeline/
 ll
 cd src/
@@ -15146,18 +15131,54 @@ complete | grep _fzf | grep kill
 cd ~/.bash
 cd /home/
 vim .bash_completion 
-cd ..
-d
-git diff
 docker images
 docker run -it workspace 
-cd fc/transformer-pipeline/
 perl cloc.pl /apps/projects/reallycoolapp --exclude-dir=lib,frameworks
 sudo apt install cloc
+vim config.sh 
+1
 cloc
+cd gh/
+cd fp-course/
+cd ~/test/cpp/rttr/
+cd rttr/
+clos .
+cd fc/
+ls | cloc 
+ls | xargs cloc 
+ls | xargs -i 'echo {};cloc {}'
+ls | xargs -i "echo {};cloc {}"
+ls | xargs -i (echo {};cloc {})
+ls | xargs -i { echo {};cloc {} }
+ls | xargs -i ( echo {};cloc {} )
+ls | xargs -i{} ( echo {};cloc {} )
+ls | xargs -I={} ( echo {};cloc {} )
+ls | xargs -I={}  echo {};cloc {} 
+xargs --help
+ls | xargs -i . { echo .;cloc .}
+ls | xargs -i . { echo .;cloc . }
+ls | xargs -i. { echo . ;cloc . }
+ls | xargs -i. ( echo . ;cloc . )
+ls | xargs -i. ( echo {} ;cloc {} )
+ls | xargs -i. {echo {} ;cloc {}}
+ls | xargs -i cloc
+ls | xargs -i cloc {}
+cd flaw_checker/
+cd submodules/
+cd script/
+cd build/
+cd online_files/
+cd ..
 cloc .
 cd ~
-vim config.sh 
+cd fc/transformer-pipeline/
+d
+git diff
+l
+f
+p
+vim .vimrc
 ls
+vim .bash/001_alias.sh 
 g
 ./config.sh push
