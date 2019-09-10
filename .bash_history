@@ -1627,7 +1627,6 @@ ps -efjp
 ps -ejfH
 ps -efH
 ps -e
-ps -ef
 ps -ef | head -n 1
 ps -eff | head -n 1
 ps -efj | head -n 1
@@ -14499,7 +14498,6 @@ cat .bash_history
 { cd fc }
 { cd fc; }
 { command cd fc; }
-type gd
 ccls
 ps -ef | grep docker
 pstree -s -t 7917
@@ -15092,7 +15090,6 @@ cat ** | wc -l
 find . | cat ** | wc -l
 ls **/*.cpp | xargs cat | wc -l
 ls **/*.{cpp,hpp,c,h} | xargs cat | wc -l
-vim
 gd
 cd ~/fc/aruco/
 fc
@@ -15176,9 +15173,31 @@ d
 git diff
 l
 f
-p
 vim .vimrc
-ls
 vim .bash/001_alias.sh 
+vim
+type gd
+ps -e -o pid,vsz,comm=
+ps -e -o pid,vsz,comm 30157
+ps -e -o pid,vsz,comm= 30157
+ps -o pid,vsz,comm= 30157
+ps -ef
+ps -jH -o uid,pid,ppid,vsz,comm=         30157
+ps -H -o uid,pid,ppid,vsz,comm=         30157
+ps -j -o uid,pid,ppid,vsz,comm=         30157
+ps -o uid,pid,ppid,vsz,comm= -H        30157
+ps -o uid,pid,ppid,vsz,comm=         30157
+ps -o uid,pid,ppid,vsz,comm=  -H       30157
+ps -o uid,pid,ppid,vsz,comm=  -H   3 
+_fzf_complete_kill 
+ps 27 
+p
+pstree -s 4 
+pstree -s -T 4 
+pstree -s  4 
+pstree -s  6058 
+export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -200'"
+vim .bash/000_env.sh 
+ls
 g
 ./config.sh push

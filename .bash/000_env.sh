@@ -27,4 +27,5 @@ export PATH="$HOME/.stack/programs/x86_64-linux/ghc-8.2.2/bin:$PATH"
 # export PAGER='vim -M +MANPAGER -c "set showtabline=1" -'
 export BAT_THEME="TwoDark"
 # export FZF_DEFAULT_OPTS='--preview="bat --color=always {}"'
-export FZF_DEFAULT_OPTS="--history=$HOME/.fzf_history"
+export FZF_DEFAULT_OPTS="--history=$HOME/.fzf_history --bind ctrl-l:page-down,ctrl-h:page-up"
+export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -200'"
