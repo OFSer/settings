@@ -47,8 +47,14 @@ RUN useradd -m -d /home/test -s /bin/bash -G sudo test
 RUN echo 's\ns\n' | passwd test
 RUN su test -c 'echo -e "\n" | brew'
 RUN su test -c 'brew install s-search'
-RUN apt install -y bash-completion cmdtest
+RUN apt install -y bash-completion
+
+RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+RUN apt update && apt install -y --no-install-recommends yarn
+
 RUN cd /root && git init && git clean -dff && git pull https://github.com/chinnkarahoi/settings
-RUN vim +"PlugInstall --sync" +qall
-# RUN bash -c 'vim -c "CocInstall -sync | cq" &> /dev/null'
+RUN vim -c "set showtabline=1 | let g:plug_window='open new' | set nonu | PlugInstall --sync" -c "q!" 
+RUN vim -c "CocInstall -sync | q!" 1 > /dev/null
+
 CMD ["/bin/bash"]

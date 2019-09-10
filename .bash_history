@@ -1046,7 +1046,6 @@ wget  \\share\TempExchange\HuangWei\tf-cc
 wget  smb://share/TempExchange/HuangWei/tf-cc
 curl  smb://share/TempExchange/HuangWei/tf-cc
 curl smb://share/TempExchange/HuangWei/tf-cc
-curl --help
 curl --help | grep login
 docker commit 69f59e1a45ca ubuntu:16.04
 history  | grep 'docker commit'
@@ -14809,7 +14808,6 @@ pstree -s 11691
 pstree -s -t 11691
 pstree -s -p 11691
 pstree -s  11691
-top
 vim .bash_history 
 glances
 complete | grep _fzf | grep kill
@@ -14927,7 +14925,6 @@ ls | find -maxdepth 1 -type f | xargs ls --color
 cd fc/
 cd transformer-pipeline/
 gd .bash/alias.sh
-gd
 git diff .bash/alias.sh
 gd .bash/after.sh
 git rev-parse --show-toplevel > /dev/null
@@ -14937,7 +14934,6 @@ readlink *
 readlink fc
 type f
 readlink -f fc
-d
 dirs
 dirs fc
 dirs /home
@@ -15015,7 +15011,6 @@ echo TERM
 echo $TERM
 ssh root@172.17.0.1
 \ssh root@172.17.0.1
-ifconfig
 git commit -m "add push"
 git add -A
 git commit -m "add log"
@@ -15023,13 +15018,11 @@ git push
 git diff .bash/env.sh
 sh
 bash
-git diff
 ccls --version
 cd dockerfiles/
 cd dev/
 vim -c "PlugInstall" -c "q!" -c "q!"
 vim -c "PlugInstall" -c "q!" -c "q!" &> /dev/null
-vim config.sh 
 docker stop test && docker container rm test
 docker container 
 docker container ls
@@ -15053,14 +15046,40 @@ docker exec -it transformer bash
 cd fc/transformer-pipeline/
 vim
 sudo apt install cmdtest
-cd ~
-yarn
-ls
-docker stop test && docker container prune -f
-docker run -it -v /fc:/fc -d --name test transformer 
-docker exec -it test bash
 vim .vimrc
-docker build -t transformer . 
-g
 git diff .vimrc
+cd .vim/plugged/markdown-preview.nvim/
+cd app/
+yarn install
+yarn --help
+man yarn
+sudo apt remove yarn
+sudo apt remove cmdtest
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+docker build -t transformer . 
+brew info yarn
+brew install yarn
+npm install yar
+npm install yarn
+sudo npm install yarn
+sudo npm install -g yarn
+yarn
+/usr/local/bin/yarn
+cd ~
+top
+docker run -it -v /fc:/fc -d --name test transformer 
+docker build -t workspace . 
+vim config.sh 
+curl --help
+help curl -s
+c curl --
+gd
+d
+git diff
+ls
+ifconfig
+docker stop test && docker container prune -f
+docker run -it --network="host" -v /fc:/fc -d --name test transformer 
+docker exec -it test bash
+g
 ./config.sh push

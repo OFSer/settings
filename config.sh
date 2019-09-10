@@ -85,6 +85,9 @@ install_desktop(){
 }
 install_vim(){
 	export DEBIAN_FRONTEND=noninteractive
+	curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+	echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+	sudo apt update && sudo apt install -y --no-install-recommends yarn
 	sudo apt install -y --no-install-recommends vim-gnome	locales curl vim
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
