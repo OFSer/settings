@@ -549,7 +549,6 @@ set -vx
 1234
 2513
 1253
-a=123
 set +vx
 a=ls
 eval '$a'
@@ -1072,7 +1071,6 @@ ssh root@dl-6 -p 30263
 bash --login
 bash --login /
 bash --help
-man bash
 man bash | grep dir
 docker rm 978c59a2d9a4
 docker rm <none>
@@ -2221,7 +2219,6 @@ tac 1
 cat <(tac 1) > 1
 echo 1
 seq 5
-seq 10
 seq 10 -1 1
 seq 1 1 10
 seq 1 2 10
@@ -2317,7 +2314,6 @@ perldoc
 time echo {1..4}s
 time echo {1..4}s | xargs -n 1 sleep
 time echo {1..4} | xargs -n 2 sleep
-xargs --help
 time echo {1..4} | xargs -n 2 cat
 time echo {1..4} | xargs cat
 time echo {1..4} | xargs -n 1 cat
@@ -3086,7 +3082,6 @@ cp -R pack tmp
 ls -ltr
 cd 70-85-C2-80-18-4E/
 ls *.png | xargs eog
-tldr xargs
 ls *.png | head -n 100 | xargs eog
 ls *.png | head -n 100
 ls *.png | head -n 1000 | xargs eog
@@ -3787,7 +3782,6 @@ whoam i
 whoami
 sudo vim /etc/passwd
 sudo vim /etc/group
-cd /home/
 sudo useradd ggg -G sudo
 su fff
 sudo passwd fff
@@ -8687,7 +8681,6 @@ readelf -S 1|grep debug
 gdb 1
 readelf -S 1
 mkdir txt
-cd t
 cd txt/
 vim 793.txt
 mv 793.txt tcp.txt
@@ -8745,7 +8738,6 @@ cd .conan/
 find . | grep variant
 find . | grep rttr
 cd ./data/rttr/
-find . | grep cpp
 find . |  grep cpp
 find . |  grep *.cpp
 cd ~/.conan/
@@ -8798,7 +8790,6 @@ sudo snap remove vscode
 sudo apt install libclang-4.0-dev 
 sudo apt install clang-8
 sudo apt install clang-8 -y
-git clean -dff
 git pull https://github.com/puremourning/ycmd-1/tree/alt-translation-unit
 rm -rf ycmd
 git clone https://github.com/puremourning/ycmd-1/tree/alt-translation-unit
@@ -8978,7 +8969,6 @@ echo $RTTR_ROOT
 find .  |grep RTTRConfig
 find .  |grep rttr-Config
 cd install/
-1
 export RTTR_DIR=/home/gjs/test/cpp/rttr/rttr/build/
 export RTTR_DIR=/home/gjs/test/cpp/rttr/rttr/
 bin/json_example 
@@ -13246,7 +13236,6 @@ git diff .vim/colors/konomi.vim
 git checkout -b his
 git checkout coc
 git reset 57ee95af8d378c8f8d3cfa9c53c19f1e533d4278
-cat .bashrc
 git gc --help
 git gc
 echo 4 > 4
@@ -14168,7 +14157,6 @@ type sctl
 type sctl
 type dirs 
 complete -F _complete_alias alert
-alias --help
 alias -p
 git diff HEAD~20 .bashrc
 git diff HEAD~50 .bashrc
@@ -14251,7 +14239,6 @@ cd bin/
 man brew
 cd ../linuxbrew/
 cd include/
-find .
 git diff .config/config.yml
 cat .config/config.yml
 cd .config/edit
@@ -14332,7 +14319,6 @@ bd s
 bd f
 cd ~3
 type bd
-vim .bash/
 bd fc gjs
 ./config.sh push "add bd"
 git branch
@@ -14490,7 +14476,6 @@ bd
 bd adsf
 echo $?
 bd ./fc
-cd proto/
 bd proto
 cd ~/test/
 mkdir bd/bd/bd
@@ -14499,7 +14484,6 @@ cd bd/bd/bd/
 cd bd/bd/
 bd bd
 fc bd bd
-cd transformer-pipeline/r
 cd home
 cd fron
 cd asdfasdf
@@ -14522,8 +14506,6 @@ c ls ' ' | grep home
 c cd ' ' | grep home
 c cd ' '
 glances 
-cd fc
-cd frontend/
 sudo f
 sudo -i f
 su
@@ -14729,8 +14711,6 @@ vim 11.cpp
 g++ -g 11.cpp && ./a.out
 vim .gdbinit.d/
 cd plugin/
-cd .vim/
-cd plugged/
 ./11.cpp
 ./a.out
 ps -ef | grep a.out
@@ -14911,8 +14891,6 @@ ls | find -maxdepth 1 -type f
 ls | find -maxdepth 1 -type f | ls
 ls | find -maxdepth 1 -type f | xargs ls
 ls | find -maxdepth 1 -type f | xargs ls --color
-cd fc/
-cd transformer-pipeline/
 gd .bash/alias.sh
 git diff .bash/alias.sh
 gd .bash/after.sh
@@ -15047,14 +15025,11 @@ docker run -it -v /fc:/fc -d --name test transformer
 curl --help
 help curl -s
 c curl --
-gd
-d
 ifconfig
 docker stop test && docker container prune -f
 docker run -it --network="host" -v /fc:/fc -d --name test transformer 
 docker exec -it test bash
 docker build -t workspace . 
-vim
 ping 10.0.10.102
 apt install ping
 ssh gjs@10.0.10.63
@@ -15072,7 +15047,6 @@ docker tag workspace:latest transformer_dev
 git images
 docker images
 docker push transformer_dev:latest 
-cd fc/transformer-pipeline/
 \ssh gjs@10.0.10.102
 vim config.sh 
 \ssh sihe@10.0.10.102
@@ -15087,10 +15061,8 @@ ls *.sh | xargs echo
 ls *.sh | xargs -i echo {}
 git add -A
 cd .bash/
-cd ..
 vim .bashrc
 git push
-git diff
 vim --help
 vim --startuptime 
 vim --startuptime .vimrc
@@ -15100,9 +15072,74 @@ rm tm
 vim --startuptime tm
 cd .vim/plugged/
 cd nerdtree/
-ls
 vim 
-cd ~
+git clean -dff
 vim .vimrc
+cat .bashrc
+rm tm && vim --startuptime tm 
+t vinegar
+cd .vim/
+cd plugged/
+alias 1='cd ~1'
+vim .bash/alias.sh
+vim .bash/
+seq 10
+xargs --help
+tldr xargs
+seq 10 | xargs -i alias {}='cd ~{}'
+seq 10 | xargs -i "alias {}='cd ~{}'"
+seq 10 | xargs -i {} alias {}='cd ~{}'
+seq 10 | xargs --replace={} alias {}='cd ~{}'
+seq 10 | xargs --replace='{}' alias {}='cd ~{}'
+seq 10 | xargs alias {}='cd ~{}'
+a=123
+eval echo '"$a"'
+eval echo "'$a'"
+eval alias 1="'cd ~1'"
+cd fc
+cd fc/
+cd transformer-pipeline/r
+cd transformer-pipeline/
+cd ~
+cd fc/transformer-pipeline/
+cd /home/
+1
+2
+cd frontend/
+cd proto/
+cd t
+cd temp/
+6
+3
+alias 1
+alias -s
+alias --help
+set -o globstart
+set -o globstar
+man bash
+shopt -o globstar
+shopt -s globstar
+cd ..
+ls **
+ls **/*.cpp
+find .
+ls *.cpp **/*.cpp | wc -l
+ls **/*.cpp | wc -l
+find . | grep cpp | wc -l
+find . | grep cpp
+find . | grep 'cpp$'
+find . | grep 'cpp$' | wc -l
+find . | grep 'cpp$' | cat | wc -l
+find . | grep 'cpp$' | cat
+find . | grep 'cpp$' | xargs cat | wc -l
+cat ** | wc -l
+find . | cat ** | wc -l
+ls **/*.cpp | xargs cat | wc -l
+ls **/*.{cpp,hpp,c,h} | xargs cat | wc -l
+vim
+ls
 g
+git diff
+gd
+d
 ./config.sh push

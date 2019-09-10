@@ -82,6 +82,14 @@ cd(){
 	}
 }
 
+d(){
+	j=0
+	for i in `dirs -p`;do
+		echo -e "$j\t$i"
+		let j+=1
+	done
+}
+
 solve(){
 	[[ -f $2 ]] || return
 	clang_exts=("cpp" "c" "hpp" "h")
