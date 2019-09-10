@@ -8011,7 +8011,6 @@ git commit -m "disable auto upd"
 git remote show orogin
 git rev-parse {
 cd ai-cloth/
-docker imgaes
 docker tag registry-sho.hypereal.com/ci/flawck-mk3:1.0.1 registry-sho.hypereal.com/ci/flawck-mk3:latest
 docker push registry-sho.hypereal.com/ci/flawck-mk3:latest 
 make -j4 
@@ -14626,7 +14625,6 @@ su --help
 su test ls
 su test -c ls
 sudo apt install -y linuxbrew-wrapper
-docker images
 complete docker
 complete -p docker
 complete -p | grep docker 
@@ -14657,7 +14655,6 @@ s -p zhihu vim preview terminal
 s -p zhihu vim  terminal
 s -p zhihu vim  f12
 vim .vim/plugin/term.vim 
-make -j4 image_saving_service && bin/image_saving_service 
 man res
 free -hm
 gitdiff
@@ -14711,7 +14708,6 @@ rm -rf gdb-dashboard/
 git clone https://github.com/cyrus-and/gdb-dashboard
 cd gdb-dashboard/
 cp .gdbinit ~/.gdbinit
-cd build/
 gdb bin/image_saving_service 
 git checkout HEAD~5 .config/dconf/user
 git checkout HEAD~10 .config/dconf/user
@@ -14874,7 +14870,6 @@ fzf-file-widget
 __fzf_history__ 
 `fzf-file-widget`
 cd fc 
-cd ..
 cd `fzf-file-widget`
 cd fzf
 fzf
@@ -14894,8 +14889,6 @@ cat ~/.bash_history
 su gjs
 vim .bash_profile 
 vim .profile 
-ssh gjs@10.0.10.63
-\ssh gjs@10.0.10.63
 git log .profile
 ls .*
 ech o.*
@@ -14966,7 +14959,6 @@ c git ch
 docker run -it vim bash
 \ssh sihe@10.0.10.161
 \ssh sihe@10.0.10.141
-\ssh sihe@10.0.10.102
 complete -p
 complete -p | grep git
 __git_wrap__git_main
@@ -15018,7 +15010,6 @@ git push
 git diff .bash/env.sh
 sh
 bash
-ccls --version
 cd dockerfiles/
 cd dev/
 vim -c "PlugInstall" -c "q!" -c "q!"
@@ -15043,8 +15034,6 @@ rm -rf mathjax-support-for-mkdp/
 vim 
 docker run  --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 docker exec -it transformer bash
-cd fc/transformer-pipeline/
-vim
 sudo apt install cmdtest
 vim .vimrc
 git diff .vimrc
@@ -15065,21 +15054,44 @@ sudo npm install yarn
 sudo npm install -g yarn
 yarn
 /usr/local/bin/yarn
-cd ~
 top
 docker run -it -v /fc:/fc -d --name test transformer 
-docker build -t workspace . 
-vim config.sh 
 curl --help
 help curl -s
 c curl --
 gd
 d
-git diff
-ls
 ifconfig
 docker stop test && docker container prune -f
 docker run -it --network="host" -v /fc:/fc -d --name test transformer 
 docker exec -it test bash
+docker build -t workspace . 
+git diff
+vim
+ping 10.0.10.102
+apt install ping
+ssh gjs@10.0.10.63
+\ssh gjs@10.0.10.63
+cd build/
+make -j4 image_saving_service && bin/image_saving_service 
+docker push --help
+docker images -f “dangling=true” -q
+docker images -f dangling=true -q
+docker rmi `docker images -f dangling=true -q`
+docker imgaes
+npm search ccls
+ccls --version
+docker tag transformer:latest workspace
+docker tag workspace:latest transformer_dev
+git images
+docker images
+docker push transformer_dev:latest 
+cd fc/transformer-pipeline/
+cd ..
+cd ~
+ls
+\ssh gjs@10.0.10.102
+vim config.sh 
+\ssh sihe@10.0.10.102
 g
 ./config.sh push
