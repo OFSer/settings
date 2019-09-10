@@ -20,6 +20,7 @@ load $HOME/.bash/mycmd.sh
 load $HOME/.bash/ycm.sh
 load $HOME/.bash/onexit.sh
 load $HOME/.bash/bd.sh
+load $HOME/.bash/gen.sh
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 load $HOME/.bash/complete.sh
 load $HOME/.bash/after.sh

@@ -14082,7 +14082,6 @@ cd fc/shmmsg/
 git diff .vim
 type OnStart
 git diff HEAD^ .bash_history
-gencdb
 cat compile_commands.json | grep appear
 ps -e -o pid,vsz,comm= | sort -n -k 2
 free -mh
@@ -14997,8 +14996,6 @@ cd gh/
 cd so/
 vim Makefile 
 cd gh/cos/
-vim .bashrc
-vim .bash
 echo TERM
 echo $TERM
 ssh root@172.17.0.1
@@ -15093,5 +15090,8 @@ ls
 \ssh gjs@10.0.10.102
 vim config.sh 
 \ssh sihe@10.0.10.102
+gencdb
+vim .bash
+vim .bashrc
 g
 ./config.sh push
