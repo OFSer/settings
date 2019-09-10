@@ -12,6 +12,7 @@ export HISTCONTROL=erasedups:ignoredups
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US
 export LC_ALL=en_US.utf8
+export TERM=xterm-256color
 # export GOPATH="$HOME/go"
 export GOROOT="/snap/go/4289" #go1.12.1
 export PATH=/home/gjs/go/bin:$GOROOT/bin:/snap/bin:/home/linuxbrew/.linuxbrew/bin:$PATH

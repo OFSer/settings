@@ -47,5 +47,8 @@ RUN useradd -m -d /home/test -s /bin/bash -G sudo test
 RUN echo 's\ns\n' | passwd test
 RUN su test -c 'echo -e "\n" | brew'
 RUN su test -c 'brew install s-search'
-RUN apt install -y bash-completion
+RUN apt install -y bash-completion cmdtest
+RUN cd /root && git init && git clean -dff && git pull https://github.com/chinnkarahoi/settings
+RUN vim +"PlugInstall --sync" +qall
+# RUN bash -c 'vim -c "CocInstall -sync | cq" &> /dev/null'
 CMD ["/bin/bash"]

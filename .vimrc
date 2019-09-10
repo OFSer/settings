@@ -32,7 +32,8 @@ call plug#begin('~/.vim/plugged')
 	Plug 'cpiger/NeoDebug'
 	Plug 'hdima/python-syntax'
 	Plug 'iamcco/mathjax-support-for-mkdp'
-	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
+	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
+	" Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 	let g:mkdp_auto_close = 0
 	" Plug 'jackguo380/vim-lsp-cxx-highlight'
 

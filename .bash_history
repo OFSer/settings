@@ -1014,7 +1014,6 @@ su ~ usr
 su usr
 sudo ssh gjs@127.0.0.1
 lsof -i:22
-ifconfig
 sudo apt install net-tools
 ssh -p 17077 hypereal@registry-corp.hypereal.com
 g++ 1.cpp -o 1
@@ -1599,7 +1598,6 @@ kill 31391
 ./run.sh file:///home/gjs/fc/saki_detection/pack/大丰05-GPU号/camera06-190221-142205-S5 
 ./run.sh -pgu
 ./run.sh -pfu
-sh
 git diff HEAD^^
 git diff HEAD^^^
 history | grep craw
@@ -7229,7 +7227,6 @@ ssh -o "StrictHostKeyChecking no" -p 12741 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 11714 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 12778 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 15446 hypereal@registry-corp.hypereal.com
-git diff .bash/env.sh
 git diff .vim/
 cat .vim/.netrwhist
 cat .vim/ftplugin/haskell.vim
@@ -7992,7 +7989,6 @@ docker restart f12e4b5ea957
 docker restart f12e4b5ea957 -it bash
 docker container prune 
 docker imgeas
-docker container ls
 docker run -it registry-sho.hypereal.com/ci/flawck-mk3:latest 
 docker exec -it 283bab682488
 docker exec -it 283bab682488 bash
@@ -8682,7 +8678,6 @@ POST --help
 type POST
 GET baidu.com
 GET https://baidu.com
-rm -rf markdown-preview.nvim/
 cd aruco/
 lc
 sudo du -hd1
@@ -9138,7 +9133,6 @@ sudo apt install qemu
 man qemu
 cd ~/gh/so/
 cd ../../ho/src/
-cd so/
 apt install bochs
 hexdump
 apt install hexdump
@@ -11324,7 +11318,6 @@ git commit -m "fix rec bug"
 du -hd1 .git
 id -u
 cd ../so
-vim Makefile 
 git commit -m "print as json"
 git checkout -- config.go
 ssh -p 20001 gjs@10.0.10.63
@@ -11368,7 +11361,6 @@ cd fc//http//
 rm -rf http
 rm -rf http-hello/
 vim hello.asm 
-cd gh/cos/
 cd cos/
 vim makenv.mk 
 \ssh 10.0.10.164
@@ -13632,7 +13624,6 @@ snapctl
 snap --help
 snap install ccls 
 systemctl 
-docker container 
 docker commit 00f42cd1334c transformer:latest 
 docker images --help 
 docker run -it -v ~:/root -d --name transfomer transformer bash
@@ -14034,7 +14025,6 @@ rm -rf vim-colorscheme-switcher/
 cd autoload/
 ping 2408:84e2:1181:b85e:35bc:5a9d:5ba4:c326
 ping 2408:84e2:181:b85e:35bc:5a9d:5ba4:c326
-vim --version
 ./config.sh push && git checkout master
 git remote add origin http://github.com/chinnkarahoi/settings.git
 nc -l 3000
@@ -14354,7 +14344,6 @@ bd fc gjs
 git branch
 git merge coc
 npm install -g t-get
-yarn
 sudo npm install -g t-get
 tget
 tget 'magnet:?xt=urn:btih:0403fb4728bd788fbcb67e87d6feb241ef38c75a'
@@ -14656,9 +14645,6 @@ cat ~/.bashrc
 complete -p | grep docker
 . .bash_completion 
 apt install bash-completion
-cd dockerfiles/
-cd dev/
-docker build -t transformer . 
 cd /fc/
 pstree
 git diff .bash
@@ -14678,7 +14664,6 @@ free -hm
 gitdiff
 git commit -m "add config"
 brew search ccls
-git add -A
 git commit -m "add deb service"
 pstree ccls
 tree --help
@@ -14721,7 +14706,6 @@ pip install pygments
 cd fc/aruco/
 wget -P ~ git.io/.gdbinit
 git log -p .gdbinit
-cd gh/
 rm gdb-dashboard/
 rm -r gdb-dashboard/
 rm -rf gdb-dashboard/
@@ -14808,7 +14792,6 @@ vim .gdbinit
 cd src/
 bat device/claw_collision_sensor/claw_collision_sensor.cpp 
 gdb a.out
-vim config.sh 
 cd ~1
 vim ~/.gdbinit.d/init 
 cd test/cpp/
@@ -14865,7 +14848,6 @@ git add -f .*history
 cat .node_repl_history 
 cat .python_history 
 git commit -m "add history"
-git push
 cat .profile 
 git log profile
 git log -p profile
@@ -14964,8 +14946,6 @@ pwd
 docker run -it -d --name vim vim bash
 docker exec -it vim bash
 echo $=TERM
-bash
-echo $TERM
 echo $_TERM
 [ -x /usr/bin/tput ] && echo 1
 test --help
@@ -15000,40 +14980,87 @@ _completion_loader
 sudo apt install bash-completion
 c ls -
 vim .bash_completion 
-git diff
 ./config.sh push "fix"
 complete -p git
-git log
 vim .bash/PS1.
-vim .bashrc
-vim .bash
 vim .inputrc 
 vim makefile 
 vim README.md 
-vim 
 cd .vim/colors/
 vim konomi.vim 
 vim .vim
 vim .vim/colors/
 vim build.sh 
 git checkout -- .vim
-git diff .vimrc
 git checkout -- .vimrc
-cd .vim/plugged/
 rm -rf vim-colorschemes/
-cd ~
 git diff .inputrc
 g 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc   -d --name transformer transformer 
-vim .vim/colors/konomi.vim 
-docker stop transformer && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
+vim CMakeLists.txt 
+cat .config/configstore/update-notifier-npm.json
+git log
+vim .vim/colors/konomi.vim 
+vim --version
+vim --version | grep xterm
+asm
+cd gh/
+cd so/
+vim Makefile 
+cd gh/cos/
+vim .bashrc
+vim .bash
+echo TERM
+echo $TERM
+ssh root@172.17.0.1
+\ssh root@172.17.0.1
+ifconfig
+git commit -m "add push"
+git add -A
+git commit -m "add log"
+git push
+git diff .bash/env.sh
+sh
+bash
+git diff
+ccls --version
+cd dockerfiles/
+cd dev/
+vim -c "PlugInstall" -c "q!" -c "q!"
+vim -c "PlugInstall" -c "q!" -c "q!" &> /dev/null
+vim config.sh 
+docker stop test && docker container rm test
+docker container 
+docker container ls
+vim -c "PlugInstall"
+vim -c "PlugInstall" -c "cq"
+vim -c "PlugInstall" -c "cq" &> /dev/null
+vim +'PlugInstall --sync' +qall 
+vim +'PlugInstall --sync' 
+docker stop transformer && docker container prune -f
+ls | grep markdown
+ls | grep markdown | xargs rm -rf
+cd .vim/plugged/
+ls | grep mk
+ls | grep math
+ls | grep mark
+rm -rf markdown-preview.nvim/
+rm -rf mathjax-support-for-mkdp/
+vim 
+docker run  --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 docker exec -it transformer bash
 cd fc/transformer-pipeline/
 vim
-vim .vimrc
-vim CMakeLists.txt 
+sudo apt install cmdtest
+cd ~
+yarn
 ls
+docker stop test && docker container prune -f
+docker run -it -v /fc:/fc -d --name test transformer 
+docker exec -it test bash
+vim .vimrc
+docker build -t transformer . 
 g
-cat .config/configstore/update-notifier-npm.json
+git diff .vimrc
 ./config.sh push
