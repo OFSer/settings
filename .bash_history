@@ -14327,7 +14327,6 @@ bd r
 bd rtt
 rm .bash/bd.sh 
 git checkout -- .bash_completion
-cd .bash
 vim bd.sh
 mv bd.sh bd
 bd h
@@ -15071,7 +15070,6 @@ ssh gjs@10.0.10.63
 \ssh gjs@10.0.10.63
 cd build/
 make -j4 image_saving_service && bin/image_saving_service 
-docker push --help
 docker images -f “dangling=true” -q
 docker images -f dangling=true -q
 docker rmi `docker images -f dangling=true -q`
@@ -15086,12 +15084,28 @@ docker push transformer_dev:latest
 cd fc/transformer-pipeline/
 cd ..
 cd ~
-ls
 \ssh gjs@10.0.10.102
 vim config.sh 
 \ssh sihe@10.0.10.102
 gencdb
-vim .bash
 vim .bashrc
-g
 ./config.sh push
+cd .bash
+ls *.sh
+ls
+docker push --help
+man docker-push 
+help docker push 
+vim .bash
+g
+ls
+g
+git diff
+g
+ls
+cd .bash
+ls *.sh
+ls *.sh | xargs echo
+ls *.sh | xargs -i echo {}
+g
+git add -A
