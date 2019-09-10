@@ -28,7 +28,7 @@ call plug#begin('~/.vim/plugged')
 	" Plug 'skywind3000/asyncrun.vim'
 	Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 	Plug 'chinnkarahoi/haskell-vim'
-	Plug 'vim-scripts/Conque-GDB'
+	" Plug 'vim-scripts/Conque-GDB'
 	Plug 'cpiger/NeoDebug'
 	Plug 'hdima/python-syntax'
 	Plug 'iamcco/mathjax-support-for-mkdp'

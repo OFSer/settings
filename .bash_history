@@ -1870,7 +1870,6 @@ rm grep
 git clone http://gitlab.sho.hypereal.com/AIFactory/dl-k8s-kube
 git clone git@gitlab.sho.hypereal.com:AIFactory/dl-k8s-kube.git
 cd dl-k8s-kube/
-vim --help
 ssh -p 17458 hypereal@registry-corp.hypereal.com
 ./run.sh -n
 sudo chown gjs *
@@ -13830,7 +13829,6 @@ cd ccls/
 mv ccls dev
 his
 sudo apt install moreutils
-cd .bash/
 vim alias.sh 
 cd bash/
 vim 1
@@ -14978,7 +14976,6 @@ vim .vim
 vim .vim/colors/
 vim build.sh 
 git checkout -- .vim
-git checkout -- .vimrc
 rm -rf vim-colorschemes/
 git diff .inputrc
 g 
@@ -15000,9 +14997,7 @@ echo $TERM
 ssh root@172.17.0.1
 \ssh root@172.17.0.1
 git commit -m "add push"
-git add -A
 git commit -m "add log"
-git push
 git diff .bash/env.sh
 sh
 bash
@@ -15021,17 +15016,14 @@ vim +'PlugInstall --sync'
 docker stop transformer && docker container prune -f
 ls | grep markdown
 ls | grep markdown | xargs rm -rf
-cd .vim/plugged/
 ls | grep mk
 ls | grep math
 ls | grep mark
 rm -rf markdown-preview.nvim/
 rm -rf mathjax-support-for-mkdp/
-vim 
 docker run  --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 docker exec -it transformer bash
 sudo apt install cmdtest
-vim .vimrc
 git diff .vimrc
 cd .vim/plugged/markdown-preview.nvim/
 cd app/
@@ -15062,7 +15054,6 @@ docker stop test && docker container prune -f
 docker run -it --network="host" -v /fc:/fc -d --name test transformer 
 docker exec -it test bash
 docker build -t workspace . 
-git diff
 vim
 ping 10.0.10.102
 apt install ping
@@ -15082,30 +15073,36 @@ git images
 docker images
 docker push transformer_dev:latest 
 cd fc/transformer-pipeline/
-cd ..
-cd ~
 \ssh gjs@10.0.10.102
 vim config.sh 
 \ssh sihe@10.0.10.102
 gencdb
-vim .bashrc
-./config.sh push
-cd .bash
-ls *.sh
-ls
 docker push --help
 man docker-push 
 help docker push 
 vim .bash
-g
-ls
-g
-git diff
-g
-ls
 cd .bash
 ls *.sh
 ls *.sh | xargs echo
 ls *.sh | xargs -i echo {}
-g
 git add -A
+cd .bash/
+cd ..
+vim .bashrc
+git push
+git diff
+vim --help
+vim --startuptime 
+vim --startuptime .vimrc
+git checkout -- .vimrc
+vim tm
+rm tm
+vim --startuptime tm
+cd .vim/plugged/
+cd nerdtree/
+ls
+vim 
+cd ~
+vim .vimrc
+g
+./config.sh push
