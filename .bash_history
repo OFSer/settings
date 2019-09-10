@@ -6489,8 +6489,6 @@ git branch -d jumpserver
 icdiff
 icdiff main.py misc.py
 diff main.py misc.py
-cloc
-sudo apt install cloc
 cloc main.py
 cat main.py
 cloc *.py
@@ -15031,10 +15029,8 @@ ccls --version
 docker tag transformer:latest workspace
 docker tag workspace:latest transformer_dev
 git images
-docker images
 docker push transformer_dev:latest 
 \ssh gjs@10.0.10.102
-vim config.sh 
 \ssh sihe@10.0.10.102
 gencdb
 docker push --help
@@ -15143,7 +15139,6 @@ c
 cd .
 c d
 cd tools
-cd fc/transformer-pipeline/
 cd frontend/
 cd 
 complete | grep _fzf
@@ -15151,10 +15146,18 @@ complete | grep _fzf | grep kill
 cd ~/.bash
 cd /home/
 vim .bash_completion 
-ls
-cd ~
 cd ..
 d
 git diff
+docker images
+docker run -it workspace 
+cd fc/transformer-pipeline/
+perl cloc.pl /apps/projects/reallycoolapp --exclude-dir=lib,frameworks
+sudo apt install cloc
+cloc
+cloc .
+cd ~
+vim config.sh 
+ls
 g
 ./config.sh push

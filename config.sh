@@ -40,7 +40,7 @@ install_wd(){
 }
 install_tools(){
 	sudo apt install -y most tldr docker.io moreutils bvi silversearcher-ag glances
-	sudo apt install -y git sshpass jq curl cppman httpie
+	sudo apt install -y git sshpass jq curl cppman httpie cloc
 	sudo apt install -y overlay-scrollbar unity-tweak-tool notify-osd
 	sudo apt install -y steam usb-creator-gtk
 	sudo apt install -y compizconfig-settings-manager
