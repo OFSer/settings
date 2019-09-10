@@ -21,3 +21,5 @@ $if Gdb
 	"b": "dashboard -layout breakpoints\n"
 	"v": "dashboard -layout variables\n"
 $endif
+"\C-x\C-t": fzf-file-widget
+"\C-t": transpose-chars

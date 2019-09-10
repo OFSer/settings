@@ -419,7 +419,6 @@ touch fff
 sudo ./1
 vim mmap.cpp
 vim README.md
-vim README.md 
 vim .gitignore
 git rm --cached 1
 git commit -m "fm"
@@ -8974,7 +8973,6 @@ make install
 git clone https://github.com/doxygen/doxygen.git
 vim saki_detection/
 cd boost/
-vim build.sh 
 cd doxygen
 cmake -G "Unix Makefiles" ..
 echo $BOOST_ROOT
@@ -9254,7 +9252,6 @@ git add boot.s
 git diff makefile
 git add makefile 
 git commit -m "upd:
-vim makefile 
 git sattus
 vim build
 vim env.sh
@@ -10212,7 +10209,6 @@ g++ -std=c++14 dice_game.cpp  -I/usr/lib -L/usr/local/lib -lboost_coroutine -lbo
 g -s
 g s -s
 g s
-g 
 git status s
 git status t
 ll -h .bash_history 
@@ -13265,7 +13261,6 @@ cat .bashrc
 git gc --help
 git gc
 echo 4 > 4
-git diff .inputrc
 vim 4
 docker exec vim
 docker exec vim bash
@@ -13684,7 +13679,6 @@ ls /snap
 export PATH=$PATH:/snap/bin/
 vim ~/.vimrc
 vim  
-git diff .vimrc
 sudo
 sud oapt install sudo
 sudo apt install sudo
@@ -13879,7 +13873,6 @@ rm -rf fzf.vim/
 mkdir ls
 sudo apt-get install fzf
 cat .fzf.bash
-git checkout -- .vimrc
 sudo mv fc /root
 sudo mv fc /root/
 sudo mv fc /root/fc/
@@ -14140,7 +14133,6 @@ node --help
 vim .vim/plugin/keymap.vim 
 ffffffffffffffffffffffffffffffffffffffffffffff
 vimdiff 
-vim .vim
 vim .vimrc 
 man git-config 
 sudo apt install icdiff
@@ -14367,13 +14359,11 @@ sudo npm install -g t-get
 tget
 tget 'magnet:?xt=urn:btih:0403fb4728bd788fbcb67e87d6feb241ef38c75a'
 sudo npm install -g dockerfile-language-server-nodejs
-cat .config/configstore/update-notifier-npm.json
 sudo apt install startup-disk-creator
 ll  /usr/share/applications/ | grep disk
 ll  /usr/share/applications/ | grep Disk
 ll  /usr/share/applications/ | grep Cre
 ll  /usr/share/applications/ | grep Start
-vim CMakeLists.txt 
 cd ~/test/cpp/
 t biege
 t beige
@@ -14669,8 +14659,6 @@ apt install bash-completion
 cd dockerfiles/
 cd dev/
 docker build -t transformer . 
-docker stop transformer && docker container prune -f
-docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 cd /fc/
 pstree
 git diff .bash
@@ -14710,7 +14698,6 @@ cat home-gjs-tags.temp
 cd .cache/tags/
 vim fc-transformer-pipeline-tags 
 cd .cache/tags
-cd .vim/plugged/
 cd nerdtree
 git remote show origin
 git diff .config/coc/memos.json
@@ -14757,7 +14744,6 @@ tldr git-clone
 cd git
 git clone --depth 1 git@github.com:Seldaek/monolog.git --branch 1.23.0 --single-branch
 cd monolog/
-git log
 rm -rf monolog/
 cd colors/
 cd cpp/
@@ -14768,12 +14754,8 @@ vim 11.cpp
 g++ -g 11.cpp && ./a.out
 vim .gdbinit.d/
 cd plugin/
-cd .vim/colors/
-vim konomi.vim 
 cd .vim/
 cd plugged/
-rm -rf vim-colorschemes/
-vim
 ./11.cpp
 ./a.out
 ps -ef | grep a.out
@@ -14846,7 +14828,6 @@ pstree -s -p 11691
 pstree -s  11691
 top
 vim .bash_history 
-vim .inputrc 
 glances
 complete | grep _fzf | grep kill
 complete -o default -o nospace -F _fzf_complete_kill pstree
@@ -14856,7 +14837,6 @@ pstree --help
 pstree -s -t 11288 
 pstree -s -p -T 11288 
 vim .bashrc 
-vim 
 sleep 1000 &
 ps -ef | grep sleep
 ps -ef 
@@ -14898,7 +14878,6 @@ cat tags | wc -l
 ll tags 
 ll -h tags 
 rm tags 
-vim .vimrc
 bind -p 
 bind -p  | grep 'C\-t'
 bind -p  | grep 'C-t'
@@ -14995,15 +14974,12 @@ man test
 tput
 echo
 ./config.sh push "upd bash"
-docker exec -it transformer bash
 cd /fc/transformer-pipeline/
 cd logs/
 cd 
 cd $GITTOP
 gt
 f
-cd fc/transformer-pipeline/
-cd ~
 cd test/git/
 git checkout -b 123@234
 git checkout master
@@ -15017,7 +14993,6 @@ docker run -it vim bash
 \ssh sihe@10.0.10.102
 complete -p
 complete -p | grep git
-complete -p git
 __git_wrap__git_main
 git log -p .bash_completion
 alias 
@@ -15025,10 +15000,40 @@ _completion_loader
 sudo apt install bash-completion
 c ls -
 vim .bash_completion 
-./config.sh push
-vim .bash
 git diff
+./config.sh push "fix"
+complete -p git
+git log
+vim .bash/PS1.
 vim .bashrc
+vim .bash
+vim .inputrc 
+vim makefile 
+vim README.md 
+vim 
+cd .vim/colors/
+vim konomi.vim 
+vim .vim
+vim .vim/colors/
+vim build.sh 
+git checkout -- .vim
+git diff .vimrc
+git checkout -- .vimrc
+cd .vim/plugged/
+rm -rf vim-colorschemes/
+cd ~
+git diff .inputrc
+g 
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc   -d --name transformer transformer 
+vim .vim/colors/konomi.vim 
+docker stop transformer && docker container prune -f
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
+docker exec -it transformer bash
+cd fc/transformer-pipeline/
+vim
+vim .vimrc
+vim CMakeLists.txt 
 ls
 g
-./config.sh push "fix"
+cat .config/configstore/update-notifier-npm.json
+./config.sh push
