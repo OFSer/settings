@@ -7142,7 +7142,6 @@ stack ghc-mod
 find . | grep ghc-mod
 find . | grep ghc\-mod
 find . | grep ghc
-cd .local/bin/
 type stack
 cd stack
 ssh -o "StrictHostKeyChecking no" -p 18477 hypereal@registry-corp.hypereal.com
@@ -11014,7 +11013,6 @@ cc -print-libgcc-file-name
 cc -m32 -print-libgcc-file-name
 cd .vim/plugged/vim-go/
 cd src/ssh-proxy/
-git lgo
 git checkout e667f38c9a51bbb897881165ad36bb60d7b8829c
 git reset e667f38c9a51bbb897881165ad36bb60d7b8829c
 gg
@@ -14173,7 +14171,6 @@ vim .dconf
 dconf dump /  > .dconf
 git checkout -- .dconf
 bash -c  "$(wget -qO- https://git.io/vQgMr)"
-./config.sh pull
 t borg
 wget https://github.com/ok-borg/borg/releases/download/v0.0.3/borg_linux_amd64 -O /usr/local/bin/borg
 chmod 755 /usr/local/bin/borg
@@ -14871,8 +14868,6 @@ git diff .inputrc
 g 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc   -d --name transformer transformer 
 vim CMakeLists.txt 
-git log
-vim .vim/colors/konomi.vim 
 vim --version
 vim --version | grep xterm
 asm
@@ -14965,7 +14960,6 @@ vim tm
 vim --startuptime tm
 cd .vim/plugged/
 cd nerdtree/
-vim 
 cat .bashrc
 rm tm && vim --startuptime tm 
 t vinegar
@@ -15027,7 +15021,6 @@ src/
 10
 Documents/
 type d
-vim .bash
 echo $BLUE 
 echo $add
 nc
@@ -15176,7 +15169,6 @@ cd -1
 echo -1
 echo '-1'
 cat .inputrc 
-man bash
 type ls
 s inherited by the shell at invocation
 [ '--' = '--' ] && echo 1
@@ -15193,12 +15185,9 @@ s --help
 \ssh gjs@10.0.10.102
 complete -p
 alias 
-vim .bash_profile 
-vim .profile 
 \ssh gjs@10.0.10.63
 vim .bashrc
 vim .vi
-vim .vim
 vim .bash/103_feature.sh 
 d
 echo $RED
@@ -15208,7 +15197,6 @@ echo $PS3
 echo $PS4
 echo $PROMPT_COMMAND 
 echo $PRECMD
-echo $PATH
 ssh root@95.163.194.228 -p 27762
 ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[95.163.194.228]:27762"
 \ssh root@95.163.194.228 -p 27762
@@ -15216,8 +15204,6 @@ ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[95.163.194.228]:27762"
 [[ "$USER" == "root" || "$USERNAME" == "root" ]] && echo 1
 vim .vim/plugin/keymap.vim 
 python
-\ssh sihe@10.0.10.102
-\ssh sihe@10.0.10.186
 docker exec -it test bash
 docker run -it vim bash
 echo \033[01;31m1234$NC
@@ -15320,11 +15306,9 @@ rm *
 sudo rm *
 cd .cache/tags/
 rm 1
-vim .vimrc
 top
 glances
 cd /fc/transformer-pipeline/
-vim
 git add -A
 git commit -m "upd ignore"
 git push
@@ -15336,8 +15320,6 @@ r --help
 echo $GITTOP
 cd proto/
 cd src/
-git diff
-docker exec -it transformer bash
 echo $USERNAME
 echo $HOSTNAME
 su gjs
@@ -15364,8 +15346,32 @@ cd frontend/
 1
 2
 echo $LS_COLORS 
+vim .bash/103_prompt.sh 
 sudo su
+\ssh sihe@10.0.10.186
+\ssh sihe@10.0.10.102
+docker exec -it transformer bash
+vim 
+./config.sh pull
+vim .vim/colors/konomi.vim 
+echo $TERM 
+man term
+man -Kw $term
+man bash
+vim
+man -Kw xterm-256color
+vim .vim
 ls
+vim .bash
+echo $PATH
+cd .local/bin/
 cd ~
+vim .bash_profile 
+vim .profile 
+man terminator_config
+vim .vimrc
+git lgo
+git log
 g
+git diff
 ./config.sh push

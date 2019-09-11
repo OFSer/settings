@@ -1,5 +1,3 @@
-inoremap <c-\> <esc>
-nnoremap <c-\> <esc>
 call plug#begin('~/.vim/plugged')
 " summary
 	Plug 'tpope/vim-commentary'
