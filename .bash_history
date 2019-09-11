@@ -14045,7 +14045,6 @@ git diff HEAD^ .bash_history
 cat compile_commands.json | grep appear
 ps -e -o pid,vsz,comm= | sort -n -k 2
 free -mh
-echo $HOSTNAME
 vim ~/.vim/plugin/keymap.vim 
 pstree -s -p $$
 pstree -s -p $$PID
@@ -14305,7 +14304,6 @@ t beige
 vimux 
 nethack
 cataclysm 
-python
 vimux
 man s
 t embark
@@ -14513,7 +14511,6 @@ sudo mount /dev/mapper/loop18p1 /mnt
 pip install ast
 pip3
 pip3 install ast
-python3
 brew search clangd
 brew info golang
 docker ps -l
@@ -14878,7 +14875,6 @@ type git
 c git 
 c git ' '
 c git ch
-docker run -it vim bash
 \ssh sihe@10.0.10.161
 \ssh sihe@10.0.10.141
 complete -p | grep git
@@ -14970,7 +14966,6 @@ c curl --
 ifconfig
 docker stop test && docker container prune -f
 docker run -it --network="host" -v /fc:/fc -d --name test transformer 
-docker exec -it test bash
 docker build -t workspace . 
 ping 10.0.10.102
 apt install ping
@@ -15227,7 +15222,6 @@ complete -p -- -1
 type -1
 type -- -1
 complete -o filenames -F _complete_alias -- -1
-vim .vim/plugin/keymap.vim 
 complete -F _complete_alias -- -1
 alias | cut -d' ' -f2 | cut -d= -f1
 cd -1
@@ -15250,7 +15244,6 @@ s -p dict test
 tldr s
 s --help
 \ssh gjs@10.0.10.102
-\ssh sihe@10.0.10.102
 complete -p
 alias 
 vim .bash_profile 
@@ -15260,7 +15253,6 @@ git diff
 df
 gd
 vim .bashrc
-vim .vimrc
 vim .vi
 vim .vim
 vim .bash/103_feature.sh 
@@ -15283,5 +15275,14 @@ echo $USER
 ls
 sudo su
 cd ~
+vim .vim/plugin/keymap.vim 
+vim .vimrc
+python
+python3
+echo $HOSTNAME
+\ssh sihe@10.0.10.102
+\ssh sihe@10.0.10.186
+docker exec -it test bash
+docker run -it vim bash
 g
 ./config.sh push

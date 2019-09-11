@@ -6,7 +6,7 @@ export HISTCONTROL=ignoreboth
 export HISTSIZE=50000000
 export HISTFILESIZE=50000000
 export HISTCONTROL=erasedups:ignoredups
-[ ${#HOSTNAME} -gt 5 ] && {
+[ ${#HOSTNAME} -eq 12 ] && {
 	export HOSTNAME="docker"
 }
 export LANG=en_US.UTF-8

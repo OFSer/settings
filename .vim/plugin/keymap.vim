@@ -7,6 +7,7 @@ snoremap <c-c> <esc>
 lnoremap <c-c> <esc>
 
 nnoremap <c-c> <nop>
+inoremap <c-g> <nop>
 inoremap <c-o> <nop>
 nnoremap q <nop>
 " nnoremap t <nop>
@@ -19,8 +20,10 @@ tnoremap <c-\> <c-\><c-n>
 inoremap w <c-w>
 "--------------------------Jump--------------------------------------"
 inoremap <c-l> <del>
-inoremap <c-k> <up>
-inoremap <c-j> <down>
+inoremap <c-p> <up>
+inoremap <c-n> <down>
+inoremap <c-j> <c-n>
+inoremap <c-k> <c-p>
 inoremap <c-b> <left>
 inoremap <c-f> <right>
 inoremap <c-e> <esc>A
