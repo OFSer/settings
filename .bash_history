@@ -13810,7 +13810,6 @@ sudo cp fc /root/fc
 sudo cp -r fc /root/fc
 sudo cp -r fc /root
 cd backup/
-cat README.md 
 rm README.md 
 tldr sync
 tldr rsync
@@ -15291,7 +15290,6 @@ cd .cache/tags/
 rm 1
 top
 glances
-cd /fc/transformer-pipeline/
 git add -A
 git commit -m "upd ignore"
 git push
@@ -15347,11 +15345,8 @@ man terminator_config
 git lgo
 git log
 git push --force
-vim
 cd fc/transformer-pipeline/src/services/algorithms_service/appearance_checker
 cd ~/.bash
-echo $HOSTNAME
-docker exec -it transformer bash
 vim 
 \ssh root@95.163.194.228 -p 27762
 \ssh sihe@10.0.10.102
@@ -15383,16 +15378,31 @@ ping baidu.com
 ping google.com
 cd dockerfiles/
 cd ..
-ping 95.163.194.228
-ls
-gd
 history 
 docker --help
 docker run --help
 tldr docker run
 tldr docker-run
 tldr docker
+git diff
+sd
+ds
+gd
+ping 95.163.194.228
+ping 10.0.10.138 
+cat README.md | nc 10.0.10.138 19910
+ nc 10.0.10.138 19910
+nc -zv 10.0.10.138 22
+nc -zv 10.0.10.138 2-10000
+nc -zv 10.0.10.138 19910
+ping 10.0.10.138
+nc -l 2000
+cat README.md 
+docker exec -it transformer bash
+cd /fc/transformer-pipeline/
+vim
+ls
+echo $HOSTNAME
 vim .vimrc
 g
-git diff
 ./config.sh push
