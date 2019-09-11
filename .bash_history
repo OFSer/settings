@@ -14418,7 +14418,6 @@ bd adsf
 echo $?
 bd ./fc
 bd proto
-cd ~/test/
 mkdir bd/bd/bd
 mkdir -p bd/bd/bd
 cd bd/bd/bd/
@@ -14625,7 +14624,6 @@ pkill dconf-service
 dconf dump / > .dconf
 dconf load / < .dconf
 cd plugged/vim-colorschemes/
-git diff HEAD^
 man git-clone
 tldr git-clone
 cd git
@@ -14680,7 +14678,6 @@ cat .tig_history
 vim .gdb_history 
 git add .gdb_history 
 git add -f .gdb_history 
-cd test/
 type gdb
 q
 cat .gdb_history 
@@ -15367,12 +15364,17 @@ cd fc/transformer-pipeline/src/services/algorithms_service/appearance_checker
 cd ~/.bash
 echo $HOSTNAME
 vim .vimrc
-g
 docker exec -it transformer bash
-cd ~
 vim 
 \ssh root@95.163.194.228 -p 27762
-ls
 \ssh sihe@10.0.10.102
 \ssh gjs@10.0.10.102
+git diff HEAD^
+cd test/
+git gh/
+cd ~/test/
+git clean -dff && git reset HEAD --hard && git pull https://github.com/chinnkarahoi/settings
+ls
+cd ~
+g
 ./config.sh push
