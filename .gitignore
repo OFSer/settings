@@ -78,3 +78,4 @@
 .config/coc/extensions
 .config/unity3d/
 .config/coc/memos.json
+.local/share/TabNine/

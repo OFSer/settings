@@ -1421,7 +1421,6 @@ i="~/abc bcd"
 eval echo $i
 echo `eval echo $i`
 git 
-cd .local/share/
 vim recently-used.xbel
 pushd --help
 pushd -1
@@ -14399,7 +14398,6 @@ git rm --cached .config/unity3d/
 git rm --cached -r .config/unity3d/
 du
 df -hd1
-du -hd1
 git reset HEAD^
 git add df
 git commit -m "add df"
@@ -14646,7 +14644,6 @@ cat history.json
 cat commands 
 cat mru 
 git rm --cached .config/coc/memos.json
-vim .gitignore 
 cd .vim/plugged/coc.nvim/
 vim .gdbinit.d/auto 
 git add -f .gdbinit.d
@@ -14848,7 +14845,6 @@ echo .*
 ls *
 ls -l *
 ls 
-ls -a
 ls -d
 ls -f
 ls --help
@@ -14923,7 +14919,6 @@ vim makefile
 vim README.md 
 cd .vim/colors/
 vim konomi.vim 
-vim .vim
 vim .vim/colors/
 vim build.sh 
 git checkout -- .vim
@@ -14933,7 +14928,6 @@ g
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc   -d --name transformer transformer 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 vim CMakeLists.txt 
-cat .config/configstore/update-notifier-npm.json
 git log
 vim .vim/colors/konomi.vim 
 vim --version
@@ -15090,7 +15084,6 @@ cat ** | wc -l
 find . | cat ** | wc -l
 ls **/*.cpp | xargs cat | wc -l
 ls **/*.{cpp,hpp,c,h} | xargs cat | wc -l
-gd
 cd ~/fc/aruco/
 fc
 frontend/
@@ -15165,15 +15158,11 @@ cd submodules/
 cd script/
 cd build/
 cd online_files/
-cd ..
 cloc .
-cd ~
 cd fc/transformer-pipeline/
 d
-git diff
 l
 f
-vim .vimrc
 vim .bash/001_alias.sh 
 vim
 type gd
@@ -15198,6 +15187,27 @@ pstree -s  4
 pstree -s  6058 
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -200'"
 vim .bash/000_env.sh 
+gdd
+gd
+vim .vim
+vim .vimrc
+git diff
+ls .config/TabNine/
+ls .local/share/TabNine/
+cd .local/share/TabNine/
+du -hd1
+ls -a
+cat Medium.meta 
+62;c
+cat .config/configstore/update-notifier-npm.json
+cat .config/coc/extensions/package.json
+cd .local/share/
+cd TabNine/
+cd models/
 ls
+vim Medium.meta 
+cd ..
+cd ~
+vim .gitignore 
 g
 ./config.sh push
