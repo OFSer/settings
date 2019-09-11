@@ -125,7 +125,7 @@ call plug#begin('~/.vim/plugged')
 	" Plug 'SirVer/ultisnips'
 	" Plug 'skywind3000/asyncrun.vim'
 	Plug 'skywind3000/vim-keysound'
-	if $HOSTNAME != "docker"
+	if $HOSTNAME == "leaf"
 		let g:keysound_enable = 1
 	endif
 	let g:keysound_theme = 'typewriter'

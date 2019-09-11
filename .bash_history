@@ -7594,7 +7594,6 @@ cat /etc/sysconfig/network
 cat /etc/sysconfig/network-scripts/ifcfg-eth0
 traceroute
 sudo apt install traceroute
-traceroute baidu.com
 ip 
 ip route show
 ping 10.0.10.1
@@ -8552,7 +8551,6 @@ printenv
 m4
 man m4
 tldr m4
-yes
 yes 234
 fold config.sh 
 tldr fold
@@ -9750,7 +9748,6 @@ mv Dockerfile vim/
 git add Dockerfile 
 git add -f Dockerfile 
 git commit -m "upd add dockerfiles"
-docker run --help
 docker run --help | grep del
 docker run --help | grep remove
 apt install locale
@@ -12039,7 +12036,6 @@ git log -p version.txt
 ssh gjs@10.01.0.141
 ssh sihe@10.01.0.141
 \ssh sihe@10.01.0.141
-ping baidu.com
 nc -zv 220.181.38.148 80-20000
 nc -zv 220.181.38.148 20-20000
 nc -zv 220.181.38.148 22
@@ -13638,7 +13634,6 @@ systemctl enable snapd
 service --help
 service --status-all
 echo $SNAPCRAFT_SETUP_CORE
-docker --help
 cd /lib/modules/
 find . | grep snap
 docker run -it -v ~:/root -v /snap:/snap --name transfomer transformer bash 
@@ -14452,7 +14447,6 @@ su
 gd --help
 man gd
 man git-diff
-cat .bash_history 
 { cd fc }
 { cd fc; }
 { command cd fc; }
@@ -14779,7 +14773,6 @@ ruby
 man ruby
 steam
 fffffffffffffffff
-history 
 cat ~/.bash_history 
 git log .profile
 ls .*
@@ -14879,7 +14872,6 @@ git commit -m "add log"
 git diff .bash/env.sh
 sh
 bash
-cd dockerfiles/
 cd dev/
 vim -c "PlugInstall" -c "q!" -c "q!"
 vim -c "PlugInstall" -c "q!" -c "q!" &> /dev/null
@@ -15268,7 +15260,6 @@ man python-sdl2
 man sdl2
 c man ' ' | grep sdl
 man -Kw sdl2
-vim config.sh 
 apt install python3-sdl
 apt install python3-sdl2
 apt install python-sdl2
@@ -15327,7 +15318,6 @@ cd fc/
 cd transformer-pipeline/
 cd $GITTOP
 pwd
-cd ..
 cd fc/transformer-pipeline/
 cd frontend/
 0/src
@@ -15358,12 +15348,9 @@ git lgo
 git log
 git push --force
 vim
-git diff
-gd
 cd fc/transformer-pipeline/src/services/algorithms_service/appearance_checker
 cd ~/.bash
 echo $HOSTNAME
-vim .vimrc
 docker exec -it transformer bash
 vim 
 \ssh root@95.163.194.228 -p 27762
@@ -15374,7 +15361,38 @@ cd test/
 git gh/
 cd ~/test/
 git clean -dff && git reset HEAD --hard && git pull https://github.com/chinnkarahoi/settings
-ls
 cd ~
+cat .bash_history 
+scp  root@95.163.194.228:~/1.go  .
+scp -P 27762 root@95.163.194.228:~/1.go  .
+echo /dev/random
+cat /dev/random
+hexdump -C -n 1000 /dev/urandom
+hexdump -C -n 1000 /dev/random
+yes
+ftp
+i inetutils-*
+i -y inetutils-*
+vim config.sh 
+traceroute 95.163.194.228
+traceroute --help
+traceroute --resolve-hostnames95.163.194.228
+traceroute --resolve-hostnames 95.163.194.228
+traceroute baidu.com
+ping baidu.com
+ping google.com
+cd dockerfiles/
+cd ..
+ping 95.163.194.228
+ls
+gd
+history 
+docker --help
+docker run --help
+tldr docker run
+tldr docker-run
+tldr docker
+vim .vimrc
 g
+git diff
 ./config.sh push

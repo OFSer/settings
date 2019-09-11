@@ -48,7 +48,7 @@ install_tools(){
 	sudo apt install -y sl cmatrix fortune cowsay lolcat asciiquarium toilet gnuchess screenfetch empire angband bsdgames curseofwar
 	sudo apt install -y python-pip python3 python3-pip linuxbrew-wrapper
 	pip install pygments
-	sudo apt install -y python3-sdl2
+	sudo apt install -y python3-sdl2 inetutils-*
 }
 config_scroll(){
 	sudo apt install xbindkeys xdotool -y
