@@ -774,7 +774,6 @@ ggit status
 git checkout 2083f930d627573e0e61ff1b62bd4c2718812130
 git reset 2083f930d627573e0e61ff1b62bd4c2718812130
 git checkout unity
-git push --force
 vim .local/share/app-info/xmls/extensions-web.xml
 git rm --cache .local/share/app-info/xmls/extensions-web.xml 
 cd .local/share/app-info/
@@ -15031,7 +15030,6 @@ cd tools
 cd 
 complete | grep _fzf
 complete | grep _fzf | grep kill
-cd ~/.bash
 cd /home/
 vim .bash_completion 
 docker images
@@ -15275,7 +15273,6 @@ man python-sdl2
 man sdl2
 c man ' ' | grep sdl
 man -Kw sdl2
-gd
 vim config.sh 
 apt install python3-sdl
 apt install python3-sdl2
@@ -15358,20 +15355,24 @@ echo $TERM
 man term
 man -Kw $term
 man bash
-vim
 man -Kw xterm-256color
 vim .vim
-ls
 vim .bash
 echo $PATH
 cd .local/bin/
-cd ~
 vim .bash_profile 
 vim .profile 
 man terminator_config
 vim .vimrc
 git lgo
 git log
+git push --force
+vim
 g
 git diff
+gd
+cd fc/transformer-pipeline/src/services/algorithms_service/appearance_checker
+ls
+cd ~/.bash
+cd ~
 ./config.sh push

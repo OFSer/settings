@@ -63,9 +63,9 @@ call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 	Plug 'junegunn/fzf.vim'
 	let g:fzf_action = {
-		\ 'alt-t': 'tab split',
-		\ 'alt-x': 'split',
-		\ 'alt-v': 'vsplit' }
+		\ 'ctrl-t': 'tab split',
+		\ 'ctrl-x': 'split',
+		\ 'ctrl-v': 'vsplit' }
 
 " games
 	Plug 'katono/rogue.vim' 
