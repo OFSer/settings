@@ -8210,7 +8210,6 @@ echo $PWD_OLD
 ~-
 man PWD
 echo $OLDPWD
-echo $GITTOP
 echo $PS
 echo $PS5
 a=4
@@ -14013,7 +14012,6 @@ nc -zv -w 1 39.156.69.79 1-10000 | grep -v timed
 nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null | grep -v timed
 nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null 
 cd PthreadPool/
-git pull
 git reset HEAD^ --hard
 vim config.py 
 vim calibrate.py 
@@ -14371,7 +14369,6 @@ google-chrome-stable manual.pdf
 file asciisec 
 vm
 ./asciisec 
-git reset HEAD --hard
 mv df_linux/ df
 cd .config/unity3d
 cat Player.log 
@@ -14553,7 +14550,6 @@ sudo -u test ls ~
 sudo -u test 'ls ~'
 sudo -u test 'ls $HOME'
 sudo -u test ls $HOME
-echo $HOME
 sudo -u test ls pwd
 sudo -u test pwd
 brew
@@ -14898,7 +14894,6 @@ rm -rf vim-colorschemes/
 git diff .inputrc
 g 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc   -d --name transformer transformer 
-docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 vim CMakeLists.txt 
 git log
 vim .vim/colors/konomi.vim 
@@ -14938,7 +14933,6 @@ ls | grep mark
 rm -rf markdown-preview.nvim/
 rm -rf mathjax-support-for-mkdp/
 docker run  --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
-docker exec -it transformer bash
 sudo apt install cmdtest
 git diff .vimrc
 cd .vim/plugged/markdown-preview.nvim/
@@ -15065,10 +15059,8 @@ src/
 Documents/
 type d
 vim .bash
-echo $LS_COLORS 
 echo $BLUE 
 echo $add
-dirs -p
 nc
 cd transformer-pipeline/
 ll
@@ -15089,7 +15081,6 @@ docker images
 docker run -it workspace 
 perl cloc.pl /apps/projects/reallycoolapp --exclude-dir=lib,frameworks
 sudo apt install cloc
-vim config.sh 
 cloc
 cd gh/
 cd fp-course/
@@ -15124,7 +15115,6 @@ cd online_files/
 cloc .
 l
 f
-vim
 type gd
 ps -e -o pid,vsz,comm=
 ps -e -o pid,vsz,comm 30157
@@ -15249,9 +15239,7 @@ alias
 vim .bash_profile 
 vim .profile 
 \ssh gjs@10.0.10.63
-git diff
 df
-gd
 vim .bashrc
 vim .vi
 vim .vim
@@ -15259,7 +15247,6 @@ vim .bash/103_feature.sh
 d
 echo $RED
 echo $cmd
-cd fc/transformer-pipeline/
 echo $PS2
 echo $PS3
 echo $PS4
@@ -15272,17 +15259,95 @@ ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[95.163.194.228]:27762"
 echo $USER
 [[ "$USER" == "root" || "$USERNAME" == "root" ]] && $PROMPT_CHAR='#'
 [[ "$USER" == "root" || "$USERNAME" == "root" ]] && echo 1
-ls
 sudo su
-cd ~
 vim .vim/plugin/keymap.vim 
-vim .vimrc
 python
-python3
-echo $HOSTNAME
 \ssh sihe@10.0.10.102
 \ssh sihe@10.0.10.186
 docker exec -it test bash
 docker run -it vim bash
+echo $HOSTNAME
+echo \033[01;31m1234$NC
+echo -e '\033[01;31m1234$NC'
+echo -e "\033[01;31m1234$NC"
+echo -e "\033[01;31m1234"
+echo '234'
+echo '\033[01;31m234'
+echo -e "\033[01;31m234"
+echo -e "\033[01;31m234$NC"
+echo -e "\033[01;31m234${NC}"
+RED='\033[01;31m'
+python3
+cd ~
+echo -e '\033[01;31m234'
+echo -e '\033[01;32m234'
+echo -e '\033[01;33m234'
+echo -e '\033[01;34m234'
+echo -e '\033[01;35m234'
+echo -e '\033[01;65m234'
+echo -e '\033[01;63m234'
+echo -e '\033[01;73m234'
+echo -e '\033[00;73m234'
+echo -e '\033[00;33m234'
+echo -e '\033[00;32m234'
+echo -e '\033[00;31m234'
+echo -e '\033[02;31m234'
+echo -e '\033[03;31m234'
+echo -e '\033[04;31m234'
+echo -e '\033[05;31m234'
+echo -e '\033[06;31m234'
+echo -e '\033[07;31m234'
+echo -e '\033[08;31m234'
+NC='\033[0m'
+echo -e '\033[08;31m234$NC'
+echo -e '\033[09;31m234$NC'
+echo -e '\033[09;31m234\033[0m'
+echo -e '\033[01;31m234\033[0m'
+echo -e '\033[02;31m234\033[0m'
+echo -e '\033[03;31m234\033[0m'
+echo -e '\033[04;31m234\033[0m'
+echo -e '\033[10;31m234\033[0m'
+echo -e '\033[12;31m234\033[0m'
+echo -e '\033[13;31m234\033[0m'
+echo -e '\033[14;31m234\033[0m'
+echo $LS_COLORS 
+echo -e '\033[01;35m234\033[0m'
+echo -e '\033[01;36m234\033[0m'
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
+docker exec -it transformer bash
+ls
+cd fc/transformer-pipeline/
+vim
+git reset HEAD --hard
+git pull
+dirs -p
+echo $GITTOP
+dirs -p /home/gjs
+echo $HOME
+a=/home/gjs
+echo ${a/$HOME/~}
+echo ${a/${HOME}/~}
+echo ${a/home\/gjs/~}
+echo ${a/home/gjs/~}
+a=/home/gjs && echo ${a/home\/gjs/~}
+a=/home/gjs && echo ${a/home/gjs/\~}
+a=/home/gjs && echo ${a/home\/gjs/\~}
+a=/home/gjs && echo ${a/^home\/gjs/\~}
+a=/home/gjs && echo ${a/\^home\/gjs/\~}
+a=/home/gjs && echo ${a/^$HOME/\~}
+a=/home/gjs && echo ${a/\^$HOME/\~}
+a=/home/gjs && echo ${a/$HOME/\~}
+a=/home/gjs && echo ${a/#$HOME/\~}
+a=/home/gjs/t && echo ${a/#$HOME/\~}
+vim .vimrc
+sudo apt-get install python-sdl2
+sudo apt-get install python3-sdl2
+man python-sdl2
+man sdl2
+c man ' ' | grep sdl
+man -Kw sdl2
+git diff
+gd
+vim config.sh 
 g
 ./config.sh push

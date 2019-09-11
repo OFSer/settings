@@ -26,6 +26,11 @@ call plug#begin('~/.vim/plugged')
 
 " misc 
 	" Plug 'skywind3000/asyncrun.vim'
+	Plug 'skywind3000/vim-keysound'
+	let g:keysound_enable = 1
+	let g:keysound_theme = 'typewriter'
+	let g:keysound_py_version = 3
+	let g:keysound_volume = 1000
 	Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 	Plug 'chinnkarahoi/haskell-vim'
 	" Plug 'vim-scripts/Conque-GDB'

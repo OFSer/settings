@@ -21,7 +21,7 @@ xterm*|rxvt*)
 				PREPWD="$PWD"
 			;;
 			*)								 #before
-				echo -ne "\033]0;${USER}@${HOSTNAME}:$(sed -E 's/([^/])[^/]*/\1/g' <(dirs -p | head -n 1) )$ ${BASH_COMMAND}\007"
+				# echo -ne "\033]0;${USER}@${HOSTNAME}:$(sed -E 's/([^/])[^/]*/\1/g' <(dirs -p | head -n 1) )$ ${BASH_COMMAND}\007"
 				[ -z "$PREPWD" ] && TrapUpdate
 				PRECMD="$BASH_COMMAND"
 				PREPWD="$PWD"
