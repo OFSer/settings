@@ -4434,9 +4434,6 @@ a='abc\aabc'
 echo ${a@P}
 a=1234\n
 echo $PS0
-echo $PS2
-echo $PS3
-echo $PS4
 PS2=<
 PS2='<'
 echo "$PS3"
@@ -13615,7 +13612,6 @@ docker exec -it transfomer
 cd /snap/
 cd 48/
 ./ccls 
-echo $PATH
 echo $PATH | grep snap
 vim /etc/profile
 vim /etc/bash.bashrc 
@@ -14049,7 +14045,6 @@ git diff HEAD^ .bash_history
 cat compile_commands.json | grep appear
 ps -e -o pid,vsz,comm= | sort -n -k 2
 free -mh
-echo $USER
 echo $HOSTNAME
 vim ~/.vim/plugin/keymap.vim 
 pstree -s -p $$
@@ -14092,7 +14087,6 @@ git icdiff
 git icdiff .bash_history
 fffffffffffffff
 echo $BASH_COMMAND
-echo $PROMPT_COMMAND 
 vim .bash/feature.sh 
 vim ~/.bash/mycmd.sh 
 ls -a .gvfs
@@ -14332,7 +14326,6 @@ find . -type f -name init.txt -print
 find . -type f -daystart -depth -follow -helpname init.txt -print
 cat init.txt 
 vim init.txt 
-df
 ./df PRINT_MODE:TEXT
 vim data/init/init.txt 
 cd data/init
@@ -14521,7 +14514,6 @@ pip install ast
 pip3
 pip3 install ast
 python3
-sudo su
 brew search clangd
 brew info golang
 docker ps -l
@@ -15161,8 +15153,6 @@ pstree -s  6058
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -200'"
 vim .bash/000_env.sh 
 gdd
-vim .vim
-git diff
 ls .config/TabNine/
 ls .local/share/TabNine/
 cd .local/share/TabNine/
@@ -15237,7 +15227,6 @@ complete -p -- -1
 type -1
 type -- -1
 complete -o filenames -F _complete_alias -- -1
-vim .vimrc
 vim .vim/plugin/keymap.vim 
 complete -F _complete_alias -- -1
 alias | cut -d' ' -f2 | cut -d= -f1
@@ -15245,12 +15234,10 @@ cd -1
 echo -1
 echo '-1'
 -1
-cd ~
 cat .inputrc 
 man bash
 type ls
 s inherited by the shell at invocation
-gd
 [ '--' = '--' ] && echo 1
 [ '--' =~ '-' ] && echo 1
 [ '--' == '-' ] && echo 1
@@ -15266,12 +15253,35 @@ s --help
 \ssh sihe@10.0.10.102
 complete -p
 alias 
-ls
-cd fc/transformer-pipeline/
-d
 vim .bash_profile 
-vim .bashrc
 vim .profile 
 \ssh gjs@10.0.10.63
+git diff
+df
+gd
+vim .bashrc
+vim .vimrc
+vim .vi
+vim .vim
+vim .bash/103_feature.sh 
+d
+echo $RED
+echo $cmd
+cd fc/transformer-pipeline/
+echo $PS2
+echo $PS3
+echo $PS4
+echo $PROMPT_COMMAND 
+echo $PRECMD
+echo $PATH
+ssh root@95.163.194.228 -p 27762
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[95.163.194.228]:27762"
+\ssh root@95.163.194.228 -p 27762
+echo $USER
+[[ "$USER" == "root" || "$USERNAME" == "root" ]] && $PROMPT_CHAR='#'
+[[ "$USER" == "root" || "$USERNAME" == "root" ]] && echo 1
+ls
+sudo su
+cd ~
 g
 ./config.sh push

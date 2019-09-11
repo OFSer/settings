@@ -60,9 +60,9 @@ cd(){
 
 d(){
 	local j=0
-	RED='\033[01;31m'
-	BLUE='\033[01;36m'
-	NC='\033[0m'
+	local RED='\033[01;31m'
+	local BLUE='\033[01;36m'
+	local NC='\033[0m'
 	for i in `dirs -p`;do
 		echo -e "$RED$j\t$NC$i$NC"
 		let j+=1
