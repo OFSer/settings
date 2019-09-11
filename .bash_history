@@ -1494,17 +1494,12 @@ curl 180.149.145.241
 ping 180.149.145.241
 . config.sh proxy_run
 ./config.sh config_proxy
-./config.sh config_privoxy
-./config.sh proxy_run
-curl google.com
-curl baidu.com
 curl www.google.com
 curl https://www.google.com
 vim /etc/privoxy/config
 vim /etc/privoxy/gfwlist.action 
 vim socks.json
 echo $svr
-firefox 
 jobs'
 history | grep ossutil
 ( cd fc; ls )
@@ -3414,7 +3409,6 @@ find .  | grep Sogou
 cd fcitx/
 cd ibus/
 cd bus/
-vim socks.json 
 $(perl -pl0 -e "s|^${HOME}|~|;s|([^/])[^/]*/|$""1/|g" <<<${PWD})
 perl -pl0 -e "s|^${HOME}|~|;s|([^/])[^/]*/|$""1/|g" <<<${PWD}
 echo "$PWD" | sed -E 's/([^/])[^/]*/\1/g'
@@ -9410,7 +9404,6 @@ git add server.py
 git commit -m "fix blow web server"
 git push --set-upstream origin webserver 
 git pull origin webserver
-cat config.sh 
 sudo apt install software-properties-common -y
 apt install software-properties-common -y
 ./config.sh apt_update
@@ -14376,7 +14369,6 @@ rm .viminf*.tmp
 ls .vimin*
 s -b "chromium --incognito" conspiracy theories
 google-chrome
-google-chrome-stable 
 s -b "google-chrome-stable --incognito" conspiracy theories
 s -b google-chrome-stable conspiracy theories
 t conspiracy 
@@ -14704,7 +14696,6 @@ pstree -s -p -T 11288
 vim .bashrc 
 ps -ef | grep sleep
 ps -ef 
-jobs
 ps 1111
 ps 
 ps  -ef
@@ -15073,7 +15064,6 @@ pstree -s -T 4
 pstree -s  4 
 pstree -s  6058 
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -200'"
-vim .bash/000_env.sh 
 gdd
 ls .config/TabNine/
 ls .local/share/TabNine/
@@ -15362,14 +15352,12 @@ yes
 ftp
 i inetutils-*
 i -y inetutils-*
-vim config.sh 
 traceroute 95.163.194.228
 traceroute --help
 traceroute --resolve-hostnames95.163.194.228
 traceroute --resolve-hostnames 95.163.194.228
 traceroute baidu.com
 ping baidu.com
-ping google.com
 cd dockerfiles/
 cd ..
 history 
@@ -15381,7 +15369,6 @@ tldr docker
 sd
 ds
 gd
-ping 95.163.194.228
 ping 10.0.10.138 
 cat README.md | nc 10.0.10.138 19910
  nc 10.0.10.138 19910
@@ -15389,8 +15376,6 @@ nc -zv 10.0.10.138 22
 nc -zv 10.0.10.138 2-10000
 nc -zv 10.0.10.138 19910
 ping 10.0.10.138
-nc -l 2000
-cat README.md 
 docker exec -it transformer bash
 cd /fc/transformer-pipeline/
 echo $HOST
@@ -15399,10 +15384,61 @@ echo $HOSTNAME
 vim
 vim tm
 vim .vim/plugin/autocmd.vim 
-cd ~
 rm tm && vim --startuptime tm 
 vim .vimrc
-git diff
+vim config.sh 
+vim sock.json
+./config.sh config_priproxy
+./config.sh config_privoxy
+t privoxy
+curl goolge.com
+service privoxy restart
+sudo service privoxy restart
+ sslocal -c socks.json
+sudo  sslocal -c socks.json
+vim sock.json 
+mv sock.json socks.json 
+sudo sslocal -c socks.json 
+curl https://google.com
+cd //etc/privoxy
+cd /etc/privoxy
+bat gfwlist.action
+cd ~
+cat README.md 
+ service privoxy status
+curl baidu.com
+ping google.com
+/etc/privoxy/config
+sudo bat /etc/privoxy/config
+jobs
+vim socks.json 
+bat config.sh 
+sudo cat /etc/privoxy/config
+./config.sh proxy_run
+proxy="http://127.0.0.1:8118"
+export http_proxy=$proxy
+ping 95.163.194.228
+google-chrome-stable 
+google-chrome-stable --no-sandbox 
+google-chrome --proxy-auto-detect
+nc -l 2000
+google-chrome --proxy-server="$proxy"
+google-chrome-stable --proxy-server="$proxy"
+curl google.com
+\ssh linan@172.96.243.251 -p 6023
+ping 127.0.0.1:1080
+cat 127.0.0.1:1080
+nc 127.0.0.1 1080
+google-chrome-stable --proxy-server="socks5://127.0.0.1:1080"
+cat config.sh 
+echo $proxy
+google-chrome --help
+google-chrome-stable --proxy-server="$https_proxy;$http_proxy"
+echo 'google-chrome-stable --proxy-server="$https_proxy;$http_proxy"'
+echo google-chrome-stable --proxy-server="$https_proxy;$http_proxy"
+vim .bash/000_env.sh 
+firefox 
 ls
 g
+git diff
 ./config.sh push

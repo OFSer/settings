@@ -7,6 +7,9 @@
 [[ "$HOME" == "/root" && -z "$USER" ]] && {
 	USER=root
 }
+proxy="http://127.0.0.1:8118"
+export http_proxy=$proxy
+export https_proxy=$proxy
 export HISTCONTROL=ignoreboth
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 export HISTSIZE=50000000
