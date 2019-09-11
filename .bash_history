@@ -641,7 +641,6 @@ git checkout -- database.sh
 git commit -m "add README.md"
 mv README.sh README.md
 git commit -m "sh -> md"
-a=1
 let a+=1
 . ~/.bashrc
 expr substr abc 2 2
@@ -1434,7 +1433,6 @@ pushd /home
 \cd ~-2
 pushd -n ~/fc/saki_detection/
 pushd -n +4
-cd -1
 dirs -3
 cd ~-0
 cd ~-1
@@ -1613,7 +1611,6 @@ echo $_
 echo $-
 echo $pid
 echo $p
-echo $$
 kill 20702
 kill -term 7491
 tldr kill
@@ -3986,7 +3983,6 @@ echo < /dev/fd/62
 echo < /dev/fd/58
 cd fd
 type coproc
-type ls
 type type
 type (*
 type (
@@ -4191,7 +4187,6 @@ $*
 echo $!
 sleep 5
 bg 2
-sleep 1000
 bash -c
 bash -c help
 abc() { declare -n a=$1; echo $a; }
@@ -5103,7 +5098,6 @@ kill -p
 kill --help
 kill -l
 kill -15 4258
->1
 ll 1
 trap 'sleep 30' return
 trap 'sleep 30' exit
@@ -11888,7 +11882,6 @@ complete -p ls -
 complete -p 'ls -'
 cplt man
 cplt 'man '
-cat .inputrc 
 man menu-complete
 compgen -ac 'man '
 compgen -ac 'man'
@@ -14088,7 +14081,6 @@ pstree -s -t 1381
 node.js
 node
 node --help
-vim .vim/plugin/keymap.vim 
 ffffffffffffffffffffffffffffffffffffffffffffff
 vimdiff 
 vim .vimrc 
@@ -14141,7 +14133,6 @@ type sctl
 type sctl
 type dirs 
 complete -F _complete_alias alert
-alias -p
 git diff HEAD~20 .bashrc
 git diff HEAD~50 .bashrc
 git diff HEAD~80 .bashrc
@@ -14151,7 +14142,6 @@ alias | cut -f2
 alias | cut -t' ' -f2
 tldr cut
 alias | cut -d' ' -f2
-alias | cut -d' ' -f2 | cut -d= -f1
 type vimux
 alias | cut -d' ' -f2 | cut -d= -f1 | xargs command complete -F _complete_alias
 type xargs
@@ -14591,7 +14581,6 @@ type docker
 type docker
 gdb
 s
-s --help
 type s
 cd ~/fc/
 cat .bash_completion 
@@ -14764,7 +14753,6 @@ pstree --help
 pstree -s -t 11288 
 pstree -s -p -T 11288 
 vim .bashrc 
-sleep 1000 &
 ps -ef | grep sleep
 ps -ef 
 jobs
@@ -14836,8 +14824,6 @@ fffffffffffffffff
 history 
 cat ~/.bash_history 
 su gjs
-vim .bash_profile 
-vim .profile 
 git log .profile
 ls .*
 ech o.*
@@ -14903,11 +14889,9 @@ c git ch
 docker run -it vim bash
 \ssh sihe@10.0.10.161
 \ssh sihe@10.0.10.141
-complete -p
 complete -p | grep git
 __git_wrap__git_main
 git log -p .bash_completion
-alias 
 _completion_loader
 sudo apt install bash-completion
 c ls -
@@ -14999,7 +14983,6 @@ docker build -t workspace .
 ping 10.0.10.102
 apt install ping
 ssh gjs@10.0.10.63
-\ssh gjs@10.0.10.63
 make -j4 image_saving_service && bin/image_saving_service 
 docker images -f “dangling=true” -q
 docker images -f dangling=true -q
@@ -15011,8 +14994,6 @@ docker tag transformer:latest workspace
 docker tag workspace:latest transformer_dev
 git images
 docker push transformer_dev:latest 
-\ssh gjs@10.0.10.102
-\ssh sihe@10.0.10.102
 gencdb
 docker push --help
 man docker-push 
@@ -15023,14 +15004,12 @@ ls *.sh | xargs echo
 ls *.sh | xargs -i echo {}
 git add -A
 cd .bash/
-vim .bashrc
 git push
 vim --help
 vim --startuptime 
 vim --startuptime .vimrc
 git checkout -- .vimrc
 vim tm
-rm tm
 vim --startuptime tm
 cd .vim/plugged/
 cd nerdtree/
@@ -15065,7 +15044,6 @@ alias -s
 alias --help
 set -o globstart
 set -o globstar
-man bash
 shopt -o globstar
 shopt -s globstar
 ls **
@@ -15108,7 +15086,6 @@ nc
 cd transformer-pipeline/
 ll
 cd src/
-cd ~/fc/transformer-pipeline/
 cd proto/
 c
 cd .
@@ -15126,7 +15103,6 @@ docker run -it workspace
 perl cloc.pl /apps/projects/reallycoolapp --exclude-dir=lib,frameworks
 sudo apt install cloc
 vim config.sh 
-1
 cloc
 cd gh/
 cd fp-course/
@@ -15159,11 +15135,8 @@ cd script/
 cd build/
 cd online_files/
 cloc .
-cd fc/transformer-pipeline/
-d
 l
 f
-vim .bash/001_alias.sh 
 vim
 type gd
 ps -e -o pid,vsz,comm=
@@ -15188,9 +15161,7 @@ pstree -s  6058
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -200'"
 vim .bash/000_env.sh 
 gdd
-gd
 vim .vim
-vim .vimrc
 git diff
 ls .config/TabNine/
 ls .local/share/TabNine/
@@ -15204,10 +15175,103 @@ cat .config/coc/extensions/package.json
 cd .local/share/
 cd TabNine/
 cd models/
-ls
 vim Medium.meta 
 cd ..
-cd ~
 vim .gitignore 
+strace -s 1024 -f -p 1381
+sudo strace -s 1024 -f -p 1381
+strace -s 1024 -f -p 1381 2>&1
+sudo strace -s 1024 -f -p 1381 2>&1
+sleep 1000
+sleep 1000 &
+sudo strace -s 1024 -f -p 23146
+sudo sudo strace -s 1024 -f -p 23146
+echo $$
+sudo sudo strace -s 1024 -f -p 31690
+sudo sudo strace -s 1024 -f -p $$
+sudo sudo strace -s 1024 -f -p $PPID
+kill -9 23231 
+sudo kill -9 23231 
+strace --help
+strace -h 
+1
+alias -1='cd ..'
+alias '-1'='cd ..'
+alias a-1='cd ..'
+a-1
+alias \-1='cd ..'
+alias a1='cd ..'
+alias +1='cd ..'
++1
+<1
+alias <1=cd ..
+alias <1='cd ..'
+alias >1='cd ..'
+>q
+>1
+alias ^1='cd ..'
+alias ^='cd ..'
+alias ^\1='cd ..'
+alias ^\='cd ..'
+alias -- -1=cd ..
+rm '1=cd ..' 
+rm tm
+rm q
+vim .bash/001_alias.sh 
+eval "echo '123'"
+eval "alias -- -1='cd ..'"
+alias -- -1='cd ..'
+a=1
+b='cd ..'
+alias -- -$a="$b"
+-2
+alias -1
+alias -p
+cd ~/fc/transformer-pipeline/
+complete 
+complete  | grep '\-1'
+complete  | grep '\-2'
+complete -1
+complete -p -1
+complete -p -- -1
+type -1
+type -- -1
+complete -o filenames -F _complete_alias -- -1
+vim .vimrc
+vim .vim/plugin/keymap.vim 
+complete -F _complete_alias -- -1
+alias | cut -d' ' -f2 | cut -d= -f1
+cd -1
+echo -1
+echo '-1'
+-1
+cd ~
+cat .inputrc 
+man bash
+type ls
+s inherited by the shell at invocation
+gd
+[ '--' = '--' ] && echo 1
+[ '--' =~ '-' ] && echo 1
+[ '--' == '-' ] && echo 1
+[ '--' == '-&' ] && echo 1
+[ '--' == '-.' ] && echo 1
+[ '--' +1 '-.' ] && echo 1
+[ '--' != '-.' ] && echo 1
+[ '--' != '--' ] && echo 1
+s -p dict test
+tldr s
+s --help
+\ssh gjs@10.0.10.102
+\ssh sihe@10.0.10.102
+complete -p
+alias 
+ls
+cd fc/transformer-pipeline/
+d
+vim .bash_profile 
+vim .bashrc
+vim .profile 
+\ssh gjs@10.0.10.63
 g
 ./config.sh push

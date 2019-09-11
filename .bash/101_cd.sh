@@ -68,3 +68,14 @@ d(){
 		let j+=1
 	done
 }
+
+for i in {1..9};do
+	eval alias $i="'cd ~$i'"
+done
+
+cmd='cd '
+for i in {1..9};do
+	cmd="$cmd.."
+	alias -- -$i="$cmd"
+	cmd="$cmd/"
+done

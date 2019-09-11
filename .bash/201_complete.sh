@@ -10,7 +10,7 @@ if ! shopt -oq posix; then
   fi
 fi
 for i in `alias | cut -d' ' -f2 | cut -d= -f1`;do
-	complete -F _complete_alias $i
+	[ "$i" != '--' ] && complete -F _complete_alias -- $i
 done
 complete -F _bd bd
 complete -o filenames -F _provider_completion s

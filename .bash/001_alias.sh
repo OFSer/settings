@@ -44,6 +44,5 @@ alias s='s 2>/dev/null -b google-chrome-stable'
 
 alias g='git status --ignore-submodules'
 alias gd='git diff --ignore-submodules'
-for i in {1..9};do
-	eval alias $i="'cd ~$i'"
-done
+
+
