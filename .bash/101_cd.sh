@@ -72,10 +72,11 @@ d(){
 for i in {1..9};do
 	eval alias $i="'cd ~$i'"
 done
-
+alias 0='cd $GITTOP'
 cmd='cd '
 for i in {1..9};do
 	cmd="$cmd.."
 	alias -- -$i="$cmd"
 	cmd="$cmd/"
 done
+

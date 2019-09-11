@@ -1,14 +1,17 @@
 #!/bin/bash
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
+[ ${#HOSTNAME} -eq 12 ] && {
+	export HOSTNAME="docker"
+}
+[[ "$HOME" == "/root" && -z "$USER" ]] && {
+	USER=root
+}
 export HISTCONTROL=ignoreboth
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 export HISTSIZE=50000000
 export HISTFILESIZE=50000000
 export HISTCONTROL=erasedups:ignoredups
-[ ${#HOSTNAME} -eq 12 ] && {
-	export HOSTNAME="docker"
-}
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US
 export LC_ALL=en_US.utf8

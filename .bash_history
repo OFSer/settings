@@ -557,7 +557,6 @@ man ascii
 sudo apt install ascii
 tty
 man tty
-echo $USERNAME
 echo ~
 echo ~root
 cd /root
@@ -1775,7 +1774,6 @@ cd ./.nuget/
 cd AA12A72612A6F70B/
 LS
 vim rec.sh 
-cd Documents/
 vim Anaconda3-2018.12-Linux-x86_64.sh 
 qjobs
 \ssh gjs@dl-5
@@ -4868,7 +4866,6 @@ nano config.sh
 ./config.sh 
 add-apt-repository -y ppa:jonathonf/vim
 apt install vim-gnome
-cd Do
 cd cuda10.0/
 vim README.txt 
 wget -P /tmp https://github.com/NVIDIA/nvidia-docker/releases/download/v1.0.1/nvidia-docker_1.0.1-1_amd64.deb
@@ -9848,7 +9845,6 @@ rm -rf shmmsg
 rm shmmsg.tar 
 tar xf shmmsg.tar .
 tar xf shmmsg.tar
-cd home/
 cat CMakeLists.txt 
 rm -rf home/
 rm -rf shmmsg.tar 
@@ -14191,7 +14187,6 @@ nslookup ok-b.org
 dig 
 dig ok-b.org
 vim .bash/env.sh 
-cd ../
 cd bin/
 man brew
 cd ../linuxbrew/
@@ -14524,7 +14519,6 @@ cd /home/gjs/
 useradd -m -d /home/test -s /bin/bash -G sudo test
 echo -e 's\ns\n' | passwd gjs
 echo -e 's\ns\n' | passwd test
-su test
 sudo --help
 sudo test ls
 sudo test ls ~
@@ -14794,7 +14788,6 @@ steam
 fffffffffffffffff
 history 
 cat ~/.bash_history 
-su gjs
 git log .profile
 ls .*
 ech o.*
@@ -14846,7 +14839,6 @@ tput
 echo
 ./config.sh push "upd bash"
 cd logs/
-cd $GITTOP
 gt
 cd test/git/
 git checkout -b 123@234
@@ -15025,7 +15017,6 @@ cd ~/fc/aruco/
 fc
 frontend/
 src/
-2
 3
 4
 5
@@ -15040,7 +15031,6 @@ vim .bash
 echo $BLUE 
 echo $add
 nc
-cd transformer-pipeline/
 c
 cd .
 c d
@@ -15061,7 +15051,6 @@ cd fp-course/
 cd ~/test/cpp/rttr/
 cd rttr/
 clos .
-cd fc/
 ls | cloc 
 ls | xargs cloc 
 ls | xargs -i 'echo {};cloc {}'
@@ -15141,7 +15130,6 @@ kill -9 23231
 sudo kill -9 23231 
 strace --help
 strace -h 
-1
 alias -1='cd ..'
 alias '-1'='cd ..'
 alias a-1='cd ..'
@@ -15171,7 +15159,6 @@ alias -- -1='cd ..'
 a=1
 b='cd ..'
 alias -- -$a="$b"
--2
 alias -1
 alias -p
 complete 
@@ -15188,7 +15175,6 @@ alias | cut -d' ' -f2 | cut -d= -f1
 cd -1
 echo -1
 echo '-1'
--1
 cat .inputrc 
 man bash
 type ls
@@ -15226,17 +15212,14 @@ echo $PATH
 ssh root@95.163.194.228 -p 27762
 ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[95.163.194.228]:27762"
 \ssh root@95.163.194.228 -p 27762
-echo $USER
 [[ "$USER" == "root" || "$USERNAME" == "root" ]] && $PROMPT_CHAR='#'
 [[ "$USER" == "root" || "$USERNAME" == "root" ]] && echo 1
-sudo su
 vim .vim/plugin/keymap.vim 
 python
 \ssh sihe@10.0.10.102
 \ssh sihe@10.0.10.186
 docker exec -it test bash
 docker run -it vim bash
-echo $HOSTNAME
 echo \033[01;31m1234$NC
 echo -e '\033[01;31m1234$NC'
 echo -e "\033[01;31m1234$NC"
@@ -15279,7 +15262,6 @@ echo -e '\033[10;31m234\033[0m'
 echo -e '\033[12;31m234\033[0m'
 echo -e '\033[13;31m234\033[0m'
 echo -e '\033[14;31m234\033[0m'
-echo $LS_COLORS 
 echo -e '\033[01;35m234\033[0m'
 echo -e '\033[01;36m234\033[0m'
 git reset HEAD --hard
@@ -15323,7 +15305,6 @@ cd snd/
 ll snd
 docker stop transformer && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
-docker exec -it transformer bash
 git clean -dff
 git commit -m "resolve comment"
 cd build/
@@ -15339,7 +15320,6 @@ rm *
 sudo rm *
 cd .cache/tags/
 rm 1
-echo $HOME
 vim .vimrc
 top
 glances
@@ -15354,15 +15334,38 @@ echo $PWD
 r
 r --help
 echo $GITTOP
-cd ..
-pwd
 cd proto/
 cd src/
-cd fc/transformer-pipeline/
+git diff
+docker exec -it transformer bash
+echo $USERNAME
+echo $HOSTNAME
+su gjs
+cd ../
+cd home/
+su tst
+su test
+echo $USER
+echo $HOME
+cd Do
+cd Documents/
 cd ~/fc/transformer-pipeline/
+cd fc/
+cd transformer-pipeline/
+cd $GITTOP
+pwd
+cd ..
+cd fc/transformer-pipeline/
 cd frontend/
+0/src
+0
+-1
+-2
+1
+2
+echo $LS_COLORS 
+sudo su
 ls
 cd ~
-git diff
 g
 ./config.sh push
