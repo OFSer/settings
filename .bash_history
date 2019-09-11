@@ -6853,7 +6853,6 @@ git add -f .bashrc
 git add -f .bash
 git add .bash
 git commit -m "reconstruct .bashrc"
-echo $HOST
 vim /etc/host
 alert 1234
 alert --help
@@ -13349,7 +13348,6 @@ history -r
 fffffffffffffffffffffffffffffff
 git diff --cached .bashrc
 cd test/go/mock
-vim .vim/plugin/autocmd.vim 
 vim test/go/mock/main.go 
 vim .vim/plugin/.vimrc
 history -
@@ -14943,12 +14941,10 @@ vim --help
 vim --startuptime 
 vim --startuptime .vimrc
 git checkout -- .vimrc
-vim tm
 vim --startuptime tm
 cd .vim/plugged/
 cd nerdtree/
 cat .bashrc
-rm tm && vim --startuptime tm 
 t vinegar
 cd .vim/
 cd plugged/
@@ -15336,7 +15332,6 @@ man -Kw $term
 man bash
 man -Kw xterm-256color
 vim .vim
-vim .bash
 echo $PATH
 cd .local/bin/
 vim .bash_profile 
@@ -15356,7 +15351,6 @@ cd test/
 git gh/
 cd ~/test/
 git clean -dff && git reset HEAD --hard && git pull https://github.com/chinnkarahoi/settings
-cd ~
 cat .bash_history 
 scp  root@95.163.194.228:~/1.go  .
 scp -P 27762 root@95.163.194.228:~/1.go  .
@@ -15384,7 +15378,6 @@ docker run --help
 tldr docker run
 tldr docker-run
 tldr docker
-git diff
 sd
 ds
 gd
@@ -15400,9 +15393,16 @@ nc -l 2000
 cat README.md 
 docker exec -it transformer bash
 cd /fc/transformer-pipeline/
-vim
-ls
+echo $HOST
+vim .bash
 echo $HOSTNAME
+vim
+vim tm
+vim .vim/plugin/autocmd.vim 
+cd ~
+rm tm && vim --startuptime tm 
 vim .vimrc
+git diff
+ls
 g
 ./config.sh push
