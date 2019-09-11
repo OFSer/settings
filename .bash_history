@@ -393,7 +393,6 @@ cd saki_detection/
 fgjobs
 cd tmp
 ssh -p 10916 hypereal@registry-corp.hypereal.com
-cd /dev/
 cd shm
 echo -e "\\033[0;31m系统颜色设置代码调试，此颜色为一号颜色 - 红！"
 echo afds
@@ -3389,7 +3388,6 @@ git reset --hard config.py
 git checkout -- config.py
 git commit -m "fix 1.sh"
 git merge master
-git commit -m "upd ignore"
 git merge gjs
 git statuz
 vim .git
@@ -3422,7 +3420,6 @@ cd bus/
 vim socks.json 
 $(perl -pl0 -e "s|^${HOME}|~|;s|([^/])[^/]*/|$""1/|g" <<<${PWD})
 perl -pl0 -e "s|^${HOME}|~|;s|([^/])[^/]*/|$""1/|g" <<<${PWD}
-echo $PWD
 echo "$PWD" | sed -E 's/([^/])[^/]*/\1/g'
 echo "$PWD" | sed 's/([^/])[^/]*/\1/g'
 short_pwd() {  cwd=$(pwd | perl -F/-ane 'print join("/", map { $i++ <@F - 1? substr $_,0,1 : $_ } @F)');  echo -n $cwd; }
@@ -11402,7 +11399,6 @@ git checkout uploader Dockerfile
 git checkout uploader main.go
 git commit -m "add ssh-proxy"
 git push --set-upstream origin ssh-proxy 
-r
 git rm --cached uploader/
 git rm -r --cached uploader/
 git checkout -b uploader 
@@ -11463,7 +11459,6 @@ musicbox demo.wav
 musicbox --help
 netease-cloud-music demo.wav 
 mocp demo.wav 
-git commit -m "resolve comment"
 git commit -m "resolve comments"
 git checkout upload
 rm config.json 
@@ -13792,7 +13787,6 @@ his
 sudo apt install moreutils
 vim alias.sh 
 cd bash/
-vim 1
 chmod +x 1
 env
 ./1
@@ -13882,7 +13876,6 @@ dpkg -i 1.deb
 sudo dpkg -i 1.deb
 rm ls
 wget https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb
-rm *
 curl "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb"
 wget
 docker run -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
@@ -14109,7 +14102,6 @@ alias t='sudo \wd -s '
 mkdir ~/.bash_completion.d
 curl https://raw.githubusercontent.com/cykerway/complete-alias/master/bash_completion.sh      > ~/.bash_completion.d/complete_alias
 cd ~/.bash_completion.d/
-ll -h
 alias container=docker\ container
 complete -F _complete_alias container
 source ~/.bash_completion.d/complete_alias
@@ -14502,7 +14494,6 @@ cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 make -j4
 cd bin
 ./image_saving_service 
-make -j4 image_saving_service
 bin/image_saving_service 
 sudo mount /dev/mapper/loop18p1 /mnt
 pip install ast
@@ -14530,7 +14521,6 @@ echo -e 's\ns\n' | sudo passwd test
 useradd test
 useradd -m -d /home/gjs -s /bin/bash -G sudo gjs
 cd /home/gjs/
-cd /root/
 useradd -m -d /home/test -s /bin/bash -G sudo test
 echo -e 's\ns\n' | passwd gjs
 echo -e 's\ns\n' | passwd test
@@ -14607,7 +14597,6 @@ vim home-gjs-test-tags
 vim test/PthreadPool/
 ls ~/.cache/tags/
 cat home-gjs-tags.temp 
-cd .cache/tags/
 vim fc-transformer-pipeline-tags 
 cd .cache/tags
 cd nerdtree
@@ -14675,7 +14664,6 @@ c t ' ' | wc -w
 cd /etc/
 find . | grep eng
 sudo find . | grep eng
-cd /
 sudo  find . -path ./home -prune -o 
 sudo  find . -path ./home -prune -o -print
 sudo  find . -path ./home -prune -o -print | grep engli
@@ -14695,7 +14683,6 @@ vim .gitconfig
 command fc
 command cd fc
 command cd ..
-rm 1
 vim .emacs
 cat .dmrc
 cat .units_history 
@@ -14730,7 +14717,6 @@ pstree -s -t 11691
 pstree -s -p 11691
 pstree -s  11691
 vim .bash_history 
-glances
 complete -o default -o nospace -F _fzf_complete_kill pstree
 complete -o nospace -F _fzf_complete_kill pstree
 fg
@@ -14848,7 +14834,6 @@ dirs
 dirs fc
 dirs /home
 dir /home
-pwd
 docker run -it -d --name vim vim bash
 docker exec -it vim bash
 echo $=TERM
@@ -14860,7 +14845,6 @@ man test
 tput
 echo
 ./config.sh push "upd bash"
-cd /fc/transformer-pipeline/
 cd logs/
 cd $GITTOP
 gt
@@ -14924,7 +14908,6 @@ vim -c "PlugInstall" -c "cq"
 vim -c "PlugInstall" -c "cq" &> /dev/null
 vim +'PlugInstall --sync' +qall 
 vim +'PlugInstall --sync' 
-docker stop transformer && docker container prune -f
 ls | grep markdown
 ls | grep markdown | xargs rm -rf
 ls | grep mk
@@ -14952,7 +14935,6 @@ sudo npm install yarn
 sudo npm install -g yarn
 yarn
 /usr/local/bin/yarn
-top
 docker run -it -v /fc:/fc -d --name test transformer 
 curl --help
 help curl -s
@@ -14983,9 +14965,6 @@ cd .bash
 ls *.sh
 ls *.sh | xargs echo
 ls *.sh | xargs -i echo {}
-git add -A
-cd .bash/
-git push
 vim --help
 vim --startuptime 
 vim --startuptime .vimrc
@@ -14995,7 +14974,6 @@ vim --startuptime tm
 cd .vim/plugged/
 cd nerdtree/
 vim 
-git clean -dff
 cat .bashrc
 rm tm && vim --startuptime tm 
 t vinegar
@@ -15063,14 +15041,10 @@ echo $BLUE
 echo $add
 nc
 cd transformer-pipeline/
-ll
-cd src/
-cd proto/
 c
 cd .
 c d
 cd tools
-cd frontend/
 cd 
 complete | grep _fzf
 complete | grep _fzf | grep kill
@@ -15110,7 +15084,6 @@ ls | xargs -i cloc {}
 cd flaw_checker/
 cd submodules/
 cd script/
-cd build/
 cd online_files/
 cloc .
 l
@@ -15151,7 +15124,6 @@ cd .local/share/
 cd TabNine/
 cd models/
 vim Medium.meta 
-cd ..
 vim .gitignore 
 strace -s 1024 -f -p 1381
 sudo strace -s 1024 -f -p 1381
@@ -15202,7 +15174,6 @@ alias -- -$a="$b"
 -2
 alias -1
 alias -p
-cd ~/fc/transformer-pipeline/
 complete 
 complete  | grep '\-1'
 complete  | grep '\-2'
@@ -15239,7 +15210,6 @@ alias
 vim .bash_profile 
 vim .profile 
 \ssh gjs@10.0.10.63
-df
 vim .bashrc
 vim .vi
 vim .vim
@@ -15278,7 +15248,6 @@ echo -e "\033[01;31m234$NC"
 echo -e "\033[01;31m234${NC}"
 RED='\033[01;31m'
 python3
-cd ~
 echo -e '\033[01;31m234'
 echo -e '\033[01;32m234'
 echo -e '\033[01;33m234'
@@ -15313,17 +15282,10 @@ echo -e '\033[14;31m234\033[0m'
 echo $LS_COLORS 
 echo -e '\033[01;35m234\033[0m'
 echo -e '\033[01;36m234\033[0m'
-docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
-docker exec -it transformer bash
-ls
-cd fc/transformer-pipeline/
-vim
 git reset HEAD --hard
 git pull
 dirs -p
-echo $GITTOP
 dirs -p /home/gjs
-echo $HOME
 a=/home/gjs
 echo ${a/$HOME/~}
 echo ${a/${HOME}/~}
@@ -15339,15 +15301,68 @@ a=/home/gjs && echo ${a/\^$HOME/\~}
 a=/home/gjs && echo ${a/$HOME/\~}
 a=/home/gjs && echo ${a/#$HOME/\~}
 a=/home/gjs/t && echo ${a/#$HOME/\~}
-vim .vimrc
 sudo apt-get install python-sdl2
 sudo apt-get install python3-sdl2
 man python-sdl2
 man sdl2
 c man ' ' | grep sdl
 man -Kw sdl2
-git diff
 gd
 vim config.sh 
+apt install python3-sdl
+apt install python3-sdl2
+apt install python-sdl2
+apt remove python3-sdl2
+apt remove python-sdl2
+df
+df | grep snd
+cd /dev/
+ls | grep snd
+ll | grep snd
+cd snd/
+ll snd
+docker stop transformer && docker container prune -f
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
+docker exec -it transformer bash
+git clean -dff
+git commit -m "resolve comment"
+cd build/
+make -j4 image_saving_service
+ps 29863 
+cd /
+cd /r
+cd /root/
+ll
+ll -h
+vim 1
+rm *
+sudo rm *
+cd .cache/tags/
+rm 1
+echo $HOME
+vim .vimrc
+top
+glances
+cd /fc/transformer-pipeline/
+vim
+git add -A
+git commit -m "upd ignore"
+git push
+git diff ~/.vimrc
+cd .bash/
+echo $PWD
+r
+r --help
+echo $GITTOP
+cd ..
+pwd
+cd proto/
+cd src/
+cd fc/transformer-pipeline/
+cd ~/fc/transformer-pipeline/
+cd frontend/
+ls
+cd ~
+git diff
 g
 ./config.sh push

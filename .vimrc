@@ -9,9 +9,9 @@ call plug#begin('~/.vim/plugged')
 	Plug 'flazz/vim-colorschemes'
 	Plug 'sheerun/vim-polyglot'
 	Plug 'ludovicchabant/vim-gutentags'
-	let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project']
+	let g:gutentags_project_root = ['.git']
 	let g:gutentags_ctags_tagfile = 'tags'
-	let g:gutentags_exclude_project_root = ['/home/gjs']
+	let g:gutentags_exclude_project_root = [$HOME]
 
 	let s:vim_tags = expand('~/.cache/tags')
 	let g:gutentags_cache_dir = s:vim_tags
@@ -25,12 +25,6 @@ call plug#begin('~/.vim/plugged')
 
 
 " misc 
-	" Plug 'skywind3000/asyncrun.vim'
-	Plug 'skywind3000/vim-keysound'
-	let g:keysound_enable = 1
-	let g:keysound_theme = 'typewriter'
-	let g:keysound_py_version = 3
-	let g:keysound_volume = 1000
 	Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 	Plug 'chinnkarahoi/haskell-vim'
 	" Plug 'vim-scripts/Conque-GDB'
@@ -131,7 +125,13 @@ call plug#begin('~/.vim/plugged')
 
 " maybe
 	" Plug 'SirVer/ultisnips'
-	" Plug 'honza/vim-snippets'
+	" Plug 'skywind3000/asyncrun.vim'
+	" Plug 'skywind3000/vim-keysound'
+	" let g:keysound_enable = 1
+	" let g:keysound_theme = 'typewriter'
+	" let g:keysound_py_version = 3
+	" let g:keysound_volume = 1000
+	"" Plug 'honza/vim-snippets'
 
 call plug#end()
 
