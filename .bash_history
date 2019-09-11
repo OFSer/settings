@@ -15180,7 +15180,6 @@ s inherited by the shell at invocation
 s -p dict test
 tldr s
 s --help
-\ssh gjs@10.0.10.102
 complete -p
 alias 
 \ssh gjs@10.0.10.63
@@ -15197,7 +15196,6 @@ echo $PROMPT_COMMAND
 echo $PRECMD
 ssh root@95.163.194.228 -p 27762
 ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[95.163.194.228]:27762"
-\ssh root@95.163.194.228 -p 27762
 [[ "$USER" == "root" || "$USERNAME" == "root" ]] && $PROMPT_CHAR='#'
 [[ "$USER" == "root" || "$USERNAME" == "root" ]] && echo 1
 vim .vim/plugin/keymap.vim 
@@ -15318,7 +15316,6 @@ echo $GITTOP
 cd proto/
 cd src/
 echo $USERNAME
-echo $HOSTNAME
 su gjs
 cd ../
 cd home/
@@ -15346,9 +15343,6 @@ echo $LS_COLORS
 vim .bash/103_prompt.sh 
 sudo su
 \ssh sihe@10.0.10.186
-\ssh sihe@10.0.10.102
-docker exec -it transformer bash
-vim 
 ./config.sh pull
 vim .vim/colors/konomi.vim 
 echo $TERM 
@@ -15363,16 +15357,22 @@ cd .local/bin/
 vim .bash_profile 
 vim .profile 
 man terminator_config
-vim .vimrc
 git lgo
 git log
 git push --force
 vim
-g
 git diff
 gd
 cd fc/transformer-pipeline/src/services/algorithms_service/appearance_checker
-ls
 cd ~/.bash
+echo $HOSTNAME
+vim .vimrc
+g
+docker exec -it transformer bash
 cd ~
+vim 
+\ssh root@95.163.194.228 -p 27762
+ls
+\ssh sihe@10.0.10.102
+\ssh gjs@10.0.10.102
 ./config.sh push
