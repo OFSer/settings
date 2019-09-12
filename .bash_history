@@ -555,7 +555,6 @@ eval '$a'
 eval $a
 man ascii
 sudo apt install ascii
-tty
 man tty
 echo ~
 echo ~root
@@ -640,7 +639,6 @@ git commit -m "add README.md"
 mv README.sh README.md
 git commit -m "sh -> md"
 let a+=1
-. ~/.bashrc
 expr substr abc 2 2
 expr substr abc 1 2
 expr substr abc 1 3
@@ -14521,11 +14519,9 @@ cat ~/.bashrc
 complete -p | grep docker
 . .bash_completion 
 apt install bash-completion
-cd /fc/
 pstree
 git diff .bash
 ./config.sh push "upd dockerfile"
-git diff HEAD^ .dconf
 man sleep
 cppman sleep
 git commit -m "add try connect"
@@ -14838,15 +14834,12 @@ cd so/
 vim Makefile 
 cd gh/cos/
 echo TERM
-echo $TERM
 ssh root@172.17.0.1
 \ssh root@172.17.0.1
 git commit -m "add push"
 git commit -m "add log"
 git diff .bash/env.sh
 sh
-bash
-cd dev/
 vim -c "PlugInstall" -c "q!" -c "q!"
 vim -c "PlugInstall" -c "q!" -c "q!" &> /dev/null
 docker stop test && docker container rm test
@@ -15243,7 +15236,6 @@ ps 29863
 cd /
 cd /r
 cd /root/
-ll
 ll -h
 vim 1
 rm *
@@ -15259,22 +15251,17 @@ cd .bash/
 echo $PWD
 r
 r --help
-echo $GITTOP
 cd proto/
 cd src/
 echo $USERNAME
-su gjs
 cd ../
 cd home/
 su tst
-su test
 echo $USER
 echo $HOME
 cd Do
 cd Documents/
-cd ~/fc/transformer-pipeline/
 cd fc/
-cd transformer-pipeline/
 cd $GITTOP
 pwd
 cd frontend/
@@ -15294,14 +15281,11 @@ cd .local/bin/
 vim .bash_profile 
 vim .profile 
 man terminator_config
-git lgo
 git push --force
 cd fc/transformer-pipeline/src/services/algorithms_service/appearance_checker
 cd ~/.bash
 vim 
 \ssh root@95.163.194.228 -p 27762
-\ssh sihe@10.0.10.102
-\ssh gjs@10.0.10.102
 git diff HEAD^
 cd test/
 git gh/
@@ -15340,8 +15324,6 @@ nc -zv 10.0.10.138 22
 nc -zv 10.0.10.138 2-10000
 nc -zv 10.0.10.138 19910
 ping 10.0.10.138
-docker exec -it transformer bash
-cd /fc/transformer-pipeline/
 echo $HOST
 echo $HOSTNAME
 vim
@@ -15441,7 +15423,6 @@ vim config.sh
 \ssh -p6023 root@172.96.243.251
 cd fc/transformer-pipeline/
 cd config/
-cd ~
 1
 3
 4
@@ -15453,17 +15434,52 @@ cd ~
 -2
 d
 2
-sudo su
-history 
 vim .bash
-git log
 vim .vim/plugin/keymap.vim 
 vimux 
-git diff
-ls
 vim .vim/colors/konomi.vim 
 t beige
-vimux
 git checkout -- .vim/colors/konomi.vim
+git diff HEAD^ .dconf
+vimjux
+vimux
+git diff
+ll
+git lgo
+git log
+. ~/.bashrc
+history 
+cd dev/
+cd ~/fc/transformer-pipeline/
+cd /fc/
+cd transformer-pipeline/
+sudo root
+sudo su
+su gjs
+su test
+\ssh gjs@10.0.10.102
+cd /fc/transformer-pipeline/
+echo $GITTOP
+export GITTOP
+export fff=1234
+\ssh sihe@10.0.10.102
+echo $fff
+tty
+echo -e "\e[40;38;5;82m Hello \e[30;48;5;82m World \e[0m"
+for i in {16..21} {21..16} ; do echo -en "\e[48;5;${i}m \e[0m" ; done ; echo
+for i in {16..21} {21..16} ; echo $i
+for i in {16..21} {21..16} ; do echo $i;done
+echo {1..5}{5..1}
+echo {1..5} {5..1}
+bash
+echo $TERM
+echo -e "Default \e[91mLight red"
+echo -e "Default \e[31mLight red"
+echo -e "Default \e[01;91mLight red"
+echo -e "Default \e[01;31mLight red"
+echo -e "\e[38;5;82mHello \e[38;5;198mWorld"
+docker exec -it transformer bash
+ls
 g
+cd ~
 ./config.sh push
