@@ -15467,7 +15467,6 @@ echo -e "Default \e[31mLight red"
 echo -e "Default \e[01;91mLight red"
 echo -e "Default \e[01;31mLight red"
 echo -e "\e[38;5;82mHello \e[38;5;198mWorld"
-docker exec -it transformer bash
 g
 cd ~
 \ssh -p6023 root@172.96.243.251
@@ -15488,7 +15487,8 @@ echo $TERMINVIM
 echo $TERMINVIM
 vim .bashrc
 vim .bash/000_env.sh 
-vimux
-ls
 cd ..
+docker exec -it transformer bash
+ls
+vimux
 ./config.sh push

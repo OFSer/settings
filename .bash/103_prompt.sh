@@ -1,12 +1,12 @@
 #!/bin/bash
 [[ "$HOSTNAME" != "leaf" ]] && {
 	USER_COLOR="\[\033[09;32m\]"
-}
-[[ -n "$TERMINVIM" ]] && {
-	USER_COLOR="\[\033[03;32m\]"
-}
+} 
 [[ "$HOSTNAME" == "docker" ]] && {
 	USER_COLOR="\[\033[04;32m\]"
+}
+[[ -n "$TERMINVIM" ]] && {
+	USER_COLOR="$USER_COLOR\[\033[03;32m\]"
 }
 [[ "$USER" == "root" || "$USERNAME" == "root" ]] && {
 	PROMPT_CHAR='#'
