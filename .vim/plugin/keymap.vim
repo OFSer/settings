@@ -5,6 +5,7 @@ nnoremap <c-c> <esc>
 vnoremap <c-c> <esc>
 snoremap <c-c> <esc>
 lnoremap <c-c> <esc>
+tnoremap <c-w>q <c-w>:q!<cr>
 
 nnoremap <c-c> <nop>
 inoremap <c-g> <nop>

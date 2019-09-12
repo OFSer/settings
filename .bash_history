@@ -1034,7 +1034,6 @@ vim  /etc/environment
 ssh -p 13167 hypereal@registry-corp.hypereal.com
 ssh -p 10854 hypereal@registry-corp.hypereal.com
 docker commit 70bb6e3def0f ubuntu:16.04
-cd ~/Downloads/
 wget  \\share\TempExchange\HuangWei\tf-cc
 wget  smb://share/TempExchange/HuangWei/tf-cc
 curl  smb://share/TempExchange/HuangWei/tf-cc
@@ -1484,10 +1483,8 @@ ps -ef | grep dota32
 ps -ef | grep dota2
 kill 23068
 ssh -p 15179 hypereal@registry-corp.hypereal.com
-curl pan.baidu.com
 curl -H pan.baidu.com
 curl --help | grep head
-curl -I pan.baidu.com
 curl -I baidu.com
 ping pan.baidu.com
 curl 180.149.145.241
@@ -6095,7 +6092,6 @@ docker exec v ~:/root -it jms_all /bin/bash
 docker exec  -it jms_all /bin/bash
 docker rm -f 524a0c9d9b3f
 cd fc/sshproxy/
-cd g
 gocode
 go get -u github.com/nsf/gocode
 gocode close
@@ -6378,7 +6374,6 @@ ssh -o "StrictHostKeyChecking no" -p 14339 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 17125 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 15635 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 18631 hypereal@registry-corp.hypereal.com
-cd ~/
 ssh gjs@127.0.0.1 -p 8002
 ssh -o "StrictHostKeyChecking no" -p 17710 hypereal@registry-corp.hypereal.com
 ping dl-4
@@ -8401,7 +8396,6 @@ shyaml
 sudo apt install shyaml
 pip install shyaml
 shyaml 
-cd config/
 find . | grep yaml
 find . | grep yaml | tail -n 1
 shyaml `find . | grep yaml | tail -n 1`
@@ -10940,10 +10934,8 @@ qterminal
 gcc -m32 1.c && ./a.out
 gcc -m32 -S 1.c && gcc -m32 1.c && ./a.out
 cd ~/test/asm/
-./pc
 ./pc.sh
 ls /mnt/
-./pc.sh 
 gcc SPSCQueue.h 
 g++ SPSCQueue.h 
 g++ -S SPSCQueue.h 
@@ -11449,8 +11441,6 @@ got build .
 go run recover.go 
 go run .
 rm demo.wav 
-cd pt-program/
-cd pan-light/
 cat gameoverlayui.log
 cat vim-node-rpc.log
 mkdir recover
@@ -13918,7 +13908,6 @@ rename 's/appearance_checker/image_saving/' *
 git checkout -- src/
 cat .gitignore 
 git checkout -b image_saving_service
-cat 1
 cd src/services/
 cd algorithms_service/
 mv image_saving_service/ algorithms_service/
@@ -14266,11 +14255,8 @@ ll  /usr/share/applications/ | grep Cre
 ll  /usr/share/applications/ | grep Start
 cd ~/test/cpp/
 t biege
-t beige
-vimux 
 nethack
 cataclysm 
-vimux
 man s
 t embark
 t embassy 
@@ -14985,10 +14971,6 @@ cd ~/fc/aruco/
 fc
 frontend/
 src/
-3
-4
-5
-6
 7
 8
 9
@@ -15012,7 +14994,6 @@ docker run -it workspace
 perl cloc.pl /apps/projects/reallycoolapp --exclude-dir=lib,frameworks
 sudo apt install cloc
 cloc
-cd gh/
 cd fp-course/
 cd ~/test/cpp/rttr/
 cd rttr/
@@ -15040,7 +15021,6 @@ cd flaw_checker/
 cd submodules/
 cd script/
 cd online_files/
-cloc .
 l
 f
 type gd
@@ -15068,8 +15048,6 @@ gdd
 ls .config/TabNine/
 ls .local/share/TabNine/
 cd .local/share/TabNine/
-du -hd1
-ls -a
 cat Medium.meta 
 62;c
 cat .config/configstore/update-notifier-npm.json
@@ -15160,7 +15138,6 @@ alias
 vim .bashrc
 vim .vi
 vim .bash/103_feature.sh 
-d
 echo $RED
 echo $cmd
 echo $PS2
@@ -15172,7 +15149,6 @@ ssh root@95.163.194.228 -p 27762
 ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[95.163.194.228]:27762"
 [[ "$USER" == "root" || "$USERNAME" == "root" ]] && $PROMPT_CHAR='#'
 [[ "$USER" == "root" || "$USERNAME" == "root" ]] && echo 1
-vim .vim/plugin/keymap.vim 
 python
 docker exec -it test bash
 docker run -it vim bash
@@ -15273,7 +15249,6 @@ vim 1
 rm *
 sudo rm *
 cd .cache/tags/
-rm 1
 top
 glances
 git add -A
@@ -15302,20 +15277,12 @@ cd fc/
 cd transformer-pipeline/
 cd $GITTOP
 pwd
-cd fc/transformer-pipeline/
 cd frontend/
 0/src
-0
--1
--2
-1
-2
 echo $LS_COLORS 
 vim .bash/103_prompt.sh 
-sudo su
 \ssh sihe@10.0.10.186
 ./config.sh pull
-vim .vim/colors/konomi.vim 
 echo $TERM 
 man term
 man -Kw $term
@@ -15328,7 +15295,6 @@ vim .bash_profile
 vim .profile 
 man terminator_config
 git lgo
-git log
 git push --force
 cd fc/transformer-pipeline/src/services/algorithms_service/appearance_checker
 cd ~/.bash
@@ -15359,8 +15325,6 @@ traceroute --resolve-hostnames 95.163.194.228
 traceroute baidu.com
 ping baidu.com
 cd dockerfiles/
-cd ..
-history 
 docker --help
 docker run --help
 tldr docker run
@@ -15379,14 +15343,12 @@ ping 10.0.10.138
 docker exec -it transformer bash
 cd /fc/transformer-pipeline/
 echo $HOST
-vim .bash
 echo $HOSTNAME
 vim
 vim tm
 vim .vim/plugin/autocmd.vim 
 rm tm && vim --startuptime tm 
 vim .vimrc
-vim config.sh 
 vim sock.json
 ./config.sh config_priproxy
 ./config.sh config_privoxy
@@ -15403,7 +15365,6 @@ curl https://google.com
 cd //etc/privoxy
 cd /etc/privoxy
 bat gfwlist.action
-cd ~
 cat README.md 
  service privoxy status
 curl baidu.com
@@ -15425,20 +15386,84 @@ nc -l 2000
 google-chrome --proxy-server="$proxy"
 google-chrome-stable --proxy-server="$proxy"
 curl google.com
-\ssh linan@172.96.243.251 -p 6023
 ping 127.0.0.1:1080
 cat 127.0.0.1:1080
 nc 127.0.0.1 1080
 google-chrome-stable --proxy-server="socks5://127.0.0.1:1080"
 cat config.sh 
-echo $proxy
 google-chrome --help
 google-chrome-stable --proxy-server="$https_proxy;$http_proxy"
 echo 'google-chrome-stable --proxy-server="$https_proxy;$http_proxy"'
 echo google-chrome-stable --proxy-server="$https_proxy;$http_proxy"
 vim .bash/000_env.sh 
 firefox 
-ls
-g
+\ssh linan@172.96.243.251 -p 6023
+scp -P 6023 linan@172.96.243.251:~/1 . 
+cat 1
+rm 1
+ssh 172.96.243.251 -p 6023
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[172.96.243.251]:6023"
+\ssh 172.96.243.251 -p 6023
+\ssh root@172.96.243.251 -p 6023
+\ssh opps@172.96.243.251 -p 6023
+\ssh -p6023 opps@172.96.243.251
+cd pt-program/
+ls -a
+cd g
+cd ~/
+cd gh/
+git clone 
+git clone  https://github.com/peterq/pan-light
+cd pan-light/
+cd pc/
+cd ..
+cloc .
+./pc
+export proxy=socks5://127.0.0.1:1080
+export htpp_proxy=$proxy
+export htpps_proxy=$proxy
+curl pan.baidu.com
+curl -I pan.baidu.com
+curl -I https://pan.baidu.com
+curl  https://pan.baidu.com
+curl https://pan.baidu.com
+curl 'https://pan.baidu.com'
+echo $proxy
+cd ~/Downloads/
+rm -rf pan-light-v0.0.1preview-linux-x64
+tar -zxvf pan-light-v0.0.1preview-linux-x64.tar.gz 
+cd pan-light-v0.0.1preview-linux-x64/
+~/gh/pan-light/pan-light-v0.0.1preview-linux-x64
+cd ~/gh/pan-light/pan-light-v0.0.1preview-linux-x64
+du -hd1
+./pc.sh 
+vim config.sh 
+\ssh -p6023 root@172.96.243.251
+cd fc/transformer-pipeline/
+cd config/
+cd ~
+1
+3
+4
+5
+6
+0
+-1
+-3
+-2
+d
+2
+sudo su
+history 
+vim .bash
+git log
+vim .vim/plugin/keymap.vim 
+vimux 
 git diff
+ls
+vim .vim/colors/konomi.vim 
+t beige
+vimux
+git checkout -- .vim/colors/konomi.vim
+g
 ./config.sh push

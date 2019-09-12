@@ -1,4 +1,17 @@
+[system/proxy/http]
+host='127.0.0.1'
+port=8118
+
+[system/proxy/socks]
+host='127.0.0.1'
+port=1080
+
+[system/proxy/https]
+host='127.0.0.1'
+port=8118
+
 [system/proxy]
+mode='none'
 use-same-proxy=false
 
 [org/gnome/settings-daemon/plugins/power]

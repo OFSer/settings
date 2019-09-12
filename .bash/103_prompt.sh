@@ -15,7 +15,7 @@ xterm*|rxvt*)
 		GITREF=$(git symbolic-ref --short HEAD 2>/dev/null )
 		GITSTATUS=$(git diff-files --no-ext-diff --quiet --ignore-submodules 2>/dev/null || echo '*')
 		[ -z "$GITREF" ] && GITPS1="" || GITPS1="[$GITREF$GITSTATUS]"
-		PS1="$USER_COLOR\u@${HOSTNAME}\[\033[01;35m\]${GITPS1}\[\033[00m\]:\[\033[01;36m\]${GITTOP/#$HOME/\~}\[\033[01;34m\]${PWD#$GITTOP}\[\033[00;31m\]${PROMPT_CHAR}\[\033[00m\] "
+		PS1="$USER_COLOR\u@${HOSTNAME}\[\033[01;35m\]${GITPS1}\[\033[00m\]:\[\033[01;36m\]${GITTOP/#$HOME/\~}\[\033[01;34m\]${PWD#$GITTOP}\[\033[01;33m\]${PROMPT_CHAR}\[\033[00m\] "
 	}
 	CommandTrap(){
 		history -a
