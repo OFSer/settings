@@ -15,3 +15,4 @@ done
 complete -F _bd bd
 complete -o filenames -F _provider_completion s
 complete -o nospace -F _fzf_complete_kill pstree ps
+complete -F _command c

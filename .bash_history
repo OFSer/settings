@@ -506,7 +506,6 @@ git remote add origin git@github.com:chinnkarahoi/cpp.git
 rm 1.cpp nohup.out 1 out out2 test
 git commit -m "rm"
 mkdir lib
-obs
 rm libadd.so 
 echo `pwd`/dll | sudo tee -a /ect/ld.so.conf > /dev/null
 echo `pwd`/dll | sudo tee -a /etc/ld.so.conf > /dev/null
@@ -7028,7 +7027,6 @@ man crontab
 compgen man 
 compgen "man " 
 compgen -p "man " 
-complete --help
 complete man
 complete "man"
 tldr complete
@@ -10487,7 +10485,6 @@ mkdir -p obj/kern
 cd fds
 type cp
 mycd
-type c
 c ~
 dirs -;
 go build -v .
@@ -12773,7 +12770,6 @@ strings a.out  | grep elf
 strings a.out  | grep -i elf
 xdelta3
 i xdelta3
-c i ' '
 type i
 c sudo apt install ' '
 c i
@@ -13402,7 +13398,6 @@ cat -n ~/.bash_history | sort -r -k2 -k1n | less
 cd test/sh/
 sl
 '
-
 cat -n 1 | sort  -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
 cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
 cat -n 1 | sort -k2 -k1n  | uniq -r -f1 | sort -nk1,1 | cut -f2-
@@ -14056,7 +14051,6 @@ readlink -f **
 readlink -f *
 cd cpp
 f *.cpp
-t
 t ls
 i glances
 alias t='\wd -s'
@@ -14074,7 +14068,6 @@ vim ~/.bash_completion
 cat ~/.bash_completion.d/complete_alias
 cat ~/.bash_completion.d/complete_alias > ~/.bash_completion
 cat .bash_completion
-bash --version
 vim .bash_completion
 type sctl 
 type sctl
@@ -14506,7 +14499,6 @@ complete docker
 complete -p docker
 complete -p | grep docker 
 vim .bash/alias.sh 
-type t
 type docker 
 type docker
 gdb
@@ -14519,7 +14511,6 @@ complete -p | grep docker
 . .bash_completion 
 apt install bash-completion
 pstree
-git diff .bash
 ./config.sh push "upd dockerfile"
 man sleep
 cppman sleep
@@ -14670,11 +14661,9 @@ pstree -s  11691
 vim .bash_history 
 complete -o default -o nospace -F _fzf_complete_kill pstree
 complete -o nospace -F _fzf_complete_kill pstree
-fg
 pstree --help
 pstree -s -t 11288 
 pstree -s -p -T 11288 
-vim .bashrc 
 ps -ef | grep sleep
 ps -ef 
 ps 1111
@@ -14811,7 +14800,6 @@ c ls -
 ./config.sh push "fix"
 complete -p git
 vim .bash/PS1.
-vim .inputrc 
 vim makefile 
 vim README.md 
 cd .vim/colors/
@@ -14970,7 +14958,6 @@ type d
 echo $BLUE 
 echo $add
 nc
-c
 cd .
 c d
 cd tools
@@ -15094,7 +15081,6 @@ b='cd ..'
 alias -- -$a="$b"
 alias -1
 alias -p
-complete 
 complete  | grep '\-1'
 complete  | grep '\-2'
 complete -1
@@ -15259,17 +15245,14 @@ cd Do
 cd Documents/
 cd fc/
 cd $GITTOP
-pwd
 cd frontend/
 0/src
 echo $LS_COLORS 
-vim .bash/103_prompt.sh 
 \ssh sihe@10.0.10.186
 ./config.sh pull
 echo $TERM 
 man term
 man -Kw $term
-man bash
 man -Kw xterm-256color
 vim .vim
 echo $PATH
@@ -15281,7 +15264,6 @@ git push --force
 cd fc/transformer-pipeline/src/services/algorithms_service/appearance_checker
 cd ~/.bash
 vim 
-\ssh root@95.163.194.228 -p 27762
 git diff HEAD^
 cd test/
 git gh/
@@ -15347,7 +15329,6 @@ curl baidu.com
 ping google.com
 /etc/privoxy/config
 sudo bat /etc/privoxy/config
-jobs
 vim socks.json 
 bat config.sh 
 sudo cat /etc/privoxy/config
@@ -15426,24 +15407,19 @@ d
 2
 vim .bash
 vim .vim/plugin/keymap.vim 
-vimux 
 vim .vim/colors/konomi.vim 
 t beige
 git checkout -- .vim/colors/konomi.vim
 git diff HEAD^ .dconf
 vimjux
-git diff
-ll
 git lgo
 git log
 . ~/.bashrc
-history 
 cd dev/
 cd ~/fc/transformer-pipeline/
 cd /fc/
 cd transformer-pipeline/
 sudo root
-sudo su
 su gjs
 su test
 \ssh gjs@10.0.10.102
@@ -15460,35 +15436,90 @@ for i in {16..21} {21..16} ; echo $i
 for i in {16..21} {21..16} ; do echo $i;done
 echo {1..5}{5..1}
 echo {1..5} {5..1}
-bash
 echo $TERM
 echo -e "Default \e[91mLight red"
 echo -e "Default \e[31mLight red"
 echo -e "Default \e[01;91mLight red"
 echo -e "Default \e[01;31mLight red"
 echo -e "\e[38;5;82mHello \e[38;5;198mWorld"
-g
 cd ~
 \ssh -p6023 root@172.96.243.251
-LS
-vim config.sh 
 echo $FFFF
 test --help
 man test
 t inhere
 t afterhere
 c t ' '
-c t ' ' | grep here
 c t ' ' | grep 'here$'
 t adhere
-vim .vimrc
-vim
-echo $TERMINVIM 
 echo $TERMINVIM
 vim .bashrc
-vim .bash/000_env.sh 
 cd ..
 docker exec -it transformer bash
+ll
+bat .bash_history 
+history 
+LS
+for fgbg in 38 48 ; do # Foreground / Background     for color in {0..255} ; do # Colors         printf "\e[${fgbg};5;%sm  %3s  \e[0m" $color $color         if [ $((($color + 1) % 6)) == 4 ] ; then             echo # New line;         fi;     done;     echo # New line; done
+for clbg in {40..47} {100..107} 49 ; do for clfg in {30..37} {90..97} 39 ; do \: #Formatting; \: for attr in 0 1 2 4 5 7 ; do
+#Print the result
+echo -en "\e[${attr};${clbg};${clfg}m ^[${attr};${clbg};${clfg}m \e[0m"
+echo #Newline
+done
+c 'man ' | grep ab
+c 'apt install ' 
+type c
+c man ' ' 
+c man ' '  | grep ab
+c apt install ' ' | grep ab
+type t
+c t ' ' | grep here
+t
+vim config.sh 
+c i 
+c i ' '
+c i ' ' | grep comple
+c i ' ' | grep completion
+brew install bash-completion
+brew search bash-completion
+bash --version
+\ssh root@95.163.194.228 -p 27762
+c apt install ' ' | grep bash-compl
+complete -p compgen 
+vim .bash/201_complete.sh 
+complete -p sudo 
+complete  | grep sudo
+complete  | grep complte
+complete  | grep compgen
+complete sudo
+complete --help
+complete 
+c
+git diff
+insert-completions
+man bash
+echo {.{ICEauthority,NERDTreeBookmarks,VimSokobanScores,Xauthority,a{ngband,ws},bash{,_{completion,history,profile},rc},c{ache,gdb,make,o{mpiz,n{an,f{,ig}}}},d{bus,conf,mrc,ocker},e{macs{,.d,~},w.json},f{btermrc,zf{,.bash,_history}},g{conf,db{_history,init{,.{1,d}}},hc,it{,config,globalignore,ignore,modules},nupg,oldendict,photo,vfs},h{plip,ttpie},i{nputrc,python},l{aunchpadlib,esshst,ocal},m{o{c,zilla},ume,ysql_history},n{e{odebug,tease-musicbox,wsrc-dribble},ode_repl_history,pm,v{,idia-settings-rc}},p{ki,r{esage,ofile},ulse-cookie,y{lint.d,thon_history}},s{emantic-highlight-cache,iege,ogouinput,sh,t{ack,eam{,p{ath,id}}},udo_as_admin_successful},t{etris{,_stat},gdb,hunderbird,ig_history,ldr,ooling},units_history,v{agrant.d,im{,_w3m_hist,info,rc},oltron,scode{,-cpptools}},w{3m,get-hsts,udao-dict},x{bindkeysrc,inputrc,session-errors{,.old}},y{arnrc,cm{,_extra_conf.py}},zcompdump},1.go,CloudMusic,D{esktop,o{cuments,wnloads}},News,README.md,Steam,backup,config.sh,dockerfiles,fc,g{ames,h,o},makefile,pt-program,s{hmmsg,nap,ocks.json,ync.sh},t{est,m}} 
+obs
+jobs
+fg
+pwd
+
+vim .inputrc 
+type fzf-file-widget
+ fzf-file-widget
+vim .bash/103_prompt.sh 
+vim .vimrx
+vim .vimrc
+export a
+vim .bashrc 
+vim .bash/000_env.sh 
+bash
+echo $TERMINVIM 
 ls
+vim
+vimux 
 vimux
+sudo su
+git diff .bash
+g
 ./config.sh push
