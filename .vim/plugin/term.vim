@@ -127,5 +127,5 @@ function! EnterNormalMode()
     call feedkeys("\<c-y>")
   endif
 endfunc
-tmap <silent> <ScrollWheelUp> <c-w>:call EnterNormalMode()<CR>
-tmap <silent> <ScrollWheelDown> <c-w>:call EnterNormalMode()<CR>
+" tmap <silent> <ScrollWheelUp> <c-w>:call EnterNormalMode()<CR>
+" tmap <silent> <ScrollWheelDown> <c-w>:call EnterNormalMode()<CR>

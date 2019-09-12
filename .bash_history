@@ -710,7 +710,6 @@ vim.gtk3
 sudo apt upgrade
 vim .viminfo 
 set -s escape-time 0
-fd
 gedit .vimrc
 git commit -m "add toggle terminal"
 git commit -m "fix toggle"
@@ -7644,7 +7643,6 @@ man crontab
 crontab 
 cat Pos_Above_translate
 cat /etc/crontab 
-w3m
 g++ 1.cpp && ./a.out
 ping 10.0.20.52
 nmap
@@ -8264,7 +8262,6 @@ hexdump -C -n 10000 1.o
 man conctab
 crontab
 history | grep ron
-man empire 
 history | grep g++ | grep error
 history | grep error
 mail -s "测试"  jingshen.gao@hypereal.com
@@ -13617,7 +13614,6 @@ docker run -it -v ~:/root -v /snap:/snap --name transfomer --tmpfs /run --tmpfs 
 docker run -d -it -v ~:/root -v /snap:/snap --name transfomer --tmpfs /run --tmpfs /run/lock --tmpfs /tmp --privileged -v /lib/modules:/lib/modules:ro transformer bash 
 docker exec -it transfomer snap install emoj
 fuse
-cd snap/
 chmod +x snap 
 docker build -t snapd . 
 docker run --name=snapd -ti -d   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged   -v /lib/modules:/lib/modules:ro \
@@ -13830,10 +13826,7 @@ wget https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.d
 curl "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb"
 wget
 docker run -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
-man protobuf
 man -f protobuf
-man -Kw protobuf
-man protoc
 man cmake-modules
 rm dockerfiles/1.deb
 sudo apt remove bat 
@@ -14146,7 +14139,6 @@ git diff .config/config.yml
 cat .config/config.yml
 cd .config/edit
 cat .config/edit
-cd .config/
 cat edit
 cat query 
 sudo apt install linuxbrew-wrapper
@@ -14441,7 +14433,6 @@ pip3
 pip3 install ast
 brew search clangd
 brew info golang
-docker ps -l
 apt install gdb
 pip
 apt install pip
@@ -14524,7 +14515,6 @@ file initrd.img
 file initrd.img.old 
 man top
 vim Dockerfile 
-man fzf
 cd ~/.cache/
 cd tags/
 cat home-gjs-test-tags 
@@ -14801,7 +14791,6 @@ git diff .inputrc
 g 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc   -d --name transformer transformer 
 vim CMakeLists.txt 
-vim --version
 vim --version | grep xterm
 asm
 cd so/
@@ -14889,7 +14878,6 @@ cd .vim/plugged/
 cd nerdtree/
 cat .bashrc
 t vinegar
-cd .vim/
 cd plugged/
 alias 1='cd ~1'
 vim .bash/alias.sh
@@ -14954,7 +14942,6 @@ complete | grep _fzf
 complete | grep _fzf | grep kill
 cd /home/
 vim .bash_completion 
-docker images
 docker run -it workspace 
 perl cloc.pl /apps/projects/reallycoolapp --exclude-dir=lib,frameworks
 sudo apt install cloc
@@ -15251,7 +15238,6 @@ man terminator_config
 git push --force
 cd fc/transformer-pipeline/src/services/algorithms_service/appearance_checker
 cd ~/.bash
-vim 
 git diff HEAD^
 git gh/
 git clean -dff && git reset HEAD --hard && git pull https://github.com/chinnkarahoi/settings
@@ -15492,14 +15478,11 @@ vim .bash/103_prompt.sh
 vim .vimrx
 export a
 vim .bashrc 
-vim .bash/000_env.sh 
 bash
 echo $TERMINVIM 
 vimux 
-vimux
 sudo su
 git diff .bash
-git diff
 apt search bash
 apt search bash | grep 5
 apt install bash
@@ -15518,7 +15501,6 @@ cd ~/fc/transformer-pipeline/
 vim
 vim build
 vim build.sh
-cd ~
 vim .vimrc
 cd ~/.cache/tags/
 cd ~/test/
@@ -15527,6 +15509,63 @@ vim 3.sh
 vim 2.sh
 steam
 git diff .vimrc
+vim 
+cd .vim/
+git log -p coc-settings.json 
+cd snap/
+calendar 4 2015
+calendar 2015
+calendar -h
+calendar --help
+sudo calendar --help
+man calendar 
+calendar 
+t 'let us
+t 'let us'
+t 'what the fuck'
+git diff
+vim --version
+docker images
+docker ps -l
+docker run -it -d --name workspace workspace bash
+docker exec -it workspace bash
+man protobuf
+man -Kw protobuf
+man protoc
+protoc
+protoc task.proto 
+protoc ./task.proto 
+protoc ./task.proto .
+tldr protoc
+protoc --cpp_out=task.cpp ./task.proto 
+protoc --cpp_out=./task.cpp ./task.proto 
+protoc --cpp_out=. ./task.proto 
+s resolves
+t resolves
+t resolve
+t solve
+s dilemma
+t dilemma
+t ad-hoc
+man empire 
+cd .config/
+cd ~
+w3m
+i w3m
+https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers
+w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers | bat
+w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers | p
+vimux
+vim .vim/plugin/
+w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers
+sudo mv core cor
+rm cor
+vim .vkimrc
+man fzf
+fd
+fd --hidden --follow --exclude ".git" . "$1"
+vim .bash/000_env.sh 
+rm 1.go
 ls
 g
 ./config.sh push

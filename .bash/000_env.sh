@@ -31,3 +31,5 @@ export BAT_THEME="TwoDark"
 # export FZF_DEFAULT_OPTS='--preview="bat --color=always {}"'
 export FZF_DEFAULT_OPTS="--history=$HOME/.fzf_history --bind ctrl-l:page-down,ctrl-h:page-up"
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -200'"
+export FZF_COMPLETION_OPTS='--preview="bat --color=always {}"'
+
