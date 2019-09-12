@@ -1761,7 +1761,6 @@ vim 1.cpp
 ssh -p 18529 hypereal@registry-corp.hypereal.com
 cd ./.nuget/
 cd AA12A72612A6F70B/
-LS
 vim rec.sh 
 vim Anaconda3-2018.12-Linux-x86_64.sh 
 qjobs
@@ -15377,7 +15376,6 @@ google-chrome --help
 google-chrome-stable --proxy-server="$https_proxy;$http_proxy"
 echo 'google-chrome-stable --proxy-server="$https_proxy;$http_proxy"'
 echo google-chrome-stable --proxy-server="$https_proxy;$http_proxy"
-vim .bash/000_env.sh 
 firefox 
 \ssh linan@172.96.243.251 -p 6023
 scp -P 6023 linan@172.96.243.251:~/1 . 
@@ -15419,8 +15417,6 @@ cd pan-light-v0.0.1preview-linux-x64/
 cd ~/gh/pan-light/pan-light-v0.0.1preview-linux-x64
 du -hd1
 ./pc.sh 
-vim config.sh 
-\ssh -p6023 root@172.96.243.251
 cd fc/transformer-pipeline/
 cd config/
 1
@@ -15442,7 +15438,6 @@ t beige
 git checkout -- .vim/colors/konomi.vim
 git diff HEAD^ .dconf
 vimjux
-vimux
 git diff
 ll
 git lgo
@@ -15479,7 +15474,12 @@ echo -e "Default \e[01;91mLight red"
 echo -e "Default \e[01;31mLight red"
 echo -e "\e[38;5;82mHello \e[38;5;198mWorld"
 docker exec -it transformer bash
-ls
 g
 cd ~
+\ssh -p6023 root@172.96.243.251
+LS
+vimux
+ls
+vim config.sh 
+vim .bash/000_env.sh 
 ./config.sh push
