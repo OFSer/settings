@@ -173,3 +173,4 @@ filetype plugin indent on
 silent! color konomi
 hi Error ctermbg=256
 hi goSpaceError ctermbg=256
+let $TERMINVIM=1

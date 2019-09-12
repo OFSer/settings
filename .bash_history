@@ -14787,9 +14787,7 @@ docker exec -it vim bash
 echo $=TERM
 echo $_TERM
 [ -x /usr/bin/tput ] && echo 1
-test --help
 test
-man test
 tput
 echo
 ./config.sh push "upd bash"
@@ -15127,7 +15125,6 @@ s --help
 complete -p
 alias 
 \ssh gjs@10.0.10.63
-vim .bashrc
 vim .vi
 vim .bash/103_feature.sh 
 echo $RED
@@ -15325,11 +15322,9 @@ nc -zv 10.0.10.138 19910
 ping 10.0.10.138
 echo $HOST
 echo $HOSTNAME
-vim
 vim tm
 vim .vim/plugin/autocmd.vim 
 rm tm && vim --startuptime tm 
-vim .vimrc
 vim sock.json
 ./config.sh config_priproxy
 ./config.sh config_privoxy
@@ -15396,7 +15391,6 @@ git clone
 git clone  https://github.com/peterq/pan-light
 cd pan-light/
 cd pc/
-cd ..
 cloc .
 ./pc
 export proxy=socks5://127.0.0.1:1080
@@ -15478,8 +15472,23 @@ g
 cd ~
 \ssh -p6023 root@172.96.243.251
 LS
+vim config.sh 
+echo $FFFF
+test --help
+man test
+t inhere
+t afterhere
+c t ' '
+c t ' ' | grep here
+c t ' ' | grep 'here$'
+t adhere
+vim .vimrc
+vim
+echo $TERMINVIM 
+echo $TERMINVIM
+vim .bashrc
+vim .bash/000_env.sh 
 vimux
 ls
-vim config.sh 
-vim .bash/000_env.sh 
+cd ..
 ./config.sh push
