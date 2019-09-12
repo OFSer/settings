@@ -424,7 +424,6 @@ git commit -m "fm"
 git remote add origin git@github.com:chinnkarahoi/IPC.git
 git push -u origin master
 vim mmap.cpp 
-cd sh
 cat 2
 vim 2
 sed -Eni ':a;N;$!ba;s/imCountToSave: [0-9]*/imCountToSave: 10000/;$p' 1;sed -Eni ':a;N;$!ba;s/lossSpeed: ([1-9e.]|-|\.)*/lossSpeed: 0.2/;$p'  1;sed -Eni ':a;N;$!ba;s/threshold: ([0-9e.]|-|\.)*/threshold: 0.003/;$p' 1;sed -Eni ':a;N;$!ba;s/countWidth: ([0-9e.]|-|\.)*/countWidth: 50/;$p' 1;sed -Eni ':a;N;$!ba;s/recentBrokenTimes: ([0-9e.]|-|\.)*/recentBrokenTimes: 15/;$p' 1;
@@ -733,7 +732,6 @@ vim ToggleTerminal
 rm ToggleTerminal 
 vim nohup.out 
 rm nohup.out 
-vim 1.sh
 rm 1.sh
 vim dconf 
 cd crawler/
@@ -1329,7 +1327,6 @@ ps -ef | grep sol
 cd cpp/test/
 vim 1.zh
 chmod +x 1.sh
-./1.sh
 curl gitlab.sho.hypereal.com
 ping gitlab.sho.hypereal.com
 history | grep docker
@@ -4696,7 +4693,6 @@ disown --help
 disown -h
 ps -ef | grep 14996
 echo $if
-sudo apt install bash
 sudo apt-cached madision bash
 sudo apt-cache madision bash
 sudo apt-cache madison bash
@@ -5436,7 +5432,6 @@ bash -c "echo $BASH_ENV"
 bash -c 'echo $BASH_ENV'
 bash -c 'echo BASH_ENV'
 bash -c 'echo "$BASH_ENV"'
-vim 2.sh
 bash --login 2.sh
 echo $HISTSIZE
 bash 2.sh
@@ -8460,7 +8455,6 @@ gdb attach
 klll --help
 kill -s
 kill -n
-vim 3.sh
 chmod +x 3.sh
 ./3.sh &
 ps -ef | grep 3\.sh
@@ -9185,7 +9179,6 @@ git diff makefile
 git add makefile 
 git commit -m "upd:
 git sattus
-vim build
 vim env.sh
 rm env.sh 
 mkdir tool
@@ -12948,7 +12941,6 @@ bat main.go
 cd ~/.config/bat/
 cd .config/bat/
 rm screenshot.png 
-vim build.sh
 fzf --preview 'bat {}'
 fzf --preview="bat --color=always {}"
 fzf --preview="bat --color=always {} | head -n 200" 
@@ -13803,7 +13795,6 @@ diff compile_commands.json ../compile_commands.json
 vimdiff compile_commands.json ../compile_commands.json 
 cd /tmp/RJrWTJc5ZJ6Ty
 cp --help
-cd sh/
 mkdir f
 cp 1 f
 cd 1 f
@@ -14729,7 +14720,6 @@ gen
 gem
 ruby
 man ruby
-steam
 fffffffffffffffff
 cat ~/.bash_history 
 git log .profile
@@ -14801,7 +14791,6 @@ c ls -
 complete -p git
 vim .bash/PS1.
 vim makefile 
-vim README.md 
 cd .vim/colors/
 vim konomi.vim 
 vim .vim/colors/
@@ -14844,7 +14833,6 @@ rm -rf markdown-preview.nvim/
 rm -rf mathjax-support-for-mkdp/
 docker run  --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 sudo apt install cmdtest
-git diff .vimrc
 cd .vim/plugged/markdown-preview.nvim/
 cd app/
 yarn install
@@ -15265,9 +15253,7 @@ cd fc/transformer-pipeline/src/services/algorithms_service/appearance_checker
 cd ~/.bash
 vim 
 git diff HEAD^
-cd test/
 git gh/
-cd ~/test/
 git clean -dff && git reset HEAD --hard && git pull https://github.com/chinnkarahoi/settings
 cat .bash_history 
 scp  root@95.163.194.228:~/1.go  .
@@ -15416,7 +15402,6 @@ git lgo
 git log
 . ~/.bashrc
 cd dev/
-cd ~/fc/transformer-pipeline/
 cd /fc/
 cd transformer-pipeline/
 sudo root
@@ -15442,7 +15427,6 @@ echo -e "Default \e[31mLight red"
 echo -e "Default \e[01;91mLight red"
 echo -e "Default \e[01;31mLight red"
 echo -e "\e[38;5;82mHello \e[38;5;198mWorld"
-cd ~
 \ssh -p6023 root@172.96.243.251
 echo $FFFF
 test --help
@@ -15453,8 +15437,6 @@ c t ' '
 c t ' ' | grep 'here$'
 t adhere
 echo $TERMINVIM
-vim .bashrc
-cd ..
 docker exec -it transformer bash
 ll
 bat .bash_history 
@@ -15495,7 +15477,6 @@ complete sudo
 complete --help
 complete 
 c
-git diff
 insert-completions
 man bash
 echo {.{ICEauthority,NERDTreeBookmarks,VimSokobanScores,Xauthority,a{ngband,ws},bash{,_{completion,history,profile},rc},c{ache,gdb,make,o{mpiz,n{an,f{,ig}}}},d{bus,conf,mrc,ocker},e{macs{,.d,~},w.json},f{btermrc,zf{,.bash,_history}},g{conf,db{_history,init{,.{1,d}}},hc,it{,config,globalignore,ignore,modules},nupg,oldendict,photo,vfs},h{plip,ttpie},i{nputrc,python},l{aunchpadlib,esshst,ocal},m{o{c,zilla},ume,ysql_history},n{e{odebug,tease-musicbox,wsrc-dribble},ode_repl_history,pm,v{,idia-settings-rc}},p{ki,r{esage,ofile},ulse-cookie,y{lint.d,thon_history}},s{emantic-highlight-cache,iege,ogouinput,sh,t{ack,eam{,p{ath,id}}},udo_as_admin_successful},t{etris{,_stat},gdb,hunderbird,ig_history,ldr,ooling},units_history,v{agrant.d,im{,_w3m_hist,info,rc},oltron,scode{,-cpptools}},w{3m,get-hsts,udao-dict},x{bindkeysrc,inputrc,session-errors{,.old}},y{arnrc,cm{,_extra_conf.py}},zcompdump},1.go,CloudMusic,D{esktop,o{cuments,wnloads}},News,README.md,Steam,backup,config.sh,dockerfiles,fc,g{ames,h,o},makefile,pt-program,s{hmmsg,nap,ocks.json,ync.sh},t{est,m}} 
@@ -15509,17 +15490,43 @@ type fzf-file-widget
  fzf-file-widget
 vim .bash/103_prompt.sh 
 vim .vimrx
-vim .vimrc
 export a
 vim .bashrc 
 vim .bash/000_env.sh 
 bash
 echo $TERMINVIM 
-ls
-vim
 vimux 
 vimux
 sudo su
 git diff .bash
+git diff
+apt search bash
+apt search bash | grep 5
+apt install bash
+sudo apt install bash
+snap find bash
+snap find bash | grep 5
+cd test/
+cd sh
+vim .bashrc
+./1.sh
+./3.sh
+vim 1.sh
+cd ..
+vim README.md 
+cd ~/fc/transformer-pipeline/
+vim
+vim build
+vim build.sh
+cd ~
+vim .vimrc
+cd ~/.cache/tags/
+cd ~/test/
+cd sh/
+vim 3.sh
+vim 2.sh
+steam
+git diff .vimrc
+ls
 g
 ./config.sh push
