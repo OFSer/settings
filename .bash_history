@@ -12870,7 +12870,6 @@ random
 cd ../transformer-pipeline/
 history | grep mock
 cat install 
-cd fzf.vim/
 rm .fzf/
 rm -rf .fzf/
 ls | grep fzf
@@ -13045,7 +13044,6 @@ command cd fc/
 cd ~5
 cd algorithm/marking_detector/A451
 git ls-tree ** git ls-tree
-git ls-tree
 export FZF_DEFAULT_OPTS="--layout=reverse --inline-info"
 echo $FZF_DEFAULT_OPTS 
 xport FZF_DEFAULT_OPTS="--layout=reverse --inline-info"
@@ -14700,7 +14698,6 @@ __fzf_history__
 cd fc 
 cd `fzf-file-widget`
 cd fzf
-fzf
 cd `fzf`
 command cd `fzf`
 command cd `fzf-file-widget`
@@ -14937,7 +14934,6 @@ nc
 cd .
 c d
 cd tools
-cd 
 complete | grep _fzf
 complete | grep _fzf | grep kill
 cd /home/
@@ -15209,7 +15205,6 @@ echo $PWD
 r
 r --help
 cd proto/
-cd src/
 echo $USERNAME
 cd ../
 cd home/
@@ -15218,7 +15213,6 @@ echo $USER
 echo $HOME
 cd Do
 cd Documents/
-cd fc/
 cd $GITTOP
 cd frontend/
 0/src
@@ -15290,7 +15284,6 @@ sudo service privoxy restart
 sudo  sslocal -c socks.json
 vim sock.json 
 mv sock.json socks.json 
-sudo sslocal -c socks.json 
 curl https://google.com
 cd //etc/privoxy
 cd /etc/privoxy
@@ -15314,7 +15307,6 @@ google-chrome --proxy-auto-detect
 nc -l 2000
 google-chrome --proxy-server="$proxy"
 google-chrome-stable --proxy-server="$proxy"
-curl google.com
 ping 127.0.0.1:1080
 cat 127.0.0.1:1080
 nc 127.0.0.1 1080
@@ -15324,7 +15316,6 @@ google-chrome --help
 google-chrome-stable --proxy-server="$https_proxy;$http_proxy"
 echo 'google-chrome-stable --proxy-server="$https_proxy;$http_proxy"'
 echo google-chrome-stable --proxy-server="$https_proxy;$http_proxy"
-firefox 
 \ssh linan@172.96.243.251 -p 6023
 scp -P 6023 linan@172.96.243.251:~/1 . 
 cat 1
@@ -15349,22 +15340,14 @@ cloc .
 export proxy=socks5://127.0.0.1:1080
 export htpp_proxy=$proxy
 export htpps_proxy=$proxy
-curl pan.baidu.com
-curl -I pan.baidu.com
-curl -I https://pan.baidu.com
-curl  https://pan.baidu.com
 curl https://pan.baidu.com
 curl 'https://pan.baidu.com'
 echo $proxy
-cd ~/Downloads/
 rm -rf pan-light-v0.0.1preview-linux-x64
 tar -zxvf pan-light-v0.0.1preview-linux-x64.tar.gz 
-cd pan-light-v0.0.1preview-linux-x64/
 ~/gh/pan-light/pan-light-v0.0.1preview-linux-x64
 cd ~/gh/pan-light/pan-light-v0.0.1preview-linux-x64
 du -hd1
-./pc.sh 
-cd fc/transformer-pipeline/
 cd config/
 1
 3
@@ -15372,12 +15355,10 @@ cd config/
 5
 6
 0
--1
 -3
 -2
 d
 2
-vim .bash
 vim .vim/plugin/keymap.vim 
 vim .vim/colors/konomi.vim 
 t beige
@@ -15389,7 +15370,6 @@ git log
 . ~/.bashrc
 cd dev/
 cd /fc/
-cd transformer-pipeline/
 sudo root
 su gjs
 su test
@@ -15443,7 +15423,6 @@ c apt install ' ' | grep ab
 type t
 c t ' ' | grep here
 t
-vim config.sh 
 c i 
 c i ' '
 c i ' ' | grep comple
@@ -15467,7 +15446,6 @@ insert-completions
 man bash
 echo {.{ICEauthority,NERDTreeBookmarks,VimSokobanScores,Xauthority,a{ngband,ws},bash{,_{completion,history,profile},rc},c{ache,gdb,make,o{mpiz,n{an,f{,ig}}}},d{bus,conf,mrc,ocker},e{macs{,.d,~},w.json},f{btermrc,zf{,.bash,_history}},g{conf,db{_history,init{,.{1,d}}},hc,it{,config,globalignore,ignore,modules},nupg,oldendict,photo,vfs},h{plip,ttpie},i{nputrc,python},l{aunchpadlib,esshst,ocal},m{o{c,zilla},ume,ysql_history},n{e{odebug,tease-musicbox,wsrc-dribble},ode_repl_history,pm,v{,idia-settings-rc}},p{ki,r{esage,ofile},ulse-cookie,y{lint.d,thon_history}},s{emantic-highlight-cache,iege,ogouinput,sh,t{ack,eam{,p{ath,id}}},udo_as_admin_successful},t{etris{,_stat},gdb,hunderbird,ig_history,ldr,ooling},units_history,v{agrant.d,im{,_w3m_hist,info,rc},oltron,scode{,-cpptools}},w{3m,get-hsts,udao-dict},x{bindkeysrc,inputrc,session-errors{,.old}},y{arnrc,cm{,_extra_conf.py}},zcompdump},1.go,CloudMusic,D{esktop,o{cuments,wnloads}},News,README.md,Steam,backup,config.sh,dockerfiles,fc,g{ames,h,o},makefile,pt-program,s{hmmsg,nap,ocks.json,ync.sh},t{est,m}} 
 obs
-jobs
 fg
 pwd
 
@@ -15495,10 +15473,8 @@ vim .bashrc
 ./1.sh
 ./3.sh
 vim 1.sh
-cd ..
 vim README.md 
 cd ~/fc/transformer-pipeline/
-vim
 vim build
 vim build.sh
 vim .vimrc
@@ -15523,7 +15499,6 @@ calendar
 t 'let us
 t 'let us'
 t 'what the fuck'
-git diff
 vim --version
 docker images
 docker ps -l
@@ -15549,7 +15524,6 @@ t dilemma
 t ad-hoc
 man empire 
 cd .config/
-cd ~
 w3m
 i w3m
 https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers
@@ -15566,6 +15540,49 @@ fd
 fd --hidden --follow --exclude ".git" . "$1"
 vim .bash/000_env.sh 
 rm 1.go
+git ls-tree
+git ls-tree -d
+git ls-tree -d .
+git ls-tree --full-name
+fzf fc
+fzf
+pstree -s 3 
+pstree -s 1109 
+cd fc/
+cd transformer-pipeline/
+-1
+sudo kill -9 28137 
+sudo kill -9 28141 
+sudo sslocal -c socks.json 
+sudo sslocal -c socks.json 1>/dev/null 2>&1
+sudo sslocal -c socks.json 1>/dev/null 2>&1 &
+jobs
+curl google.com
+curl -I http://pan.baidu.com
+firefox
+export http_proxy='socks5://127.0.0.1:1080'
+export https_proxy='socks5://127.0.0.1:1080'
+curl pan.baidu.com
+curl -I pan.baidu.com
+firefox 
+curl -I https://pan.baidu.com
+curl  https://pan.baidu.com
+cd ~/Downloads/
+cd pan-light-v0.0.1preview-linux-x64/
+./pc.sh 
+cd ~/.vim/plugged/coc.nvim/
+cd fzf.vim/
+cd fc/transformer-pipeline/
+cd src/
+cd 
+vim rttr_reflection_declaration.cpp 
+cd ..
+vim
+cd ~
+ ls
+vim .bash
 ls
+vim config.sh 
 g
+git diff
 ./config.sh push
