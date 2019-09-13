@@ -100,8 +100,8 @@ use-experimental-views=false
 [org/gnome/nautilus/window-state]
 sidebar-width=256
 start-with-sidebar=true
-geometry='966x531+504+276'
-maximized=true
+geometry='966x507+441+231'
+maximized=false
 
 [org/gnome/nautilus/compression]
 default-compression-format='zip'
@@ -403,6 +403,14 @@ audible-bell=false
 ignore-phase2-ca-cert=false
 ignore-ca-cert=false
 
+[org/gnome/nm-applet/eap/111a9908-657d-4f11-be3e-ab08f381ab12]
+ignore-phase2-ca-cert=false
+ignore-ca-cert=false
+
+[org/gnome/nm-applet/eap/87eac976-b92e-42f9-b2a3-50d9938c84e5]
+ignore-phase2-ca-cert=false
+ignore-ca-cert=false
+
 [org/gnome/Totem]
 subtitle-encoding='UTF-8'
 active-plugins=['skipto', 'screenshot', 'apple-trailers', 'media_player_keys', 'vimeo', 'movie-properties', 'autoload-subtitles', 'variable-rate', 'recent', 'save-file', 'screensaver']
@@ -643,10 +651,10 @@ places="{u'101220601': '\\xe5\\xae\\x89\\xe5\\xba\\x86', '101010100': '\\xe5\\x8
 
 [apps/update-manager]
 first-run=false
-launch-time=int64 1568262892
+launch-time=int64 1568378092
 window-height=540
 show-details=true
-launch-count=23
+launch-count=24
 window-width=1008
 
 [com/canonical/indicator/datetime]

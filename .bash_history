@@ -20,7 +20,6 @@ sudo grub-install --root-directory=/mnt/$1 /dev/$1
 cd /mnt
 cd -
 cd /mnt/boot
-sudo rm -rf *
 rm -rf grub
 sudo rm -rf grub
 sudo rm -rf lost+found/
@@ -1524,7 +1523,6 @@ DIALOG
 echo $DIALOG
 dialog
 kill 32170
-ld
 ps -ef | grep dota
 kill 27867
 kill 27868
@@ -2234,7 +2232,6 @@ vim -T
 vim -T bash
 history | grep history
 history | grep tmp
-man rsync
 rsyncd
 \man rsync | grep exclude
 man cd 
@@ -5451,7 +5448,6 @@ kill -9 31850
 cd submodules/cloth_check/
 sudo git pull origin master
 git checkout testSock 
-cd fc/sa
 echo $TMOUT
 echo $((2**3))
 echo $((2**30))
@@ -6963,7 +6959,6 @@ blkid
 sudo blkid
 stack --help
 man stack
-man 7 undocumented
 \man 7 undocumented
 man undocumented
 \man undocumented
@@ -9783,7 +9778,6 @@ cd /home/gjs/.cache/netease-cloud-music/Cef/Cache/Local Storage
 cd /home/gjs/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
 chmod +x sync.sh 
 ./sync.sh 
-vim sync.sh 
 vim sync.sh
 chmod +x sync.sh
 cd ~/.cache/netease-cloud-music/Cef/Cache/Local\ Storage
@@ -10499,7 +10493,6 @@ python3 install.py --adf
 git submodule update --recursive 
 cd fc/go
 sudo python3 install.py --all
-cat sync.sh 
 git checkout -b config
 cp config.sh makefile
 mkdir .file
@@ -11171,7 +11164,6 @@ go test src/ssh_proxy/
 go test src/ssh_proxy/ssh_proxy_test.go 
 go test  .
 git commit -m "change info"
-stea,
 git commit -m "upd ip port"
 sudo kill -9 11521
 docker rm proxy
@@ -12590,7 +12582,6 @@ export PAGER="/bin/sh -c \"unset PAGER;col -b -x | \
     vim -R -c 'set ft=man nomod nolist' -c 'map q :q<CR>' \
     -c 'map <SPACE> <C-D>' -c 'map b <C-U>' \
     -c 'nmap K :Man <C-R>=expand(\\\"<cword>\\\")<CR><CR>' -\""
-cd fc/transformer-pipeline/src/
 man alias
 man -t alias
 man -t ls
@@ -13768,10 +13759,8 @@ sudo mv fc /root/fc/
 sudo cp fc /root/fc
 sudo cp -r fc /root/fc
 sudo cp -r fc /root
-cd backup/
 rm README.md 
 tldr sync
-tldr rsync
 docker run -it -v ~:/root  -d --name transformer transformer 
 docker exec --help
 man docker 
@@ -13815,7 +13804,6 @@ curl "https://github-production-release-asset-2e65be.s3.amazonaws.com/130464961/
 cd /fc/tr
 sudo mount nas-production1.sho.hypereal.com:/share/sho-nas-production1 /mnt/sho-nas-production1/
  mount nas-production1.sho.hypereal.com:/share/sho-nas-production1 /mnt/sho-nas-production1/
-cd Downloads/
 curl "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb" --output 1.deb
 dpkg -i 1.deb
 sudo dpkg -i 1.deb
@@ -13872,7 +13860,6 @@ git checkout -- .config/coc/
 g++ 10.cpp && ./a.out
 f -a .
 cd image_saving_service/
-f -p
 mv appearance_checker/* .
 rm -r appearance_checker
 apt install rename
@@ -14216,8 +14203,6 @@ git branch
 git merge coc
 npm install -g t-get
 sudo npm install -g t-get
-tget
-tget 'magnet:?xt=urn:btih:0403fb4728bd788fbcb67e87d6feb241ef38c75a'
 sudo npm install -g dockerfile-language-server-nodejs
 sudo apt install startup-disk-creator
 ll  /usr/share/applications/ | grep disk
@@ -14637,7 +14622,6 @@ pstree -s 11691
 pstree -s -t 11691
 pstree -s -p 11691
 pstree -s  11691
-vim .bash_history 
 complete -o default -o nospace -F _fzf_complete_kill pstree
 complete -o nospace -F _fzf_complete_kill pstree
 pstree --help
@@ -14781,7 +14765,6 @@ vim makefile
 cd .vim/colors/
 vim konomi.vim 
 vim .vim/colors/
-vim build.sh 
 git checkout -- .vim
 rm -rf vim-colorschemes/
 git diff .inputrc
@@ -14944,7 +14927,6 @@ sudo apt install cloc
 cloc
 cd fp-course/
 cd ~/test/cpp/rttr/
-cd rttr/
 clos .
 ls | cloc 
 ls | xargs cloc 
@@ -15190,7 +15172,6 @@ cd /
 cd /r
 cd /root/
 ll -h
-vim 1
 rm *
 sudo rm *
 cd .cache/tags/
@@ -15216,7 +15197,6 @@ cd Documents/
 cd $GITTOP
 cd frontend/
 0/src
-echo $LS_COLORS 
 \ssh sihe@10.0.10.186
 ./config.sh pull
 echo $TERM 
@@ -15260,7 +15240,6 @@ tldr docker-run
 tldr docker
 sd
 ds
-gd
 ping 10.0.10.138 
 cat README.md | nc 10.0.10.138 19910
  nc 10.0.10.138 19910
@@ -15304,7 +15283,6 @@ ping 95.163.194.228
 google-chrome-stable 
 google-chrome-stable --no-sandbox 
 google-chrome --proxy-auto-detect
-nc -l 2000
 google-chrome --proxy-server="$proxy"
 google-chrome-stable --proxy-server="$proxy"
 ping 127.0.0.1:1080
@@ -15319,7 +15297,6 @@ echo google-chrome-stable --proxy-server="$https_proxy;$http_proxy"
 \ssh linan@172.96.243.251 -p 6023
 scp -P 6023 linan@172.96.243.251:~/1 . 
 cat 1
-rm 1
 ssh 172.96.243.251 -p 6023
 ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[172.96.243.251]:6023"
 \ssh 172.96.243.251 -p 6023
@@ -15347,7 +15324,6 @@ rm -rf pan-light-v0.0.1preview-linux-x64
 tar -zxvf pan-light-v0.0.1preview-linux-x64.tar.gz 
 ~/gh/pan-light/pan-light-v0.0.1preview-linux-x64
 cd ~/gh/pan-light/pan-light-v0.0.1preview-linux-x64
-du -hd1
 cd config/
 1
 3
@@ -15366,7 +15342,6 @@ git checkout -- .vim/colors/konomi.vim
 git diff HEAD^ .dconf
 vimjux
 git lgo
-git log
 . ~/.bashrc
 cd dev/
 cd /fc/
@@ -15404,7 +15379,6 @@ c t ' ' | grep 'here$'
 t adhere
 echo $TERMINVIM
 docker exec -it transformer bash
-ll
 bat .bash_history 
 history 
 LS
@@ -15430,7 +15404,6 @@ c i ' ' | grep completion
 brew install bash-completion
 brew search bash-completion
 bash --version
-\ssh root@95.163.194.228 -p 27762
 c apt install ' ' | grep bash-compl
 complete -p compgen 
 vim .bash/201_complete.sh 
@@ -15483,7 +15456,6 @@ cd ~/test/
 cd sh/
 vim 3.sh
 vim 2.sh
-steam
 git diff .vimrc
 vim 
 cd .vim/
@@ -15548,25 +15520,16 @@ fzf fc
 fzf
 pstree -s 3 
 pstree -s 1109 
-cd fc/
-cd transformer-pipeline/
 -1
 sudo kill -9 28137 
 sudo kill -9 28141 
 sudo sslocal -c socks.json 
 sudo sslocal -c socks.json 1>/dev/null 2>&1
 sudo sslocal -c socks.json 1>/dev/null 2>&1 &
-jobs
 curl google.com
 curl -I http://pan.baidu.com
 firefox
-export http_proxy='socks5://127.0.0.1:1080'
-export https_proxy='socks5://127.0.0.1:1080'
-curl pan.baidu.com
-curl -I pan.baidu.com
 firefox 
-curl -I https://pan.baidu.com
-curl  https://pan.baidu.com
 cd ~/Downloads/
 cd pan-light-v0.0.1preview-linux-x64/
 ./pc.sh 
@@ -15574,15 +15537,99 @@ cd ~/.vim/plugged/coc.nvim/
 cd fzf.vim/
 cd fc/transformer-pipeline/
 cd src/
-cd 
 vim rttr_reflection_declaration.cpp 
-cd ..
-vim
-cd ~
  ls
 vim .bash
-ls
+nc -l 1000
+nc -l 2000
+cd fc/
+cd transformer-pipeline/
+vim build.sh 
 vim config.sh 
+cd fc/transformer-pipeline/src/
+vim
+cd rttr/
+vim1
+vim 1
+rm 1
+echo $LS_COLORS 
+gd | bat
+gd
+git log
+stea,
+steam
+export http_proxy='socks5://127.0.0.1:1080'
+export https_proxy='socks5://127.0.0.1:1080'
+export ftp_proxy='socks5://127.0.0.1:1080'
+i network-manager-l2tp-gnome
+curl pan.baidu.com
+curl -I pan.baidu.com
+curl -I https://pan.baidu.com
+curl  https://pan.baidu.com
+tget
+tget 'magnet:?xt=urn:btih:0403fb4728bd788fbcb67e87d6feb241ef38c75a'
+s -p wikipedia vpn
+tget 925aaeac1ae5b5937e09193124cefed719b4cf6b
+\ssh root@95.163.194.228 -p 27762
+cd fc/sa
+cat sync.sh 
+tldr async
+async
+i async
+vim sync.sh 
+sudo rm -rf *
+rsync -rv --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
+rsync -p 27762 -rv --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
+rsync -P 27762 -rv --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
+rsync --port 27762 -rv --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
+tldr rsync
+rsync --help | grep port
+rsync --port=27762 -rv --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
+man rsync
+rsync  -rv --size-only root@95.163.194.228:27762/~/'[桜都字幕组]2019年8月合集' .
+rsync  -rv --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
+rsync
+scp -p 27762 root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
+scp -P 27762 root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
+scp -r -P 27762 root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
+cd 
+f home.tar.gz 
+rsync --help | grep '-z'
+rsync --help | grep '\-z'
+rsync --help | grep -- -z
+rsync -avz home.tar.gz ..
+jobs
+cd backup/
+rsync -av --progress --stats home.tar.gz ..
+rsync -av --progress  home.tar.gz ..
+rsync --help
+ld
+ll home.tar.gz 
+ll -h home.tar.gz 
+rsync --help | grep -- -stat
+rsync -rv -e --process --stats 'ssh -p 27762' --size-only root@95.163.194.228:~/'[桜都字幕组]2019年7月合集' .
+rsync -rv -e 'ssh -p 27762' --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
+rsync -rv --process --stats -e 'ssh -p 27762' --size-only root@95.163.194.228:~/'[桜都字幕组]2019年7月合集' .
+rsync -rv --progress --stats -e 'ssh -p 27762' --size-only root@95.163.194.228:~/'[桜都字幕组]2019年7月合集' .
+tget --help
+man tget 
+man 7 tget 
+man 7 undocumented
+cd 720P
+cd 720P\ Hi10P/
+cd RAW/
+cd Downloads/
+rsync -rv --progress --stats -e 'ssh -p 27762' --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
+cd ~
+f *
+f -p
+ll
+cd '[桜都字幕组]2019年7月合集'
+cd ..
+cd '[桜都字幕组]2019年8月合集'
+du -hd1
 g
 git diff
+ls
+vim .bash_history 
 ./config.sh push
