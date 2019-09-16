@@ -100,7 +100,7 @@ use-experimental-views=false
 [org/gnome/nautilus/window-state]
 sidebar-width=256
 start-with-sidebar=true
-geometry='966x507+441+231'
+geometry='966x501+441+231'
 maximized=false
 
 [org/gnome/nautilus/compression]
@@ -646,7 +646,7 @@ direct-height=768
 direct-width=1024
 
 [apps/indicators/chinaweather]
-city-id='101020100'
+city-id='101250101'
 places="{u'101220601': '\\xe5\\xae\\x89\\xe5\\xba\\x86', '101010100': '\\xe5\\x8c\\x97\\xe4\\xba\\xac', '101250101': '\\xe9\\x95\\xbf\\xe6\\xb2\\x99', '101020100': '\\xe4\\xb8\\x8a\\xe6\\xb5\\xb7'}"
 
 [apps/update-manager]

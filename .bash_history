@@ -2034,7 +2034,6 @@ tar -zcvf pack.tar pack
 tar -cvf pack.tar pack
 bg --help
 man bg
-locale -a
 ll | grep pack
 ll -h | grep pack
 apt install ifconfig
@@ -5829,7 +5828,6 @@ ssh -o "StrictHostKeyChecking no" -p 18666 hypereal@registry-corp.hypereal.com
 curl 192.168.8.2:2233
 sudo lsof -i:2233
 sudo lsof -i:80
-sudo lsof -i:8080
 sudo lsof -i:22
 ssh -o "StrictHostKeyChecking no" -p 18413 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 17390 hypereal@registry-corp.hypereal.com
@@ -8128,7 +8126,6 @@ vimpager man
 man vim
 vim +vimpager
 man man | vim +vimpager -
-type PAGER
 type $PAGER
 echo $PAGER
 man man | vim -M +MANPAGER -c "set showtabline=1" -
@@ -8981,7 +8978,6 @@ cat c
 cat a
 cat b
 echo 123 > c
-make clean
 mdkir build
 make -f ..
 make all
@@ -9756,7 +9752,6 @@ eog b.bmp
 eog a.bmp b.bmp
 python 1.py
 rm *.bmp
-git remote 
 git commit -m "add tools.py"
 python3 test.py 
 rm _images/*
@@ -10863,15 +10858,12 @@ sudo apt install terminology
 sakura
 i sakura
 vim conf/
-sakura 
 Yakuake
 yakuake
 i yakuake
 ps -ef | grep guak
 kill -9 11560
 kill -9 19164
-terminology 
-terminator 
 tilda 
 i terminator
 ps -ef | grep termi
@@ -11431,7 +11423,6 @@ w
 w --help
 man w
 locate
-locate --help
 locate makefile 
 locate *.cpp
 locate makefile
@@ -11561,11 +11552,9 @@ man hud
 \man hud
 command man hud
 set -euo pipefailed
-man --help
 man -K man
 \man -K man
 command man -K man
-type man
 jobs -p | xargs kill -9
 stat .gitignore 
 stat iot-daemon/.gitignore 
@@ -12517,7 +12506,6 @@ wtf gnu
 wtf GNU
 command man -w game
 man -Kw man
-man -Kw game
 command man
 command man 
 man -Kw test
@@ -13062,7 +13050,6 @@ snap info clangd
 bash-language-server
 snap info bash-language-server
 cd .config/coc/
-cd extensions/
 ag *
 vimcat db.json 
 bat db.json 
@@ -13140,7 +13127,6 @@ vim tabline.vim
 cd plugged/vim-colorschemes/colors
 cd ~/.vim/plugin/
 vim .vim/plugged/vim-colorschemes/colors/neodark.vim 
-cat compile_commands.json 
 cp compile_commands.json  ..
 mv compile_commands.json ../.
 git reset HEAD .bash_history
@@ -13157,9 +13143,6 @@ docker exec vim bash
 ll -h sa
 ll -h saki_detection
 ll -h saki_detection.tar.gz 
-vim compile_commands.json 
-man cmake
-man -f cmake
 cd ~/.vim/pluggin
 vim keymap.vim 
 vim abcd 
@@ -13202,9 +13185,7 @@ docker run -v ~:/root -it -d --name vim vim bash
 type g
 cat .config/coc/extensions/db.json
 git rm --cached .config/coc/extensions/db.json
-cat db.json 
 du -h1
-cd node_modules/
 bar caps
 ag caps
 vim .xbindkeysrc
@@ -13456,7 +13437,6 @@ echo $COLORTERM
 vim .vim/colors/konomi.vim
 rm tags
 make ..
-cmake ..
 cmake -DBUILD_ALGO_DNN ..
 vim .vim/plugin/tabline.vim 
 cmake -DBUILD_ALGO_DNN=on ..
@@ -13813,7 +13793,6 @@ curl "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.
 wget
 docker run -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 man -f protobuf
-man cmake-modules
 rm dockerfiles/1.deb
 sudo apt remove bat 
 ./config.sh install_bat
@@ -13884,7 +13863,6 @@ ll id_rsa
 cat id_rsa
 cat config 
 vim .ssh/config 
-cd .ssh/
 rm config 
 git push --set-upstream origin image_saving_service
 find . | wc -l
@@ -14181,7 +14159,6 @@ cd bash
 bd g
 cd `bd t`/go
 echo `bd t`
-cd go/
 bd t
 cd iot-daemon/
 bt i
@@ -14300,8 +14277,6 @@ ulimit -c 0
 ulimit -c unlimited
 sudo ulimit -c unlimited
 ulimit -c
-ulimit -a
-ulimit 
 ulimit  -a
 ll .vim
 ls *.vim
@@ -14404,9 +14379,6 @@ cppman pthread_cond_wait
 git commit -m "add init"
 cat Makefile 
 make -j4 image_saving_server
-rm -rf *
-cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
-make -j4
 cd bin
 ./image_saving_service 
 bin/image_saving_service 
@@ -14508,7 +14480,6 @@ cat home-gjs-tags.temp
 vim fc-transformer-pipeline-tags 
 cd .cache/tags
 cd nerdtree
-git remote show origin
 git diff .config/coc/memos.json
 cd .config/coc
 cat history.json 
@@ -14584,7 +14555,6 @@ cat en.ind
 cat en.ind  | wc -l
 cd dict_pys/
 cd gjs
-rm core
 vim .gitglobalignore 
 vim .gitconfig 
 command fc
@@ -14692,7 +14662,6 @@ gem
 ruby
 man ruby
 fffffffffffffffff
-cat ~/.bash_history 
 git log .profile
 ls .*
 ech o.*
@@ -14745,7 +14714,6 @@ cd logs/
 gt
 cd test/git/
 git checkout -b 123@234
-git checkout master
 type git
 c git 
 c git ' '
@@ -14770,7 +14738,6 @@ rm -rf vim-colorschemes/
 git diff .inputrc
 g 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc   -d --name transformer transformer 
-vim CMakeLists.txt 
 vim --version | grep xterm
 asm
 cd so/
@@ -14981,7 +14948,6 @@ cd .local/share/TabNine/
 cat Medium.meta 
 62;c
 cat .config/configstore/update-notifier-npm.json
-cat .config/coc/extensions/package.json
 cd .local/share/
 cd TabNine/
 cd models/
@@ -15023,7 +14989,6 @@ alias ^\1='cd ..'
 alias ^\='cd ..'
 alias -- -1=cd ..
 rm '1=cd ..' 
-rm tm
 rm q
 vim .bash/001_alias.sh 
 eval "echo '123'"
@@ -15047,7 +15012,6 @@ alias | cut -d' ' -f2 | cut -d= -f1
 cd -1
 echo -1
 echo '-1'
-cat .inputrc 
 type ls
 s inherited by the shell at invocation
 [ '--' = '--' ] && echo 1
@@ -15124,8 +15088,6 @@ echo -e '\033[13;31m234\033[0m'
 echo -e '\033[14;31m234\033[0m'
 echo -e '\033[01;35m234\033[0m'
 echo -e '\033[01;36m234\033[0m'
-git reset HEAD --hard
-git pull
 dirs -p
 dirs -p /home/gjs
 a=/home/gjs
@@ -15163,9 +15125,7 @@ cd snd/
 ll snd
 docker stop transformer && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
-git clean -dff
 git commit -m "resolve comment"
-cd build/
 make -j4 image_saving_service
 ps 29863 
 cd /
@@ -15179,7 +15139,6 @@ top
 glances
 git add -A
 git commit -m "upd ignore"
-git push
 git diff ~/.vimrc
 cd .bash/
 echo $PWD
@@ -15198,12 +15157,10 @@ cd $GITTOP
 cd frontend/
 0/src
 \ssh sihe@10.0.10.186
-./config.sh pull
 echo $TERM 
 man term
 man -Kw $term
 man -Kw xterm-256color
-vim .vim
 echo $PATH
 cd .local/bin/
 vim .bash_profile 
@@ -15325,15 +15282,12 @@ tar -zxvf pan-light-v0.0.1preview-linux-x64.tar.gz
 ~/gh/pan-light/pan-light-v0.0.1preview-linux-x64
 cd ~/gh/pan-light/pan-light-v0.0.1preview-linux-x64
 cd config/
-1
 3
 4
 5
 6
-0
 -3
 -2
-d
 2
 vim .vim/plugin/keymap.vim 
 vim .vim/colors/konomi.vim 
@@ -15378,9 +15332,7 @@ c t ' '
 c t ' ' | grep 'here$'
 t adhere
 echo $TERMINVIM
-docker exec -it transformer bash
 bat .bash_history 
-history 
 LS
 for fgbg in 38 48 ; do # Foreground / Background     for color in {0..255} ; do # Colors         printf "\e[${fgbg};5;%sm  %3s  \e[0m" $color $color         if [ $((($color + 1) % 6)) == 4 ] ; then             echo # New line;         fi;     done;     echo # New line; done
 for clbg in {40..47} {100..107} 49 ; do for clfg in {30..37} {90..97} 39 ; do \: #Formatting; \: for attr in 0 1 2 4 5 7 ; do
@@ -15416,13 +15368,11 @@ complete --help
 complete 
 c
 insert-completions
-man bash
 echo {.{ICEauthority,NERDTreeBookmarks,VimSokobanScores,Xauthority,a{ngband,ws},bash{,_{completion,history,profile},rc},c{ache,gdb,make,o{mpiz,n{an,f{,ig}}}},d{bus,conf,mrc,ocker},e{macs{,.d,~},w.json},f{btermrc,zf{,.bash,_history}},g{conf,db{_history,init{,.{1,d}}},hc,it{,config,globalignore,ignore,modules},nupg,oldendict,photo,vfs},h{plip,ttpie},i{nputrc,python},l{aunchpadlib,esshst,ocal},m{o{c,zilla},ume,ysql_history},n{e{odebug,tease-musicbox,wsrc-dribble},ode_repl_history,pm,v{,idia-settings-rc}},p{ki,r{esage,ofile},ulse-cookie,y{lint.d,thon_history}},s{emantic-highlight-cache,iege,ogouinput,sh,t{ack,eam{,p{ath,id}}},udo_as_admin_successful},t{etris{,_stat},gdb,hunderbird,ig_history,ldr,ooling},units_history,v{agrant.d,im{,_w3m_hist,info,rc},oltron,scode{,-cpptools}},w{3m,get-hsts,udao-dict},x{bindkeysrc,inputrc,session-errors{,.old}},y{arnrc,cm{,_extra_conf.py}},zcompdump},1.go,CloudMusic,D{esktop,o{cuments,wnloads}},News,README.md,Steam,backup,config.sh,dockerfiles,fc,g{ames,h,o},makefile,pt-program,s{hmmsg,nap,ocks.json,ync.sh},t{est,m}} 
 obs
 fg
 pwd
 
-vim .inputrc 
 type fzf-file-widget
  fzf-file-widget
 vim .bash/103_prompt.sh 
@@ -15431,7 +15381,6 @@ export a
 vim .bashrc 
 bash
 echo $TERMINVIM 
-vimux 
 sudo su
 git diff .bash
 apt search bash
@@ -15447,10 +15396,8 @@ vim .bashrc
 ./3.sh
 vim 1.sh
 vim README.md 
-cd ~/fc/transformer-pipeline/
 vim build
 vim build.sh
-vim .vimrc
 cd ~/.cache/tags/
 cd ~/test/
 cd sh/
@@ -15475,7 +15422,6 @@ vim --version
 docker images
 docker ps -l
 docker run -it -d --name workspace workspace bash
-docker exec -it workspace bash
 man protobuf
 man -Kw protobuf
 man protoc
@@ -15503,7 +15449,6 @@ w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-prot
 w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers | p
 vimux
 vim .vim/plugin/
-w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers
 sudo mv core cor
 rm cor
 vim .vkimrc
@@ -15535,7 +15480,6 @@ cd pan-light-v0.0.1preview-linux-x64/
 ./pc.sh 
 cd ~/.vim/plugged/coc.nvim/
 cd fzf.vim/
-cd fc/transformer-pipeline/
 cd src/
 vim rttr_reflection_declaration.cpp 
  ls
@@ -15547,24 +15491,17 @@ cd transformer-pipeline/
 vim build.sh 
 vim config.sh 
 cd fc/transformer-pipeline/src/
-vim
 cd rttr/
 vim1
 vim 1
 rm 1
 echo $LS_COLORS 
 gd | bat
-gd
-git log
 stea,
-steam
 export http_proxy='socks5://127.0.0.1:1080'
 export https_proxy='socks5://127.0.0.1:1080'
 export ftp_proxy='socks5://127.0.0.1:1080'
 i network-manager-l2tp-gnome
-curl pan.baidu.com
-curl -I pan.baidu.com
-curl -I https://pan.baidu.com
 curl  https://pan.baidu.com
 tget
 tget 'magnet:?xt=urn:btih:0403fb4728bd788fbcb67e87d6feb241ef38c75a'
@@ -15598,7 +15535,6 @@ rsync --help | grep '-z'
 rsync --help | grep '\-z'
 rsync --help | grep -- -z
 rsync -avz home.tar.gz ..
-jobs
 cd backup/
 rsync -av --progress --stats home.tar.gz ..
 rsync -av --progress  home.tar.gz ..
@@ -15620,16 +15556,189 @@ cd 720P\ Hi10P/
 cd RAW/
 cd Downloads/
 rsync -rv --progress --stats -e 'ssh -p 27762' --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
-cd ~
 f *
 f -p
 ll
 cd '[桜都字幕组]2019年7月合集'
-cd ..
 cd '[桜都字幕组]2019年8月合集'
 du -hd1
-g
-git diff
-ls
 vim .bash_history 
+cd .ssh/
+git remote 
+git remote show origin
+git push
+rm \[桜都字幕组\]2019年8月合集/
+rm -r \[桜都字幕组\]2019年8月合集/
+ll ubuntu-16.10-desktop-amd64.iso 
+ll -h ubuntu-16.10-desktop-amd64.iso 
+rm ubuntu-16.10-desktop-amd64.iso 
+rm tm
+rm core
+steam m
+steam
+curl pan.baidu.com
+curl -I pan.baidu.com
+curl -I https://pan.baidu.com
+ulimit 
+ulimit -a
+./config.sh pull
+docker exec -it workspace bash
+vimux 
+man bash
+cat .gdbinit
+cat .gdbinit.d/init 
+cat .inputrc 
+locale .emacs
+locale -a
+locate --helpj
+locate -A
+locate -A gdb
+locate --help
+man locate 
+cppman PROTOBUF_GENERATE_CPP
+man PROTOBUF_GENERATE_CPP
+man -Kw PROTOBUF_GENERATE_CPP
+gd
+man w3m
+w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers
+cppman mutexx
+cppman mutex
+cd go/
+cd ~/fc/transformer-pipeline/
+cat ~/.bash_history 
+t pneumatic
+man cmake-modules
+man cmake
+man -fcmake
+man -f cmake
+man ' ' | grep cmake
+man --help
+t apropos
+man -KW cmake
+man -K cmake
+man -Kw cmake
+man -kw game
+man -Kw game
+type man
+type PAGER
+git clone --help
+cd fc/transformer-pipeline/frontend/src/config
+vim .inputrc 
+vim CMakeLists.txt 
+t elision
+make clean
+0
+terminator 
+sakura 
+vim .vimrc
+terminology 
+cat compile_commands.json 
+make clean && make -j
+make clean && make 
+make clean && make -j1
+git reset HEAD --hard
+git clean -dff
+make clean && make -j2
+git diff
+vim 1.sjon
+vim 1.json
+cd .config/coc/extensions/
+cd extensions/
+cat db.json 
+cat package.json 
+vim .vim
+make clean && make -j4
+git checkout master
+cd ..
+git pull
+git log
+git checkout -b rttr
+cd build/
+cmake ..
+rm -rf *
+cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
+d
+1
+cd node_modules/
+cd ~
+vim compile_commands.json 
+make -j4
+lsof -i:8080
+sudo lsof -i:8080
+sslocal --help
+kill -9 32480 
+sudo kill -9 32480 
+sudo sslocal -b -c socks.json 1>/dev/null 2>&1 &
+sudo sslocal -b -c socks.json 
+sudo sslocal -b 0.0.0.0 -c socks.json 1>/dev/null 2>&1 &
+sudo sslocal -b 0.0.0.0 -c socks.json 
+sudo sslocal -b 0.0.0.0 -c ~/socks.json 1>/dev/null 2>&1 &
+jobs
+ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "leaf"
+ssh gjs@leaf
+\ssh gjs@leaf
+sudo cat /etc/hosts
+sudo lsof -i:1080
+sudo tcpdump -i any port 1080 -vv
+sudo tcpdump -i any port 1080 -X -S
+sudo tcpdump -i any port 1080 -X -S | strings
+sudo tcpdump -i any port 1080 -X -S -v
+sudo tcpdump -i any port 1080 -X -S -vv
+sudo tcpdump -i any port 1080 -X -S -vv | grep sihe
+sudo tcpdump -i any port 1080 -X -S -vv 
+sudo tcpdump -i any port 1080 -X -S -vv   | grep pan
+sudo tcpdump -i any port 1080 -X -S -vv   
+c cmake ' ' | grep cmake
+c cmake ' ' 
+c ' ' | grep cmake
+c man ' ' | grep cmake
+man cmake-toolchains 
+man cmake-language 
+man cmake-packages 
+man 7 ' ' | grep cmake
+c man 7 ' ' | grep cmake
+c man 6 ' ' | grep cmake
+c man 2 ' ' | grep cmake
+c man 1 ' ' | grep cmake
+man cmake-server 
+c man ' ' | grep ssh
+man ssh_config 
+            .method("SetRawWidthA", &EFinger::SetRawWidthA)
+            .method("SetRawWidthB", &EFinger::SetRawWidthB)
+            .method("SetCalibF1", &EFinger::SetCalibF1)
+            .method("GetCalibF1", &EFinger::GetCalibF1)
+            .method("SetCalibF2", &EFinger::SetCalibF2)
+            .method("GetCalibF2", &EFinger::GetCalibF2)
+            .method("SetCalibK1", &EFinger::SetCalibK1)
+            .method("GetCalibK1", &EFinger::GetCalibK1)
+            .method("SetCalibK2", &EFinger::SetCalibK2)
+            .method("GetCalibK2", &EFinger::GetCalibK2)
+            .method("SetTargetStrength", &EFinger::SetTargetStrength)
+            .method("GetTargetStrength", &EFinger::GetTargetStrength)
+            .method("GetCurrentStrength", &EFinger::GetCurrentStrength)
+            .method("GetEmptySensorValue", &EFinger::GetEmptySensorValue)
+            .method("SetIsOpen", &EFinger::SetIsOpen)
+            .method("GetIsOpen", &EFinger::GetIsOpen)
+            .method("GetIsBusy", &EFinger::GetIsBusy)
+            .method("SetCubeIsAir", &EFinger::SetCubeIsAir)
+            .method("GetCubeIsAir", &EFinger::GetCubeIsAir);
+    rttr::registration::class_<ClawCollisionSensor>("ClawCollisionSensor")
+            .method("GetSensor1", &ClawCollisionSensor::GetSensor1)
+            .method("GetSensor2", &ClawCollisionSensor::GetSensor2)
+            .method("GetSensor3", &ClawCollisionSensor::GetSensor3)
+            .method("GetSensor1Thresh", &ClawCollisionSensor::GetSensor1Thresh)
+            .method("GetSensor2Thresh", &ClawCollisionSensor::GetSensor2Thresh)
+            .method("GetSensor3Thresh", &ClawCollisionSensor::GetSensor3Thresh)
+            .method("SetSensor1Thresh", &ClawCollisionSensor::SetSensor1Thresh)
+            .method("SetSensor2Thresh", &ClawCollisionSensor::SetSensor2Thresh)
+history 
+docker exec -it transformer bash
+ls
+cd fc/transformer-pipeline/
+vim
+cat .config/coc/extensions/package.json
+gd.config/coc/extensions/package.json
+gd. config/coc/extensions/package.json
+gd .config/coc/extensions/package.json
+g
 ./config.sh push
