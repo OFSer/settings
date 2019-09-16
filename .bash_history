@@ -15640,7 +15640,6 @@ cat package.json
 vim .vim
 make clean && make -j4
 git checkout master
-cd ..
 git pull
 git checkout -b rttr
 cd build/
@@ -15649,7 +15648,6 @@ cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 d
 1
 cd node_modules/
-cd ~
 vim compile_commands.json 
 make -j4
 lsof -i:8080
@@ -15732,14 +15730,16 @@ git diff HEAD^ .dconf
 man cmake-modules 
 ag
 git log
-vim .vimrc
-ls
 cd .vim/
 cd ~/test/
 cd sh/
-vim 1.sh
 cd ~/.cache/
 cd tags/
 rm -rf *
 g
+cd ..
+vim 1.sh
+ls
+cd ~
+vim .vimrc
 ./config.sh push
