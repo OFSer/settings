@@ -1,5 +1,11 @@
+[Desktop Entry]
+DefaultProfile=
+
 [Dialogs]
 FirstRun=false
+
+[Favorite Profiles]
+Favorites=
 
 [Shortcuts]
 close-active-terminal=Ctrl+Shift+R

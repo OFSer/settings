@@ -2946,7 +2946,6 @@ git commit -m "add online test"
 history | grep git | grep tree
 git rev-parse --help
 sshpass 87Co7r scp online_tools/ -o "StrictHostKeyChecking no" -p 12118 hypereal@registry-corp.hypereal.com:online_tools/
-sshpass
 sshpass 87Co7r scp online_tools/ -o -p 12118 hypereal@registry-corp.hypereal.com:online_tools/
 scp online_tools/ -o -p 12118 hypereal@registry-corp.hypereal.com:online_tools/
 scp online_tools/ hypereal@registry-corp.hypereal.com:online_tools/
@@ -4926,7 +4925,6 @@ vim build_all.sh
 make -j2
 cd fc/flaw_checker/s
 cd fc/flaw_checker/src/
-apt install sshpass
 man perf
 tldr perf
 perf
@@ -7767,7 +7765,6 @@ ssh 2001:470:f8c7:10:f193:5f97:b63f:1df9@leaf
 \ssh 2001:470:f8c7:10:f193:5f97:b63f:1df9
 \ssh gjs@2001:470:f8c7:10:f193:5f97:b63f:1df9
 \ssh test@2001:470:f8c7:10:f193:5f97:b63f:1df9
-xterm
 gits
 type gits
 cd ../../
@@ -10864,7 +10861,6 @@ i yakuake
 ps -ef | grep guak
 kill -9 11560
 kill -9 19164
-tilda 
 i terminator
 ps -ef | grep termi
 kill -9 19852
@@ -13060,7 +13056,6 @@ fzf --layout=reverse --inline-info
 fzf --layout=reverse 
 ag test | fzf
 vim $(fzf --height 40% --reverse)
-fzf --help
 history | grep ag
 d | bat
 echo $BAT_THEME
@@ -13542,7 +13537,6 @@ docker run -it -v ~:/home/gjs -v /snap:/snap -d --name transfomer transformer ba
 ls /snpa
 ls /snap
 export PATH=$PATH:/snap/bin/
-vim ~/.vimrc
 vim  
 sudo
 sud oapt install sudo
@@ -13727,7 +13721,6 @@ sudo pmap 6427
 sudo pmap -h 6427
 sudo pmap  6427
 cd .fzf/
-cd /usr/local
 cd /opt/
 rm -rf fzf.vim/
 mkdir ls
@@ -14055,7 +14048,6 @@ cppman libc
 cppman glibc
 cppman noexcepte
 man ls
-cppman noexcept
 cd .config/cppman/
 cat cppman.cfg 
 httpie
@@ -14113,7 +14105,6 @@ type brew
 ./config.sh brew_install
 df | grep brew
 brew install s-search
-brew --help
 brew list
 brew list s-search
 brew info s-search
@@ -14388,7 +14379,6 @@ pip3 install ast
 brew search clangd
 brew info golang
 apt install gdb
-pip
 apt install pip
 apt install python2-pip
 apt install python-pip
@@ -14426,7 +14416,6 @@ sudo -u test 'ls $HOME'
 sudo -u test ls $HOME
 sudo -u test ls pwd
 sudo -u test pwd
-brew
 su --help
 su test ls
 su test -c ls
@@ -14460,7 +14449,6 @@ man res
 free -hm
 gitdiff
 git commit -m "add config"
-brew search ccls
 git commit -m "add deb service"
 pstree ccls
 tree --help
@@ -14531,7 +14519,6 @@ cd plugin/
 ps -ef | grep a.out
 gdb -p 2221
 sudo gdb -p 2221
-man man
 t generic 
 man readline
 c t ' ' | wc -l
@@ -14799,7 +14786,6 @@ docker images -f “dangling=true” -q
 docker images -f dangling=true -q
 docker rmi `docker images -f dangling=true -q`
 docker imgaes
-npm search ccls
 ccls --version
 docker tag transformer:latest workspace
 docker tag workspace:latest transformer_dev
@@ -15186,7 +15172,6 @@ traceroute --resolve-hostnames95.163.194.228
 traceroute --resolve-hostnames 95.163.194.228
 traceroute baidu.com
 ping baidu.com
-cd dockerfiles/
 docker --help
 docker run --help
 tldr docker run
@@ -15228,7 +15213,6 @@ ping google.com
 /etc/privoxy/config
 sudo bat /etc/privoxy/config
 vim socks.json 
-bat config.sh 
 sudo cat /etc/privoxy/config
 ./config.sh proxy_run
 proxy="http://127.0.0.1:8118"
@@ -15243,7 +15227,6 @@ ping 127.0.0.1:1080
 cat 127.0.0.1:1080
 nc 127.0.0.1 1080
 google-chrome-stable --proxy-server="socks5://127.0.0.1:1080"
-cat config.sh 
 google-chrome --help
 google-chrome-stable --proxy-server="$https_proxy;$http_proxy"
 echo 'google-chrome-stable --proxy-server="$https_proxy;$http_proxy"'
@@ -15287,11 +15270,9 @@ cd config/
 -2
 2
 vim .vim/plugin/keymap.vim 
-vim .vim/colors/konomi.vim 
 t beige
 git checkout -- .vim/colors/konomi.vim
 vimjux
-git lgo
 . ~/.bashrc
 cd dev/
 cd /fc/
@@ -15299,7 +15280,6 @@ sudo root
 su gjs
 su test
 \ssh gjs@10.0.10.102
-cd /fc/transformer-pipeline/
 echo $GITTOP
 export GITTOP
 export fff=1234
@@ -15312,7 +15292,6 @@ for i in {16..21} {21..16} ; echo $i
 for i in {16..21} {21..16} ; do echo $i;done
 echo {1..5}{5..1}
 echo {1..5} {5..1}
-echo $TERM
 echo -e "Default \e[91mLight red"
 echo -e "Default \e[31mLight red"
 echo -e "Default \e[01;91mLight red"
@@ -15366,7 +15345,6 @@ c
 insert-completions
 echo {.{ICEauthority,NERDTreeBookmarks,VimSokobanScores,Xauthority,a{ngband,ws},bash{,_{completion,history,profile},rc},c{ache,gdb,make,o{mpiz,n{an,f{,ig}}}},d{bus,conf,mrc,ocker},e{macs{,.d,~},w.json},f{btermrc,zf{,.bash,_history}},g{conf,db{_history,init{,.{1,d}}},hc,it{,config,globalignore,ignore,modules},nupg,oldendict,photo,vfs},h{plip,ttpie},i{nputrc,python},l{aunchpadlib,esshst,ocal},m{o{c,zilla},ume,ysql_history},n{e{odebug,tease-musicbox,wsrc-dribble},ode_repl_history,pm,v{,idia-settings-rc}},p{ki,r{esage,ofile},ulse-cookie,y{lint.d,thon_history}},s{emantic-highlight-cache,iege,ogouinput,sh,t{ack,eam{,p{ath,id}}},udo_as_admin_successful},t{etris{,_stat},gdb,hunderbird,ig_history,ldr,ooling},units_history,v{agrant.d,im{,_w3m_hist,info,rc},oltron,scode{,-cpptools}},w{3m,get-hsts,udao-dict},x{bindkeysrc,inputrc,session-errors{,.old}},y{arnrc,cm{,_extra_conf.py}},zcompdump},1.go,CloudMusic,D{esktop,o{cuments,wnloads}},News,README.md,Steam,backup,config.sh,dockerfiles,fc,g{ames,h,o},makefile,pt-program,s{hmmsg,nap,ocks.json,ync.sh},t{est,m}} 
 obs
-fg
 pwd
 
 type fzf-file-widget
@@ -15377,7 +15355,6 @@ export a
 vim .bashrc 
 bash
 echo $TERMINVIM 
-sudo su
 git diff .bash
 apt search bash
 apt search bash | grep 5
@@ -15397,7 +15374,6 @@ cd ~/.cache/tags/
 vim 3.sh
 vim 2.sh
 git diff .vimrc
-vim 
 git log -p coc-settings.json 
 cd snap/
 calendar 4 2015
@@ -15439,7 +15415,6 @@ i w3m
 https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers
 w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers | bat
 w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers | p
-vimux
 vim .vim/plugin/
 sudo mv core cor
 rm cor
@@ -15447,7 +15422,6 @@ vim .vkimrc
 man fzf
 fd
 fd --hidden --follow --exclude ".git" . "$1"
-vim .bash/000_env.sh 
 rm 1.go
 git ls-tree
 git ls-tree -d
@@ -15481,7 +15455,6 @@ nc -l 2000
 cd fc/
 cd transformer-pipeline/
 vim build.sh 
-vim config.sh 
 cd fc/transformer-pipeline/src/
 cd rttr/
 vim1
@@ -15548,9 +15521,6 @@ cd 720P\ Hi10P/
 cd RAW/
 cd Downloads/
 rsync -rv --progress --stats -e 'ssh -p 27762' --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
-f *
-f -p
-ll
 cd '[桜都字幕组]2019年7月合集'
 cd '[桜都字幕组]2019年8月合集'
 du -hd1
@@ -15573,9 +15543,7 @@ curl -I pan.baidu.com
 curl -I https://pan.baidu.com
 ulimit 
 ulimit -a
-./config.sh pull
 docker exec -it workspace bash
-vimux 
 man bash
 cat .gdbinit
 cat .gdbinit.d/init 
@@ -15616,7 +15584,6 @@ type PAGER
 git clone --help
 cd fc/transformer-pipeline/frontend/src/config
 vim .inputrc 
-vim CMakeLists.txt 
 t elision
 make clean
 0
@@ -15630,7 +15597,6 @@ make clean && make -j1
 git reset HEAD --hard
 git clean -dff
 make clean && make -j2
-git diff
 vim 1.sjon
 vim 1.json
 cd .config/coc/extensions/
@@ -15648,7 +15614,6 @@ cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 d
 1
 cd node_modules/
-vim compile_commands.json 
 make -j4
 lsof -i:8080
 sudo lsof -i:8080
@@ -15660,7 +15625,6 @@ sudo sslocal -b -c socks.json
 sudo sslocal -b 0.0.0.0 -c socks.json 1>/dev/null 2>&1 &
 sudo sslocal -b 0.0.0.0 -c socks.json 
 sudo sslocal -b 0.0.0.0 -c ~/socks.json 1>/dev/null 2>&1 &
-jobs
 ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "leaf"
 ssh gjs@leaf
 \ssh gjs@leaf
@@ -15718,28 +15682,120 @@ man ssh_config
             .method("GetSensor3Thresh", &ClawCollisionSensor::GetSensor3Thresh)
             .method("SetSensor1Thresh", &ClawCollisionSensor::SetSensor1Thresh)
             .method("SetSensor2Thresh", &ClawCollisionSensor::SetSensor2Thresh)
-history 
-docker exec -it transformer bash
-cd fc/transformer-pipeline/
 cat .config/coc/extensions/package.json
 gd.config/coc/extensions/package.json
 gd. config/coc/extensions/package.json
 gd .config/coc/extensions/package.json
-vim
 git diff HEAD^ .dconf
 man cmake-modules 
 ag
-git log
 cd .vim/
 cd ~/test/
 cd sh/
 cd ~/.cache/
 cd tags/
 rm -rf *
-g
-cd ..
 vim 1.sh
-ls
-cd ~
+cppman noexcept
+s -p cppreference noexcept
+fzf ag
+fzf --help
+echo -e "\\e[0mCOLOR_NC (No color)"
+echo -e "\\e[1;37mCOLOR_WHITE\\t\\e[0;30mCOLOR_BLACK"
+echo -e "\\e[0;34mCOLOR_BLUE\\t\\e[1;34mCOLOR_LIGHT_BLUE"
+echo -e "\\e[0;32mCOLOR_GREEN\\t\\e[1;32mCOLOR_LIGHT_GREEN"
+echo -e "\\e[0;36mCOLOR_CYAN\\t\\e[1;36mCOLOR_LIGHT_CYAN"
+echo -e "\\e[0;31mCOLOR_RED\\t\\e[1;31mCOLOR_LIGHT_RED"
+echo -e "\\e[0;35mCOLOR_PURPLE\\t\\e[1;35mCOLOR_LIGHT_PURPLE"
+echo -e "\\e[0;33mCOLOR_YELLOW\\t\\e[1;33mCOLOR_LIGHT_YELLOW"
+echo -e "\\e[1;30mCOLOR_GRAY\\t\\e[0;37mCOLOR_LIGHT_GRAY"
+i xterm
+xterm
+vim .vim/colors/konomi.vim 
+git lgo
+ls | grep xterm+
+ls | grep xterm+256
+ls | grep xterm-256
+ls | grep xterm
+cat xnuppc+80x25
+cat xterm+256color 
+vim xterm+256color 
+jobs
+fg
+echo $TERm
+man TERM
+ll xterm-color
+cat xterm-mono
+120R62;c
+nano .vimrc 
+ls | grep 256
+cd ..
+ll
+cat xterm
+;146R62;c
+vim .Xdefaults
+vim ~/.vimrc
+echo $XTERM_VERSION
 vim .vimrc
+vim .bash/000_env.sh 
+man xterm
+guake 
+tilda 
+yakuake 
+echo $TERM
+diff xterm xterm-256color 
+sudo diff xterm xterm-256color 
+ll xterm
+ll xterm-256color 
+man terminfo
+cd /usr/local
+vim 
+cd /usr/share/terminfo/x/
+f *
+cd /lib/terminfo/x/
+f -p
+sudo us
+vim compile_commands.json 
+apt install sshpass
+sudo apt install sshpass
+sshpass
+vimux 
+vimux
+git log
+git diff
+history 
+cd /fc/transformer-pipeline/
+sudo su
+cd ~
+cd fc/transformer-pipeline/
+vim CMakeLists.txt 
+pip
+cd dockerfiles/
+vim
+docker exec -it transformer bash
+brew --help
+npm --help
+npm search ccls
+yarn search ccls
+brew
+brew search ccls
+brew info ccls
+brew install ccls
+t defense
+wd defense
+type wd
+s defense of the ancients
+t league
+s league of legends
+s war3
+man man
+bat makefile 
+ls
+bat config.sh 
+vimcat config.sh 
+cat config.sh 
+git checkout -- config.sh 
+vim config.sh 
+./config.sh pull
+g
 ./config.sh push
