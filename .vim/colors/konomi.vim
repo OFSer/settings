@@ -379,7 +379,7 @@ set background=dark
 hi Normal guibg=NONE ctermbg=NONE
 hi Search guibg=NONE ctermbg=NONE
 
-highlight CocWarningHighlight ctermfg=NONE cterm=underline
+highlight CocWarningHighlight ctermfg=NONE cterm=italic
 highlight CocWarningSign ctermfg=9 
 highlight CocWarningFloat ctermfg=9
 
