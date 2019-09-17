@@ -1093,7 +1093,6 @@ rm -rf flaw_checker/
 sudo rm -rf flaw_checker/
 git clone -b dev --recursive git@gitlab.sho.hypereal.com:AIFactory/flaw_checker.git
 cd /var/lib/
-cd docker/
 LD_LIBRARY_PATH="~/osu/osu.Desktop/bin/Debug/netcoreapp2.2" sudo dotnet run --project osu.Desktop
 LD_LIBRARY_PATH="~/osu/osu.Desktop/bin/Debug/netcoreapp2.2" sudo dotnet run --project ~/osu/osu.Desktop
 osu
@@ -7864,7 +7863,6 @@ wd -s fortress
 git diff search
 git diff search.vim
 cd .config/sogou-qimpanel/
-du -hd
 cd fcitx
 cd cpp/rttr/
 git add .vim
@@ -8328,7 +8326,6 @@ rm -rf .stack/
 vim ~/.stack/config.yaml
 cd voltron/
 cd ~/g
-cd ~/gh/
 qcd ..
 git clone https://github.com/bitemyapp/fp-course.git
 gcc 1.c
@@ -8593,7 +8590,6 @@ type POST
 GET baidu.com
 GET https://baidu.com
 lc
-sudo du -hd1
 du -hd 1
 cat meminfo 
 ll meminfo 
@@ -13665,7 +13661,6 @@ sudo apt-get install clang-tools-8
 sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-8 100
 clangd
 gencdb 
-cd shmmsg/
 cd ~/test/make/
 docker stop transfomer && docker container prune -f
 docker stop transformer 
@@ -14096,7 +14091,6 @@ cd .lin
 cd linuxbrew/
 cd .linuxbrew/
 cd sbin/
-cd var/
 cd homebrew/
 cd share/
 cd man/
@@ -14755,7 +14749,6 @@ ssh gjs@10.0.10.63
 make -j4 image_saving_service && bin/image_saving_service 
 docker images -f “dangling=true” -q
 docker images -f dangling=true -q
-docker rmi `docker images -f dangling=true -q`
 docker imgaes
 docker tag transformer:latest workspace
 docker tag workspace:latest transformer_dev
@@ -15411,8 +15404,6 @@ vim rttr_reflection_declaration.cpp
 vim .bash
 nc -l 1000
 nc -l 2000
-cd fc/
-cd transformer-pipeline/
 vim build.sh 
 cd fc/transformer-pipeline/src/
 cd rttr/
@@ -15511,7 +15502,6 @@ man locate
 cppman PROTOBUF_GENERATE_CPP
 man PROTOBUF_GENERATE_CPP
 man -Kw PROTOBUF_GENERATE_CPP
-gd
 man w3m
 w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers
 cppman mutexx
@@ -15553,7 +15543,6 @@ vim 1.sjon
 vim 1.json
 cd .config/coc/extensions/
 cat db.json 
-cat package.json 
 vim .vim
 make clean && make -j4
 git checkout master
@@ -15695,14 +15684,10 @@ f *
 cd /lib/terminfo/x/
 f -p
 sudo us
-vim compile_commands.json 
 apt install sshpass
 sudo apt install sshpass
 sshpass
-git diff
 history 
-sudo su
-cd fc/transformer-pipeline/
 vim CMakeLists.txt 
 pip
 brew --help
@@ -15731,8 +15716,6 @@ git checkout -- config.sh
 tget
 steam
 export TERM=xterm
-git log
-vim .vim/colors/konomi.vim 
 vimux 
 vim .vimrx
 vimux
@@ -15747,7 +15730,6 @@ cd /fc/transformer-pipeline/
 pip install pylint
 chown -R gjs *
 sudo chown -R gjs *
-ll
 pip3 install pylint
 sudo python -m pip3 install jedi
 pip install jedi
@@ -15773,7 +15755,6 @@ cd  /home/linuxbrew/.linuxbrew/bin
 ./ccls 
 type python3.7
 type python3
-vim 
 pip3 install pyls
 python3 -m pip3 install pyls
 python3 -m pip install pyls
@@ -15787,7 +15768,6 @@ cd /home/linuxbrew/.linuxbrew/bin
 ll s
 cd ~/.local/bin/
 cd ~/fc/transformer-pipeline/
-cd aruco/
 python3
 type s
 s asdf
@@ -15802,7 +15782,6 @@ cd .local/
 rm -rf *
 cd ~/.local/
 cd bin/
-cd lib/
 cd site-packages/
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:v2 
 python3.7m
@@ -15815,8 +15794,6 @@ docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc
 i python3.7*
 python2
 docker run -it registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1 bash
-cd .config/coc/extensions/node_modules/
-cd coc-python/
 vim Readme.md 
 python3.7 -m pip install --user jedi
 python3.7 -m pip install --user python-language-server
@@ -15824,8 +15801,6 @@ cd ~/.local/lib/
 cd python3.7/
 cd 
 ls | grep jedi
-cd fc/aruco/
-vim config.py 
 s fasd
 ln -s /home/linuxbrew/.linuxbrew/bin/s .local/bin/s
 s
@@ -15848,16 +15823,10 @@ vim 1.cpp
 cd ~/fc/shmmsg/
 type ccls
 cd fc/shmmsg/
-vim
 ccls --version
 /snap/bin/ccls --version
 docker exec -it workspace bash
-docker ps -l
-df -h
-docker images
 cd /usr/
-du -hd1
-cd ..
 ls | grep -v 'home'
 ls | grep -v 'home' | grep home
 ls | grep -v 'home' | du -hd1
@@ -15870,19 +15839,60 @@ ls | grep -v 'home' | xargs sudo du -dc0 | sort -nk1
 ls | grep -v 'home' | xargs sudo du -d0 | sort -nk1
 du --help
 du --help | grep total
-ls | grep -v 'home' | xargs sudo du -cd0 | sort -nk1
 sudo ln -s /home/linuxbrew/.linuxbrew/bin/s /root/.local/bin/s
 t pip
 docker stop workspace && docker container prune -f
 cd dev/
 docker build -t transformer:v3 . 
-ls
-docker stop transformer && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:v3
-docker exec -it transformer bash
-cd ~
 git diff HEAD^ .dconf
 python3.7
 vim config.sh 
+docker ps -l
+docker commit eaffa0ffdffc transformer:dev
+docker stop transformer && docker container prune -f
+docker rmi `docker images -f dangling=true -q`
+docker images
+cd /.
+ls | grep -v 'home' | xargs sudo du -cd0 | sort -nk1
+gd
+cd var/
+df -h
+cd lib/
+du -hd
+du -hd1
+sudo du -hd1
+sudo du -d1 | sort -kn1
+sudo du -d1 | sort -nk1
+cd docker/
+sudo su
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:dev
+docker exec -it transformer bash
+cd .config/coc/extensions/node_modules/
+cd coc-python/
+cat package.json 
+cat package.json  | grep pylint
+pstree -s -T 8211 
+cmake --version
+man cmake-buildsystem
+cd ~/gh/
+git clone https://github.com/Akagi201/learning-cmake.git
+vim .vim/colors/konomi.vim 
+cd fc/
+cd shmmsg/
+vim
+cd aruco/
+cd fc/aruco/
+vim config.py 
+git log
+git diff
+ll
+cd ..
+cd transformer-pipeline/
+vim compile_commands.json 
 g
+ls
+cd fc/transformer-pipeline/
+vim 
+cd ~
 ./config.sh push

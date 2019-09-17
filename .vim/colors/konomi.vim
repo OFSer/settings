@@ -378,12 +378,12 @@ hi link SignifySignDelete GitGutterDelete
 set background=dark
 hi Normal guibg=NONE ctermbg=NONE
 hi Search guibg=NONE ctermbg=NONE
-highlight CocWarningSign ctermfg=9  guifg=#ff0000
-highlight CocWarningHighlight ctermfg=9  guifg=#ff0000
-highlight CocWarningFloat ctermfg=9  guifg=#ff0000
-highlight CocErrorHighlight ctermfg=1  guifg=#ff0000
-highlight CocErrorFloat ctermfg=1  guifg=#ff0000
-highlight CocErrorSign ctermfg=1  guifg=#ff0000
+highlight CocWarningHighlight ctermfg=14 cterm=bold,underline guifg=#ff0000
+highlight CocWarningSign ctermfg=14 guifg=#ff0000
+highlight CocWarningFloat ctermfg=14 cterm=bold  guifg=#ff0000
+highlight CocErrorHighlight ctermfg=1 cterm=bold,underline  guifg=#ff0000
+highlight CocErrorFloat ctermfg=1 guifg=#ff0000
+highlight CocErrorSign ctermfg=1 cterm=bold guifg=#ff0000
 highlight CocInfoLine ctermfg=1
 highlight StatusLineTerm ctermbg=NONE  ctermfg=245 guifg=#ff0000
 highlight StatusLineTermNC ctermbg=NONE ctermfg=245 guifg=#ff0000
