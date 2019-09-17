@@ -11,15 +11,15 @@ Tab: menu-complete
 "w": unix-word-rubout
 "[Z": menu-complete-backward
 $if Gdb
-	"s": "dashboard -layout source\n"
-	"k": "dashboard -layout stack\n"
-	"a": "dashboard -layout assembly\n"
-	"h": "dashboard -layout history\n"
-	"m": "dashboard -layout memory\n"
-	"r": "dashboard -layout registers\n"
-	"t": "dashboard -layout threads\n"
-	"b": "dashboard -layout breakpoints\n"
-	"v": "dashboard -layout variables\n"
+	"\C-x\C-s": "dashboard -layout source\n"
+	"\C-x\C-k": "dashboard -layout stack\n"
+	"\C-x\C-a": "dashboard -layout assembly\n"
+	"\C-x\C-h": "dashboard -layout history\n"
+	"\C-x\C-m": "dashboard -layout memory\n"
+	"\C-x\C-r": "dashboard -layout registers\n"
+	"\C-x\C-t": "dashboard -layout threads\n"
+	"\C-x\C-b": "dashboard -layout breakpoints\n"
+	"\C-x\C-v": "dashboard -layout variables\n"
 $endif
 "\C-x\C-t": fzf-file-widget
 "\C-t": transpose-chars

@@ -8,6 +8,7 @@ case $- in
 	*i*) ;;
 	  *) return;;
 esac
+stty -ixon
 load(){
 	[ -f $1 ] && . $1
 }

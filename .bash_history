@@ -14395,7 +14395,6 @@ complete -p | grep docker
 vim .bash/alias.sh 
 type docker 
 type docker
-gdb
 cd ~/fc/
 cat .bash_completion 
 cat ~/.bashrc
@@ -14521,11 +14520,8 @@ vim .gdbinit.d/init
 vim ~?.gdbinit.d/init 
 vim .gdbinit
 bat device/claw_collision_sensor/claw_collision_sensor.cpp 
-gdb a.out
 cd ~1
 vim ~/.gdbinit.d/init 
-cd test/cpp/
-gdb a.out 
 cd ~/.fzf/uninstall 
 git diff config.sh
 ps -ef | grep ccls
@@ -14862,7 +14858,6 @@ cd flaw_checker/
 cd submodules/
 cd script/
 cd online_files/
-l
 f
 type gd
 ps -e -o pid,vsz,comm=
@@ -15238,7 +15233,6 @@ su test
 echo $GITTOP
 export GITTOP
 export fff=1234
-\ssh sihe@10.0.10.102
 echo $fff
 tty
 echo -e "\e[40;38;5;82m Hello \e[30;48;5;82m World \e[0m"
@@ -15484,10 +15478,8 @@ curl -I pan.baidu.com
 curl -I https://pan.baidu.com
 ulimit 
 ulimit -a
-man bash
 cat .gdbinit
 cat .gdbinit.d/init 
-cat .inputrc 
 locale .emacs
 locale -a
 locate --helpj
@@ -15521,7 +15513,6 @@ type man
 type PAGER
 git clone --help
 cd fc/transformer-pipeline/frontend/src/config
-vim .inputrc 
 t elision
 make clean
 0
@@ -15712,9 +15703,7 @@ git checkout -- config.sh
 tget
 steam
 export TERM=xterm
-vimux 
 vim .vimrx
-vimux
 echo $TERM
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer:v2 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v  -d --name transformer transformer:v2 
@@ -15757,7 +15746,6 @@ python3 -m pip install pyls
 python -m pip install pyls
 python -m pip3 install pyls
 pip3 install python-language-server
-vim .bashrc
 vim .bash/000_env.sh 
 type t
 cd /home/linuxbrew/.linuxbrew/bin
@@ -15882,9 +15870,6 @@ cd ..
 cd transformer-pipeline/
 vim 
 vim .vimrc
-vim
-cd test/
-cd cpp/
 vim 2.c
 vim 1.cpp
 vim 3.cpp
@@ -15892,8 +15877,25 @@ cd ~/fc/transformer-pipeline/
 vim compile_commands.json 
 git diff HEAD^
 vim .vim/colors/konomi.vim 
-g
-ls
 cd fc/transformer-pipeline/
+gdb
+cd test/
+cd cpp/
+l
+vim
+vimux
+gdb a.out
 cd ~
+vim .inputrc 
+vimux 
+cd test/cpp/
+gdb a.out 
+stty -ixon
+man bash
+stty --help
+\ssh sihe@10.0.10.102
+ls
+vim .bashrc
+g
+cat .inputrc 
 ./config.sh push
