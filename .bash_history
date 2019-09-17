@@ -15635,7 +15635,6 @@ cat .config/coc/extensions/package.json
 gd.config/coc/extensions/package.json
 gd. config/coc/extensions/package.json
 gd .config/coc/extensions/package.json
-git diff HEAD^ .dconf
 man cmake-modules 
 ag
 cd .vim/
@@ -15819,7 +15818,6 @@ docker run -it registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1 bas
 cd .config/coc/extensions/node_modules/
 cd coc-python/
 vim Readme.md 
-python3.7
 python3.7 -m pip install --user jedi
 python3.7 -m pip install --user python-language-server
 cd ~/.local/lib/
@@ -15843,7 +15841,6 @@ ls | grep pip
 cd pip
 git checkout -- dockerfiles/dev/Dockerfile 
 cd dockerfiles/
-vim config.sh 
 ln -s /home/linuxbrew/.linuxbrew/bin/ccls $HOME/.local/bin/ccls
 ccls
 cd ~/test/cpp/
@@ -15884,5 +15881,8 @@ docker stop transformer && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:v3
 docker exec -it transformer bash
 cd ~
+git diff HEAD^ .dconf
+python3.7
+vim config.sh 
 g
 ./config.sh push

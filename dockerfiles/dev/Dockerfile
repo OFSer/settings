@@ -6,14 +6,14 @@ RUN apt update && apt install -y locales openssh-server software-properties-comm
 RUN add-apt-repository -y ppa:jonathonf/vim && apt update && apt install -y --no-install-recommends vim
 RUN locale-gen en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
-RUN apt update && apt install -y cmake git python2.7-dev python3.7* curl wget
-RUN apt update && apt install -y python2.7-dev python3.7*
+RUN apt update && apt install -y cmake git curl wget
 RUN apt update && apt install -y moreutils most tldr less moreutils bvi silversearcher-ag
 RUN apt update && apt install -y sshpass jq tree net-tools openssh-server wget 
 RUN apt update && apt install -y most tldr moreutils bvi silversearcher-ag glances psmisc
 RUN apt update && apt install -y cppman httpie tree net-tools screenfetch linuxbrew-wrapper
 RUN apt update && apt install -y ctags gdb gcc g++ clang libclang-dev sudo rsync
 RUN apt update && apt install -y build-essential libncurses-dev zlib1g-dev bash-completion
+RUN apt update && apt install -y python2.7-dev python3.7* python-pip python3-pip
 
 RUN git clone --depth=1 --recursive https://github.com/MaskRay/ccls \
     && cd ccls \
@@ -43,14 +43,11 @@ RUN ln -s /home/linuxbrew/.linuxbrew/bin/s $HOME/.local/bin/s
 # RUN su test -c 'brew install ccls'
 # RUN ln -s /home/linuxbrew/.linuxbrew/bin/ccls $HOME/.local/bin/ccls
 
-RUN apt update && apt install -y python-pip python3-pip
-RUN python2.7 -m pip install compiledb
-RUN python3.7 -m pip install --user python-language-server pylint
-
 RUN cd /root && git init && git clean -dff && git pull https://github.com/chinnkarahoi/settings
 RUN vim -c "set showtabline=1 | let g:plug_window='open new' | set nonu | PlugInstall --sync" -c "q!" 
 RUN vim -c "CocInstall -sync | q!" 1 > /dev/null
 
+RUN python2.7 -m pip install compiledb
 RUN python3.7 -m pip install wheel
 RUN python3.7 -m pip install --user python-language-server pylint
 

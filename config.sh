@@ -21,6 +21,7 @@ brew_install() {
 	sudo apt install -y linuxbrew-wrapper
 	echo -e '\n' | brew
 	brew install s-search
+	ln -s /home/linuxbrew/.linuxbrew/bin/s $HOME/.local/bin/s
 }
 
 snap_install(){
