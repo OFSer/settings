@@ -380,11 +380,11 @@ hi Normal guibg=NONE ctermbg=NONE
 hi Search guibg=NONE ctermbg=NONE
 
 highlight CocWarningHighlight ctermfg=NONE cterm=underline
-highlight CocWarningSign ctermfg=9 cterm=bold
+highlight CocWarningSign ctermfg=9 
 highlight CocWarningFloat ctermfg=9
 
 highlight CocErrorHighlight ctermfg=NONE cterm=underline  
-highlight CocErrorSign ctermfg=1 cterm=bold 
+highlight CocErrorSign ctermfg=1 
 highlight CocErrorFloat ctermfg=1
 
 highlight CocInfoLine ctermfg=9
