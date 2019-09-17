@@ -15785,7 +15785,6 @@ cd
 ls | grep jedi
 s fasd
 ln -s /home/linuxbrew/.linuxbrew/bin/s .local/bin/s
-s
 ln -s /home/linuxbrew/.linuxbrew/bin/s $HOME/.local/bin/s
 python3 --help
 man python
@@ -15848,7 +15847,6 @@ sudo du -d1 | sort -nk1
 cd docker/
 sudo su
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:dev
-docker exec -it transformer bash
 cd .config/coc/extensions/node_modules/
 cd coc-python/
 cat package.json 
@@ -15878,24 +15876,26 @@ vim compile_commands.json
 git diff HEAD^
 vim .vim/colors/konomi.vim 
 cd fc/transformer-pipeline/
-gdb
-cd test/
-cd cpp/
 l
 vim
 vimux
-gdb a.out
 cd ~
-vim .inputrc 
-vimux 
 cd test/cpp/
-gdb a.out 
 stty -ixon
 man bash
 stty --help
 \ssh sihe@10.0.10.102
-ls
 vim .bashrc
-g
 cat .inputrc 
+gdb a.out 
+gdb
+cd test/
+cd cpp/
+vimux 
+gdb a.out
+docker exec -it transformer bash
+s
+ls
+g
+vim .inputrc 
 ./config.sh push
