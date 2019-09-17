@@ -18,6 +18,9 @@
     "%2Fhome%2Fgjs%2Ffc%2Fiot-daemon": [
       "dia",
       "di"
+    ],
+    "%2Fhome%2Fgjs": [
+      "python lint"
     ]
   },
   "lists": {

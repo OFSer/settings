@@ -1018,7 +1018,6 @@ cd UDP/
 git checkout master 
 cd ~/o
 history | grep dotnet
-cd .local/
 cd files/
 setup
 'ls
@@ -1862,8 +1861,6 @@ ls | egrep '^(home)'
 ls | egrep '^((?!home).)*$'
 ls | egrep '^((?!h).)*$'
 ls | egrep '^((?!test).)*$'
-ls | grep -v 'home'
-ls | grep -v 'home' | grep home
 ls | grep -v 'home' | grep
 ls | grep -v 'home' 
 ls | grep -e '^((?!test).)*$'
@@ -2492,7 +2489,6 @@ gsettings list-recursively  | grep software
 find .  | grep gnome
 find .  | grep gnome | grep software
 history | grep xml
-cd /usr/
 vim ./share/glib-2.0/schemas/org.gnome.software.gschema.xml
 dconf dump /org/gnome/software/
 gsettings list-recursively  | grep software | grep check
@@ -6461,7 +6457,6 @@ autocd
 autojump
 sudo apt install minikube
 python3 requests.get("http://127.0.0.1:8080/port?mac=42-B1-83-7B-E2-B9&name=%E4%BF%A1%E5%85%83%E8%BE%BE10-GPU%E5%8F%B7").content
-python3 --help
 ssh -o "StrictHostKeyChecking no" -p 15708 hypereal@registry-corp.hypereal.com
 nslookup k8s-master.sihe6.com
 mkdir kube
@@ -9544,8 +9539,6 @@ vim 1.cp
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14838 hypereal@registry-corp.hypereal.com
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14320 hypereal@registry-corp.hypereal.com
 python3 1.py
-cd ~/.local/
-cd site-packages/
 cd cv2/
 cat __init__.py 
 cd /usr/local/lib
@@ -13430,7 +13423,6 @@ cmake -DBUILD_ALGO_DNN ..
 vim .vim/plugin/tabline.vim 
 cmake -DBUILD_ALGO_DNN=on ..
 cmake -DBUILD_ALGO_DNN=on -DCMAKE_BUILD_TYPE=Release ..
-docker run -it registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1 bash
 history  | grep curl
 curl -sL install-node.now.sh/lts | sudo bash -- -y
 curl -sL install-node.now.sh/lts | sudo bash -s -- -y
@@ -13578,7 +13570,6 @@ docker exec -it snapd snap install hello-world
 sudo snap install hello-world
 hello-world
 hello-world.env 
-df -h
 docker run -v /snap:/snap --name=snapd -ti -d   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged   -v /lib/modules:/lib/modules:ro   snapd
 cd /var/lib/snapd/
 docker run -v /var/lib/snapd/:/var/lib/snapd -v /snap:/snap --name=snapd -ti -d   --tmpfs /run --tmpfs /run/lock --tmpfs /tmp   --privileged   -v /lib/modules:/lib/modules:ro   snapd
@@ -13673,7 +13664,6 @@ sudo snap remove clangd
 sudo apt-get install clang-tools-8
 sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-8 100
 clangd
-cd ~/fc/shmmsg/
 gencdb 
 cd shmmsg/
 cd ~/test/make/
@@ -13918,7 +13908,6 @@ apt install ripgrep
 df | grep rg
 df | grep rip
 rg
-cd fc/shmmsg/
 git diff .vim
 type OnStart
 git diff HEAD^ .bash_history
@@ -14076,7 +14065,6 @@ nslookup ok-b.org
 dig 
 dig ok-b.org
 vim .bash/env.sh 
-cd bin/
 man brew
 cd ../linuxbrew/
 cd include/
@@ -14107,7 +14095,6 @@ brew info vim
 cd .lin
 cd linuxbrew/
 cd .linuxbrew/
-cd lib/
 cd sbin/
 cd var/
 cd homebrew/
@@ -14167,7 +14154,6 @@ ll  /usr/share/applications/ | grep disk
 ll  /usr/share/applications/ | grep Disk
 ll  /usr/share/applications/ | grep Cre
 ll  /usr/share/applications/ | grep Start
-cd ~/test/cpp/
 t biege
 nethack
 cataclysm 
@@ -14337,7 +14323,6 @@ man git-diff
 { cd fc }
 { cd fc; }
 { command cd fc; }
-ccls
 ps -ef | grep docker
 pstree -s -t 7917
 pstree -s -t -p 7917
@@ -14494,7 +14479,6 @@ cd monolog/
 rm -rf monolog/
 cd colors/
 cd cpp/
-vim 1.cpp
 g++ -g 10.cpp && ./a.out
 vim 10.cpp 
 vim 11.cpp 
@@ -14773,7 +14757,6 @@ docker images -f “dangling=true” -q
 docker images -f dangling=true -q
 docker rmi `docker images -f dangling=true -q`
 docker imgaes
-ccls --version
 docker tag transformer:latest workspace
 docker tag workspace:latest transformer_dev
 git images
@@ -15366,8 +15349,6 @@ t 'let us
 t 'let us'
 t 'what the fuck'
 vim --version
-docker ps -l
-docker run -it -d --name workspace workspace bash
 man protobuf
 man -Kw protobuf
 man protoc
@@ -15516,7 +15497,6 @@ curl -I pan.baidu.com
 curl -I https://pan.baidu.com
 ulimit 
 ulimit -a
-docker exec -it workspace bash
 man bash
 cat .gdbinit
 cat .gdbinit.d/init 
@@ -15663,7 +15643,6 @@ cd ~/test/
 cd sh/
 cd ~/.cache/
 cd tags/
-rm -rf *
 vim 1.sh
 cppman noexcept
 s -p cppreference noexcept
@@ -15755,29 +15734,18 @@ steam
 export TERM=xterm
 git log
 vim .vim/colors/konomi.vim 
-cd dockerfiles/
-cd dev/
-docker build -t transformer:v2 . 
 vimux 
 vim .vimrx
 vimux
 echo $TERM
-docker images
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer:v2 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v  -d --name transformer transformer:v2 
 cat .config/coc/extensions/
 cat .config/coc/extensions/package.json 
-t pip
 man pip
-vim .vimrc
-docker stop transformer && docker container prune -f
-docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:v2 
 pip install python-language-server pylint
-cd .config/coc/extensions/node_modules/
-du -hd1
 cd /fc/transformer-pipeline/
 pip install pylint
-cd ~/.local/lib/
 chown -R gjs *
 sudo chown -R gjs *
 ll
@@ -15797,17 +15765,11 @@ sudo python -m pip install jedi
 cd python2.7
 python
 cd python3.6
-cd 
-ls | grep jedi
 cd ~/.config/coc
 cd extensions/
 cd node_modules/
-cd coc-python/
 rm /home/linuxbrew/.linuxbrew/bin/python3.7
-python3.7
-cd fc/aruco/
 cd  /home/linuxbrew/.linuxbrew/bin
-type ccls
 1
 ./ccls 
 type python3.7
@@ -15819,29 +15781,108 @@ python3 -m pip install pyls
 python -m pip install pyls
 python -m pip3 install pyls
 pip3 install python-language-server
-vim Dockerfile 
 vim .bashrc
 vim .bash/000_env.sh 
 type t
 cd /home/linuxbrew/.linuxbrew/bin
 ll s
 cd ~/.local/bin/
-docker exec -it transformer bash
-vim config.sh 
 cd ~/fc/transformer-pipeline/
-cd ..
 cd aruco/
-vim
-vim config.py 
 python3
-python2
-python3.6
-ls
-s
 type s
 s asdf
 echo $PATH
+git diff .config/coc/extensions/package.json
+vim DO
+vim Dockerfile 
+docker build -t transformer:v2 . 
+cd .local/lib/python3.
+vim .vimrc
+cd .local/
+rm -rf *
+cd ~/.local/
+cd bin/
+cd lib/
+cd site-packages/
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:v2 
+python3.7m
+python3.7m --help
+python3.6 --help
+python3.7 --help
+python3.6
+docker run -it -d --name workspace workspace bash
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name workspace workspace
+i python3.7*
+python2
+docker run -it registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1 bash
+cd .config/coc/extensions/node_modules/
+cd coc-python/
+vim Readme.md 
+python3.7
+python3.7 -m pip install --user jedi
+python3.7 -m pip install --user python-language-server
+cd ~/.local/lib/
+cd python3.7/
+cd 
+ls | grep jedi
+cd fc/aruco/
+vim config.py 
+s fasd
+ln -s /home/linuxbrew/.linuxbrew/bin/s .local/bin/s
+s
+ln -s /home/linuxbrew/.linuxbrew/bin/s $HOME/.local/bin/s
+python3 --help
+man python
+python3.7 -m
+python3.7 -m pip
+python3.7 -m pip --version
+python3.6 -m pip --version
+cd /usr/lib/python3/dist-packages
+ls | grep pip
+cd pip
+git checkout -- dockerfiles/dev/Dockerfile 
+cd dockerfiles/
+vim config.sh 
+ln -s /home/linuxbrew/.linuxbrew/bin/ccls $HOME/.local/bin/ccls
+ccls
+cd ~/test/cpp/
+vim 1.cpp
+cd ~/fc/shmmsg/
+type ccls
+cd fc/shmmsg/
+vim
+ccls --version
+/snap/bin/ccls --version
+docker exec -it workspace bash
+docker ps -l
+df -h
+docker images
+cd /usr/
+du -hd1
+cd ..
+ls | grep -v 'home'
+ls | grep -v 'home' | grep home
+ls | grep -v 'home' | du -hd1
+ls | grep -v 'home' | sudo du -hd1
+du -hd1 fc
+ls | grep -v 'home' | xargs sudo du -hd0
+ls | grep -v 'home' | xargs sudo du -hd
+ls | grep -v 'home' | xargs sudo du -d0
+ls | grep -v 'home' | xargs sudo du -dc0 | sort -nk1
+ls | grep -v 'home' | xargs sudo du -d0 | sort -nk1
+du --help
+du --help | grep total
+ls | grep -v 'home' | xargs sudo du -cd0 | sort -nk1
+sudo ln -s /home/linuxbrew/.linuxbrew/bin/s /root/.local/bin/s
+t pip
+docker stop workspace && docker container prune -f
+cd dev/
+docker build -t transformer:v3 . 
+ls
+docker stop transformer && docker container prune -f
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:v3
+docker exec -it transformer bash
 cd ~
 g
-git diff .config/coc/extensions/package.json
 ./config.sh push

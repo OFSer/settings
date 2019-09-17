@@ -1,8 +1,8 @@
+python.setLinter
 tabnine.openConfig
 workspace.diagnosticRelated
 workspace.showOutput
 json.retryResolveSchema
-python.setLinter
 python.runLinting
 python.enableLinting
 python.execInTerminal
