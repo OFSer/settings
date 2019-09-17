@@ -13889,7 +13889,6 @@ vim 12.cpp
 vim 11.cpp
 vim 9.cpp
 vim 2.cpp
-vim 3.cpp
 vim 4.cpp
 free -m
 htop
@@ -14472,7 +14471,6 @@ git clone --depth 1 git@github.com:Seldaek/monolog.git --branch 1.23.0 --single-
 cd monolog/
 rm -rf monolog/
 cd colors/
-cd cpp/
 g++ -g 10.cpp && ./a.out
 vim 10.cpp 
 vim 11.cpp 
@@ -15111,7 +15109,6 @@ man terminator_config
 git push --force
 cd fc/transformer-pipeline/src/services/algorithms_service/appearance_checker
 cd ~/.bash
-git diff HEAD^
 git gh/
 git clean -dff && git reset HEAD --hard && git pull https://github.com/chinnkarahoi/settings
 cat .bash_history 
@@ -15318,7 +15315,6 @@ apt install bash
 sudo apt install bash
 snap find bash
 snap find bash | grep 5
-cd test/
 cd sh
 ./1.sh
 ./3.sh
@@ -15767,7 +15763,6 @@ type t
 cd /home/linuxbrew/.linuxbrew/bin
 ll s
 cd ~/.local/bin/
-cd ~/fc/transformer-pipeline/
 python3
 type s
 s asdf
@@ -15777,7 +15772,6 @@ vim DO
 vim Dockerfile 
 docker build -t transformer:v2 . 
 cd .local/lib/python3.
-vim .vimrc
 cd .local/
 rm -rf *
 cd ~/.local/
@@ -15819,7 +15813,6 @@ cd dockerfiles/
 ln -s /home/linuxbrew/.linuxbrew/bin/ccls $HOME/.local/bin/ccls
 ccls
 cd ~/test/cpp/
-vim 1.cpp
 cd ~/fc/shmmsg/
 type ccls
 cd fc/shmmsg/
@@ -15877,10 +15870,8 @@ cmake --version
 man cmake-buildsystem
 cd ~/gh/
 git clone https://github.com/Akagi201/learning-cmake.git
-vim .vim/colors/konomi.vim 
 cd fc/
 cd shmmsg/
-vim
 cd aruco/
 cd fc/aruco/
 vim config.py 
@@ -15889,10 +15880,20 @@ git diff
 ll
 cd ..
 cd transformer-pipeline/
+vim 
+vim .vimrc
+vim
+cd test/
+cd cpp/
+vim 2.c
+vim 1.cpp
+vim 3.cpp
+cd ~/fc/transformer-pipeline/
 vim compile_commands.json 
+git diff HEAD^
+vim .vim/colors/konomi.vim 
 g
 ls
 cd fc/transformer-pipeline/
-vim 
 cd ~
 ./config.sh push

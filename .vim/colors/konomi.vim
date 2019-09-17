@@ -379,13 +379,13 @@ set background=dark
 hi Normal guibg=NONE ctermbg=NONE
 hi Search guibg=NONE ctermbg=NONE
 
-highlight CocWarningHighlight ctermfg=14 cterm=bold,underline
-highlight CocWarningSign ctermfg=14 cterm=bold
-highlight CocWarningFloat ctermfg=14
+highlight CocWarningHighlight ctermfg=NONE cterm=underline
+highlight CocWarningSign ctermfg=9 cterm=bold
+highlight CocWarningFloat ctermfg=9
 
-highlight CocErrorHighlight ctermfg=9 cterm=bold,underline  
-highlight CocErrorSign ctermfg=9 cterm=bold 
-highlight CocErrorFloat ctermfg=9 
+highlight CocErrorHighlight ctermfg=NONE cterm=underline  
+highlight CocErrorSign ctermfg=1 cterm=bold 
+highlight CocErrorFloat ctermfg=1
 
 highlight CocInfoLine ctermfg=9
 highlight StatusLineTerm ctermbg=NONE  ctermfg=245 guifg=#ff0000
