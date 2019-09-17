@@ -1843,7 +1843,6 @@ ssh -p 17458 hypereal@registry-corp.hypereal.com
 sudo chown gjs *
 sudo chown -rf gjs *
 tldr chown 
-sudo chown -R gjs *
 mkdir disk
 sudo mount /dev/sdb6 disk
 ll | grep disk
@@ -3524,7 +3523,6 @@ pidstat -d 1
 ssh -o "StrictHostKeyChecking no" -p 13654 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 14858 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 17110 hypereal@registry-corp.hypereal.com
-python3.6
 sleep 1
 mkdir py
 cd py/
@@ -3799,7 +3797,6 @@ git clone https://github.com/hdima/python-syntax.git
 cd python-syntax/
 cp python.vim ../../
 rm -rf syntax/
-python2
 service usb_blow_detector status 2>/dev/null | grep 'active (running)'
 ping 10.0.10.59
 ping 10.0.10.60
@@ -4960,7 +4957,6 @@ ssh -o "StrictHostKeyChecking no" -p 11626 hypereal@registry-corp.hypereal.com
 hashh
 /home/gjs/anaconda3/bin/python3.6
 /home/gjs/anaconda3/bin/python3.7
-python3.7
 /home/gjs/anaconda3/bin/python2
 hash -p
 hash -p /home/gjs
@@ -8601,7 +8597,6 @@ POST --help
 type POST
 GET baidu.com
 GET https://baidu.com
-cd aruco/
 lc
 sudo du -hd1
 du -hd 1
@@ -9550,7 +9545,6 @@ ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14838 
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14320 hypereal@registry-corp.hypereal.com
 python3 1.py
 cd ~/.local/
-cd python3.6/
 cd site-packages/
 cd cv2/
 cat __init__.py 
@@ -13520,11 +13514,9 @@ docker run -it -v ~:/root -v /snap:/snap -d --name transfomer transformer bash
 docker exec -it transfomer 
 cd /snap/
 cd 48/
-./ccls 
 echo $PATH | grep snap
 vim /etc/profile
 vim /etc/bash.bashrc 
-type ccls
 npm
 cd go
 cd go/mock/
@@ -13904,7 +13896,6 @@ nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null | grep -v timed
 nc -zv -w 1 39.156.69.79 1-10000 2>/dev/null 
 cd PthreadPool/
 git reset HEAD^ --hard
-vim config.py 
 vim calibrate.py 
 cd ~/.vim/plugged/vim-fugitive/
 cd .vim/plugged/vim-fugitive/
@@ -14427,8 +14418,6 @@ vim .bash/alias.sh
 type docker 
 type docker
 gdb
-s
-type s
 cd ~/fc/
 cat .bash_completion 
 cat ~/.bashrc
@@ -14456,7 +14445,6 @@ tree --help | grep exclu
 file initrd.img
 file initrd.img.old 
 man top
-vim Dockerfile 
 cat home-gjs-test-tags 
 vim home-gjs-test-tags 
 vim test/PthreadPool/
@@ -14481,7 +14469,6 @@ vim .gdbinit
 rm .gdbinit 
 wget --help
 pip install pygments
-cd fc/aruco/
 wget -P ~ git.io/.gdbinit
 git log -p .gdbinit
 rm gdb-dashboard/
@@ -15024,7 +15011,6 @@ ssh root@95.163.194.228 -p 27762
 ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[95.163.194.228]:27762"
 [[ "$USER" == "root" || "$USERNAME" == "root" ]] && $PROMPT_CHAR='#'
 [[ "$USER" == "root" || "$USERNAME" == "root" ]] && echo 1
-python
 docker exec -it test bash
 docker run -it vim bash
 echo \033[01;31m1234$NC
@@ -15037,7 +15023,6 @@ echo -e "\033[01;31m234"
 echo -e "\033[01;31m234$NC"
 echo -e "\033[01;31m234${NC}"
 RED='\033[01;31m'
-python3
 echo -e '\033[01;31m234'
 echo -e '\033[01;32m234'
 echo -e '\033[01;33m234'
@@ -15106,7 +15091,6 @@ ls | grep snd
 ll | grep snd
 cd snd/
 ll snd
-docker stop transformer && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer 
 git commit -m "resolve comment"
 make -j4 image_saving_service
@@ -15144,7 +15128,6 @@ echo $TERM
 man term
 man -Kw $term
 man -Kw xterm-256color
-echo $PATH
 cd .local/bin/
 vim .bash_profile 
 vim .profile 
@@ -15274,7 +15257,6 @@ t beige
 git checkout -- .vim/colors/konomi.vim
 vimjux
 . ~/.bashrc
-cd dev/
 cd /fc/
 sudo root
 su gjs
@@ -15321,7 +15303,6 @@ type c
 c man ' ' 
 c man ' '  | grep ab
 c apt install ' ' | grep ab
-type t
 c t ' ' | grep here
 t
 c i 
@@ -15350,7 +15331,6 @@ pwd
 type fzf-file-widget
  fzf-file-widget
 vim .bash/103_prompt.sh 
-vim .vimrx
 export a
 vim .bashrc 
 bash
@@ -15364,7 +15344,6 @@ snap find bash
 snap find bash | grep 5
 cd test/
 cd sh
-vim .bashrc
 ./1.sh
 ./3.sh
 vim README.md 
@@ -15387,7 +15366,6 @@ t 'let us
 t 'let us'
 t 'what the fuck'
 vim --version
-docker images
 docker ps -l
 docker run -it -d --name workspace workspace bash
 man protobuf
@@ -15468,11 +15446,9 @@ export https_proxy='socks5://127.0.0.1:1080'
 export ftp_proxy='socks5://127.0.0.1:1080'
 i network-manager-l2tp-gnome
 curl  https://pan.baidu.com
-tget
 tget 'magnet:?xt=urn:btih:0403fb4728bd788fbcb67e87d6feb241ef38c75a'
 s -p wikipedia vpn
 tget 925aaeac1ae5b5937e09193124cefed719b4cf6b
-\ssh root@95.163.194.228 -p 27762
 cd fc/sa
 cat sync.sh 
 tldr async
@@ -15494,7 +15470,6 @@ rsync
 scp -p 27762 root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
 scp -P 27762 root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
 scp -r -P 27762 root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
-cd 
 f home.tar.gz 
 rsync --help | grep '-z'
 rsync --help | grep '\-z'
@@ -15523,7 +15498,6 @@ cd Downloads/
 rsync -rv --progress --stats -e 'ssh -p 27762' --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
 cd '[桜都字幕组]2019年7月合集'
 cd '[桜都字幕组]2019年8月合集'
-du -hd1
 vim .bash_history 
 cd .ssh/
 git remote 
@@ -15537,7 +15511,6 @@ rm ubuntu-16.10-desktop-amd64.iso
 rm tm
 rm core
 steam m
-steam
 curl pan.baidu.com
 curl -I pan.baidu.com
 curl -I https://pan.baidu.com
@@ -15564,7 +15537,6 @@ w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-prot
 cppman mutexx
 cppman mutex
 cd go/
-cd ~/fc/transformer-pipeline/
 cat ~/.bash_history 
 t pneumatic
 man cmake-modules
@@ -15600,7 +15572,6 @@ make clean && make -j2
 vim 1.sjon
 vim 1.json
 cd .config/coc/extensions/
-cd extensions/
 cat db.json 
 cat package.json 
 vim .vim
@@ -15612,8 +15583,6 @@ cd build/
 cmake ..
 cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 d
-1
-cd node_modules/
 make -j4
 lsof -i:8080
 sudo lsof -i:8080
@@ -15711,7 +15680,6 @@ echo -e "\\e[0;33mCOLOR_YELLOW\\t\\e[1;33mCOLOR_LIGHT_YELLOW"
 echo -e "\\e[1;30mCOLOR_GRAY\\t\\e[0;37mCOLOR_LIGHT_GRAY"
 i xterm
 xterm
-vim .vim/colors/konomi.vim 
 git lgo
 ls | grep xterm+
 ls | grep xterm+256
@@ -15729,27 +15697,21 @@ cat xterm-mono
 120R62;c
 nano .vimrc 
 ls | grep 256
-cd ..
-ll
 cat xterm
 ;146R62;c
 vim .Xdefaults
 vim ~/.vimrc
 echo $XTERM_VERSION
-vim .vimrc
-vim .bash/000_env.sh 
 man xterm
 guake 
 tilda 
 yakuake 
-echo $TERM
 diff xterm xterm-256color 
 sudo diff xterm xterm-256color 
 ll xterm
 ll xterm-256color 
 man terminfo
 cd /usr/local
-vim 
 cd /usr/share/terminfo/x/
 f *
 cd /lib/terminfo/x/
@@ -15759,20 +15721,12 @@ vim compile_commands.json
 apt install sshpass
 sudo apt install sshpass
 sshpass
-vimux 
-vimux
-git log
 git diff
 history 
-cd /fc/transformer-pipeline/
 sudo su
-cd ~
 cd fc/transformer-pipeline/
 vim CMakeLists.txt 
 pip
-cd dockerfiles/
-vim
-docker exec -it transformer bash
 brew --help
 npm --help
 npm search ccls
@@ -15790,12 +15744,104 @@ s league of legends
 s war3
 man man
 bat makefile 
-ls
 bat config.sh 
 vimcat config.sh 
 cat config.sh 
 git checkout -- config.sh 
-vim config.sh 
 ./config.sh pull
+\ssh root@95.163.194.228 -p 27762
+tget
+steam
+export TERM=xterm
+git log
+vim .vim/colors/konomi.vim 
+cd dockerfiles/
+cd dev/
+docker build -t transformer:v2 . 
+vimux 
+vim .vimrx
+vimux
+echo $TERM
+docker images
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer:v2 
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v  -d --name transformer transformer:v2 
+cat .config/coc/extensions/
+cat .config/coc/extensions/package.json 
+t pip
+man pip
+vim .vimrc
+docker stop transformer && docker container prune -f
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:v2 
+pip install python-language-server pylint
+cd .config/coc/extensions/node_modules/
+du -hd1
+cd /fc/transformer-pipeline/
+pip install pylint
+cd ~/.local/lib/
+chown -R gjs *
+sudo chown -R gjs *
+ll
+pip3 install pylint
+sudo python -m pip3 install jedi
+pip install jedi
+pip3 install jedi
+vim tools/generate_configs.py 
+python -m pip install jedi
+cd python
+cd python3.6/
+cd python3.7
+find . | grep jedi
+pip3 -m install jedi
+python pip -m install jedi
+sudo python -m pip install jedi
+cd python2.7
+python
+cd python3.6
+cd 
+ls | grep jedi
+cd ~/.config/coc
+cd extensions/
+cd node_modules/
+cd coc-python/
+rm /home/linuxbrew/.linuxbrew/bin/python3.7
+python3.7
+cd fc/aruco/
+cd  /home/linuxbrew/.linuxbrew/bin
+type ccls
+1
+./ccls 
+type python3.7
+type python3
+vim 
+pip3 install pyls
+python3 -m pip3 install pyls
+python3 -m pip install pyls
+python -m pip install pyls
+python -m pip3 install pyls
+pip3 install python-language-server
+vim Dockerfile 
+vim .bashrc
+vim .bash/000_env.sh 
+type t
+cd /home/linuxbrew/.linuxbrew/bin
+ll s
+cd ~/.local/bin/
+docker exec -it transformer bash
+vim config.sh 
+cd ~/fc/transformer-pipeline/
+cd ..
+cd aruco/
+vim
+vim config.py 
+python3
+python2
+python3.6
+ls
+s
+type s
+s asdf
+echo $PATH
+cd ~
 g
+git diff .config/coc/extensions/package.json
 ./config.sh push

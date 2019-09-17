@@ -18,10 +18,9 @@ export LC_ALL=en_US.utf8
 export TERM=xterm-256color
 # export GOPATH="$HOME/go"
 export GOROOT="/snap/go/4289" #go1.12.1
-export PATH="$PATH:/home/gjs/go/bin:$GOROOT/bin:/snap/bin:/home/linuxbrew/.linuxbrew/bin"
+export PATH="$PATH:/home/gjs/go/bin:$GOROOT/bin:/snap/bin"
 #export GOROOT="/usr/lib/go"  #go1.10
 export PATH="$PATH:$HOME/.local/bin"
-export PATH="$PATH:$HOME/.stack/programs/x86_64-linux/ghc-8.2.2/bin"
 export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
 [ -f /usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0 ] && {
 	export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libgtk3-nocsd.so.0
