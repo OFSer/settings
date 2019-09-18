@@ -11264,7 +11264,6 @@ cp --help | grep overwrite
 cp --help | grep over
 man cp
 cp config.sh fc
-f -l
 mv --help
 mv -i config.sh fc/
 ssh sihe@10.0.10.161
@@ -11486,7 +11485,6 @@ dconf list -R /
 ln -s config.sh config/testing.json 
 ln -s config/testing.json config.json
 git commit -m "change config.json to symbol link"
-man american-english 
 stat config
 stat config.json 
 cat config
@@ -13306,7 +13304,6 @@ cat -n ~/.bash_history | sort -k2 -k1n
 cat -n ~/.bash_history | sort -r -k2 -k1n
 cat -n ~/.bash_history | sort -r -k2 -k1n | less
 cd test/sh/
-sl
 '
 cat -n 1 | sort  -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
 cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
@@ -14607,7 +14604,6 @@ git rev-parse --show-toplevel
 readlink `git rev-parse --show-toplevel`
 readlink *
 readlink fc
-type f
 readlink -f fc
 dirs
 dirs fc
@@ -14775,8 +14771,6 @@ cd ~/fc/aruco/
 fc
 frontend/
 src/
-7
-8
 9
 10
 Documents/
@@ -14925,7 +14919,6 @@ s -p dict test
 tldr s
 s --help
 complete -p
-alias 
 \ssh gjs@10.0.10.63
 vim .vi
 vim .bash/103_feature.sh 
@@ -15039,7 +15032,6 @@ r
 r --help
 cd proto/
 echo $USERNAME
-cd ../
 cd home/
 su tst
 echo $USER
@@ -15170,10 +15162,7 @@ cd ~/gh/pan-light/pan-light-v0.0.1preview-linux-x64
 cd config/
 3
 4
-5
-6
 -3
--2
 2
 t beige
 git checkout -- .vim/colors/konomi.vim
@@ -15340,7 +15329,6 @@ cd ~/.vim/plugged/coc.nvim/
 cd fzf.vim/
 vim rttr_reflection_declaration.cpp 
  ls
-vim .bash
 nc -l 1000
 nc -l 2000
 vim build.sh 
@@ -15475,7 +15463,6 @@ git checkout master
 git pull
 git checkout -b rttr
 cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
-d
 lsof -i:8080
 sudo lsof -i:8080
 sslocal --help
@@ -15598,9 +15585,7 @@ ll xterm-256color
 man terminfo
 cd /usr/local
 cd /usr/share/terminfo/x/
-f *
 cd /lib/terminfo/x/
-f -p
 sudo us
 apt install sshpass
 sudo apt install sshpass
@@ -15786,20 +15771,16 @@ cd ~/fc/transformer-pipeline/
 vim compile_commands.json 
 git diff HEAD^
 vim .vim/colors/konomi.vim 
-l
 stty -ixon
 man bash
 stty --help
 \ssh sihe@10.0.10.102
 vim .bashrc
-cat .inputrc 
 gdb a.out 
 gdb
 vimux 
 gdb a.out
-docker exec -it transformer bash
 s
-vim .inputrc 
 cd hello-world
 cmake .
 cmake clean
@@ -15868,7 +15849,6 @@ cd so/
 vim Makefile 
 cd asm/
 vim Ma
-vim makefile 
 vimux
 angband 
 nethack 
@@ -15907,7 +15887,6 @@ vim CMakeLists.txt
 cd ~/.vim/plugged/
 rm -rf vim-cmake-completion/
 cp ~/fc/transformer-pipeline/CMakeLists.txt  .
-cd fc/transformer-pipeline/
 cd ~/test/cmake/
 cd ~/.vim/plugged/vim-cmake-completion/
 gd
@@ -15917,7 +15896,6 @@ man ctest
 man cmake-properties 
 t mangle
 git log
-cd
 0/1
 type 0
 type -1
@@ -15932,10 +15910,8 @@ cd .config/coc/
 cd extensions/
 cd coc-tabnine-data/
 cd binaries/
-cd 
 ll
 ll -h
-cd ..
 cd .
 cd node_modules/
 cd coc-tabnine/
@@ -15952,9 +15928,6 @@ cppman curl
 tldr httpie
 ./config.sh pull
 cd Do
-cd Downloads/
-rm -rf *
--1
 ssh 10.3.10.207
 \ssh 10.3.10.207
 \ssh hypereal@10.3.10.207
@@ -15968,7 +15941,6 @@ ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:80 -p 17466 hy
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:10.3.10.207:80 -p 17466 hypereal@registry-corp.hypereal.com
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 17466 hypereal@registry-corp.hypereal.com
-git diff
 git diff HEAD^ .dconf
 s test
 ./config.sh config_scroll
@@ -15977,14 +15949,59 @@ vim config.sh
 cd fc/
 cd TeachPendant/
 vim
-cd ~
-ls
 vim .vim/plugin/keymap.vim 
 git diff .vimrc
 git diff HEAD~1 .vimrc
 vim ~/.vim/plugged/nerdtree
 vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
-vim .vim
 vim .vimrc
+git diff
+sl
+l
+ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8080:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
+ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8081:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
+cd
+-1
+-2
+~
+5
+6
+7
+8
+type 3
+cd ../
+cd ~/..
+cd ..
+cd ~10
+d
+f *
+cd Downloads/
+rm -rf *
+f -l
+f -p
+type f
+alias 
+vim .vim
+cd fc/transformer-pipeline/
+cd 
+cd ~
+vim .bash
+cat .inputrc 
+vim .inputrc 
+vim makefile 
+ls
+t hub
+t consortium 
+t consolidated 
+c t ' ' 
+c t ' '  | wc -l
+c t ' ' | wc
+locate english
+locate american_english
+locate american-english
+man american-english 
+c man ' ' | grep english
+man british-english 
+docker exec -it transformer bash
 g
 ./config.sh push
