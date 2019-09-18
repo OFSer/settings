@@ -1394,7 +1394,6 @@ alias cd='mycd'
 mycd(){ \cd "$@"; for i in `dirs -p | sed -n '2,$p'`;do done
 pushd . &> /dev/null
 set -u
-cd
 echo "~"
 i="~"
 mkdir abc\ bcd
@@ -7556,15 +7555,12 @@ nc -z -v -n  10.0.10.1 1-2000
 nc -z -v -n  10.0.10.1 22-2000
 nc -z -v -n  10.0.10.1 1000-2000
 route
-route -n
-netstat -rn
 netstate --help
 netstat 
 netstat  --help
 wd -s reslove
 wd -s resolve
 vim /etc/hostname 
-route --help
 qls
 telnet 10.0.10.63
 sudo telnet 10.0.10.63
@@ -7625,7 +7621,6 @@ nmap
 sudo apt install namp
 sudo apt install nmap
 tldr nmap
-arp -a
 vim 1.txt
 wd -s recurse
 wd -s curse
@@ -13009,7 +13004,6 @@ man clangd
 snap info clangd
 bash-language-server
 snap info bash-language-server
-cd .config/coc/
 ag *
 vimcat db.json 
 bat db.json 
@@ -14707,7 +14701,6 @@ docker run -it -v /fc:/fc -d --name test transformer
 curl --help
 help curl -s
 c curl --
-ifconfig
 docker stop test && docker container prune -f
 docker run -it --network="host" -v /fc:/fc -d --name test transformer 
 docker build -t workspace . 
@@ -14794,7 +14787,6 @@ type d
 echo $BLUE 
 echo $add
 nc
-cd .
 c d
 cd tools
 complete | grep _fzf
@@ -14916,8 +14908,6 @@ complete  | grep '\-2'
 complete -1
 complete -p -1
 complete -p -- -1
-type -1
-type -- -1
 complete -o filenames -F _complete_alias -- -1
 complete -F _complete_alias -- -1
 alias | cut -d' ' -f2 | cut -d= -f1
@@ -15040,7 +15030,6 @@ ps 29863
 cd /
 cd /r
 cd /root/
-ll -h
 rm *
 sudo rm *
 cd .cache/tags/
@@ -15058,7 +15047,6 @@ cd home/
 su tst
 echo $USER
 echo $HOME
-cd Do
 cd Documents/
 cd $GITTOP
 cd frontend/
@@ -15342,7 +15330,6 @@ fzf fc
 fzf
 pstree -s 3 
 pstree -s 1109 
--1
 sudo kill -9 28137 
 sudo kill -9 28141 
 sudo sslocal -c socks.json 
@@ -15423,7 +15410,6 @@ man 7 undocumented
 cd 720P
 cd 720P\ Hi10P/
 cd RAW/
-cd Downloads/
 rsync -rv --progress --stats -e 'ssh -p 27762' --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
 cd '[桜都字幕组]2019年7月合集'
 cd '[桜都字幕组]2019年8月合集'
@@ -15476,7 +15462,6 @@ type PAGER
 git clone --help
 cd fc/transformer-pipeline/frontend/src/config
 t elision
-0
 terminator 
 sakura 
 terminology 
@@ -15567,7 +15552,6 @@ cat .config/coc/extensions/package.json
 gd.config/coc/extensions/package.json
 gd. config/coc/extensions/package.json
 gd .config/coc/extensions/package.json
-man cmake-modules 
 ag
 cd .vim/
 cd sh/
@@ -15650,7 +15634,6 @@ bat config.sh
 vimcat config.sh 
 cat config.sh 
 git checkout -- config.sh 
-./config.sh pull
 tget
 export TERM=xterm
 vim .vimrx
@@ -15682,8 +15665,6 @@ cd python2.7
 python
 cd python3.6
 cd ~/.config/coc
-cd extensions/
-cd node_modules/
 rm /home/linuxbrew/.linuxbrew/bin/python3.7
 cd  /home/linuxbrew/.linuxbrew/bin
 1
@@ -15725,12 +15706,10 @@ docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc
 i python3.7*
 python2
 docker run -it registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1 bash
-vim Readme.md 
 python3.7 -m pip install --user jedi
 python3.7 -m pip install --user python-language-server
 cd ~/.local/lib/
 cd python3.7/
-cd 
 ls | grep jedi
 s fasd
 ln -s /home/linuxbrew/.linuxbrew/bin/s .local/bin/s
@@ -15788,7 +15767,6 @@ cd var/
 df -h
 cd lib/
 du -hd
-du -hd1
 sudo du -hd1
 sudo du -d1 | sort -kn1
 sudo du -d1 | sort -nk1
@@ -15807,7 +15785,6 @@ cd shmmsg/
 cd aruco/
 cd fc/aruco/
 vim config.py 
-ll
 cd transformer-pipeline/
 vim 
 vim 2.c
@@ -15826,7 +15803,6 @@ vim .bashrc
 cat .inputrc 
 gdb a.out 
 gdb
-cd cpp/
 vimux 
 gdb a.out
 docker exec -it transformer bash
@@ -15837,13 +15813,10 @@ cmake .
 cmake clean
 cmake --help | grep clean
 git clean -dff
-cmake ..
 make clean
 cd hello-world-clear/
-mkdir build
 cd src/
 cat Makefile 
-rm -rf *
 make
 find .
 find . | grep README
@@ -15863,7 +15836,6 @@ man -Kw PROPERTIES
 man -Kw cmake test
 man unzip
 man -Kw 'cmake test'
-man ctest
 man cmake 
 man -K cmake -K test
 man -K cmake -K test -w
@@ -15886,7 +15858,6 @@ man -Kw /usr/share/man/man1/cmake.1.gz
 man -Kw OUTPUT_NAME
 man cmake-properties
 man -Kw set_target_properties
-git log
 cmake --help | bat
 man cmake
 cd gh/cos/
@@ -15915,8 +15886,6 @@ cmake -P
 rm -rf build
 cmake -P CMakeLists.txt -H. -Bbuild
 cmake  -H. -Bbuild
-cd build/
-make -j4
 pstree -s 1199 
 pstree -s -t 1199 
 pstree -s -t -p 1199 
@@ -15939,27 +15908,80 @@ python setup.py install
 sudo python setup.py install
 cilimao-cli -h
 cilimao-cli 战狼2
-cd ..
 cd learning-cmake/
 vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
 steam
 t ad-hoc
 vim .vimrc
-cd test/
 mkdir cmake
-cd cmake/
 vim CMakeLists.txt
 cd ~/.vim/plugged/
 rm -rf vim-cmake-completion/
 cp ~/fc/transformer-pipeline/CMakeLists.txt  .
 cd fc/transformer-pipeline/
 cd ~/test/cmake/
-vim CMakeLists.txt 
-ls
 cd ~/.vim/plugged/vim-cmake-completion/
 vim
+gd
+ctest
+ctest --help
+man ctest
+man cmake-properties 
+t mangle
+git log
+cd
+0/1
+type 0
+type -1
+type -- -1
+mkdir build && cd build
+make -j4
+cd test/
+cd cpp/
+cd cmake/
+vim CMakeLists.txt 
+cd .config/coc/
+cd extensions/
+cd coc-tabnine-data/
+cd binaries/
+cd 
+ll
+ll -h
+cd ..
+cd .
+cd node_modules/
+cd coc-tabnine/
+du -hd1
+cat Readme.md 
+vim Readme.md 
+0
+man -Kw CURL_FOUND
+man cmake-modules 
+mkdir build
+cd build/
+cmake ..
+cppman curl
+tldr httpie
+./config.sh pull
+cd Do
+cd Downloads/
+rm -rf *
+-1
+ssh 10.3.10.207
+\ssh 10.3.10.207
+\ssh hypereal@10.3.10.207
+arp -a
+ifconfig
+route --help
+netstat -rn
+route 
+route -n
+ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:80 -p 17466 hypereal@registry-corp.hypereal.com
+ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:10.3.10.207:80 -p 17466 hypereal@registry-corp.hypereal.com
+ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
+ssh -o "StrictHostKeyChecking no" -p 17466 hypereal@registry-corp.hypereal.com
+git diff
+ls
 cd ~
 g
-git diff
-gd
 ./config.sh push
