@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'sheerun/vim-polyglot'
 
 " misc 
+	Plug 'richq/vim-cmake-completion'
 	Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 	Plug 'chinnkarahoi/haskell-vim'
 	" Plug 'vim-scripts/Conque-GDB'

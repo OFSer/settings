@@ -168,7 +168,6 @@ vim test.sh
 sudo ./test.sh 
 sudo ./test.sh
 git diff 
-cmake .
 ossutil ls oss://ai-cloth-public/debug-data
 nautilus /data
 nautilus /data &
@@ -2748,7 +2747,6 @@ sudo apt install autoconf
 sudo apt install aclocal
 aclocal
 ./auto
-make
 sudo make install
 logkeys 
 logkeys --version
@@ -4904,7 +4902,6 @@ sudo apt install build-essential git cmake
 sudo docker run --runtime=nvidia -it --rm nvidia/cuda:9.0-base nvida-smi 
 sudo docker run --runtime=nvidia -it --rm nvidia/cuda:10.0-base nvida-smi 
 lsls
-mkdir build
 apt install gnome-vim
 apt install vim
 tar xvf tf-cc-cpu.tar.gz -C /
@@ -5480,7 +5477,6 @@ set -a
 set -A
 unset ${a[1]}
 /ls
-vim CMakeLists.txt
 set -p
 declare -p
 declare -ap
@@ -6105,7 +6101,6 @@ cd YouCompleteMe/
 cd ycmd/
 cd examples/
 vim /home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py
-cd ~/.vim/plugged/
 cd. .
 vim .ycm_extra_conf.py 
 ls -a | grep .ycm_extra_conf.py 
@@ -7820,8 +7815,6 @@ cd gh/cis194/
 mkdir rttr
 touch CMakeLists.txt
 vim .giti
-mkdir cmake
-cd cmake/
 cd vim-cmake-completion/
 vim cmakecomplete.vim 
 vim plugin/cmakecomplete.vim 
@@ -7895,7 +7888,6 @@ echo $GITTOP
 cd $GITTOP/build
 bin/unit_test_main 
 make -j6
-cmake clean
 cd  build/
 docker tag --help
 docker tag registry-sho.hypereal.com/ci/flawck-mk3:latest registry-sho.hypereal.com/ci/flawck-mk3:1.0.0
@@ -7953,7 +7945,6 @@ vim 10.lhs
 bspwm
 sudo apt install bspwm
 history | grep "git clean"
-cmake --help
 tldr cmake
 git diff vim
 ./gnome-terminal
@@ -8043,7 +8034,6 @@ snap find ascii
 gnuchess
 gnuchessx
 gnuchessu
-angband 
 angband  --help
 angband -a
 angband --help
@@ -8226,7 +8216,6 @@ nasm
 sudo apt install nasm
 cd asm
 mkdir asm
-cd asm/
 vim 1.asm
 ld --help
 man ld
@@ -8820,7 +8809,6 @@ git checkout -- yaml/blow.json
 git checkout -- yaml/blow.yaml
 pip3 
 cd nanomsg/
-rm -rf build
 mkdir -p /opt/flaw_checker/config/
 vim /opt/flaw_checker/config/Device.json
 sudo mkdir -p /opt/flaw_checker/config/
@@ -8869,7 +8857,6 @@ g++ 7.cpp && ./a.out
 g++ 7.cpp && time ./a.out
 g++ 8.cpp
 g++ 8.cpp && ./a.out
-make install
 git clone https://github.com/doxygen/doxygen.git
 vim saki_detection/
 cd boost/
@@ -8964,7 +8951,6 @@ echo 123 > c
 mdkir build
 make -f ..
 make all
-make 
 echo b > b
 make a
 make b
@@ -8981,7 +8967,6 @@ echo f > d
 cp inc/* ..
 ls inc
 rm add.h 
-cd make/
 cp inc/* .
 cp src/* .
 rm add*
@@ -9108,7 +9093,6 @@ history | grep curl
 history | grep curl | grep output
 tar xjf gmp-5.0.2.tar.bz2
 rm -rf gmp-5.0.2
-vim make
 g++ --version
 apt-get install texinfo
 sudo apt-get install texinfo
@@ -10156,7 +10140,6 @@ readelf jos-grub
 readelf -h jos-grub 
 readelf -l jos-grub 
 readelf -S jos-grub 
-tldr man
 man -w man
 b -i 16 3FF
 \ls -CF --color
@@ -10519,7 +10502,6 @@ as -o boot.o boot.S
 mv Makefile boot.mk
 cd ../kern/
 mv Makefile kernel.mk
-cd test/make/
 make ff
 mkdir ff
 cd ff/
@@ -11243,7 +11225,6 @@ cd fc//http//
 rm -rf http
 rm -rf http-hello/
 vim hello.asm 
-cd cos/
 vim makenv.mk 
 \ssh 10.0.10.164
 \ssh sihe@10.0.10.164
@@ -13631,7 +13612,6 @@ wget -c http://releases.llvm.org/8.0.0/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-
 service snapd stop
 sudo service snapd stop
 snap install hello-ptro 
-nethack 
 sudo service snapd start
 sudo service snapd restart
 tar xf clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz
@@ -13641,7 +13621,6 @@ type llvm-7
 type llvm
 apt install clang libclang-dev
 /usr/lib/llvm-6.0/
-mkdir build 
 rm -rf Release/
 cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$PWD/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04 ..
 cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=$PWD/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04
@@ -14336,7 +14315,6 @@ man 7 signal
 man signal.7
 cppman pthread_cond_wait
 git commit -m "add init"
-cat Makefile 
 make -j4 image_saving_server
 cd bin
 ./image_saving_service 
@@ -14672,7 +14650,6 @@ c ls -
 ./config.sh push "fix"
 complete -p git
 vim .bash/PS1.
-vim makefile 
 cd .vim/colors/
 vim konomi.vim 
 vim .vim/colors/
@@ -14683,9 +14660,6 @@ g
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc   -d --name transformer transformer 
 vim --version | grep xterm
 asm
-cd so/
-vim Makefile 
-cd gh/cos/
 echo TERM
 ssh root@172.17.0.1
 \ssh root@172.17.0.1
@@ -14794,7 +14768,6 @@ shopt -o globstar
 shopt -s globstar
 ls **
 ls **/*.cpp
-find .
 ls *.cpp **/*.cpp | wc -l
 ls **/*.cpp | wc -l
 find . | grep cpp | wc -l
@@ -15071,8 +15044,6 @@ ll -h
 rm *
 sudo rm *
 cd .cache/tags/
-top
-glances
 git add -A
 git commit -m "upd ignore"
 git diff ~/.vimrc
@@ -15195,7 +15166,6 @@ cd pt-program/
 ls -a
 cd g
 cd ~/
-cd gh/
 git clone 
 git clone  https://github.com/peterq/pan-light
 cd pan-light/
@@ -15349,7 +15319,6 @@ t resolve
 t solve
 s dilemma
 t dilemma
-t ad-hoc
 man empire 
 cd .config/
 w3m
@@ -15379,7 +15348,6 @@ sudo kill -9 28141
 sudo sslocal -c socks.json 
 sudo sslocal -c socks.json 1>/dev/null 2>&1
 sudo sslocal -c socks.json 1>/dev/null 2>&1 &
-curl google.com
 curl -I http://pan.baidu.com
 firefox
 firefox 
@@ -15388,7 +15356,6 @@ cd pan-light-v0.0.1preview-linux-x64/
 ./pc.sh 
 cd ~/.vim/plugged/coc.nvim/
 cd fzf.vim/
-cd src/
 vim rttr_reflection_declaration.cpp 
  ls
 vim .bash
@@ -15475,7 +15442,6 @@ rm core
 steam m
 curl pan.baidu.com
 curl -I pan.baidu.com
-curl -I https://pan.baidu.com
 ulimit 
 ulimit -a
 cat .gdbinit
@@ -15494,19 +15460,15 @@ man w3m
 w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers
 cppman mutexx
 cppman mutex
-cd go/
 cat ~/.bash_history 
 t pneumatic
 man cmake-modules
-man cmake
 man -fcmake
 man -f cmake
 man ' ' | grep cmake
-man --help
 t apropos
 man -KW cmake
 man -K cmake
-man -Kw cmake
 man -kw game
 man -Kw game
 type man
@@ -15514,7 +15476,6 @@ type PAGER
 git clone --help
 cd fc/transformer-pipeline/frontend/src/config
 t elision
-make clean
 0
 terminator 
 sakura 
@@ -15524,7 +15485,6 @@ make clean && make -j
 make clean && make 
 make clean && make -j1
 git reset HEAD --hard
-git clean -dff
 make clean && make -j2
 vim 1.sjon
 vim 1.json
@@ -15535,11 +15495,8 @@ make clean && make -j4
 git checkout master
 git pull
 git checkout -b rttr
-cd build/
-cmake ..
 cmake .. -DCMAKE_BUILD_TYPE=Debug -DBUILD_ALGO_DNN=ON
 d
-make -j4
 lsof -i:8080
 sudo lsof -i:8080
 sslocal --help
@@ -15569,7 +15526,6 @@ c cmake ' '
 c ' ' | grep cmake
 c man ' ' | grep cmake
 man cmake-toolchains 
-man cmake-language 
 man cmake-packages 
 man 7 ' ' | grep cmake
 c man 7 ' ' | grep cmake
@@ -15614,7 +15570,6 @@ gd .config/coc/extensions/package.json
 man cmake-modules 
 ag
 cd .vim/
-cd ~/test/
 cd sh/
 cd ~/.cache/
 cd tags/
@@ -15642,8 +15597,6 @@ ls | grep xterm
 cat xnuppc+80x25
 cat xterm+256color 
 vim xterm+256color 
-jobs
-fg
 echo $TERm
 man TERM
 ll xterm-color
@@ -15675,7 +15628,6 @@ apt install sshpass
 sudo apt install sshpass
 sshpass
 history 
-vim CMakeLists.txt 
 pip
 brew --help
 npm --help
@@ -15699,9 +15651,7 @@ vimcat config.sh
 cat config.sh 
 git checkout -- config.sh 
 ./config.sh pull
-\ssh root@95.163.194.228 -p 27762
 tget
-steam
 export TERM=xterm
 vim .vimrx
 echo $TERM
@@ -15761,7 +15711,6 @@ vim Dockerfile
 docker build -t transformer:v2 . 
 cd .local/lib/python3.
 cd .local/
-rm -rf *
 cd ~/.local/
 cd bin/
 cd site-packages/
@@ -15835,7 +15784,6 @@ docker rmi `docker images -f dangling=true -q`
 docker images
 cd /.
 ls | grep -v 'home' | xargs sudo du -cd0 | sort -nk1
-gd
 cd var/
 df -h
 cd lib/
@@ -15854,20 +15802,14 @@ cat package.json  | grep pylint
 pstree -s -T 8211 
 cmake --version
 man cmake-buildsystem
-cd ~/gh/
 git clone https://github.com/Akagi201/learning-cmake.git
-cd fc/
 cd shmmsg/
 cd aruco/
 cd fc/aruco/
 vim config.py 
-git log
-git diff
 ll
-cd ..
 cd transformer-pipeline/
 vim 
-vim .vimrc
 vim 2.c
 vim 1.cpp
 vim 3.cpp
@@ -15875,12 +15817,7 @@ cd ~/fc/transformer-pipeline/
 vim compile_commands.json 
 git diff HEAD^
 vim .vim/colors/konomi.vim 
-cd fc/transformer-pipeline/
 l
-vim
-vimux
-cd ~
-cd test/cpp/
 stty -ixon
 man bash
 stty --help
@@ -15889,13 +15826,140 @@ vim .bashrc
 cat .inputrc 
 gdb a.out 
 gdb
-cd test/
 cd cpp/
 vimux 
 gdb a.out
 docker exec -it transformer bash
 s
-ls
-g
 vim .inputrc 
+cd hello-world
+cmake .
+cmake clean
+cmake --help | grep clean
+git clean -dff
+cmake ..
+make clean
+cd hello-world-clear/
+mkdir build
+cd src/
+cat Makefile 
+rm -rf *
+make
+find .
+find . | grep README
+mkdir build 
+cmake -DCMAKE_INSTALL_PREFIX=/tmp/usr ..
+make 
+man -Kw LIBRARY_OUTPUT_PATH
+man cmake-variables
+man cmake-variables 
+man cmake-language 
+make install
+top
+glance
+glances
+man -Kw TARGETS
+man -Kw PROPERTIES
+man -Kw cmake test
+man unzip
+man -Kw 'cmake test'
+man ctest
+man cmake 
+man -K cmake -K test
+man -K cmake -K test -w
+man -w -K cmake -K test 
+man /usr/share/man/man1/unzip.1.gz
+man -K cmake /usr/share/man/man1/unzip.1.gz
+man -Kw cmake /usr/share/man/man1/unzip.1.gz
+man -Kw cmake -- /usr/share/man/man1/unzip.1.gz
+cat /usr/share/man/man1/unzip.1.gz
+man  /usr/share/man/man1/unzip.1.gz
+man --help
+tldr man
+man -k cmake
+man -w cmake
+man -Kk cmake
+man -Kw cmake
+man -Kw cmake | xargs -i man {} | less
+man -Kw game | xargs -i man {} | less
+man -Kw /usr/share/man/man1/cmake.1.gz
+man -Kw OUTPUT_NAME
+man cmake-properties
+man -Kw set_target_properties
+git log
+cmake --help | bat
+man cmake
+cd gh/cos/
+vim make
+rm make
+cd test/make/
+fg
+jobs
+cd cos/
+cd gh/
+cd ~/test/
+cd go/
+cd fc/
+cd test/cpp/
+cd make/
+cd so/
+vim Makefile 
+cd asm/
+vim Ma
+vim makefile 
+vimux
+angband 
+nethack 
+cmake --help
+cmake -P
+rm -rf build
+cmake -P CMakeLists.txt -H. -Bbuild
+cmake  -H. -Bbuild
+cd build/
+make -j4
+pstree -s 1199 
+pstree -s -t 1199 
+pstree -s -t -p 1199 
+pip install torrent-cli
+\ssh root@95.163.194.228 -p 27762
+curl google.com
+curl -I google.com
+curl -I https://pan.baidu.com
+t peer
+torrent-cli 战狼2
+torrent-cli 钢铁侠 3
+torrent-cli 战狼2 -p -s 1
+cd ~/gh/
+git clone https://github.com/cexll/cilimao-cli.git
+cd cilimao-cli
+ pip install -r requirements.txt
+sudo  pip install -r requirements.txt
+pip install -r requires.txt 
+python setup.py install
+sudo python setup.py install
+cilimao-cli -h
+cilimao-cli 战狼2
+cd ..
+cd learning-cmake/
+vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
+steam
+t ad-hoc
+vim .vimrc
+cd test/
+mkdir cmake
+cd cmake/
+vim CMakeLists.txt
+cd ~/.vim/plugged/
+rm -rf vim-cmake-completion/
+cp ~/fc/transformer-pipeline/CMakeLists.txt  .
+cd fc/transformer-pipeline/
+cd ~/test/cmake/
+vim CMakeLists.txt 
+ls
+cd ~/.vim/plugged/vim-cmake-completion/
+vim
+cd ~
+g
+git diff
+gd
 ./config.sh push
