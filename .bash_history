@@ -11766,7 +11766,6 @@ man menu-complete
 compgen -ac 'man '
 compgen -ac 'man'
 complete -u su
-vim /etc/bash_completion
 cd /etc/bash_completion.d/
 cat bash_completion
 cat /usr/share/bash-completion/bash_completion
@@ -13665,7 +13664,6 @@ sudo pmap 6374
 sudo pmap 6427
 sudo pmap -h 6427
 sudo pmap  6427
-cd .fzf/
 cd /opt/
 rm -rf fzf.vim/
 mkdir ls
@@ -14518,7 +14516,6 @@ history --help
 history -c
 ls .fzf_history 
 vim .fzf_history 
-vim .fzf.bash 
 git log .fzf.bash
 ls .fzf*
 vim .fzf.bash
@@ -14635,7 +14632,6 @@ _completion_loader
 sudo apt install bash-completion
 c ls -
 ./config.sh push "fix"
-complete -p git
 vim .bash/PS1.
 cd .vim/colors/
 vim konomi.vim 
@@ -14712,7 +14708,6 @@ gencdb
 docker push --help
 man docker-push 
 help docker push 
-cd .bash
 ls *.sh
 ls *.sh | xargs echo
 ls *.sh | xargs -i echo {}
@@ -14783,7 +14778,6 @@ cd tools
 complete | grep _fzf
 complete | grep _fzf | grep kill
 cd /home/
-vim .bash_completion 
 docker run -it workspace 
 perl cloc.pl /apps/projects/reallycoolapp --exclude-dir=lib,frameworks
 sudo apt install cloc
@@ -14918,7 +14912,6 @@ s inherited by the shell at invocation
 s -p dict test
 tldr s
 s --help
-complete -p
 \ssh gjs@10.0.10.63
 vim .vi
 vim .bash/103_feature.sh 
@@ -15231,7 +15224,6 @@ complete  | grep complte
 complete  | grep compgen
 complete sudo
 complete --help
-complete 
 c
 insert-completions
 echo {.{ICEauthority,NERDTreeBookmarks,VimSokobanScores,Xauthority,a{ngband,ws},bash{,_{completion,history,profile},rc},c{ache,gdb,make,o{mpiz,n{an,f{,ig}}}},d{bus,conf,mrc,ocker},e{macs{,.d,~},w.json},f{btermrc,zf{,.bash,_history}},g{conf,db{_history,init{,.{1,d}}},hc,it{,config,globalignore,ignore,modules},nupg,oldendict,photo,vfs},h{plip,ttpie},i{nputrc,python},l{aunchpadlib,esshst,ocal},m{o{c,zilla},ume,ysql_history},n{e{odebug,tease-musicbox,wsrc-dribble},ode_repl_history,pm,v{,idia-settings-rc}},p{ki,r{esage,ofile},ulse-cookie,y{lint.d,thon_history}},s{emantic-highlight-cache,iege,ogouinput,sh,t{ack,eam{,p{ath,id}}},udo_as_admin_successful},t{etris{,_stat},gdb,hunderbird,ig_history,ldr,ooling},units_history,v{agrant.d,im{,_w3m_hist,info,rc},oltron,scode{,-cpptools}},w{3m,get-hsts,udao-dict},x{bindkeysrc,inputrc,session-errors{,.old}},y{arnrc,cm{,_extra_conf.py}},zcompdump},1.go,CloudMusic,D{esktop,o{cuments,wnloads}},News,README.md,Steam,backup,config.sh,dockerfiles,fc,g{ames,h,o},makefile,pt-program,s{hmmsg,nap,ocks.json,ync.sh},t{est,m}} 
@@ -15626,7 +15618,6 @@ pip install python-language-server pylint
 cd /fc/transformer-pipeline/
 pip install pylint
 chown -R gjs *
-sudo chown -R gjs *
 pip3 install pylint
 sudo python -m pip3 install jedi
 pip install jedi
@@ -15656,7 +15647,6 @@ python3 -m pip install pyls
 python -m pip install pyls
 python -m pip3 install pyls
 pip3 install python-language-server
-vim .bash/000_env.sh 
 type t
 cd /home/linuxbrew/.linuxbrew/bin
 ll s
@@ -15971,7 +15961,6 @@ cd
 type 3
 cd ../
 cd ~/..
-cd ..
 cd ~10
 d
 f *
@@ -15984,12 +15973,10 @@ alias
 vim .vim
 cd fc/transformer-pipeline/
 cd 
-cd ~
 vim .bash
 cat .inputrc 
 vim .inputrc 
 vim makefile 
-ls
 t hub
 t consortium 
 t consolidated 
@@ -16003,5 +15990,30 @@ man american-english
 c man ' ' | grep english
 man british-english 
 docker exec -it transformer bash
+complete 
+complete  | grep fzf
+cd .bash
+vim 201_complete.sh 
+vim /etc/bash_completion
+cd .fzf/
+vim key-bindings.
+vim key-bindings.bash 
+cd ..
+cd shell/
+vim completion.bash 
+cd ~
+complete -p
+complete -p | grep fzf
+sudo chown -R gjs *
+vim .fzf.bash 
+vim .fzf/shell/completion.bash 
+complete | grep fzf
+complete | grep fzf | grep -v path
+complete | grep fzf | grep -v path_completion
+vim .bash/000_env.sh 
+ls
+vim .bash_completion 
+complete -p git
+complete -p vim
 g
 ./config.sh push

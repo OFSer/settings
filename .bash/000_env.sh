@@ -27,8 +27,3 @@ export GIO_EXTRA_MODULES=/usr/lib/x86_64-linux-gnu/gio/modules/
 }
 # export PAGER='vim -M +MANPAGER -c "set showtabline=1" -'
 export BAT_THEME="TwoDark"
-# export FZF_DEFAULT_OPTS='--preview="bat --color=always {}"'
-export FZF_DEFAULT_OPTS="--history=$HOME/.fzf_history --bind ctrl-l:page-down,ctrl-h:page-up"
-export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -200'"
-export FZF_COMPLETION_OPTS='--preview="bat --color=always {}"'
-
