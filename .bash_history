@@ -16008,7 +16008,6 @@ complete gd
 complete -p gd
 complete -p git
 vim .bashrc
-vim .bash
 coproc tr a b
 echo ${COPROC[1]}
 echo ${COPROC[0]}
@@ -16049,4 +16048,6 @@ rm in out
 ls
 man gcc
 g
+alias 0 | sed -E "s/alias 1='([^ ]*).*'/\1/"
+vim .bash
 ./config.sh push
