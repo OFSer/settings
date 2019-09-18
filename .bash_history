@@ -623,7 +623,6 @@ date -d "101223 23:34:56"
 date -d "23:34:56"
 date -d "10-12-23 23:34:56"
 read a
-echo $a
 read b
 echo b
 echo $b
@@ -3648,7 +3647,6 @@ ps -ef | grep server
 ssh -o "StrictHostKeyChecking no" -p 17061 hypereal@registry-corp.hypereal.com
 IFS=:
 var=ab::cd
-echo $var
 unset IFS
 service flawck status | grep running
 for i in `ls`;do echo $i; done
@@ -13181,7 +13179,6 @@ kill 3503
 cron
 coproc
 coproc --help
-man coproc
 coproc sleep 1000
 kill -9 3980
 killall -9 sleep 
@@ -15001,7 +14998,6 @@ apt remove python3-sdl2
 apt remove python-sdl2
 df
 df | grep snd
-cd /dev/
 ls | grep snd
 ll | grep snd
 cd snd/
@@ -15637,7 +15633,6 @@ cd python3.6
 cd ~/.config/coc
 rm /home/linuxbrew/.linuxbrew/bin/python3.7
 cd  /home/linuxbrew/.linuxbrew/bin
-1
 ./ccls 
 type python3.7
 type python3
@@ -15765,7 +15760,6 @@ stty -ixon
 man bash
 stty --help
 \ssh sihe@10.0.10.102
-vim .bashrc
 gdb a.out 
 gdb
 vimux 
@@ -15827,8 +15821,6 @@ cd gh/cos/
 vim make
 rm make
 cd test/make/
-fg
-jobs
 cd cos/
 cd gh/
 cd ~/test/
@@ -15973,7 +15965,6 @@ alias
 vim .vim
 cd fc/transformer-pipeline/
 cd 
-vim .bash
 cat .inputrc 
 vim .inputrc 
 vim makefile 
@@ -16011,9 +16002,51 @@ complete | grep fzf
 complete | grep fzf | grep -v path
 complete | grep fzf | grep -v path_completion
 vim .bash/000_env.sh 
-ls
 vim .bash_completion 
-complete -p git
 complete -p vim
+complete gd
+complete -p gd
+complete -p git
+vim .bashrc
+vim .bash
+coproc tr a b
+echo ${COPROC[1]}
+echo ${COPROC[0]}
+read var<&"${COPROC[0]}" &
+coproc cat
+echo a >&"${COPROC[1]}"
+echo $var
+echo EOF >&"${COPROC[1]}"
+read var<&"${COPROC[0]}"
+echo  >&"${COPROC[1]}"
+cat <&"${COPROC[0]}"
+man coproc
+help coproc
+tldr coproc
+mkfifo in_data out_data
+ls /dev/
+ucd /dev/
+cd /dev/
+find . | grep data
+1
+rm in_data 
+rm out_data 
+exec 1>out
+fg
+exec 3> in 4< out
+exec 2<out
+exec 5<out
+mkfifo in out
+exec 1<out
+echo 1234 > out
+exec 4<out
+read a <&4
+echo $a
+echo 1234 > out &
+cat out
+jobs
+rm in out
+ls
+man gcc
 g
 ./config.sh push
