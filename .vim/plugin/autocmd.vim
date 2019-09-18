@@ -11,8 +11,8 @@ func! NetrwMapping()
   noremap <buffer> s <nop>
 endfunc
 autocmd BufLeave,FocusLost,InsertLeave,TextChanged * silent! wall
-au FileType netrw,nerdtree au BufLeave <buffer> setlocal nocursorline
-au FileType netrw,nerdtree au BufEnter <buffer> setlocal cursorline
+" au FileType netrw,nerdtree au BufLeave <buffer> setlocal nocursorline
+" au FileType netrw,nerdtree au BufEnter <buffer> setlocal cursorline
 autocmd FileType qf nnoremap <buffer> t <C-W><Enter><C-W>T
 
 

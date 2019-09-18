@@ -20,7 +20,7 @@ set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.
 " nnoremap F :Search<space>
 
 command -nargs=0 Fileopen silent! exec 'call feedkeys(":tab drop '.expand('%').'")'
-nnoremap o :Fileopen<cr>
+nnoremap o :NERDTreeFind<cr><c-w>p:Fileopen<cr>
 
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
 runtime! ftplugin/man.vim

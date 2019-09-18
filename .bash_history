@@ -2682,7 +2682,6 @@ unity-settings-daemon
 history | grep caps
 ls /etc/ | grep xkb
 ls /etc/ | grep map
-./config.sh config_scroll
 vim .xbindkeysrc 
 vim /etc/default/keyboard 
 xmodmap -pke
@@ -12284,7 +12283,6 @@ type fc/dl-k8s-kube/
 c  | column
 vim .basg
 git clone git@gitlab.sho.hypereal.com:robotic/TeachPendant.git
-cd TeachPendant/
 vim .gitlab-ci.yml 
 git clone git@gitlab.sho.hypereal.com:robotic/WukongMCS.git
 cd WukongMCS/
@@ -14234,7 +14232,6 @@ cat gtk.css
 vim gtk.css 
 s fd
 s sdf
-s test
 s -p stackoverflow test
 type command s
 s -s
@@ -15178,7 +15175,6 @@ cd config/
 -3
 -2
 2
-vim .vim/plugin/keymap.vim 
 t beige
 git checkout -- .vim/colors/konomi.vim
 vimjux
@@ -15753,9 +15749,7 @@ docker stop workspace && docker container prune -f
 cd dev/
 docker build -t transformer:v3 . 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:v3
-git diff HEAD^ .dconf
 python3.7
-vim config.sh 
 docker ps -l
 docker commit eaffa0ffdffc transformer:dev
 docker stop transformer && docker container prune -f
@@ -15870,7 +15864,6 @@ cd cos/
 cd gh/
 cd ~/test/
 cd go/
-cd fc/
 cd test/cpp/
 cd make/
 cd so/
@@ -15909,10 +15902,8 @@ sudo python setup.py install
 cilimao-cli -h
 cilimao-cli 战狼2
 cd learning-cmake/
-vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
 steam
 t ad-hoc
-vim .vimrc
 mkdir cmake
 vim CMakeLists.txt
 cd ~/.vim/plugged/
@@ -15921,7 +15912,6 @@ cp ~/fc/transformer-pipeline/CMakeLists.txt  .
 cd fc/transformer-pipeline/
 cd ~/test/cmake/
 cd ~/.vim/plugged/vim-cmake-completion/
-vim
 gd
 ctest
 ctest --help
@@ -15981,7 +15971,18 @@ ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:10.3.10.207:80 -p 17466 hy
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 17466 hypereal@registry-corp.hypereal.com
 git diff
-ls
+git diff HEAD^ .dconf
+s test
+./config.sh config_scroll
+cat .xbindkeysrc 
+vim config.sh 
+cd fc/
+cd TeachPendant/
+vim
 cd ~
+ls
+vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
+vim .vimrc
+vim .vim/plugin/keymap.vim 
 g
 ./config.sh push
