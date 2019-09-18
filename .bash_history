@@ -470,7 +470,6 @@ vim string.cc
 vim add.h
 vim add.cpp
 g++ -fPIC -shared -o libadd.so add.cpp
-vim test.cpp
 g++ -o test test.cpp -L./addlib -ladd
 vim test.cpp 
 ldd test
@@ -810,7 +809,6 @@ sudo apt autoremove
 sudo apt remove gnome-desktop3-data 
 sudo apt install ubuntu-unity-desktop 
 unity --version
-nvidia-smi
 git clone https://github.com/ppy/osu.git
 cd osu/
 git submodule update --init –recursive
@@ -3515,7 +3513,6 @@ ssh -o "StrictHostKeyChecking no" -p 14858 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 17110 hypereal@registry-corp.hypereal.com
 sleep 1
 mkdir py
-cd py/
 pip3 freeze 
 vim requirements.txt
 pip3 install -r requirements.txt 
@@ -6223,7 +6220,6 @@ cd system
 go get -v insecure
 cd plugged/YouCompleteMe/
 ls -a 
-cd clang/
 find . | grep ycm_extra_conf.py
 python 3install.py --clang-completer
 python install.py --clang-completer
@@ -9706,7 +9702,6 @@ eog a.bmp
 cp a.bmp ../b.bmp
 eog b.bmp
 eog a.bmp b.bmp
-python 1.py
 rm *.bmp
 git commit -m "add tools.py"
 python3 test.py 
@@ -15595,7 +15590,6 @@ s defense of the ancients
 t league
 s league of legends
 s war3
-man man
 bat makefile 
 bat config.sh 
 vimcat config.sh 
@@ -15862,7 +15856,6 @@ sudo python setup.py install
 cilimao-cli -h
 cilimao-cli 战狼2
 cd learning-cmake/
-steam
 t ad-hoc
 mkdir cmake
 vim CMakeLists.txt
@@ -15871,7 +15864,6 @@ rm -rf vim-cmake-completion/
 cp ~/fc/transformer-pipeline/CMakeLists.txt  .
 cd ~/test/cmake/
 cd ~/.vim/plugged/vim-cmake-completion/
-gd
 ctest
 ctest --help
 man ctest
@@ -15884,7 +15876,6 @@ type -1
 type -- -1
 mkdir build && cd build
 make -j4
-cd test/
 cd cpp/
 cd cmake/
 vim CMakeLists.txt 
@@ -15927,7 +15918,6 @@ git diff HEAD^ .dconf
 s test
 ./config.sh config_scroll
 cat .xbindkeysrc 
-vim config.sh 
 cd fc/
 cd TeachPendant/
 vim
@@ -15937,7 +15927,6 @@ git diff HEAD~1 .vimrc
 vim ~/.vim/plugged/nerdtree
 vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
 vim .vimrc
-git diff
 sl
 l
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8080:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
@@ -15980,7 +15969,6 @@ locate american-english
 man american-english 
 c man ' ' | grep english
 man british-english 
-docker exec -it transformer bash
 complete 
 complete  | grep fzf
 cd .bash
@@ -15992,13 +15980,11 @@ vim key-bindings.bash
 cd ..
 cd shell/
 vim completion.bash 
-cd ~
 complete -p
 complete -p | grep fzf
 sudo chown -R gjs *
 vim .fzf.bash 
 vim .fzf/shell/completion.bash 
-complete | grep fzf
 complete | grep fzf | grep -v path
 complete | grep fzf | grep -v path_completion
 vim .bash/000_env.sh 
@@ -16007,7 +15993,6 @@ complete -p vim
 complete gd
 complete -p gd
 complete -p git
-vim .bashrc
 coproc tr a b
 echo ${COPROC[1]}
 echo ${COPROC[0]}
@@ -16040,14 +16025,47 @@ exec 1<out
 echo 1234 > out
 exec 4<out
 read a <&4
-echo $a
 echo 1234 > out &
 cat out
 jobs
 rm in out
-ls
 man gcc
-g
 alias 0 | sed -E "s/alias 1='([^ ]*).*'/\1/"
 vim .bash
+complete | grep fzf
+type hg
+i mercurial
+hg --help
+man hg
+man man
+t annotate
+man mercurial
+t mercurial
+t mercury 
+vim .bashrc
+docker exec -it transformer bash
+cd test/
+rm -rf clang
+cd py/
+mkdir clang
+cd clang/
+vim test.cpp
+pip install clang
+python 1.py
+cd ~
+vim config.sh 
+vim dockerfiles/
+pytho -m pip install --user python-language-server pylint
+python -m pip install --user python-language-server pylint
+ls
+steam
+nvidia-smi
+echo 123 | read a
+echo $a
+read a <(echo 123)
+read a <& <(echo 123)
+read a <&(echo 123)
+git diff
+gd
+g
 ./config.sh push

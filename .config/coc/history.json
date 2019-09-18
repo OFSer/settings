@@ -21,6 +21,12 @@
     ],
     "%2Fhome%2Fgjs": [
       "python lint"
+    ],
+    "%2Fhome%2Fgjs%2Ftest%2Fpy%2Fclang": [
+      "python",
+      "python select",
+      "python set",
+      "set"
     ]
   },
   "lists": {

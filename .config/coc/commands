@@ -1,3 +1,5 @@
+python.setInterpreter
+python.setShebangInterpreter
 python.setLinter
 tabnine.openConfig
 workspace.diagnosticRelated
