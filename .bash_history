@@ -15272,7 +15272,6 @@ vim build.sh
 cd ~/.cache/tags/
 vim 3.sh
 vim 2.sh
-git diff .vimrc
 git log -p coc-settings.json 
 cd snap/
 calendar 4 2015
@@ -15471,7 +15470,6 @@ vim 1.sjon
 vim 1.json
 cd .config/coc/extensions/
 cat db.json 
-vim .vim
 make clean && make -j4
 git checkout master
 git pull
@@ -15981,8 +15979,12 @@ cd TeachPendant/
 vim
 cd ~
 ls
-vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
-vim .vimrc
 vim .vim/plugin/keymap.vim 
+git diff .vimrc
+git diff HEAD~1 .vimrc
+vim ~/.vim/plugged/nerdtree
+vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
+vim .vim
+vim .vimrc
 g
 ./config.sh push

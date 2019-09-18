@@ -49,7 +49,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 	Plug 'junegunn/fzf.vim'
 	let g:fzf_action = {
-		\ 'alt-t': 'tab split',
+		\ 'ctrl-t': 'tab split',
 		\ 'alt-x': 'split',
 		\ 'alt-v': 'vsplit' }
 	let g:fzf_layout = { 'window': 'botright 15split' }
@@ -72,7 +72,7 @@ call plug#begin('~/.vim/plugged')
 " side panel
 	Plug 'scrooloose/nerdtree'
 	Plug 'jistr/vim-nerdtree-tabs'
-	let NERDTreeChDirMode = 1
+	let NERDTreeChDirMode = 2
 	let NERDTreeShowLineNumbers=0
 	let NERDTreeAutoCenter=1
 	let NERDTreeShowHidden=1
