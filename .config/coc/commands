@@ -1,6 +1,6 @@
 python.setInterpreter
-python.setShebangInterpreter
 python.setLinter
+python.setShebangInterpreter
 tabnine.openConfig
 workspace.diagnosticRelated
 workspace.showOutput

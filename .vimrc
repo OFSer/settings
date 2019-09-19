@@ -129,7 +129,9 @@ set sw=2
 set hidden
 set softtabstop=2
 set ma
-set mouse=a
+if $USER == 'gjs'
+	set mouse=a
+endif
 set twsl=100000
 set nocompatible
 set incsearch

@@ -1580,7 +1580,6 @@ ps -ef | grep 4750
 ps -ef | grep 25920
 kill -9 25920
 ps -ef | grep 20702
-echo $_
 echo $-
 echo $pid
 echo $p
@@ -3198,7 +3197,6 @@ ssh -o "StrictHostKeyChecking no" -p 18118 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 10779 hypereal@registry-corp.hypereal.com
 cd r
 cd run/
-mkdir empty
 lsza
 git stash list
 git commit -m "add ms"
@@ -4418,7 +4416,6 @@ cd /proc/self/fd
 cd /dev/pts/
 ls 2>&1 > dirlist
 cat dirlist 
-cd empty/
 vim dirlist 
 rm dirlist 
 ls * 2>&1 > dirlist
@@ -9506,7 +9503,6 @@ vim 1.s
 vim 1.cp
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14838 hypereal@registry-corp.hypereal.com
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:12345:192.168.8.2:2233 -p 14320 hypereal@registry-corp.hypereal.com
-python3 1.py
 cd cv2/
 cat __init__.py 
 cd /usr/local/lib
@@ -10399,7 +10395,6 @@ dirs | cut -d' ' -f 1-
 dirs | cut -d' ' -f'1-'
 dirs | cut -d' ' -f1-
 dirs | cut -d' ' -f2-
-sqlite3
 args ~
 cd '~'
 make inc
@@ -11504,7 +11499,6 @@ jobs -p | xargs kill -9
 stat .gitignore 
 stat iot-daemon/.gitignore 
 set -o pipefailed 
-set -o pipefail 
 command man manm
 command man man
 git commit -m "add filelist upload"
@@ -12073,7 +12067,6 @@ git diff preinst
 git diff deb
 git diff deb/deb/
 c ls' '
-set --help
 dpkg --help | grep depend
 man deb-control 
 sysctl -p /etc/sysctl.d/50-pipeline.conf
@@ -14233,7 +14226,6 @@ cd ~2
 bd asdfasdf
 bd
 bd adsf
-echo $?
 bd ./fc
 bd proto
 mkdir bd/bd/bd
@@ -14564,7 +14556,6 @@ git log .profile
 ls .*
 ech o.*
 echo .*
-ls *
 ls -l *
 ls 
 ls -d
@@ -14716,7 +14707,6 @@ cd plugged/
 alias 1='cd ~1'
 vim .bash/alias.sh
 vim .bash/
-seq 10
 tldr xargs
 seq 10 | xargs -i alias {}='cd ~{}'
 seq 10 | xargs -i "alias {}='cd ~{}'"
@@ -15091,7 +15081,6 @@ cd /etc/privoxy
 bat gfwlist.action
 cat README.md 
  service privoxy status
-curl baidu.com
 ping google.com
 /etc/privoxy/config
 sudo bat /etc/privoxy/config
@@ -15235,8 +15224,6 @@ apt install bash
 sudo apt install bash
 snap find bash
 snap find bash | grep 5
-cd sh
-./1.sh
 ./3.sh
 vim README.md 
 vim build
@@ -15392,7 +15379,6 @@ rm ubuntu-16.10-desktop-amd64.iso
 rm tm
 rm core
 steam m
-curl pan.baidu.com
 curl -I pan.baidu.com
 ulimit 
 ulimit -a
@@ -15521,7 +15507,6 @@ cd .vim/
 cd sh/
 cd ~/.cache/
 cd tags/
-vim 1.sh
 cppman noexcept
 s -p cppreference noexcept
 fzf ag
@@ -15742,7 +15727,6 @@ cd aruco/
 cd fc/aruco/
 vim config.py 
 cd transformer-pipeline/
-vim 
 vim 2.c
 vim 1.cpp
 vim 3.cpp
@@ -15817,7 +15801,6 @@ rm make
 cd test/make/
 cd cos/
 cd gh/
-cd ~/test/
 cd go/
 cd test/cpp/
 cd make/
@@ -15838,9 +15821,7 @@ pstree -s -t 1199
 pstree -s -t -p 1199 
 pip install torrent-cli
 \ssh root@95.163.194.228 -p 27762
-curl google.com
 curl -I google.com
-curl -I https://pan.baidu.com
 t peer
 torrent-cli 战狼2
 torrent-cli 钢铁侠 3
@@ -15918,7 +15899,6 @@ git diff HEAD^ .dconf
 s test
 ./config.sh config_scroll
 cat .xbindkeysrc 
-cd fc/
 cd TeachPendant/
 vim
 vim .vim/plugin/keymap.vim 
@@ -15926,7 +15906,6 @@ git diff .vimrc
 git diff HEAD~1 .vimrc
 vim ~/.vim/plugged/nerdtree
 vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
-vim .vimrc
 sl
 l
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8080:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
@@ -16043,21 +16022,16 @@ man mercurial
 t mercurial
 t mercury 
 vim .bashrc
-docker exec -it transformer bash
-cd test/
 rm -rf clang
 cd py/
 mkdir clang
 cd clang/
 vim test.cpp
 pip install clang
-python 1.py
-cd ~
 vim config.sh 
 vim dockerfiles/
 pytho -m pip install --user python-language-server pylint
 python -m pip install --user python-language-server pylint
-ls
 steam
 nvidia-smi
 echo 123 | read a
@@ -16066,6 +16040,74 @@ read a <(echo 123)
 read a <& <(echo 123)
 read a <&(echo 123)
 git diff
-gd
+https://api.bilibili.com/x/relation/stat?vmid=2183025 | jq
+curl 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq
+curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq
+curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq .data
+curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq .data["balck"]
+curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq .data.black
+cd fc/
+seq 10
+curl -sS 'https://api.bilibili.com/x/relation/stat?vmid={}' | jq .data.follower
+curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=1' | jq .data.follower
+seq 10 | xargs -i curl -sS 'https://api.bilibili.com/x/relation/stat?vmid={}' | jq .data.follower
+for i in {1..1000};do
+cd test/
+cd sh
+vim 1.sh
+./1.sh
+chmod +x 5.sh
+curl asfd
+curl asfd | ls
+set --help
+man pipefail
+curl asdf
+echo $?
+curl asdf | echo
+cd ~/test/
+mkdir empty
+cd empty/
+ls *
+ls * | ls
+set -o pipefail 
+ls * | ls --help
+set -eo pipefail
+foo | echo a
+set -o pipefail
+curl 'https://api.bilibili.com/x/space/acc/info?mid=2&jsonp=jsonp'
+curl 'https://api.bilibili.com/x/space/acc/info?mid=2&jsonp=jsonp' | jq
+curl -sS 'https://api.bilibili.com/x/space/acc/info?mid=2&jsonp=jsonp' | jq
+curl -sS 'https://api.bilibili.com/x/space/acc/info?mid=2&jsonp=jsonp' | jq .data.name
+echo -n 123
+curl pan.baidu.com
+vim 
+vim 5.sh
+curl -I https://pan.baidu.com
+curl baidu.com
+./5.sh
+curl -sS 'https://api.bilibili.com/x/space/acc/info?mid=2&jsonp=jsonp' 
+curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq .data.follower
+curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' 
+curl google.com
+sqlite
+i sqlite
+vim data.db 
+sqlite --help
+sqlite3  -help 
+sqlite  -help 
+sqlite3
+python 1.py
+vim 2.py
+python3.7 -m pip install --user python-language-server pylint
+python3.7 -m pip install clang
+ls
+vim 1.py 
+python3 1.py
+python3.7 1.py
+docker exec -it transformer bash
+cd ~
+vim .vimrc
+echo $_
 g
+gd
 ./config.sh push
