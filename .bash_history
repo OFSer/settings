@@ -804,7 +804,6 @@ echo abc | egrep b.*
 sudo apt remove ubuntu-desktop 
 sudo apt remove --force ubuntu-desktop 
 sudo apt remove --purge ubuntu-desktop 
-sudo reboot
 sudo apt autoremove 
 sudo apt remove gnome-desktop3-data 
 sudo apt install ubuntu-unity-desktop 
@@ -3327,7 +3326,6 @@ convert 0000.jpg 0000.jpeg
 ll | grep 0000
 docker rm 0a1ae472f2ae
 docker rm registry-sho.hypereal.com/dl/dl-tf:190301
-docker ps -a
 docker rmi registry-sho.hypereal.com/dl/dl-tf:190301
 docker rmi registry-sho.hypereal.com/dl/dl-tf:190201
 docker rmi ba7427d36515
@@ -15697,11 +15695,8 @@ cd dev/
 docker build -t transformer:v3 . 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:v3
 python3.7
-docker ps -l
 docker commit eaffa0ffdffc transformer:dev
-docker stop transformer && docker container prune -f
 docker rmi `docker images -f dangling=true -q`
-docker images
 cd /.
 ls | grep -v 'home' | xargs sudo du -cd0 | sort -nk1
 cd var/
@@ -15733,7 +15728,6 @@ vim 3.cpp
 cd ~/fc/transformer-pipeline/
 vim compile_commands.json 
 git diff HEAD^
-vim .vim/colors/konomi.vim 
 stty -ixon
 man bash
 stty --help
@@ -16039,7 +16033,6 @@ echo $a
 read a <(echo 123)
 read a <& <(echo 123)
 read a <&(echo 123)
-git diff
 https://api.bilibili.com/x/relation/stat?vmid=2183025 | jq
 curl 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq
@@ -16100,14 +16093,28 @@ python 1.py
 vim 2.py
 python3.7 -m pip install --user python-language-server pylint
 python3.7 -m pip install clang
-ls
 vim 1.py 
 python3 1.py
 python3.7 1.py
-docker exec -it transformer bash
 cd ~
 vim .vimrc
 echo $_
-g
 gd
+locate clang/include/clang-c/Index.h
+locate Index.h
+locate Index.h | grep clang
+s -p wikipedia complile
+ls
+git diff
+docker ps -l
+docker ps -a
+docker commit c3e0d159a077 transformer:dev 
+docker images
+sudo reboot
+docker stop transformer && docker container prune -f
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer:dev
+t alas
+docker exec -it transformer bash
+vim .vim/colors/konomi.vim 
+g
 ./config.sh push
