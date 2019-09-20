@@ -1786,7 +1786,6 @@ chmod +x mac.sh
 sudo apt install jq
 add-apt-repository ppa:jonathonf/vim
 git commit -m "add batch comment to vimrc"
-vim .vimr 
 pip install tensorflow-gpu
 bash "cd /"
 bash -t "cd /"
@@ -15477,7 +15476,6 @@ gd.config/coc/extensions/package.json
 gd. config/coc/extensions/package.json
 gd .config/coc/extensions/package.json
 ag
-cd .vim/
 cd ~/.cache/
 cd tags/
 cppman noexcept
@@ -16172,7 +16170,6 @@ docker stop transformer && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
 docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix sree/vim '+set clipboard=unnamed'
 docker images
-vim
 tldr pkg-config
 man pkg-config
 help pkg-config
@@ -16206,7 +16203,6 @@ sort -nk2 all | tail -n 200 | tac
 sort -nk2 all | tail -n 300 | tac
 sort -nk2 all | tail -n 400 | tac
 sort -nk2 all | tail -n 500 | tac
-vim .vimrc
 gd dockerfiles/dev/Dockerfile
 vim 1.html
 cd Desktop/
@@ -16220,15 +16216,19 @@ cd ~/Desktop/
 tidy 1.html 
 tidy-html5
 tidy 1.html | bat
-cd ~
 git diff
-g
 gd
 l
 ll
 cat .gitconfig 
 docker exec -it transformer bash
+ff
 vim .vim
 ls
-ff
+vim .vimr 
+vim .vimrc
+cd .vim/
+vim
+cd ~
+g
 ./config.sh push
