@@ -22,9 +22,9 @@ set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.
 command -nargs=0 Fileopen silent! exec 'call feedkeys(":tab drop '.expand('%').'")'
 function Finddir()
 	if expand('%')[0] == '/'
-		exe 'Fileopen'
+		silent! exe 'Fileopen'
 	else 
-		exe 'NERDTreeFind'
+		silent! exe 'NERDTreeFind'
 	endif
 endfunction
 nnoremap o :call Finddir()<cr> 

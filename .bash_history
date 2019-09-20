@@ -12788,7 +12788,6 @@ ctags --help
 man ctags
 ctags 1.c
 tldr ctags
-vim .vim/plugin/search.vim
 sudo snapt install rg
 sudo snap install rg
 sudo snap install ripgrep 
@@ -16230,5 +16229,6 @@ vim .vimrc
 cd .vim/
 vim
 cd ~
+vim .vim/plugin/search.vim
 g
 ./config.sh push
