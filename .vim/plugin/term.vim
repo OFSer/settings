@@ -3,6 +3,7 @@ let g:tabterm="bash"
 let g:term='!'.g:tabterm
 let g:bufterm='buf'.g:term
 let g:toggleterm='Toggle'.g:term
+let g:vtoggleterm='vToggle'.g:term
 let g:terminal = 'bash'
 let g:loaded_toggle_bash = 1
 tnoremap <silent> \ <c-w>:call Bufferbash()<cr>
@@ -83,6 +84,42 @@ func Syncbash()
 		endif
 	endif
 endfunc
+let g:vtogglebash=0
+func VTogglebash()
+	if bufname('%') =~ g:sidebar
+		return
+	endif
+	let g:vtogglebash=1-g:vtogglebash
+	let bufferNum = bufnr(g:vtoggleterm)
+	if bufferNum == -1
+		if g:terminal == 'bash'
+			silent! execute 'vert rightbelow term ++close ++kill=term '.'bash -c "cd '.expand('%:p:h').' &> /dev/null; exec bash --login -i"'
+		else
+			silent! execute 'vert rightbelow term ++close ++kill=term '.g:terminal
+		endif
+		silent! exec "file ".g:vtoggleterm
+	else
+		call VSyncbash()
+	endif
+endfunc
+func VSyncbash()
+	let a=filter(range(1, bufnr('$')), 'buflisted(v:val)')
+	let bufferNum = bufnr(g:vtoggleterm)
+	let windowNum = bufwinnr(bufferNum)
+	if g:vtogglebash==0
+		if bufferNum != -1 && windowNum != -1
+			let windowNum = bufwinnr(bufferNum)
+			execute windowNum.'wincmd w'
+			if bufnr('%')==bufferNum 
+				hide 
+			endif
+		endif
+	else
+		if windowNum == -1
+			silent execute 'vert rightbelow sbuffer '.bufferNum
+		endif
+	endif
+endfunc
 func Synccursor()
 	let bufferNum = bufnr(g:toggleterm)
 "	if bufferNum == g:cursorPos
@@ -96,7 +133,7 @@ func Synccursor()
 endfunc
 au TabLeave * let g:cursorPos=bufnr('%')
 au TabEnter * call Synccursor()
-au BufEnter,TerminalOpen * if bufname('%') != "" | call Syncbash() | endif
+au TabEnter * if bufname('%') != "" | call Syncbash() | call VSyncbash() | endif
 
 
 "--------------------------Togglebash------------------------------------"
@@ -107,6 +144,12 @@ func CloseTogglebash()
 		silent! exe 'bw! '.g:toggleterm
 	endif
 endfunc
+func CloseVTogglebash()
+	if bufnr(g:vtoggleterm) >= 0
+		let g:vtogglebash=0
+		silent! exe 'bw! '.g:vtoggleterm
+	endif
+endfunc
 inoremap <silent> ; <esc>:call Togglebash()<CR>
 nnoremap <silent> ; :call Togglebash()<CR>
 tnoremap <silent> ; <c-w>:call Togglebash()<CR>
@@ -115,6 +158,16 @@ inoremap <silent> : <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR>
 nnoremap <silent> : :call CloseTogglebash()<cr>:call Togglebash()<CR>
 tnoremap <silent> : <c-d><c-w>:call CloseTogglebash()<cr><c-w>:call Togglebash()<CR>
 au FileType nerdtree nmap <buffer> <silent> : <c-w>l<c-w>:call CloseTogglebash()<cr><c-w>:call Togglebash()<CR>
+
+inoremap <silent> ' <esc>:call VTogglebash()<CR>
+nnoremap <silent> ' :call VTogglebash()<CR>
+tnoremap <silent> ' <c-w>:call VTogglebash()<CR>
+au FileType nerdtree nmap <buffer> <silent> ' <c-w>l<c-w>:call VTogglebash()<CR>
+inoremap <silent> " <esc>:call CloseVTogglebash()<cr>:call VTogglebash()<CR>
+nnoremap <silent> " :call CloseVTogglebash()<cr>:call VTogglebash()<CR>
+tnoremap <silent> " <c-d><c-w>:call CloseVTogglebash()<cr><c-w>:call VTogglebash()<CR>
+au FileType nerdtree nmap <buffer> <silent> " <c-w>l<c-w>:call CloseVTogglebash()<cr><c-w>:call VTogglebash()<CR>
+
 
 "------------------------------------scroll---------------------------------------"
 function! ExitNormalMode()

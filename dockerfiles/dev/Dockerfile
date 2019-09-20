@@ -3,7 +3,8 @@ ENV HOME /root
 ENV DEBIAN_FRONTEND noninteractive
 ENV PATH $PATH:/ccls/Release
 RUN apt update && apt install -y locales openssh-server software-properties-common
-RUN add-apt-repository -y ppa:jonathonf/vim && apt update && apt install -y --no-install-recommends vim
+RUN add-apt-repository -y ppa:jonathonf/vim 
+RUN apt update && apt install -y --no-install-recommends vim vim-scripts vim-gtk vim-gnome 
 RUN locale-gen en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 RUN apt update && apt install -y cmake git curl wget

@@ -696,7 +696,6 @@ sudo add-apt-repository ppa:jonathonf/vim
 sudo apt-get install vim
 sudo apt-get install vim-gnome 
 vim-gnome
-vi
 vim8.1
 whereis vim
 /usr/share/vim
@@ -1473,7 +1472,6 @@ curl -I baidu.com
 ping pan.baidu.com
 curl 180.149.145.241
 ping 180.149.145.241
-. config.sh proxy_run
 ./config.sh config_proxy
 curl www.google.com
 curl https://www.google.com
@@ -2323,7 +2321,6 @@ sudo vim /etc/fstab
 ssh gjs@dl-6
 ./labeler.sh "select url from omission where dt>='2019-03-06';"
 ./labeler.sh "select url from fault where dt>='2019-03-06';"
-uname -a
 gnome-terminal --tab -e "command1" --tab -e "command2"
 gnome-terminal --tab -e "pwd" 
 gnome-terminal --tab "pwd" 
@@ -2617,7 +2614,6 @@ cd `ls -d */ | shuf | head -n 1`
 ls -ad */
 shuf <(ls -d */)
 shuf <(ls -d */) <(ls -d */)
-pee
 tee
 cat <(ls -d */) '.'
 cat <(ls -d */) <(echo '.')
@@ -2830,7 +2826,6 @@ eog -s
 git reset 87b2a8aba67e7445dd17c769c54dbd87d92d37dd
 git checkout --config.sh
 git checkout -- config.sh
-vim ~/config.sh 
 imagetops 
 imagetops  --help
 man imagetops
@@ -8365,7 +8360,6 @@ tldr join
 join 123 234
 join <(echo 123) <(echo 234)
 git sttus
-tldr paste
 join 1.sh 2.sh
 join <(echo {1..5}) <(echo {1..10})
 join <(echo {1..2}) <(echo {1..3})
@@ -9989,13 +9983,11 @@ sudo apt search boost
 sudo apt search boost | grep boost
 sudo apt install libboost
 sudo apt install libboost-dev
-pkg-config --help
 pkg-config opencv --cflags
 pkg-config opencv
 pkg-config opencv --cflag
 pkg-config boost --cflags
 pkg-config libboost --cflags
-echo $PKG_CONFIG_PATH
 pkg-config 
 pkg-config  --help
 pkg-config  --libs
@@ -12117,7 +12109,6 @@ c ls -  | fmt | column
 c ls -  | fmt | column -t
 c ls -  | column -t
 c ls -  | fmt -t
-fmt --help
 tldr column 
 c | column -c
 c | column 
@@ -13575,8 +13566,6 @@ snap isntall ccls
 docker run -it -v ~:/root  -d --name transfomer transfomer 
 docker run -it -v ~:/root  -d --name transfomer transformer 
 docker stop transfomer 
-docker container prune -f
-cd /tmp/
 git clone --depth=1 --recursive https://github.com/MaskRay/ccls
 cd ccls
 wget -c http://releases.llvm.org/8.0.0/clang+llvm-8.0.0-x86_64-linux-gnu-ubuntu-18.04.tar.xz
@@ -14555,7 +14544,6 @@ ls .*
 ech o.*
 echo .*
 ls -l *
-ls 
 ls -d
 ls -f
 ls --help
@@ -15026,7 +15014,6 @@ cd fc/transformer-pipeline/src/services/algorithms_service/appearance_checker
 cd ~/.bash
 git gh/
 git clean -dff && git reset HEAD --hard && git pull https://github.com/chinnkarahoi/settings
-cat .bash_history 
 scp  root@95.163.194.228:~/1.go  .
 scp -P 27762 root@95.163.194.228:~/1.go  .
 echo /dev/random
@@ -15073,7 +15060,6 @@ sudo service privoxy restart
 sudo  sslocal -c socks.json
 vim sock.json 
 mv sock.json socks.json 
-curl https://google.com
 cd //etc/privoxy
 cd /etc/privoxy
 bat gfwlist.action
@@ -15082,9 +15068,7 @@ cat README.md
 ping google.com
 /etc/privoxy/config
 sudo bat /etc/privoxy/config
-vim socks.json 
 sudo cat /etc/privoxy/config
-./config.sh proxy_run
 proxy="http://127.0.0.1:8118"
 export http_proxy=$proxy
 ping 95.163.194.228
@@ -15120,10 +15104,8 @@ cd pan-light/
 cd pc/
 cloc .
 ./pc
-export proxy=socks5://127.0.0.1:1080
 export htpp_proxy=$proxy
 export htpps_proxy=$proxy
-curl https://pan.baidu.com
 curl 'https://pan.baidu.com'
 echo $proxy
 rm -rf pan-light-v0.0.1preview-linux-x64
@@ -15228,7 +15210,6 @@ vim build
 vim build.sh
 cd ~/.cache/tags/
 vim 3.sh
-vim 2.sh
 git log -p coc-settings.json 
 cd snap/
 calendar 4 2015
@@ -15308,8 +15289,6 @@ rm 1
 echo $LS_COLORS 
 gd | bat
 stea,
-export http_proxy='socks5://127.0.0.1:1080'
-export https_proxy='socks5://127.0.0.1:1080'
 export ftp_proxy='socks5://127.0.0.1:1080'
 i network-manager-l2tp-gnome
 curl  https://pan.baidu.com
@@ -15439,7 +15418,6 @@ sudo sslocal -b -c socks.json 1>/dev/null 2>&1 &
 sudo sslocal -b -c socks.json 
 sudo sslocal -b 0.0.0.0 -c socks.json 1>/dev/null 2>&1 &
 sudo sslocal -b 0.0.0.0 -c socks.json 
-sudo sslocal -b 0.0.0.0 -c ~/socks.json 1>/dev/null 2>&1 &
 ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "leaf"
 ssh gjs@leaf
 \ssh gjs@leaf
@@ -15502,7 +15480,6 @@ gd. config/coc/extensions/package.json
 gd .config/coc/extensions/package.json
 ag
 cd .vim/
-cd sh/
 cd ~/.cache/
 cd tags/
 cppman noexcept
@@ -15556,7 +15533,6 @@ sudo us
 apt install sshpass
 sudo apt install sshpass
 sshpass
-history 
 pip
 brew --help
 npm --help
@@ -15623,7 +15599,6 @@ type t
 cd /home/linuxbrew/.linuxbrew/bin
 ll s
 cd ~/.local/bin/
-python3
 type s
 s asdf
 echo $PATH
@@ -15665,7 +15640,6 @@ cd /usr/lib/python3/dist-packages
 ls | grep pip
 cd pip
 git checkout -- dockerfiles/dev/Dockerfile 
-cd dockerfiles/
 ln -s /home/linuxbrew/.linuxbrew/bin/ccls $HOME/.local/bin/ccls
 ccls
 cd ~/test/cpp/
@@ -15814,7 +15788,6 @@ pstree -s 1199
 pstree -s -t 1199 
 pstree -s -t -p 1199 
 pip install torrent-cli
-\ssh root@95.163.194.228 -p 27762
 curl -I google.com
 t peer
 torrent-cli 战狼2
@@ -15858,7 +15831,6 @@ cd .config/coc/
 cd extensions/
 cd coc-tabnine-data/
 cd binaries/
-ll
 ll -h
 cd .
 cd node_modules/
@@ -15894,7 +15866,6 @@ s test
 ./config.sh config_scroll
 cat .xbindkeysrc 
 cd TeachPendant/
-vim
 vim .vim/plugin/keymap.vim 
 git diff .vimrc
 git diff HEAD~1 .vimrc
@@ -15924,7 +15895,6 @@ f -l
 f -p
 type f
 alias 
-vim .vim
 cd fc/transformer-pipeline/
 cd 
 cat .inputrc 
@@ -15985,11 +15955,9 @@ ls /dev/
 ucd /dev/
 cd /dev/
 find . | grep data
-1
 rm in_data 
 rm out_data 
 exec 1>out
-fg
 exec 3> in 4< out
 exec 2<out
 exec 5<out
@@ -16000,11 +15968,9 @@ exec 4<out
 read a <&4
 echo 1234 > out &
 cat out
-jobs
 rm in out
 man gcc
 alias 0 | sed -E "s/alias 1='([^ ]*).*'/\1/"
-vim .bash
 complete | grep fzf
 type hg
 i mercurial
@@ -16048,7 +16014,6 @@ for i in {1..1000};do
 cd test/
 cd sh
 vim 1.sh
-./1.sh
 chmod +x 5.sh
 curl asfd
 curl asfd | ls
@@ -16057,7 +16022,6 @@ man pipefail
 curl asdf
 echo $?
 curl asdf | echo
-cd ~/test/
 mkdir empty
 cd empty/
 ls *
@@ -16074,14 +16038,9 @@ curl -sS 'https://api.bilibili.com/x/space/acc/info?mid=2&jsonp=jsonp' | jq .dat
 echo -n 123
 curl pan.baidu.com
 vim 
-vim 5.sh
-curl -I https://pan.baidu.com
-curl baidu.com
-./5.sh
 curl -sS 'https://api.bilibili.com/x/space/acc/info?mid=2&jsonp=jsonp' 
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq .data.follower
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' 
-curl google.com
 sqlite
 i sqlite
 vim data.db 
@@ -16096,25 +16055,168 @@ python3.7 -m pip install clang
 vim 1.py 
 python3 1.py
 python3.7 1.py
-cd ~
-vim .vimrc
 echo $_
-gd
 locate clang/include/clang-c/Index.h
 locate Index.h
 locate Index.h | grep clang
 s -p wikipedia complile
-ls
-git diff
+docker commit c3e0d159a077 transformer:dev 
+sudo reboot
+t alas
+vim .vim/colors/konomi.vim 
+cat .bash_history 
+seq 1000000
+history 
+gd
+man -Kw add_custom_command
+cd /tmp/
+cd .X11-unix/
 docker ps -l
 docker ps -a
-docker commit c3e0d159a077 transformer:dev 
-docker images
-sudo reboot
-docker stop transformer && docker container prune -f
+docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix vim '+set clipboard=unnamed'
+docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix vim
+docker stop vim && docker container prune -f
+docker container prune -f
+docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix vim bash
+vi
+cd dockerfiles/
+cd dev
+docker build -t transformer:dev . 
+docker build -t transformer:latest . 
+python3
+uname -a
+gd .config/SogouPY/sogouEnv.ini
+cd ~/test/
+cd sh/
+vim 2.sh
+vim 5.sh
+a=100
+echo $(( a % 9 ))
+./5.sh
+git diff
+curl -sS "https://api.bilibili.com/x/relation/stat?vmid=$i" | jq .data.follower
+seq 10 | xargs -n 1 -L 1 curl -sS "https://api.bilibili.com/x/relation/stat?vmid={}" | jq .data.follower
+seq 10 | xargs -i -n 1 -L 1 curl -sS "https://api.bilibili.com/x/relation/stat?vmid={}" | jq .data.follower
+seq 10 | xargs -i -n 1 -P 8 curl -sS "https://api.bilibili.com/x/relation/stat?vmid={}" | jq .data.follower
+seq 10 | xargs -i -n 1 -P 1 curl -sS "https://api.bilibili.com/x/relation/stat?vmid={}" | jq .data.follower
+seq 16 | xargs -i -n 1 -P 16 curl -sS "https://api.bilibili.com/x/relation/stat?vmid={}" | jq .data.follower
+seq 100 | xargs -i -n 1 -P 32 curl -sS "https://api.bilibili.com/x/relation/stat?vmid={}" | jq .data.follower
+watch
+watch top
+ curl -sS "https://api.bilibili.com/x/relation/stat?vmid=1" | jq
+seq 10 | xargs -i -n 1 -P 32 curl -sS "https://api.bilibili.com/x/relation/stat?vmid={}" | jq .data.follower .data.mid
+curl -sS "https://api.bilibili.com/x/relation/stat?vmid=1" | jq .data.follower
+curl -sS "https://api.bilibili.com/x/relation/stat?vmid=1" | jq .data.mid
+jq --help
+tldr jq
+pee
+pee --help
+tldr pee
+man pee 
+seq 10 | xargs -i -n 1 -P 32 curl -sS "https://api.bilibili.com/x/relation/stat?vmid={}" | tee >(jq .data.follower) >(jq .data.mid)
+chmod +x 6.sh
+curl -sS "https://api.bilibili.com/x/space/acc/info?mid=1&jsonp=jsonp" | jq
+seq 10 | xargs -i -n 1 -P 32 curl -sS "https://api.bilibili.com/x/relation/stat?vmid={}" 
+vim .bash
+fmt --help
+curl -sS "https://api.bilibili.com/x/relation/stat?vmid=1" 
+curl -sS "https://api.bilibili.com/x/space/acc/info?mid=1&jsonp=jsonp"
+./config.sh proxy_run
+sudo sslocal -b 0.0.0.0 -c ~/socks.json 1>/dev/null 2>&1 &
+1
+curl https://pan.baidu.com
+curl -I https://pan.baidu.com
+fg
+sudo sslocal -b 0.0.0.0 -c ~/socks.json
+curl http://baidu.com
+curl https://google.com
+export https_proxy='socks5://127.0.0.1:1080'
+export http_proxy='socks5://127.0.0.1:1080'
+export proxy=socks5://127.0.0.1:1080
+curl bilibili.com
+vim ~/config.sh 
+sudo sslocal -c ~/socks.json
+vim socks.json 
+./1.sh
+paste --help
+tldr paste
+echo 1 2 | printf "%3d%3d"
+echo 1 2 3 | awk '{printf %10s%10s%10s $1 $2 $3}'
+echo 1 2 3 | awk '{printf "%10s%10s%10s" $1 $2 $3}'
+echo 1 2 3 | awk '{printf $1 $2 $3}'
+echo 1 2 3 | awk '{printf $1 "%10d%10d%10d"$2 $3}'
+echo 1 2 3 | awk '{printf $"%10d%10d%10d"$2 $3}'
+echo 1 2 3 | awk '{printf $"%10d%10d%10d%10d" $1 $2 $3}'
+echo '1 2 3' | awk '{printf $"%10d%10d%10d%10d" $1 $2 $3}'
+awk '{printf $"%10d%10d%10d%10d" $1 $2 $3}' <(echo 1 2 3)
+awk '{printf $"%10d%1d%10d%10d" $1 $2 $3}' <(echo 1 2 3)
+awk '{printf "%10d%10d%10d" $1 $2 $3}' <(echo 1 2 3)
+awk '{$1 $2 $3}' <(echo 1 2 3)
+awk '{print $1 $2 $3}' <(echo 1 2 3)
+awk '{printf $1 $2 $3}' <(echo 1 2 3)
+awk '{printf "%d %d %d" $1 $2 $3}' <(echo 1 2 3)
+awk '{printf("%d %d %d",$1,$2,$3)}' <(echo 1 2 3)
+awk '{printf("%10d%10d%10d",$1,$2,$3)}' <(echo 1 2 3)
+awk '{printf("%10s%10s%10s",$1,$2,$3)}' <(echo 1 2 3)
+./6.szh
+./6.sh
+echo $http_proxy 
+. config.sh proxy_run
+echo $https_proxy 
+echo $http_proxy
+curl baidu.com
+curl https://baidu.com
+curl google.com
+jobs
+\ssh root@95.163.194.228 -p 27762
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer:dev
-t alas
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer:dev
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
+cd /tmp/.X11-unix
+ll
+docker stop transformer && docker container prune -f
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
+docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix sree/vim '+set clipboard=unnamed'
+docker images
+vim
 docker exec -it transformer bash
-vim .vim/colors/konomi.vim 
+tldr pkg-config
+man pkg-config
+help pkg-config
+ pkg-config --help
+ pkg-config opencv
+ pkg-config --list-all 
+pkg-config --list-all  | grep protobuf
+pkg-config --list-all 
+cd /usr/local/lib/
+type pkg-config 
+ll /usr/bin/pkg-config 
+ pkg-config --cflags --libs opencv
+pkg-config --cflags --libs protobuf
+pkg-config --help
+pkg-config --cflags-only-I --libs protobuf
+pkg-config --cflags-only-I  protobuf
+echo $PKG_CONFIG_PATH
+man pkg-config 
+cd /usr/share/pkgconfig/
+cd /usr/local/lib/pkgconfig
+ls 
+ls | grep open
+t colon
+sort -nk2 all
+sort -nk2 all | tail -n 100
+sort -nk2 all | tail -n 1000
+sort -nk2 all | tail -n 1000 | rev
+sort -nk2 all | tail -n 1000 | tac
+sort -nk2 all | tail -n 100 | tac
+sort -nk2 all | tail -n 200 | tac
+sort -nk2 all | tail -n 300 | tac
+sort -nk2 all | tail -n 400 | tac
+sort -nk2 all | tail -n 500 | tac
+cd ~
+vim .vim
+vim .vimrc
+ls
 g
+gd dockerfiles/dev/Dockerfile
 ./config.sh push

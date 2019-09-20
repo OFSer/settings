@@ -12,6 +12,9 @@ func Quit()
 	if bufname('%') == g:toggleterm
 		let g:togglebash=0
 	endif
+	if bufname('%') == g:vtoggleterm
+		let g:togglebash=0
+	endif
 	if bufname('%') =~ "^".g:term
 		if tpn == 1
 			exe "cq"
