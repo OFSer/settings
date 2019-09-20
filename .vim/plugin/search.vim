@@ -27,7 +27,7 @@ function Finddir()
 		silent! exe 'NERDTreeFind'
 	endif
 endfunction
-nnoremap o :call Finddir()<cr> 
+nnoremap <silent> o :call Finddir()<cr> 
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
 runtime! ftplugin/man.vim
 let g:ft_man_open_mode = 'tab'

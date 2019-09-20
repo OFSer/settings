@@ -16225,10 +16225,10 @@ ff
 vim .vim
 ls
 vim .vimr 
-vim .vimrc
 cd .vim/
 vim
 cd ~
-vim .vim/plugin/search.vim
 g
+vim .vim/plugin/search.vim
+vim .vimrc
 ./config.sh push
