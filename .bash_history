@@ -1788,7 +1788,6 @@ add-apt-repository ppa:jonathonf/vim
 git commit -m "add batch comment to vimrc"
 vim .vimr 
 pip install tensorflow-gpu
-cd Desktop/
 bash "cd /"
 bash -t "cd /"
 docker login https://registry-sho.hypereal.com
@@ -9487,7 +9486,6 @@ AT&T intells
 g++ -nasm=intel -m32 -S 1.c
 history | grep gcc | grep intel
 gcc --help
-cd ~/Desktop/
 g++ -m32 1.c 
 gcc -m32 1.c 
 gcc -m32 1.c  && ./a.out
@@ -15872,7 +15870,6 @@ git diff HEAD~1 .vimrc
 vim ~/.vim/plugged/nerdtree
 vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
 sl
-l
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8080:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8081:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
 cd
@@ -16067,7 +16064,6 @@ vim .vim/colors/konomi.vim
 cat .bash_history 
 seq 1000000
 history 
-gd
 man -Kw add_custom_command
 cd /tmp/
 cd .X11-unix/
@@ -16093,7 +16089,6 @@ vim 5.sh
 a=100
 echo $(( a % 9 ))
 ./5.sh
-git diff
 curl -sS "https://api.bilibili.com/x/relation/stat?vmid=$i" | jq .data.follower
 seq 10 | xargs -n 1 -L 1 curl -sS "https://api.bilibili.com/x/relation/stat?vmid={}" | jq .data.follower
 seq 10 | xargs -i -n 1 -L 1 curl -sS "https://api.bilibili.com/x/relation/stat?vmid={}" | jq .data.follower
@@ -16173,13 +16168,11 @@ docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v ~/.ssh:
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer:dev
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
 cd /tmp/.X11-unix
-ll
 docker stop transformer && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
 docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix sree/vim '+set clipboard=unnamed'
 docker images
 vim
-docker exec -it transformer bash
 tldr pkg-config
 man pkg-config
 help pkg-config
@@ -16213,10 +16206,28 @@ sort -nk2 all | tail -n 200 | tac
 sort -nk2 all | tail -n 300 | tac
 sort -nk2 all | tail -n 400 | tac
 sort -nk2 all | tail -n 500 | tac
-cd ~
 vim .vim
 vim .vimrc
-ls
-g
 gd dockerfiles/dev/Dockerfile
+vim 1.html
+cd Desktop/
+vim 1.html 
+man html
+man -Kw html
+s bash html format
+tidy
+i tidy
+cd ~/Desktop/
+tidy 1.html 
+tidy-html5
+tidy 1.html | bat
+cd ~
+git diff
+g
+gd
+l
+ls
+ll
+cat .gitconfig 
+docker exec -it transformer bash
 ./config.sh push
