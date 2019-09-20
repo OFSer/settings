@@ -13,7 +13,7 @@ func Quit()
 		let g:togglebash=0
 	endif
 	if bufname('%') == g:vtoggleterm
-		let g:togglebash=0
+		let g:vtogglebash=0
 	endif
 	if bufname('%') =~ "^".g:term
 		if tpn == 1

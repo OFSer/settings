@@ -16206,7 +16206,6 @@ sort -nk2 all | tail -n 200 | tac
 sort -nk2 all | tail -n 300 | tac
 sort -nk2 all | tail -n 400 | tac
 sort -nk2 all | tail -n 500 | tac
-vim .vim
 vim .vimrc
 gd dockerfiles/dev/Dockerfile
 vim 1.html
@@ -16226,8 +16225,10 @@ git diff
 g
 gd
 l
-ls
 ll
 cat .gitconfig 
 docker exec -it transformer bash
+vim .vim
+ls
+ff
 ./config.sh push
