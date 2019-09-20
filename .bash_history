@@ -6083,7 +6083,6 @@ cd ycmd/
 cd examples/
 vim /home/gjs/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py
 cd. .
-vim .ycm_extra_conf.py 
 ls -a | grep .ycm_extra_conf.py 
 cd ycm/
 ls .ycm
@@ -14432,7 +14431,6 @@ cat en.ind
 cat en.ind  | wc -l
 cd dict_pys/
 cd gjs
-vim .gitglobalignore 
 vim .gitconfig 
 command fc
 command cd fc
@@ -14446,7 +14444,6 @@ git add .gdb_history
 git add -f .gdb_history 
 type gdb
 q
-cat .gdb_history 
 vim .gdbinit.d/init 
 vim ~?.gdbinit.d/init 
 vim .gdbinit
@@ -15356,7 +15353,6 @@ curl -I pan.baidu.com
 ulimit 
 ulimit -a
 cat .gdbinit
-cat .gdbinit.d/init 
 locale .emacs
 locale -a
 locate --helpj
@@ -15701,7 +15697,6 @@ stty -ixon
 man bash
 stty --help
 \ssh sihe@10.0.10.102
-gdb a.out 
 gdb
 vimux 
 gdb a.out
@@ -15765,7 +15760,6 @@ cd test/make/
 cd cos/
 cd gh/
 cd go/
-cd test/cpp/
 cd make/
 cd so/
 vim Makefile 
@@ -15819,7 +15813,6 @@ type -1
 type -- -1
 mkdir build && cd build
 make -j4
-cd cpp/
 cd cmake/
 vim CMakeLists.txt 
 cd .config/coc/
@@ -16005,7 +15998,6 @@ curl -sS 'https://api.bilibili.com/x/relation/stat?vmid={}' | jq .data.follower
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=1' | jq .data.follower
 seq 10 | xargs -i curl -sS 'https://api.bilibili.com/x/relation/stat?vmid={}' | jq .data.follower
 for i in {1..1000};do
-cd test/
 cd sh
 vim 1.sh
 chmod +x 5.sh
@@ -16115,7 +16107,6 @@ curl -sS "https://api.bilibili.com/x/relation/stat?vmid=1"
 curl -sS "https://api.bilibili.com/x/space/acc/info?mid=1&jsonp=jsonp"
 ./config.sh proxy_run
 sudo sslocal -b 0.0.0.0 -c ~/socks.json 1>/dev/null 2>&1 &
-1
 curl https://pan.baidu.com
 curl -I https://pan.baidu.com
 fg
@@ -16215,7 +16206,6 @@ cd ~/Desktop/
 tidy 1.html 
 tidy-html5
 tidy 1.html | bat
-git diff
 gd
 l
 ll
@@ -16223,12 +16213,23 @@ cat .gitconfig
 docker exec -it transformer bash
 ff
 vim .vim
-ls
 vim .vimr 
 cd .vim/
 vim
-cd ~
-g
 vim .vim/plugin/search.vim
 vim .vimrc
+vim .ycm_extra_conf.py 
+git diff
+cat .gdbinit.d/init 
+cd test/gdb
+cd test/
+cd cpp/
+gdb a.out 
+1
+cd test/cpp/
+ls
+cat .gdb_history 
+cd ~
+vim .gitglobalignore 
+g
 ./config.sh push
