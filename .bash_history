@@ -15424,7 +15424,6 @@ man ssh_config
 cat .config/coc/extensions/package.json
 gd.config/coc/extensions/package.json
 gd. config/coc/extensions/package.json
-gd .config/coc/extensions/package.json
 ag
 cd ~/.cache/
 cd tags/
@@ -16284,7 +16283,6 @@ cd cmake/
 vim 10.cpp
 vim CMakeLists.txt 
 cd test/cpp/
-cd ..
 cd test/make/
 vim ~/.vim/colors/konomi.vim 
 gd .vim/coc-settings.json
@@ -16296,7 +16294,6 @@ vim --startuptime tm
 cat 
 fZF
 fzf
-cd .vim/
 cd plugin/
 vim term.vim 
 sed term.vim 
@@ -16330,12 +16327,18 @@ sudo brew install ripgrep
 cd de
 cd dev
 cd dockerfiles/
-vim
 sudo add-apt-repository ppa:x4121/ripgrep
 top
+vim .vim/plugin/keymap.vim 
+gd
+vim
+cd .vim/sessions/
+cat default.vim 
+cd ..
+cd .vim/
+ll sessions/
 ls
 cd ~
-vim .vim/plugin/keymap.vim 
 g
-gd
+gd .config/coc/extensions/package.json
 ./config.sh push
