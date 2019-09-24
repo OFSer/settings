@@ -15963,7 +15963,6 @@ s -p wikipedia complile
 docker commit c3e0d159a077 transformer:dev 
 sudo reboot
 t alas
-vim .vim/colors/konomi.vim 
 cat .bash_history 
 seq 1000000
 history 
@@ -16305,7 +16304,6 @@ sed '' func.vim
 sed -E 's/(.)/<M-\1>/g' func.vim 
 sed -E 's/(.)/<M-\1>/g' keymap.vim 
 sed -Ei 's/(.)/<M-\1>/g' *
-git diff
 cd .vim/plugin/
 vim keymap.vim 
 vim ~/.vimrc
@@ -16338,7 +16336,10 @@ cd ..
 cd .vim/
 ll sessions/
 ls
+gd .config/coc/extensions/package.json
+git diff
+vim .vim/colors/konomi.vim 
 cd ~
 g
-gd .config/coc/extensions/package.json
+gd .config/coc/mru
 ./config.sh push

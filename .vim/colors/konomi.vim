@@ -383,7 +383,7 @@ highlight CocWarningHighlight ctermfg=NONE cterm=italic
 highlight CocWarningSign ctermfg=9 
 highlight CocWarningFloat ctermfg=9
 
-highlight CocErrorHighlight ctermfg=NONE cterm=strikethrough
+highlight CocErrorHighlight ctermfg=NONE cterm=underline
 highlight CocErrorSign ctermfg=1 
 highlight CocErrorFloat ctermfg=1
 
