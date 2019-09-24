@@ -377,7 +377,7 @@ hi link SignifySignDelete GitGutterDelete
 
 set background=dark
 hi Normal guibg=NONE ctermbg=NONE
-" hi Search ctermbg=1 ctermfg=NONE 
+hi Search term=reverse ctermfg=0 ctermbg=245
 
 highlight CocWarningHighlight ctermfg=NONE cterm=italic
 highlight CocWarningSign ctermfg=9 

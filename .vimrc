@@ -22,8 +22,9 @@ call plug#begin('~/.vim/plugged')
 
 " complete	
 	Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': 'curl -sL install-node.now.sh/lts \| sudo bash -s -- -y'}
-	nnoremap <silent> D :call CocActionAsync('jumpDefinition', 'tab drop')<cr>
-	nnoremap <silent> d :call CocActionAsync('jumpDefinition')<cr>
+	nnoremap <silent> <M-c> :CocCommand document.renameCurrentWord<cr>
+	nnoremap <silent> <M-D> :call CocActionAsync('jumpDefinition', 'tab drop')<cr>
+	nnoremap <silent> <M-d> :call CocActionAsync('jumpDefinition')<cr>
 	nmap <silent> gd <Plug>(coc-definition)
 	nmap <silent> gr <Plug>(coc-references)
 	inoremap <silent><expr> <TAB>
@@ -105,7 +106,7 @@ call plug#begin('~/.vim/plugged')
 " translate
 	" Plug 'ianva/vim-youdao-translater'
 	Plug 'voldikss/vim-translate-me'
-	nnoremap <silent> a :Translate<cr>
+	nnoremap <silent> <M-a> :Translate<cr>
 	nnoremap <silent> <RightMouse> <LeftMouse>:Translate<cr>
 	inoremap <silent> <RightMouse> <esc><LeftMouse>:Translate<cr>
 	tnoremap <silent> <RightMouse> <c-\><c-n><LeftMouse>:Translate<cr>i
@@ -137,9 +138,10 @@ set sw=2
 set hidden
 set softtabstop=2
 set ma
-if $USER == 'gjs'
-	set mouse=a
-endif
+" if $USER == 'gjs'
+" 	set mouse=a
+" endif
+set mouse=nv
 set twsl=100000
 set nocompatible
 set incsearch

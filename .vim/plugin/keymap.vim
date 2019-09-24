@@ -39,8 +39,9 @@ cnoremap <c-b> <left>
 " cnoremap <c-r> <c-f>
 cnoremap <c-f> <right>
 cnoremap <M-w> <c-w>
-cnoremap <Esc>b <S-Left>
-cnoremap <Esc>f <S-Right>
+cnoremap <M-b> <S-Left>
+cnoremap <M-f> <S-Right>
+tnoremap <M-w> <c-w>.
 
 nnoremap <silent> <c-j> <cr>
 nnoremap <silent> <c-k> k

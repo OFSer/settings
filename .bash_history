@@ -13332,7 +13332,6 @@ c echo $
 c echo $ | grep CO
 c echo $ | grep COL
 echo $COLORTERM 
-vim .vim/colors/konomi.vim
 rm tags
 make ..
 cmake -DBUILD_ALGO_DNN ..
@@ -15300,7 +15299,6 @@ vim .bash_history
 cd .ssh/
 git remote 
 git remote show origin
-git push
 rm \[桜都字幕组\]2019年8月合集/
 rm -r \[桜都字幕组\]2019年8月合集/
 ll ubuntu-16.10-desktop-amd64.iso 
@@ -16295,21 +16293,16 @@ cd ..
 cd test/make/
 vim ~/.vim/colors/konomi.vim 
 gd .vim/coc-settings.json
-gd .vimrc
-gd .vim/colors/konomi.vim
 cd plugged/
 cd coc.nvim/
 
 cat
-./config.sh push
-vim .vim/plugin/keymap.vim 
 vim --startuptime tm
 cat 
 fZF
 fzf
 cd .vim/
 cd plugin/
-vim
 vim term.vim 
 sed term.vim 
 sed 'p' term.vim 
@@ -16321,12 +16314,20 @@ sed -E 's/(.)/<M-\1>/g' func.vim
 sed -E 's/(.)/<M-\1>/g' keymap.vim 
 sed -Ei 's/(.)/<M-\1>/g' *
 git diff
-vim .vimrc
 cd .vim/plugin/
 vim keymap.vim 
 vim ~/.vimrc
-ls
 cd ~
 gd
-g
 ./config.sh push "fix vim alt key bind"
+git push
+vim
+sed -Ei 's/(.)/<M-\1>/g' .vimrc
+gd .vimrc
+vim .vim/plugin/keymap.vim 
+ls
+vim .vim/colors/konomi.vim
+gd .vim/colors/konomi.vim
+vim .vimrc
+g
+./config.sh push
