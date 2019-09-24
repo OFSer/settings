@@ -62,11 +62,11 @@ func Switch(r)
 		exe "b! ".Prev(cur)
 	endif
 endfunc
-tnoremap <silent> n n
-tnoremap <silent> p p
-nnoremap <silent> n :call Switch(0)<cr>
-inoremap <silent> n <esc>:call Switch(0)<cr>
-nnoremap <silent> p :call Switch(1)<cr>
-inoremap <silent> p <esc>:call Switch(1)<cr>
+tnoremap <silent> <M-n> n
+tnoremap <silent> <M-p> p
+nnoremap <silent> <M-n> :call Switch(0)<cr>
+inoremap <silent> <M-n> <esc>:call Switch(0)<cr>
+nnoremap <silent> <M-p> :call Switch(1)<cr>
+inoremap <silent> <M-p> <esc>:call Switch(1)<cr>
 
 

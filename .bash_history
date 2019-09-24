@@ -7446,7 +7446,6 @@ echo 5 > 5
 git worktree add ../worktree/
 git worktree add ../worktree/ test
 echo 1 > 1
-cat 
 cat  1
 git checkout t
 git worktree prune .
@@ -13046,7 +13045,6 @@ ll -h sa
 ll -h saki_detection
 ll -h saki_detection.tar.gz 
 cd ~/.vim/pluggin
-vim keymap.vim 
 vim abcd 
 git add .vimrc .bashrc
 git reset HEAD .bashrc
@@ -14380,7 +14378,6 @@ g++ -g 10.cpp && ./a.out
 vim 11.cpp 
 g++ -g 11.cpp && ./a.out
 vim .gdbinit.d/
-cd plugin/
 ./11.cpp
 ./a.out
 ps -ef | grep a.out
@@ -14651,7 +14648,6 @@ vim --help
 vim --startuptime 
 vim --startuptime .vimrc
 git checkout -- .vimrc
-vim --startuptime tm
 cd .vim/plugged/
 cd nerdtree/
 cat .bashrc
@@ -15219,7 +15215,6 @@ git ls-tree -d
 git ls-tree -d .
 git ls-tree --full-name
 fzf fc
-fzf
 pstree -s 3 
 pstree -s 1109 
 sudo kill -9 28137 
@@ -15470,7 +15465,6 @@ ls | grep 256
 cat xterm
 ;146R62;c
 vim .Xdefaults
-vim ~/.vimrc
 echo $XTERM_VERSION
 man xterm
 guake 
@@ -16279,8 +16273,6 @@ p
 cd .config/co
 cd .config/coc
 cd extensions/
-git diff
-gd
 vim 1.ajax
 fg
 jobs
@@ -16300,20 +16292,41 @@ vim 10.cpp
 vim CMakeLists.txt 
 cd test/cpp/
 cd ..
-cd ~
 cd test/make/
 vim ~/.vim/colors/konomi.vim 
 gd .vim/coc-settings.json
 gd .vimrc
 gd .vim/colors/konomi.vim
-cd .vim/
 cd plugged/
 cd coc.nvim/
-vim
 
 cat
-vim .vimrc
-ls
-vim .vim/plugin/keymap.vim 
-g
 ./config.sh push
+vim .vim/plugin/keymap.vim 
+vim --startuptime tm
+cat 
+fZF
+fzf
+cd .vim/
+cd plugin/
+vim
+vim term.vim 
+sed term.vim 
+sed 'p' term.vim 
+How is Esc,Alt,Ctrl and arrow keys encoded in ssh/shell1 个回答2013年7月4日
+tmux send-keys syntaxHow is Esc,Alt,Ctrl and arrow keys encoded in ssh/shell1 个回答2013年7月4日
+Find out corresponding escape sequence for a given ...2 个回答2018年4月7日
+sed '' func.vim 
+sed -E 's/(.)/<M-\1>/g' func.vim 
+sed -E 's/(.)/<M-\1>/g' keymap.vim 
+sed -Ei 's/(.)/<M-\1>/g' *
+git diff
+vim .vimrc
+cd .vim/plugin/
+vim keymap.vim 
+vim ~/.vimrc
+ls
+cd ~
+gd
+g
+./config.sh push "fix vim alt key bind"

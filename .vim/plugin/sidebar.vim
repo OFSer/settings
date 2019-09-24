@@ -61,13 +61,13 @@ func MoveLeft()
 	endif
 endfunc
 if g:sidebar =~'netrw'
-	inoremap <silent> e <esc>:call Toggle()<cr>
-	nnoremap <silent> e :call Toggle()<cr>
-	tnoremap <silent> e <c-w>:call Toggle()<cr>
+	inoremap <silent> <M-e> <esc>:call Toggle()<cr>
+	nnoremap <silent> <M-e> :call Toggle()<cr>
+	tnoremap <silent> <M-e> <c-w>:call Toggle()<cr>
 else
-	inoremap <silent> e <esc>:NERDTreeTabsToggle<cr>
-	nnoremap <silent> e :NERDTreeTabsToggle<cr>
-	tnoremap <silent> e <c-w>:NERDTreeTabsToggle<cr>
+	inoremap <silent> <M-e> <esc>:NERDTreeTabsToggle<cr>
+	nnoremap <silent> <M-e> :NERDTreeTabsToggle<cr>
+	tnoremap <silent> <M-e> <c-w>:NERDTreeTabsToggle<cr>
 endif
 
 "autocmd TabNew * silent! call feedkeys("\<c-w>:Lexplore\<cr>\<c-w>l", 'n') 

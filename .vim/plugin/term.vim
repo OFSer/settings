@@ -6,12 +6,12 @@ let g:toggleterm='Toggle'.g:term
 let g:vtoggleterm='vToggle'.g:term
 let g:terminal = 'bash'
 let g:loaded_toggle_bash = 1
-tnoremap <silent> \ <c-w>:call Bufferbash()<cr>
-nnoremap <silent> \ :call Bufferbash()<cr>
-tnoremap <silent> - <c-w>:call Terspl()<cr>
-inoremap <silent> t <esc>:exec "tab term ".g:tabterm<cr>
-nnoremap <silent> t :exec "tab term ".g:tabterm<cr>
-tnoremap <silent> t <c-w>:exec "tab term ".g:tabterm<cr>
+tnoremap <silent> <M-\> <c-w>:call Bufferbash()<cr>
+nnoremap <silent> <M-\> :call Bufferbash()<cr>
+tnoremap <silent> <M--> <c-w>:call Terspl()<cr>
+inoremap <silent> <M-t> <esc>:exec "tab term ".g:tabterm<cr>
+nnoremap <silent> <M-t> :exec "tab term ".g:tabterm<cr>
+tnoremap <silent> <M-t> <c-w>:exec "tab term ".g:tabterm<cr>
 "-------------------------------------------------------------------
 func Terspl()
 	if bufname('%') =~ g:term
@@ -150,23 +150,23 @@ func CloseVTogglebash()
 		silent! exe 'bw! '.g:vtoggleterm
 	endif
 endfunc
-inoremap <silent> ; <esc>:call Togglebash()<CR>
-nnoremap <silent> ; :call Togglebash()<CR>
-tnoremap <silent> ; <c-w>:call Togglebash()<CR>
-au FileType nerdtree nmap <buffer> <silent> ; <c-w>l<c-w>:call Togglebash()<CR>
-inoremap <silent> : <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR>
-nnoremap <silent> : :call CloseTogglebash()<cr>:call Togglebash()<CR>
-tnoremap <silent> : <c-d><c-w>:call CloseTogglebash()<cr><c-w>:call Togglebash()<CR>
-au FileType nerdtree nmap <buffer> <silent> : <c-w>l<c-w>:call CloseTogglebash()<cr><c-w>:call Togglebash()<CR>
+inoremap <silent> <M-;> <esc>:call Togglebash()<CR>
+nnoremap <silent> <M-;> :call Togglebash()<CR>
+tnoremap <silent> <M-;> <c-w>:call Togglebash()<CR>
+au FileType nerdtree nmap <buffer> <silent> <M-;> <c-w>l<c-w>:call Togglebash()<CR>
+inoremap <silent> <M-:> <esc>:call CloseTogglebash()<cr>:call Togglebash()<CR>
+nnoremap <silent> <M-:> :call CloseTogglebash()<cr>:call Togglebash()<CR>
+tnoremap <silent> <M-:> <c-d><c-w>:call CloseTogglebash()<cr><c-w>:call Togglebash()<CR>
+au FileType nerdtree nmap <buffer> <silent> <M-:> <c-w>l<c-w>:call CloseTogglebash()<cr><c-w>:call Togglebash()<CR>
 
-inoremap <silent> ' <esc>:call VTogglebash()<CR>
-nnoremap <silent> ' :call VTogglebash()<CR>
-tnoremap <silent> ' <c-w>:call VTogglebash()<CR>
-au FileType nerdtree nmap <buffer> <silent> ' <c-w>l<c-w>:call VTogglebash()<CR>
-inoremap <silent> " <esc>:call CloseVTogglebash()<cr>:call VTogglebash()<CR>
-nnoremap <silent> " :call CloseVTogglebash()<cr>:call VTogglebash()<CR>
-tnoremap <silent> " <c-d><c-w>:call CloseVTogglebash()<cr><c-w>:call VTogglebash()<CR>
-au FileType nerdtree nmap <buffer> <silent> " <c-w>l<c-w>:call CloseVTogglebash()<cr><c-w>:call VTogglebash()<CR>
+inoremap <silent> <M-'> <esc>:call VTogglebash()<CR>
+nnoremap <silent> <M-'> :call VTogglebash()<CR>
+tnoremap <silent> <M-'> <c-w>:call VTogglebash()<CR>
+au FileType nerdtree nmap <buffer> <silent> <M-'> <c-w>l<c-w>:call VTogglebash()<CR>
+inoremap <silent> <M-"> <esc>:call CloseVTogglebash()<cr>:call VTogglebash()<CR>
+nnoremap <silent> <M-"> :call CloseVTogglebash()<cr>:call VTogglebash()<CR>
+tnoremap <silent> <M-"> <c-d><c-w>:call CloseVTogglebash()<cr><c-w>:call VTogglebash()<CR>
+au FileType nerdtree nmap <buffer> <silent> <M-"> <c-w>l<c-w>:call CloseVTogglebash()<cr><c-w>:call VTogglebash()<CR>
 
 
 "------------------------------------scroll---------------------------------------"

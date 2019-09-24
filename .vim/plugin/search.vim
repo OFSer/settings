@@ -16,8 +16,8 @@ endfor
 command -nargs=1 ProjSearch silent! exec "vimgrep /<args>/j `find " . g:findignore . "-type f -exec grep -Iq '' '{}' ';' -print` | copen"
 command -nargs=1 Search silent! exec "Find <args>" | copen
 set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,*.pdf,*.bak,*.beam,build/**,frontend/**
-" nnoremap f :ProjSearch<space>
-" nnoremap F :Search<space>
+" nnoremap <M-f> :ProjSearch<space>
+" nnoremap <M-F> :Search<space>
 
 command -nargs=0 Fileopen silent! exec 'call feedkeys(":tab drop '.expand('%').'")'
 function Finddir()
@@ -27,7 +27,7 @@ function Finddir()
 		silent! exe 'NERDTreeFind'
 	endif
 endfunction
-nnoremap <silent> o :call Finddir()<cr> 
+nnoremap <silent> <M-o> :call Finddir()<cr> 
 command! -complete=file -nargs=1 Remove :echo 'Remove: '.'<f-args>'.' '.(delete(<f-args>) == 0 ? 'SUCCEEDED' : 'FAILED')
 runtime! ftplugin/man.vim
 let g:ft_man_open_mode = 'tab'
@@ -40,9 +40,9 @@ command! -bang -nargs=* Ag
 command! -bang -nargs=? -complete=dir Files
   \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
 
-nnoremap g :Ag<cr>
-nnoremap G :Ag!<cr>
-nnoremap f :Files<cr>
-nnoremap F :Files!<cr>
+nnoremap <M-g> :Ag<cr>
+nnoremap <M-G> :Ag!<cr>
+nnoremap <M-f> :Files<cr>
+nnoremap <M-F> :Files!<cr>
 
 

@@ -58,7 +58,7 @@ func Quit()
 		exe "tabprevious"
 	endif
 endfunc
-tnoremap <silent> q <c-d><c-w>:call Quit()<cr>
-nnoremap <silent> q :call Quit()<cr>
-au FileType nerdtree nmap <buffer> <silent> q <c-w>l<c-w>:call Quit()<cr>
+tnoremap <silent> <M-q> <c-d><c-w>:call Quit()<cr>
+nnoremap <silent> <M-q> :call Quit()<cr>
+au FileType nerdtree nmap <buffer> <silent> <M-q> <c-w>l<c-w>:call Quit()<cr>
 

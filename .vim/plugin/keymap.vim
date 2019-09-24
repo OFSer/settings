@@ -1,4 +1,11 @@
-execute "set <M-.>=\e."
+let asc = [';',':',"'",'\"', '\',',','.']
+for c in range(0, 25)
+   let asc += [nr2char(c + char2nr("a"))]
+   let asc += [toupper(nr2char(c + char2nr("a")))]
+endfor
+for c in asc
+  exec "set <M-".c.">=\e".c
+endfor
 nnoremap <M-.> j
 "------------------------------esc--------------------------------"
 inoremap <c-c> <esc>
@@ -16,7 +23,7 @@ nnoremap q <nop>
 vnoremap <c-a> <nop>
 
 tnoremap <c-\> <c-\><c-n>
-inoremap w <c-w>
+inoremap <M-w> <c-w>
 "--------------------------Jump--------------------------------------"
 inoremap <c-p> <up>
 inoremap <c-n> <down>
@@ -31,7 +38,7 @@ cnoremap <c-a> <home>
 cnoremap <c-b> <left>
 " cnoremap <c-r> <c-f>
 cnoremap <c-f> <right>
-cnoremap w <c-w>
+cnoremap <M-w> <c-w>
 cnoremap <Esc>b <S-Left>
 cnoremap <Esc>f <S-Right>
 
@@ -50,33 +57,33 @@ nnoremap <c-v> "+p
 
 
 "--------------------------Tab-----------------------------------"
-inoremap <silent> V <esc>:tabm -<cr>
-nnoremap <silent> V <esc>:tabm -<cr>
-vnoremap <silent> V <esc>:tabm -<cr>
-tnoremap <silent> V <c-w>:tabm -<cr>
-inoremap <silent> M <esc>:tabm +<cr>
-vnoremap <silent> M <esc>:tabm +<cr>
-nnoremap <silent> M <esc>:tabm +<cr>
-tnoremap <silent> M <c-w>:tabm +<cr>
+inoremap <silent> <M-V> <esc>:tabm -<cr>
+nnoremap <silent> <M-V> <esc>:tabm -<cr>
+vnoremap <silent> <M-V> <esc>:tabm -<cr>
+tnoremap <silent> <M-V> <c-w>:tabm -<cr>
+inoremap <silent> <M-M> <esc>:tabm +<cr>
+vnoremap <silent> <M-M> <esc>:tabm +<cr>
+nnoremap <silent> <M-M> <esc>:tabm +<cr>
+tnoremap <silent> <M-M> <c-w>:tabm +<cr>
 
-inoremap <silent> v <esc>gT
-nnoremap <silent> v <esc>gT
-vnoremap <silent> v <esc>gT
-tnoremap <silent> v <c-w>gT
-inoremap <silent> m <esc>gt
-nnoremap <silent> m gt
-tnoremap <silent> m <c-w>gt
-vnoremap <silent> m <esc>gt
+inoremap <silent> <M-v> <esc>gT
+nnoremap <silent> <M-v> <esc>gT
+vnoremap <silent> <M-v> <esc>gT
+tnoremap <silent> <M-v> <c-w>gT
+inoremap <silent> <M-m> <esc>gt
+nnoremap <silent> <M-m> gt
+tnoremap <silent> <M-m> <c-w>gt
+vnoremap <silent> <M-m> <esc>gt
 "--------------------------WindowMap-------------------------------"
-nnoremap <silent>  h <c-w>h
-nnoremap <silent>  j <c-w>j
-nnoremap <silent>  k <c-w>k
-nnoremap <silent>  l <c-w>l
-tnoremap <silent>  h <c-w>h
-tnoremap <silent>  j <c-w>j
-tnoremap <silent>  k <c-w>k
-tnoremap <silent>  l <c-w>l
-inoremap <silent>  h <esc><c-w>h
-inoremap <silent>  j <esc><c-w>j
-inoremap <silent>  k <esc><c-w>k
-inoremap <silent>  l <esc><c-w>l
+nnoremap <silent>  <M-h> <c-w>h
+nnoremap <silent>  <M-j> <c-w>j
+nnoremap <silent>  <M-k> <c-w>k
+nnoremap <silent>  <M-l> <c-w>l
+tnoremap <silent>  <M-h> <c-w>h
+tnoremap <silent>  <M-j> <c-w>j
+tnoremap <silent>  <M-k> <c-w>k
+tnoremap <silent>  <M-l> <c-w>l
+inoremap <silent>  <M-h> <esc><c-w>h
+inoremap <silent>  <M-j> <esc><c-w>j
+inoremap <silent>  <M-k> <esc><c-w>k
+inoremap <silent>  <M-l> <esc><c-w>l
