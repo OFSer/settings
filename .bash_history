@@ -1869,7 +1869,6 @@ ls | grep -v 'home' | xargs rm -rf
 ls | grep -v 'home' | sudo xargs rm -rf 
 top -n 1 | sed -n '1,5p'
 top -n 1 | sed -n '1,5p' > 1
-ps
 proc
 top -n
 top -n 1
@@ -2004,7 +2003,6 @@ mysql -h localhost -u gjs
 mysql -h 10.0.10.63 -u gjs
 su rot
 tar -l pack.tar
-tar --help
 tar -tf pack.tar 
 tar -t pack.tar 
 tar -tlf pack.tar 
@@ -8615,13 +8613,11 @@ rm __DebugConsole__
 rm .gdb_history 
 g++ 6.cpp && ./a.out
 gdb build_local/bin/unit_test_main 
-cd .conan/
 find . | grep variant
 find . | grep rttr
 cd ./data/rttr/
 find . |  grep cpp
 find . |  grep *.cpp
-cd ~/.conan/
 g++ 3.cpp && ./a.out
 cd /tmp/tmpez7AGn/src/
 cd vim
@@ -8721,9 +8717,7 @@ git commit -m "add file load"
 ycmgen
 rm .ycm_extra_conf.py.bak 
 git clone https://github.com/rttrorg/rttr
-vim CMake
 sudo vim 
-vim 8.cpp
 cat build/compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq
 cat build/compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | sed -E 's/-I(.*)/\1'
 cat build/compile_commands.json | grep -o '\-I[^ ]*' | sort | uniq | sed -E 's/-I(.*)/\1/'
@@ -8829,8 +8823,6 @@ cat .bash
 free -h
 g++ 7.cpp && ./a.out
 g++ 7.cpp && time ./a.out
-g++ 8.cpp
-g++ 8.cpp && ./a.out
 git clone https://github.com/doxygen/doxygen.git
 vim saki_detection/
 cd boost/
@@ -13616,7 +13608,6 @@ env
 apt clean --help
 man apt 
 man apt-get
-cd ~!
 pstree 6427
 ps -ef | grep 6427
 ps -ejH | grep 6427
@@ -13994,7 +13985,6 @@ dig ok-b.org
 vim .bash/env.sh 
 man brew
 cd ../linuxbrew/
-cd include/
 git diff .config/config.yml
 cat .config/config.yml
 cd .config/edit
@@ -14082,13 +14072,11 @@ ll  /usr/share/applications/ | grep Cre
 ll  /usr/share/applications/ | grep Start
 t biege
 nethack
-cataclysm 
 man s
 t embark
 t embassy 
 df --help
 cd .da
-cd data/
 cat init
 cd init
 bd d
@@ -14110,7 +14098,6 @@ vim interface.txt
 bd df
 ./dff
 tar -zxvf df_44_12_linux.tar.bz2
-tldr tar
 rm -rf df_44_12_linux
 tar -jxvf df_44_12_linux.tar.bz2
 cd df_linux/
@@ -14431,7 +14418,6 @@ cat en.ind
 cat en.ind  | wc -l
 cd dict_pys/
 cd gjs
-vim .gitconfig 
 command fc
 command cd fc
 command cd ..
@@ -14970,7 +14956,6 @@ docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc
 git commit -m "resolve comment"
 make -j4 image_saving_service
 ps 29863 
-cd /
 cd /r
 cd /root/
 rm *
@@ -15181,7 +15166,6 @@ c
 insert-completions
 echo {.{ICEauthority,NERDTreeBookmarks,VimSokobanScores,Xauthority,a{ngband,ws},bash{,_{completion,history,profile},rc},c{ache,gdb,make,o{mpiz,n{an,f{,ig}}}},d{bus,conf,mrc,ocker},e{macs{,.d,~},w.json},f{btermrc,zf{,.bash,_history}},g{conf,db{_history,init{,.{1,d}}},hc,it{,config,globalignore,ignore,modules},nupg,oldendict,photo,vfs},h{plip,ttpie},i{nputrc,python},l{aunchpadlib,esshst,ocal},m{o{c,zilla},ume,ysql_history},n{e{odebug,tease-musicbox,wsrc-dribble},ode_repl_history,pm,v{,idia-settings-rc}},p{ki,r{esage,ofile},ulse-cookie,y{lint.d,thon_history}},s{emantic-highlight-cache,iege,ogouinput,sh,t{ack,eam{,p{ath,id}}},udo_as_admin_successful},t{etris{,_stat},gdb,hunderbird,ig_history,ldr,ooling},units_history,v{agrant.d,im{,_w3m_hist,info,rc},oltron,scode{,-cpptools}},w{3m,get-hsts,udao-dict},x{bindkeysrc,inputrc,session-errors{,.old}},y{arnrc,cm{,_extra_conf.py}},zcompdump},1.go,CloudMusic,D{esktop,o{cuments,wnloads}},News,README.md,Steam,backup,config.sh,dockerfiles,fc,g{ames,h,o},makefile,pt-program,s{hmmsg,nap,ocks.json,ync.sh},t{est,m}} 
 obs
-pwd
 
 type fzf-file-widget
  fzf-file-widget
@@ -15233,7 +15217,6 @@ t resolve
 t solve
 s dilemma
 t dilemma
-man empire 
 cd .config/
 w3m
 i w3m
@@ -15275,7 +15258,6 @@ nc -l 1000
 nc -l 2000
 vim build.sh 
 cd fc/transformer-pipeline/src/
-cd rttr/
 vim1
 vim 1
 rm 1
@@ -15386,7 +15368,6 @@ t elision
 terminator 
 sakura 
 terminology 
-cat compile_commands.json 
 make clean && make -j
 make clean && make 
 make clean && make -j1
@@ -15633,7 +15614,6 @@ cd pip
 git checkout -- dockerfiles/dev/Dockerfile 
 ln -s /home/linuxbrew/.linuxbrew/bin/ccls $HOME/.local/bin/ccls
 ccls
-cd ~/test/cpp/
 cd ~/fc/shmmsg/
 type ccls
 cd fc/shmmsg/
@@ -15672,7 +15652,6 @@ sudo du -hd1
 sudo du -d1 | sort -kn1
 sudo du -d1 | sort -nk1
 cd docker/
-sudo su
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:dev
 cd .config/coc/extensions/node_modules/
 cd coc-python/
@@ -15691,18 +15670,13 @@ vim 2.c
 vim 1.cpp
 vim 3.cpp
 cd ~/fc/transformer-pipeline/
-vim compile_commands.json 
 git diff HEAD^
 stty -ixon
-man bash
 stty --help
 \ssh sihe@10.0.10.102
 gdb
-vimux 
-gdb a.out
 s
 cd hello-world
-cmake .
 cmake clean
 cmake --help | grep clean
 git clean -dff
@@ -15719,9 +15693,7 @@ make
 man -Kw LIBRARY_OUTPUT_PATH
 man cmake-variables
 man cmake-variables 
-man cmake-language 
 make install
-top
 glance
 glances
 man -Kw TARGETS
@@ -15752,22 +15724,18 @@ man -Kw OUTPUT_NAME
 man cmake-properties
 man -Kw set_target_properties
 cmake --help | bat
-man cmake
 cd gh/cos/
 vim make
 rm make
-cd test/make/
 cd cos/
 cd gh/
 cd go/
 cd make/
 cd so/
-vim Makefile 
 cd asm/
 vim Ma
 vimux
 angband 
-nethack 
 cmake --help
 cmake -P
 rm -rf build
@@ -15793,13 +15761,11 @@ sudo python setup.py install
 cilimao-cli -h
 cilimao-cli 战狼2
 cd learning-cmake/
-t ad-hoc
 mkdir cmake
 vim CMakeLists.txt
 cd ~/.vim/plugged/
 rm -rf vim-cmake-completion/
 cp ~/fc/transformer-pipeline/CMakeLists.txt  .
-cd ~/test/cmake/
 cd ~/.vim/plugged/vim-cmake-completion/
 ctest
 ctest --help
@@ -15813,8 +15779,6 @@ type -1
 type -- -1
 mkdir build && cd build
 make -j4
-cd cmake/
-vim CMakeLists.txt 
 cd .config/coc/
 cd extensions/
 cd coc-tabnine-data/
@@ -15859,7 +15823,6 @@ git diff .vimrc
 git diff HEAD~1 .vimrc
 vim ~/.vim/plugged/nerdtree
 vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
-sl
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8080:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8081:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
 cd
@@ -15876,17 +15839,14 @@ cd ~/..
 cd ~10
 d
 f *
-cd Downloads/
 rm -rf *
 f -l
 f -p
 type f
 alias 
 cd fc/transformer-pipeline/
-cd 
 cat .inputrc 
 vim .inputrc 
-vim makefile 
 t hub
 t consortium 
 t consolidated 
@@ -15907,7 +15867,6 @@ vim /etc/bash_completion
 cd .fzf/
 vim key-bindings.
 vim key-bindings.bash 
-cd ..
 cd shell/
 vim completion.bash 
 complete -p
@@ -15975,11 +15934,9 @@ mkdir clang
 cd clang/
 vim test.cpp
 pip install clang
-vim config.sh 
 vim dockerfiles/
 pytho -m pip install --user python-language-server pylint
 python -m pip install --user python-language-server pylint
-steam
 nvidia-smi
 echo 123 | read a
 echo $a
@@ -16109,7 +16066,6 @@ curl -sS "https://api.bilibili.com/x/space/acc/info?mid=1&jsonp=jsonp"
 sudo sslocal -b 0.0.0.0 -c ~/socks.json 1>/dev/null 2>&1 &
 curl https://pan.baidu.com
 curl -I https://pan.baidu.com
-fg
 sudo sslocal -b 0.0.0.0 -c ~/socks.json
 curl http://baidu.com
 curl https://google.com
@@ -16150,8 +16106,6 @@ echo $http_proxy
 curl baidu.com
 curl https://baidu.com
 curl google.com
-jobs
-\ssh root@95.163.194.228 -p 27762
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer:dev
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer:dev
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
@@ -16187,12 +16141,10 @@ sort -nk2 all
 sort -nk2 all | tail -n 100
 sort -nk2 all | tail -n 1000
 sort -nk2 all | tail -n 1000 | rev
-sort -nk2 all | tail -n 1000 | tac
 sort -nk2 all | tail -n 100 | tac
 sort -nk2 all | tail -n 200 | tac
 sort -nk2 all | tail -n 300 | tac
 sort -nk2 all | tail -n 400 | tac
-sort -nk2 all | tail -n 500 | tac
 gd dockerfiles/dev/Dockerfile
 vim 1.html
 cd Desktop/
@@ -16206,7 +16158,6 @@ cd ~/Desktop/
 tidy 1.html 
 tidy-html5
 tidy 1.html | bat
-gd
 l
 ll
 cat .gitconfig 
@@ -16215,21 +16166,121 @@ ff
 vim .vim
 vim .vimr 
 cd .vim/
-vim
 vim .vim/plugin/search.vim
 vim .vimrc
-vim .ycm_extra_conf.py 
-git diff
 cat .gdbinit.d/init 
 cd test/gdb
-cd test/
-cd cpp/
 gdb a.out 
 1
-cd test/cpp/
-ls
 cat .gdb_history 
-cd ~
 vim .gitglobalignore 
+cd ~!
+vim .gitconfig 
+t dummy
+vim .ycm_extra_conf.py 
+cd test/cpp/
+sudo su
+https://api.bilibili.com/x/space/acc/info?mid=12&jsonp=jsonp" | jq
+curl "https://api.bilibili.com/x/space/acc/info?mid=12&jsonp=jsonp" | jq
+curl "https://api.bilibili.com/x/space/acc/info?mid=122879&jsonp=jsonp" | jq
+\ssh root@95.163.194.228 -p 27762
+sort -nk2 all | tail -n 500
+sort -nk2 all | tail -n 500 | tac
+sort -nk2 all | tail -n 1000 | tac
+sort -nk2 all | tail -n 2000 | tac
+axel
+i axel
+cd Downloads/
+axel http://02.xda-pcgame.720582.com:8090/YongBuFuHuaiChapter7_chs.rar
+git diff
+sl
+cd ~/test/cpp/
+vim 8.cpp
+g++ 8.cpp
+g++ 8.cpp && ./a.out
+g++ -g 8.cpp && ./a.out
+gdb a.out
+tar --help | grep -- -P
+cd ~/backup/
+tar -tf saki_detection.tar.gz 
+cd test/
+tar -zcvpf 1.tar -C cpp/cmake
+tar -zcvpf 1.tar -P cpp/cmake
+tar --help | grep -- -C
+tar -zcvf 1.tar -P cpp/cmake
+tar -zcvf 1.tar -C cpp/cmake
+tar --help
+tar -zcvf 1.tar -C cpp/cmake/*
+tar -zcvf 1.tar -P cpp/cmake/*
+tldr tar
+fg
+cd .conan/
+jobs
+cd cpp/
+cd cmake/
+vim CMake
+cmake .
+cd include/
+cat conaninfo.txt 
+cd conan
+cd .conan
+find . | grep cmake
+cd ~/test/cmake/
+vim CMakeLists.txt 
+cd ~/.conan/
+cd data/
+cd rttr/
+cd 0.9.6/
+cd ..
+cd 0.9.6
+cd 
+cd stable/
+cd package/
+cd cc2a1b006c99e076ff909b84730fbbf751ed5206/
+vim Findrttr.cmake
+vim Findrttr.cmake 
+cd /
+vim makefile 
+man bash
+cataclysm 
+nethack 
+steam
+cd data
+gd
+t ad-hoc
+man empire 
+pwd
+ps
+top
+man cmake
+man cmake-language 
+man conan
+man -Kw conan
+man cmake-policies 
+vimux 
+w3m https://github.com/conan-io/conan
+vim config.sh 
+tldr compildb
+man compiledb 
+tldr compiledb 
+cd test/make/
+pip install compiledb
+compiledb .
+compiledb -v
+compiledb -v -p 
+compiledb -v -p Makefile 
+vim compile_commands.json 
+vim Makefile 
+vim
+compiledb -v -d .
+compiledb -v -d . -p
+compiledb -v -d . -p Makefile 
+ls
+compiledb -n make
+rm compile_commands.json 
+compiledb make
+cat compile_commands.json 
+compiledb -h
+cd ~
 g
 ./config.sh push

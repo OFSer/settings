@@ -651,10 +651,10 @@ places="{u'101220601': '\\xe5\\xae\\x89\\xe5\\xba\\x86', '101010100': '\\xe5\\x8
 
 [apps/update-manager]
 first-run=false
-launch-time=int64 1568960127
+launch-time=int64 1569127167
 window-height=540
 show-details=true
-launch-count=28
+launch-count=29
 window-width=1008
 
 [com/canonical/indicator/datetime]
