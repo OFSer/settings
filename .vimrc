@@ -24,6 +24,8 @@ call plug#begin('~/.vim/plugged')
 	Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': 'curl -sL install-node.now.sh/lts \| sudo bash -s -- -y'}
 	nnoremap <silent> D :call CocActionAsync('jumpDefinition', 'tab drop')<cr>
 	nnoremap <silent> d :call CocActionAsync('jumpDefinition')<cr>
+	nmap <silent> gd <Plug>(coc-definition)
+	nmap <silent> gr <Plug>(coc-references)
 	inoremap <silent><expr> <TAB>
 				\ pumvisible() ? "\<C-n>" :
 				\ <SID>check_back_space() ? "\<TAB>" :

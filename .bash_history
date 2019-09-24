@@ -5061,7 +5061,6 @@ umask
 umask 234
 umask -S u=rwx,g=rwx,o=rwx
 ll | grep 1
-compgen 
 compgen -o
 compgen -ac | grep attr
 lsattr
@@ -9727,7 +9726,6 @@ rm -rf shmmsg
 rm shmmsg.tar 
 tar xf shmmsg.tar .
 tar xf shmmsg.tar
-cat CMakeLists.txt 
 rm -rf home/
 rm -rf shmmsg.tar 
 cd python-aruco/
@@ -13586,7 +13584,6 @@ sudo snap remove clangd
 sudo apt-get install clang-tools-8
 sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-8 100
 clangd
-gencdb 
 cd ~/test/make/
 docker stop transfomer && docker container prune -f
 docker stop transformer 
@@ -14751,7 +14748,6 @@ ls | xargs -i. ( echo {} ;cloc {} )
 ls | xargs -i. {echo {} ;cloc {}}
 ls | xargs -i cloc
 ls | xargs -i cloc {}
-cd flaw_checker/
 cd submodules/
 cd script/
 cd online_files/
@@ -15074,7 +15070,6 @@ ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[172.96.243.251]:6023"
 \ssh -p6023 opps@172.96.243.251
 cd pt-program/
 ls -a
-cd g
 cd ~/
 git clone 
 git clone  https://github.com/peterq/pan-light
@@ -15094,7 +15089,6 @@ cd config/
 3
 4
 -3
-2
 t beige
 git checkout -- .vim/colors/konomi.vim
 vimjux
@@ -15614,7 +15608,6 @@ cd pip
 git checkout -- dockerfiles/dev/Dockerfile 
 ln -s /home/linuxbrew/.linuxbrew/bin/ccls $HOME/.local/bin/ccls
 ccls
-cd ~/fc/shmmsg/
 type ccls
 cd fc/shmmsg/
 ccls --version
@@ -15661,7 +15654,6 @@ pstree -s -T 8211
 cmake --version
 man cmake-buildsystem
 git clone https://github.com/Akagi201/learning-cmake.git
-cd shmmsg/
 cd aruco/
 cd fc/aruco/
 vim config.py 
@@ -15730,7 +15722,6 @@ rm make
 cd cos/
 cd gh/
 cd go/
-cd make/
 cd so/
 cd asm/
 vim Ma
@@ -15738,7 +15729,6 @@ vimux
 angband 
 cmake --help
 cmake -P
-rm -rf build
 cmake -P CMakeLists.txt -H. -Bbuild
 cmake  -H. -Bbuild
 pstree -s 1199 
@@ -15794,7 +15784,6 @@ vim Readme.md
 man -Kw CURL_FOUND
 man cmake-modules 
 mkdir build
-cd build/
 cmake ..
 cppman curl
 tldr httpie
@@ -15837,14 +15826,12 @@ type 3
 cd ../
 cd ~/..
 cd ~10
-d
 f *
 rm -rf *
 f -l
 f -p
 type f
 alias 
-cd fc/transformer-pipeline/
 cat .inputrc 
 vim .inputrc 
 t hub
@@ -15980,7 +15967,6 @@ curl -sS 'https://api.bilibili.com/x/space/acc/info?mid=2&jsonp=jsonp' | jq
 curl -sS 'https://api.bilibili.com/x/space/acc/info?mid=2&jsonp=jsonp' | jq .data.name
 echo -n 123
 curl pan.baidu.com
-vim 
 curl -sS 'https://api.bilibili.com/x/space/acc/info?mid=2&jsonp=jsonp' 
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq .data.follower
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' 
@@ -16058,7 +16044,6 @@ seq 10 | xargs -i -n 1 -P 32 curl -sS "https://api.bilibili.com/x/relation/stat?
 chmod +x 6.sh
 curl -sS "https://api.bilibili.com/x/space/acc/info?mid=1&jsonp=jsonp" | jq
 seq 10 | xargs -i -n 1 -P 32 curl -sS "https://api.bilibili.com/x/relation/stat?vmid={}" 
-vim .bash
 fmt --help
 curl -sS "https://api.bilibili.com/x/relation/stat?vmid=1" 
 curl -sS "https://api.bilibili.com/x/space/acc/info?mid=1&jsonp=jsonp"
@@ -16167,7 +16152,6 @@ vim .vim
 vim .vimr 
 cd .vim/
 vim .vim/plugin/search.vim
-vim .vimrc
 cat .gdbinit.d/init 
 cd test/gdb
 gdb a.out 
@@ -16231,7 +16215,6 @@ cd ~/.conan/
 cd data/
 cd rttr/
 cd 0.9.6/
-cd ..
 cd 0.9.6
 cd 
 cd stable/
@@ -16269,18 +16252,37 @@ compiledb .
 compiledb -v
 compiledb -v -p 
 compiledb -v -p Makefile 
-vim compile_commands.json 
 vim Makefile 
-vim
 compiledb -v -d .
 compiledb -v -d . -p
 compiledb -v -d . -p Makefile 
-ls
 compiledb -n make
-rm compile_commands.json 
 compiledb make
-cat compile_commands.json 
 compiledb -h
+vim 
+d
+2
+vim compile_commands.json 
+vim .vimrc
+cd fc/transformer-pipeline/
+cd flaw_checker/
+rm -rf build
+compgen 
+cat CMakeLists.txt 
+type compgen 
+vim .bash
+cd shmmsg/
+cd build/
+cat compile_commands.json 
+rm compile_commands.json 
+gencdb 
+ls
 cd ~
+cd test/cmake/
+cd ..
+cd make/
+cd ~/fc/shmmsg/
+vim
 g
+cd g
 ./config.sh push
