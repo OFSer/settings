@@ -1,7 +1,10 @@
+document.renameCurrentWord
+workspace.renameCurrentFile
+document.renameCurrentWordkkkkkkkkkkkk
+tabnine.openConfig
 python.setInterpreter
 python.setLinter
 python.setShebangInterpreter
-tabnine.openConfig
 workspace.diagnosticRelated
 workspace.showOutput
 json.retryResolveSchema

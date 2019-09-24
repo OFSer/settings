@@ -120,7 +120,13 @@ call plug#begin('~/.vim/plugged')
 	" let g:keysound_theme = 'typewriter'
 	" let g:keysound_py_version = 3
 	" let g:keysound_volume = 1000
-	"" Plug 'honza/vim-snippets'
+	" Track the engine.
+	Plug 'SirVer/ultisnips'
+	Plug 'honza/vim-snippets'
+	let g:UltiSnipsExpandTrigger="<c-s>"
+	let g:UltiSnipsJumpBackwardTrigger="<c-h>"
+	let g:UltiSnipsJumpForwardTrigger="<c-l>"
+
 
 call plug#end()
 

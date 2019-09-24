@@ -36,7 +36,14 @@
           "in"
         ]
       }
-    }
+    },
+    "%2Fhome%2Fgjs%2Ftest%2Fcpp": [
+      "tabn",
+      "ta"
+    ],
+    "%2Fhome%2Fgjs%2Ftest%2Fmake": [
+      "rename"
+    ]
   },
   "lists": {
     "%2Fhome%2Fgjs%2Ffc%2Fshmmsg": [

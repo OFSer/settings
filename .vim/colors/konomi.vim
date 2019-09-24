@@ -266,7 +266,7 @@ call s:hi('PmenuSbar',                 '',           s:base2,    '')
 call s:hi('PmenuSel',                  s:base2,      s:green,    '')
 call s:hi('PmenuThumb',                '',           s:base4,    '')
 call s:hi('Question',                  s:blue,       '',         'none')
-call s:hi('Search',                    s:dark_blue,   '',    '')
+call s:hi('Search',                    '',   s:base4,    '')
 call s:hi('QuickFixLine',              s:dark_blue,      '',    '')
 call s:hi('SignColumn',                s:base5,      s:base1,    '')
 call s:hi('SpecialKey',                s:base4,      '',         '')
@@ -377,7 +377,7 @@ hi link SignifySignDelete GitGutterDelete
 
 set background=dark
 hi Normal guibg=NONE ctermbg=NONE
-hi Search guibg=NONE ctermbg=NONE
+" hi Search ctermbg=1 ctermfg=NONE 
 
 highlight CocWarningHighlight ctermfg=NONE cterm=italic
 highlight CocWarningSign ctermfg=9 

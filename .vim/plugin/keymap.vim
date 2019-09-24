@@ -3,7 +3,7 @@ inoremap <c-c> <esc>
 cnoremap <c-c> <c-c>
 nnoremap <c-c> <esc>
 vnoremap <c-c> <esc>
-snoremap <c-c> <esc>
+xnoremap <c-c> <esc>
 lnoremap <c-c> <esc>
 tnoremap <c-w>q <c-w>:q!<cr>
 
@@ -11,24 +11,19 @@ nnoremap <c-c> <nop>
 inoremap <c-g> <nop>
 inoremap <c-o> <nop>
 nnoremap q <nop>
-" nnoremap t <nop>
-nnoremap . <nop>
-nnoremap , <nop>
 vnoremap <c-a> <nop>
-" tnoremap <c-v> <c-w>"0
 
 tnoremap <c-\> <c-\><c-n>
 inoremap w <c-w>
 "--------------------------Jump--------------------------------------"
-inoremap <c-l> <del>
 inoremap <c-p> <up>
 inoremap <c-n> <down>
-inoremap <c-j> <c-n>
-inoremap <c-k> <c-p>
 inoremap <c-b> <left>
 inoremap <c-f> <right>
-inoremap <c-e> <esc>A
-inoremap <c-a> <esc>^i
+inoremap <c-j> <c-n>
+inoremap <c-k> <c-p>
+inoremap <c-e> <end>
+inoremap <c-a> <home>
 
 cnoremap <c-a> <home>
 cnoremap <c-b> <left>
@@ -42,14 +37,14 @@ nnoremap <silent> <c-j> <cr>
 nnoremap <silent> <c-k> k
 nnoremap <silent> <c-h> h
 nnoremap <silent> <c-l> l
+inoremap <silent> <c-h> <nop>
+inoremap <silent> <c-l> <nop>
+snoremap <silent> <c-h> <nop>
+snoremap <silent> <c-l> <nop>
 "--------------------------Edit--------------------------------------"
-inoremap <c-y> <esc>pa
 nnoremap <c-a> maggvG$
 nnoremap <c-v> "+p
-nnoremap 0 "0
-nnoremap 1 "1
-vnoremap <c-c> "+y
-vnoremap <c-x> "+d
+" vnoremap <c-c> "+y
 
 
 "--------------------------Tab-----------------------------------"

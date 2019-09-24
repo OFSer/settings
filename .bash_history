@@ -1739,7 +1739,6 @@ clang-format -i -style="{BasedOnStyle: WebKit,UseTab: Always}" 1.cpp
 clang-format -i -style="{BasedOnStyle: WebKit,UseTab: ForContinuationAndIndentation}" 1.cpp
 clang-format -i -style="{BasedOnStyle: WebKit,UseTab: ForIndentation}" 1.cpp
 clang-format -i -style="{BasedOnStyle: WebKit,UseTab: Never}" 1.cpp
-vim 1.cpp 
 ssh -p 18529 hypereal@registry-corp.hypereal.com
 cd ./.nuget/
 cd AA12A72612A6F70B/
@@ -13800,7 +13799,6 @@ git reset HEAD^ --hard
 vim calibrate.py 
 cd ~/.vim/plugged/vim-fugitive/
 cd .vim/plugged/vim-fugitive/
-vim 10.cpp
 vim 12.cpp
 vim 11.cpp
 vim 9.cpp
@@ -14340,7 +14338,6 @@ vim fc-transformer-pipeline-tags
 cd .cache/tags
 cd nerdtree
 git diff .config/coc/memos.json
-cd .config/coc
 cat history.json 
 cat commands 
 cat mru 
@@ -14380,7 +14377,6 @@ cd monolog/
 rm -rf monolog/
 cd colors/
 g++ -g 10.cpp && ./a.out
-vim 10.cpp 
 vim 11.cpp 
 g++ -g 11.cpp && ./a.out
 vim .gdbinit.d/
@@ -14660,7 +14656,6 @@ cd .vim/plugged/
 cd nerdtree/
 cat .bashrc
 t vinegar
-cd plugged/
 alias 1='cd ~1'
 vim .bash/alias.sh
 vim .bash/
@@ -14762,7 +14757,6 @@ ps -o uid,pid,ppid,vsz,comm=  -H       30157
 ps -o uid,pid,ppid,vsz,comm=  -H   3 
 _fzf_complete_kill 
 ps 27 
-p
 pstree -s 4 
 pstree -s -T 4 
 pstree -s  4 
@@ -15763,16 +15757,12 @@ type -- -1
 mkdir build && cd build
 make -j4
 cd .config/coc/
-cd extensions/
 cd coc-tabnine-data/
 cd binaries/
 ll -h
 cd .
-cd node_modules/
-cd coc-tabnine/
 du -hd1
 cat Readme.md 
-vim Readme.md 
 0
 man -Kw CURL_FOUND
 man cmake-modules 
@@ -15800,7 +15790,6 @@ s test
 ./config.sh config_scroll
 cat .xbindkeysrc 
 cd TeachPendant/
-vim .vim/plugin/keymap.vim 
 git diff .vimrc
 git diff HEAD~1 .vimrc
 vim ~/.vim/plugged/nerdtree
@@ -16124,7 +16113,6 @@ sort -nk2 all | tail -n 200 | tac
 sort -nk2 all | tail -n 300 | tac
 sort -nk2 all | tail -n 400 | tac
 gd dockerfiles/dev/Dockerfile
-vim 1.html
 cd Desktop/
 vim 1.html 
 man html
@@ -16143,7 +16131,6 @@ docker exec -it transformer bash
 ff
 vim .vim
 vim .vimr 
-cd .vim/
 vim .vim/plugin/search.vim
 cat .gdbinit.d/init 
 cd test/gdb
@@ -16154,7 +16141,6 @@ cd ~!
 vim .gitconfig 
 t dummy
 vim .ycm_extra_conf.py 
-cd test/cpp/
 sudo su
 https://api.bilibili.com/x/space/acc/info?mid=12&jsonp=jsonp" | jq
 curl "https://api.bilibili.com/x/space/acc/info?mid=12&jsonp=jsonp" | jq
@@ -16168,9 +16154,7 @@ axel
 i axel
 cd Downloads/
 axel http://02.xda-pcgame.720582.com:8090/YongBuFuHuaiChapter7_chs.rar
-git diff
 sl
-cd ~/test/cpp/
 vim 8.cpp
 g++ 8.cpp
 g++ 8.cpp && ./a.out
@@ -16179,7 +16163,6 @@ gdb a.out
 tar --help | grep -- -P
 cd ~/backup/
 tar -tf saki_detection.tar.gz 
-cd test/
 tar -zcvpf 1.tar -C cpp/cmake
 tar -zcvpf 1.tar -P cpp/cmake
 tar --help | grep -- -C
@@ -16189,11 +16172,7 @@ tar --help
 tar -zcvf 1.tar -C cpp/cmake/*
 tar -zcvf 1.tar -P cpp/cmake/*
 tldr tar
-fg
 cd .conan/
-jobs
-cd cpp/
-cd cmake/
 vim CMake
 cmake .
 cd include/
@@ -16235,7 +16214,6 @@ vim config.sh
 tldr compildb
 man compiledb 
 tldr compiledb 
-cd test/make/
 pip install compiledb
 compiledb .
 compiledb -v
@@ -16252,8 +16230,6 @@ vim
 d
 2
 vim compile_commands.json 
-vim .vimrc
-cd fc/transformer-pipeline/
 cd flaw_checker/
 rm -rf build
 compgen 
@@ -16264,7 +16240,6 @@ cat compile_commands.json
 rm compile_commands.json 
 gencdb 
 cd test/cmake/
-cd make/
 cd ~/fc/shmmsg/
 cd g
 t rust
@@ -16289,19 +16264,56 @@ cpp -v
 echo $C_INCLUDE_PATH
 export C_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/include:/usr/include/x86_64-linux-gnu
 cd shmmsg/
-cd ..
 cd fc/shmmsg/
 export CPP_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/include:/usr/include/x86_64-linux-gnu
 cd ~/test/cmake/
-vim
 t repo
 t repository
 cat CMakeLists.txt 
-vim 1.cpp
-vim 1.py
-vim CMakeLists.txt 
-cd ~
+cd test/
+cd c
+cd cpp/
+cd make/
+gd HEAD^
+p
+cd .config/co
+cd .config/coc
+cd extensions/
+git diff
 gd
+vim 1.ajax
+fg
+jobs
+vim 1.py
+vim 1.cpp
+vim 1.html
+cd fc/transformer-pipeline/
+cd ~/test/cpp/
+vim 1.cpp 
+cd ~/.config/coc/extensions/
+cd node_modules/
+cd coc-tabnine/
+vim Readme.md 
+vim 10.cpp 
+cd cmake/
+vim 10.cpp
+vim CMakeLists.txt 
 ls
+cd test/cpp/
+cd ..
+cd ~
+cd test/make/
+vim ~/.vim/colors/konomi.vim 
+gd .vim/coc-settings.json
+gd .vimrc
+gd .vim/colors/konomi.vim
+cd .vim/
+cd plugged/
+cd coc.nvim/
+vim
+
+cat
+vim .vimrc
+vim .vim/plugin/keymap.vim 
 g
 ./config.sh push
