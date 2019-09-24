@@ -7,6 +7,9 @@
     "coc-html": ">=1.2.1",
     "coc-tabnine": ">=1.2.1",
     "coc-highlight": ">=1.2.5",
-    "coc-python": ">=1.2.6"
+    "coc-python": ">=1.2.6",
+    "coc-omni": ">=1.2.4",
+    "coc-syntax": ">=1.2.4",
+    "coc-ultisnips": ">=1.2.3"
   }
 }

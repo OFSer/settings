@@ -6233,7 +6233,6 @@ go test .
 .
 mkdir python
 cd py
-vim 1.py
 pip3 install pynvim --upgrade 
 sudo apt install neovim
 nvim
@@ -7270,7 +7269,6 @@ man g++
 man g++ | grep '\-I'
 cd /usr/lib/
 cd sys/
-cd /usr/include/
 find .| grep sys
 find .| grep std
 find .| grep stdc
@@ -7282,7 +7280,6 @@ cd ./x86_64-linux-gnu/c++/7/
 cd 7.4.0
 find . | grep unistd
 find . | grep shm.h
-cd x86_64-linux-gnu/
 cd cin
 cd c++
 cd 7
@@ -8675,7 +8672,6 @@ git clone https://github.com/puremourning/ycmd-1.git ycmd
 ./install.sh --all
 /usr/bin/clang
 clang-x64
-cat .ycm_extra_conf.py 
 cat -n .ycm_extra_conf.py 
 cat .ycm_extra_conf.py | head -n 34
 cat <(cat .ycm_extra_conf.py | head -n 34)
@@ -10414,7 +10410,6 @@ cp config.sh makefile
 mkdir .file
 rm -r .file
 cat .xinputrc 
-cat .ycm
 mkdir .tmp
 rm -r .tmp
 mkdir .conf
@@ -15609,7 +15604,6 @@ git checkout -- dockerfiles/dev/Dockerfile
 ln -s /home/linuxbrew/.linuxbrew/bin/ccls $HOME/.local/bin/ccls
 ccls
 type ccls
-cd fc/shmmsg/
 ccls --version
 /snap/bin/ccls --version
 docker exec -it workspace bash
@@ -15659,7 +15653,6 @@ cd fc/aruco/
 vim config.py 
 cd transformer-pipeline/
 vim 2.c
-vim 1.cpp
 vim 3.cpp
 cd ~/fc/transformer-pipeline/
 git diff HEAD^
@@ -16155,7 +16148,6 @@ vim .vim/plugin/search.vim
 cat .gdbinit.d/init 
 cd test/gdb
 gdb a.out 
-1
 cat .gdb_history 
 vim .gitglobalignore 
 cd ~!
@@ -16209,8 +16201,6 @@ cat conaninfo.txt
 cd conan
 cd .conan
 find . | grep cmake
-cd ~/test/cmake/
-vim CMakeLists.txt 
 cd ~/.conan/
 cd data/
 cd rttr/
@@ -16229,7 +16219,6 @@ cataclysm
 nethack 
 steam
 cd data
-gd
 t ad-hoc
 man empire 
 pwd
@@ -16268,21 +16257,51 @@ cd fc/transformer-pipeline/
 cd flaw_checker/
 rm -rf build
 compgen 
-cat CMakeLists.txt 
 type compgen 
 vim .bash
-cd shmmsg/
 cd build/
 cat compile_commands.json 
 rm compile_commands.json 
 gencdb 
-ls
-cd ~
 cd test/cmake/
-cd ..
 cd make/
 cd ~/fc/shmmsg/
-vim
-g
 cd g
+t rust
+t decay
+cd /usr/include/
+cd x86_64-linux-gnu/
+cat .ycm
+cat .ycm_extra_conf.py 
+ccls -I/usr/lib/
+ccls -help
+gcc -print-prog-name=cc1plus
+`gcc -print-prog-name=cc1plus` -v
+cd /usr/include
+1
+gcc -print-prog-name=cpp
+cpp
+cc -v
+g++ -print-search-dirs
+gcc -print-search-dirs
+`gcc -print-prog-name=cpp` -v
+cpp -v
+echo $C_INCLUDE_PATH
+export C_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/include:/usr/include/x86_64-linux-gnu
+cd shmmsg/
+cd ..
+cd fc/shmmsg/
+export CPP_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/include:/usr/include/x86_64-linux-gnu
+cd ~/test/cmake/
+vim
+t repo
+t repository
+cat CMakeLists.txt 
+vim 1.cpp
+vim 1.py
+vim CMakeLists.txt 
+cd ~
+gd
+ls
+g
 ./config.sh push
