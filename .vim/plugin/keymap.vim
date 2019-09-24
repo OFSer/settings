@@ -6,7 +6,6 @@ endfor
 for c in asc
   exec "set <M-".c.">=\e".c
 endfor
-nnoremap <M-.> j
 "------------------------------esc--------------------------------"
 inoremap <c-c> <esc>
 cnoremap <c-c> <c-c>
@@ -15,6 +14,7 @@ vnoremap <c-c> <esc>
 xnoremap <c-c> <esc>
 lnoremap <c-c> <esc>
 tnoremap <c-w>q <c-w>:q!<cr>
+nnoremap <c-w>q <c-w>:q!<cr>
 
 nnoremap <c-c> <nop>
 inoremap <c-g> <nop>

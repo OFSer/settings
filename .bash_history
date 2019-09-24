@@ -12109,7 +12109,6 @@ sudo sed  's/%sudo   ALL=(ALL:ALL) ALL/%sudo   ALL=NOPASSWD:ALL/' sudoers
 ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "dl-5"
 man sudoers
 rm -r deb
-cd de
 sudo dpkg -i TeachPendant-0.0.0-0-g80e9ffd-20190827105915.deb 
 sudo apt install nginx
 git add deb/DEBIAN/postinst 
@@ -13809,7 +13808,6 @@ code
 ripgrep
 rg --help
 apt install rg
-apt install ripgrep
 df | grep rg
 df | grep rip
 rg
@@ -15981,8 +15979,6 @@ docker stop vim && docker container prune -f
 docker container prune -f
 docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix vim bash
 vi
-cd dockerfiles/
-cd dev
 docker build -t transformer:dev . 
 docker build -t transformer:latest . 
 python3
@@ -16194,7 +16190,6 @@ t ad-hoc
 man empire 
 pwd
 ps
-top
 man cmake
 man cmake-language 
 man conan
@@ -16317,17 +16312,30 @@ git diff
 cd .vim/plugin/
 vim keymap.vim 
 vim ~/.vimrc
-cd ~
-gd
 ./config.sh push "fix vim alt key bind"
 git push
-vim
 sed -Ei 's/(.)/<M-\1>/g' .vimrc
 gd .vimrc
-vim .vim/plugin/keymap.vim 
-ls
 vim .vim/colors/konomi.vim
 gd .vim/colors/konomi.vim
 vim .vimrc
+apt install ripgrep
+sudo apt install ripgrep
+npm install ripgrep
+suod npm install ripgrep
+sudo npm install ripgrep
+sudo yarn install ripgrep
+sudo brew install ripgrep
+ brew install ripgrep
+cd de
+cd dev
+cd dockerfiles/
+vim
+sudo add-apt-repository ppa:x4121/ripgrep
+top
+ls
+cd ~
+vim .vim/plugin/keymap.vim 
 g
+gd
 ./config.sh push
