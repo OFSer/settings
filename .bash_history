@@ -16298,7 +16298,6 @@ vim 10.cpp
 cd cmake/
 vim 10.cpp
 vim CMakeLists.txt 
-ls
 cd test/cpp/
 cd ..
 cd ~
@@ -16314,6 +16313,7 @@ vim
 
 cat
 vim .vimrc
+ls
 vim .vim/plugin/keymap.vim 
 g
 ./config.sh push

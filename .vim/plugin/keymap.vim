@@ -1,3 +1,5 @@
+execute "set <M-.>=\e."
+nnoremap <M-.> j
 "------------------------------esc--------------------------------"
 inoremap <c-c> <esc>
 cnoremap <c-c> <c-c>
