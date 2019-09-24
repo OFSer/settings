@@ -11546,7 +11546,6 @@ cat 4.go
 mkdir main
 cd main/
 history | grep "dd if"
-dd if=/dev/zero of=1.go bs=1M count=300
 gnome-calculator 
 gnome-characters 
 cd mod/gitlab.sho.hypereal.com/
@@ -14766,7 +14765,6 @@ cd .local/share/
 cd TabNine/
 cd models/
 vim Medium.meta 
-vim .gitignore 
 strace -s 1024 -f -p 1381
 sudo strace -s 1024 -f -p 1381
 strace -s 1024 -f -p 1381 2>&1
@@ -15983,7 +15981,6 @@ python3
 uname -a
 gd .config/SogouPY/sogouEnv.ini
 cd ~/test/
-cd sh/
 vim 2.sh
 vim 5.sh
 a=100
@@ -16131,7 +16128,6 @@ sudo su
 https://api.bilibili.com/x/space/acc/info?mid=12&jsonp=jsonp" | jq
 curl "https://api.bilibili.com/x/space/acc/info?mid=12&jsonp=jsonp" | jq
 curl "https://api.bilibili.com/x/space/acc/info?mid=122879&jsonp=jsonp" | jq
-\ssh root@95.163.194.228 -p 27762
 sort -nk2 all | tail -n 500
 sort -nk2 all | tail -n 500 | tac
 sort -nk2 all | tail -n 1000 | tac
@@ -16177,12 +16173,10 @@ cd package/
 cd cc2a1b006c99e076ff909b84730fbbf751ed5206/
 vim Findrttr.cmake
 vim Findrttr.cmake 
-cd /
 vim makefile 
 man bash
 cataclysm 
 nethack 
-steam
 cd data
 t ad-hoc
 man empire 
@@ -16255,7 +16249,6 @@ cd ~/test/cmake/
 t repo
 t repository
 cat CMakeLists.txt 
-cd test/
 cd c
 cd cpp/
 cd make/
@@ -16328,18 +16321,30 @@ cd dockerfiles/
 sudo add-apt-repository ppa:x4121/ripgrep
 top
 vim .vim/plugin/keymap.vim 
-gd
 vim
 cd .vim/sessions/
 cat default.vim 
 cd ..
 cd .vim/
 ll sessions/
-ls
 gd .config/coc/extensions/package.json
 git diff
-vim .vim/colors/konomi.vim 
 cd ~
-g
 gd .config/coc/mru
+steam
+cd test/
+cd sh/
+dd if=/dev/zero of=1.go bs=1M count=300
+cd /
+dd if=/dev/urandom of=1.go bs=1M count=300
+sudo dd if=/dev/urandom of=1.go bs=1M count=300
+\ssh root@95.163.194.228 -p 27762
+vim .vim/colors/konomi.vim 
+gd
+gd .vim/sessions/default.vim
+ls
+git rm --cached .vim/sessions/default.vim
+vim .gitignore 
+git rm --cached .config/coc/mru
+g
 ./config.sh push

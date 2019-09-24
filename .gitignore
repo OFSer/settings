@@ -79,3 +79,5 @@
 .config/unity3d/
 .config/coc/memos.json
 .local/share/TabNine/
+.vim/sessions/
+.config/coc/mru
