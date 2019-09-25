@@ -2573,7 +2573,6 @@ echo $SHELL
 ps -ef | grep 357
 vim ~
 sudo vim /etc/ssh/sshd_config
-gcc --version
 ssh
 history | grep
 kill -9 10468
@@ -15225,7 +15224,6 @@ vim rttr_reflection_declaration.cpp
  ls
 nc -l 1000
 nc -l 2000
-vim build.sh 
 cd fc/transformer-pipeline/src/
 vim1
 vim 1
@@ -16089,7 +16087,6 @@ ll
 cat .gitconfig 
 docker exec -it transformer bash
 ff
-vim .vim
 vim .vimr 
 vim .vim/plugin/search.vim
 cat .gdbinit.d/init 
@@ -16232,7 +16229,6 @@ jobs
 vim 1.py
 vim 1.cpp
 vim 1.html
-cd fc/transformer-pipeline/
 cd ~/test/cpp/
 vim 1.cpp 
 cd ~/.config/coc/extensions/
@@ -16344,7 +16340,6 @@ ls | grep -v plugged
 ls | grep -v plugged | xargs -i cp -r {} ~/.config/nvim
 ls ~/.config/nvim/
 nvim 
-gd
 :call Togglebash()
 apt search neovim
 snap find neovim
@@ -16376,12 +16371,10 @@ vim main.shada
 ~
 0
 type 0
-g
 cd /usr/
 cd ~/Downloads/
 cd nvim-linux64/
 cd share/
-1
 d
 2
 l
@@ -16391,11 +16384,19 @@ cd man6/
 -1
 vim 10.cpp
 vim --startuptime tm 10.cpp
-ls
 cat .config/coc/snippets-mru
 cd .config/coc/
 cd ~
 git rm --cahced .config/coc/snippets-mru
 git rm --cached  .config/coc/snippets-mru
 vim .gitignore 
+gd
+cd fc/transformer-pipeline/
+vim build.sh 
+1
+gcc --version
+ls
+t thrive
+vim .vim
+g
 ./config.sh push
