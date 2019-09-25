@@ -72,7 +72,7 @@ call plug#begin('~/.vim/plugged')
 " indent 
 	Plug 'Yggdroot/indentLine'
 	let g:indentLine_fileTypeExclude = ['nerdtree']
-	let g:indentLine_fileType = ['python', 'yaml']
+	let g:indentLine_fileType = ['python', 'go', 'cpp', 'yaml', 'json']
 
 " side panel
 	Plug 'scrooloose/nerdtree'

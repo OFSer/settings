@@ -1459,7 +1459,6 @@ ls -hl
 : && { echo 1;echo 2;}
 : && {echo 1;echo 2;}
 : && { echo 1;echo 2; }
-git checkout HEAD^ .vimrc
 vim  .vimrc
 git checkout 8c33ed48c8bac94ad8e88e4c6e4cdfadd79ac6be .vimrc
 ps -ef | grep dota32
@@ -16399,6 +16398,9 @@ t thrive
 vim .vim
 t dim
 vim ~/.vim/after/indent/json.vim 
+git checkout -- .vim/after/indent/json.vim
+git checkout HEAD^ .vim/after/indent/json.vim
+git checkout HEAD^ .vimrc
 vim .vimrc
 g
 ./config.sh push
