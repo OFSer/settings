@@ -15217,7 +15217,6 @@ sudo sslocal -c socks.json 1>/dev/null 2>&1 &
 curl -I http://pan.baidu.com
 firefox
 firefox 
-cd ~/Downloads/
 cd pan-light-v0.0.1preview-linux-x64/
 ./pc.sh 
 cd ~/.vim/plugged/coc.nvim/
@@ -15577,7 +15576,6 @@ ln -s /home/linuxbrew/.linuxbrew/bin/ccls $HOME/.local/bin/ccls
 ccls
 ccls --version
 /snap/bin/ccls --version
-cd /usr/
 ls | grep -v 'home'
 ls | grep -v 'home' | grep home
 ls | grep -v 'home' | du -hd1
@@ -15725,19 +15723,16 @@ man cmake-properties
 t mangle
 git log
 0/1
-type 0
 type -1
 type -- -1
 mkdir build && cd build
 make -j4
-cd .config/coc/
 cd coc-tabnine-data/
 cd binaries/
 ll -h
 cd .
 du -hd1
 cat Readme.md 
-0
 man -Kw CURL_FOUND
 man cmake-modules 
 mkdir build
@@ -15771,9 +15766,7 @@ vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8080:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8081:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
 cd
--1
 -2
-~
 5
 6
 7
@@ -16092,7 +16085,6 @@ cd ~/Desktop/
 tidy 1.html 
 tidy-html5
 tidy 1.html | bat
-l
 ll
 cat .gitconfig 
 docker exec -it transformer bash
@@ -16188,8 +16180,6 @@ compiledb -v -d . -p Makefile
 compiledb -n make
 compiledb make
 compiledb -h
-d
-2
 vim compile_commands.json 
 cd flaw_checker/
 rm -rf build
@@ -16311,7 +16301,6 @@ sudo dd if=/dev/urandom of=1.go bs=1M count=300
 vim .vim/colors/konomi.vim 
 gd .vim/sessions/default.vim
 git rm --cached .vim/sessions/default.vim
-vim .gitignore 
 git rm --cached .config/coc/mru
 ccls -version
 ccls -ehlp
@@ -16334,11 +16323,9 @@ cd /fc/transformer-pipeline/
 vim
 sudo cat /etc/apt/apt.conf.d/10periodic 
 ./config.sh disable_update
-./config.sh push
 history 
 
 vim .bash_history 
-vim 10.cpp
 i neovim
 cp -R .vim .nvim
 vim .vimrc
@@ -16374,19 +16361,41 @@ type nvim
 brew -h
 brew uninstall neovim
 brew install --HEAD neovim
-1
 vim 10.cpp 
 cd Downloads/
 tar -zxvf nvim-linux64.tar.gz 
-cd nvim-linux64/
 cd bin/
 ./nvim 
 :NERDTreeTabsToggle
 :exec "tab term ".g:tabterm
 cd ..
-cd share/
 du
-ls
-cd ~
-g
 ./config.sh push "add nvim"
+cd .local/share/nvim/shada/
+vim main.shada 
+~
+0
+type 0
+g
+cd /usr/
+cd ~/Downloads/
+cd nvim-linux64/
+cd share/
+1
+d
+2
+l
+rm War3\ 冰封王座_1@580699.exe 
+cd man
+cd man6/
+-1
+vim 10.cpp
+vim --startuptime tm 10.cpp
+ls
+cat .config/coc/snippets-mru
+cd .config/coc/
+cd ~
+git rm --cahced .config/coc/snippets-mru
+git rm --cached  .config/coc/snippets-mru
+vim .gitignore 
+./config.sh push

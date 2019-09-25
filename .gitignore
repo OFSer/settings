@@ -81,3 +81,4 @@
 .local/share/TabNine/
 .vim/sessions/
 .config/coc/mru
+.config/coc/snippets-mru
