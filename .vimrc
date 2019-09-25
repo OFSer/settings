@@ -157,7 +157,7 @@ set vop+=folds
 set laststatus=0
 set noshowmode
 set noruler
-set ttimeoutlen=1000
+set ttimeoutlen=10
 set timeoutlen=1000
 set updatetime=20
 set splitbelow

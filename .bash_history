@@ -16455,8 +16455,6 @@ find .
 conan get rttr -r sihe
 conan remote -h
 conan remote add sihe http://conan:8081/artifactory/webapp/#/home
-conan remote add sihe http://conan:8081/artifactory/api/conan/conan-local
-conan remote update sihe http://conan:8081/artifactory/api/conan/conan-local
 conan
 cd data
 cd rttr/
@@ -16489,16 +16487,12 @@ cd ~/fc/
 mkdir conan 
 cd conan
 lg
-conan get rttr/0.9.6@sihe/stable -r sihe > conanfile.py
-vim conanfile.py 
 cd ~
-vim .vimrc
 gd
 git log
 git log --oneline 
 git log --oneline  | wc -l
 rm -rf ~/.conan/
-conan create . test/testing
 cd ~/.conan/
 cd data/
 cd 
@@ -16513,7 +16507,13 @@ python3
 echo -ne "\033]0;${USER}@${HOSTNAME}:$(sed -E 's/([^/])[^/]*/\1/g' <(dirs -p | head -n 1) )$ ${BASH_COMMAND}\007"
 echo -ne "\033]0;12342342134"
 echo -ne "\033]0;12342342134\007"
-ls
 vim .vim/colors/konomi.vim 
+vim .vimrc
+conan remote update sihe http://conan:8081/artifactory/api/conan/conan-local
+conan remote add sihe http://conan:8081/artifactory/api/conan/conan-local
+conan get rttr/0.9.6@sihe/stable -r sihe > conanfile.py
+vim conanfile.py 
+conan create . test/testing
+ls
 g
 ./config.sh push
