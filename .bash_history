@@ -139,7 +139,6 @@ cd /data
 print 123
 print %s 123
 echo 123
-echo --help
 man echo
 printf %s 123
 printf %2d 123
@@ -229,7 +228,6 @@ sudo hexdump -C -n 512 /dev/sdc
 \git add src/camera_process.cpp 
 \git commit -m "repair"
 \git push
-git log --oneline 
 git rebase -i fa2e7bf
 \git log
 git pull --rebase 
@@ -5015,7 +5013,6 @@ trap sleep 3 EXIT
 return 3
 return
 umask 000
-echo -ne "\033]0;${USER}@${HOSTNAME}:$(sed -E 's/([^/])[^/]*/\1/g' <(dirs -p | head -n 1) )$ ${BASH_COMMAND}\007"
 echo -ne "\033]0;1234123412342134\007"
 kill -9 3615
 kill -TERm 3615
@@ -13315,7 +13312,6 @@ cd test/go/mock/
 e
 git checkout -- src/uploader/uploader.go
 git diff .bash_history
-echo $PS1
 c echo $
 c echo $ | grep CO
 c echo $ | grep COL
@@ -16099,8 +16095,6 @@ cd include/
 cat conaninfo.txt 
 cd .conan
 find . | grep cmake
-cd ~/.conan/
-cd data/
 cd 0.9.6/
 cd 0.9.6
 cd stable/
@@ -16141,7 +16135,6 @@ cd flaw_checker/
 rm -rf build
 compgen 
 type compgen 
-vim .bash
 cd build/
 cat compile_commands.json 
 rm compile_commands.json 
@@ -16250,7 +16243,6 @@ cd /
 dd if=/dev/urandom of=1.go bs=1M count=300
 sudo dd if=/dev/urandom of=1.go bs=1M count=300
 \ssh root@95.163.194.228 -p 27762
-vim .vim/colors/konomi.vim 
 gd .vim/sessions/default.vim
 git rm --cached .vim/sessions/default.vim
 git rm --cached .config/coc/mru
@@ -16402,7 +16394,6 @@ tr --help
 man sendto 
 cat .config/coc/extensions/package.json 
 nvim 
-git log
 :q!
 :NERDTreeTabsToggle
 vim --version
@@ -16449,7 +16440,6 @@ conan create demo/testing
 rm -rf ~/.conan
 sudo rm -rf ~/.conan
 conan --version
-python3
 cd .
 cd src/
 cd export
@@ -16471,7 +16461,6 @@ conan
 cd data
 cd rttr/
 cd package/
-cd 
 conan get rttr/0.9.6@sihe/stable -r sihe
 conan install rttr/0.9.6@sihe/stable -r sihe
 conan create . demo/testing
@@ -16502,10 +16491,29 @@ cd conan
 lg
 conan get rttr/0.9.6@sihe/stable -r sihe > conanfile.py
 vim conanfile.py 
-conan create . test/testing
 cd ~
 vim .vimrc
-ls
-g
 gd
+git log
+git log --oneline 
+git log --oneline  | wc -l
+rm -rf ~/.conan/
+conan create . test/testing
+cd ~/.conan/
+cd data/
+cd 
+vim .bash
+echo --help
+echo -h
+help echo
+echo $PS1
+echo -ne $PS1
+echo -e $PS1
+python3
+echo -ne "\033]0;${USER}@${HOSTNAME}:$(sed -E 's/([^/])[^/]*/\1/g' <(dirs -p | head -n 1) )$ ${BASH_COMMAND}\007"
+echo -ne "\033]0;12342342134"
+echo -ne "\033]0;12342342134\007"
+ls
+vim .vim/colors/konomi.vim 
+g
 ./config.sh push
