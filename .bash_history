@@ -15506,7 +15506,6 @@ cat .config/coc/extensions/
 cat .config/coc/extensions/package.json 
 man pip
 pip install python-language-server pylint
-cd /fc/transformer-pipeline/
 pip install pylint
 chown -R gjs *
 pip3 install pylint
@@ -15546,7 +15545,6 @@ s asdf
 echo $PATH
 git diff .config/coc/extensions/package.json
 vim DO
-vim Dockerfile 
 docker build -t transformer:v2 . 
 cd .local/lib/python3.
 cd .local/
@@ -15560,7 +15558,6 @@ python3.6 --help
 python3.7 --help
 python3.6
 docker run -it -d --name workspace workspace bash
-docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name workspace workspace
 i python3.7*
 python2
 docker run -it registry-sho.hypereal.com/dl/wukong-ubuntu18.04-cuda10.0:v0.1 bash
@@ -15584,10 +15581,8 @@ cd pip
 git checkout -- dockerfiles/dev/Dockerfile 
 ln -s /home/linuxbrew/.linuxbrew/bin/ccls $HOME/.local/bin/ccls
 ccls
-type ccls
 ccls --version
 /snap/bin/ccls --version
-docker exec -it workspace bash
 cd /usr/
 ls | grep -v 'home'
 ls | grep -v 'home' | grep home
@@ -15603,8 +15598,6 @@ du --help
 du --help | grep total
 sudo ln -s /home/linuxbrew/.linuxbrew/bin/s /root/.local/bin/s
 t pip
-docker stop workspace && docker container prune -f
-cd dev/
 docker build -t transformer:v3 . 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:v3
 python3.7
@@ -15974,7 +15967,6 @@ docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix vim
 docker stop vim && docker container prune -f
 docker container prune -f
 docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix vim bash
-vi
 docker build -t transformer:dev . 
 docker build -t transformer:latest . 
 python3
@@ -16189,7 +16181,6 @@ man -Kw conan
 man cmake-policies 
 vimux 
 w3m https://github.com/conan-io/conan
-vim config.sh 
 tldr compildb
 man compiledb 
 tldr compiledb 
@@ -16228,11 +16219,9 @@ cd x86_64-linux-gnu/
 cat .ycm
 cat .ycm_extra_conf.py 
 ccls -I/usr/lib/
-ccls -help
 gcc -print-prog-name=cc1plus
 `gcc -print-prog-name=cc1plus` -v
 cd /usr/include
-1
 gcc -print-prog-name=cpp
 cpp
 cc -v
@@ -16243,7 +16232,6 @@ cpp -v
 echo $C_INCLUDE_PATH
 export C_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/include:/usr/include/x86_64-linux-gnu
 cd shmmsg/
-cd fc/shmmsg/
 export CPP_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/include:/usr/include/x86_64-linux-gnu
 cd ~/test/cmake/
 t repo
@@ -16272,9 +16260,7 @@ cd coc-tabnine/
 vim Readme.md 
 vim 10.cpp 
 cd cmake/
-vim 10.cpp
 vim CMakeLists.txt 
-cd test/cpp/
 cd test/make/
 vim ~/.vim/colors/konomi.vim 
 gd .vim/coc-settings.json
@@ -16317,11 +16303,9 @@ sudo brew install ripgrep
  brew install ripgrep
 cd de
 cd dev
-cd dockerfiles/
 sudo add-apt-repository ppa:x4121/ripgrep
 top
 vim .vim/plugin/keymap.vim 
-vim
 cd .vim/sessions/
 cat default.vim 
 cd ..
@@ -16329,9 +16313,7 @@ cd .vim/
 ll sessions/
 gd .config/coc/extensions/package.json
 git diff
-cd ~
 gd .config/coc/mru
-steam
 cd test/
 cd sh/
 dd if=/dev/zero of=1.go bs=1M count=300
@@ -16340,11 +16322,38 @@ dd if=/dev/urandom of=1.go bs=1M count=300
 sudo dd if=/dev/urandom of=1.go bs=1M count=300
 \ssh root@95.163.194.228 -p 27762
 vim .vim/colors/konomi.vim 
-gd
 gd .vim/sessions/default.vim
-ls
 git rm --cached .vim/sessions/default.vim
 vim .gitignore 
 git rm --cached .config/coc/mru
+ccls -version
+ccls -ehlp
+ccls -help
+c++ --help
+man c++
+cd test/cpp/
+vim 10.cpp
+ls
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /test:/test -d --name workspace workspace
+docker stop workspace && docker container prune -f
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name workspace workspace
+docker exec -it workspace bash
+rm /home/gjs/.local/bin/ccls
+type ccls
+cd fc/shmmsg/
+cd dockerfiles/
+cd dev/
+vim Dockerfile 
+steam
+vi
+1
+cd /fc/transformer-pipeline/
+vim
+cd ~
+sudo cat /etc/apt/apt.conf.d/10periodic 
+vim config.sh 
+./config.sh disable_update
 g
+gd
 ./config.sh push
+g

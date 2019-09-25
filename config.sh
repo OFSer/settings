@@ -1,9 +1,22 @@
 #!/bin/bash
 cd ~
+
+disable_update() {
+	echo "APT::Periodic::Update-Package-Lists \"0\"; 
+APT::Periodic::Download-Upgradeable-Packages \"0\"; 
+APT::Periodic::AutocleanInterval \"0\"; 
+APT::Periodic::Unattended-Upgrade \"0\";" | sudo tee /etc/apt/apt.conf.d/10periodic
+
+	echo "APT::Periodic::Update-Package-Lists \"0\";
+APT::Periodic::Download-Upgradeable-Packages \"0\";
+APT::Periodic::AutocleanInterval \"0\";
+APT::Periodic::Unattended-Upgrade \"0\";" | sudo tee /etc/apt/apt.conf.d/20auto-upgrades
+}
+
 install_bat() {
 	cd ~/Downloads
 	wget "https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb"
-  sudo dpkg -i bat_0.12.1_amd64.deb
+	sudo dpkg -i bat_0.12.1_amd64.deb
 	sudo bat cache --build 
 	rm bat_0.12.1_amd64.deb
 	cd ~
@@ -173,6 +186,7 @@ proxy_run(){
 run(){
 	system_setting
 	config_mouse
+	disable_update
 	update_source
 	apt_update
 	install_vim
