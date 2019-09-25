@@ -784,7 +784,6 @@ ps ajxf
 git@github.com:chinnkarahoi/settings.git
 git clone git@github.com:chinnkarahoi/settings.git
 cd settings/
-du -hl
 set -o
 set vi
 set vim
@@ -2579,7 +2578,6 @@ kill -9 10469
 kill -9 10472
 vim --help | grep term
 man vim | grep term
-gvim
 \vi
 rm 'NetrwTreeListing *'
 git diff .dconf
@@ -6513,8 +6511,6 @@ history| grep ssh | grep mac
 ssh -p 29819 hypereal@10.0.10.63
 echo [A-Z]
 tr 
-tr --help
-tldr tr
 tr abcd jkmn
 tr abcd jkmn <<EOF
 abcdefgh
@@ -9196,7 +9192,6 @@ gcc-4.8 --version
 gcc-4.8 -m32 -print-libgcc-file-name
 export LD_LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/32/:$LD_LIBRARY_PATH
 i386-jos-elf-gcc -m32 -print-libgcc-file-name
-which gcc
 type gcc
 which i386-jos-elf-gcc -m32 -print-libgcc-file-name
 export LD_LIBRARY_PATH=/usr/local
@@ -12241,7 +12236,6 @@ cd /etc/angband/
 cd pref/
 cat user.prf 
 cat font.prf 
-man pod2man
 c | grep desktop
 nautilus-desktop
 nautilus-desktop --help
@@ -13149,7 +13143,6 @@ ps -o ppid=$$
 ps -o ppid= $$
 [ `ps -o ppid= $$` -eq 2996 ] && echo 1
 [ `ps -o ppid= $$` -eq 2995 ] && echo 1
-cat .config/coc/commands
 pstree 1899
 pstree 8633
 pstree -p 8633
@@ -13796,7 +13789,6 @@ vim 11.cpp
 vim 9.cpp
 vim 2.cpp
 vim 4.cpp
-free -m
 htop
 killall -9 netease-cloud-music 
 killall -9 sogou-qimpanel
@@ -14308,7 +14300,6 @@ s -p zhihu vim  terminal
 s -p zhihu vim  f12
 vim .vim/plugin/term.vim 
 man res
-free -hm
 gitdiff
 git commit -m "add config"
 git commit -m "add deb service"
@@ -15168,7 +15159,6 @@ calendar
 t 'let us
 t 'let us'
 t 'what the fuck'
-vim --version
 man protobuf
 man -Kw protobuf
 man protoc
@@ -15262,7 +15252,6 @@ rsync --help | grep '-z'
 rsync --help | grep '\-z'
 rsync --help | grep -- -z
 rsync -avz home.tar.gz ..
-cd backup/
 rsync -av --progress --stats home.tar.gz ..
 rsync -av --progress  home.tar.gz ..
 rsync --help
@@ -15494,7 +15483,6 @@ echo $TERM
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer:v2 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v  -d --name transformer transformer:v2 
 cat .config/coc/extensions/
-cat .config/coc/extensions/package.json 
 man pip
 pip install python-language-server pylint
 pip install pylint
@@ -15586,7 +15574,6 @@ ls | grep -v 'home' | xargs sudo du -d0 | sort -nk1
 du --help
 du --help | grep total
 sudo ln -s /home/linuxbrew/.linuxbrew/bin/s /root/.local/bin/s
-t pip
 docker build -t transformer:v3 . 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:v3
 python3.7
@@ -15630,10 +15617,8 @@ cmake --help | grep clean
 git clean -dff
 make clean
 cd hello-world-clear/
-cd src/
 cat Makefile 
 make
-find .
 find . | grep README
 mkdir build 
 cmake -DCMAKE_INSTALL_PREFIX=/tmp/usr ..
@@ -15677,7 +15662,6 @@ vim make
 rm make
 cd cos/
 cd gh/
-cd go/
 cd so/
 cd asm/
 vim Ma
@@ -15718,7 +15702,6 @@ ctest --help
 man ctest
 man cmake-properties 
 t mangle
-git log
 0/1
 type -1
 type -- -1
@@ -15726,8 +15709,6 @@ mkdir build && cd build
 make -j4
 cd coc-tabnine-data/
 cd binaries/
-ll -h
-cd .
 du -hd1
 cat Readme.md 
 man -Kw CURL_FOUND
@@ -15773,7 +15754,6 @@ cd ../
 cd ~/..
 cd ~10
 f *
-rm -rf *
 f -l
 f -p
 type f
@@ -15783,7 +15763,6 @@ vim .inputrc
 t hub
 t consortium 
 t consolidated 
-c t ' ' 
 c t ' '  | wc -l
 c t ' ' | wc
 locate english
@@ -15855,7 +15834,6 @@ type hg
 i mercurial
 hg --help
 man hg
-man man
 t annotate
 man mercurial
 t mercurial
@@ -15882,7 +15860,6 @@ curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq .data
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq .data["balck"]
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq .data.black
-cd fc/
 seq 10
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid={}' | jq .data.follower
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=1' | jq .data.follower
@@ -15943,16 +15920,12 @@ seq 1000000
 man -Kw add_custom_command
 cd /tmp/
 cd .X11-unix/
-docker ps -l
-docker ps -a
 docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix vim '+set clipboard=unnamed'
 docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix vim
 docker stop vim && docker container prune -f
-docker container prune -f
 docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix vim bash
 docker build -t transformer:dev . 
 docker build -t transformer:latest . 
-python3
 uname -a
 gd .config/SogouPY/sogouEnv.ini
 cd ~/test/
@@ -16036,9 +16009,7 @@ docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /tmp/.X
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
 cd /tmp/.X11-unix
 docker stop transformer && docker container prune -f
-docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
 docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix sree/vim '+set clipboard=unnamed'
-docker images
 tldr pkg-config
 man pkg-config
 help pkg-config
@@ -16082,9 +16053,7 @@ cd ~/Desktop/
 tidy 1.html 
 tidy-html5
 tidy 1.html | bat
-ll
 cat .gitconfig 
-docker exec -it transformer bash
 ff
 vim .vimr 
 vim .vim/plugin/search.vim
@@ -16136,12 +16105,9 @@ cd .conan
 find . | grep cmake
 cd ~/.conan/
 cd data/
-cd rttr/
 cd 0.9.6/
 cd 0.9.6
-cd 
 cd stable/
-cd package/
 cd cc2a1b006c99e076ff909b84730fbbf751ed5206/
 vim Findrttr.cmake
 vim Findrttr.cmake 
@@ -16149,9 +16115,7 @@ vim makefile
 man bash
 cataclysm 
 nethack 
-cd data
 t ad-hoc
-man empire 
 pwd
 ps
 man cmake
@@ -16275,10 +16239,8 @@ sudo npm install ripgrep
 sudo yarn install ripgrep
 sudo brew install ripgrep
  brew install ripgrep
-cd de
 cd dev
 sudo add-apt-repository ppa:x4121/ripgrep
-top
 vim .vim/plugin/keymap.vim 
 cd .vim/sessions/
 cat default.vim 
@@ -16286,7 +16248,6 @@ ll sessions/
 gd .config/coc/extensions/package.json
 git diff
 gd .config/coc/mru
-cd test/
 cd sh/
 dd if=/dev/zero of=1.go bs=1M count=300
 cd /
@@ -16305,17 +16266,12 @@ man c++
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /test:/test -d --name workspace workspace
 docker stop workspace && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name workspace workspace
-docker exec -it workspace bash
 rm /home/gjs/.local/bin/ccls
 type ccls
-cd fc/shmmsg/
-cd dockerfiles/
-cd dev/
 vim Dockerfile 
 steam
 vi
 cd /fc/transformer-pipeline/
-vim
 sudo cat /etc/apt/apt.conf.d/10periodic 
 ./config.sh disable_update
 history 
@@ -16330,17 +16286,14 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs     https://r
 vim init.vim
 rm -rf .nvim
 cp .vimrc .config/nvim/init.vim
-vim 
 nvim 10.cpp
 cd .vim/
 nvim
 ls | grep -v plugged
 ls | grep -v plugged | xargs -i cp -r {} ~/.config/nvim
 ls ~/.config/nvim/
-nvim 
 :call Togglebash()
 apt search neovim
-snap find neovim
 brew find neovim
 brew --help
 brew search neovim
@@ -16350,7 +16303,6 @@ vim config.sh
 /home/linuxbrew/.linuxbrew/Cellar/neovim/0.3.8/bin/nvim 
 cd test/cpp/
 /home/linuxbrew/.linuxbrew/Cellar/neovim/0.3.8/bin/nvim 10.cpp
-type nvim 
 brew -h
 brew uninstall neovim
 brew install --HEAD neovim
@@ -16359,10 +16311,7 @@ cd Downloads/
 tar -zxvf nvim-linux64.tar.gz 
 cd bin/
 ./nvim 
-:NERDTreeTabsToggle
 :exec "tab term ".g:tabterm
-cd ..
-du
 ./config.sh push "add nvim"
 cd .local/share/nvim/shada/
 vim main.shada 
@@ -16370,7 +16319,6 @@ vim main.shada
 0
 type 0
 cd /usr/
-cd ~/Downloads/
 cd nvim-linux64/
 cd share/
 d
@@ -16379,21 +16327,15 @@ l
 rm War3\ 冰封王座_1@580699.exe 
 cd man
 cd man6/
--1
 vim 10.cpp
 vim --startuptime tm 10.cpp
 cat .config/coc/snippets-mru
 cd .config/coc/
-cd ~
 git rm --cahced .config/coc/snippets-mru
 git rm --cached  .config/coc/snippets-mru
-vim .gitignore 
-gd
 cd fc/transformer-pipeline/
 vim build.sh 
-1
 gcc --version
-ls
 t thrive
 vim .vim
 t dim
@@ -16402,5 +16344,164 @@ git checkout -- .vim/after/indent/json.vim
 git checkout HEAD^ .vim/after/indent/json.vim
 git checkout HEAD^ .vimrc
 vim .vimrc
+podman
+i pod2man
+pod2man
+man pod2man
+man gcc 
+t premise
+t host
+c t ' ' 
+c t ' '  | grep here
+t inherent
+t fossil
+cd fc/shmmsg/
+1
+t pip
+t PIP
+wtf pip
+type nvim 
+nvim --version
+snap find nvim
+snap find neovim
+snap find vim
+man md5
+man -Kw md5
+c | grep md5
+md5sum
+md5 sum dev
+md5sum dev
+cd dev/
+md5sum Dockerfile 
+cd backup/
+md5sum .
+md5sum *
+md5sum home.tar.gz 
+conan --help
+conan 
+md5sum saki_detection.tar.gz 
+cd go/
+cd ~/Downloads/
+md5 nvim-linux64.tar.gz 
+md5sum nvim-linux64.tar.gz 
+ll
+ll -h
+md5sum YongBuFuHuaiChapter7_chs.rar 
+man md5sum
+cat /dev/urandom | tr -cd [:print:]
+cat /dev/urandom | tr -c [:print:]
+cat /dev/urandom | tr -d [:print:]
+cat /dev/urandom | tr -c [A-Z]
+cat /dev/urandom | tr -c [A-Z] -d
+cat /dev/urandom | tr -d -c [A-Z] 
+cat /dev/urandom | tr -d [A-Z] -c
+cat /dev/urandom | tr -c -d [A-Z] 
+t complement
+tldr tr
+tr --help'
+man tr
+echo ab123abc | tr -cd abc
+echo ab123abc | tr -c abc
+echo ab123abc | tr -d abc
+tr --help
+man sendto 
+cat .config/coc/extensions/package.json 
+nvim 
+git log
+:q!
+:NERDTreeTabsToggle
+vim --version
+gvim
+t mnemonic
+t orphan
+man man
+man empire 
+c t ' ' | grep cord
+c t ' ' | grep ar
+sort -nk2 all | tail -n 4000 | tac
+sort -nk2 all | tail -n 3000 | tac
+cd de
+cd dockerfiles/
+vim 
+t executable
+cd test/
+mkdir conan
+cd conan/
+python3.7 -m pip install conans
+python3.7 -m pip install conan
+cat example.cpp 
+at conanfile.py 
+bat conanfile.py 
+cd mypkg/
+conan new Hello/0.1 
+rm conanfile.py 
+conan new Hello/0.1 -t
+icdiff conanfile.py test_package/conanfile.py 
+vim conanfile.py 
+cd test_package/
+cd ~/.conan/data/Hello/
+cd testing/
+cat conanfile.py 
+cd ~
+cd fc/
+git clone git@gitlab.sho.hypereal.com:robotic/conan_mvs_camera.git
+cd conan_mvs_camera/
+conan create . sihe/stable
+git clone https://github.com/conan-io/hello.git
+vim
+which gcc
+mkdir mypkg && cd mypkg
+conan new Hello/0.1 -t -s
+conan create demo/testing
+rm -rf ~/.conan
+sudo rm -rf ~/.conan
+conan --version
+python3
+cd .
+cd src/
+cd export
+cd export_source/
+cd ..
+rm -rf *
+cd source/
+du -h.,
+du -hl
+du
+find .
+-1
+conan get rttr -r sihe
+conan remote -h
+conan remote add sihe http://conan:8081/artifactory/webapp/#/home
+conan remote add sihe http://conan:8081/artifactory/api/conan/conan-local
+conan remote update sihe http://conan:8081/artifactory/api/conan/conan-local
+conan
+cd data
+cd rttr/
+cd package/
+cd 
+conan get rttr/0.9.6@sihe/stable -r sihe
+conan install rttr/0.9.6@sihe/stable -r sihe
+conan create . demo/testing
+docker ps -l
+docker ps -a
+docker commit 0e8f6f8559d6 transformer
+docker container prune -f
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
+docker exec -it workspace bash
+docker exec -it transformer bash
+free -m
+free -hm
+docker images
+top
+ps -ef | grep tab
+gd
+ls
+cat .config/coc/history.json
+git rm --cached .config/coc/history.json
+cat .config/coc/commands
+git rm --cached .config/coc/commands
+cat .local/share/nvim/shada/main.shada
+git rm --cached .local/share/nvim/shada/main.shada
+vim .gitignore 
 g
 ./config.sh push

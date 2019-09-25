@@ -82,3 +82,6 @@
 .vim/sessions/
 .config/coc/mru
 .config/coc/snippets-mru
+.config/coc/commands
+.config/coc/history.json
+.local/share/nvim/shada/
