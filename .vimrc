@@ -22,6 +22,8 @@ call plug#begin('~/.vim/plugged')
 
 " complete	
 	Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': 'curl -sL install-node.now.sh/lts \| sudo bash -s -- -y'}
+	let g:coc_snippet_prev = '<c-h>'
+	let g:coc_snippet_next = '<c-l>'
 	nnoremap <silent> <M-c> :CocCommand document.renameCurrentWord<cr>
 	nnoremap <silent> <M-D> :call CocActionAsync('jumpDefinition', 'tab drop')<cr>
 	nnoremap <silent> <M-d> :call CocActionAsync('jumpDefinition')<cr>
@@ -122,11 +124,11 @@ call plug#begin('~/.vim/plugged')
 	" let g:keysound_py_version = 3
 	" let g:keysound_volume = 1000
 	" Track the engine.
-	Plug 'SirVer/ultisnips'
+	" Plug 'SirVer/ultisnips'
 	Plug 'honza/vim-snippets'
-	let g:UltiSnipsExpandTrigger="<c-s>"
-	let g:UltiSnipsJumpBackwardTrigger="<c-h>"
-	let g:UltiSnipsJumpForwardTrigger="<c-l>"
+	" let g:UltiSnipsExpandTrigger="<c-s>"
+	" let g:UltiSnipsJumpBackwardTrigger="<c-h>"
+	" let g:UltiSnipsJumpForwardTrigger="<c-l>"
 
 
 call plug#end()

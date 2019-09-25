@@ -6234,7 +6234,6 @@ mkdir python
 cd py
 pip3 install pynvim --upgrade 
 sudo apt install neovim
-nvim
 nvim main.py 
 vim ~/.config/nvim/init.vim
 cp ~/.vimrc ~/.config/nvim/init.vim
@@ -13998,7 +13997,6 @@ cd linuxbrew/
 cd .linuxbrew/
 cd sbin/
 cd homebrew/
-cd share/
 cd man/
 cd man1/
 wget --no-check-certificate -O /usr/local/bin/bd https://raw.github.com/vigneshwaranr/bd/master/bd
@@ -14125,7 +14123,6 @@ cd .config/unity3d
 cat Player.log 
 git rm --cached .config/unity3d/
 git rm --cached -r .config/unity3d/
-du
 df -hd1
 git reset HEAD^
 git add df
@@ -15291,7 +15288,6 @@ cd RAW/
 rsync -rv --progress --stats -e 'ssh -p 27762' --size-only root@95.163.194.228:~/'[桜都字幕组]2019年8月合集' .
 cd '[桜都字幕组]2019年7月合集'
 cd '[桜都字幕组]2019年8月合集'
-vim .bash_history 
 cd .ssh/
 git remote 
 git remote show origin
@@ -15476,7 +15472,6 @@ apt install sshpass
 sudo apt install sshpass
 sshpass
 pip
-brew --help
 npm --help
 npm search ccls
 yarn search ccls
@@ -15549,7 +15544,6 @@ docker build -t transformer:v2 .
 cd .local/lib/python3.
 cd .local/
 cd ~/.local/
-cd bin/
 cd site-packages/
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name transformer transformer:v2 
 python3.7m
@@ -15956,7 +15950,6 @@ sudo reboot
 t alas
 cat .bash_history 
 seq 1000000
-history 
 man -Kw add_custom_command
 cd /tmp/
 cd .X11-unix/
@@ -16126,7 +16119,6 @@ sort -nk2 all | tail -n 1000 | tac
 sort -nk2 all | tail -n 2000 | tac
 axel
 i axel
-cd Downloads/
 axel http://02.xda-pcgame.720582.com:8090/YongBuFuHuaiChapter7_chs.rar
 sl
 vim 8.cpp
@@ -16196,7 +16188,6 @@ compiledb -v -d . -p Makefile
 compiledb -n make
 compiledb make
 compiledb -h
-vim 
 d
 2
 vim compile_commands.json 
@@ -16258,7 +16249,6 @@ cd ~/.config/coc/extensions/
 cd node_modules/
 cd coc-tabnine/
 vim Readme.md 
-vim 10.cpp 
 cd cmake/
 vim CMakeLists.txt 
 cd test/make/
@@ -16292,7 +16282,6 @@ sed -Ei 's/(.)/<M-\1>/g' .vimrc
 gd .vimrc
 vim .vim/colors/konomi.vim
 gd .vim/colors/konomi.vim
-vim .vimrc
 apt install ripgrep
 sudo apt install ripgrep
 npm install ripgrep
@@ -16308,8 +16297,6 @@ top
 vim .vim/plugin/keymap.vim 
 cd .vim/sessions/
 cat default.vim 
-cd ..
-cd .vim/
 ll sessions/
 gd .config/coc/extensions/package.json
 git diff
@@ -16331,9 +16318,6 @@ ccls -ehlp
 ccls -help
 c++ --help
 man c++
-cd test/cpp/
-vim 10.cpp
-ls
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /test:/test -d --name workspace workspace
 docker stop workspace && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name workspace workspace
@@ -16346,14 +16330,63 @@ cd dev/
 vim Dockerfile 
 steam
 vi
-1
 cd /fc/transformer-pipeline/
 vim
-cd ~
 sudo cat /etc/apt/apt.conf.d/10periodic 
-vim config.sh 
 ./config.sh disable_update
-g
-gd
 ./config.sh push
+history 
+
+vim .bash_history 
+vim 10.cpp
+i neovim
+cp -R .vim .nvim
+vim .vimrc
+cd .config/nvim/
+vim init.vim 
+rm init.vim 
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+vim init.vim
+rm -rf .nvim
+cp .vimrc .config/nvim/init.vim
+vim 
+nvim 10.cpp
+cd .vim/
+nvim
+ls | grep -v plugged
+ls | grep -v plugged | xargs -i cp -r {} ~/.config/nvim
+ls ~/.config/nvim/
+nvim 
+gd
+:call Togglebash()
+apt search neovim
+snap find neovim
+brew find neovim
+brew --help
+brew search neovim
+brew install neovim
+vim co nohup.out 
+vim config.sh 
+/home/linuxbrew/.linuxbrew/Cellar/neovim/0.3.8/bin/nvim 
+cd test/cpp/
+/home/linuxbrew/.linuxbrew/Cellar/neovim/0.3.8/bin/nvim 10.cpp
+type nvim 
+brew -h
+brew uninstall neovim
+brew install --HEAD neovim
+1
+vim 10.cpp 
+cd Downloads/
+tar -zxvf nvim-linux64.tar.gz 
+cd nvim-linux64/
+cd bin/
+./nvim 
+:NERDTreeTabsToggle
+:exec "tab term ".g:tabterm
+cd ..
+cd share/
+du
+ls
+cd ~
 g
+./config.sh push "add nvim"
