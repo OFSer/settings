@@ -14155,7 +14155,6 @@ s sdf
 s -p stackoverflow test
 type command s
 s -s
-lg
 vim .bah
 rm core 
 bd afd
@@ -14283,7 +14282,6 @@ complete -p | grep docker
 vim .bash/alias.sh 
 type docker 
 type docker
-cd ~/fc/
 cat .bash_completion 
 cat ~/.bashrc
 complete -p | grep docker
@@ -15743,7 +15741,6 @@ vim ~/.vim/plugged/nerdtree
 vim ~/.vim/plugged/nerdtree/lib/nerdtree/key_map.vim
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8080:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8081:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
-cd
 -2
 5
 6
@@ -16100,7 +16097,6 @@ vim CMake
 cmake .
 cd include/
 cat conaninfo.txt 
-cd conan
 cd .conan
 find . | grep cmake
 cd ~/.conan/
@@ -16343,7 +16339,6 @@ vim ~/.vim/after/indent/json.vim
 git checkout -- .vim/after/indent/json.vim
 git checkout HEAD^ .vim/after/indent/json.vim
 git checkout HEAD^ .vimrc
-vim .vimrc
 podman
 i pod2man
 pod2man
@@ -16437,12 +16432,10 @@ conan new Hello/0.1
 rm conanfile.py 
 conan new Hello/0.1 -t
 icdiff conanfile.py test_package/conanfile.py 
-vim conanfile.py 
 cd test_package/
 cd ~/.conan/data/Hello/
 cd testing/
 cat conanfile.py 
-cd ~
 cd fc/
 git clone git@gitlab.sho.hypereal.com:robotic/conan_mvs_camera.git
 cd conan_mvs_camera/
@@ -16494,8 +16487,6 @@ free -hm
 docker images
 top
 ps -ef | grep tab
-gd
-ls
 cat .config/coc/history.json
 git rm --cached .config/coc/history.json
 cat .config/coc/commands
@@ -16503,5 +16494,18 @@ git rm --cached .config/coc/commands
 cat .local/share/nvim/shada/main.shada
 git rm --cached .local/share/nvim/shada/main.shada
 vim .gitignore 
+cd test/conan/
+cd
+cd ~/fc/
+mkdir conan 
+cd conan
+lg
+conan get rttr/0.9.6@sihe/stable -r sihe > conanfile.py
+vim conanfile.py 
+conan create . test/testing
+cd ~
+vim .vimrc
+ls
 g
+gd
 ./config.sh push
