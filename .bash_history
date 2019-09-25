@@ -16324,7 +16324,6 @@ history
 vim .bash_history 
 i neovim
 cp -R .vim .nvim
-vim .vimrc
 cd .config/nvim/
 vim init.vim 
 rm init.vim 
@@ -16398,5 +16397,8 @@ gcc --version
 ls
 t thrive
 vim .vim
+t dim
+vim ~/.vim/after/indent/json.vim 
+vim .vimrc
 g
 ./config.sh push
