@@ -6222,7 +6222,6 @@ go run test.go
 go build -v main.go
 go build -v test.go
 go test .
-.
 mkdir python
 cd py
 pip3 install pynvim --upgrade 
@@ -13623,7 +13622,6 @@ git diff compile_commands.json
 diff compile_commands.json ../compile_commands.json 
 vimdiff compile_commands.json ../compile_commands.json 
 cd /tmp/RJrWTJc5ZJ6Ty
-cp --help
 mkdir f
 cp 1 f
 cd 1 f
@@ -14917,7 +14915,6 @@ cd /root/
 rm *
 sudo rm *
 cd .cache/tags/
-git add -A
 git commit -m "upd ignore"
 git diff ~/.vimrc
 cd .bash/
@@ -15019,7 +15016,6 @@ google-chrome --help
 google-chrome-stable --proxy-server="$https_proxy;$http_proxy"
 echo 'google-chrome-stable --proxy-server="$https_proxy;$http_proxy"'
 echo google-chrome-stable --proxy-server="$https_proxy;$http_proxy"
-\ssh linan@172.96.243.251 -p 6023
 scp -P 6023 linan@172.96.243.251:~/1 . 
 cat 1
 ssh 172.96.243.251 -p 6023
@@ -15473,7 +15469,6 @@ git checkout -- config.sh
 tget
 export TERM=xterm
 vim .vimrx
-echo $TERM
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v /home/gjs:/root  -d --name transformer transformer:v2 
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -v  -d --name transformer transformer:v2 
 cat .config/coc/extensions/
@@ -15739,7 +15734,6 @@ ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8080:127.0.0.1:80 -p 17466 hyper
 ssh -N -o "StrictHostKeyChecking no" -L 0.0.0.0:8081:127.0.0.1:80 -p 17466 hypereal@registry-corp.hypereal.com
 -2
 5
-6
 7
 8
 type 3
@@ -15748,8 +15742,6 @@ cd ~/..
 cd ~10
 f *
 f -l
-f -p
-type f
 alias 
 cat .inputrc 
 vim .inputrc 
@@ -16088,7 +16080,6 @@ tar --help
 tar -zcvf 1.tar -C cpp/cmake/*
 tar -zcvf 1.tar -P cpp/cmake/*
 tldr tar
-cd .conan/
 vim CMake
 cmake .
 cd include/
@@ -16096,7 +16087,6 @@ cat conaninfo.txt
 cd .conan
 find . | grep cmake
 cd 0.9.6/
-cd 0.9.6
 cd stable/
 cd cc2a1b006c99e076ff909b84730fbbf751ed5206/
 vim Findrttr.cmake
@@ -16135,7 +16125,6 @@ cd flaw_checker/
 rm -rf build
 compgen 
 type compgen 
-cd build/
 cat compile_commands.json 
 rm compile_commands.json 
 gencdb 
@@ -16163,7 +16152,6 @@ echo $C_INCLUDE_PATH
 export C_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/include:/usr/include/x86_64-linux-gnu
 cd shmmsg/
 export CPP_INCLUDE_PATH=$C_INCLUDE_PATH:/usr/include:/usr/include/x86_64-linux-gnu
-cd ~/test/cmake/
 t repo
 t repository
 cat CMakeLists.txt 
@@ -16188,7 +16176,6 @@ cd node_modules/
 cd coc-tabnine/
 vim Readme.md 
 cd cmake/
-vim CMakeLists.txt 
 cd test/make/
 vim ~/.vim/colors/konomi.vim 
 gd .vim/coc-settings.json
@@ -16215,9 +16202,7 @@ cd .vim/plugin/
 vim keymap.vim 
 vim ~/.vimrc
 ./config.sh push "fix vim alt key bind"
-git push
 sed -Ei 's/(.)/<M-\1>/g' .vimrc
-gd .vimrc
 vim .vim/colors/konomi.vim
 gd .vim/colors/konomi.vim
 apt install ripgrep
@@ -16239,10 +16224,8 @@ git diff
 gd .config/coc/mru
 cd sh/
 dd if=/dev/zero of=1.go bs=1M count=300
-cd /
 dd if=/dev/urandom of=1.go bs=1M count=300
 sudo dd if=/dev/urandom of=1.go bs=1M count=300
-\ssh root@95.163.194.228 -p 27762
 gd .vim/sessions/default.vim
 git rm --cached .vim/sessions/default.vim
 git rm --cached .config/coc/mru
@@ -16257,12 +16240,10 @@ docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc
 rm /home/gjs/.local/bin/ccls
 type ccls
 vim Dockerfile 
-steam
 vi
 cd /fc/transformer-pipeline/
 sudo cat /etc/apt/apt.conf.d/10periodic 
 ./config.sh disable_update
-history 
 
 vim .bash_history 
 i neovim
@@ -16309,8 +16290,6 @@ type 0
 cd /usr/
 cd nvim-linux64/
 cd share/
-d
-2
 l
 rm War3\ 冰封王座_1@580699.exe 
 cd man
@@ -16325,7 +16304,6 @@ cd fc/transformer-pipeline/
 vim build.sh 
 gcc --version
 t thrive
-vim .vim
 t dim
 vim ~/.vim/after/indent/json.vim 
 git checkout -- .vim/after/indent/json.vim
@@ -16343,7 +16321,6 @@ c t ' '  | grep here
 t inherent
 t fossil
 cd fc/shmmsg/
-1
 t pip
 t PIP
 wtf pip
@@ -16365,7 +16342,6 @@ md5sum .
 md5sum *
 md5sum home.tar.gz 
 conan --help
-conan 
 md5sum saki_detection.tar.gz 
 cd go/
 cd ~/Downloads/
@@ -16427,24 +16403,16 @@ cd test_package/
 cd ~/.conan/data/Hello/
 cd testing/
 cat conanfile.py 
-cd fc/
 git clone git@gitlab.sho.hypereal.com:robotic/conan_mvs_camera.git
 cd conan_mvs_camera/
-conan create . sihe/stable
 git clone https://github.com/conan-io/hello.git
-vim
 which gcc
 mkdir mypkg && cd mypkg
 conan new Hello/0.1 -t -s
 conan create demo/testing
-rm -rf ~/.conan
 sudo rm -rf ~/.conan
-conan --version
-cd .
-cd src/
 cd export
 cd export_source/
-cd ..
 rm -rf *
 cd source/
 du -h.,
@@ -16457,8 +16425,6 @@ conan remote -h
 conan remote add sihe http://conan:8081/artifactory/webapp/#/home
 conan
 cd data
-cd rttr/
-cd package/
 conan get rttr/0.9.6@sihe/stable -r sihe
 conan install rttr/0.9.6@sihe/stable -r sihe
 conan create . demo/testing
@@ -16468,7 +16434,6 @@ docker commit 0e8f6f8559d6 transformer
 docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
 docker exec -it workspace bash
-docker exec -it transformer bash
 free -m
 free -hm
 docker images
@@ -16485,17 +16450,12 @@ cd test/conan/
 cd
 cd ~/fc/
 mkdir conan 
-cd conan
 lg
-cd ~
-gd
 git log
 git log --oneline 
 git log --oneline  | wc -l
 rm -rf ~/.conan/
 cd ~/.conan/
-cd data/
-cd 
 vim .bash
 echo --help
 echo -h
@@ -16508,12 +16468,84 @@ echo -ne "\033]0;${USER}@${HOSTNAME}:$(sed -E 's/([^/])[^/]*/\1/g' <(dirs -p | h
 echo -ne "\033]0;12342342134"
 echo -ne "\033]0;12342342134\007"
 vim .vim/colors/konomi.vim 
-vim .vimrc
 conan remote update sihe http://conan:8081/artifactory/api/conan/conan-local
-conan remote add sihe http://conan:8081/artifactory/api/conan/conan-local
 conan get rttr/0.9.6@sihe/stable -r sihe > conanfile.py
 vim conanfile.py 
 conan create . test/testing
+history 
+t Chartreuse
+t cadet
+t ridiculous 
+steam
+ping 95.163.194.228 
+\ssh root@95.163.194.228 -p 27762
+\ssh linan@172.96.243.251 -p 6023
+git clone git@gitlab.sho.hypereal.com:jingshen.gao/conan-rttr.git
+git clone git@gitlab.sho.hypereal.com:jingshen.gao/conan-dynamic-configs.git
+cd ~/test/cmake/
+vim CMakeLists.txt 
+cd /
+1
+rm generate_rttr_configs.py 
+wget -O http://gitlab.sho.hypereal.com/robotic/transformer-pipeline/raw/rttr-opt/tools/generate_rttr_configs.py
+wget -qO- http://gitlab.sho.hypereal.com/robotic/transformer-pipeline/raw/rttr-opt/tools/generate_rttr_configs.py
+wget http://gitlab.sho.hypereal.com/robotic/transformer-pipeline/raw/rttr-opt/tools/generate_rttr_configs.py
+cd ~/.conan/data/rttr/
+cd 0.9.7/
+6
+conan --version
+conan 
+cd ~/.conan/data/
+cd 0.9.6
+cd rttr-0.9.6/
+.
+/home/gjs/.conan/data/rttr/0.9.6/sihe/stable/package/6d82e888d971f4f3eb9726e75a6e5f8
+cp --help
+type f
+cd .
+rm -rf ~/.conan
+cd src/
+cd rttr/
+rm -rf .conan/
+cd .conan/
+cd data/
+cd build/
+rm -rf conan-rttr/
+git clone git@gitlab.sho.hypereal.com:yuxuan.he/conan-rttr.git
+cd conan
+f Findrttr.cmake generate_rttr_*
+f -p
+cd ..
+cd conan-dynamic-configs/
+cd /home/gjs/.conan/data/rttr/0.9.6/sihe/stable/package/
+d
+2
+t Wafter
+t kud
+cd /home/gjs/.conan/data/rttr/0.9.7/sihe/
+cd package/
+cd 
+vim .vimrc
+vim .vim
+git checkout -b rttr-gen
+git commit -m "add gen configs"
+git push --set-upstream origin rttr-gen 
+conan create . sihe/stable
+    set(RTTR_SRCS ${RTTR_SRCS} PARENT_SCOPE)
+conan remote add sihe http://conan:8081/artifactory/api/conan/conan-local
+conan upload rttr/0.9.7@sihe/stable --remote sihe --all
+t trampoline
+git add -A
+git commit -m "upd Readme"
+git push
+echo $TERM
+docker exec -it transformer bash
+cd fc/
+cd conan-rttr/
+vim
+cd ~
+gd .vimrc
+gd
 ls
 g
 ./config.sh push

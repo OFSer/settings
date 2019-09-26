@@ -135,8 +135,8 @@ call plug#end()
 
 set ai
 set nu 
-set ts=2
-set sw=2
+set expandtab
+set shiftwidth=2
 set hidden
 set softtabstop=2
 set ma
