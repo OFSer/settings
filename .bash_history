@@ -337,7 +337,6 @@ vim fifo.cpp
 clang-format -i -style="{BasedOnStyle: WebKit, IndentWidth: 2,BreakBeforeBraces: Custom}" fifo.cpp
 vim fifo.cpp 
 cd /dev/fd
-cd /dev/pts
 cd ~/test/IPC/
 vim msg.cpp
 ./1 e
@@ -425,10 +424,8 @@ sed -Eni ':a;N;$!ba;s/imCountToSave: [0-9]*/imCountToSave: 10000/;$p' 1;sed -Eni
 cat 1 > 2
 diff 1 2
 cd test/IPC/
-cat file
 vim in
 jobvs
-history
 ll | grep history
 vim/etc/profile 
 vim /etc/profile 
@@ -1535,7 +1532,6 @@ nethogs --help
 nethogs -v 3
 suod nethogs -v 3
 sudo nethogs -v 3
-exit
 ps -ef | grep disk
 kill 31730
 ps -ef | grep start
@@ -3478,7 +3474,6 @@ pidstat -d 1
 ssh -o "StrictHostKeyChecking no" -p 13654 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 14858 hypereal@registry-corp.hypereal.com
 ssh -o "StrictHostKeyChecking no" -p 17110 hypereal@registry-corp.hypereal.com
-sleep 1
 mkdir py
 pip3 freeze 
 vim requirements.txt
@@ -3903,7 +3898,6 @@ cat < /dev/fd/52
 cat < /dev/fd/62
 echo < /dev/fd/62
 echo < /dev/fd/58
-cd fd
 type coproc
 type type
 type (*
@@ -4007,7 +4001,6 @@ ssh -o "StrictHostKeyChecking no" -p 18690 hypereal@registry-corp.hypereal.com
 ssh hypereal@10.0.10.60
 coproc XXX { read pid; echo child will sleep 5s; sleep 500; echo child is waked up; kill $pid; } >&2
 echo parent pid is $$ child pid is $XXX_PID
-cat 1.sh
 cat abc-file | parallel echo
 cat 1.sh | parallel echo
 cat 1.sh | parallel -k echo
@@ -4395,11 +4388,9 @@ cat 3<2
 cat 0<2
 ls * &> dirlist
 cat <3
-cat 0<&3
 cat 0>&3
 cat 0&<3
 exec
-exec --help
 echo "This is important message" > /dev/tty
 exec 3<> /dev/tty
 exec echo 3
@@ -4446,8 +4437,6 @@ read a 0<&1 &
 ./labeler.sh "select url from part where dt='2019-04-03';"
 ./labeler.sh "select url from part where dt='2019-04-03' and type is null;"
 ./labeler.sh "select url from part where dt='2019-04-02' and type is null;"
-exec 3>&1 
-ls -l 2>&1 >&3 3>&- | grep bad 3>&-
 ls -l 2>&1 >&3 3>&-
 ls -l 2>&1 >&3 3>&- | grep txt
 ls -l 2>&1 >&3 3>&- | grep run > tmp
@@ -4518,11 +4507,9 @@ ls * 2>&1 >&3 | grep such
 ls * 2>&1 >&3 | grep such >&3
 exec 3<> File
 rm File 
-cat 3
 cat File
 echo -n . >&3
 echo -n . >&3 
-exec 3>&-
 cat File 
 ls -l 2>&1 >&3 3>&- | grep snap 3>&-
 rm bad
@@ -4620,7 +4607,6 @@ kill -SIGQUIT $$
 kill -SIGINT $$
 while :;do done
 while :;do :;done
-sleep 100
 { echo $$,$PPID;}
 echo $PPID
 ( echo $$,$PPID;)
@@ -5615,7 +5601,6 @@ curl -s 127.0.0.1 | grep Connect
 curl -s 127.0.0.1 | grep connect
 curl 127.0.0.1 > /dev/null | grep Connect
 curl 127.0.0.1 > /dev/null
-curl 127.0.0.1 
 `curl 127.0.0.1 | wc -l`
 curl 127.0.0.1 | wc -l
 [ `curl 127.0.0.1 | wc -l` -gt 0 ]
@@ -6648,7 +6633,6 @@ ssh -tX ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
 ssh -N -L 0.0.0.0:12345:180.149.145.241:80 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
 curl 180.149.145.241:80
 ssh -f -N -L 0.0.0.0:12345:180.149.145.241:80 ubuntu@52.80.24.136 -i ~/.ssh/web-dev.pem
-curl 127.0.0.1:12345
 curl -H 127.0.0.1:12345
 curl --head 127.0.0.1:12345
 52.80.24.136
@@ -9225,7 +9209,6 @@ objdump -d a.out
 gcc 1.c && ./a.out
 gcc -S 1.c
 cat 1.c
-./config.sh push sub
 #include<bits/stdc++.h>
 char s[200005];
 int main() {
@@ -13216,7 +13199,6 @@ git diff --ignore-submodules
 cat -n ~/.bash_history | sort -k2 -k1n
 cat -n ~/.bash_history | sort -r -k2 -k1n
 cat -n ~/.bash_history | sort -r -k2 -k1n | less
-cd test/sh/
 '
 cat -n 1 | sort  -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
 cat -n 1 | sort -r -k2 -k1n  | uniq -f1 | sort -r -nk1,1 | cut -f2-
@@ -13489,7 +13471,6 @@ docker exec -it transfomer bash
 vgit
 git
 mkdir tmp
-cd tmp/
 git clone https://github.com/MaskRay/ccls
 rm ccls/
 rm -rf ccls/
@@ -14719,7 +14700,6 @@ strace -s 1024 -f -p 1381
 sudo strace -s 1024 -f -p 1381
 strace -s 1024 -f -p 1381 2>&1
 sudo strace -s 1024 -f -p 1381 2>&1
-sleep 1000
 sleep 1000 &
 sudo strace -s 1024 -f -p 23146
 sudo sudo strace -s 1024 -f -p 23146
@@ -15746,7 +15726,6 @@ tldr coproc
 mkfifo in_data out_data
 ls /dev/
 ucd /dev/
-cd /dev/
 find . | grep data
 rm in_data 
 rm out_data 
@@ -15784,7 +15763,6 @@ pytho -m pip install --user python-language-server pylint
 python -m pip install --user python-language-server pylint
 nvidia-smi
 echo 123 | read a
-echo $a
 read a <(echo 123)
 read a <& <(echo 123)
 read a <&(echo 123)
@@ -15794,13 +15772,11 @@ curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq .data
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq .data["balck"]
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=2183025' | jq .data.black
-seq 10
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid={}' | jq .data.follower
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=1' | jq .data.follower
 seq 10 | xargs -i curl -sS 'https://api.bilibili.com/x/relation/stat?vmid={}' | jq .data.follower
 for i in {1..1000};do
 cd sh
-vim 1.sh
 chmod +x 5.sh
 curl asfd
 curl asfd | ls
@@ -15851,7 +15827,6 @@ t alas
 cat .bash_history 
 seq 1000000
 man -Kw add_custom_command
-cd /tmp/
 cd .X11-unix/
 docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix vim '+set clipboard=unnamed'
 docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix vim
@@ -16404,8 +16379,6 @@ t Chartreuse
 t cadet
 t ridiculous 
 ping 95.163.194.228 
-\ssh root@95.163.194.228 -p 27762
-\ssh linan@172.96.243.251 -p 6023
 git clone git@gitlab.sho.hypereal.com:jingshen.gao/conan-rttr.git
 git clone git@gitlab.sho.hypereal.com:jingshen.gao/conan-dynamic-configs.git
 cd ~/test/cmake/
@@ -16459,9 +16432,7 @@ git add -A
 git commit -m "upd Readme"
 git push
 cd conan-rttr/
-date
 cd ~!
-3
 4
 -
 0
@@ -16477,8 +16448,6 @@ vimux
 w3m https://en.wikipedia.org/wiki/Flagship
 t custom
 t costume 
-cd test/
-cd sh/
 vim 5.sh 
 cd test/sh
 vim all 
@@ -16499,7 +16468,6 @@ wget -qO https://get.acme.sh
 tldr wget
 wget --help
 t hyphen
-t dash
 wget -O -  https://get.acme.sh | sh
 acme.sh --issue -d example.com -w /home/wwwroot/example.com
 acme.sh --issue -d baidu.com
@@ -16576,15 +16544,11 @@ Tilix
 i tilix
 tilix
 git log
-jobs
-fg
 man terminology 
 cd .config/terminology/
-cd 
 cat base.cfg 
 terminology --version
 history 
-l
 cd config/
 man man
 sudo add-apt-repository ppa:enlightenment-git/ppa
@@ -16679,7 +16643,6 @@ echo $LS_COLORS | grep di
 vim .vimrc
 sl
 vim .bashrc
-ll
 cat core 
 export LS_COLORS="$(vivid generate ayu)"
 export LS_COLORS="$(vivid generate jellybeans)"
@@ -16697,7 +16660,6 @@ iftop
 sudo iftop
 man iftop
 uptime 
-w
 pstree
 dmesg 
 ip
@@ -16717,7 +16679,6 @@ i links
 links www.google.com
 which f
 which ls
-bash
 runlevel 
 help runlevel 
  runlevel --help
@@ -16770,14 +16731,12 @@ ls | grep enlightenment | sudo xargs rm
 ls | grep unity | sudo xargs rm 
 apt update
 sudo apt update
-cd ..
 vim sources.list
 sudo vim sources.list
 man apt-secure
 bash <(wget -qO- https://raw.githubusercontent.com/ubports/unity8-desktop-install-tools/master/install.sh)
 sudo bash <(wget -qO- https://raw.githubusercontent.com/ubports/unity8-desktop-install-tools/master/install.sh)
 sudo su
-cd ~
 wget -qO- https://raw.githubusercontent.com/ubports/unity8-desktop-install-tools/master/install.sh
 t xenial
 wget http://repo.ubports.com/keyring.gpg -O -
@@ -16800,6 +16759,263 @@ bat .dircolors
 mv .dircolors .dircolors_
 git add .dircolors_
 git add -f .dircolors_
-ls
-g
 ./config.sh push
+sudo dpkg -l 
+sudo dpkg -l  | bat
+sudo dpkg -l  | less
+ps -ef | grep ubuntu
+sudo dpkg -l  | vimcat
+t benchmarking
+t benchmark
+who
+w
+systemctl list-unit-files
+sudo systemctl list-unit-files
+sudo systemctl list-unit-files -
+sudo systemctl list-unit-files | less
+mkfifo test
+mkfifo io
+exec 3>io
+exec 3>io &
+cat io
+echo 4<io
+echo 4<io &
+cat <4
+man makefifo
+nc -l 12345 | nc www.google.com 80
+rm io
+mkfifo myPipe
+cd /tmp
+exec 3<mypipe
+echo "IPC_example_between_two_shells">myPipe
+while read line; do echo "What has been passed through the pipe is ${line}"; done<3
+read <3
+read <myPipe
+while read line; do echo "What has been passed through the pipe is ${line}"; done<myPipe
+rm backpipe 
+mkfifo backpipe
+sudo nc -l 12345  <backpipe | sudo nc www.google.com 80 >backpipe
+sudo nc -l 12345  0<backpipe | sudo nc www.google.com 80 1>backpipe
+nc www.google.com 80
+curl 127.0.0.1 
+curl 127.0.0.1 12345
+curl 127.0.0.1:12345
+nc -l 12345  
+nc -l 12345  | nc www.google.com 80
+nc -l 12345  | nc www.google.com 443
+nc -l 12345  0<backpipe | nc www.google.com 443 1>backpipe
+nc -l 12345  0<backpipe | nc www.google.com 80 1>backpipe
+nc -l 12345  0<backpipe | nc google.com 80 1>backpipe
+nc -l 12345  0<backpipe | nc baidu.com 80 1>backpipe
+nc -l 12345  0<backpipe | nc www.baidu.com 443 1>backpipe
+nc -l 12345  0<backpipe | nc www.baidu.com 80 1>backpipe
+sudo lsof -i:12345
+man mkfifo
+exec 1>mkfifo
+0;gjs@leaf:/tmp$
+exec 0<mkfifo
+0;gjs@leaf:/tmp$backpipe
+coc-10902.vim
+0;gjs@leaf:/tmp$0;gjs@leaf:/tmp$cat_pid
+chunks
+pipeline_pid
+vimcat_out.fifo
+0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$
+0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$0;gjs@leaf:/tmp/vimcat_7573$
+0;gjs@leaf:/tmp/vimcat_7573$PIPELINE_DONE
+0;gjs@leaf:/tmp/vimcat_7573/chunks$0;gjs@leaf:/tmp/vimcat_7573/chunks$0;gjs@leaf:/tmp/vimcat_7573/chunks$
+0;gjs@leaf:/tmp/vimcat_7573/chunks$0;gjs@leaf:/tmp/vimcat_7573/chunks$PIPELINE_DONE
+0;gjs@leaf:/tmp/vimcat_7573/chunks$PIPELINE_DONE
+0;gjs@leaf:/tmp/vimcat_7573/chunks$0;gjs@leaf:/tmp/vimcat_7573/chunks$
+PIPELINE_DONE
+history
+exec 1>myPipe &
+exec 3>myPipe &
+read a <myPipe 
+echo 123 > myPipe
+tldr exec
+exec > myPipe 
+exec 3 > myPipe
+exec 1 > myPipe
+exec  > fipe
+exec < /tmp/bar
+foo
+echo foo > /tmp/bar
+exec wc -c < /tmp/bar
+man exec
+cd test/
+cd sh/
+vim redirect.sh
+sudo strace -f -s 200 -e bash redirect.sh
+sudo strace -f -s 200  bash redirect.sh
+sudo strace -f -s 200 -e trace=dup2 bash redirect.sh
+exec 6>&1
+echo 123 
+echo 123 > 6
+exec 3<>6
+echo 123 > 3
+echo 1234 > 3
+cat 6
+exec > file
+date
+exit
+bash
+ls > 3
+exec 3<>file
+ls 1>&3
+cat file
+exec 3>&-
+echo 123 1>&3
+exec 1<>myPipe
+exec 0<>myPipe
+0;gjs@leaf:/tmp$3
+3
+backpipe
+bar
+coc-20860.vim
+coc-8495.vim
+coc-8970.vim
+coc-8997.vim
+coc-nvim-8495.log
+coc-ultisnips-93574d5bf219e565ad8ac81862c8bb96.py
+config-err-8XFtYj
+core
+fcitx-socket-:0
+fipe
+indicator-china-weather-1000.pid
+launchpadlib.cache.h5dz9y6o
+mkfifo
+myPipe
+snap.bash-language-server
+sogou-qimpanel:0.pid
+sogou-qimpanel-cellgjs
+sogou-qimpanelgjs
+ssh-NpxXce0nXPkC
+systemd-private-04b67bd5b9304726906d4ec8bb67ad66-colord.service-iWHCIv
+systemd-private-04b67bd5b9304726906d4ec8bb67ad66-ModemManager.service-ed4PmM
+systemd-private-04b67bd5b9304726906d4ec8bb67ad66-redis-server.service-TWOEi0
+systemd-private-04b67bd5b9304726906d4ec8bb67ad66-rtkit-daemon.service-mj5zQQ
+systemd-private-04b67bd5b9304726906d4ec8bb67ad66-systemd-resolved.service-kkxinm
+systemd-private-04b67bd5b9304726906d4ec8bb67ad66-systemd-timesyncd.service-yF6t93
+unity_support_test.0
+vimcat_6696
+vimcat_7113
+vimcat_7573
+exec 3<>myPipe
+exec 3<myPipe
+exec 4<myPipe
+cat 0<&4
+exec 5>myPipe
+cat 0<&5
+lx
+l
+cd tmp/
+exec 2>myPipe
+exec 1>&myPipe
+exec 1>myPipe
+rm myPipe 
+mkfifo pipe
+exec > myPipe
+exec > pipe &
+exec 3<pipe
+cat 0<&3
+exec 3 > pipe
+exec 1<> pipe
+exec <> pipe
+cat < pipe
+exec > pipe
+exec 1 > pipe
+exec 1 > pipe &
+exec 1>pipe
+exec 1>pipe &
+fg
+jobs
+exec ls 1>pipe
+exec bash
+echo $SHLVL 
+exec bash -c ls
+exec 'bash -c ls'
+exec --help
+cat 3
+read a < 3
+read a < 3.sh
+echo $a
+exec < data-file
+exec < 3.sh
+sleep 1000
+cd test/sh/
+vim exec.sh
+chmod +x exec.sh 
+exec < 1.sh
+cat 2.sh
+cat 3.sh
+cat 5.sh
+cat 1.sh
+sleep 1
+vim 1.sh
+exec <1.sh
+#!/bin/bash
+f(){ echo "fffffffffffffffffffffffffff"; echo "fffffffffffffffffffffffffff"; }
+trap f EXIT
+sleep 100
+t dash
+vim exec.sh 
+./exec.sh 
+echo 123 >&1234
+echo 123 >&123
+exec abc>&1
+exec 12354>&1
+exec 1235>&1
+exec 256>&1
+exec 257>&1
+exec 123>&1
+exec 1234>&1
+exec 1024>&1
+exec 1023>&1
+cd /dev/
+cd fd
+cd /dev/pts/0
+cd /dev/pts
+cd pts/
+cat 0
+echo 123 > 0
+ls >&test
+cat test 
+ls 1<&test
+cat <&1
+cat <&1;echo 123
+cat <&1 | echo 123
+cat <&1 | echo 
+cat 0<&1 
+echo 123 >&0 | cat 0<&1 
+echo 123 >&0 | cat 
+cat <pipe | echo 123 > pipe
+cat <pipe 
+echo 123 > pipe
+cat < pipe 
+ls > pipe
+exec 1<>pipe
+seq 10
+exec 3<>pipe
+cat <&3
+cd /tmp/
+exec 3>&1 
+ls -l 2>&1 >&3  | grep fipe 3>&-
+ls -l 2>&1 >&3 3>&- | grep bad 3>&-
+ls 2>&1 >&3 3>&- | grep bad 3>&-
+ls -l 2>&1 >&3 3>&- | grep test 3>&-
+ls  2>&1 >&3 3>&- | grep test 3>&-
+ls  2>&1 >&3 3>&- | grep test
+ls   | grep test
+ls >&3  | grep test
+ls >&3 3>&- | grep test
+ll
+g
+ls
+cd 
+cd ..
+cd ~
+./config.sh push sub
+\ssh root@95.163.194.228 -p 27762
+\ssh linan@172.96.243.251 -p 6023
+g
