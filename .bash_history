@@ -15085,7 +15085,6 @@ obs
 
 type fzf-file-widget
  fzf-file-widget
-vim .bash/103_prompt.sh 
 export a
 vim .bashrc 
 echo $TERMINVIM 
@@ -15729,7 +15728,6 @@ vim .bash/000_env.sh
 vim .bash_completion 
 complete -p vim
 complete gd
-complete -p gd
 complete -p git
 coproc tr a b
 echo ${COPROC[1]}
@@ -16629,7 +16627,6 @@ echo $ags
 set -- a b c
 echo $arg
 /home/linuxbrew/.linuxbrew/bin/pipes.sh -t 3 -c12345
-vim config.sh 
 ln -s /home/linuxbrew/.linuxbrew/bin/pipes.sh $HOME/.local/bin/pipes.sh
 pipes.sh 
 rm -rf .config/terminology/
@@ -16654,7 +16651,6 @@ $(ls)
 eval dircolors -b $HOME/.dircolors
 dircolors -b $HOME/.dircolors
 dircolors --help
-cat .dircolors 
 cd fc/
 cd transformer-pipeline/
 find .
@@ -16683,7 +16679,6 @@ echo $LS_COLORS | grep di
 vim .vimrc
 sl
 vim .bashrc
-vim .dircolors 
 ll
 cat core 
 export LS_COLORS="$(vivid generate ayu)"
@@ -16783,17 +16778,28 @@ bash <(wget -qO- https://raw.githubusercontent.com/ubports/unity8-desktop-instal
 sudo bash <(wget -qO- https://raw.githubusercontent.com/ubports/unity8-desktop-install-tools/master/install.sh)
 sudo su
 cd ~
-gd
 wget -qO- https://raw.githubusercontent.com/ubports/unity8-desktop-install-tools/master/install.sh
 t xenial
 wget http://repo.ubports.com/keyring.gpg -O -
 sudo apt remove nvidia-*
 sudo apt install nvidia-driver-430 
 gd .vimrc
-ls
 sudo reboot
 ./config.sh pull
 git clean -dff
-g
 cat .local/share/session_migration-unity
+vim .bash/103_prompt.sh 
+complete -p gd
+gd
+vim .dircolors 
+vim config.sh 
+gd config.sh
+type _provider_completion
+cat .dircolors 
+bat .dircolors 
+mv .dircolors .dircolors_
+git add .dircolors_
+git add -f .dircolors_
+ls
+g
 ./config.sh push
