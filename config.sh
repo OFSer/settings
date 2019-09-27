@@ -35,6 +35,8 @@ brew_install() {
 	echo -e '\n' | brew
 	brew install s-search
 	ln -s /home/linuxbrew/.linuxbrew/bin/s $HOME/.local/bin/s
+	brew install pipes-sh
+	ln -s /home/linuxbrew/.linuxbrew/bin/pipes.sh $HOME/.local/bin/pipes.sh
 }
 
 snap_install(){

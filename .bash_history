@@ -34,7 +34,6 @@ vim rec
 mv rec rec.sh
 vim rec.sh
 fdisk -l
-sudo fdisk -l
 fd -l
 df -l
 umount /dev/mapper/loop18p1
@@ -841,7 +840,6 @@ wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-pr
 sudo dpkg -i packages-microsoft-prod.deb
 sudo add-apt-repository universe
 sudo apt-get install apt-transport-https
-sudo apt update
 sudo apt-get install dotnet-sdk-2.2
 sudo vim /etc/apt/sources.list
 ping202.38.97.230 
@@ -1626,7 +1624,6 @@ ps -ef | egrep '\./1\.sh'
 ps -ef | egrep './1.sh'
 nohup ./1.sh &
 ps -ef | grep nohup
-cd test/sh
 wget baidu.coim
 wget baidu.com
 rm index.html 
@@ -1788,7 +1785,6 @@ docker login https://registry-sho.hypereal.com
 cd dockerfiles/dl-tensorflow/
 docker build . -t registry-sho.hypereal.com/dl/dl-tf:test
 git staths
-git checkout -- .bashrc
 "rm .Togglebash.swp > /dev/null 2>&1
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff@gjs:~$ 
 gjs@gjs:~$ 
@@ -2374,7 +2370,6 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 pwcx
 dirs -p | head -n 1
 data
-date
 git commit --amend 
 history  | grep gtk
 cd .con
@@ -2808,7 +2803,6 @@ git branch new_branch_name $(echo "commit message" | git commit-tree HEAD^{tree}
 git checkout new_branch_name 
 git checkout unity 
 git branch -D new_branch_name
-git branc
 ls -F */
 history | grep '\*\/'
 eog -s
@@ -3033,7 +3027,6 @@ ls | xargs -L=1 tar xvf
 ls | xargs -l 1 tar xvf 
 ls | xargs -n 1 -P 4 tar xvf 
 ls | xargs -n 1 -P 4 -p tar xvf 
-rm *.png
 ls | xargs -n 1 -P 8 tar xvf 
 ls *.tar | time xargs -n 1 -P 8 tar xvf 
 time ls *.tar | xargs -n 1 -P 8 tar xvf 
@@ -5709,7 +5702,6 @@ vim .ssh/config
 dig dl-5
 dig DL-5
 dig 123
-dig baidu.com
 dig gjs@dl-5
 nslookup DL-5
 nslookup --help
@@ -6245,7 +6237,6 @@ git add -f after autoload/ colors/ ftplugin/
 git commit -m "add .vim"
 git diff HEAD~3 .dconf
 git diff HEAD~4 .dconf
-cd .git/
 cd sem
 find . | grep semshi
 ls[
@@ -13414,7 +13405,6 @@ vim main.go
 gopls
 type gopls
 cd plugged/coc.nvim/
-./install.sh
 docker run -it -v ~:/home/gjs -v /snap:/snap -d --name transfomer transformer bash
 ls /snpa
 ls /snap
@@ -13477,7 +13467,6 @@ sudo ./build.sh
 chmod +x build.sh 
 docker images 
 docker stop snapd && docker container prune -f
-docker image
 docker rm snapd
 docker image rm -f snapd
 apt search ccls
@@ -14147,7 +14136,6 @@ vim gtk.css
 s fd
 s sdf
 s -p stackoverflow test
-type command s
 s -s
 vim .bah
 rm core 
@@ -14249,7 +14237,6 @@ cd /home/gjs/
 useradd -m -d /home/test -s /bin/bash -G sudo test
 echo -e 's\ns\n' | passwd gjs
 echo -e 's\ns\n' | passwd test
-sudo --help
 sudo test ls
 sudo test ls ~
 sudo test ls /home/test
@@ -14322,7 +14309,6 @@ cd ~/dockerfiles/
 wget https://github.com/cyrus-and/gdb-dashboard/blob/master/.gdbinit
 vim .gdbinit 
 rm .gdbinit 
-wget --help
 pip install pygments
 wget -P ~ git.io/.gdbinit
 git log -p .gdbinit
@@ -15025,7 +15011,6 @@ ssh-keygen -f "/home/gjs/.ssh/known_hosts" -R "[172.96.243.251]:6023"
 \ssh opps@172.96.243.251 -p 6023
 \ssh -p6023 opps@172.96.243.251
 cd pt-program/
-ls -a
 cd ~/
 git clone 
 git clone  https://github.com/peterq/pan-light
@@ -15041,15 +15026,11 @@ rm -rf pan-light-v0.0.1preview-linux-x64
 tar -zxvf pan-light-v0.0.1preview-linux-x64.tar.gz 
 ~/gh/pan-light/pan-light-v0.0.1preview-linux-x64
 cd ~/gh/pan-light/pan-light-v0.0.1preview-linux-x64
-cd config/
-3
-4
 -3
 t beige
 git checkout -- .vim/colors/konomi.vim
 vimjux
 . ~/.bashrc
-cd /fc/
 sudo root
 su gjs
 su test
@@ -15167,7 +15148,6 @@ t solve
 s dilemma
 t dilemma
 cd .config/
-w3m
 i w3m
 https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers
 w3m https://developers.google.com/protocol-buffers/docs/cpptutorial#why-use-protocol-buffers | bat
@@ -15308,9 +15288,7 @@ type PAGER
 git clone --help
 cd fc/transformer-pipeline/frontend/src/config
 t elision
-terminator 
 sakura 
-terminology 
 make clean && make -j
 make clean && make 
 make clean && make -j1
@@ -15508,7 +15486,6 @@ type t
 cd /home/linuxbrew/.linuxbrew/bin
 ll s
 cd ~/.local/bin/
-type s
 s asdf
 echo $PATH
 git diff .config/coc/extensions/package.json
@@ -15590,7 +15567,6 @@ git clone https://github.com/Akagi201/learning-cmake.git
 cd aruco/
 cd fc/aruco/
 vim config.py 
-cd transformer-pipeline/
 vim 2.c
 vim 3.cpp
 cd ~/fc/transformer-pipeline/
@@ -15650,11 +15626,9 @@ cd gh/cos/
 vim make
 rm make
 cd cos/
-cd gh/
 cd so/
 cd asm/
 vim Ma
-vimux
 angband 
 cmake --help
 cmake -P
@@ -15692,13 +15666,10 @@ man ctest
 man cmake-properties 
 t mangle
 0/1
-type -1
-type -- -1
 mkdir build && cd build
 make -j4
 cd coc-tabnine-data/
 cd binaries/
-du -hd1
 cat Readme.md 
 man -Kw CURL_FOUND
 man cmake-modules 
@@ -15823,7 +15794,6 @@ t annotate
 man mercurial
 t mercurial
 t mercury 
-vim .bashrc
 rm -rf clang
 cd py/
 mkdir clang
@@ -15981,7 +15951,6 @@ awk '{printf("%d %d %d",$1,$2,$3)}' <(echo 1 2 3)
 awk '{printf("%10d%10d%10d",$1,$2,$3)}' <(echo 1 2 3)
 awk '{printf("%10s%10s%10s",$1,$2,$3)}' <(echo 1 2 3)
 ./6.szh
-./6.sh
 echo $http_proxy 
 . config.sh proxy_run
 echo $https_proxy 
@@ -16047,11 +16016,9 @@ cd test/gdb
 gdb a.out 
 cat .gdb_history 
 vim .gitglobalignore 
-cd ~!
 vim .gitconfig 
 t dummy
 vim .ycm_extra_conf.py 
-sudo su
 https://api.bilibili.com/x/space/acc/info?mid=12&jsonp=jsonp" | jq
 curl "https://api.bilibili.com/x/space/acc/info?mid=12&jsonp=jsonp" | jq
 curl "https://api.bilibili.com/x/space/acc/info?mid=122879&jsonp=jsonp" | jq
@@ -16164,8 +16131,6 @@ cd .config/co
 cd .config/coc
 cd extensions/
 vim 1.ajax
-fg
-jobs
 vim 1.py
 vim 1.cpp
 vim 1.html
@@ -16222,7 +16187,6 @@ ll sessions/
 gd .config/coc/extensions/package.json
 git diff
 gd .config/coc/mru
-cd sh/
 dd if=/dev/zero of=1.go bs=1M count=300
 dd if=/dev/urandom of=1.go bs=1M count=300
 sudo dd if=/dev/urandom of=1.go bs=1M count=300
@@ -16238,7 +16202,6 @@ docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /test:/
 docker stop workspace && docker container prune -f
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /fc:/fc -d --name workspace workspace
 rm /home/gjs/.local/bin/ccls
-type ccls
 vim Dockerfile 
 vi
 cd /fc/transformer-pipeline/
@@ -16268,7 +16231,6 @@ brew --help
 brew search neovim
 brew install neovim
 vim co nohup.out 
-vim config.sh 
 /home/linuxbrew/.linuxbrew/Cellar/neovim/0.3.8/bin/nvim 
 cd test/cpp/
 /home/linuxbrew/.linuxbrew/Cellar/neovim/0.3.8/bin/nvim 10.cpp
@@ -16285,12 +16247,10 @@ cd bin/
 cd .local/share/nvim/shada/
 vim main.shada 
 ~
-0
 type 0
 cd /usr/
 cd nvim-linux64/
 cd share/
-l
 rm War3\ 冰封王座_1@580699.exe 
 cd man
 cd man6/
@@ -16300,7 +16260,6 @@ cat .config/coc/snippets-mru
 cd .config/coc/
 git rm --cahced .config/coc/snippets-mru
 git rm --cached  .config/coc/snippets-mru
-cd fc/transformer-pipeline/
 vim build.sh 
 gcc --version
 t thrive
@@ -16347,8 +16306,6 @@ cd go/
 cd ~/Downloads/
 md5 nvim-linux64.tar.gz 
 md5sum nvim-linux64.tar.gz 
-ll
-ll -h
 md5sum YongBuFuHuaiChapter7_chs.rar 
 man md5sum
 cat /dev/urandom | tr -cd [:print:]
@@ -16376,7 +16333,6 @@ vim --version
 gvim
 t mnemonic
 t orphan
-man man
 man empire 
 c t ' ' | grep cord
 c t ' ' | grep ar
@@ -16386,7 +16342,6 @@ cd de
 cd dockerfiles/
 vim 
 t executable
-cd test/
 mkdir conan
 cd conan/
 python3.7 -m pip install conans
@@ -16436,7 +16391,6 @@ docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -e DISPLAY
 docker exec -it workspace bash
 free -m
 free -hm
-docker images
 top
 ps -ef | grep tab
 cat .config/coc/history.json
@@ -16451,7 +16405,6 @@ cd
 cd ~/fc/
 mkdir conan 
 lg
-git log
 git log --oneline 
 git log --oneline  | wc -l
 rm -rf ~/.conan/
@@ -16472,11 +16425,9 @@ conan remote update sihe http://conan:8081/artifactory/api/conan/conan-local
 conan get rttr/0.9.6@sihe/stable -r sihe > conanfile.py
 vim conanfile.py 
 conan create . test/testing
-history 
 t Chartreuse
 t cadet
 t ridiculous 
-steam
 ping 95.163.194.228 
 \ssh root@95.163.194.228 -p 27762
 \ssh linan@172.96.243.251 -p 6023
@@ -16485,7 +16436,6 @@ git clone git@gitlab.sho.hypereal.com:jingshen.gao/conan-dynamic-configs.git
 cd ~/test/cmake/
 vim CMakeLists.txt 
 cd /
-1
 rm generate_rttr_configs.py 
 wget -O http://gitlab.sho.hypereal.com/robotic/transformer-pipeline/raw/rttr-opt/tools/generate_rttr_configs.py
 wget -qO- http://gitlab.sho.hypereal.com/robotic/transformer-pipeline/raw/rttr-opt/tools/generate_rttr_configs.py
@@ -16515,17 +16465,12 @@ git clone git@gitlab.sho.hypereal.com:yuxuan.he/conan-rttr.git
 cd conan
 f Findrttr.cmake generate_rttr_*
 f -p
-cd ..
 cd conan-dynamic-configs/
 cd /home/gjs/.conan/data/rttr/0.9.6/sihe/stable/package/
-d
-2
 t Wafter
 t kud
 cd /home/gjs/.conan/data/rttr/0.9.7/sihe/
 cd package/
-cd 
-vim .vimrc
 vim .vim
 git checkout -b rttr-gen
 git commit -m "add gen configs"
@@ -16538,14 +16483,198 @@ t trampoline
 git add -A
 git commit -m "upd Readme"
 git push
-echo $TERM
 docker exec -it transformer bash
-cd fc/
 cd conan-rttr/
+date
+cd ~!
+3
+4
+-
+0
+ks
+t ks
+t dinosaur
+cd /fc/
+sudo su
+cd fc/
+cd transformer-pipeline/
+1
+type -1
+type -- -1
+w3m
+vimux
+w3m https://en.wikipedia.org/wiki/Flagship
+t custom
+t costume 
+cd test/
+cd sh/
+vim 5.sh 
+cd test/sh
+vim all 
+vim 6.sh
+./6.sh
+cat all
+cat all | tail -n 100
+t cosmize
+t cosmic
+wget -O -  https://get.acme.sh
+wget -qO -  https://get.acme.sh
+wget -qO   https://get.acme.sh
+wget -qO --  https://get.acme.sh
+wget -qO  https://get.acme.sh
+wget -qO - https://get.acme.sh
+wget -qO 'https://get.acme.sh'
+wget -qO https://get.acme.sh
+tldr wget
+wget --help
+t hyphen
+t dash
+wget -O -  https://get.acme.sh | sh
+acme.sh --issue -d example.com -w /home/wwwroot/example.com
+acme.sh --issue -d baidu.com
+acme.sh --issue -d baidu.com -w /home/wwwroot/baidu.com
+docker pull ellerbrock/bash-it
+docker run -it ellerbrock/bash-it bash
+docker run -it ellerbrock/bash-it:latest bash
+docker image
+docker images
+docker run -it ellerbrock/bash-it
+bash-it
+sudo add-apt-repository ppa:navanchauhan/bash-snippets
+sudo apt install bash-snippets
+sudo apt update
+git clone https://github.com/alexanderepstein/Bash-Snippets
+rm vimpager*
+cd Bash-Snippets
+git checkout v1.23.0
+git branc
+./install.sh
+echo Y | ./install.sh
+echo Y | sudo ./install.sh
+geo
+geo baidu.com
+dig baidu.com
+geo -a 39.156.69.79
+geo -a 39.156.69.79 -o city
+geo -a 39.156.69.79 -o city,zip,isp
+type geo
+lyrics 
+lyrics -a logic -s run it
+stocks
+stocks AAPL
+stocks Tesla
+stocks google
+weather
+weather moon
+weather -h
+weather Moon
+weather Tokyo
+weather Shanghai
+Qrify
+qrify
+qrify asdfdfasdf
+weather beijing
+geo -a 172.96.243.251 -o city,zip,isp
+geo -h
+geo -a 172.96.243.251 -o all
+meme
+meme -h
+meme -f dogeMeme
+eog meme.png 
+eog dogeMeme.png 
+rm *.png
+rm --
+rm -- --
+t qrify
+siteciphers baidu.com
+steam
+ll -h
+sudo fdisk -l
+s -p wikipedia dotfile
+sudo pip3 install git+https://github.com/LazoCoder/Pokemon-Terminal.git
+sudo --help
+cd /tmp/pip-v0qv08j3-build
+cd .git/
+cd /tmp/pip-dbyvjo5q-build
+cd gh/
+git clone https://github.com/LazoCoder/Pokemon-Terminal.git
+d
+2
+du -hd1
+pokemon 
+vim .vimrc
+Tilix
+i tilix
+tilix
+vim .bashrc
+git log
+jobs
+fg
+man terminology 
+echo $TERM
+cd .config/terminology/
+cd 
+cat base.cfg 
+terminology --version
+ls -a
+history 
+l
+ll
+cd fc/transformer-pipeline/
+cd config/
+cd ..
 vim
 cd ~
-gd .vimrc
-gd
+man man
+sudo add-apt-repository ppa:enlightenment-git/ppa
+sudo add-apt-repository -y ppa:enlightenment-git/ppa
+sudo apt-get install terminology
+sudo apt-get update terminology
+sudo apt-get upgrade terminology
+snap find terminology
+snap find term
+terminator 
+pokemon pikachu
+man pokemon
+pokemon --help
+pokemon | less
+pokemon -h | bat
+pokemon -h | less
+pokemon -l
+terminology 
+pokemon -h
+pokemon -v
 ls
+brew install pipes-sh
+pipes-sh
+type ccls
+type s
+type command s
+type 'command s'
+type \s
+/home/linuxbrew/.linuxbrew/bin/pipes.sh 
+/home/linuxbrew/.linuxbrew/bin/pipes.sh -t 0
+/home/linuxbrew/.linuxbrew/bin/pipes.sh -t 1
+/home/linuxbrew/.linuxbrew/bin/pipes.sh -t 2
+/home/linuxbrew/.linuxbrew/bin/pipes.sh -t 3
+/home/linuxbrew/.linuxbrew/bin/pipes.sh --help
+/home/linuxbrew/.linuxbrew/bin/pipes.sh -t 9
+/home/linuxbrew/.linuxbrew/bin/pipes.sh -t 8
+/home/linuxbrew/.linuxbrew/bin/pipes.sh -t 7
+/home/linuxbrew/.linuxbrew/bin/pipes.sh -t 6
+/home/linuxbrew/.linuxbrew/bin/pipes.sh -h
+cat /home/linuxbrew/.linuxbrew/bin/pipes.sh 
+echo $ags
+set -- a b c
+echo $arg
+/home/linuxbrew/.linuxbrew/bin/pipes.sh -t 3 -c12345
+vim config.sh 
+ln -s /home/linuxbrew/.linuxbrew/bin/pipes.sh $HOME/.local/bin/pipes.sh
+pipes.sh 
+rm -rf .config/terminology/
+gd
+gd .vimrc
+gd .bashrc
+git checkout -- .bashrc
 g
 ./config.sh push

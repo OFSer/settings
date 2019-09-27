@@ -100,8 +100,8 @@ use-experimental-views=false
 [org/gnome/nautilus/window-state]
 sidebar-width=256
 start-with-sidebar=true
-geometry='966x501+441+231'
-maximized=true
+geometry='966x489+450+414'
+maximized=false
 
 [org/gnome/nautilus/compression]
 default-compression-format='zip'
@@ -449,7 +449,7 @@ height=600
 [org/gtk/settings/file-chooser]
 sort-column='name'
 sidebar-width=362
-window-position=(417, 186)
+window-position=(2372, 186)
 show-size-column=true
 show-hidden=false
 window-size=(1086, 581)
@@ -696,9 +696,12 @@ app-fallback-to-maximum-scale-factor=false
 [com/canonical/unity/launcher]
 favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'unity://running-apps', 'application://unity-control-center.desktop', 'unity://expo-icon', 'unity://devices']
 
+[com/gexperts/Tilix]
+background-image='/usr/local/lib/python3.6/dist-packages/pokemonterminal/Images/Generation I - Kanto/025.jpg'
+
 [com/ubuntu/update-notifier]
 regular-auto-launch-interval=14
-release-check-time=uint32 1568341651
+release-check-time=uint32 1569551560
 
 [com/ubuntu/user-interface]
 scale-factor={'HDMI-0': 10, 'DP-4': 10}
