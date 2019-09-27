@@ -139,6 +139,7 @@ set expandtab
 set shiftwidth=2
 set hidden
 set softtabstop=2
+set tabstop=2
 set ma
 " if $USER == 'gjs'
 " 	set mouse=a

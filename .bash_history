@@ -810,7 +810,6 @@ git submodule update --init -–recursive
 git submodule update --init --recursive
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 echo "deb http://download.mono-project.com/repo/ubuntu xenial main"| sudo tee /etc/apt/sources.list.d/mono-official.list
-sudo apt-get update
 sudo apt install mono-devel nuget -y
 sudo apt install aptitude
 sudo aptitude install mono-devel nuget -y
@@ -1246,7 +1245,6 @@ git commit -m "upd labeler"
 ./run.sh -auo "234 234"
 ./run.sh -auo '234 234'
 whois ls
-which ls
 whichis ls
 whereis ls
 man whereis 
@@ -1528,9 +1526,7 @@ cd ..l
 git checkout -- labeler.sh
 nload
 sudo apt install nload
-iftop
 sudo apt install iftop
-sudo iftop
 netogs
 sudo apt install nethogs
 nethogs
@@ -1687,7 +1683,6 @@ vium
 jobs -p
 man jobs
 jobs --help
-jobs -l
 jobs -r
 jobs -s
 jobs -n
@@ -2713,7 +2708,6 @@ cd logkeys/
 ./autogen.sh 
 vim autogen.sh 
 sudo apt install autogen.sh
-vim /etc/apt/sources.list
 sudo apt install autotools
 sudo apt install autoheader
 sudo apt install autoconf
@@ -8934,7 +8928,6 @@ apt install make
 ./config.sh install_vim
 ./config.sh install
 ./config.sh run
-apt update
 make tests
 make tests*
 make unit_test_main
@@ -11110,7 +11103,6 @@ git commit -m "fmt"
 git commit -m "limit project"
 git commit -m "fix rec bug"
 du -hd1 .git
-id -u
 cd ../so
 git commit -m "print as json"
 git checkout -- config.go
@@ -11308,7 +11300,6 @@ ln -s | less
 ln -s | more
 ln --help | less
 uptime
-w
 w --help
 man w
 locate
@@ -12203,7 +12194,6 @@ NC='\033[0m' # No Color
 printf "I ${RED}love${NC} Stack Overflow\n"
 NC=$'\033[0m' # No Color
 RED='1234'
-dircolors -b
 type load
 type local
 type llfd
@@ -12637,7 +12627,6 @@ i siege
 siege | less
 man siege
 man dmesg 
-dmesg 
 toe 
 toe  --help
 toe 1.
@@ -12973,7 +12962,6 @@ gcc-7
 gcc-7 -v
 cp gcc-7 gcc
 sudo cp gcc-7 gcc
-sudo apt install nvidia-driver-430 
 history  | grep gsettings
 gsettings set com.ubuntu.user-interface.desktop text-scaling-factor 1.25
 wtf VGA
@@ -14268,7 +14256,6 @@ cat ~/.bashrc
 complete -p | grep docker
 . .bash_completion 
 apt install bash-completion
-pstree
 ./config.sh push "upd dockerfile"
 man sleep
 cppman sleep
@@ -14385,7 +14372,6 @@ cd ~/.fzf/uninstall
 git diff config.sh
 ps -ef | grep ccls
 complete -F _fzf_dir_completion -o default -o bashdefault tree
-tree
 complete | grep _fzf | grep p
 complete | grep _fzf | grep process
 complete | grep _fzf | grep ps
@@ -14740,7 +14726,6 @@ sudo sudo strace -s 1024 -f -p 23146
 echo $$
 sudo sudo strace -s 1024 -f -p 31690
 sudo sudo strace -s 1024 -f -p $$
-sudo sudo strace -s 1024 -f -p $PPID
 kill -9 23231 
 sudo kill -9 23231 
 strace --help
@@ -15103,7 +15088,6 @@ type fzf-file-widget
 vim .bash/103_prompt.sh 
 export a
 vim .bashrc 
-bash
 echo $TERMINVIM 
 git diff .bash
 apt search bash
@@ -15187,7 +15171,6 @@ cd fc/transformer-pipeline/src/
 vim1
 vim 1
 rm 1
-echo $LS_COLORS 
 gd | bat
 stea,
 export ftp_proxy='socks5://127.0.0.1:1080'
@@ -15579,7 +15562,6 @@ s
 cd hello-world
 cmake clean
 cmake --help | grep clean
-git clean -dff
 make clean
 cd hello-world-clear/
 cat Makefile 
@@ -15677,7 +15659,6 @@ mkdir build
 cmake ..
 cppman curl
 tldr httpie
-./config.sh pull
 cd Do
 ssh 10.3.10.207
 \ssh 10.3.10.207
@@ -15868,7 +15849,6 @@ locate Index.h
 locate Index.h | grep clang
 s -p wikipedia complile
 docker commit c3e0d159a077 transformer:dev 
-sudo reboot
 t alas
 cat .bash_history 
 seq 1000000
@@ -16029,7 +16009,6 @@ sort -nk2 all | tail -n 2000 | tac
 axel
 i axel
 axel http://02.xda-pcgame.720582.com:8090/YongBuFuHuaiChapter7_chs.rar
-sl
 vim 8.cpp
 g++ 8.cpp
 g++ 8.cpp && ./a.out
@@ -16238,7 +16217,6 @@ brew -h
 brew uninstall neovim
 brew install --HEAD neovim
 vim 10.cpp 
-cd Downloads/
 tar -zxvf nvim-linux64.tar.gz 
 cd bin/
 ./nvim 
@@ -16373,7 +16351,6 @@ cd source/
 du -h.,
 du -hl
 du
-find .
 -1
 conan get rttr -r sihe
 conan remote -h
@@ -16483,7 +16460,6 @@ t trampoline
 git add -A
 git commit -m "upd Readme"
 git push
-docker exec -it transformer bash
 cd conan-rttr/
 date
 cd ~!
@@ -16495,9 +16471,6 @@ ks
 t ks
 t dinosaur
 cd /fc/
-sudo su
-cd fc/
-cd transformer-pipeline/
 1
 type -1
 type -- -1
@@ -16542,7 +16515,6 @@ docker run -it ellerbrock/bash-it
 bash-it
 sudo add-apt-repository ppa:navanchauhan/bash-snippets
 sudo apt install bash-snippets
-sudo apt update
 git clone https://github.com/alexanderepstein/Bash-Snippets
 rm vimpager*
 cd Bash-Snippets
@@ -16602,29 +16574,20 @@ d
 2
 du -hd1
 pokemon 
-vim .vimrc
 Tilix
 i tilix
 tilix
-vim .bashrc
 git log
 jobs
 fg
 man terminology 
-echo $TERM
 cd .config/terminology/
 cd 
 cat base.cfg 
 terminology --version
-ls -a
 history 
 l
-ll
-cd fc/transformer-pipeline/
 cd config/
-cd ..
-vim
-cd ~
 man man
 sudo add-apt-repository ppa:enlightenment-git/ppa
 sudo add-apt-repository -y ppa:enlightenment-git/ppa
@@ -16641,10 +16604,8 @@ pokemon | less
 pokemon -h | bat
 pokemon -h | less
 pokemon -l
-terminology 
 pokemon -h
 pokemon -v
-ls
 brew install pipes-sh
 pipes-sh
 type ccls
@@ -16672,9 +16633,167 @@ vim config.sh
 ln -s /home/linuxbrew/.linuxbrew/bin/pipes.sh $HOME/.local/bin/pipes.sh
 pipes.sh 
 rm -rf .config/terminology/
-gd
-gd .vimrc
-gd .bashrc
 git checkout -- .bashrc
+gd HEAD^ .dconf
+ dircolors
+dircolors
+dircolors -h
+dircolors -b
+>$HOME/.dircolors
+eval $( dircolors -b $HOME/.dircolors )
+cat /home/gjs/.dircolors 
+wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O $HOME/.dircolors
+echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
+gd .bashrc
+. $HOME/.bashrc
+cat .dircolors | bat
+echo $TERM
+$(dircolors -b $HOME/.dircolors)
+eval $(ls)
+$(ls)
+eval dircolors -b $HOME/.dircolors
+dircolors -b $HOME/.dircolors
+dircolors --help
+cat .dircolors 
+cd fc/
+cd transformer-pipeline/
+find .
+find . | ls
+find . | xargs ls
+find . | xargs -i ls {}
+terminology 
+ls -a
+cd Downloads/
+wget "https://github.com/sharkdp/vivid/releases/download/v0.4.0/vivid_0.4.0_amd64.deb"
+sudo dpkg -i vivid_0.4.0_amd64.deb
+type vivid 
+cat vivid 
+cat /usr/binvivid 
+cat /usr/bin/vivid 
+vivid --help
+t vivid 
+vivid -d
+vivid generate help
+vivid help
+echo $LS_COLORS  | grep dir
+vivid generate molokai
+vim
+echo $LS_COLORS 
+echo $LS_COLORS | grep di
+vim .vimrc
+sl
+vim .bashrc
+vim .dircolors 
+ll
+cat core 
+export LS_COLORS="$(vivid generate ayu)"
+export LS_COLORS="$(vivid generate jellybeans)"
+t jellybeans
+t jelly
+export LS_COLORS="$(vivid generate snazzy)"
+export LS_COLORS="$(vivid generate monokai)"
+export LS_COLORS="$(vivid generate molokai)"
+tree 
+cd fc/transformer-pipeline/
+tree
+ps aux| grep 'Z'
+i iftop
+iftop
+sudo iftop
+man iftop
+uptime 
+w
+pstree
+dmesg 
+ip
+ip add show
+sudo sudo strace -s 1024 -f -p $PPID
+kill -9 24866 
+sudo kill -9 24866 
+docker exec -it transformer bash
+hier
+man hier
+jobs -l
+pstree 32315 
+pstree -s -t -p 32315 
+sudo sudo strace -s 1024 -f -p 32487
+man strace
+i links
+links www.google.com
+which f
+which ls
+bash
+runlevel 
+help runlevel 
+ runlevel --help
+man  runlevel 
+init 3
+suod init 3
+sudo init 3
+init 6
+getent
+getent group
+getent -help
+getent --help
+ getent passwd
+sudo getent passwd
+sudo getent passwd | b at
+sudo getent passwd | bat
+man getent
+genent rpc
+getent rpc
+compgen -u
+id -u
+apt list --installed
+t convergence 
+t convergent
+sudo apt-add-repository ppa:unity8-desktop-session-team/unity8-preview-lxc
+sudo apt-add-repository -y ppa:unity8-desktop-session-team/unity8-preview-lxc
+sudo apt-get install unity8-lxc
+sudo apt-get update
+vim /etc/apt/sources.list
+cd /etc/apt
+apt-add-repository --help
+apt-get install ppa-purge
+i ppa-purge
+sudo ppa-purge ppa-url
+ls /etc/apt/sources.list.d/
+cat jonathonf-ubuntu-vim-bionic.list
+sudo cat jonathonf-ubuntu-vim-bionic.list
+cd sources.list.d/
+vim jonathonf-ubuntu-vim-bionic.list
+vim jonathonf-ubuntu-vim-bionic.list.save 
+rm unity8-desktop-session-team-ubuntu-unity8-preview-lxc-bionic.list
+sudo rm unity8-desktop-session-team-ubuntu-unity8-preview-lxc-bionic.list 
+apt-add-repository http://ppa.launchpad.net/unity8-desktop-session-team/unity8-preview-lxc/ubuntu/
+sudo apt-add-repository 'http://ppa.launchpad.net/unity8-desktop-session-team/unity8-preview-lxc/ubuntu/'
+ls | grep bash
+ls | grep bash | xargs rm
+ls | grep bash | sudo xargs rm
+ls | grep enlightenment
+ls | grep enlightenment | sudo xargs rm 
+ls | grep unity | sudo xargs rm 
+apt update
+sudo apt update
+cd ..
+vim sources.list
+sudo vim sources.list
+man apt-secure
+bash <(wget -qO- https://raw.githubusercontent.com/ubports/unity8-desktop-install-tools/master/install.sh)
+sudo bash <(wget -qO- https://raw.githubusercontent.com/ubports/unity8-desktop-install-tools/master/install.sh)
+sudo su
+cd ~
+gd
+wget -qO- https://raw.githubusercontent.com/ubports/unity8-desktop-install-tools/master/install.sh
+t xenial
+wget http://repo.ubports.com/keyring.gpg -O -
+sudo apt remove nvidia-*
+sudo apt install nvidia-driver-430 
+gd .vimrc
+ls
+sudo reboot
+./config.sh pull
+git clean -dff
 g
+cat .local/share/session_migration-unity
 ./config.sh push
