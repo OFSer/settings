@@ -24,3 +24,5 @@ for i in `ls $HOME/.bash/*.sh`;do
 	. $i
 done
 wait 
+
+source /etc/bash_completion.d/climate_completion

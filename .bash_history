@@ -75,7 +75,6 @@ sudo mkfs -t ext4 /dev/sdc1
 sudo umount /media/gjs/Ubuntu 18.04 LTS amd64
 sudo umount /media/gjs/'Ubuntu 18.04 LTS amd64'
 sudo logout
-cd tes
 cd test
 reboot
 cd os
@@ -4219,7 +4218,6 @@ echo ~aiello/
 echo ~aiello
 echo ~+
 echo ~-
-echo $OLDPWD 
 echo ${OLDPWD-'~-'}
 a=~
 a='~'
@@ -4300,9 +4298,6 @@ echo ${abc:+ffff}
 cd bl
 cd bluj
 ${PWD}
-echo ${PWD#*/}
-echo ${PWD##*/}
-echo ${PWD%%/*}
 a=home/gjs/fc/blur_detection
 echo ${a%%/*}
 set -- 1 2 3 4 5 6
@@ -6869,7 +6864,6 @@ cabal
 cabal install ghc-mod
 stack init
 blkid
-sudo blkid
 stack --help
 man stack
 \man 7 undocumented
@@ -8139,7 +8133,6 @@ vim future.cpp
 vim .ycm
 nasm
 sudo apt install nasm
-cd asm
 mkdir asm
 vim 1.asm
 ld --help
@@ -12672,7 +12665,6 @@ blkid /dev/sda
 sudo blkid /dev/sda
 sudo blkid /dev/sdb
 sudo blkid /dev/sdb1
-sudo cat /etc/fstab 
 s locomotives
 s locomotive
 s quotation
@@ -14652,7 +14644,6 @@ ls | xargs -i ( echo {};cloc {} )
 ls | xargs -i{} ( echo {};cloc {} )
 ls | xargs -I={} ( echo {};cloc {} )
 ls | xargs -I={}  echo {};cloc {} 
-xargs --help
 ls | xargs -i . { echo .;cloc .}
 ls | xargs -i . { echo .;cloc . }
 ls | xargs -i. { echo . ;cloc . }
@@ -14764,7 +14755,6 @@ s inherited by the shell at invocation
 s -p dict test
 tldr s
 s --help
-\ssh gjs@10.0.10.63
 vim .vi
 vim .bash/103_feature.sh 
 echo $RED
@@ -14869,7 +14859,6 @@ cd .cache/tags/
 git commit -m "upd ignore"
 git diff ~/.vimrc
 cd .bash/
-echo $PWD
 r
 r --help
 cd proto/
@@ -15057,7 +15046,6 @@ complete  | grep sudo
 complete  | grep complte
 complete  | grep compgen
 complete sudo
-complete --help
 c
 insert-completions
 echo {.{ICEauthority,NERDTreeBookmarks,VimSokobanScores,Xauthority,a{ngband,ws},bash{,_{completion,history,profile},rc},c{ache,gdb,make,o{mpiz,n{an,f{,ig}}}},d{bus,conf,mrc,ocker},e{macs{,.d,~},w.json},f{btermrc,zf{,.bash,_history}},g{conf,db{_history,init{,.{1,d}}},hc,it{,config,globalignore,ignore,modules},nupg,oldendict,photo,vfs},h{plip,ttpie},i{nputrc,python},l{aunchpadlib,esshst,ocal},m{o{c,zilla},ume,ysql_history},n{e{odebug,tease-musicbox,wsrc-dribble},ode_repl_history,pm,v{,idia-settings-rc}},p{ki,r{esage,ofile},ulse-cookie,y{lint.d,thon_history}},s{emantic-highlight-cache,iege,ogouinput,sh,t{ack,eam{,p{ath,id}}},udo_as_admin_successful},t{etris{,_stat},gdb,hunderbird,ig_history,ldr,ooling},units_history,v{agrant.d,im{,_w3m_hist,info,rc},oltron,scode{,-cpptools}},w{3m,get-hsts,udao-dict},x{bindkeysrc,inputrc,session-errors{,.old}},y{arnrc,cm{,_extra_conf.py}},zcompdump},1.go,CloudMusic,D{esktop,o{cuments,wnloads}},News,README.md,Steam,backup,config.sh,dockerfiles,fc,g{ames,h,o},makefile,pt-program,s{hmmsg,nap,ocks.json,ync.sh},t{est,m}} 
@@ -15687,7 +15675,6 @@ locate american-english
 man american-english 
 c man ' ' | grep english
 man british-english 
-complete 
 complete  | grep fzf
 cd .bash
 vim 201_complete.sh 
@@ -15705,7 +15692,6 @@ vim .fzf/shell/completion.bash
 complete | grep fzf | grep -v path
 complete | grep fzf | grep -v path_completion
 vim .bash/000_env.sh 
-vim .bash_completion 
 complete -p vim
 complete gd
 complete -p git
@@ -15776,14 +15762,12 @@ curl -sS 'https://api.bilibili.com/x/relation/stat?vmid={}' | jq .data.follower
 curl -sS 'https://api.bilibili.com/x/relation/stat?vmid=1' | jq .data.follower
 seq 10 | xargs -i curl -sS 'https://api.bilibili.com/x/relation/stat?vmid={}' | jq .data.follower
 for i in {1..1000};do
-cd sh
 chmod +x 5.sh
 curl asfd
 curl asfd | ls
 set --help
 man pipefail
 curl asdf
-echo $?
 curl asdf | echo
 mkdir empty
 cd empty/
@@ -15915,7 +15899,6 @@ docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v ~/.ssh:
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer:dev
 docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
 cd /tmp/.X11-unix
-docker stop transformer && docker container prune -f
 docker run --rm -e DISPLAY -it -v /tmp/.X11-unix:/tmp/.X11-unix sree/vim '+set clipboard=unnamed'
 tldr pkg-config
 man pkg-config
@@ -16022,7 +16005,6 @@ man cmake-language
 man conan
 man -Kw conan
 man cmake-policies 
-vimux 
 w3m https://github.com/conan-io/conan
 tldr compildb
 man compiledb 
@@ -16099,7 +16081,6 @@ gd .vim/coc-settings.json
 cd plugged/
 cd coc.nvim/
 
-cat
 vim --startuptime tm
 cat 
 fZF
@@ -16136,7 +16117,6 @@ vim .vim/plugin/keymap.vim
 cd .vim/sessions/
 cat default.vim 
 ll sessions/
-gd .config/coc/extensions/package.json
 git diff
 gd .config/coc/mru
 dd if=/dev/zero of=1.go bs=1M count=300
@@ -16294,7 +16274,6 @@ cd dockerfiles/
 vim 
 t executable
 mkdir conan
-cd conan/
 python3.7 -m pip install conans
 python3.7 -m pip install conan
 cat example.cpp 
@@ -16333,11 +16312,9 @@ cd data
 conan get rttr/0.9.6@sihe/stable -r sihe
 conan install rttr/0.9.6@sihe/stable -r sihe
 conan create . demo/testing
-docker ps -l
 docker ps -a
 docker commit 0e8f6f8559d6 transformer
 docker container prune -f
-docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
 docker exec -it workspace bash
 free -m
 free -hm
@@ -16351,7 +16328,6 @@ cat .local/share/nvim/shada/main.shada
 git rm --cached .local/share/nvim/shada/main.shada
 vim .gitignore 
 cd test/conan/
-cd
 cd ~/fc/
 mkdir conan 
 lg
@@ -16431,7 +16407,6 @@ t trampoline
 git add -A
 git commit -m "upd Readme"
 git push
-cd conan-rttr/
 cd ~!
 4
 -
@@ -16451,7 +16426,6 @@ t costume
 vim 5.sh 
 cd test/sh
 vim all 
-vim 6.sh
 ./6.sh
 cat all
 cat all | tail -n 100
@@ -16476,7 +16450,6 @@ docker pull ellerbrock/bash-it
 docker run -it ellerbrock/bash-it bash
 docker run -it ellerbrock/bash-it:latest bash
 docker image
-docker images
 docker run -it ellerbrock/bash-it
 bash-it
 sudo add-apt-repository ppa:navanchauhan/bash-snippets
@@ -16491,7 +16464,6 @@ echo Y | ./install.sh
 echo Y | sudo ./install.sh
 geo
 geo baidu.com
-dig baidu.com
 geo -a 39.156.69.79
 geo -a 39.156.69.79 -o city
 geo -a 39.156.69.79 -o city,zip,isp
@@ -16525,7 +16497,6 @@ rm --
 rm -- --
 t qrify
 siteciphers baidu.com
-steam
 ll -h
 sudo fdisk -l
 s -p wikipedia dotfile
@@ -16543,14 +16514,12 @@ pokemon
 Tilix
 i tilix
 tilix
-git log
 man terminology 
 cd .config/terminology/
 cat base.cfg 
 terminology --version
 history 
 cd config/
-man man
 sudo add-apt-repository ppa:enlightenment-git/ppa
 sudo add-apt-repository -y ppa:enlightenment-git/ppa
 sudo apt-get install terminology
@@ -16605,7 +16574,6 @@ eval $( dircolors -b $HOME/.dircolors )
 cat /home/gjs/.dircolors 
 wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O $HOME/.dircolors
 echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
-gd .bashrc
 . $HOME/.bashrc
 cat .dircolors | bat
 echo $TERM
@@ -16615,7 +16583,6 @@ $(ls)
 eval dircolors -b $HOME/.dircolors
 dircolors -b $HOME/.dircolors
 dircolors --help
-cd fc/
 cd transformer-pipeline/
 find .
 find . | ls
@@ -16637,7 +16604,6 @@ vivid generate help
 vivid help
 echo $LS_COLORS  | grep dir
 vivid generate molokai
-vim
 echo $LS_COLORS 
 echo $LS_COLORS | grep di
 vim .vimrc
@@ -16667,7 +16633,6 @@ ip add show
 sudo sudo strace -s 1024 -f -p $PPID
 kill -9 24866 
 sudo kill -9 24866 
-docker exec -it transformer bash
 hier
 man hier
 jobs -l
@@ -16679,7 +16644,6 @@ i links
 links www.google.com
 which f
 which ls
-runlevel 
 help runlevel 
  runlevel --help
 man  runlevel 
@@ -16749,7 +16713,6 @@ git clean -dff
 cat .local/share/session_migration-unity
 vim .bash/103_prompt.sh 
 complete -p gd
-gd
 vim .dircolors 
 vim config.sh 
 gd config.sh
@@ -16759,7 +16722,6 @@ bat .dircolors
 mv .dircolors .dircolors_
 git add .dircolors_
 git add -f .dircolors_
-./config.sh push
 sudo dpkg -l 
 sudo dpkg -l  | bat
 sudo dpkg -l  | less
@@ -16828,7 +16790,6 @@ vimcat_out.fifo
 0;gjs@leaf:/tmp/vimcat_7573/chunks$PIPELINE_DONE
 0;gjs@leaf:/tmp/vimcat_7573/chunks$0;gjs@leaf:/tmp/vimcat_7573/chunks$
 PIPELINE_DONE
-history
 exec 1>myPipe &
 exec 3>myPipe &
 read a <myPipe 
@@ -16843,8 +16804,6 @@ foo
 echo foo > /tmp/bar
 exec wc -c < /tmp/bar
 man exec
-cd test/
-cd sh/
 vim redirect.sh
 sudo strace -f -s 200 -e bash redirect.sh
 sudo strace -f -s 200  bash redirect.sh
@@ -16972,7 +16931,6 @@ exec 123>&1
 exec 1234>&1
 exec 1024>&1
 exec 1023>&1
-cd /dev/
 cd fd
 cd /dev/pts/0
 cd /dev/pts
@@ -17010,12 +16968,175 @@ ls   | grep test
 ls >&3  | grep test
 ls >&3 3>&- | grep test
 ll
-g
-ls
 cd 
-cd ..
-cd ~
 ./config.sh push sub
 \ssh root@95.163.194.228 -p 27762
 \ssh linan@172.96.243.251 -p 6023
+a=10
+b=20
+echo `eval {$a..$b}`
+echo {1..10}
+ echo {$a..$b}
+eval echo {$a..$b}
+t remedy
+vimux 
+w3m http://tldp.org/LDP/abs/html/special-chars.html
+cat -
+cd asm
+cd ..
+cd conan/
+cd
+tar cf - .
+( tar cf - . )
+( cd . && tar cf - . )
+(cd . && tar cf - . ) | (cd .. && tar xpvf -)
+file
+file conanfile.py 
+file 
+file -
+a="^H^H"
+echo "abcdef"
+echo -n "abcdef$a "
+echo -ne "abcdef$a "
+a=""
+echo -e "abcdef$a "
+echo -e "abcdef$a"
+cat
+echo $OLDPWD 
+echo $UID
+id
+runlevel
+\ssh gjs@10.0.10.63
+runlevel 
+command -v test
+command -v fasdf
+command -v man
+command -v -- -1
+command -v -- 1
+hash 1
+hash -- 1
+type fads
+echo $?
+command --help
+cd tes
+cd sh
+vim 6.sh
+vim 7.sh
+echo '$a'
+cat </dev/tcp/time.nist.gov/13
+cd /dev/
+ll tep
+ll tcp
+exec 5<>/dev/tcp/www.net.cn/80
+echo -e "GET / HTTP/1.0\n" >&5
+ cat <&5
+vim tcp.sh
+vim m.sh
+bash m.sh
+sudo bash m.sh
+chmod +x m.sh
+./m.sh 
+sudo ./m.sh 
+t Gotcha
+t gotcha
+t miscellaneos
+t miscellaneous
+t Miscellany
+t Bibliography
+cd /var/www/html/wukong_mcs/
+mkdir cgi-bin
+sudo mkdir cgi-bin
+cd cgi-bin/
+vim test-cgi.sh
+sudo vim test-cgi.sh
+i lsscsi
+lsblk -io KNAME,TYPE,MODEL,VENDOR,SIZE,ROTA
+lsscsi|grep SEAGATE|wc -l
+lsscsi
+sudo blkid
+sudo cat /etc/fstab 
+lsusb
+lsmod
+ip r
+#ls 
+gd
+echo $PWD
+echo ${PWD%%/*}
+echo ${PWD%/*}
+echo ${PWD#*.}
+echo ${PWD#*/}
+echo ${PWD##*/}
+t climate
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/adtac/climate/master/install)"
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/adtac/climate/master/install)"
+climate weather
+history
+climate
+climate | bat
+climate speedtest 
+climate time
+ls | du
+ls | xargs -0 du
+cd test/
+cd sh/
+climate biggest-files
+find $commandargs -type f -print0
+find $commandargs -type f -print0 | xargs du
+find $commandargs -type f -print0 | xargs -0 du
+find $commandargs -type f -print
+find $commandargs -type f -print | xargs -0 du
+find $commandargs -type f -print | xargs du
+xargs --help
+climate hosts 
+climate ports
+climate httpstat
+climate httpstat 127.0.0.1:8080
+climate httpstat bilibili.com
+climate httpstat baidu.com
+climate httpstat google.com
+climate local-ip
+climate http-server
+climate --help
+climate help
+ climate overview 
+climate memory 
+climate biggest-dirs 
+climate biggest-files 
+type climate
+type http-server
+man http-server 
+tldr http-server 
+http-server --help
+type http-server 
+climate ipinfo baidu.com
+dig baidu.com
+climate ipinfo 220.181.38.148
+steam
+shutdown 
+sudo shutdown 
+sudo shutdown  -h -t 0
+tldr shutdown 
+halt
+sudo halt
+docker stop transformer && docker container prune -f
+docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -v ~/.ssh:/root/.ssh -v /fc:/fc -d --name transformer transformer
+docker exec -it transformer bash
+cd fc/
+cd conan-rttr/
+vim
+git log
+cd ~
+gd .bashrc
+vim .bash_completion 
+ls
+complete 
+complete --help
+man complete 
+man man
+docker ps -l
+docker commit 143777ed1115 transformer
+docker images
 g
+gd .config/configstore/update-notifier-npm.json
+gd .config/coc/extensions/package.json
+./config.sh push

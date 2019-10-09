@@ -694,7 +694,7 @@ text-scale-factor=1.0
 app-fallback-to-maximum-scale-factor=false
 
 [com/canonical/unity/launcher]
-favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'unity://running-apps', 'application://unity-control-center.desktop', 'unity://expo-icon', 'unity://devices']
+favorites=['application://org.gnome.Nautilus.desktop', 'application://google-chrome.desktop', 'application://org.gnome.Terminal.desktop', 'application://netease-cloud-music.desktop', 'application://gedit.desktop', 'unity://running-apps', 'application://unity-control-center.desktop', 'application://apport-gtk.desktop', 'unity://expo-icon', 'unity://devices']
 
 [com/gexperts/Tilix]
 background-image='/usr/local/lib/python3.6/dist-packages/pokemonterminal/Images/Generation I - Kanto/025.jpg'
